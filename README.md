@@ -1,3 +1,5 @@
+I wrote a blog post about this repo here: https://olshansky.substack.com/p/no-rss-feed-no-problem-using-claude
+
 # RSS Feed Generator <!-- omit in toc -->
 
 You know how there are a bunch of blogs out there without RSS Feeds? 😡
