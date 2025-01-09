@@ -62,3 +62,7 @@ py_format: check-env  ## Format the python code
 .PHONY: generate_all_feeds
 generate_all_feeds: check-env  ## Generate all RSS feeds
 	python feed_generators/run_all_feeds.py
+
+.PHONY: generate_anthropic_feed
+generate_anthropic_feed: check-env  ## Generate RSS feed for anthropic/news
+	python feed_generators/anthropic_blog.py
