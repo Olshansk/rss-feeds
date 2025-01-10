@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>OpenAI Research Blog</title>
+    <link>https://openai.com/feed_openai_research.xml</link>
+    <description>Research publications and updates from OpenAI</description>
+    <atom:link href="https://openai.com/feed_openai_research.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <image>
+      <url>https://openai.com/favicon.ico</url>
+      <title>OpenAI Research Blog</title>
+      <link>https://openai.com/feed_openai_research.xml</link>
+    </image>
+    <language>en</language>
+    <lastBuildDate>Fri, 10 Jan 2025 03:52:51 +0000</lastBuildDate>
+  </channel>
+</rss>
