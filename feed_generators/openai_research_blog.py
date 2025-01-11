@@ -7,6 +7,9 @@ import logging
 from pathlib import Path
 import re
 
+# There are 160 articles as of 01/11/2025
+LIMIT = 500
+
 # Set up logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
@@ -87,84 +90,57 @@ def parse_blog_html(html_content):
         soup = BeautifulSoup(html_content, "html.parser")
         blog_posts = []
 
-        # Debug: Print the first 1000 characters of raw HTML
-        print("=== Raw HTML Preview ===")
-        print(html_content[:1000])
-        print("\n---\n")
-
-        # Debug: Print all grid divs
-        print("=== All Grid Divs ===")
-        grid_divs = soup.find_all("div", class_="grid")
-        for div in grid_divs:
-            print("Found grid div:")
-            print(div.prettify())
-            print("\n---\n")
-
-        # Debug: Print all col-span-1 divs
-        print("=== All Col-Span-1 Divs ===")
-        col_divs = soup.find_all("div", class_="col-span-1")
-        for div in col_divs:
-            print("Found col-span div:")
-            print(div.prettify())
-            print("\n---\n")
-
-        # Debug: Print all index links
-        print("=== All Index Links ===")
+        # Find all relevant article links
         links = soup.find_all("a", href=lambda x: x and x.startswith("/index/"))
-        for link in links:
-            print("Found link:")
-            print(link.prettify())
-            print("\n---\n")
 
-        # Now try to parse any links we found
         for link in links:
             try:
                 # Extract title
-                title_elem = link.select_one("div.line-clamp-4")
+                title_elem = link.select_one("div.line-clamp-2, div.line-clamp-4")
                 title = title_elem.get_text(strip=True) if title_elem else None
 
-                # Extract date
-                date_elem = link.select_one("span.text-small")
+                # print("OLSH", title)
+                # if title is None:
+                print("~~~ OLSH ~~~")
+                print(link)
+                print("~~~ OLSH ~~~")
+
+                # Extract date (ensure only valid elements are selected)
+                parent_div = link.find_parent("div", class_="gap-3xs")
+                date_elem = None
+
+                if parent_div:
+                    date_elem = parent_div.find("span", class_="text-small")
+
+                # If date_elem is still None, try searching within link's structure
+                if not date_elem:
+                    date_elem = link.select_one("span.text-small")
+
+                # Parse the date
                 date_str = date_elem.get_text(strip=True) if date_elem else None
-                pub_date = parse_date(date_str) if date_str else None
+
+                # Ensure date_str is a valid date string before parsing
+                if date_str and re.match(r"^[A-Za-z]{3} \d{1,2}, \d{4}$", date_str):
+                    pub_date = parse_date(date_str)
+                else:
+                    pub_date = None  # Skip parsing if date is invalid
 
                 # Build link
                 article_link = f"https://openai.com{link['href']}"
 
+                # Add to blog_posts if title and pub_date are valid
                 if title and pub_date:
                     blog_posts.append(
-                        {"title": title, "date": pub_date, "description": "OpenAI Research", "link": article_link}
+                        {
+                            "title": title,
+                            "date": pub_date,
+                            "description": "OpenAI Research",
+                            "link": article_link,
+                        }
                     )
-            except Exception as e:
-                logger.warning(f"Error parsing article: {str(e)}")
-                continue
+                else:
+                    logger.warning(f"Skipping entry: Missing title or valid date for link {article_link}")
 
-        logger.info(f"Successfully parsed {len(blog_posts)} blog posts")
-        return blog_posts
-
-    except Exception as e:
-        logger.error(f"Error parsing HTML content: {str(e)}")
-        raise
-
-        for article in article_links:
-            try:
-                # Extract title from the line-clamp div
-                title_elem = article.select_one("div.line-clamp-4")
-                title = title_elem.get_text(strip=True) if title_elem else None
-
-                # Extract date from the span with text-small class
-                date_elem = article.select_one("span[class*='text-small']")
-                date_str = date_elem.get_text(strip=True) if date_elem else None
-                pub_date = parse_date(date_str) if date_str else None
-
-                # For description, use the category if available, otherwise use a default
-                description = "OpenAI Research"
-
-                # Extract link
-                link = f"https://openai.com{article['href']}"
-
-                if title and pub_date:
-                    blog_posts.append({"title": title, "date": pub_date, "description": description, "link": link})
             except Exception as e:
                 logger.warning(f"Error parsing article: {str(e)}")
                 continue
@@ -190,7 +166,7 @@ def generate_rss_feed(blog_posts, feed_name="openai_research"):
         fg.author({"name": "OpenAI"})
         fg.logo("https://openai.com/favicon.ico")
         fg.subtitle("Research publications and updates from OpenAI")
-        fg.link(href="https://openai.com/news/research", rel="alternate")
+        fg.link(href=f"https://openai.com/news/research/?limit={LIMIT}", rel="alternate")
         fg.link(href=f"https://openai.com/feed_{feed_name}.xml", rel="self")
 
         # Add entries
@@ -229,7 +205,7 @@ def save_rss_feed(feed_generator, feed_name="openai_research"):
         raise
 
 
-def main(blog_url="https://openai.com/news/research", feed_name="openai_research"):
+def main(blog_url=f"https://openai.com/news/research/?limit={LIMIT}", feed_name="openai_research"):
     """Main function to generate RSS feed from blog URL."""
     try:
         # Fetch blog content
