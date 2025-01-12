@@ -70,3 +70,11 @@ generate_anthropic_feed: check-env  ## Generate RSS feed for anthropic/news
 .PHONY: generate_openai_research_feed
 generate_openai_research_feed: check-env  ## Generate RSS feed for openai/research
 	python feed_generators/openai_research_blog.py
+
+.PHONY: generate_ollama_feed
+generate_ollama_feed: check-env  ## Generate RSS feed for ollama/blog
+	python feed_generators/ollama_blog.py
+
+.PHONY: generate_paulgraham_feed
+generate_paulgraham_feed: check-env  ## Generate RSS feed for paulgraham/articles
+	python feed_generators/paulgraham_blog.py
