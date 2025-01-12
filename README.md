@@ -146,15 +146,3 @@ flowchart TB
     style xml fill:#d1ecf1,stroke:#17a2b8,color:#000000
     style websites fill:#e2e3e5,stroke:#383d41,color:#000000
 ```
-
-## Contributing a New Feed
-
-To contribute a new feed, follow these steps:
-
-1. Create a new pull request with the title `[New RSS Feed] <Feed Name>`.
-2. Add the `new-feed` label to the pull request.
-3. Update the `Makefile` to include a new target for generating the feed.
-4. Ensure the title of the pull request is `[New RSS Feed] <Feed Name>`.
-5. Do anything else you deem proper or idiomatic for a good developer experience.
-
-You can use the [PR template for adding new feeds](https://github.com/Olshansk/rss-feeds/blob/main/.github/PULL_REQUEST_TEMPLATE/add_new_feed.md) to ensure you include all necessary steps.
