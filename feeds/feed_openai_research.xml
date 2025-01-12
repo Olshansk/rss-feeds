@@ -1,18 +1,1132 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>OpenAI Research Blog</title>
-    <link>https://openai.com/feed_openai_research.xml</link>
-    <description>Research publications and updates from OpenAI</description>
-    <atom:link href="https://openai.com/feed_openai_research.xml" rel="self"/>
+    <title>OpenAI Research News</title>
+    <link>https://openai.com/news/research</link>
+    <description>Latest research news and updates from OpenAI</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <image>
-      <url>https://openai.com/favicon.ico</url>
-      <title>OpenAI Research Blog</title>
-      <link>https://openai.com/feed_openai_research.xml</link>
-    </image>
     <language>en</language>
-    <lastBuildDate>Sun, 12 Jan 2025 00:28:34 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jan 2025 17:51:15 +0000</lastBuildDate>
+    <item>
+      <title>DALL·E 2</title>
+      <link>https://openai.com/index/dall-e-2/</link>
+      <description>DALL·E 2</description>
+      <category>Research</category>
+      <pubDate>Sun, 12 Jan 2025 17:51:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>DALL·E 3</title>
+      <link>https://openai.com/index/dall-e-3/</link>
+      <description>DALL·E 3</description>
+      <category>Research</category>
+      <pubDate>Sun, 12 Jan 2025 17:51:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sora</title>
+      <link>https://openai.com/index/sora/</link>
+      <description>Sora</description>
+      <category>Research</category>
+      <pubDate>Sun, 12 Jan 2025 17:51:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>GPT-4</title>
+      <link>https://openai.com/index/gpt-4/</link>
+      <description>GPT-4</description>
+      <category>Research</category>
+      <pubDate>Sun, 12 Jan 2025 17:51:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Weight normalization: A simple reparameterization to accelerate training of deep neural networks</title>
+      <link>https://openai.com/index/weight-normalization/</link>
+      <description>Weight normalization: A simple reparameterization to accelerate training of deep neural networks</description>
+      <category>Research</category>
+      <pubDate>Thu, 25 Feb 2016 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI Gym Beta</title>
+      <link>https://openai.com/index/openai-gym-beta/</link>
+      <description>OpenAI Gym Beta</description>
+      <category>Research</category>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Generative models</title>
+      <link>https://openai.com/index/generative-models/</link>
+      <description>Generative models</description>
+      <category>Research</category>
+      <pubDate>Thu, 16 Jun 2016 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Infrastructure for deep learning</title>
+      <link>https://openai.com/index/infrastructure-for-deep-learning/</link>
+      <description>Infrastructure for deep learning</description>
+      <category>Research</category>
+      <pubDate>Mon, 29 Aug 2016 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Transfer from simulation to real world through learning deep inverse dynamics model</title>
+      <link>https://openai.com/index/transfer-from-simulation-to-real-world-through-learning-deep-inverse-dynamics-model/</link>
+      <description>Transfer from simulation to real world through learning deep inverse dynamics model</description>
+      <category>Research</category>
+      <pubDate>Tue, 11 Oct 2016 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Extensions and limitations of the neural GPU</title>
+      <link>https://openai.com/index/extensions-and-limitations-of-the-neural-gpu/</link>
+      <description>Extensions and limitations of the neural GPU</description>
+      <category>Research</category>
+      <pubDate>Wed, 02 Nov 2016 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Variational lossy autoencoder</title>
+      <link>https://openai.com/index/variational-lossy-autoencoder/</link>
+      <description>Variational lossy autoencoder</description>
+      <category>Research</category>
+      <pubDate>Tue, 08 Nov 2016 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>RL²: Fast reinforcement learning via slow reinforcement learning</title>
+      <link>https://openai.com/index/rl2/</link>
+      <description>RL²: Fast reinforcement learning via slow reinforcement learning</description>
+      <category>Research</category>
+      <pubDate>Wed, 09 Nov 2016 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A connection between generative adversarial networks, inverse reinforcement learning, and energy-based models</title>
+      <link>https://openai.com/index/a-connection-between-generative-adversarial-networks-inverse-reinforcement-learning-and-energy-based-models/</link>
+      <description>A connection between generative adversarial networks, inverse reinforcement learning, and energy-based models</description>
+      <category>Research</category>
+      <pubDate>Fri, 11 Nov 2016 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>On the quantitative analysis of decoder-based generative models</title>
+      <link>https://openai.com/index/on-the-quantitative-analysis-of-decoder-based-generative-models/</link>
+      <description>On the quantitative analysis of decoder-based generative models</description>
+      <category>Research</category>
+      <pubDate>Mon, 14 Nov 2016 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>#Exploration: A study of count-based exploration for deep reinforcement learning</title>
+      <link>https://openai.com/index/exploration/</link>
+      <description>#Exploration: A study of count-based exploration for deep reinforcement learning</description>
+      <category>Research</category>
+      <pubDate>Tue, 15 Nov 2016 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Universe</title>
+      <link>https://openai.com/index/universe/</link>
+      <description>Universe</description>
+      <category>Research</category>
+      <pubDate>Mon, 05 Dec 2016 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PixelCNN++: Improving the PixelCNN with discretized logistic mixture likelihood and other modifications</title>
+      <link>https://openai.com/index/pixelcnn-plus-plus/</link>
+      <description>PixelCNN++: Improving the PixelCNN with discretized logistic mixture likelihood and other modifications</description>
+      <category>Research</category>
+      <pubDate>Thu, 19 Jan 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Third-person imitation learning</title>
+      <link>https://openai.com/index/third-person-imitation-learning/</link>
+      <description>Third-person imitation learning</description>
+      <category>Research</category>
+      <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Prediction and control with temporal segment models</title>
+      <link>https://openai.com/index/prediction-and-control-with-temporal-segment-models/</link>
+      <description>Prediction and control with temporal segment models</description>
+      <category>Research</category>
+      <pubDate>Sun, 12 Mar 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emergence of grounded compositional language in multi-agent populations</title>
+      <link>https://openai.com/index/emergence-of-grounded-compositional-language-in-multi-agent-populations/</link>
+      <description>Emergence of grounded compositional language in multi-agent populations</description>
+      <category>Research</category>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Learning to communicate</title>
+      <link>https://openai.com/index/learning-to-communicate/</link>
+      <description>Learning to communicate</description>
+      <category>Research</category>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>One-shot imitation learning</title>
+      <link>https://openai.com/index/one-shot-imitation-learning/</link>
+      <description>One-shot imitation learning</description>
+      <category>Research</category>
+      <pubDate>Tue, 21 Mar 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Evolution strategies as a scalable alternative to reinforcement learning</title>
+      <link>https://openai.com/index/evolution-strategies/</link>
+      <description>Evolution strategies as a scalable alternative to reinforcement learning</description>
+      <category>Research</category>
+      <pubDate>Fri, 24 Mar 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Spam detection in the physical world</title>
+      <link>https://openai.com/index/spam-detection-in-the-physical-world/</link>
+      <description>Spam detection in the physical world</description>
+      <category>Research</category>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unsupervised sentiment neuron</title>
+      <link>https://openai.com/index/unsupervised-sentiment-neuron/</link>
+      <description>Unsupervised sentiment neuron</description>
+      <category>Research</category>
+      <pubDate>Thu, 06 Apr 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Stochastic Neural Networks for hierarchical reinforcement learning</title>
+      <link>https://openai.com/index/stochastic-neural-networks-for-hierarchical-reinforcement-learning/</link>
+      <description>Stochastic Neural Networks for hierarchical reinforcement learning</description>
+      <category>Research</category>
+      <pubDate>Mon, 10 Apr 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Equivalence between policy gradients and soft Q-learning</title>
+      <link>https://openai.com/index/equivalence-between-policy-gradients-and-soft-q-learning/</link>
+      <description>Equivalence between policy gradients and soft Q-learning</description>
+      <category>Research</category>
+      <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Roboschool</title>
+      <link>https://openai.com/index/roboschool/</link>
+      <description>Roboschool</description>
+      <category>Research</category>
+      <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Robots that learn</title>
+      <link>https://openai.com/index/robots-that-learn/</link>
+      <description>Robots that learn</description>
+      <category>Research</category>
+      <pubDate>Tue, 16 May 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI Baselines: DQN</title>
+      <link>https://openai.com/index/openai-baselines-dqn/</link>
+      <description>OpenAI Baselines: DQN</description>
+      <category>Research</category>
+      <pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>UCB exploration via Q-ensembles</title>
+      <link>https://openai.com/index/ucb-exploration-via-q-ensembles/</link>
+      <description>UCB exploration via Q-ensembles</description>
+      <category>Research</category>
+      <pubDate>Mon, 05 Jun 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Learning to cooperate, compete, and communicate</title>
+      <link>https://openai.com/index/learning-to-cooperate-compete-and-communicate/</link>
+      <description>Learning to cooperate, compete, and communicate</description>
+      <category>Research</category>
+      <pubDate>Thu, 08 Jun 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Faster physics in Python</title>
+      <link>https://openai.com/index/faster-physics-in-python/</link>
+      <description>Faster physics in Python</description>
+      <category>Research</category>
+      <pubDate>Wed, 28 Jun 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Teacher–student curriculum learning</title>
+      <link>https://openai.com/index/teacher-student-curriculum-learning/</link>
+      <description>Teacher–student curriculum learning</description>
+      <category>Research</category>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hindsight Experience Replay</title>
+      <link>https://openai.com/index/hindsight-experience-replay/</link>
+      <description>Hindsight Experience Replay</description>
+      <category>Research</category>
+      <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Robust adversarial inputs</title>
+      <link>https://openai.com/index/robust-adversarial-inputs/</link>
+      <description>Robust adversarial inputs</description>
+      <category>Research</category>
+      <pubDate>Mon, 17 Jul 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Proximal Policy Optimization</title>
+      <link>https://openai.com/index/openai-baselines-ppo/</link>
+      <description>Proximal Policy Optimization</description>
+      <category>Research</category>
+      <pubDate>Thu, 20 Jul 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Better exploration with parameter noise</title>
+      <link>https://openai.com/index/better-exploration-with-parameter-noise/</link>
+      <description>Better exploration with parameter noise</description>
+      <category>Research</category>
+      <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gathering human feedback</title>
+      <link>https://openai.com/index/gathering-human-feedback/</link>
+      <description>Gathering human feedback</description>
+      <category>Research</category>
+      <pubDate>Thu, 03 Aug 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dota 2</title>
+      <link>https://openai.com/index/dota-2/</link>
+      <description>Dota 2</description>
+      <category>Research</category>
+      <pubDate>Fri, 11 Aug 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>More on Dota 2</title>
+      <link>https://openai.com/index/more-on-dota-2/</link>
+      <description>More on Dota 2</description>
+      <category>Research</category>
+      <pubDate>Wed, 16 Aug 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI Baselines: ACKTR &amp; A2C</title>
+      <link>https://openai.com/index/openai-baselines-acktr-a2c/</link>
+      <description>OpenAI Baselines: ACKTR &amp; A2C</description>
+      <category>Research</category>
+      <pubDate>Fri, 18 Aug 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Learning with opponent-learning awareness</title>
+      <link>https://openai.com/index/learning-with-opponent-learning-awareness/</link>
+      <description>Learning with opponent-learning awareness</description>
+      <category>Research</category>
+      <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Learning to model other minds</title>
+      <link>https://openai.com/index/learning-to-model-other-minds/</link>
+      <description>Learning to model other minds</description>
+      <category>Research</category>
+      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nonlinear computation in deep linear networks</title>
+      <link>https://openai.com/index/nonlinear-computation-in-deep-linear-networks/</link>
+      <description>Nonlinear computation in deep linear networks</description>
+      <category>Research</category>
+      <pubDate>Fri, 29 Sep 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Meta-learning for wrestling</title>
+      <link>https://openai.com/index/meta-learning-for-wrestling/</link>
+      <description>Meta-learning for wrestling</description>
+      <category>Research</category>
+      <pubDate>Wed, 11 Oct 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Competitive self-play</title>
+      <link>https://openai.com/index/competitive-self-play/</link>
+      <description>Competitive self-play</description>
+      <category>Research</category>
+      <pubDate>Wed, 11 Oct 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Domain randomization and generative models for robotic grasping</title>
+      <link>https://openai.com/index/domain-randomization-and-generative-models-for-robotic-grasping/</link>
+      <description>Domain randomization and generative models for robotic grasping</description>
+      <category>Research</category>
+      <pubDate>Tue, 17 Oct 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sim-to-real transfer of robotic control with dynamics randomization</title>
+      <link>https://openai.com/index/sim-to-real-transfer-of-robotic-control-with-dynamics-randomization/</link>
+      <description>Sim-to-real transfer of robotic control with dynamics randomization</description>
+      <category>Research</category>
+      <pubDate>Wed, 18 Oct 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Asymmetric actor critic for image-based robot learning</title>
+      <link>https://openai.com/index/asymmetric-actor-critic-for-image-based-robot-learning/</link>
+      <description>Asymmetric actor critic for image-based robot learning</description>
+      <category>Research</category>
+      <pubDate>Wed, 18 Oct 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Generalizing from simulation</title>
+      <link>https://openai.com/index/generalizing-from-simulation/</link>
+      <description>Generalizing from simulation</description>
+      <category>Research</category>
+      <pubDate>Thu, 19 Oct 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Learning a hierarchy</title>
+      <link>https://openai.com/index/learning-a-hierarchy/</link>
+      <description>Learning a hierarchy</description>
+      <category>Research</category>
+      <pubDate>Thu, 26 Oct 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Interpretable and pedagogical examples</title>
+      <link>https://openai.com/index/interpretable-and-pedagogical-examples/</link>
+      <description>Interpretable and pedagogical examples</description>
+      <category>Research</category>
+      <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Learning sparse neural networks through L₀ regularization</title>
+      <link>https://openai.com/index/learning-sparse-neural-networks-through-l0-regularization/</link>
+      <description>Learning sparse neural networks through L₀ regularization</description>
+      <category>Research</category>
+      <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Block-sparse GPU kernels</title>
+      <link>https://openai.com/index/block-sparse-gpu-kernels/</link>
+      <description>Block-sparse GPU kernels</description>
+      <category>Research</category>
+      <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scaling Kubernetes to 2,500 nodes</title>
+      <link>https://openai.com/index/scaling-kubernetes-to-2500-nodes/</link>
+      <description>Scaling Kubernetes to 2,500 nodes</description>
+      <category>Research</category>
+      <pubDate>Thu, 18 Jan 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Requests for Research 2.0</title>
+      <link>https://openai.com/index/requests-for-research-2/</link>
+      <description>Requests for Research 2.0</description>
+      <category>Research</category>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Discovering types for entity disambiguation</title>
+      <link>https://openai.com/index/discovering-types-for-entity-disambiguation/</link>
+      <description>Discovering types for entity disambiguation</description>
+      <category>Research</category>
+      <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Interpretable machine learning through teaching</title>
+      <link>https://openai.com/index/interpretable-machine-learning-through-teaching/</link>
+      <description>Interpretable machine learning through teaching</description>
+      <category>Research</category>
+      <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ingredients for robotics research</title>
+      <link>https://openai.com/index/ingredients-for-robotics-research/</link>
+      <description>Ingredients for robotics research</description>
+      <category>Research</category>
+      <pubDate>Mon, 26 Feb 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multi-Goal Reinforcement Learning: Challenging robotics environments and request for research</title>
+      <link>https://openai.com/index/multi-goal-reinforcement-learning/</link>
+      <description>Multi-Goal Reinforcement Learning: Challenging robotics environments and request for research</description>
+      <category>Research</category>
+      <pubDate>Mon, 26 Feb 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Some considerations on learning to explore via meta-reinforcement learning</title>
+      <link>https://openai.com/index/some-considerations-on-learning-to-explore-via-meta-reinforcement-learning/</link>
+      <description>Some considerations on learning to explore via meta-reinforcement learning</description>
+      <category>Research</category>
+      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reptile: A scalable meta-learning algorithm</title>
+      <link>https://openai.com/index/reptile/</link>
+      <description>Reptile: A scalable meta-learning algorithm</description>
+      <category>Research</category>
+      <pubDate>Wed, 07 Mar 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>On first-order meta-learning algorithms</title>
+      <link>https://openai.com/index/on-first-order-meta-learning-algorithms/</link>
+      <description>On first-order meta-learning algorithms</description>
+      <category>Research</category>
+      <pubDate>Thu, 08 Mar 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Improving GANs using optimal transport</title>
+      <link>https://openai.com/index/improving-gans-using-optimal-transport/</link>
+      <description>Improving GANs using optimal transport</description>
+      <category>Research</category>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Variance reduction for policy gradient with action-dependent factorized baselines</title>
+      <link>https://openai.com/index/variance-reduction-for-policy-gradient-with-action-dependent-factorized-baselines/</link>
+      <description>Variance reduction for policy gradient with action-dependent factorized baselines</description>
+      <category>Research</category>
+      <pubDate>Tue, 20 Mar 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Retro Contest</title>
+      <link>https://openai.com/index/retro-contest/</link>
+      <description>Retro Contest</description>
+      <category>Research</category>
+      <pubDate>Thu, 05 Apr 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gotta Learn Fast: A new benchmark for generalization in RL</title>
+      <link>https://openai.com/index/gotta-learn-fast/</link>
+      <description>Gotta Learn Fast: A new benchmark for generalization in RL</description>
+      <category>Research</category>
+      <pubDate>Tue, 10 Apr 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Evolved Policy Gradients</title>
+      <link>https://openai.com/index/evolved-policy-gradients/</link>
+      <description>Evolved Policy Gradients</description>
+      <category>Research</category>
+      <pubDate>Wed, 18 Apr 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI and compute</title>
+      <link>https://openai.com/index/ai-and-compute/</link>
+      <description>AI and compute</description>
+      <category>Research</category>
+      <pubDate>Wed, 16 May 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gym Retro</title>
+      <link>https://openai.com/index/gym-retro/</link>
+      <description>Gym Retro</description>
+      <category>Research</category>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GamePad: A learning environment for theorem proving</title>
+      <link>https://openai.com/index/gamepad/</link>
+      <description>GamePad: A learning environment for theorem proving</description>
+      <category>Research</category>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Learning policy representations in multiagent systems</title>
+      <link>https://openai.com/index/learning-policy-representations-in-multiagent-systems/</link>
+      <description>Learning policy representations in multiagent systems</description>
+      <category>Research</category>
+      <pubDate>Sun, 17 Jun 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Retro Contest: Results</title>
+      <link>https://openai.com/index/retro-contest-results/</link>
+      <description>Retro Contest: Results</description>
+      <category>Research</category>
+      <pubDate>Fri, 22 Jun 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI Five</title>
+      <link>https://openai.com/index/openai-five/</link>
+      <description>OpenAI Five</description>
+      <category>Research</category>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Learning Montezuma’s Revenge from a single demonstration</title>
+      <link>https://openai.com/index/learning-montezumas-revenge-from-a-single-demonstration/</link>
+      <description>Learning Montezuma’s Revenge from a single demonstration</description>
+      <category>Research</category>
+      <pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Glow: Better reversible generative models</title>
+      <link>https://openai.com/index/glow/</link>
+      <description>Glow: Better reversible generative models</description>
+      <category>Research</category>
+      <pubDate>Mon, 09 Jul 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Variational option discovery algorithms</title>
+      <link>https://openai.com/index/variational-option-discovery-algorithms/</link>
+      <description>Variational option discovery algorithms</description>
+      <category>Research</category>
+      <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Learning dexterity</title>
+      <link>https://openai.com/index/learning-dexterity/</link>
+      <description>Learning dexterity</description>
+      <category>Research</category>
+      <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI Five Benchmark: Results</title>
+      <link>https://openai.com/index/openai-five-benchmark-results/</link>
+      <description>OpenAI Five Benchmark: Results</description>
+      <category>Research</category>
+      <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Large-scale study of curiosity-driven learning</title>
+      <link>https://openai.com/index/large-scale-study-of-curiosity-driven-learning/</link>
+      <description>Large-scale study of curiosity-driven learning</description>
+      <category>Research</category>
+      <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The International 2018: Results</title>
+      <link>https://openai.com/index/the-international-2018-results/</link>
+      <description>The International 2018: Results</description>
+      <category>Research</category>
+      <pubDate>Thu, 23 Aug 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>FFJORD: Free-form continuous dynamics for scalable reversible generative models</title>
+      <link>https://openai.com/index/ffjord/</link>
+      <description>FFJORD: Free-form continuous dynamics for scalable reversible generative models</description>
+      <category>Research</category>
+      <pubDate>Tue, 02 Oct 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reinforcement learning with prediction-based rewards</title>
+      <link>https://openai.com/index/reinforcement-learning-with-prediction-based-rewards/</link>
+      <description>Reinforcement learning with prediction-based rewards</description>
+      <category>Research</category>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Plan online, learn offline: Efficient learning and exploration via model-based control</title>
+      <link>https://openai.com/index/plan-online-learn-offline/</link>
+      <description>Plan online, learn offline: Efficient learning and exploration via model-based control</description>
+      <category>Research</category>
+      <pubDate>Mon, 05 Nov 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Learning concepts with energy functions</title>
+      <link>https://openai.com/index/learning-concepts-with-energy-functions/</link>
+      <description>Learning concepts with energy functions</description>
+      <category>Research</category>
+      <pubDate>Wed, 07 Nov 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Spinning Up in Deep RL</title>
+      <link>https://openai.com/index/spinning-up-in-deep-rl/</link>
+      <description>Spinning Up in Deep RL</description>
+      <category>Research</category>
+      <pubDate>Thu, 08 Nov 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quantifying generalization in reinforcement learning</title>
+      <link>https://openai.com/index/quantifying-generalization-in-reinforcement-learning/</link>
+      <description>Quantifying generalization in reinforcement learning</description>
+      <category>Research</category>
+      <pubDate>Thu, 06 Dec 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How AI training scales</title>
+      <link>https://openai.com/index/how-ai-training-scales/</link>
+      <description>How AI training scales</description>
+      <category>Research</category>
+      <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Computational limitations in robust classification and win-win results</title>
+      <link>https://openai.com/index/computational-limitations-in-robust-classification-and-win-win-results/</link>
+      <description>Computational limitations in robust classification and win-win results</description>
+      <category>Research</category>
+      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Better language models and their implications</title>
+      <link>https://openai.com/index/better-language-models/</link>
+      <description>Better language models and their implications</description>
+      <category>Research</category>
+      <pubDate>Thu, 14 Feb 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Neural MMO: A massively multiagent game environment</title>
+      <link>https://openai.com/index/neural-mmo/</link>
+      <description>Neural MMO: A massively multiagent game environment</description>
+      <category>Research</category>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Implicit generation and generalization methods for energy-based models</title>
+      <link>https://openai.com/index/energy-based-models/</link>
+      <description>Implicit generation and generalization methods for energy-based models</description>
+      <category>Research</category>
+      <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI Five defeats Dota 2 world champions</title>
+      <link>https://openai.com/index/openai-five-defeats-dota-2-world-champions/</link>
+      <description>OpenAI Five defeats Dota 2 world champions</description>
+      <category>Research</category>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Generative modeling with sparse transformers</title>
+      <link>https://openai.com/index/sparse-transformer/</link>
+      <description>Generative modeling with sparse transformers</description>
+      <category>Research</category>
+      <pubDate>Tue, 23 Apr 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MuseNet</title>
+      <link>https://openai.com/index/musenet/</link>
+      <description>MuseNet</description>
+      <category>Research</category>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GPT-2: 6-month follow-up</title>
+      <link>https://openai.com/index/gpt-2-6-month-follow-up/</link>
+      <description>GPT-2: 6-month follow-up</description>
+      <category>Research</category>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emergent tool use from multi-agent interaction</title>
+      <link>https://openai.com/index/emergent-tool-use/</link>
+      <description>Emergent tool use from multi-agent interaction</description>
+      <category>Research</category>
+      <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Solving Rubik’s Cube with a robot hand</title>
+      <link>https://openai.com/index/solving-rubiks-cube/</link>
+      <description>Solving Rubik’s Cube with a robot hand</description>
+      <category>Research</category>
+      <pubDate>Tue, 15 Oct 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GPT-2: 1.5B release</title>
+      <link>https://openai.com/index/gpt-2-1-5b-release/</link>
+      <description>GPT-2: 1.5B release</description>
+      <category>Research</category>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Procgen Benchmark</title>
+      <link>https://openai.com/index/procgen-benchmark/</link>
+      <description>Procgen Benchmark</description>
+      <category>Research</category>
+      <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deep double descent</title>
+      <link>https://openai.com/index/deep-double-descent/</link>
+      <description>Deep double descent</description>
+      <category>Research</category>
+      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dota 2 with large scale deep reinforcement learning</title>
+      <link>https://openai.com/index/dota-2-with-large-scale-deep-reinforcement-learning/</link>
+      <description>Dota 2 with large scale deep reinforcement learning</description>
+      <category>Research</category>
+      <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scaling laws for neural language models</title>
+      <link>https://openai.com/index/scaling-laws-for-neural-language-models/</link>
+      <description>Scaling laws for neural language models</description>
+      <category>Research</category>
+      <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI Microscope</title>
+      <link>https://openai.com/index/microscope/</link>
+      <description>OpenAI Microscope</description>
+      <category>Research</category>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Improving verifiability in AI development</title>
+      <link>https://openai.com/index/improving-verifiability/</link>
+      <description>Improving verifiability in AI development</description>
+      <category>Research</category>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Jukebox</title>
+      <link>https://openai.com/index/jukebox/</link>
+      <description>Jukebox</description>
+      <category>Research</category>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI and efficiency</title>
+      <link>https://openai.com/index/ai-and-efficiency/</link>
+      <description>AI and efficiency</description>
+      <category>Research</category>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Language models are few-shot learners</title>
+      <link>https://openai.com/index/language-models-are-few-shot-learners/</link>
+      <description>Language models are few-shot learners</description>
+      <category>Research</category>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Image GPT</title>
+      <link>https://openai.com/index/image-gpt/</link>
+      <description>Image GPT</description>
+      <category>Research</category>
+      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Generative language modeling for automated theorem proving</title>
+      <link>https://openai.com/index/generative-language-modeling-for-automated-theorem-proving/</link>
+      <description>Generative language modeling for automated theorem proving</description>
+      <category>Research</category>
+      <pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CLIP: Connecting text and images</title>
+      <link>https://openai.com/index/clip/</link>
+      <description>CLIP: Connecting text and images</description>
+      <category>Research</category>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DALL·E: Creating images from text</title>
+      <link>https://openai.com/index/dall-e/</link>
+      <description>DALL·E: Creating images from text</description>
+      <category>Research</category>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scaling Kubernetes to 7,500 nodes</title>
+      <link>https://openai.com/index/scaling-kubernetes-to-7500-nodes/</link>
+      <description>Scaling Kubernetes to 7,500 nodes</description>
+      <category>Research</category>
+      <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Understanding the capabilities, limitations, and societal impact of large language models</title>
+      <link>https://openai.com/index/understanding-the-capabilities-limitations-and-societal-impact-of-large-language-models/</link>
+      <description>Understanding the capabilities, limitations, and societal impact of large language models</description>
+      <category>Research</category>
+      <pubDate>Thu, 04 Feb 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multimodal neurons in artificial neural networks</title>
+      <link>https://openai.com/index/multimodal-neurons/</link>
+      <description>Multimodal neurons in artificial neural networks</description>
+      <category>Research</category>
+      <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Evaluating large language models trained on code</title>
+      <link>https://openai.com/index/evaluating-large-language-models-trained-on-code/</link>
+      <description>Evaluating large language models trained on code</description>
+      <category>Research</category>
+      <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Triton: Open-source GPU programming for neural networks</title>
+      <link>https://openai.com/index/triton/</link>
+      <description>Introducing Triton: Open-source GPU programming for neural networks</description>
+      <category>Research</category>
+      <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>TruthfulQA: Measuring how models mimic human falsehoods</title>
+      <link>https://openai.com/index/truthfulqa/</link>
+      <description>TruthfulQA: Measuring how models mimic human falsehoods</description>
+      <category>Research</category>
+      <pubDate>Wed, 08 Sep 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Solving math word problems</title>
+      <link>https://openai.com/index/solving-math-word-problems/</link>
+      <description>Solving math word problems</description>
+      <category>Research</category>
+      <pubDate>Fri, 29 Oct 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>WebGPT: Improving the factual accuracy of language models through web browsing</title>
+      <link>https://openai.com/index/webgpt/</link>
+      <description>WebGPT: Improving the factual accuracy of language models through web browsing</description>
+      <category>Research</category>
+      <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Text and code embeddings by contrastive pre-training</title>
+      <link>https://openai.com/index/text-and-code-embeddings-by-contrastive-pre-training/</link>
+      <description>Text and code embeddings by contrastive pre-training</description>
+      <category>Research</category>
+      <pubDate>Mon, 24 Jan 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Solving (some) formal math olympiad problems</title>
+      <link>https://openai.com/index/formal-math/</link>
+      <description>Solving (some) formal math olympiad problems</description>
+      <category>Research</category>
+      <pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A research agenda for assessing the economic impacts of code generation models</title>
+      <link>https://openai.com/index/economic-impacts-research/</link>
+      <description>A research agenda for assessing the economic impacts of code generation models</description>
+      <category>Research</category>
+      <pubDate>Thu, 03 Mar 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hierarchical text-conditional image generation with CLIP latents</title>
+      <link>https://openai.com/index/hierarchical-text-conditional-image-generation-with-clip-latents/</link>
+      <description>Hierarchical text-conditional image generation with CLIP latents</description>
+      <category>Research</category>
+      <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Teaching models to express their uncertainty in words</title>
+      <link>https://openai.com/index/teaching-models-to-express-their-uncertainty-in-words/</link>
+      <description>Teaching models to express their uncertainty in words</description>
+      <category>Research</category>
+      <pubDate>Sat, 28 May 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Techniques for training large neural networks</title>
+      <link>https://openai.com/index/techniques-for-training-large-neural-networks/</link>
+      <description>Techniques for training large neural networks</description>
+      <category>Research</category>
+      <pubDate>Thu, 09 Jun 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Evolution through large models</title>
+      <link>https://openai.com/index/evolution-through-large-models/</link>
+      <description>Evolution through large models</description>
+      <category>Research</category>
+      <pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Learning to play Minecraft with Video PreTraining</title>
+      <link>https://openai.com/index/vpt/</link>
+      <description>Learning to play Minecraft with Video PreTraining</description>
+      <category>Research</category>
+      <pubDate>Thu, 23 Jun 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DALL·E 2 pre-training mitigations</title>
+      <link>https://openai.com/index/dall-e-2-pre-training-mitigations/</link>
+      <description>DALL·E 2 pre-training mitigations</description>
+      <category>Research</category>
+      <pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Efficient training of language models to fill in the middle</title>
+      <link>https://openai.com/index/efficient-training-of-language-models-to-fill-in-the-middle/</link>
+      <description>Efficient training of language models to fill in the middle</description>
+      <category>Research</category>
+      <pubDate>Thu, 28 Jul 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Whisper</title>
+      <link>https://openai.com/index/whisper/</link>
+      <description>Introducing Whisper</description>
+      <category>Research</category>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scaling laws for reward model overoptimization</title>
+      <link>https://openai.com/index/scaling-laws-for-reward-model-overoptimization/</link>
+      <description>Scaling laws for reward model overoptimization</description>
+      <category>Research</category>
+      <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Point-E: A system for generating 3D point clouds from complex prompts</title>
+      <link>https://openai.com/index/point-e/</link>
+      <description>Point-E: A system for generating 3D point clouds from complex prompts</description>
+      <category>Research</category>
+      <pubDate>Fri, 16 Dec 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GPT-4</title>
+      <link>https://openai.com/index/gpt-4-research/</link>
+      <description>GPT-4</description>
+      <category>Research</category>
+      <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GPTs are GPTs: An early look at the labor market impact potential of large language models</title>
+      <link>https://openai.com/index/gpts-are-gpts/</link>
+      <description>GPTs are GPTs: An early look at the labor market impact potential of large language models</description>
+      <category>Research</category>
+      <pubDate>Fri, 17 Mar 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Democratic inputs to AI</title>
+      <link>https://openai.com/index/democratic-inputs-to-ai/</link>
+      <description>Democratic inputs to AI</description>
+      <category>Research</category>
+      <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Improving mathematical reasoning with process supervision</title>
+      <link>https://openai.com/index/improving-mathematical-reasoning-with-process-supervision/</link>
+      <description>Improving mathematical reasoning with process supervision</description>
+      <category>Research</category>
+      <pubDate>Wed, 31 May 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building an early warning system for LLM-aided biological threat creation</title>
+      <link>https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation/</link>
+      <description>Building an early warning system for LLM-aided biological threat creation</description>
+      <category>Research</category>
+      <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Video generation models as world simulators</title>
+      <link>https://openai.com/index/video-generation-models-as-world-simulators/</link>
+      <description>Video generation models as world simulators</description>
+      <category>Research</category>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions</title>
+      <link>https://openai.com/index/the-instruction-hierarchy/</link>
+      <description>The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions</description>
+      <category>Research</category>
+      <pubDate>Fri, 19 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Understanding the source of what we see and hear online</title>
+      <link>https://openai.com/index/understanding-the-source-of-what-we-see-and-hear-online/</link>
+      <description>Understanding the source of what we see and hear online</description>
+      <category>Research</category>
+      <pubDate>Mon, 06 May 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hello GPT-4o</title>
+      <link>https://openai.com/index/hello-gpt-4o/</link>
+      <description>Hello GPT-4o</description>
+      <category>Research</category>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Extracting Concepts from GPT-4</title>
+      <link>https://openai.com/index/extracting-concepts-from-gpt-4/</link>
+      <description>Extracting Concepts from GPT-4</description>
+      <category>Research</category>
+      <pubDate>Thu, 06 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Consistency Models</title>
+      <link>https://openai.com/index/consistency-models/</link>
+      <description>Consistency Models</description>
+      <category>Research</category>
+      <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Improved Techniques for Training Consistency Models</title>
+      <link>https://openai.com/index/improved-techniques-for-training-consistency-models/</link>
+      <description>Improved Techniques for Training Consistency Models</description>
+      <category>Research</category>
+      <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Holistic Approach to Undesired Content Detection in the Real World</title>
+      <link>https://openai.com/index/a-holistic-approach-to-undesired-content-detection-in-the-real-world/</link>
+      <description>A Holistic Approach to Undesired Content Detection in the Real World</description>
+      <category>Research</category>
+      <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI and Los Alamos National Laboratory announce research partnership</title>
+      <link>https://openai.com/index/openai-and-los-alamos-national-laboratory-work-together/</link>
+      <description>OpenAI and Los Alamos National Laboratory announce research partnership</description>
+      <category>Research</category>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Prover-Verifier Games improve legibility of language model outputs</title>
+      <link>https://openai.com/index/prover-verifier-games-improve-legibility/</link>
+      <description>Prover-Verifier Games improve legibility of language model outputs</description>
+      <category>Research</category>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GPT-4o mini: advancing cost-efficient intelligence</title>
+      <link>https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/</link>
+      <description>GPT-4o mini: advancing cost-efficient intelligence</description>
+      <category>Research</category>
+      <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Improving Model Safety Behavior with Rule-Based Rewards</title>
+      <link>https://openai.com/index/improving-model-safety-behavior-with-rule-based-rewards/</link>
+      <description>Improving Model Safety Behavior with Rule-Based Rewards</description>
+      <category>Research</category>
+      <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing SWE-bench Verified</title>
+      <link>https://openai.com/index/introducing-swe-bench-verified/</link>
+      <description>Introducing SWE-bench Verified</description>
+      <category>Research</category>
+      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI o1-mini</title>
+      <link>https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning/</link>
+      <description>OpenAI o1-mini</description>
+      <category>Research</category>
+      <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Learning to reason with LLMs</title>
+      <link>https://openai.com/index/learning-to-reason-with-llms/</link>
+      <description>Learning to reason with LLMs</description>
+      <category>Research</category>
+      <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering</title>
+      <link>https://openai.com/index/mle-bench/</link>
+      <description>MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering</description>
+      <category>Research</category>
+      <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Evaluating fairness in ChatGPT</title>
+      <link>https://openai.com/index/evaluating-fairness-in-chatgpt/</link>
+      <description>Evaluating fairness in ChatGPT</description>
+      <category>Research</category>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Simplifying, stabilizing, and scaling continuous-time consistency models</title>
+      <link>https://openai.com/index/simplifying-stabilizing-and-scaling-continuous-time-consistency-models/</link>
+      <description>Simplifying, stabilizing, and scaling continuous-time consistency models</description>
+      <category>Research</category>
+      <pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing SimpleQA</title>
+      <link>https://openai.com/index/introducing-simpleqa/</link>
+      <description>Introducing SimpleQA</description>
+      <category>Research</category>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Advancing red teaming with people and AI</title>
+      <link>https://openai.com/index/advancing-red-teaming-with-people-and-ai/</link>
+      <description>Advancing red teaming with people and AI</description>
+      <category>Research</category>
+      <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI o1 System Card</title>
+      <link>https://openai.com/index/openai-o1-system-card/</link>
+      <description>OpenAI o1 System Card</description>
+      <category>Research</category>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
   </channel>
 </rss>
