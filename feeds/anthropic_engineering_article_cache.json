@@ -1,0 +1,26 @@
+{
+  "https://www.anthropic.com/engineering/built-multi-agent-research-system": {
+    "title": "How we built our multi-agent research system",
+    "date": "2025-06-19T17:11:44.221378+00:00"
+  },
+  "https://www.anthropic.com/engineering/claude-code-best-practices": {
+    "title": "Claude Code: Best practices for agentic coding",
+    "date": "2025-04-18T00:00:00+00:00"
+  },
+  "https://www.anthropic.com/engineering/claude-think-tool": {
+    "title": "The \"think\" tool: Enabling Claude to stop and think in complex tool use situations",
+    "date": "2025-03-20T00:00:00+00:00"
+  },
+  "https://www.anthropic.com/engineering/swe-bench-sonnet": {
+    "title": "Raising the bar on SWE-bench Verified with Claude 3.5 Sonnet",
+    "date": "2025-01-06T00:00:00+00:00"
+  },
+  "https://www.anthropic.com/engineering/building-effective-agents": {
+    "title": "Building effective agents",
+    "date": "2024-12-19T00:00:00+00:00"
+  },
+  "https://www.anthropic.com/engineering/contextual-retrieval": {
+    "title": "Introducing Contextual Retrieval",
+    "date": "2024-09-19T00:00:00+00:00"
+  }
+}

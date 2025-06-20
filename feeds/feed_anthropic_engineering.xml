@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Anthropic Engineering Blog</title>
+    <link>https://anthropic.com/engineering/feed_anthropic_engineering.xml</link>
+    <description>Inside the team building reliable AI systems</description>
+    <atom:link href="https://anthropic.com/engineering/feed_anthropic_engineering.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <image>
+      <url>https://www.anthropic.com/images/icons/apple-touch-icon.png</url>
+      <title>Anthropic Engineering Blog</title>
+      <link>https://anthropic.com/engineering/feed_anthropic_engineering.xml</link>
+    </image>
+    <language>en</language>
+    <lastBuildDate>Fri, 20 Jun 2025 20:14:01 +0000</lastBuildDate>
+    <item>
+      <title>Introducing Contextual Retrieval</title>
+      <link>https://www.anthropic.com/engineering/contextual-retrieval</link>
+      <description>Introducing Contextual Retrieval</description>
+      <guid isPermaLink="false">https://www.anthropic.com/engineering/contextual-retrieval</guid>
+      <category>Engineering</category>
+      <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building effective agents</title>
+      <link>https://www.anthropic.com/engineering/building-effective-agents</link>
+      <description>Building effective agents</description>
+      <guid isPermaLink="false">https://www.anthropic.com/engineering/building-effective-agents</guid>
+      <category>Engineering</category>
+      <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Raising the bar on SWE-bench Verified with Claude 3.5 Sonnet</title>
+      <link>https://www.anthropic.com/engineering/swe-bench-sonnet</link>
+      <description>Raising the bar on SWE-bench Verified with Claude 3.5 Sonnet</description>
+      <guid isPermaLink="false">https://www.anthropic.com/engineering/swe-bench-sonnet</guid>
+      <category>Engineering</category>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The "think" tool: Enabling Claude to stop and think in complex tool use situations</title>
+      <link>https://www.anthropic.com/engineering/claude-think-tool</link>
+      <description>The "think" tool: Enabling Claude to stop and think in complex tool use situations</description>
+      <guid isPermaLink="false">https://www.anthropic.com/engineering/claude-think-tool</guid>
+      <category>Engineering</category>
+      <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Code: Best practices for agentic coding</title>
+      <link>https://www.anthropic.com/engineering/claude-code-best-practices</link>
+      <description>Claude Code: Best practices for agentic coding</description>
+      <guid isPermaLink="false">https://www.anthropic.com/engineering/claude-code-best-practices</guid>
+      <category>Engineering</category>
+      <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How we built our multi-agent research system</title>
+      <link>https://www.anthropic.com/engineering/built-multi-agent-research-system</link>
+      <description>Our Research feature uses multiple Claude agents to explore complex topics more effectively. We share the engineering challenges and the lessons we learned from building this system.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/engineering/built-multi-agent-research-system</guid>
+      <category>Engineering</category>
+      <pubDate>Thu, 19 Jun 2025 17:11:44 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

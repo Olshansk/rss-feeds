@@ -13,7 +13,7 @@
       <link>https://anthropic.com/news/feed_anthropic.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Jun 2025 11:12:41 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Jun 2025 20:16:26 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1023,6 +1023,22 @@
       <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Reed Hastings appointed to Anthropic’s board of directors</title>
+      <link>https://www.anthropic.com/news/reed-hastings</link>
+      <description>Reed Hastings appointed to Anthropic’s board of directors</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/reed-hastings</guid>
+      <category>Announcements</category>
+      <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Gov Models for U.S. National Security Customers</title>
+      <link>https://www.anthropic.com/news/claude-gov-models-for-u-s-national-security-customers</link>
+      <description>Claude Gov Models for U.S. National Security Customers</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/claude-gov-models-for-u-s-national-security-customers</guid>
+      <category>Announcements</category>
+      <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>National Security Expert Richard Fontaine appointed to Anthropic’s Long-Term Benefit Trust</title>
       <link>https://www.anthropic.com/news/national-security-expert-richard-fontaine-appointed-to-anthropic-s-long-term-benefit-trust</link>
       <description>National Security Expert Richard Fontaine appointed to Anthropic’s Long-Term Benefit Trust</description>
@@ -1036,7 +1052,15 @@
       <description>Claude in Amazon Bedrock: Approved for Use in FedRAMP High and DoD IL4/5 Workloads</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/claude-in-amazon-bedrock-fedramp-high</guid>
       <category>Announcements</category>
-      <pubDate>Mon, 16 Jun 2025 11:12:41 +0000</pubDate>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Remote MCP support in Claude Code</title>
+      <link>https://www.anthropic.com/news/claude-code-remote-mcp</link>
+      <description>Remote MCP support in Claude Code</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/claude-code-remote-mcp</guid>
+      <category>Product</category>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

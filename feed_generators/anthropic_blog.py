@@ -306,6 +306,7 @@ def main(feed_name="anthropic"):
         # Save feed to file
         output_file = save_rss_feed(feed, feed_name)
 
+        logger.info(f"Successfully generated RSS feed with {len(articles)} articles")
         return True
 
     except Exception as e:
