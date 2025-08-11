@@ -17,6 +17,7 @@
 | [Patrick Collison's Blog](https://patrickcollison.com/culture)    | _planned_                                                                                                                        |
 | [Supabase Blog](https://supabase.com/blog)                        | _planned_                                                                                                                        |
 | [David Crawshaw](https://crawshaw.io/)                        | _planned_                                                                                                                        |
+| [Engineering.fyi](https://engineering.fyi/)| _planned_                                                                                                                        |
 
 ### What is this?
 
