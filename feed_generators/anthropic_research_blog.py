@@ -108,8 +108,8 @@ def extract_title(card):
 def extract_date(card):
     """Extract date using multiple fallback selectors and formats."""
     selectors = [
-        ".detail-m.agate",
-        "p.detail-m.agate",
+        "p.detail-m",  # Current format on listing page
+        ".detail-m",
         "time",
         "[class*='timestamp']",
         "[class*='date']",
