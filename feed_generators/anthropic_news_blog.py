@@ -60,8 +60,8 @@ def extract_title(card):
 def extract_date(card):
     """Extract date using multiple fallback selectors and formats."""
     selectors = [
+        "p.detail-m",  # Current format on listing page
         "div.PostList_post-date__djrOA",
-        "p.detail-m.agate",
         "p[class*='date']",
         "div[class*='date']",
         "time",
@@ -77,9 +77,11 @@ def extract_date(card):
     ]
 
     for selector in selectors:
-        elem = card.select_one(selector)
-        if elem:
+        # Use select() to get all matching elements, not just the first one
+        elems = card.select(selector)
+        for elem in elems:
             date_text = elem.text.strip()
+            # Try to parse it as a date
             for date_format in date_formats:
                 try:
                     date = datetime.strptime(date_text, date_format)
