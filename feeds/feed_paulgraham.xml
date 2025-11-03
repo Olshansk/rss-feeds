@@ -8,7 +8,3058 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Nov 2025 01:31:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Nov 2025 01:37:24 +0000</lastBuildDate>
+    <item>
+      <title>This Year We Can End the Death Penalty in California</title>
+      <link>https://paulgraham.com/prop62.html</link>
+      <description>If you're a California voter, there is an important proposition
+on your ballot this year: Proposition 62, which bans the death
+penalty.When I was younger I used to think the debate about the death
+penalty was about when it's ok to take a human life.  Is it ok
+to kill a killer?But that is not the issue here.The real world does not work like the version I was shown on TV growing up.  The police 
+often arrest the wrong person.
+Defendants' lawyers are often incompetent.  And prosecutors
+are often mo...</description>
+      <guid isPermaLink="false">https://paulgraham.com/prop62.html</guid>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lisp for Web-Based Applications</title>
+      <link>https://paulgraham.com/lwba.html</link>
+      <description>After a link to 
+Beating the Averages was posted on slashdot, 
+some readers wanted to hear in more detail 
+about the specific technical advantages we got from using
+Lisp in Viaweb.  For those who are interested,
+here are some excerpts from a talk I gave in April 2001 at
+BBN Labs in Cambridge, MA.</description>
+      <guid isPermaLink="false">https://paulgraham.com/lwba.html</guid>
+      <pubDate>Sun, 01 Apr 2001 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Beating the Averages</title>
+      <link>https://paulgraham.com/avg.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+April 2001, rev. April 2003(This article is derived from a talk given at the 2001 Franz
+Developer Symposium.)
+In the summer of 1995, my friend Robert Morris and I
+started a startup called 
+Viaweb.  
+Our plan was to write
+software that would let end users build online stores.
+What was novel about this software, at the time, was
+that it ran on our server, using ordinary Web pages
+as the interface.A lot of people could have been having this ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/avg.html</guid>
+      <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Java's Cover</title>
+      <link>https://paulgraham.com/javacover.html</link>
+      <description>This essay developed out of conversations I've had with
+several other programmers about why Java smelled suspicious.  It's not
+a critique of Java!  It is a case study of hacker's radar.Over time, hackers develop a nose for good (and bad) technology.
+I thought it might be interesting to try and write down what
+made Java seem suspect to me.Some people who've read this think it's an interesting attempt to write about
+something that hasn't been written about before.  Others say I
+will get in trouble...</description>
+      <guid isPermaLink="false">https://paulgraham.com/javacover.html</guid>
+      <pubDate>Sun, 01 Apr 2001 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Being Popular</title>
+      <link>https://paulgraham.com/popular.html</link>
+      <description>(This article was written as a kind of business plan for a
+new language.
+So it is missing (because it takes for granted) the most important
+feature of a good programming language: very powerful abstractions.)A friend of mine once told an eminent operating systems
+expert that he wanted to design a really good
+programming language.  The expert told him that it would be a
+waste of time, that programming languages don't become popular
+or unpopular based on their merits, and so no matter how
+good his...</description>
+      <guid isPermaLink="false">https://paulgraham.com/popular.html</guid>
+      <pubDate>Tue, 01 May 2001 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Five Questions about Language Design</title>
+      <link>https://paulgraham.com/langdes.html</link>
+      <description>(These are some notes I made
+for a panel discussion on programming language design
+at MIT on May 10, 2001.)1. Programming Languages Are for People.Programming languages
+are how people talk to computers.  The computer would be just as
+happy speaking any language that was unambiguous.  The reason we
+have high level languages is because people can't deal with
+machine language.  The point of programming
+languages is to prevent our poor frail human brains from being 
+overwhelmed by a mass of detail.A...</description>
+      <guid isPermaLink="false">https://paulgraham.com/langdes.html</guid>
+      <pubDate>Tue, 01 May 2001 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Roots of Lisp</title>
+      <link>https://paulgraham.com/rootsoflisp.html</link>
+      <description>(I wrote this article to help myself understand exactly
+what McCarthy discovered.  You don't need to know this stuff
+to program in Lisp, but it should be helpful to 
+anyone who wants to
+understand the essence of Lisp  both in the sense of its
+origins and its semantic core.  The fact that it has such a core
+is one of Lisp's distinguishing features, and the reason why,
+unlike other languages, Lisp has dialects.)In 1960, John 
+McCarthy published a remarkable paper in
+which he did for programming s...</description>
+      <guid isPermaLink="false">https://paulgraham.com/rootsoflisp.html</guid>
+      <pubDate>Tue, 01 May 2001 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Other Road Ahead</title>
+      <link>https://paulgraham.com/road.html</link>
+      <description>(This article explains why much of the next generation of software
+may be server-based, what that will mean for programmers,
+and why this new kind of software is a great opportunity for startups.
+It's derived from a talk at BBN Labs.)
+In the summer of 1995, my friend Robert Morris and I decided to
+start a startup.  The PR campaign leading up to Netscape's IPO was
+running full blast then, and there was a lot of talk in the press
+about online commerce.  At the time there might have been thirty
+act...</description>
+      <guid isPermaLink="false">https://paulgraham.com/road.html</guid>
+      <pubDate>Sat, 01 Sep 2001 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What Made Lisp Different</title>
+      <link>https://paulgraham.com/diff.html</link>
+      <description>(rev. May 2002)
+
+(This article came about in response to some questions on
+the LL1 mailing list.  It is now
+incorporated in Revenge of the Nerds.)When McCarthy designed Lisp in the late 1950s, it was
+a radical departure from existing languages,
+the most important of which was Fortran.Lisp embodied nine new ideas:
+1. Conditionals.  A conditional is an if-then-else
+construct.  We take these for granted now.  They were 
+invented
+by McCarthy in the course of developing Lisp. 
+(Fortran at that time o...</description>
+      <guid isPermaLink="false">https://paulgraham.com/diff.html</guid>
+      <pubDate>Wed, 01 May 2002 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Taste for Makers</title>
+      <link>https://paulgraham.com/taste.html</link>
+      <description>"...Copernicus'
+aesthetic objections to [equants] provided one essential
+motive for his rejection of the Ptolemaic system...."- Thomas Kuhn, The Copernican Revolution"All of us had been trained by Kelly Johnson and believed
+fanatically in his insistence that an airplane that looked
+beautiful would fly the same way."- Ben Rich, Skunk Works"Beauty is the first test: there is no permanent place in this
+world for ugly mathematics."- G. H. Hardy, A Mathematician's Apology
+
+
+I was talking recently to ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/taste.html</guid>
+      <pubDate>Fri, 01 Feb 2002 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Succinctness is Power</title>
+      <link>https://paulgraham.com/power.html</link>
+      <description>"The quantity of meaning compressed into a small space by 
+algebraic signs, is another circumstance that facilitates 
+the reasonings we are accustomed to carry on by their aid."- Charles Babbage, quoted in Iverson's Turing Award Lecture
+
+
+
+In the discussion about issues raised by Revenge 
+of the Nerds on the LL1 mailing list, Paul Prescod wrote
+something that stuck in my mind.
+
+Python's goal is regularity and readability, not succinctness.
+
+On the face of it, this seems a rather damning thing to...</description>
+      <guid isPermaLink="false">https://paulgraham.com/power.html</guid>
+      <pubDate>Wed, 01 May 2002 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Revenge of the Nerds</title>
+      <link>https://paulgraham.com/icad.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+May 2002
+
+
+
+"We were after the C++ programmers. We managed to drag a 
+lot of them about halfway to Lisp."- Guy Steele, co-author of the Java spec
+
+
+
+
+In the software business there is an ongoing
+struggle between the pointy-headed academics, and another
+equally formidable force, the pointy-haired bosses.  Everyone
+knows who the pointy-haired boss is, right?  I think most
+people in the technology world not only recognize this
+cartoon charac...</description>
+      <guid isPermaLink="false">https://paulgraham.com/icad.html</guid>
+      <pubDate>Wed, 01 May 2002 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Plan for Spam</title>
+      <link>https://paulgraham.com/spam.html</link>
+      <description>Like to build things? Try Hacker
+News.
+
+
+
+
+August 2002(This article describes the spam-filtering techniques
+used in the spamproof web-based mail reader we
+built to exercise Arc. An
+improved algorithm is described in Better
+Bayesian Filtering.)I think it's possible to stop spam, and that 
+content-based filters are the way to do it.
+The Achilles heel of the spammers is their message.
+They can circumvent any other barrier you set up.  They have so far, at
+least.  But they have to deliver their mess...</description>
+      <guid isPermaLink="false">https://paulgraham.com/spam.html</guid>
+      <pubDate>Thu, 01 Aug 2002 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Design and Research</title>
+      <link>https://paulgraham.com/desres.html</link>
+      <description>(This article is derived from a keynote talk at the fall 2002 meeting
+of NEPLS.)Visitors to this country are often surprised to find that
+Americans like to begin a conversation by asking "what do you do?"
+I've never liked this question.  I've rarely had a
+neat answer to it.  But I think I have finally solved the problem.
+Now, when someone asks me what I do, I look them straight
+in the eye and say "I'm designing a 
+new dialect of Lisp."   
+I recommend this answer to anyone who doesn't like being ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/desres.html</guid>
+      <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Better Bayesian Filtering</title>
+      <link>https://paulgraham.com/better.html</link>
+      <description>(This article was given as a talk at the 2003 Spam Conference.
+It describes the work I've done to improve the performance of
+the algorithm described in A Plan for Spam,
+and what I plan to do in the future.)The first discovery I'd like to present here is an algorithm for
+lazy evaluation of research papers.  Just
+write whatever you want and don't cite any previous work, and
+indignant readers will send you references to all the papers you
+should have cited.   I discovered this algorithm
+after ``A P...</description>
+      <guid isPermaLink="false">https://paulgraham.com/better.html</guid>
+      <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why Nerds are Unpopular</title>
+      <link>https://paulgraham.com/nerds.html</link>
+      <description>When we were in junior high school, my friend Rich and I made a map
+of the school lunch tables according to popularity. This was easy
+to do, because kids only ate lunch with others of about the same
+popularity. We graded them from A to E. A tables were full of
+football players and cheerleaders and so on. E tables contained the
+kids with mild cases of Down's Syndrome, what in the language of
+the time we called "retards."We sat at a D table, as low as you could get without looking
+physically diffe...</description>
+      <guid isPermaLink="false">https://paulgraham.com/nerds.html</guid>
+      <pubDate>Sat, 01 Feb 2003 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Hundred-Year Language</title>
+      <link>https://paulgraham.com/hundred.html</link>
+      <description>(This essay is derived from a keynote talk at PyCon 2003.)It's hard to predict what
+life will be like in a hundred years.  There are only a few
+things we can say with certainty.  We know that everyone will
+drive flying cars,
+that zoning laws will be relaxed to allow buildings
+hundreds of stories tall, that it will be dark most of the
+time, and that women will all be trained in the martial arts.  
+Here I want to zoom in on one detail of this
+picture.  What kind of programming language will they u...</description>
+      <guid isPermaLink="false">https://paulgraham.com/hundred.html</guid>
+      <pubDate>Tue, 01 Apr 2003 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>If Lisp is So Great</title>
+      <link>https://paulgraham.com/iflisp.html</link>
+      <description>If Lisp is so great, why don't more people use it?  I was    
+asked this question by a student in the audience at a 
+talk I gave recently.  Not for the first time, either.In languages, as in so many things, there's not much     
+correlation between popularity and quality.  Why does   
+John Grisham (King of Torts sales rank, 44) outsell
+Jane Austen (Pride and Prejudice sales rank, 6191)?
+Would even Grisham claim that it's because he's a better
+writer?Here's the first sentence of Pride and Prejudi...</description>
+      <guid isPermaLink="false">https://paulgraham.com/iflisp.html</guid>
+      <pubDate>Thu, 01 May 2003 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hackers and Painters</title>
+      <link>https://paulgraham.com/hp.html</link>
+      <description>(This essay is derived from a guest lecture at Harvard, which incorporated
+an earlier talk at Northeastern.)When I finished grad school in computer science I went
+to art school to study painting.  A lot of people seemed surprised
+that someone interested in computers would also be interested in painting.
+They seemed to think that
+hacking and painting were very different kinds of work-- that
+hacking was cold, precise, and methodical, and that
+painting was the frenzied expression of some primal urg...</description>
+      <guid isPermaLink="false">https://paulgraham.com/hp.html</guid>
+      <pubDate>Thu, 01 May 2003 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Filters that Fight Back</title>
+      <link>https://paulgraham.com/ffb.html</link>
+      <description>We may be able to improve the accuracy of Bayesian spam filters
+by having them follow links to see what's
+waiting at the other end.  Richard Jowsey of
+death2spam now does
+this in borderline cases, and reports that it works well.Why only do it in borderline cases?  And why only do it once?As I mentioned in Will Filters Kill Spam?,
+following all the urls in
+a spam would have an amusing side-effect.  If popular email clients
+did this in order to filter spam, the spammer's servers
+would take a serio...</description>
+      <guid isPermaLink="false">https://paulgraham.com/ffb.html</guid>
+      <pubDate>Fri, 01 Aug 2003 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What You Can't Say</title>
+      <link>https://paulgraham.com/say.html</link>
+      <description>Have you ever seen an old photo of yourself and
+been embarrassed at the way you looked?   Did we actually
+dress like that?  We did.  And we had no idea how
+silly we looked.
+It's the nature of fashion to be invisible, in the
+same way the movement of the earth is invisible to all
+of us riding on it.What scares me is that there are moral fashions too.
+They're just as arbitrary, and just as invisible to most people.
+But they're much more dangerous.
+Fashion is mistaken for good design; 
+moral fashion...</description>
+      <guid isPermaLink="false">https://paulgraham.com/say.html</guid>
+      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Word "Hacker"</title>
+      <link>https://paulgraham.com/gba.html</link>
+      <description>To the popular press, "hacker" means someone who breaks
+into computers.  Among programmers it means a good programmer.
+But the two meanings are connected.  To programmers,
+"hacker" connotes mastery in the most literal sense: someone
+who can make a computer do what he wants—whether the computer
+wants to or not.To add to the confusion, the noun "hack" also has two senses.  It can
+be either a compliment or an insult.  It's called a hack when
+you do something in an ugly way.  But when you do somethi...</description>
+      <guid isPermaLink="false">https://paulgraham.com/gba.html</guid>
+      <pubDate>Thu, 01 Apr 2004 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Make Wealth</title>
+      <link>https://paulgraham.com/wealth.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+May 2004
+(This essay was originally published in Hackers 
+&amp; Painters.)
+If you wanted to get rich, how would you do it? I think your best
+bet would be to start or join a startup.  That's been a 
+reliable way to get rich for hundreds of years.  The word "startup" 
+dates from the 1960s, but what happens in one is 
+very similar to the venture-backed trading voyages of the
+Middle Ages.Startups usually involve technology, so much so that the ph...</description>
+      <guid isPermaLink="false">https://paulgraham.com/wealth.html</guid>
+      <pubDate>Sat, 01 May 2004 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mind the Gap</title>
+      <link>https://paulgraham.com/gap.html</link>
+      <description>When people care enough about something to do it well, those who
+do it best tend to be far better than everyone else.  There's a
+huge gap between Leonardo and second-rate contemporaries like
+Borgognone.  You see the same gap between Raymond Chandler and the
+average writer of detective novels.  A top-ranked professional chess
+player could play ten thousand games against an ordinary club player
+without losing once.Like chess or painting or writing novels, making money is a very
+specialized skill. ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/gap.html</guid>
+      <pubDate>Sat, 01 May 2004 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Great Hackers</title>
+      <link>https://paulgraham.com/gh.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+July 2004(This essay is derived from a talk at Oscon 2004.)
+A few months ago I finished a new 
+book, 
+and in reviews I keep
+noticing words like "provocative'' and "controversial.'' To say
+nothing of "idiotic.''I didn't mean to make the book controversial.  I was trying to make
+it efficient.  I didn't want to waste people's time telling them
+things they already knew.  It's more efficient just to give them
+the diffs.  But I suppose that's b...</description>
+      <guid isPermaLink="false">https://paulgraham.com/gh.html</guid>
+      <pubDate>Thu, 01 Jul 2004 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Python Paradox</title>
+      <link>https://paulgraham.com/pypar.html</link>
+      <description>In a recent talk I said something that upset a lot of
+people: that you could get smarter programmers to work on
+a Python project than you could to work on a Java project.I didn't mean by this that Java programmers are dumb.  I
+meant that Python programmers are smart. It's a lot of
+work to learn a new programming language.  And people don't
+learn Python because it will get them a job; they learn it
+because they genuinely like to program and aren't satisfied with the languages they
+already know.Wh...</description>
+      <guid isPermaLink="false">https://paulgraham.com/pypar.html</guid>
+      <pubDate>Sun, 01 Aug 2004 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Age of the Essay</title>
+      <link>https://paulgraham.com/essay.html</link>
+      <description>Remember the essays you had to write in high school?
+Topic sentence, introductory paragraph,
+supporting paragraphs, conclusion.  The conclusion being,
+say, that Ahab in Moby Dick was a Christ-like figure.Oy.  So I'm going to try to give the other side of the
+story: what an essay really is, and how you write one.
+Or at least, how I write one.ModsThe most obvious difference between real essays and
+the things one has to write in school is that real
+essays are not exclusively about English literatur...</description>
+      <guid isPermaLink="false">https://paulgraham.com/essay.html</guid>
+      <pubDate>Wed, 01 Sep 2004 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What the Bubble Got Right</title>
+      <link>https://paulgraham.com/bubble.html</link>
+      <description>(This essay is derived from an invited talk at ICFP 2004.)I had a front row seat for the Internet Bubble,
+because I worked at Yahoo during 1998 and 1999.  One day,
+when the stock was trading around $200, I sat down and calculated
+what I thought the price should be. The 
+answer I got was $12.  I went to
+the next cubicle and told my friend Trevor.  "Twelve!" he said.
+He tried to sound indignant, but he didn't quite manage it.  He
+knew as well as I did that our valuation was crazy.Yahoo was a speci...</description>
+      <guid isPermaLink="false">https://paulgraham.com/bubble.html</guid>
+      <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Version 1.0</title>
+      <link>https://paulgraham.com/laundry.html</link>
+      <description>As E. B. White said, "good writing is rewriting."  I didn't
+realize this when I was in school.  In writing, as in math and 
+science, they only show you the finished product.
+You don't see all the false starts.  This gives students a
+misleading view of how things get made.Part of the reason it happens is that writers don't want   
+people to see their mistakes.  But I'm willing to let people
+see an early draft if it will show how much you have
+to rewrite to beat an essay into shape.Below is the ol...</description>
+      <guid isPermaLink="false">https://paulgraham.com/laundry.html</guid>
+      <pubDate>Fri, 01 Oct 2004 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bradley's Ghost</title>
+      <link>https://paulgraham.com/polls.html</link>
+      <description>A lot of people are writing now about 
+why Kerry lost.  Here I want to
+examine a more specific question: why were the exit polls so 
+wrong?In Ohio, which Kerry ultimately
+lost 49-51, exit polls gave him a 52-48 victory.  And this wasn't just
+random error.  In every swing state they overestimated the Kerry vote.
+In Florida, which Bush ultimately won 52-47, exit polls predicted
+a dead heat.(These are not early numbers. They're from about midnight eastern time, 
+long after polls closed in Ohio and ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/polls.html</guid>
+      <pubDate>Mon, 01 Nov 2004 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>It's Charisma, Stupid</title>
+      <link>https://paulgraham.com/charisma.html</link>
+      <description>, corrected June 2006Occam's razor says we should prefer the simpler of two explanations.
+I begin by reminding readers of this principle because I'm about
+to propose a theory that will offend both liberals and conservatives.
+But Occam's razor means, in effect, that if you want to disagree
+with it, you have a hell of a coincidence to explain.Theory: In US presidential elections, the more 
+charismatic candidate wins.People who write about politics, whether on the left or the right,
+have a consiste...</description>
+      <guid isPermaLink="false">https://paulgraham.com/charisma.html</guid>
+      <pubDate>Thu, 01 Jun 2006 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Made in USA</title>
+      <link>https://paulgraham.com/usa.html</link>
+      <description>(This is a new essay for the Japanese edition of 
+Hackers 
+&amp; Painters.
+It tries to explain why Americans make some things well 
+and others badly.)A few years ago an Italian friend of mine travelled by train from
+Boston to Providence.  She had only been in America for a
+couple weeks and hadn't seen much of the country yet.  She arrived
+looking astonished.  "It's so ugly!"People from other rich countries can scarcely imagine
+the squalor of the man-made bits of America.  In travel books
+they show y...</description>
+      <guid isPermaLink="false">https://paulgraham.com/usa.html</guid>
+      <pubDate>Mon, 01 Nov 2004 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What You'll Wish You'd Known</title>
+      <link>https://paulgraham.com/hs.html</link>
+      <description>(I wrote this talk for a
+high school.  I never actually 
+gave it, because the school authorities vetoed the plan to invite me.)When I said I was speaking at a high school, my friends were curious.
+What will you say to high school students?  So I asked them, what
+do you wish someone had told you in high school?  Their answers
+were remarkably similar.  So I'm going to tell you what we all wish
+someone had told us.I'll start by telling you something you don't have to know in high
+school: what you w...</description>
+      <guid isPermaLink="false">https://paulgraham.com/hs.html</guid>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Start a Startup</title>
+      <link>https://paulgraham.com/start.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+March 2005(This essay is derived from a talk at the Harvard Computer
+Society.)You need three things to create a successful startup: to start with
+good people, to make something customers actually want, and to spend
+as little money as possible.  Most startups that fail do it because
+they fail at one of these.  A startup that does all three will
+probably succeed.And that's kind of exciting, when you think about it, because all
+three are doa...</description>
+      <guid isPermaLink="false">https://paulgraham.com/start.html</guid>
+      <pubDate>Tue, 01 Mar 2005 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Unified Theory of VC Suckage</title>
+      <link>https://paulgraham.com/venturecapital.html</link>
+      <description>A couple months ago I got an email from a recruiter asking if I was
+interested in being a "technologist in residence" at a new venture
+capital fund.  I think the idea was to play Karl Rove to the VCs'
+George Bush.I considered it for about four seconds.  Work for a VC fund?  Ick.One of my most vivid memories from our startup is going to visit
+Greylock, the famous Boston VCs. They were the most arrogant
+people I've met in my life.  And I've met a lot of arrogant people.
+[1]I'm not alone in feeling...</description>
+      <guid isPermaLink="false">https://paulgraham.com/venturecapital.html</guid>
+      <pubDate>Tue, 01 Mar 2005 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Undergraduation</title>
+      <link>https://paulgraham.com/college.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+
+March 2005(Parts of this essay began as replies to students who wrote to
+me with questions.)Recently I've had several emails from computer science
+undergrads asking what to do in college. I might not
+be the best source of advice, because I was a philosophy major in
+college.  But I took so many CS classes that most CS majors thought
+I was one.  I was certainly a hacker, at least.HackingWhat should you do in college to become a 
+good hacke...</description>
+      <guid isPermaLink="false">https://paulgraham.com/college.html</guid>
+      <pubDate>Tue, 01 Mar 2005 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Writing,  Briefly</title>
+      <link>https://paulgraham.com/writing44.html</link>
+      <description>(In the process
+of answering an email, I accidentally wrote a tiny essay about writing.
+I usually spend weeks on an essay.  This one took  67 minutes—23
+of writing, and  44 of rewriting.)I think it's far more important to write well than most people
+realize.  Writing doesn't just communicate ideas; it generates them.
+If you're bad at writing and don't like to do it, you'll miss out
+on most of the ideas writing would have generated.As for how to write well, here's the short version: 
+Write a bad ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/writing44.html</guid>
+      <pubDate>Tue, 01 Mar 2005 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Return of the Mac</title>
+      <link>https://paulgraham.com/mac.html</link>
+      <description>All the best hackers 
+I know are gradually switching to Macs.  My
+friend Robert said his whole research group at MIT recently bought
+themselves Powerbooks.  These guys are not the graphic designers
+and grandmas who were buying Macs at Apple's low point in the
+mid 1990s.  They're about as hardcore OS hackers as you can get.The reason, of course, is OS X.  Powerbooks are beautifully designed
+and run FreeBSD.  What more do you need to know?I got a Powerbook at the end of last year.   When my IBM Th...</description>
+      <guid isPermaLink="false">https://paulgraham.com/mac.html</guid>
+      <pubDate>Tue, 01 Mar 2005 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why Smart People Have Bad Ideas</title>
+      <link>https://paulgraham.com/bronze.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+April 2005This summer, as an 
+experiment, some 
+friends and I are giving seed
+funding to a bunch of new startups.  It's an experiment because
+we're prepared to fund younger founders than most investors would.
+That's why we're doing it during the summer—so even college
+students can participate.We know from Google and Yahoo that grad students can start successful
+startups.  And we know from experience that some undergrads are as
+capable as ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/bronze.html</guid>
+      <pubDate>Sun, 01 Jan 1995 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Submarine</title>
+      <link>https://paulgraham.com/submarine.html</link>
+      <description>"Suits make a corporate comeback," says the New
+York Times.  Why does this sound familiar?  Maybe because
+the suit was also back in February,
+
+September
+2004, June
+2004, March
+2004, September
+2003, 
+
+November
+2002, 
+April 2002,
+and February
+2002.
+
+Why do the media keep running stories saying suits are back?  Because
+PR firms tell 
+them to.  One of the most surprising things I discovered
+during my brief business career was the existence of the PR industry,
+lurking like a huge, quiet submarine ben...</description>
+      <guid isPermaLink="false">https://paulgraham.com/submarine.html</guid>
+      <pubDate>Fri, 01 Feb 2002 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hiring is Obsolete</title>
+      <link>https://paulgraham.com/hiring.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+May 2005(This essay is derived from a talk at the Berkeley CSUA.)The three big powers on the Internet now are Yahoo, Google, and
+Microsoft.  Average age of their founders: 24.  So it is pretty
+well established now that grad students can start successful
+companies.  And if grad students can do it, why not undergrads?Like everything else in technology, the cost of starting a startup
+has decreased dramatically.  Now it's so low that it has d...</description>
+      <guid isPermaLink="false">https://paulgraham.com/hiring.html</guid>
+      <pubDate>Tue, 01 Feb 1994 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What Business Can Learn from Open Source</title>
+      <link>https://paulgraham.com/opensource.html</link>
+      <description>(This essay is derived from a talk at Oscon 2005.)Lately companies have been paying more attention to open source.
+Ten years ago there seemed a real danger Microsoft would extend its
+monopoly to servers.  It seems safe to say now that open source has
+prevented that.  A recent survey found 52% of companies are replacing
+Windows servers with Linux servers.
+[1]More significant, I think, is which 52% they are.  At this point,
+anyone proposing to run Windows on servers should be prepared to
+explain w...</description>
+      <guid isPermaLink="false">https://paulgraham.com/opensource.html</guid>
+      <pubDate>Mon, 01 Aug 2005 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>After the Ladder</title>
+      <link>https://paulgraham.com/ladder.html</link>
+      <description>Thirty years ago, one was supposed to work one's way up the corporate
+ladder.  That's less the rule now.  Our generation wants to get
+paid up front.  Instead of developing a product for some big company
+in the expectation of getting job security in return, we develop
+the product ourselves, in a startup, and sell it to the big company.
+At the very least we want options.Among other things, this shift has created the appearance of a rapid
+increase in economic inequality.  But really the two cases a...</description>
+      <guid isPermaLink="false">https://paulgraham.com/ladder.html</guid>
+      <pubDate>Mon, 01 Aug 2005 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Inequality and Risk</title>
+      <link>https://paulgraham.com/inequality.html</link>
+      <description>(This essay is derived from a talk at Defcon 2005.)Suppose you wanted to get rid of economic inequality.  There are
+two ways to do it: give money to the poor, or take it away from the 
+rich.  But they amount to the same thing, because if you want to
+give money to the poor, you have to get it from somewhere.  You
+can't get it from the poor, or they just end up where they started.
+You have to get it from the rich.There is of course a way to make the poor richer without simply
+shifting money from t...</description>
+      <guid isPermaLink="false">https://paulgraham.com/inequality.html</guid>
+      <pubDate>Mon, 01 Aug 2005 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What I Did this Summer</title>
+      <link>https://paulgraham.com/sfp.html</link>
+      <description>The first Summer Founders Program has just finished.  We were
+surprised how well it went.  Overall only about 10% of startups   
+succeed, but if I had to guess now, I'd predict three or four of  
+the eight startups we funded will make it.Of the startups that needed further funding, I believe all have
+either closed a round or are likely to soon.  Two have already
+turned down (lowball) acquisition offers.We would have been happy if just one of the eight seemed promising
+by the end of the summer.  ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/sfp.html</guid>
+      <pubDate>Sat, 01 Oct 2005 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ideas for Startups</title>
+      <link>https://paulgraham.com/ideas.html</link>
+      <description>Want to start a startup?  Get funded by&#13;
+Y Combinator.&#13;
+
+
+
+&#13;
+October 2005(This essay is derived from a talk at the 2005 &#13;
+Startup School.)How do you get good ideas for &#13;
+startups?  That's probably the number&#13;
+one question people ask me.I'd like to reply with another question: why do people think it's&#13;
+hard to come up with ideas for startups?That might seem a stupid thing to ask.  Why do they think&#13;
+it's hard?  If people can't do it, then it is hard, at least&#13;
+for them.  Right?Well, maybe not.  W...</description>
+      <guid isPermaLink="false">https://paulgraham.com/ideas.html</guid>
+      <pubDate>Sat, 01 Oct 2005 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Venture Capital Squeeze</title>
+      <link>https://paulgraham.com/vcsqueeze.html</link>
+      <description>In the next few years, venture capital funds will find themselves
+squeezed from four directions.  They're already stuck with a seller's
+market, because of the huge amounts they raised at the end of the
+Bubble and still haven't invested.  This by itself is not the end
+of the world.  In fact, it's just a more extreme version of the
+norm
+in the VC business: too much money chasing too few deals.Unfortunately, those few deals now want less and less money, because
+it's getting so cheap to start a star...</description>
+      <guid isPermaLink="false">https://paulgraham.com/vcsqueeze.html</guid>
+      <pubDate>Tue, 01 Nov 2005 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Fund a Startup</title>
+      <link>https://paulgraham.com/startupfunding.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+November 2005
+Venture funding works like gears.  A typical startup goes through
+several rounds of funding, and at each round you want to take just
+enough money to reach the speed where you can shift into the next
+gear.Few startups get it quite right.  Many are underfunded.  A few are
+overfunded, which is like trying to start driving in third gear.I think it would help founders to understand funding better—not
+just the mechanics of it, but...</description>
+      <guid isPermaLink="false">https://paulgraham.com/startupfunding.html</guid>
+      <pubDate>Tue, 01 Nov 2005 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Web 2.0</title>
+      <link>https://paulgraham.com/web20.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+November 2005Does "Web 2.0" mean anything?  Till recently I thought it didn't,
+but the truth turns out to be more complicated.  Originally, yes,
+it was meaningless.  Now it seems to have acquired a meaning.  And
+yet those who dislike the term are probably right, because if it
+means what I think it does, we don't need it.I first heard the phrase "Web 2.0" in the name of the Web 2.0
+conference in 2004.  At the time it was supposed to mean u...</description>
+      <guid isPermaLink="false">https://paulgraham.com/web20.html</guid>
+      <pubDate>Tue, 01 Jun 2004 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Good and Bad Procrastination</title>
+      <link>https://paulgraham.com/procrastination.html</link>
+      <description>The most impressive people I know are all terrible procrastinators.
+So could it be that procrastination isn't always bad?Most people who write about procrastination write about how to cure
+it.  But this is, strictly speaking, impossible.  There are an
+infinite number of things you could be doing.  No matter what you
+work on, you're not working on everything else.  So the question
+is not how to avoid procrastination, but how to procrastinate well.There are three variants of procrastination, depen...</description>
+      <guid isPermaLink="false">https://paulgraham.com/procrastination.html</guid>
+      <pubDate>Thu, 01 Dec 2005 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Do What You Love</title>
+      <link>https://paulgraham.com/love.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+January 2006To do something well you have to like it.   That idea is not exactly
+novel.  We've got it down to four words: "Do what you love."  But
+it's not enough just to tell people that.  Doing what you love is
+complicated.The very idea is foreign to what most of us learn as kids.  When I
+was a kid, it seemed as if work and fun were opposites by definition.
+Life had two states: some of the time adults were making you do
+things, and that...</description>
+      <guid isPermaLink="false">https://paulgraham.com/love.html</guid>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why YC</title>
+      <link>https://paulgraham.com/whyyc.html</link>
+      <description>, rev August 2009Yesterday one of the founders we funded asked me why we started 
+Y
+Combinator.  Or more precisely, he asked if we'd started YC mainly
+for fun.Kind of, but not quite.  It is enormously fun to be able to work
+with Rtm and Trevor again.  I missed that after we sold Viaweb, and
+for all the years after I always had a background process running,
+looking for something we could do together.  There is definitely
+an aspect of a band reunion to Y Combinator.  Every couple days I
+slip and c...</description>
+      <guid isPermaLink="false">https://paulgraham.com/whyyc.html</guid>
+      <pubDate>Wed, 01 Mar 2006 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>6,631,372</title>
+      <link>https://paulgraham.com/6631327.html</link>
+      <description>, rev August 2009A couple days ago I found to my surprise that I'd been granted a
+patent.
+It issued in 2003, but no one told me.  I wouldn't know about it
+now except that a few months ago, while visiting Yahoo, I happened
+to run into a Big Cheese I knew from working there in the late
+nineties.  He brought up something called Revenue Loop, which Viaweb
+had been working on when they bought us.The idea is basically that you sort search results not in order of
+textual "relevance" (as search engines ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/6631327.html</guid>
+      <pubDate>Sun, 01 Feb 1998 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Are Software Patents Evil?</title>
+      <link>https://paulgraham.com/softwarepatents.html</link>
+      <description>(This essay is derived from a talk at Google.)A few weeks ago I found to my surprise that I'd been granted four patents.  
+This was all the more surprising
+because I'd only applied for three.  The patents aren't mine, of
+course.  They were assigned to Viaweb, and became Yahoo's when they
+bought us.  But the news set me thinking about the question of
+software patents generally.Patents are a hard problem.  I've had to advise most of the startups
+we've funded about them, and despite years of experi...</description>
+      <guid isPermaLink="false">https://paulgraham.com/softwarepatents.html</guid>
+      <pubDate>Wed, 01 Mar 2006 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>See Randomness</title>
+      <link>https://paulgraham.com/randomness.html</link>
+      <description>, rev August 2009Plato quotes Socrates as saying "the unexamined life is not worth
+living."  Part of what he meant was that the proper role of humans is to
+think, just as the proper role of anteaters is to poke their noses
+into anthills.A lot of ancient philosophy had the quality — and I
+don't mean this in an insulting way — of the kind of conversations
+freshmen have late at night in common rooms:
+
+What is our purpose?  Well, we humans are
+as conspicuously different from other animals as the ant...</description>
+      <guid isPermaLink="false">https://paulgraham.com/randomness.html</guid>
+      <pubDate>Sat, 01 Apr 2006 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Hardest Lessons for Startups to Learn</title>
+      <link>https://paulgraham.com/startuplessons.html</link>
+      <description>(This essay is derived from a talk at the 2006 
+Startup School.)The startups we've funded so far are pretty quick, but they seem
+quicker to learn some lessons than others.  I think it's because
+some things about startups are kind of counterintuitive.We've now 
+invested 
+in enough companies that I've learned a trick
+for determining which points are the counterintuitive ones:
+they're the ones I have to keep repeating.So I'm going to number these points, and maybe with future startups
+I'll be able ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/startuplessons.html</guid>
+      <pubDate>Sat, 01 Apr 2006 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Be Silicon Valley</title>
+      <link>https://paulgraham.com/siliconvalley.html</link>
+      <description>(This essay is derived from a keynote at Xtech.)Could you reproduce Silicon Valley elsewhere, or is there something
+unique about it?It wouldn't be surprising if it were hard to reproduce in other
+countries, because you couldn't reproduce it in most of the US
+either.  What does it take to make a silicon valley even here?What it takes is the right people.  If you could get the right ten
+thousand people to move from Silicon Valley to Buffalo, Buffalo
+would become Silicon Valley.  
+[1]That's a strik...</description>
+      <guid isPermaLink="false">https://paulgraham.com/siliconvalley.html</guid>
+      <pubDate>Mon, 01 May 2006 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why Startups Condense in America</title>
+      <link>https://paulgraham.com/america.html</link>
+      <description>(This essay is derived from a keynote at Xtech.)Startups happen in clusters.  There are a lot of them in Silicon
+Valley and Boston, and few in Chicago or Miami.  A country that
+wants startups will probably also have to reproduce whatever makes
+these clusters form.I've claimed that the recipe is a
+great university near a town smart
+people like.  If you set up those conditions within the US, startups
+will form as inevitably as water droplets condense on a cold piece
+of metal.  But when I consider ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/america.html</guid>
+      <pubDate>Mon, 01 May 2006 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Power of the Marginal</title>
+      <link>https://paulgraham.com/marginal.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+June 2006(This essay is derived from talks at Usenix 2006 and
+Railsconf 2006.)A couple years ago my friend Trevor and I went to look at the Apple
+garage.  As we stood there, he said that as a kid growing up in
+Saskatchewan he'd been amazed at the dedication Jobs and Wozniak
+must have had to work in a garage."Those guys must have been
+freezing!"That's one of California's hidden advantages: the mild climate means
+there's lots of marginal sp...</description>
+      <guid isPermaLink="false">https://paulgraham.com/marginal.html</guid>
+      <pubDate>Thu, 01 Jun 2006 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Island Test</title>
+      <link>https://paulgraham.com/island.html</link>
+      <description>I've discovered a handy test for figuring out what you're addicted
+to.  Imagine you were going to spend the weekend at a friend's house
+on a little island off the coast of Maine.  There are no shops on
+the island and you won't be able to leave while you're there.  Also,
+you've never been to this house before, so you can't assume it will
+have more than any house might.What, besides clothes and toiletries, do you make a point of packing?
+That's what you're addicted to.  For example, if you find yo...</description>
+      <guid isPermaLink="false">https://paulgraham.com/island.html</guid>
+      <pubDate>Sat, 01 Jul 2006 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Copy What You Like</title>
+      <link>https://paulgraham.com/copy.html</link>
+      <description>When I was in high school I spent a lot of time imitating bad
+writers.  What we studied in English classes was mostly fiction,
+so I assumed that was the highest form of writing.  Mistake number
+one.  The stories that seemed to be most admired were ones in which
+people suffered in complicated ways.  Anything funny or
+gripping was ipso facto suspect, unless it was old enough to be hard to
+understand, like Shakespeare or Chaucer.  Mistake number two.  The
+ideal medium seemed the short story, which ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/copy.html</guid>
+      <pubDate>Sat, 01 Jul 2006 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Present to Investors</title>
+      <link>https://paulgraham.com/investors.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+August 2006, rev. April 2007, September 2010In a few days it will be Demo Day, when the startups we funded
+this summer present to investors.  Y Combinator funds startups twice
+a year, in January and June.  Ten weeks later we invite all the
+investors we know to hear them present what they've built so far.Ten weeks is not much time.  The average startup probably doesn't
+have much to show for itself after ten weeks.  But the average
+startup ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/investors.html</guid>
+      <pubDate>Sun, 01 Apr 2007 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Student's Guide to Startups</title>
+      <link>https://paulgraham.com/mit.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+October 2006(This essay is derived from a talk at MIT.)Till recently graduating seniors had two choices: get a job or go
+to grad school.  I think there will increasingly be a third option:
+to start your own startup.  But how common will that be?I'm sure the default will always be to get a job, but starting a
+startup could well become as popular as grad school.  In the late
+90s my professor friends used to complain that they couldn't get
+g...</description>
+      <guid isPermaLink="false">https://paulgraham.com/mit.html</guid>
+      <pubDate>Sun, 01 Oct 2006 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The 18 Mistakes That Kill Startups</title>
+      <link>https://paulgraham.com/startupmistakes.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+October 2006In the Q &amp; A period after a recent talk, someone asked what made
+startups fail.  After standing there gaping for a few seconds I
+realized this was kind of a trick question.  It's equivalent to
+asking how to make a startup succeed — if you avoid every cause of
+failure, you succeed — and that's too big a question to answer on
+the fly.Afterwards I realized it could be helpful to look at the problem
+from this direction.  If you ha...</description>
+      <guid isPermaLink="false">https://paulgraham.com/startupmistakes.html</guid>
+      <pubDate>Sun, 01 Oct 2006 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Art Can Be Good</title>
+      <link>https://paulgraham.com/goodart.html</link>
+      <description>I grew up believing that taste is just a matter of personal preference.
+Each person has things they like, but no one's preferences are any
+better than anyone else's.  There is no such thing as good taste.Like a lot of things I grew up believing, this turns out to be
+false, and I'm going to try to explain why.One problem with saying there's no such thing as good taste is that
+it also means there's no such thing as good art.  If there were
+good art, then people who liked it would have better taste...</description>
+      <guid isPermaLink="false">https://paulgraham.com/goodart.html</guid>
+      <pubDate>Fri, 01 Dec 2006 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Learning from Founders</title>
+      <link>https://paulgraham.com/foundersatwork.html</link>
+      <description>(Foreword to Jessica Livingston's 
+Founders at Work.)Apparently sprinters reach their highest speed right out of the
+blocks, and spend the rest of the race slowing down.  The winners
+slow down the least.  It's that way with most startups too.  The
+earliest phase is usually the most productive.  That's when they
+have the really big ideas.  Imagine what Apple was like when 100%
+of its employees were either Steve Jobs or Steve Wozniak.The striking thing about this phase is that it's completely diff...</description>
+      <guid isPermaLink="false">https://paulgraham.com/foundersatwork.html</guid>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Is It Worth Being Wise?</title>
+      <link>https://paulgraham.com/wisdom.html</link>
+      <description>A few days ago I finally figured out something I've wondered about
+for 25 years: the relationship between wisdom and intelligence.
+Anyone can see they're not the same by the number of people who are
+smart, but not very wise.  And yet intelligence and wisdom do seem
+related.  How?What is wisdom?  I'd say it's knowing what to do in a lot of
+situations.  I'm not trying to make a deep point here about the
+true nature of wisdom, just to figure out how we use the word.  A
+wise person is someone who us...</description>
+      <guid isPermaLink="false">https://paulgraham.com/wisdom.html</guid>
+      <pubDate>Thu, 01 Feb 2007 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why to Not Not Start a Startup</title>
+      <link>https://paulgraham.com/notnot.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+March 2007(This essay is derived from talks at the 2007 
+Startup School and the Berkeley CSUA.)We've now been doing Y Combinator long enough to have some data
+about success rates.  Our first batch, in the summer of 2005, had
+eight startups in it.  Of those eight, it now looks as if at least
+four succeeded.  Three have been acquired: 
+Reddit was a merger of
+two, Reddit and Infogami, and a third was acquired that we can't
+talk about yet.  A...</description>
+      <guid isPermaLink="false">https://paulgraham.com/notnot.html</guid>
+      <pubDate>Thu, 01 Mar 2007 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft is Dead</title>
+      <link>https://paulgraham.com/microsoft.html</link>
+      <description>A few days ago I suddenly realized Microsoft was dead.  I was talking
+to a young startup founder about how Google was different from
+Yahoo.  I said that Yahoo had been warped from the start by
+their fear of Microsoft.  That was why they'd positioned themselves
+as a "media company" instead of a technology company.  Then I looked
+at his face and realized he didn't understand.  It was as if I'd
+told him how much girls liked Barry Manilow in the mid
+80s.  Barry who?Microsoft?  He didn't say anything...</description>
+      <guid isPermaLink="false">https://paulgraham.com/microsoft.html</guid>
+      <pubDate>Sun, 01 Apr 2007 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Two Kinds of Judgement</title>
+      <link>https://paulgraham.com/judgement.html</link>
+      <description>There are two different ways people judge you.  Sometimes judging
+you correctly is the end goal.  But there's a second much more
+common type of judgement where it isn't.  We tend to regard all
+judgements of us as the first type.  We'd probably be happier if
+we realized which are and which aren't.The first type of judgement, the type where judging you is the end
+goal, include court cases, grades in classes, and most competitions.
+Such judgements can of course be mistaken, but because the goal is
+...</description>
+      <guid isPermaLink="false">https://paulgraham.com/judgement.html</guid>
+      <pubDate>Sun, 01 Apr 2007 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Hacker's Guide to Investors</title>
+      <link>https://paulgraham.com/guidetoinvestors.html</link>
+      <description>(This essay is derived from a keynote talk at the 2007 ASES Summit
+at Stanford.)The world of investors is a foreign one to most hackers—partly
+because investors are so unlike hackers, and partly because they
+tend to operate in secret.  I've been dealing with this world for
+many years, both as a founder and an investor, and I still don't
+fully understand it.In this essay I'm going to list some of the more surprising things
+I've learned about investors.  Some I only learned in the past year.Teachi...</description>
+      <guid isPermaLink="false">https://paulgraham.com/guidetoinvestors.html</guid>
+      <pubDate>Sun, 01 Apr 2007 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>An Alternative Theory of Unions</title>
+      <link>https://paulgraham.com/unions.html</link>
+      <description>People who worry about the increasing gap between rich and poor
+generally look back on the mid twentieth century as a golden age.
+In those days we had a large number of high-paying union manufacturing
+jobs that boosted the median income.  I wouldn't quite call the
+high-paying union job a myth, but I think people who dwell on it
+are reading too much into it.Oddly enough, it was working with startups that made me realize
+where the high-paying union job came from.  In a rapidly growing
+market, you ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/unions.html</guid>
+      <pubDate>Tue, 01 May 2007 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Equity Equation</title>
+      <link>https://paulgraham.com/equity.html</link>
+      <description>An investor wants to give you money for a certain percentage of
+your startup.  Should you take it?  You're about to hire your first
+employee.  How much stock should you give him?These are some of the hardest questions founders face.  And yet
+both have the same answer:1/(1 - n)Whenever you're trading stock in your company for anything, whether
+it's money or an employee or a deal with another company, the test
+for whether to do it is the same.  You should give up n% of your
+company if what you tra...</description>
+      <guid isPermaLink="false">https://paulgraham.com/equity.html</guid>
+      <pubDate>Sun, 01 Jul 2007 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Stuff</title>
+      <link>https://paulgraham.com/stuff.html</link>
+      <description>I have too much stuff.  Most people in America do.  In fact, the
+poorer people are, the more stuff they seem to have.  Hardly anyone
+is so poor that they can't afford a front yard full of old cars.It wasn't always this way.  Stuff used to be rare and valuable.
+You can still see evidence of that if you look for it.  For example,
+in my house in Cambridge, which was built in 1876, the bedrooms
+don't have closets.  In those days people's stuff fit in a chest
+of drawers.  Even as recently as a few de...</description>
+      <guid isPermaLink="false">https://paulgraham.com/stuff.html</guid>
+      <pubDate>Sun, 01 Jul 2007 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Holding a Program in One's Head</title>
+      <link>https://paulgraham.com/head.html</link>
+      <description>A good programmer working intensively on his own code can hold it
+in his mind the way a mathematician holds a problem he's working
+on.  Mathematicians don't answer questions by working them out on
+paper the way schoolchildren are taught to.  They do more in their
+heads: they try to understand a problem space well enough that they
+can walk around it the way you can walk around the memory of the
+house you grew up in.  At its best programming is the same.  You
+hold the whole program in your head, a...</description>
+      <guid isPermaLink="false">https://paulgraham.com/head.html</guid>
+      <pubDate>Wed, 01 Aug 2007 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Not to Die</title>
+      <link>https://paulgraham.com/die.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+August 2007(This is a talk I gave at the last 
+Y Combinator dinner of the summer. 
+Usually we don't have a speaker at the last dinner; it's more of
+a party.  But it seemed worth spoiling the atmosphere if I could
+save some of the startups from
+preventable deaths.  So at the last minute I cooked up this rather
+grim talk.  I didn't mean this as an essay; I wrote it down
+because I only had two hours before dinner and think fastest while
+writ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/die.html</guid>
+      <pubDate>Wed, 01 Aug 2007 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>News from the Front</title>
+      <link>https://paulgraham.com/colleges.html</link>
+      <description>A few weeks ago I had a thought so heretical that it really surprised
+me. It may not matter all that much where you go to college.For me, as for a lot of middle class kids, getting into a good
+college was more or less the meaning of life when I was growing up.
+What was I?  A student.  To do that well meant to get good grades.
+Why did one have to get good grades?  To get into a good college.
+And why did one want to do that?  There seemed to be several reasons:
+you'd learn more, get better jobs, m...</description>
+      <guid isPermaLink="false">https://paulgraham.com/colleges.html</guid>
+      <pubDate>Sat, 01 Sep 2007 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Do Philosophy</title>
+      <link>https://paulgraham.com/philosophy.html</link>
+      <description>In high school I decided I was going to study philosophy in college.
+I had several motives, some more honorable than others.  One of the
+less honorable was to shock people.  College was regarded as job
+training where I grew up, so studying philosophy seemed an impressively
+impractical thing to do.  Sort of like slashing holes in your clothes
+or putting a safety pin through your ear, which were other forms
+of impressive impracticality then just coming into fashion.But I had some more honest motiv...</description>
+      <guid isPermaLink="false">https://paulgraham.com/philosophy.html</guid>
+      <pubDate>Sat, 01 Sep 2007 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Future of Web Startups</title>
+      <link>https://paulgraham.com/webstartups.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+October 2007(This essay is derived from a keynote at FOWA in October 2007.)There's something interesting happening right now.  Startups are
+undergoing the same transformation that technology does when it becomes
+cheaper.It's a pattern we see over and over in technology.  Initially
+there's some device that's very expensive and made
+in small quantities.  Then someone discovers how to make them cheaply; 
+many more get built; and as a result ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/webstartups.html</guid>
+      <pubDate>Mon, 01 Oct 2007 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why to Move to a Startup Hub</title>
+      <link>https://paulgraham.com/startuphubs.html</link>
+      <description>After the last 
+talk I gave, one of the organizers 
+got up on the
+stage to deliver an impromptu rebuttal.  That never happened before.
+I only heard the first few sentences, but that was enough to tell
+what I said that upset him: that startups would do better if they
+moved to Silicon Valley.This conference was in London, and most of the audience seemed to
+be from the UK.  So saying startups should move to Silicon Valley
+seemed like a nationalistic remark: an obnoxious American telling
+them that i...</description>
+      <guid isPermaLink="false">https://paulgraham.com/startuphubs.html</guid>
+      <pubDate>Mon, 01 Oct 2007 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Six Principles for Making New Things</title>
+      <link>https://paulgraham.com/newthings.html</link>
+      <description>The fiery reaction to the release of Arc had
+an unexpected consequence: it made me realize I had a design
+philosophy.  The main complaint of the more articulate critics was
+that Arc seemed so flimsy. After years of working on it, all I had
+to show for myself were a few thousand lines of macros?  Why hadn't
+I worked on more substantial problems?As I was mulling over these remarks it struck me how familiar they
+seemed.  This was exactly the kind of thing people said at first
+about Viaweb, and Y Co...</description>
+      <guid isPermaLink="false">https://paulgraham.com/newthings.html</guid>
+      <pubDate>Fri, 01 Feb 2008 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Trolls</title>
+      <link>https://paulgraham.com/trolls.html</link>
+      <description>A user on Hacker News recently posted a
+comment
+that set me thinking:
+
+  Something about hacker culture that never really set well with
+  me was this  the nastiness. ... I just don't understand why people
+  troll like they do.
+
+I've thought a lot over the last couple years about the problem of
+trolls.  It's an old one, as old as forums, but
+we're still just learning what the causes are and how to address
+them.There are two senses of the word "troll."  In the original sense
+it meant someone, usu...</description>
+      <guid isPermaLink="false">https://paulgraham.com/trolls.html</guid>
+      <pubDate>Fri, 01 Feb 2008 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A New Venture Animal</title>
+      <link>https://paulgraham.com/ycombinator.html</link>
+      <description>, rev May 2013(This essay grew out of something I wrote for myself to figure
+out what we do.  Even though Y Combinator is now 3 years old, we're still
+trying to understand its implications.)
+I was annoyed recently to read a description of Y Combinator that
+said "Y Combinator does seed funding for startups."  What was
+especially annoying about it was that I wrote it.  This doesn't
+really convey what we do.  And the reason it's inaccurate is that,
+paradoxically, funding very early stage startups i...</description>
+      <guid isPermaLink="false">https://paulgraham.com/ycombinator.html</guid>
+      <pubDate>Sat, 01 Mar 2008 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>You Weren't Meant to Have a Boss</title>
+      <link>https://paulgraham.com/boss.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+March 2008, rev. June 2008Technology tends to separate normal from natural.  Our bodies
+weren't designed to eat the foods that people in rich countries eat, or
+to get so little exercise.  
+There may be a similar problem with the way we work: 
+a normal job may be as bad for us intellectually as white flour
+or sugar is for us physically.I began to suspect this after spending several years working 
+with startup founders.  I've now worked wit...</description>
+      <guid isPermaLink="false">https://paulgraham.com/boss.html</guid>
+      <pubDate>Sat, 01 Mar 2008 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Disagree</title>
+      <link>https://paulgraham.com/disagree.html</link>
+      <description>The web is turning writing into a conversation.  Twenty years ago,
+writers wrote and readers read.  The web lets readers respond, and
+increasingly they do—in comment threads, on forums, and in their
+own blog posts.Many who respond to something disagree with it.  That's to be
+expected.  Agreeing tends to motivate people less than disagreeing.
+And when you agree there's less to say.  You could expand on something
+the author said, but he has probably already explored the
+most interesting implicatio...</description>
+      <guid isPermaLink="false">https://paulgraham.com/disagree.html</guid>
+      <pubDate>Sat, 01 Mar 2008 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Some Heroes</title>
+      <link>https://paulgraham.com/heroes.html</link>
+      <description>There are some topics I save up because they'll be so much fun to
+write about.  This is one of them: a list of my heroes.I'm not claiming this is a list of the n most admirable people.
+Who could make such a list, even if they wanted to?Einstein isn't on the list, for example, even though he probably
+deserves to be on any shortlist of admirable people.  I once asked
+a physicist friend if Einstein was really as smart as his fame
+implies, and she said that yes, he was.  So why isn't he on the
+list?...</description>
+      <guid isPermaLink="false">https://paulgraham.com/heroes.html</guid>
+      <pubDate>Tue, 01 Apr 2008 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why There Aren't More Googles</title>
+      <link>https://paulgraham.com/googles.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+April 2008Umair Haque 
+wrote recently that the reason there aren't more Googles is
+that most startups get bought before they can change the world.
+
+  Google, despite serious interest from Microsoft and Yahoo—what
+  must have seemed like lucrative interest at the time—didn't
+  sell out. Google might simply have been nothing but Yahoo's or
+  MSN's search box.Why isn't it? Because Google had a deeply felt sense of purpose:
+  a conviction to ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/googles.html</guid>
+      <pubDate>Tue, 01 Apr 2008 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Be Good</title>
+      <link>https://paulgraham.com/good.html</link>
+      <description>(This essay is derived from a talk at the 2008 Startup School.)About a month after we started Y Combinator we came up with the
+phrase that became our motto: Make something people want.  We've
+learned a lot since then, but if I were choosing now that's still
+the one I'd pick.Another thing we tell founders is not to worry too much about the
+business model, at least at first.  Not because making money is
+unimportant, but because it's so much easier than building something
+great.A couple weeks ago I...</description>
+      <guid isPermaLink="false">https://paulgraham.com/good.html</guid>
+      <pubDate>Tue, 01 Apr 2008 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lies We Tell Kids</title>
+      <link>https://paulgraham.com/lies.html</link>
+      <description>Adults lie constantly to kids.  I'm not saying we should stop, but
+I think we should at least examine which lies we tell and why.There may also be a benefit to us.  We were all lied to as kids,
+and some of the lies we were told still affect us.  So by studying
+the ways adults lie to kids, we may be able to clear our heads of
+lies we were told.I'm using the word "lie" in a very general sense: not just overt
+falsehoods, but also all the more subtle ways we mislead kids.
+Though "lie" has negative c...</description>
+      <guid isPermaLink="false">https://paulgraham.com/lies.html</guid>
+      <pubDate>Thu, 01 May 2008 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Disconnecting Distraction</title>
+      <link>https://paulgraham.com/distraction.html</link>
+      <description>Note: The strategy described at the end of this essay didn't work.
+It would work for a while, and then I'd gradually find myself
+using the Internet on my work computer.  I'm trying other
+strategies now, but I think this time I'll wait till I'm sure
+they work before writing about them.May 2008Procrastination feeds on distractions.  Most people find it
+uncomfortable just to sit and do nothing; you avoid work by doing
+something else.So one way to beat procrastination is to starve it of distractions...</description>
+      <guid isPermaLink="false">https://paulgraham.com/distraction.html</guid>
+      <pubDate>Thu, 01 May 2008 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cities and Ambition</title>
+      <link>https://paulgraham.com/cities.html</link>
+      <description>Great cities attract ambitious people.  You can sense it when you
+walk around one.  In a hundred subtle ways, the city sends you a
+message: you could do more; you should try harder.The surprising thing is how different these messages can be.  New
+York tells you, above all: you should make more money.  There are
+other messages too, of course.  You should be hipper.  You should
+be better looking.  But the clearest message is that you should be
+richer.What I like about Boston (or rather Cambridge) ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/cities.html</guid>
+      <pubDate>Thu, 01 May 2008 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Pooled-Risk Company Management Company</title>
+      <link>https://paulgraham.com/prcmc.html</link>
+      <description>At this year's startup school, David Heinemeier Hansson gave a
+ talk
+in which he suggested that startup founders
+should do things the old fashioned way.  Instead of hoping to get
+rich by building a valuable company and then selling stock in a
+"liquidity event," founders should start companies that make money
+and live off the revenues.Sounds like a good plan.  Let's think about the optimal way to do
+this.One disadvantage of living off the revenues of your company is that
+you have to keep running ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/prcmc.html</guid>
+      <pubDate>Tue, 01 Jul 2008 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Fundraising Survival Guide</title>
+      <link>https://paulgraham.com/fundraising.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+August 2008Raising money is the second hardest part of starting a startup.
+The hardest part is making something people want: most startups
+that die, die because they didn't do that.  But the second biggest
+cause of death is probably the difficulty of raising money.
+Fundraising is brutal.One reason it's so brutal is simply the brutality of markets.  People
+who've spent most of their lives in schools or big companies may
+not have been expos...</description>
+      <guid isPermaLink="false">https://paulgraham.com/fundraising.html</guid>
+      <pubDate>Fri, 01 Aug 2008 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why to Start a Startup in a Bad Economy</title>
+      <link>https://paulgraham.com/badeconomy.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+October 2008The economic situation is apparently so grim that some experts fear
+we may be in for a stretch as bad as the mid seventies.When Microsoft and Apple were founded.As those examples suggest, a recession may not be such a bad time
+to start a startup.  I'm not claiming it's a particularly good time
+either.  The truth is more boring: the state of the economy doesn't
+matter much either way.If we've learned one thing from funding so m...</description>
+      <guid isPermaLink="false">https://paulgraham.com/badeconomy.html</guid>
+      <pubDate>Wed, 01 Oct 2008 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Other Half of "Artists Ship"</title>
+      <link>https://paulgraham.com/artistsship.html</link>
+      <description>One of the differences between big companies and startups is that
+big companies tend to have developed procedures to protect themselves
+against mistakes.  A startup walks like a toddler, bashing
+into things and falling over all the time.  A big company is more
+deliberate.The gradual accumulation of checks in an organization is a kind of
+learning, based on disasters that have happened to it or others
+like it.  After giving a contract to a supplier who goes bankrupt
+and fails to deliver, for examp...</description>
+      <guid isPermaLink="false">https://paulgraham.com/artistsship.html</guid>
+      <pubDate>Sat, 01 Nov 2008 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The High-Res Society</title>
+      <link>https://paulgraham.com/highres.html</link>
+      <description>For nearly all of history the success of a society was proportionate
+to its ability to assemble large and disciplined organizations.
+Those who bet on economies of scale generally won, which meant the
+largest organizations were the most successful ones.Things have already changed so much that this is hard for us to
+believe, but till just a few decades ago the largest organizations
+tended to be the most progressive.  An ambitious kid graduating
+from college in 1960 wanted to work in the huge, glea...</description>
+      <guid isPermaLink="false">https://paulgraham.com/highres.html</guid>
+      <pubDate>Mon, 01 Dec 2008 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Could VC be a Casualty of the Recession?</title>
+      <link>https://paulgraham.com/divergence.html</link>
+      <description>(I originally wrote this at the request of a company producing
+a report about entrepreneurship.  Unfortunately after reading it
+they decided  it was too controversial to include.)
+VC funding will probably dry up somewhat during the present recession,
+like it usually does in bad times.  But this time the result may
+be different.  This time the number of new startups may not decrease.
+And that could be dangerous for VCs.When VC funding dried up after the Internet Bubble, startups dried
+up too.   T...</description>
+      <guid isPermaLink="false">https://paulgraham.com/divergence.html</guid>
+      <pubDate>Mon, 01 Dec 2008 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>After Credentials</title>
+      <link>https://paulgraham.com/credentials.html</link>
+      <description>A few months ago I read a New York Times article on South
+Korean cram schools that said 
+  Admission to the right university can make or break an ambitious
+  young South Korean.
+ A parent added: 
+  "In our country, college entrance exams determine 70 to 80 percent
+  of a person's future."
+ It was striking how old fashioned this sounded.  And
+yet when I was in high school it wouldn't have seemed too far off
+as a description of the US.  Which means things must have been
+changing here.The course of...</description>
+      <guid isPermaLink="false">https://paulgraham.com/credentials.html</guid>
+      <pubDate>Mon, 01 Dec 2008 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Keep Your Identity Small</title>
+      <link>https://paulgraham.com/identity.html</link>
+      <description>I finally realized today why politics and religion yield such
+uniquely useless discussions.As a rule, any mention of religion on an online forum degenerates
+into a religious argument.  Why?  Why does this happen with religion
+and not with Javascript or baking or other topics people talk about
+on forums?What's different about religion is that people don't feel they need
+to have any particular expertise to have opinions about
+it.  All they need is strongly held beliefs, and anyone can have
+those. ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/identity.html</guid>
+      <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Startups in 13 Sentences</title>
+      <link>https://paulgraham.com/13sentences.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+
+Watch how this essay was
+written.
+
+
+
+
+February 2009One of the things I always tell startups is a principle I learned
+from Paul Buchheit: it's better to make a few people really happy
+than to make a lot of people semi-happy.  I was saying recently to
+a reporter that if I could only tell startups 10 things, this would
+be one of them.  Then I thought: what would the other 9 be?When I made the list there turned out to be 13:
+
+1. Pick good co...</description>
+      <guid isPermaLink="false">https://paulgraham.com/13sentences.html</guid>
+      <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What I've Learned from Hacker News</title>
+      <link>https://paulgraham.com/hackernews.html</link>
+      <description>Hacker News was two years
+old last week.  Initially it was supposed to be a side project—an
+application to sharpen Arc on, and a place for current and future
+Y Combinator founders to exchange news.  It's grown bigger and taken
+up more time than I expected, but I don't regret that because I've
+learned so much from working on it.GrowthWhen we launched in February 2007, weekday traffic was around 1600
+daily uniques.  It's since grown to around 22,000.  This growth
+rate is a bit higher than I'd like...</description>
+      <guid isPermaLink="false">https://paulgraham.com/hackernews.html</guid>
+      <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can You Buy a Silicon Valley?  Maybe.</title>
+      <link>https://paulgraham.com/maybe.html</link>
+      <description>A lot of cities look at Silicon Valley and ask "How could we make
+something like that happen here?"  The 
+organic way to do it is to
+establish a first-rate university in a place where rich people want
+to live. That's how Silicon Valley happened.  But could you shortcut
+the process by funding startups?Possibly. Let's consider what it would take.The first thing to understand is that encouraging startups is a
+different problem from encouraging startups in a particular city.
+The latter is much more ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/maybe.html</guid>
+      <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why TV Lost</title>
+      <link>https://paulgraham.com/convergence.html</link>
+      <description>About twenty years ago people noticed computers and TV were on a
+collision course and started to speculate about what they'd produce
+when they converged.  We now know the answer: computers.  It's clear
+now that even by using the word "convergence" we were giving TV too
+much credit.  This won't be convergence so much as replacement.
+People may still watch things they call "TV shows," but they'll
+watch them mostly on computers.What decided the contest for computers?  Four forces, three of which
+on...</description>
+      <guid isPermaLink="false">https://paulgraham.com/convergence.html</guid>
+      <pubDate>Sun, 01 Mar 2009 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Be an Angel Investor</title>
+      <link>https://paulgraham.com/angelinvesting.html</link>
+      <description>(This essay is derived from a talk at AngelConf.)When we sold our startup in 1998 I thought one day I'd do some angel
+investing.  Seven years later I still hadn't started.  I put it off
+because it seemed mysterious and complicated.   It turns out to be 
+easier than I expected, and also more interesting.The part I thought was hard, the mechanics of investing, really
+isn't. You give a startup money and they give you stock.  You'll
+probably get either preferred stock, which means stock with extra
+r...</description>
+      <guid isPermaLink="false">https://paulgraham.com/angelinvesting.html</guid>
+      <pubDate>Sun, 01 Mar 2009 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Relentlessly Resourceful</title>
+      <link>https://paulgraham.com/relres.html</link>
+      <description>Want to start a startup?  Get funded by&#13;
+Y Combinator.&#13;
+
+
+
+&#13;
+March 2009A couple days ago I finally got being a good startup founder down&#13;
+to two words:  relentlessly resourceful.Till then the best I'd managed was to get the opposite quality down&#13;
+to one: hapless.  Most dictionaries say hapless means unlucky.  But&#13;
+the dictionaries are not doing a very good job.  A team that outplays&#13;
+its opponents but loses because of a bad decision by the referee&#13;
+could be called unlucky, but not hapless.  Hapl...</description>
+      <guid isPermaLink="false">https://paulgraham.com/relres.html</guid>
+      <pubDate>Sun, 01 Mar 2009 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Five Founders</title>
+      <link>https://paulgraham.com/5founders.html</link>
+      <description>Inc recently asked me who I thought were the 5 most
+interesting startup founders of the last 30 years.  How do
+you decide who's the most interesting?  The best test seemed
+to be influence: who are the 5
+who've influenced me most?  Who do I use as examples when I'm
+talking to companies we fund?  Who do I find myself quoting?1. Steve JobsI'd guess Steve is the most influential founder not just for me but
+for most people you could ask.  A lot of startup culture is Apple
+culture.  He was the origina...</description>
+      <guid isPermaLink="false">https://paulgraham.com/5founders.html</guid>
+      <pubDate>Wed, 01 Apr 2009 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Founder Visa</title>
+      <link>https://paulgraham.com/foundervisa.html</link>
+      <description>I usually avoid politics, but since we now seem to have an administration that's open to suggestions, I'm going to risk making one.  The single biggest thing the government could do to increase the number of startups in this country is a policy that would cost nothing: establish a new class of visa for startup founders.The biggest constraint on the number of new startups that get created in the US is not tax policy or employment law or even Sarbanes-Oxley.  It's that we won't let the people who ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/foundervisa.html</guid>
+      <pubDate>Wed, 01 Apr 2009 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why Twitter is a Big Deal</title>
+      <link>https://paulgraham.com/twitter.html</link>
+      <description>Om Malik is the most recent of many people
+to ask why Twitter is such a big deal.The reason is that it's a new messaging 
+protocol, where you don't specify the recipients.
+New protocols are rare.  Or more precisely, new
+protocols that take off are.
+There are only a handful of commonly used ones: TCP/IP 
+(the Internet), SMTP (email), HTTP (the web), and so on.  So any
+new protocol is a big deal.  But Twitter is a protocol owned
+by a private company.  That's even rarer.Curiously, the fact that the...</description>
+      <guid isPermaLink="false">https://paulgraham.com/twitter.html</guid>
+      <pubDate>Wed, 01 Apr 2009 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Local Revolution?</title>
+      <link>https://paulgraham.com/revolution.html</link>
+      <description>Recently I realized I'd been holding two ideas in my head that would explode if combined.The first is that startups may represent a new economic phase, on the scale of the Industrial Revolution. I'm not sure of this, but there seems a decent chance it's true.  People are dramatically more 
+productive as founders or early employees of startups—imagine how much less Larry and Sergey would have achieved if they'd gone to work for a big company—and that scale of improvement can change social customs...</description>
+      <guid isPermaLink="false">https://paulgraham.com/revolution.html</guid>
+      <pubDate>Wed, 01 Apr 2009 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Maker's Schedule, Manager's Schedule</title>
+      <link>https://paulgraham.com/makersschedule.html</link>
+      <description>"...the mere consciousness of an engagement will sometimes worry a whole day." Charles Dickens
+
+
+
+
+July 2009One reason programmers dislike meetings so much is that they're on
+a different type of schedule from other people.  Meetings cost them
+more.There are two types of schedule, which I'll call the manager's
+schedule and the maker's schedule.  The manager's schedule is for
+bosses.  It's embodied in the traditional appointment book, with
+each day cut into one hour intervals.  You can block off ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/makersschedule.html</guid>
+      <pubDate>Wed, 01 Jul 2009 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ramen Profitable</title>
+      <link>https://paulgraham.com/ramenprofitable.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+July 2009Now that the term "ramen profitable" has become widespread, I ought
+to explain precisely what the idea entails.Ramen profitable means a startup makes just enough to pay the
+founders' living expenses.  This is a different form of profitability
+than startups have traditionally aimed for.  Traditional profitability
+means a big bet is finally paying off, whereas the main importance
+of ramen profitability is that it buys you time.
+[1]...</description>
+      <guid isPermaLink="false">https://paulgraham.com/ramenprofitable.html</guid>
+      <pubDate>Wed, 01 Jul 2009 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Trouble with the Segway</title>
+      <link>https://paulgraham.com/segway.html</link>
+      <description>The Segway hasn't delivered on its initial promise, to put it mildly.
+There are several reasons why, but one is that people don't want
+to be seen riding them. Someone riding a Segway looks like a dork.My friend Trevor Blackwell built 
+his own Segway, 
+which we called
+the Segwell. He also built a one-wheeled version, 
+the Eunicycle,
+which looks exactly like a regular unicycle till you realize the
+rider isn't pedaling.  He has ridden them both to downtown Mountain
+View to get coffee.  When he ride...</description>
+      <guid isPermaLink="false">https://paulgraham.com/segway.html</guid>
+      <pubDate>Wed, 01 Jul 2009 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What Kate Saw in Silicon Valley</title>
+      <link>https://paulgraham.com/kate.html</link>
+      <description>Kate Courteau is the architect who designed Y Combinator's office.
+Recently we managed to recruit her to help us run YC when she's not
+busy with architectural projects.  Though she'd heard a lot about
+YC since the beginning, the last 9 months have been a total immersion.I've been around the startup world for so long that it seems normal
+to me, so I was curious to hear what had surprised her most about
+it.  This was her list:1. How many startups fail.Kate knew in principle that startups
+were very...</description>
+      <guid isPermaLink="false">https://paulgraham.com/kate.html</guid>
+      <pubDate>Sat, 01 Aug 2009 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Anatomy of Determination</title>
+      <link>https://paulgraham.com/determination.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+September 2009Like all investors, we spend a lot of time trying to learn how to
+predict which startups will succeed.  We probably spend more time
+thinking about it than most, because we invest the earliest.
+Prediction is usually all we have to rely on.We learned quickly that the most important predictor of success is
+determination.  At first we thought it might be intelligence.
+Everyone likes to believe that's what makes startups succeed....</description>
+      <guid isPermaLink="false">https://paulgraham.com/determination.html</guid>
+      <pubDate>Tue, 01 Sep 2009 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The List of N Things</title>
+      <link>https://paulgraham.com/nthings.html</link>
+      <description>I bet you the current issue of Cosmopolitan has an article
+whose title begins with a number. "7 Things He Won't Tell You about
+Sex," or something like that.  Some popular magazines
+feature articles of this type on the cover of every
+issue.  That can't be happening by accident.  Editors must know
+they attract readers.Why do readers like the list of n things so much?   Mainly because
+it's easier to read than a regular article.  
+[1]
+Structurally, the list of n things is a degenerate case of essay....</description>
+      <guid isPermaLink="false">https://paulgraham.com/nthings.html</guid>
+      <pubDate>Tue, 01 Sep 2009 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Post-Medium Publishing</title>
+      <link>https://paulgraham.com/publishing.html</link>
+      <description>Publishers of all types, from news to music, are unhappy that
+consumers won't pay for content anymore.  At least, that's how they
+see it.In fact consumers never really were paying for content, and publishers
+weren't really selling it either.  If the content was what they
+were selling, why has the price of books or music or movies always
+depended mostly on the format?  Why didn't better content cost more?
+[1]A copy of Time costs $5 for 58 pages, or 8.6 cents a page.  
+The Economist costs $7 for 8...</description>
+      <guid isPermaLink="false">https://paulgraham.com/publishing.html</guid>
+      <pubDate>Tue, 01 Sep 2009 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Persuade xor Discover</title>
+      <link>https://paulgraham.com/discover.html</link>
+      <description>When meeting people you don't know very well, the convention is
+to seem extra friendly.  You smile and say "pleased to meet you,"
+whether you are or not.  There's nothing dishonest about this.
+Everyone knows that these little social lies aren't meant
+to be taken literally, just as everyone knows that 
+"Can you pass the salt?" is only grammatically a question.I'm perfectly willing to smile and say "pleased to meet you"
+when meeting new people.  But there is another set of 
+customs for being ingra...</description>
+      <guid isPermaLink="false">https://paulgraham.com/discover.html</guid>
+      <pubDate>Tue, 01 Sep 2009 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What Startups Are Really Like</title>
+      <link>https://paulgraham.com/really.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+October 2009(This  essay is derived from a talk at the 2009 Startup School.)I wasn't sure what to talk about at Startup School, so I decided
+to ask the founders of the startups we'd funded.  What hadn't I
+written about yet?I'm in the unusual position of being able to test the essays I write
+about startups.  I hope the ones on other topics are right, but I
+have no way to test them.  The ones on startups get tested by about
+70 people every ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/really.html</guid>
+      <pubDate>Thu, 01 Oct 2009 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Apple's Mistake</title>
+      <link>https://paulgraham.com/apple.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+November 2009I don't think Apple realizes how badly the App Store approval process
+is broken.  Or rather, I don't think they realize how much it matters
+that it's broken.The way Apple runs the App Store has harmed their reputation with
+programmers more than anything else they've ever done. 
+Their reputation with programmers used to be great.
+It used to be the most common complaint you heard
+about Apple was that their fans admired them too...</description>
+      <guid isPermaLink="false">https://paulgraham.com/apple.html</guid>
+      <pubDate>Sun, 01 Nov 2009 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Organic Startup Ideas</title>
+      <link>https://paulgraham.com/organic.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+April 2010The best way to come up with startup ideas is to ask yourself the
+question: what do you wish someone would make for you?There are two types of startup ideas: those that grow organically
+out of your own life, and those that you decide, from afar, are
+going to be necessary to some class of users other than you.  Apple
+was the first type.  Apple happened because Steve Wozniak wanted a
+computer.  Unlike most people who wanted comput...</description>
+      <guid isPermaLink="false">https://paulgraham.com/organic.html</guid>
+      <pubDate>Thu, 01 Apr 2010 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Lose Time and Money</title>
+      <link>https://paulgraham.com/selfindulgence.html</link>
+      <description>When we sold our startup in 1998 I suddenly got a lot of money.  I
+now had to think about something I hadn't had to think about before:
+how not to lose it.   I knew it was possible to go from rich to
+poor, just as it was possible to go from poor to rich.  But while
+I'd spent a lot of the past several years studying the paths from
+poor to rich, 
+I knew practically nothing about the paths from rich
+to poor.  Now, in order to avoid them, I had to learn where they
+were.So I started to pay attention ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/selfindulgence.html</guid>
+      <pubDate>Thu, 01 Jul 2010 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Top Idea in Your Mind</title>
+      <link>https://paulgraham.com/top.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+July 2010I realized recently that what one thinks about in the shower in the
+morning is more important than I'd thought.  I knew it was a good
+time to have ideas.  Now I'd go further: now I'd say it's hard to
+do a really good job on anything you don't think about in the shower.Everyone who's worked on difficult problems is probably familiar
+with the phenomenon of working hard to figure something out, failing,
+and then suddenly seeing the ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/top.html</guid>
+      <pubDate>Thu, 01 Jul 2010 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Acceleration of Addictiveness</title>
+      <link>https://paulgraham.com/addiction.html</link>
+      <description>What hard liquor, cigarettes, heroin, and crack have in common is
+that they're all more concentrated forms of less addictive predecessors.
+Most if not all the things we describe as addictive are.  And the
+scary thing is, the process that created them is accelerating.We wouldn't want to stop it.  It's the same process that cures
+diseases: technological progress.  Technological progress means
+making things do more of what we want.  When the thing we want is
+something we want to want, we consider t...</description>
+      <guid isPermaLink="false">https://paulgraham.com/addiction.html</guid>
+      <pubDate>Thu, 01 Jul 2010 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Future of Startup Funding</title>
+      <link>https://paulgraham.com/future.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+August 2010Two years ago I
+wrote about what I called "a huge, unexploited
+opportunity in startup funding:" the growing disconnect between
+VCs, whose current business model requires them to invest large
+amounts, and a large class of startups that need less than they
+used to.  Increasingly, startups want a couple hundred thousand
+dollars, not a couple million. 
+[1]The opportunity is a lot less unexploited now.  Investors have
+poured into th...</description>
+      <guid isPermaLink="false">https://paulgraham.com/future.html</guid>
+      <pubDate>Sun, 01 Aug 2010 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What Happened to Yahoo</title>
+      <link>https://paulgraham.com/yahoo.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+August 2010When I went to work for Yahoo after they bought our startup in 1998,
+it felt like the center of the world.  It was supposed to be the
+next big thing.  It was supposed to be what Google turned out to
+be.What went wrong?  The problems that hosed Yahoo go back a long time,
+practically to the beginning of the company.  They were already
+very visible when I got there in 1998.  Yahoo had two problems
+Google didn't: easy money, and am...</description>
+      <guid isPermaLink="false">https://paulgraham.com/yahoo.html</guid>
+      <pubDate>Sun, 01 Aug 2010 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>High Resolution Fundraising</title>
+      <link>https://paulgraham.com/hiresfund.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+September 2010The reason startups have been using 
+more convertible notes in angel
+rounds is that they make deals close faster.  By making it easier
+for startups to give different prices to different investors, they
+help them break the sort of deadlock that happens when investors
+all wait to see who else is going to invest.By far the biggest influence on investors' opinions of a startup
+is the opinion of other investors.  There are very, ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/hiresfund.html</guid>
+      <pubDate>Wed, 01 Sep 2010 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Where to See Silicon Valley</title>
+      <link>https://paulgraham.com/seesv.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+October 2010Silicon Valley proper is mostly suburban sprawl.  At first glance
+it doesn't seem there's anything to see.  It's not the sort of place
+that has conspicuous monuments.  But if you look, there are subtle
+signs you're in a place that's different from other places.1. Stanford
+UniversityStanford is a strange place.  Structurally it is to an ordinary
+university what suburbia is to a city.  It's enormously spread out,
+and feels surpr...</description>
+      <guid isPermaLink="false">https://paulgraham.com/seesv.html</guid>
+      <pubDate>Fri, 01 Oct 2010 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The New Funding Landscape</title>
+      <link>https://paulgraham.com/superangels.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+October 2010After barely changing at all for decades, the startup funding
+business is now in what could, at least by comparison, be called
+turmoil.  At Y Combinator we've seen dramatic changes in the funding
+environment for startups.  Fortunately one of them is much higher
+valuations.The trends we've been seeing are probably not YC-specific.  I wish
+I could say they were, but the main cause is probably just that we
+see trends first—partly...</description>
+      <guid isPermaLink="false">https://paulgraham.com/superangels.html</guid>
+      <pubDate>Fri, 01 Oct 2010 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What We Look for in Founders</title>
+      <link>https://paulgraham.com/founders.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+October 2010
+
+(I wrote this for Forbes, who asked me to write something
+about the qualities we look for in founders.  In print they had to cut
+the last item because they didn't have room.)1. DeterminationThis has turned out to be the most important quality in startup
+founders.  We thought when we started Y Combinator that the most
+important quality would be intelligence.  That's the myth in the
+Valley. And certainly you don't want founder...</description>
+      <guid isPermaLink="false">https://paulgraham.com/founders.html</guid>
+      <pubDate>Fri, 01 Oct 2010 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tablets</title>
+      <link>https://paulgraham.com/tablets.html</link>
+      <description>I was thinking recently how inconvenient it was not to have a general
+term for iPhones, iPads, and the corresponding things running
+Android.  The closest to a general term seems to be "mobile devices,"
+but that (a) applies to any mobile phone, and (b) doesn't really
+capture what's distinctive about the iPad.After a few seconds it struck me that what we'll end up calling
+these things is tablets.  The only reason we even consider calling
+them "mobile devices" is that the iPhone preceded the iPad. ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/tablets.html</guid>
+      <pubDate>Wed, 01 Dec 2010 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Founder Control</title>
+      <link>https://paulgraham.com/control.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+December 2010Someone we funded is talking to VCs now, and asked me how common
+it was for a startup's founders to retain control of the board after
+a series A round.  He said VCs told him this almost never happened.Ten years ago that was true.  In the past, founders rarely kept
+control of the board through a series A.  The traditional series A
+board consisted of two founders, two VCs, and one independent member.
+More recently the recipe is...</description>
+      <guid isPermaLink="false">https://paulgraham.com/control.html</guid>
+      <pubDate>Wed, 01 Dec 2010 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Subject: Airbnb</title>
+      <link>https://paulgraham.com/airbnb.html</link>
+      <description>Yesterday Fred Wilson published a remarkable post about missing
+Airbnb.   VCs miss good startups all the time, but it's extraordinarily
+rare for one to talk about it publicly till long afterward.  So
+that post is further evidence what a rare bird Fred is.  He's
+probably the nicest VC I know.Reading Fred's post made me go back and look at the emails I exchanged
+with him at the time, trying to convince him to invest in Airbnb.
+It was quite interesting to read.  You can see Fred's mind at work 
+as ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/airbnb.html</guid>
+      <pubDate>Tue, 01 Mar 2011 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Patent Pledge</title>
+      <link>https://paulgraham.com/patentpledge.html</link>
+      <description>I realized recently that we may be able to solve part of the patent
+problem without waiting for the government.I've never been 100% sure whether patents help or hinder technological
+progress.  When I was a kid I thought they helped.  I thought they
+protected inventors from having their ideas stolen by big companies.
+Maybe that was truer in the past, when more things were physical.
+But regardless of whether patents are in general a good thing, there
+do seem to be bad ways of using them.  And sinc...</description>
+      <guid isPermaLink="false">https://paulgraham.com/patentpledge.html</guid>
+      <pubDate>Mon, 01 Aug 2011 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why Startup Hubs Work</title>
+      <link>https://paulgraham.com/hubs.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+October 2011If you look at a list of US cities sorted by population, the number
+of successful startups per capita varies by orders of magnitude.
+Somehow it's as if most places were sprayed with startupicide.I wondered about this for years.  I could see the average town was
+like a roach motel for startup ambitions: smart, ambitious people
+went in, but no startups came out.  But I was never able to figure
+out exactly what happened inside th...</description>
+      <guid isPermaLink="false">https://paulgraham.com/hubs.html</guid>
+      <pubDate>Sat, 01 Oct 2011 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Snapshot: Viaweb, June 1998</title>
+      <link>https://paulgraham.com/vw.html</link>
+      <description>A few hours before the Yahoo acquisition was announced in June 1998
+I took a snapshot of Viaweb's
+site.  I thought it might be interesting to look at one day.The first thing one notices is is how tiny the pages are.  Screens
+were a lot smaller in 1998.  If I remember correctly, our frontpage
+used to just fit in the size window people typically used then.Browsers then (IE 6 was still 3 years in the future) had few fonts
+and they weren't antialiased.  If you wanted to make pages that
+looked good, ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/vw.html</guid>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Schlep Blindness</title>
+      <link>https://paulgraham.com/schlep.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+January 2012There are great startup ideas lying around unexploited right under
+our noses.  One reason we don't see them is a phenomenon I call
+schlep blindness.  Schlep was originally a Yiddish word but has
+passed into general use in the US.  It means a tedious, unpleasant
+task.No one likes schleps, but hackers especially dislike them.  
+Most hackers who start startups wish they could do it by just writing
+some clever software, putting it...</description>
+      <guid isPermaLink="false">https://paulgraham.com/schlep.html</guid>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Word to the Resourceful</title>
+      <link>https://paulgraham.com/word.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+January 2012A year ago I noticed a pattern in the least successful startups
+we'd funded: they all seemed hard to talk to.  It felt as if there
+was some kind of wall between us.  I could never quite tell if they
+understood what I was saying.This caught my attention because earlier we'd noticed a pattern
+among the most successful startups, and it seemed to hinge on a
+different quality.  We found the startups that did best were the
+ones with...</description>
+      <guid isPermaLink="false">https://paulgraham.com/word.html</guid>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Frighteningly Ambitious Startup Ideas</title>
+      <link>https://paulgraham.com/ambitious.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+March 2012One of the more surprising things I've noticed while working
+on Y Combinator is how frightening the most ambitious startup
+ideas are.  In this essay I'm going to demonstrate
+this phenomenon by describing some.  Any one of them
+could make you a billionaire.  That might sound like an attractive
+prospect, and yet when I describe these ideas you may
+notice you find yourself shrinking away from them.Don't worry, it's not a sign of we...</description>
+      <guid isPermaLink="false">https://paulgraham.com/ambitious.html</guid>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Defining Property</title>
+      <link>https://paulgraham.com/property.html</link>
+      <description>As a child I read a book of stories about a famous judge in eighteenth
+century Japan called Ooka Tadasuke.  One of the cases he decided
+was brought by the owner of a food shop.  A poor student who could
+afford only rice was eating his rice while enjoying the delicious
+cooking smells coming from the food shop.  The owner wanted the
+student to pay for the smells he was enjoying.The student was
+stealing his smells!This story often comes to mind when I hear the RIAA and MPAA accusing
+people of steal...</description>
+      <guid isPermaLink="false">https://paulgraham.com/property.html</guid>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Y Combinator Started</title>
+      <link>https://paulgraham.com/ycstart.html</link>
+      <description>Y Combinator's 7th birthday was March 11.   As usual we were so
+busy we didn't notice till a few days after.  I don't think we've
+ever managed to remember our birthday on our birthday.
+
+On March 11 2005, Jessica and I were walking home from dinner in
+Harvard Square.  Jessica was working at an investment bank at the
+time, but she didn't like it much, so she had interviewed for a job
+as director of marketing at a Boston VC fund.  The VC fund was doing
+what now seems a comically familiar thing for ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/ycstart.html</guid>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Writing and Speaking</title>
+      <link>https://paulgraham.com/speak.html</link>
+      <description>I'm not a very good speaker.  I say "um" a lot. Sometimes I have
+to pause when I lose my train of thought.  I wish I were a better
+speaker.  But I don't wish I were a better speaker like I wish I
+were a better writer.  What I really want is to have good ideas,
+and that's a much bigger part of being a good writer than being a
+good speaker.Having good ideas is most of writing well.  If you know what you're
+talking about, you can say it in the plainest words and you'll be
+perceived as having a good...</description>
+      <guid isPermaLink="false">https://paulgraham.com/speak.html</guid>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Top of My Todo List</title>
+      <link>https://paulgraham.com/todo.html</link>
+      <description>A palliative care nurse called Bronnie Ware made a list of the
+biggest regrets
+of the dying.  Her list seems plausible.  I could see
+myself — can see myself — making at least 4 of these
+5 mistakes.If you had to compress them into a single piece of advice, it might
+be: don't be a cog.  The 5 regrets paint a portrait of post-industrial
+man, who shrinks himself into a shape that fits his circumstances,
+then turns dutifully till he stops.The alarming thing is, the mistakes that produce these regrets...</description>
+      <guid isPermaLink="false">https://paulgraham.com/todo.html</guid>
+      <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Black Swan Farming</title>
+      <link>https://paulgraham.com/swan.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+September 2012I've done several types of work over the years but I don't know
+another as counterintuitive as startup investing.The two most important things to understand about startup investing,
+as a business, are (1) that effectively all the returns are
+concentrated in a few big winners, and (2) that the best ideas look
+initially like bad ideas.The first rule I knew intellectually, but didn't really grasp till
+it happened to us.  The to...</description>
+      <guid isPermaLink="false">https://paulgraham.com/swan.html</guid>
+      <pubDate>Sat, 01 Sep 2012 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Startup = Growth</title>
+      <link>https://paulgraham.com/growth.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+September 2012A startup is a company designed to grow fast.  Being newly founded
+does not in itself make a company a startup.  Nor is it necessary
+for a startup to work on technology, or take venture funding, or
+have some sort of "exit."  The only essential thing is growth.
+Everything else we associate with startups follows from growth.If you want to start one it's important to understand that. Startups
+are so hard that you can't be point...</description>
+      <guid isPermaLink="false">https://paulgraham.com/growth.html</guid>
+      <pubDate>Sat, 01 Sep 2012 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Hardware Renaissance</title>
+      <link>https://paulgraham.com/hw.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+October 2012One advantage of Y Combinator's early, broad focus is that we
+see trends before most other people.  And one of the most conspicuous
+trends in the last batch was the large number of hardware startups.
+Out of 84 companies, 7 were making hardware.  On the whole
+they've done better than the companies that weren't.They've faced resistance from investors of course.  Investors have
+a deep-seated bias against hardware.  But investors'...</description>
+      <guid isPermaLink="false">https://paulgraham.com/hw.html</guid>
+      <pubDate>Mon, 01 Oct 2012 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Get Startup Ideas</title>
+      <link>https://paulgraham.com/startupideas.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+November 2012The way to get startup ideas is not to try to think of startup
+ideas.  It's to look for problems, preferably problems you have
+yourself.The very best startup ideas tend to have three things in common:
+they're something the founders themselves want, that they themselves
+can build, and that few others realize are worth doing.  Microsoft,
+Apple, Yahoo, Google, and Facebook all began this way.
+ProblemsWhy is it so important to wo...</description>
+      <guid isPermaLink="false">https://paulgraham.com/startupideas.html</guid>
+      <pubDate>Thu, 01 Nov 2012 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Startup Investing Trends</title>
+      <link>https://paulgraham.com/invtrend.html</link>
+      <description>(This talk was written for an audience of investors.)Y Combinator has now funded 564 startups including the current
+batch, which has 53.  The total valuation of the 287 that have
+valuations (either by raising an equity round, getting acquired,
+or dying) is about $11.7 billion, and the 511 prior to the current
+batch have collectively raised about $1.7 billion.
+[1]As usual those numbers are dominated by a few big winners.  The top
+10 startups account for 8.6 of that 11.7 billion.  But there is a
+p...</description>
+      <guid isPermaLink="false">https://paulgraham.com/invtrend.html</guid>
+      <pubDate>Sat, 01 Jun 2013 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Do Things that Don't Scale</title>
+      <link>https://paulgraham.com/ds.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+July 2013One of the most common types of advice we give at Y Combinator is
+to do things that don't scale.  A lot of would-be founders believe
+that startups either take off or don't.  You build something, make
+it available, and if you've made a better mousetrap, people beat a
+path to your door as promised.  Or they don't, in which case the
+market must not exist.
+[1]Actually startups take off because the founders make them take off.
+There m...</description>
+      <guid isPermaLink="false">https://paulgraham.com/ds.html</guid>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Convince Investors</title>
+      <link>https://paulgraham.com/convince.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+August 2013When people hurt themselves lifting heavy things, it's usually
+because they try to lift with their back.  The right way to lift
+heavy things is to let your legs do the work.  Inexperienced founders
+make the same mistake when trying to convince investors.  They try
+to convince with their pitch.  Most would be better off if they let
+their startup do the work — if they started by understanding why
+their startup is worth investing ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/convince.html</guid>
+      <pubDate>Thu, 01 Aug 2013 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Investor Herd Dynamics</title>
+      <link>https://paulgraham.com/herd.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+August 2013The biggest component in most investors' opinion of you is the
+opinion of other investors.  Which is of course a recipe for
+exponential growth.  When one investor wants to invest in you, that
+makes other investors want to, which makes others want to, and so
+on.Sometimes inexperienced founders mistakenly conclude that manipulating
+these forces is the essence of fundraising.  They hear stories about
+stampedes to invest in success...</description>
+      <guid isPermaLink="false">https://paulgraham.com/herd.html</guid>
+      <pubDate>Thu, 01 Aug 2013 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Raise Money</title>
+      <link>https://paulgraham.com/fr.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+September 2013Most startups that raise money do it more than once.  A typical
+trajectory might be (1) to get started with a few tens of thousands
+from something like Y Combinator or individual angels, then 
+(2) raise a few hundred thousand to a few million to build the company,
+and then (3) once the company is clearly succeeding, raise one or
+more later rounds to accelerate growth.Reality can be messier.  Some companies raise money twice ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/fr.html</guid>
+      <pubDate>Sun, 01 Sep 2013 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Before the Startup</title>
+      <link>https://paulgraham.com/before.html</link>
+      <description>Want to start a startup?  Get funded by
+Y Combinator.
+
+
+
+
+October 2014(This essay is derived from a guest lecture in Sam Altman's startup class at
+Stanford.  It's intended for college students, but much of it is
+applicable to potential founders at other ages.)One of the advantages of having kids is that when you have to give
+advice, you can ask yourself "what would I tell my own kids?"  My
+kids are little, but I can imagine what I'd tell them about startups
+if they were in college, and that's wh...</description>
+      <guid isPermaLink="false">https://paulgraham.com/before.html</guid>
+      <pubDate>Wed, 01 Oct 2014 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mean People Fail</title>
+      <link>https://paulgraham.com/mean.html</link>
+      <description>It struck me recently how few of the most successful people I know
+are mean.  There are exceptions, but remarkably few.Meanness isn't rare.  In fact, one of the things the internet has
+shown us is how mean people can be.  A few decades ago, only famous
+people and professional writers got to publish their opinions.  Now
+everyone can, and we can all see the long tail of
+meanness that had previously been hidden.And yet while there are clearly a lot of mean people out there,
+there are next to none a...</description>
+      <guid isPermaLink="false">https://paulgraham.com/mean.html</guid>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Fatal Pinch</title>
+      <link>https://paulgraham.com/pinch.html</link>
+      <description>Many startups go through a point a few months before they die where
+although they have a significant amount of money in the bank, they're
+also losing a lot each month, and revenue growth is either nonexistent
+or mediocre.  The company has, say, 6 months of runway.  Or to put
+it more brutally, 6 months before they're out of business.  They
+expect to avoid that by raising more from investors.
+[1]That last sentence is the fatal one.There may be nothing founders are so prone to delude themselves
+abo...</description>
+      <guid isPermaLink="false">https://paulgraham.com/pinch.html</guid>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How You Know</title>
+      <link>https://paulgraham.com/know.html</link>
+      <description>I've read Villehardouin's chronicle of the Fourth Crusade at least
+two times, maybe three.  And yet if I had to write down everything
+I remember from it, I doubt it would amount to much more than a
+page.  Multiply this times several hundred, and I get an uneasy
+feeling when I look at my bookshelves. What use is it to read all
+these books if I remember so little from them?A few months ago, as I was reading Constance Reid's excellent
+biography of Hilbert, I figured out if not the answer to this
+qu...</description>
+      <guid isPermaLink="false">https://paulgraham.com/know.html</guid>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Be an Expert in a Changing World</title>
+      <link>https://paulgraham.com/ecw.html</link>
+      <description>If the world were static, we could have monotonically increasing
+confidence in our beliefs.  The more (and more varied) experience
+a belief survived, the less likely it would be false.  Most people
+implicitly believe something like this about their opinions.  And
+they're justified in doing so with opinions about things that don't
+change much, like human nature.  But you can't trust your opinions
+in the same way about things that change, which could include
+practically everything else.When expert...</description>
+      <guid isPermaLink="false">https://paulgraham.com/ecw.html</guid>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Let the Other 95% of Great Programmers In</title>
+      <link>https://paulgraham.com/95.html</link>
+      <description>American technology companies want the government to make immigration
+easier because they say they can't find enough programmers in the
+US.  Anti-immigration people say that instead of letting foreigners
+take these jobs, we should train more Americans to be programmers.
+Who's right?The technology companies are right. What the anti-immigration people
+don't understand is that there is a huge variation in ability between
+competent programmers and exceptional ones, and while you can train
+people to ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/95.html</guid>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Don't Talk to Corp Dev</title>
+      <link>https://paulgraham.com/corpdev.html</link>
+      <description>Corporate Development, aka corp dev, is the group within companies
+that buys other companies. If you're talking to someone from corp
+dev, that's why, whether you realize it yet or not.It's usually a mistake to talk to corp dev unless (a) you want to
+sell your company right now and (b) you're sufficiently likely to
+get an offer at an acceptable price.  In practice that means startups
+should only talk to corp dev when they're either doing really well
+or really badly.  If you're doing really badly,...</description>
+      <guid isPermaLink="false">https://paulgraham.com/corpdev.html</guid>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What Doesn't Seem Like Work?</title>
+      <link>https://paulgraham.com/work.html</link>
+      <description>My father is a mathematician. For most of my childhood he worked
+for Westinghouse, modelling nuclear reactors.He was one of those lucky people who know early on what they want to
+do.  When you talk to him about his childhood, there's a clear
+watershed at about age 12, when he "got interested in maths."He
+grew up in the small Welsh seacoast town of Pwllheli.  As we retraced
+his walk to school on Google Street View, he said that it had been
+nice growing up in the country."Didn't it get boring when...</description>
+      <guid isPermaLink="false">https://paulgraham.com/work.html</guid>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Ronco Principle</title>
+      <link>https://paulgraham.com/ronco.html</link>
+      <description>No one, VC or angel, has invested in more of the top startups than
+Ron Conway.  He knows what happened in every deal in the Valley,
+half the time because he arranged it.And yet he's a super nice guy.  In fact, nice is not the word.
+Ronco is good. I know of zero instances in which he has behaved
+badly.  It's hard even to imagine.When I first came to Silicon Valley I thought "How lucky that someone
+so powerful is so benevolent."  But gradually I realized it wasn't
+luck.  It was by being benevolent...</description>
+      <guid isPermaLink="false">https://paulgraham.com/ronco.html</guid>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What Microsoft Is this the Altair Basic of?</title>
+      <link>https://paulgraham.com/altair.html</link>
+      <description>One of the most valuable exercises you can try if you want to
+understand startups is to look at the most successful companies and
+explain why they were not as lame as they seemed when they first
+launched.  Because they practically all seemed lame at first. Not
+just small, lame.  Not just the first step up a big mountain.  More
+like the first step into a swamp.A Basic interpreter for the Altair?  How could that ever grow into
+a giant company?  People sleeping on airbeds in strangers' apartments?
+...</description>
+      <guid isPermaLink="false">https://paulgraham.com/altair.html</guid>
+      <pubDate>Sun, 01 Feb 2015 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Change Your Name</title>
+      <link>https://paulgraham.com/name.html</link>
+      <description>If you have a US startup called X and you don't have x.com, you
+should probably change your name.The reason is not just that people can't find you.  For companies
+with mobile apps, especially, having the right domain name is not
+as critical as it used to be for getting users.  The problem with
+not having the .com of your name is that it signals weakness.  Unless
+you're so big that your reputation precedes you, a marginal domain
+suggests you're a marginal company.  Whereas
+(as Stripe shows)
+havin...</description>
+      <guid isPermaLink="false">https://paulgraham.com/name.html</guid>
+      <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why It's Safe for Founders to Be Nice</title>
+      <link>https://paulgraham.com/safe.html</link>
+      <description>I recently got an email from a founder that helped me understand
+something important: why it's safe for startup founders to be nice
+people.I grew up with a cartoon idea of a very successful businessman (in
+the cartoon it was always a man): a rapacious, cigar-smoking,
+table-thumping guy in his fifties who wins by exercising power, and
+isn't too fussy about how.  As I've written before, one of
+the things that has surprised me most about startups is 
+how few of
+the most successful founders are like...</description>
+      <guid isPermaLink="false">https://paulgraham.com/safe.html</guid>
+      <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Default Alive or Default Dead?</title>
+      <link>https://paulgraham.com/aord.html</link>
+      <description>When I talk to a startup that's been operating for more than 8 or
+9 months, the first thing I want to know is almost always the same.
+Assuming their expenses remain constant and their revenue growth
+is what it has been over the last several months, do they make it to
+profitability on the money they have left?  Or to put it more
+dramatically, by default do they live or die?The startling thing is how often the founders themselves don't know.
+Half the founders I talk to don't know whether they're d...</description>
+      <guid isPermaLink="false">https://paulgraham.com/aord.html</guid>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Write Like You Talk</title>
+      <link>https://paulgraham.com/talk.html</link>
+      <description>Here's a simple trick for getting more people to read what you
+write: write in spoken language.Something comes over most people when they start writing. They write
+in a different language than they'd use if they were talking to a
+friend. The sentence structure and even the words are different.
+No one uses "pen" as a verb in spoken English. You'd feel like an
+idiot using "pen" instead of "write" in a conversation with a friend.The last straw for me was a sentence I read a couple days ago:
+
+  The ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/talk.html</guid>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Way to Detect Bias</title>
+      <link>https://paulgraham.com/bias.html</link>
+      <description>This will come as a surprise to a lot of people, but in some cases
+it's possible to detect bias in a selection process without knowing
+anything about the applicant pool.  Which is exciting because among
+other things it means third parties can use this technique to detect
+bias whether those doing the selecting want them to or not.You can use this technique whenever (a) you have at least
+a random sample of the applicants that were selected, (b) their
+subsequent performance is measured, and (c) the...</description>
+      <guid isPermaLink="false">https://paulgraham.com/bias.html</guid>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Jessica Livingston</title>
+      <link>https://paulgraham.com/jessica.html</link>
+      <description>A few months ago an article about Y Combinator said that early on
+it had been a "one-man show."  It's sadly common to read that sort
+of thing.  But the problem with that description is not just that
+it's unfair.  It's also misleading.  Much of what's most novel about
+YC is due to Jessica Livingston.  If you don't understand her, you
+don't understand YC.  So let me tell you a little about Jessica.YC had 4 founders.  Jessica and I decided one night to start it,
+and the next day we recruited my fri...</description>
+      <guid isPermaLink="false">https://paulgraham.com/jessica.html</guid>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Refragmentation</title>
+      <link>https://paulgraham.com/re.html</link>
+      <description>One advantage of being old is that you can see change happen in
+your lifetime.  A lot of the change I've seen is fragmentation.  US
+politics is much more polarized than it used to be.  Culturally we
+have ever less common ground. The creative class flocks to a handful
+of happy cities, abandoning the rest.  And increasing economic
+inequality means the spread between rich and poor is growing too.
+I'd like to propose a hypothesis: that all these trends are instances
+of the same phenomenon.  And more...</description>
+      <guid isPermaLink="false">https://paulgraham.com/re.html</guid>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Economic Inequality</title>
+      <link>https://paulgraham.com/ineq.html</link>
+      <description>Since the 1970s, economic inequality in the US has increased
+dramatically. And in particular, the rich have gotten a lot richer.
+Nearly everyone who writes about the topic says that economic inequality
+should be decreased.I'm interested in this question because I was one of the founders of
+a company called Y Combinator that helps people start startups.
+Almost by definition, if a startup succeeds, its founders become
+rich. Which means by helping startup founders I've been helping to
+increase econ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/ineq.html</guid>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Life is Short</title>
+      <link>https://paulgraham.com/vb.html</link>
+      <description>Life is short, as everyone knows. When I was a kid I used to wonder
+about this. Is life actually short, or are we really complaining
+about its finiteness?  Would we be just as likely to feel life was
+short if we lived 10 times as long?Since there didn't seem any way to answer this question, I stopped
+wondering about it.  Then I had kids.  That gave me a way to answer
+the question, and the answer is that life actually is short.Having kids showed me how to convert a continuous quantity, time,
+into...</description>
+      <guid isPermaLink="false">https://paulgraham.com/vb.html</guid>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Make Pittsburgh a Startup Hub</title>
+      <link>https://paulgraham.com/pgh.html</link>
+      <description>(This is a talk I gave at an event called Opt412 in Pittsburgh.
+Much of it will apply to other towns.  But not all, because
+as I say in the talk, Pittsburgh has some important advantages over
+most would-be startup hubs.)What would it take to make Pittsburgh into a startup hub, like
+Silicon Valley?  I understand Pittsburgh pretty well,
+because I grew up here, in Monroeville. And I understand Silicon
+Valley pretty well because that's where I live now.  Could you get
+that kind of startup ecosystem ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/pgh.html</guid>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Risk of Discovery</title>
+      <link>https://paulgraham.com/disc.html</link>
+      <description>Because biographies of famous scientists tend to 
+edit out their mistakes, we underestimate the 
+degree of risk they were willing to take.
+And because anything a famous scientist did that
+wasn't a mistake has probably now become the
+conventional wisdom, those choices don't
+seem risky either.Biographies of Newton, for example, understandably focus
+more on physics than alchemy or theology.
+The impression we get is that his unerring judgment
+led him straight to truths no one else had noticed.
+How t...</description>
+      <guid isPermaLink="false">https://paulgraham.com/disc.html</guid>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Charisma / Power</title>
+      <link>https://paulgraham.com/pow.html</link>
+      <description>People who are powerful but uncharismatic will tend to be disliked.
+Their power makes them a target for criticism that they don't have
+the charisma to disarm. That was Hillary Clinton's problem. It also
+tends to be a problem for any CEO who is more of a builder than a
+schmoozer. And yet the builder-type CEO is (like Hillary) probably
+the best person for the job.I don't think there is any solution to this problem. It's human
+nature. The best we can do is to recognize that it's happening, and
+to u...</description>
+      <guid isPermaLink="false">https://paulgraham.com/pow.html</guid>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>General and Surprising</title>
+      <link>https://paulgraham.com/sun.html</link>
+      <description>The most valuable insights are both general and surprising. 
+F = ma for example. But general and surprising is a hard
+combination to achieve. That territory tends to be picked
+clean, precisely because those insights are so valuable.Ordinarily, the best that people can do is one without the
+other: either surprising without being general (e.g.
+gossip), or general without being surprising (e.g.
+platitudes).Where things get interesting is the moderately valuable
+insights.  You get those from small a...</description>
+      <guid isPermaLink="false">https://paulgraham.com/sun.html</guid>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Bus Ticket Theory of Genius</title>
+      <link>https://paulgraham.com/genius.html</link>
+      <description>Everyone knows that to do great work you need both natural ability
+and determination. But there's a third ingredient that's not as
+well understood: an obsessive interest in a particular topic.To explain this point I need to burn my reputation with some group
+of people, and I'm going to choose bus ticket collectors.  There
+are people who collect old bus tickets. Like many collectors, they
+have an obsessive interest in the minutiae of what they collect.
+They can keep track of distinctions between ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/genius.html</guid>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Novelty and Heresy</title>
+      <link>https://paulgraham.com/nov.html</link>
+      <description>If you discover something new, there's a significant chance you'll be
+accused of some form of heresy.To discover new things, you have
+to work on ideas that are good but non-obvious; if an idea is
+obviously good, other people are probably already working on it.
+One common way for a good idea to be non-obvious is for it to be hidden in the
+shadow of some mistaken assumption that people are very attached to.
+But anything you discover from working on such an idea will tend to
+contradict the mistaken...</description>
+      <guid isPermaLink="false">https://paulgraham.com/nov.html</guid>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Lesson to Unlearn</title>
+      <link>https://paulgraham.com/lesson.html</link>
+      <description>The most damaging thing you learned in school wasn't something you
+learned in any specific class. It was learning to get good grades.When I was in college, a particularly earnest philosophy grad student
+once told me that he never cared what grade he got in a class, only
+what he learned in it. This stuck in my mind because it was the
+only time I ever heard anyone say such a thing.For me, as for most students, the measurement of what I was learning
+completely dominated actual learning in college. ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/lesson.html</guid>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Having Kids</title>
+      <link>https://paulgraham.com/kids.html</link>
+      <description>Before I had kids, I was afraid of having kids. Up to that point I
+felt about kids the way the young Augustine felt about living
+virtuously. I'd have been sad to think I'd never have children.
+But did I want them now? No.If I had kids, I'd become a parent, and parents, as I'd known since
+I was a kid, were uncool. They were dull and responsible and had
+no fun.  And while it's not surprising that kids would believe that,
+to be honest I hadn't seen much as an adult to change my mind.
+Whenever I'd n...</description>
+      <guid isPermaLink="false">https://paulgraham.com/kids.html</guid>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fashionable Problems</title>
+      <link>https://paulgraham.com/fp.html</link>
+      <description>I've seen the same pattern in many different fields: even though
+lots of people have worked hard in the field, only a small fraction
+of the space of possibilities has been explored, because they've
+all worked on similar things.Even the smartest, most imaginative people are surprisingly
+conservative when deciding what to work on. People who would never
+dream of being fashionable in any other way get sucked into working
+on fashionable problems.If you want to try working on unfashionable problems, ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/fp.html</guid>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Two Kinds of Moderate</title>
+      <link>https://paulgraham.com/mod.html</link>
+      <description>There are two distinct ways to be politically moderate: on purpose
+and by accident. Intentional moderates are trimmers, deliberately
+choosing a position mid-way between the extremes of right and left.
+Accidental moderates end up in the middle, on average, because they
+make up their own minds about each question, and the far right and
+far left are roughly equally wrong.You can distinguish intentional from accidental moderates by the
+distribution of their opinions. If the far left opinion on some
+...</description>
+      <guid isPermaLink="false">https://paulgraham.com/mod.html</guid>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Haters</title>
+      <link>https://paulgraham.com/fh.html</link>
+      <description>(I originally intended this for startup founders, who are often
+surprised by the attention they get as their companies grow, but
+it applies equally to anyone who becomes famous.)If you become sufficiently famous, you'll acquire some fans who
+like you too much. These people are sometimes called "fanboys," and
+though I dislike that term, I'm going to have to use it here.  We
+need some word for them, because this is a distinct phenomenon from
+someone simply liking your work.A fanboy is obsessive an...</description>
+      <guid isPermaLink="false">https://paulgraham.com/fh.html</guid>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Being a Noob</title>
+      <link>https://paulgraham.com/noob.html</link>
+      <description>When I was young, I thought old people had everything figured out.
+Now that I'm old, I know this isn't true.I constantly feel like a noob. It seems like I'm always talking to
+some startup working in a new field I know nothing about, or reading
+a book about a topic I don't understand well enough, or visiting some new
+country where I don't know how things work.It's not pleasant to feel like a noob. And the word "noob" is
+certainly not a compliment. And yet today I realized something
+encouraging ab...</description>
+      <guid isPermaLink="false">https://paulgraham.com/noob.html</guid>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Write Usefully</title>
+      <link>https://paulgraham.com/useful.html</link>
+      <description>What should an essay be? Many people would say persuasive. That's
+what a lot of us were taught essays should be. But I think we can
+aim for something more ambitious: that an essay should be useful.To start with, that means it should be correct. But it's not enough
+merely to be correct. It's easy to make a statement correct by
+making it vague. That's a common flaw in academic writing, for
+example. If you know nothing at all about an issue, you can't go
+wrong by saying that the issue is a complex ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/useful.html</guid>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Coronavirus and Credibility</title>
+      <link>https://paulgraham.com/cred.html</link>
+      <description>I recently saw a 
+video 
+of TV journalists and politicians confidently
+saying that the coronavirus would be no worse than the flu. What
+struck me about it was not just how mistaken they seemed, but how
+daring. How could they feel safe saying such things?The answer, I realized, is that they didn't think they could get
+caught. They didn't realize there was any danger in making false
+predictions. These people constantly make false predictions, and
+get away with it, because the things they make pred...</description>
+      <guid isPermaLink="false">https://paulgraham.com/cred.html</guid>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Orthodox Privilege</title>
+      <link>https://paulgraham.com/orth.html</link>
+      <description>"Few people are capable of expressing with equanimity opinions which differ from the prejudices of their social environment. Most people are even incapable of forming such opinions." Einstein&#13;
+
+
+
+There has been a lot of talk about privilege lately. Although the&#13;
+concept is overused, there is something to it, and in particular&#13;
+to the idea that privilege makes you blind  that you can't see&#13;
+things that are visible to someone whose life is very different&#13;
+from yours.But one of the most pervasive...</description>
+      <guid isPermaLink="false">https://paulgraham.com/orth.html</guid>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Four Quadrants of Conformism</title>
+      <link>https://paulgraham.com/conformism.html</link>
+      <description>One of the most revealing ways to classify people is by the degree
+and aggressiveness of their conformism. Imagine a Cartesian coordinate
+system whose horizontal axis runs from conventional-minded on the
+left to independent-minded on the right, and whose vertical axis
+runs from passive at the bottom to aggressive at the top. The
+resulting four quadrants define four types of people. Starting in
+the upper left and going counter-clockwise: aggressively
+conventional-minded, passively conventional-mi...</description>
+      <guid isPermaLink="false">https://paulgraham.com/conformism.html</guid>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Modeling a Wealth Tax</title>
+      <link>https://paulgraham.com/wtax.html</link>
+      <description>Some politicians are proposing to introduce wealth taxes in addition
+to income and capital gains taxes. Let's try modeling the effects of various levels
+of wealth tax to see what they would mean in practice for a startup
+founder.Suppose you start a successful startup in your twenties, and then
+live for another 60 years. How much of your stock will a wealth tax
+consume?If the wealth tax applies to all your assets, it's easy to
+calculate its effect. A wealth tax of 1% means you get to keep
+99% of ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/wtax.html</guid>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Early Work</title>
+      <link>https://paulgraham.com/early.html</link>
+      <description>One of the biggest things holding people back from doing great work
+is the fear of making something lame. And this fear is not an
+irrational one. Many great projects go through a stage early on
+where they don't seem very impressive, even to their creators. You
+have to push through this stage to reach the great work that lies
+beyond. But many people don't. Most people don't even reach the
+stage of making something they're embarrassed by, let alone continue
+past it. They're too frightened even to ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/early.html</guid>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Think for Yourself</title>
+      <link>https://paulgraham.com/think.html</link>
+      <description>There are some kinds of work that you can't do well without thinking
+differently from your peers. To be a successful scientist, for
+example, it's not enough just to be correct. Your ideas have to be
+both correct and novel. You can't publish papers saying things other
+people already know. You need to say things no one else has realized
+yet.The same is true for investors. It's not enough for a public market
+investor to predict correctly how a company will do. If a lot of
+other people make the same...</description>
+      <guid isPermaLink="false">https://paulgraham.com/think.html</guid>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Airbnbs</title>
+      <link>https://paulgraham.com/airbnbs.html</link>
+      <description>To celebrate Airbnb's IPO and to help future founders, I thought
+it might be useful to explain what was special about Airbnb.What was special about the Airbnbs was how earnest they were. They
+did nothing half-way, and we could sense this even in the interview.
+Sometimes after we interviewed a startup we'd be uncertain what to
+do, and have to talk it over. Other times we'd just look at one
+another and smile. The Airbnbs' interview was that kind. We didn't
+even like the idea that much. Nor did use...</description>
+      <guid isPermaLink="false">https://paulgraham.com/airbnbs.html</guid>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Billionaires Build</title>
+      <link>https://paulgraham.com/ace.html</link>
+      <description>As I was deciding what to write about next, I was surprised to find
+that two separate essays I'd been planning to write were actually
+the same.The first is about how to ace your Y Combinator interview. There
+has been so much nonsense written about this topic that I've been
+meaning for years to write something telling founders the truth.The second is about something politicians sometimes say  that the
+only way to become a billionaire is by exploiting people  and why
+this is mistaken.Keep readin...</description>
+      <guid isPermaLink="false">https://paulgraham.com/ace.html</guid>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Earnestness</title>
+      <link>https://paulgraham.com/earnest.html</link>
+      <description>Jessica and I have certain words that have special significance
+when we're talking about startups. The highest compliment we can
+pay to founders is to describe them as "earnest." This is not by
+itself a guarantee of success. You could be earnest but incapable.
+But when founders are both formidable (another of our words) and
+earnest, they're as close to unstoppable as you get.Earnestness sounds like a boring, even Victorian virtue. It seems
+a bit of an anachronism that people in Silicon Valley wo...</description>
+      <guid isPermaLink="false">https://paulgraham.com/earnest.html</guid>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What I Worked On</title>
+      <link>https://paulgraham.com/worked.html</link>
+      <description>Before college the two main things I worked on, outside of school,
+were writing and programming. I didn't write essays. I wrote what
+beginning writers were supposed to write then, and probably still
+are: short stories. My stories were awful. They had hardly any plot,
+just characters with strong feelings, which I imagined made them
+deep.The first programs I tried writing were on the IBM 1401 that our
+school district used for what was then called "data processing."
+This was in 9th grade, so I was ...</description>
+      <guid isPermaLink="false">https://paulgraham.com/worked.html</guid>
+      <pubDate>Mon, 01 Jan 1996 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Donate Unrestricted</title>
+      <link>https://paulgraham.com/donate.html</link>
+      <description>The secret curse of the nonprofit world is restricted donations.
+If you haven't been involved with nonprofits, you may never have
+heard this phrase before. But if you have been, it probably made
+you wince.Restricted donations mean donations where the donor limits what can
+be done with the money. This is common with big donations, perhaps
+the default. And yet it's usually a bad idea. Usually the way the
+donor wants the money spent is not the way the nonprofit would have
+chosen. Otherwise there wo...</description>
+      <guid isPermaLink="false">https://paulgraham.com/donate.html</guid>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Write Simply</title>
+      <link>https://paulgraham.com/simply.html</link>
+      <description>I try to write using ordinary words and simple sentences.That kind of writing is easier to read, and the easier something
+is to read, the more deeply readers will engage with it. The less
+energy they expend on your prose, the more they'll have left for
+your ideas.And the further they'll read. Most readers' energy tends to flag
+part way through an article or essay. If the friction of reading
+is low enough, more keep going till the end.There's an Italian dish called saltimbocca, which means "leap
+...</description>
+      <guid isPermaLink="false">https://paulgraham.com/simply.html</guid>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How People Get Rich Now</title>
+      <link>https://paulgraham.com/richnow.html</link>
+      <description>Every year since 1982, Forbes magazine has published a list of the&#13;
+richest Americans. If we compare the 100 richest people in 1982 to&#13;
+the 100 richest in 2020, we notice some big differences.In 1982 the most common source of wealth was inheritance. Of the&#13;
+100 richest people, 60 inherited from an ancestor. There were 10&#13;
+du Pont heirs alone. By 2020 the number of heirs had been cut in&#13;
+half, accounting for only 27 of the biggest 100 fortunes.Why would the percentage of heirs decrease? Not becau...</description>
+      <guid isPermaLink="false">https://paulgraham.com/richnow.html</guid>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Real Reason to End the Death Penalty</title>
+      <link>https://paulgraham.com/real.html</link>
+      <description>When intellectuals talk about the death penalty, they talk about
+things like whether it's permissible for the state to take someone's
+life, whether the death penalty acts as a deterrent, and whether
+more death sentences are given to some groups than others. But in
+practice the debate about the death penalty is not about whether
+it's ok to kill murderers. It's about whether it's ok to kill
+innocent people, because at least 4% of people on death row are
+innocent.When I was a kid I imagined that it...</description>
+      <guid isPermaLink="false">https://paulgraham.com/real.html</guid>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>An NFT That Saves Lives</title>
+      <link>https://paulgraham.com/nft.html</link>
+      <description>Noora Health, a nonprofit I've 
+supported for years, just launched
+a new NFT. It has a dramatic name, Save Thousands of Lives,
+because that's what the proceeds will do.Noora has been saving lives for 7 years. They run programs in
+hospitals in South Asia to teach new mothers how to take care of
+their babies once they get home. They're in 165 hospitals now. And
+because they know the numbers before and after they start at a new
+hospital, they can measure the impact they have. It is massive.
+For eve...</description>
+      <guid isPermaLink="false">https://paulgraham.com/nft.html</guid>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Crazy New Ideas</title>
       <link>https://paulgraham.com/newideas.html</link>

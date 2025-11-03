@@ -8,6 +8,7 @@ import requests
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 from datetime import datetime
+from dateutil import parser
 import pytz
 
 def generate_blogsurgeai_feed():
@@ -67,15 +68,32 @@ def generate_blogsurgeai_feed():
             desc_element = item.find('div', class_='blog-hero-cms-item-desc')
             description = desc_element.get_text(strip=True) if desc_element else title
 
+            # Find the date
+            date_element = item.find('div', class_='blog-hero-cms-item-date')
+            pub_date = datetime.now(pytz.UTC)  # Default fallback
+
+            if date_element:
+                # Find the visible date element (the one without w-condition-invisible)
+                date_texts = date_element.find_all('div', class_='txt fs-12 inline')
+                for date_text in date_texts:
+                    if 'w-condition-invisible' not in date_text.get('class', []):
+                        date_str = date_text.get_text(strip=True)
+                        try:
+                            # Parse the date string (e.g., "October 10, 2025")
+                            pub_date = parser.parse(date_str)
+                            # Make timezone-aware
+                            if pub_date.tzinfo is None:
+                                pub_date = pytz.UTC.localize(pub_date)
+                            break
+                        except Exception as e:
+                            print(f"Could not parse date '{date_str}': {e}")
+
             # Create feed entry
             fe = fg.add_entry()
             fe.id(link)
             fe.title(title)
             fe.link(href=link)
-
-            # Use current time as published date (since dates aren't in the listing)
-            # In a real implementation, we could fetch each article to get the actual date
-            fe.published(datetime.now(pytz.UTC))
+            fe.published(pub_date)
 
             # Set description
             fe.description(description)
