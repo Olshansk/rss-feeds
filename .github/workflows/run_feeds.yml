@@ -51,10 +51,10 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          
-          # Only add feed files and cache files
-          git add feeds/*.xml feeds/*_cache.json || true
-          
+
+          # Add feed XML files (cache files no longer used)
+          git add feeds/*.xml
+
           # Check if there are any changes to commit
           if git diff --staged --quiet; then
             echo "No changes to commit"
