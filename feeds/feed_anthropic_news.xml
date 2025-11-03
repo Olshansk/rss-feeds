@@ -13,7 +13,7 @@
       <link>https://anthropic.com/news/feed_anthropic_news.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Nov 2025 18:04:33 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Nov 2025 19:03:58 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -53,14 +53,6 @@
       <guid isPermaLink="false">https://www.anthropic.com/news/introducing-claude</guid>
       <category>Announcements</category>
       <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude, now in Slack</title>
-      <link>https://www.anthropic.com/news/claude-now-in-slack</link>
-      <description>Claude, now in Slack</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/claude-now-in-slack</guid>
-      <category>Announcements</category>
-      <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>An AI Policy Tool for Today: Ambitiously Invest in NIST</title>
@@ -159,14 +151,6 @@
       <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Claude 2 on Amazon Bedrock</title>
-      <link>https://www.anthropic.com/news/claude-2-amazon-bedrock</link>
-      <description>Claude 2 on Amazon Bedrock</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/claude-2-amazon-bedrock</guid>
-      <category>Product</category>
-      <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Introducing Claude Pro</title>
       <link>https://www.anthropic.com/news/claude-pro</link>
       <description>Introducing Claude Pro</description>
@@ -215,14 +199,6 @@
       <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Claude on Amazon Bedrock now available to every AWS customer</title>
-      <link>https://www.anthropic.com/news/amazon-bedrock-general-availability</link>
-      <description>Claude on Amazon Bedrock now available to every AWS customer</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/amazon-bedrock-general-availability</guid>
-      <category>Announcements</category>
-      <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Dario Amodei’s prepared remarks from the AI Safety Summit on Anthropic’s Responsible Scaling Policy</title>
       <link>https://www.anthropic.com/news/uk-ai-safety-summit</link>
       <description>Dario Amodei’s prepared remarks from the AI Safety Summit on Anthropic’s Responsible Scaling Policy</description>
@@ -245,14 +221,6 @@
       <guid isPermaLink="false">https://www.anthropic.com/news/claude-2-1</guid>
       <category>Product</category>
       <pubDate>Tue, 21 Nov 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Long context prompting for Claude 2.1</title>
-      <link>https://www.anthropic.com/news/claude-2-1-prompting</link>
-      <description>Long context prompting for Claude 2.1</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/claude-2-1-prompting</guid>
-      <category>Product</category>
-      <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Expanded legal protections and improvements to our API</title>
@@ -327,14 +295,6 @@
       <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing the Claude Team plan and iOS app</title>
-      <link>https://www.anthropic.com/news/team-plan-and-ios</link>
-      <description>Introducing the Claude Team plan and iOS app</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/team-plan-and-ios</guid>
-      <category>Product</category>
-      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Updating our Usage Policy</title>
       <link>https://www.anthropic.com/news/updating-our-usage-policy</link>
       <description>Updating our Usage Policy</description>
@@ -367,14 +327,6 @@
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Generate better prompts in the developer console</title>
-      <link>https://www.anthropic.com/news/prompt-generator</link>
-      <description>Generate better prompts in the developer console</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/prompt-generator</guid>
-      <category>Product</category>
-      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Krishna Rao joins Anthropic as Chief Financial Officer</title>
       <link>https://www.anthropic.com/news/krishna-rao-joins-anthropic</link>
       <description>Krishna Rao joins Anthropic as Chief Financial Officer</description>
@@ -397,14 +349,6 @@
       <guid isPermaLink="false">https://www.anthropic.com/news/jay-kreps-appointed-to-board-of-directors</guid>
       <category>Announcements</category>
       <pubDate>Wed, 29 May 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude can now use tools</title>
-      <link>https://www.anthropic.com/news/tool-use-ga</link>
-      <description>Claude can now use tools</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/tool-use-ga</guid>
-      <category>Product</category>
-      <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Introducing Claude to Canada</title>
@@ -463,28 +407,12 @@
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Evaluate prompts in the developer console</title>
-      <link>https://www.anthropic.com/news/evaluate-prompts</link>
-      <description>Evaluate prompts in the developer console</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/evaluate-prompts</guid>
-      <category>Product</category>
-      <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Fine-tune Claude 3 Haiku in Amazon Bedrock</title>
       <link>https://www.anthropic.com/news/fine-tune-claude-3-haiku</link>
       <description>Fine-tune Claude 3 Haiku in Amazon Bedrock</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/fine-tune-claude-3-haiku</guid>
       <category>Product</category>
       <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude Android app</title>
-      <link>https://www.anthropic.com/news/android-app</link>
-      <description>Claude Android app</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/android-app</guid>
-      <category>Product</category>
-      <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic partners with Menlo Ventures to launch Anthology Fund</title>
@@ -511,22 +439,6 @@
       <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Prompt caching with Claude</title>
-      <link>https://www.anthropic.com/news/prompt-caching</link>
-      <description>Prompt caching with Claude</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/prompt-caching</guid>
-      <category>Product</category>
-      <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Artifacts are now generally available</title>
-      <link>https://www.anthropic.com/news/artifacts</link>
-      <description>Artifacts are now generally available</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/artifacts</guid>
-      <category>Announcements</category>
-      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Salesforce teams up with Anthropic to enhance Einstein capabilities with Claude</title>
       <link>https://www.anthropic.com/news/salesforce-partnership</link>
       <description>Salesforce teams up with Anthropic to enhance Einstein capabilities with Claude</description>
@@ -535,44 +447,12 @@
       <pubDate>Tue, 03 Sep 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Claude for Enterprise</title>
-      <link>https://www.anthropic.com/news/claude-for-enterprise</link>
-      <description>Claude for Enterprise</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/claude-for-enterprise</guid>
-      <category>Product</category>
-      <pubDate>Wed, 04 Sep 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Workspaces in the Anthropic API Console</title>
-      <link>https://www.anthropic.com/news/workspaces</link>
-      <description>Workspaces in the Anthropic API Console</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/workspaces</guid>
-      <category>Product</category>
-      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Introducing Contextual Retrieval</title>
       <link>https://www.anthropic.com/news/contextual-retrieval</link>
       <description>Introducing Contextual Retrieval</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/contextual-retrieval</guid>
       <category>Product</category>
       <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Fine-tuning for Claude 3 Haiku in Amazon Bedrock is now generally available</title>
-      <link>https://www.anthropic.com/news/fine-tune-claude-3-haiku-ga</link>
-      <description>Fine-tuning for Claude 3 Haiku in Amazon Bedrock is now generally available</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/fine-tune-claude-3-haiku-ga</guid>
-      <category>Product</category>
-      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing the Message Batches API</title>
-      <link>https://www.anthropic.com/news/message-batches-api</link>
-      <description>Introducing the Message Batches API</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/message-batches-api</guid>
-      <category>Product</category>
-      <pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>U.S. Elections Readiness</title>
@@ -607,14 +487,6 @@
       <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing the analysis tool in Claude.ai</title>
-      <link>https://www.anthropic.com/news/analysis-tool</link>
-      <description>Introducing the analysis tool in Claude.ai</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/analysis-tool</guid>
-      <category>Product</category>
-      <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Claude 3.5 Sonnet on GitHub Copilot</title>
       <link>https://www.anthropic.com/news/github-copilot</link>
       <description>Claude 3.5 Sonnet on GitHub Copilot</description>
@@ -629,14 +501,6 @@
       <guid isPermaLink="false">https://www.anthropic.com/news/the-case-for-targeted-regulation</guid>
       <category>Policy</category>
       <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Improve your prompts in the developer console</title>
-      <link>https://www.anthropic.com/news/prompt-improver</link>
-      <description>Improve your prompts in the developer console</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/prompt-improver</guid>
-      <category>Product</category>
-      <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Powering the next generation of AI development with AWS</title>
@@ -655,22 +519,6 @@
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Tailor Claude’s responses to your personal style</title>
-      <link>https://www.anthropic.com/news/styles</link>
-      <description>Tailor Claude’s responses to your personal style</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/styles</guid>
-      <category>Product</category>
-      <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude 3.5 Haiku on AWS Trainium2 and model distillation in Amazon Bedrock</title>
-      <link>https://www.anthropic.com/news/trainium2-and-distillation</link>
-      <description>Claude 3.5 Haiku on AWS Trainium2 and model distillation in Amazon Bedrock</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/trainium2-and-distillation</guid>
-      <category>Product</category>
-      <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Elections and AI in 2024: observations and learnings</title>
       <link>https://www.anthropic.com/news/elections-ai-2024</link>
       <description>Elections and AI in 2024: observations and learnings</description>
@@ -685,14 +533,6 @@
       <guid isPermaLink="false">https://www.anthropic.com/news/anthropic-achieves-iso-42001-certification-for-responsible-ai</guid>
       <category>Announcements</category>
       <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Citations on the Anthropic API</title>
-      <link>https://www.anthropic.com/news/introducing-citations-api</link>
-      <description>Introducing Citations on the Anthropic API</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/introducing-citations-api</guid>
-      <category>Product</category>
-      <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Lyft to bring Claude to more than 40 million riders and over 1 million drivers</title>
@@ -775,22 +615,6 @@
       <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Get to production faster with the upgraded Anthropic Console</title>
-      <link>https://www.anthropic.com/news/upgraded-anthropic-console</link>
-      <description>Get to production faster with the upgraded Anthropic Console</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/upgraded-anthropic-console</guid>
-      <category>Product</category>
-      <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Token-saving updates on the Anthropic API</title>
-      <link>https://www.anthropic.com/news/token-saving-updates</link>
-      <description>Token-saving updates on the Anthropic API</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/token-saving-updates</guid>
-      <category>Product</category>
-      <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Progress from our Frontier Red Team</title>
       <link>https://www.anthropic.com/news/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team</link>
       <description>Progress from our Frontier Red Team</description>
@@ -831,14 +655,6 @@
       <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Claude on Google Cloud’s Vertex AI: FedRAMP High and IL2 Authorized</title>
-      <link>https://www.anthropic.com/news/claude-on-google-cloud-fedramp-high</link>
-      <description>Claude on Google Cloud’s Vertex AI: FedRAMP High and IL2 Authorized</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/claude-on-google-cloud-fedramp-high</guid>
-      <category>Product</category>
-      <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Introducing Anthropic's first developer conference: Code with Claude</title>
       <link>https://www.anthropic.com/news/Introducing-code-with-claude</link>
       <description>Introducing Anthropic's first developer conference: Code with Claude</description>
@@ -861,22 +677,6 @@
       <guid isPermaLink="false">https://www.anthropic.com/news/anthropic-education-report-how-university-students-use-claude</guid>
       <category>Announcements</category>
       <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing the Max Plan</title>
-      <link>https://www.anthropic.com/news/max-plan</link>
-      <description>Introducing the Max Plan</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/max-plan</guid>
-      <category>Product</category>
-      <pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude takes research to new places</title>
-      <link>https://www.anthropic.com/news/research</link>
-      <description>Claude takes research to new places</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/research</guid>
-      <category>Product</category>
-      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Our approach to understanding and addressing AI harms</title>
@@ -911,14 +711,6 @@
       <pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Claude can now connect to your world</title>
-      <link>https://www.anthropic.com/news/integrations</link>
-      <description>Claude can now connect to your world</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/integrations</guid>
-      <category>Product</category>
-      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Introducing Anthropic's AI for Science Program</title>
       <link>https://www.anthropic.com/news/ai-for-science-program</link>
       <description>Introducing Anthropic's AI for Science Program</description>
@@ -927,28 +719,12 @@
       <pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing web search on the Anthropic API</title>
-      <link>https://www.anthropic.com/news/web-search-api</link>
-      <description>Introducing web search on the Anthropic API</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/web-search-api</guid>
-      <category>Product</category>
-      <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Testing our safety defenses with a new bug bounty program</title>
       <link>https://www.anthropic.com/news/testing-our-safety-defenses-with-a-new-bug-bounty-program</link>
       <description>Testing our safety defenses with a new bug bounty program</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/testing-our-safety-defenses-with-a-new-bug-bounty-program</guid>
       <category>Announcements</category>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>New capabilities for building agents on the Anthropic API</title>
-      <link>https://www.anthropic.com/news/agent-capabilities-api</link>
-      <description>New capabilities for building agents on the Anthropic API</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/agent-capabilities-api</guid>
-      <category>Product</category>
-      <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Introducing Claude 4</title>
@@ -999,30 +775,6 @@
       <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Remote MCP support in Claude Code</title>
-      <link>https://www.anthropic.com/news/claude-code-remote-mcp</link>
-      <description>Remote MCP support in Claude Code</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/claude-code-remote-mcp</guid>
-      <category>Product</category>
-      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Turn ideas into interactive AI-powered apps</title>
-      <link>https://www.anthropic.com/news/build-artifacts</link>
-      <description>Turn ideas into interactive AI-powered apps</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/build-artifacts</guid>
-      <category>Product</category>
-      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Build and share AI-powered apps with Claude</title>
-      <link>https://www.anthropic.com/news/claude-powered-artifacts</link>
-      <description>Build and share AI-powered apps with Claude</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/claude-powered-artifacts</guid>
-      <category>Product</category>
-      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>How people use Claude for support, advice, and companionship</title>
       <link>https://www.anthropic.com/news/how-people-use-claude-for-support-advice-and-companionship</link>
       <description>How people use Claude for support, advice, and companionship</description>
@@ -1068,14 +820,6 @@
       <description>Anthropic and the Department of Defense to advance responsible AI in defense operations</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/anthropic-and-the-department-of-defense-to-advance-responsible-ai-in-defense-operations</guid>
       <category>Announcements</category>
-      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Discover tools that work with Claude</title>
-      <link>https://www.anthropic.com/news/connectors-directory</link>
-      <description>Discover tools that work with Claude</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/connectors-directory</guid>
-      <category>Product</category>
       <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1127,14 +871,6 @@
       <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>How Anthropic teams use Claude Code</title>
-      <link>https://www.anthropic.com/news/how-anthropic-teams-use-claude-code</link>
-      <description>How Anthropic teams use Claude Code</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/how-anthropic-teams-use-claude-code</guid>
-      <category>Case Study</category>
-      <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Anthropic Signs CMS Health Tech Ecosystem Pledge to Advance Healthcare Interoperability</title>
       <link>https://www.anthropic.com/news/anthropic-signs-cms-health-tech-ecosystem-pledge-to-advance-healthcare-interoperability</link>
       <description>Anthropic Signs CMS Health Tech Ecosystem Pledge to Advance Healthcare Interoperability</description>
@@ -1167,14 +903,6 @@
       <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Automate security reviews with Claude Code</title>
-      <link>https://www.anthropic.com/news/automate-security-reviews-with-claude-code</link>
-      <description>Automate security reviews with Claude Code</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/automate-security-reviews-with-claude-code</guid>
-      <category>Announcements</category>
-      <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Anthropic appoints Hidetoshi Tojo as Head of Japan and announces hiring plans</title>
       <link>https://www.anthropic.com/news/head-of-japan-hiring-plans</link>
       <description>Anthropic appoints Hidetoshi Tojo as Head of Japan and announces hiring plans</description>
@@ -1195,14 +923,6 @@
       <link>https://www.anthropic.com/news/building-safeguards-for-claude</link>
       <description>Building safeguards for Claude</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/building-safeguards-for-claude</guid>
-      <category>Product</category>
-      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude Sonnet 4 now supports 1M tokens of context</title>
-      <link>https://www.anthropic.com/news/1m-context</link>
-      <description>Claude Sonnet 4 now supports 1M tokens of context</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/1m-context</guid>
       <category>Product</category>
       <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
     </item>
@@ -1237,14 +957,6 @@
       <guid isPermaLink="false">https://www.anthropic.com/news/anthropic-higher-education-initiatives</guid>
       <category>Announcements</category>
       <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Piloting Claude for Chrome</title>
-      <link>https://www.anthropic.com/news/claude-for-chrome</link>
-      <description>Piloting Claude for Chrome</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/claude-for-chrome</guid>
-      <category>Product</category>
-      <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic Education Report: How educators use Claude</title>
@@ -1303,22 +1015,6 @@
       <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Claude can now create and edit files</title>
-      <link>https://www.anthropic.com/news/create-files</link>
-      <description>Claude can now create and edit files</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/create-files</guid>
-      <category>Product</category>
-      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bringing memory to Claude</title>
-      <link>https://www.anthropic.com/news/memory</link>
-      <description>Bringing memory to Claude</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/memory</guid>
-      <category>Product</category>
-      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Strengthening our safeguards through collaboration with US CAISI and UK AISI</title>
       <link>https://www.anthropic.com/news/strengthening-our-safeguards-through-collaboration-with-us-caisi-and-uk-aisi</link>
       <description>Strengthening our safeguards through collaboration with US CAISI and UK AISI</description>
@@ -1333,14 +1029,6 @@
       <guid isPermaLink="false">https://www.anthropic.com/news/claude-in-xcode</guid>
       <category>Product</category>
       <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude is now available in Microsoft 365 Copilot</title>
-      <link>https://www.anthropic.com/news/claude-now-available-in-microsoft-365-copilot</link>
-      <description>Claude is now available in Microsoft 365 Copilot</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/claude-now-available-in-microsoft-365-copilot</guid>
-      <category>Announcements</category>
-      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic expands global leadership in enterprise AI, naming Chris Ciauri as Managing Director of International</title>
@@ -1367,22 +1055,6 @@
       <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Claude and Slack</title>
-      <link>https://www.anthropic.com/news/claude-and-slack</link>
-      <description>Claude and Slack</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/claude-and-slack</guid>
-      <category>Product</category>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How enterprises are driving AI transformation with Claude</title>
-      <link>https://www.anthropic.com/news/driving-ai-transformation-with-claude</link>
-      <description>How enterprises are driving AI transformation with Claude</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/driving-ai-transformation-with-claude</guid>
-      <category>Announcements</category>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Deloitte will make Claude available to 470,000 people across its global network</title>
       <link>https://www.anthropic.com/news/deloitte-anthropic-partnership</link>
       <description>Deloitte will make Claude available to 470,000 people across its global network</description>
@@ -1407,14 +1079,6 @@
       <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Customize Claude Code with plugins</title>
-      <link>https://www.anthropic.com/news/claude-code-plugins</link>
-      <description>Customize Claude Code with plugins</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/claude-code-plugins</guid>
-      <category>Product</category>
-      <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Anthropic and Salesforce expand partnership to bring Claude to regulated industries</title>
       <link>https://www.anthropic.com/news/salesforce-anthropic-expanded-partnership</link>
       <description>Anthropic and Salesforce expand partnership to bring Claude to regulated industries</description>
@@ -1431,35 +1095,11 @@
       <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing Agent Skills</title>
-      <link>https://www.anthropic.com/news/skills</link>
-      <description>Introducing Agent Skills</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/skills</guid>
-      <category>Product</category>
-      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude and your productivity platforms</title>
-      <link>https://www.anthropic.com/news/productivity-platforms</link>
-      <description>Claude and your productivity platforms</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/productivity-platforms</guid>
-      <category>Product</category>
-      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Claude for Life Sciences</title>
       <link>https://www.anthropic.com/news/claude-for-life-sciences</link>
       <description>Claude for Life Sciences</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/claude-for-life-sciences</guid>
       <category>Announcements</category>
-      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude Code on the web</title>
-      <link>https://www.anthropic.com/news/claude-code-on-the-web</link>
-      <description>Claude Code on the web</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/claude-code-on-the-web</guid>
-      <category>Product</category>
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
