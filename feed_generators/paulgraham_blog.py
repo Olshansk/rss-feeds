@@ -96,13 +96,13 @@ def get_article_content(article_html):
         return None, None
 
 
-def parse_essays_page(html_content, base_url="https://paulgraham.com", max_essays=30):
+def parse_essays_page(html_content, base_url="https://paulgraham.com", max_essays=300):
     """Parse the essays HTML page and extract blog post information.
 
     Args:
         html_content: HTML content of the essays page
         base_url: Base URL for the website
-        max_essays: Maximum number of recent essays to fetch (default: 30)
+        max_essays: Maximum number of recent essays to fetch (default: 300)
     """
     try:
         soup = BeautifulSoup(html_content, "html.parser")
