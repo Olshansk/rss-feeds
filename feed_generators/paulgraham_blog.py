@@ -96,16 +96,26 @@ def get_article_content(article_html):
         return None, None
 
 
-def parse_essays_page(html_content, base_url="https://paulgraham.com"):
-    """Parse the essays HTML page and extract blog post information."""
+def parse_essays_page(html_content, base_url="https://paulgraham.com", max_essays=30):
+    """Parse the essays HTML page and extract blog post information.
+
+    Args:
+        html_content: HTML content of the essays page
+        base_url: Base URL for the website
+        max_essays: Maximum number of recent essays to fetch (default: 30)
+    """
     try:
         soup = BeautifulSoup(html_content, "html.parser")
         blog_posts = []
 
         # Find all essay links
         links = soup.select('font[size="2"] a')
+        logger.info(f"Found {len(links)} total essays, will fetch up to {max_essays} most recent")
 
-        for link in links:
+        # Limit to first N essays (they're listed in reverse chronological order)
+        links_to_process = links[:max_essays]
+
+        for link in links_to_process:
             # Extract title and link
             title = link.text.strip()
             href = link.get("href")
@@ -114,7 +124,7 @@ def parse_essays_page(html_content, base_url="https://paulgraham.com"):
 
             full_url = f"{base_url}/{href}" if not href.startswith("http") else href
 
-            print("OLSH", full_url)
+            logger.info(f"Fetching article: {title}")
 
             # Fetch article content once and reuse it
             article_html = fetch_html_content(full_url)
@@ -138,7 +148,7 @@ def parse_essays_page(html_content, base_url="https://paulgraham.com"):
             if pub_date:
                 blog_posts.append(blog_post)
             else:
-                print(f"Skipping post {title} - no date found")
+                logger.warning(f"Skipping post '{title}' - no date found")
 
         logger.info(f"Successfully parsed {len(blog_posts)} blog posts")
         return blog_posts
