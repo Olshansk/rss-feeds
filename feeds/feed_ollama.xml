@@ -13,7 +13,7 @@
       <link>https://ollama.com/blog/feed_ollama.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 22 Oct 2025 02:09:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Nov 2025 01:05:46 +0000</lastBuildDate>
     <item>
       <title>Run Llama 2 uncensored locally</title>
       <link>https://ollama.com/blog/run-llama2-uncensored-locally</link>
@@ -272,6 +272,27 @@
       <description>GLM-4.6 and Qwen3-coder-480B are available on Ollama’s cloud service with easy integrations to the tools you are familiar with. Qwen3-Coder-30B has been updated for faster, more reliable tool calling in Ollama’s new engine.</description>
       <guid isPermaLink="false">https://ollama.com/blog/coding-models</guid>
       <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>NVIDIA DGX Spark performance</title>
+      <link>https://ollama.com/blog/nvidia-spark-performance</link>
+      <description>We ran performance tests on release day firmware and an updated Ollama version to see how Ollama performs.</description>
+      <guid isPermaLink="false">https://ollama.com/blog/nvidia-spark-performance</guid>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MiniMax M2</title>
+      <link>https://ollama.com/blog/minimax-m2</link>
+      <description>MiniMax M2 is now available on Ollama's cloud. It's a model built for coding and agentic workflows.</description>
+      <guid isPermaLink="false">https://ollama.com/blog/minimax-m2</guid>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI gpt-oss-safeguard</title>
+      <link>https://ollama.com/blog/gpt-oss-safeguard</link>
+      <description>Ollama is partnering with OpenAI and ROOST (Robust Open Online Safety Tools) to bring the latest gpt-oss-safeguard reasoning models to users for safety classification tasks. gpt-oss-safeguard models are available in two sizes: 20B and 120B, and are permissively licensed under the Apache 2.0 license.</description>
+      <guid isPermaLink="false">https://ollama.com/blog/gpt-oss-safeguard</guid>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
