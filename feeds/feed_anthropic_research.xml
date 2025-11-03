@@ -13,7 +13,7 @@
       <link>https://anthropic.com/research/feed_anthropic_research.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Nov 2025 01:06:13 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Nov 2025 01:40:50 +0000</lastBuildDate>
     <item>
       <title>A General Language Assistant as a Laboratory for Alignment</title>
       <link>https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment</link>
@@ -556,7 +556,7 @@
       <description>Project Vend: Can Claude run a small shop? (And why does that matter?)</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/project-vend-1</guid>
       <category>Research</category>
-      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Persona vectors: Monitoring and controlling character traits in language models</title>
@@ -628,7 +628,7 @@
       <description>Signs of introspection in large language models</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/introspection</guid>
       <category>Research</category>
-      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
