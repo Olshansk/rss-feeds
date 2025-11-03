@@ -9,8 +9,15 @@ logger = logging.getLogger(__name__)
 def run_all_feeds():
     """Run all Python scripts in the feed_generators directory."""
     feed_generators_dir = os.path.dirname(os.path.abspath(__file__))
+    # Temporarily skip paulgraham_blog.py as it fetches too many articles and times out
+    skip_scripts = ["paulgraham_blog.py"]
+
     for filename in os.listdir(feed_generators_dir):
         if filename.endswith(".py") and filename != os.path.basename(__file__):
+            if filename in skip_scripts:
+                logger.info(f"Skipping script: {filename}")
+                continue
+
             script_path = os.path.join(feed_generators_dir, filename)
             logger.info(f"Running script: {script_path}")
             result = subprocess.run(["python", script_path], capture_output=True, text=True)
