@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Nov 2025 06:03:48 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Nov 2025 07:02:44 +0000</lastBuildDate>
     <item>
       <title>The AI Bottleneck: High-Quality, Human-Powered Data</title>
       <link>https://www.surgehq.ai/blog/the-ai-bottleneck-high-quality-human-powered-data</link>
@@ -225,13 +225,6 @@
       <description>After 100+ hours with Opus 4.1 and 20+ hours in the first week of Sonnet 4.5's launch, Nick Heiner, our VP of Product gives first impressions.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/sonnet-4-5-product-take</guid>
       <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Where Frontier AIs Struggle with Real-World Finance: GPT-5 vs. Claude vs. Gemini</title>
-      <link>https://www.surgehq.ai/blog/where-frontier-ai-models-still-struggle-with-real-world-finance</link>
-      <description>We stress-tested GPT-5, Gemini 2.5 Pro, and Claude Sonnet 4.5 on 200+ expert finance tasks. Here's where even the best models break when they move from benchmarks to Wall Street.</description>
-      <guid isPermaLink="false">https://www.surgehq.ai/blog/where-frontier-ai-models-still-struggle-with-real-world-finance</guid>
-      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Hello, World: What RL Environments Teach Us About Real-World Agents</title>
