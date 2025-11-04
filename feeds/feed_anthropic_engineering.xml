@@ -13,7 +13,7 @@
       <link>https://anthropic.com/engineering/feed_anthropic_engineering.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Nov 2025 21:04:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Nov 2025 22:09:08 +0000</lastBuildDate>
     <item>
       <title>Introducing Contextual Retrieval</title>
       <link>https://www.anthropic.com/engineering/contextual-retrieval</link>
@@ -117,6 +117,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/engineering/claude-code-sandboxing</guid>
       <category>Engineering</category>
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Code execution with MCP: Building more efficient agents</title>
+      <link>https://www.anthropic.com/engineering/code-execution-with-mcp</link>
+      <description>Direct tool calls consume context for each definition and result. Agents scale better by writing code to call tools instead. Here's how it works with MCP.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/engineering/code-execution-with-mcp</guid>
+      <category>Engineering</category>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
