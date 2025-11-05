@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Nov 2025 21:03:04 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Nov 2025 22:04:25 +0000</lastBuildDate>
     <item>
       <title>The AI Bottleneck: High-Quality, Human-Powered Data</title>
       <link>https://www.surgehq.ai/blog/the-ai-bottleneck-high-quality-human-powered-data</link>
@@ -227,8 +227,16 @@
       <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Can GPT-5, Claude, and Gemini Survive Wall Street? 200 Finance Pros Put Them to the Test</title>
+      <link>https://www.surgehq.ai/blog/finance-eval-real-world</link>
+      <description>We stress-tested GPT-5, Gemini 2.5 Pro, and Claude Sonnet 4.5 on 200+ expert finance tasks. Here's where even the best models break when they move from benchmarks to Wall Street.</description>
+      <guid isPermaLink="false">https://www.surgehq.ai/blog/finance-eval-real-world</guid>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Hello, World: What RL Environments Teach Us About Real-World Agents</title>
       <link>https://www.surgehq.ai/blog/rl-envs-real-world</link>
+      <description>Our RL environment run on 9 models revealed the core capabilities all agents need to master: tool use, planning, adaptability, groundedness, and common sense.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/rl-envs-real-world</guid>
       <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
     </item>
