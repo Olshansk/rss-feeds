@@ -13,7 +13,7 @@
       <link>https://anthropic.com/news/feed_anthropic_news.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 06 Nov 2025 20:04:16 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Nov 2025 21:04:15 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1125,6 +1125,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/news/opening-our-tokyo-office</guid>
       <category>Announcements</category>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cognizant will make Claude available to 350,000 employees, accelerating enterprise AI adoption and internal transformation</title>
+      <link>https://www.anthropic.com/news/cognizant-partnership</link>
+      <description>Cognizant will make Claude available to 350,000 employees, accelerating enterprise AI adoption and internal transformation</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/cognizant-partnership</guid>
+      <category>Announcements</category>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic and Iceland announce one of the world’s first national AI education pilots</title>
