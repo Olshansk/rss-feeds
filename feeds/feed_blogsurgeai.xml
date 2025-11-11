@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Nov 2025 17:03:04 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Nov 2025 18:03:55 +0000</lastBuildDate>
     <item>
       <title>The AI Bottleneck: High-Quality, Human-Powered Data</title>
       <link>https://www.surgehq.ai/blog/the-ai-bottleneck-high-quality-human-powered-data</link>
@@ -234,7 +234,7 @@
       <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Hierarchy of Agentic Capabilities: What RL Environments Teach Us about Real-World Agents</title>
+      <title>RL Environments and the Hierarchy of Agentic Capabilities</title>
       <link>https://www.surgehq.ai/blog/rl-envs-real-world</link>
       <description>Our RL environment run on 9 models revealed the core capabilities all agents need to master: tool use, planning, adaptability, groundedness, and common sense.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/rl-envs-real-world</guid>
