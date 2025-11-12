@@ -13,7 +13,7 @@
       <link>https://anthropic.com/research/feed_anthropic_research.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Nov 2025 20:03:25 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Nov 2025 21:03:31 +0000</lastBuildDate>
     <item>
       <title>A General Language Assistant as a Laboratory for Alignment</title>
       <link>https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment</link>
@@ -637,6 +637,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/deprecation-commitments</guid>
       <category>Research</category>
       <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Project Fetch: Can Claude train a robot dog?</title>
+      <link>https://www.anthropic.com/research/project-fetch-robot-dog</link>
+      <description>Project Fetch: Can Claude train a robot dog?</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/project-fetch-robot-dog</guid>
+      <category>Research</category>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
