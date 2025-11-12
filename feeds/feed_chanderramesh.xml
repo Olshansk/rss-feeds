@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Chander Ramesh - Writing</title>
+    <link>https://chanderramesh.com/feed_chanderramesh.xml</link>
+    <description>Essays covering software, startups, investing, and philosophy</description>
+    <atom:link href="https://chanderramesh.com/feed_chanderramesh.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 12 Nov 2025 04:45:11 +0000</lastBuildDate>
+    <item>
+      <title>Golden Ages</title>
+      <link>https://chanderramesh.com/writing/golden-ages</link>
+      <description>Every industry has a golden era. And once it ends, it is impossible to break through. Why do Golden Ages begin, and why do they end?</description>
+      <guid isPermaLink="false">https://chanderramesh.com/writing/golden-ages</guid>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Everything You Call Life</title>
+      <link>https://chanderramesh.com/writing/everything-you-call-life</link>
+      <description>"Life can be much broader, once you discover one simple fact, and that is that everything around you that you call ‘life’ was made up by people that were no smarter than you. And you can change it, you can influence it, you can build your own things that other people can use." - Steve Jobs</description>
+      <guid isPermaLink="false">https://chanderramesh.com/writing/everything-you-call-life</guid>
+      <pubDate>Sat, 08 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Core Values</title>
+      <link>https://chanderramesh.com/writing/core-values</link>
+      <description>Institutions rot. Empires decay. And companies that once seemed like behemoths wither and die. The average age of a company in the S&amp;P 500 is only 21 years. But why is this?</description>
+      <guid isPermaLink="false">https://chanderramesh.com/writing/core-values</guid>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How London Lost Fashion</title>
+      <link>https://chanderramesh.com/writing/how-london-lost-fashion</link>
+      <description>London was the epicenter of fashion nearly all of history. In one century, Paris usurped the title. How did this come to be, and what lessons can America apply today?</description>
+      <guid isPermaLink="false">https://chanderramesh.com/writing/how-london-lost-fashion</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why Are Startups Hard?</title>
+      <link>https://chanderramesh.com/writing/why-are-startups-hard</link>
+      <description>It's not the hours - many jobs require insane hours. It's not the stress - there are many stressful jobs. So what makes startups so uniquely challenging?</description>
+      <guid isPermaLink="false">https://chanderramesh.com/writing/why-are-startups-hard</guid>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Product Market Fit</title>
+      <link>https://chanderramesh.com/writing/pmf</link>
+      <description>If your company cannot withstand a competitor giving away your product FOR FREE, you do not have product market fit.</description>
+      <guid isPermaLink="false">https://chanderramesh.com/writing/pmf</guid>
+      <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>On Venting</title>
+      <link>https://chanderramesh.com/writing/on-venting</link>
+      <description>Contrary to modern psychobabble, venting your feelings is not good for you. In fact, it is the greatest thing holding you back. Here is why I will never tolerate or listen to it.</description>
+      <guid isPermaLink="false">https://chanderramesh.com/writing/on-venting</guid>
+      <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Stop Thinking with IF Statements!</title>
+      <link>https://chanderramesh.com/writing/stop-if-statements</link>
+      <description>The most common mistake junior engineers make is a lack of systems thinking. And no where is this more obvious than their prolific use of if statements.</description>
+      <guid isPermaLink="false">https://chanderramesh.com/writing/stop-if-statements</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

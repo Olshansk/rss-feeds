@@ -72,6 +72,13 @@ feeds_xainews: ## Generate RSS feed for xAI News
 	$(Q)python feed_generators/xainews_blog.py
 	$(call print_success,xAI News feed generated)
 
+.PHONY: feeds_chanderramesh
+feeds_chanderramesh: ## Generate RSS feed for Chander Ramesh's writing
+	$(call check_venv)
+	$(call print_info,Generating Chander Ramesh feed)
+	$(Q)python feed_generators/chanderramesh_blog.py
+	$(call print_success,Chander Ramesh feed generated)
+
 .PHONY: clean_feeds
 clean_feeds: ## Clean generated RSS feed files
 	$(call print_warning,Removing generated RSS feeds)
