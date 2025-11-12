@@ -79,6 +79,13 @@ feeds_chanderramesh: ## Generate RSS feed for Chander Ramesh's writing
 	$(Q)python feed_generators/chanderramesh_blog.py
 	$(call print_success,Chander Ramesh feed generated)
 
+.PHONY: feeds_thinkingmachines
+feeds_thinkingmachines: ## Generate RSS feed for Thinking Machines Lab blog
+	$(call check_venv)
+	$(call print_info,Generating Thinking Machines Lab feed)
+	$(Q)python feed_generators/thinkingmachines_blog.py
+	$(call print_success,Thinking Machines Lab feed generated)
+
 .PHONY: clean_feeds
 clean_feeds: ## Clean generated RSS feed files
 	$(call print_warning,Removing generated RSS feeds)

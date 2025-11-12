@@ -120,6 +120,9 @@ generate_blogsurgeai_feed: feeds_blogsurgeai ## (Legacy) Generate Surge AI Blog 
 .PHONY: generate_xainews_feed
 generate_xainews_feed: feeds_xainews ## (Legacy) Generate xAI News feed
 
+.PHONY: generate_thinkingmachines_feed
+generate_thinkingmachines_feed: feeds_thinkingmachines ## (Legacy) Generate Thinking Machines Lab feed
+
 .PHONY: test_feed_workflow
 test_feed_workflow: ci_test_workflow_local ## (Legacy) Test feed workflow locally
 
