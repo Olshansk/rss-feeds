@@ -13,7 +13,7 @@
       <link>https://anthropic.com/news/feed_anthropic_news.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Nov 2025 15:04:18 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Nov 2025 16:04:40 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1165,6 +1165,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure</guid>
       <category>Announcements</category>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The state of Maryland partners with Anthropic to better serve residents</title>
+      <link>https://www.anthropic.com/news/maryland-partnership</link>
+      <description>The state of Maryland partners with Anthropic to better serve residents</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/maryland-partnership</guid>
+      <category>Announcements</category>
+      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic raises $13B Series F at $183B post-money valuation</title>
