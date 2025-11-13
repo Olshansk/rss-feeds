@@ -13,7 +13,7 @@
       <link>https://anthropic.com/news/feed_anthropic_news.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Nov 2025 18:03:59 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Nov 2025 19:03:40 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1172,6 +1172,14 @@
       <description>The state of Maryland partners with Anthropic to better serve residents</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/maryland-partnership</guid>
       <category>Announcements</category>
+      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Disrupting the first reported AI-orchestrated cyber espionage campaign</title>
+      <link>https://www.anthropic.com/news/disrupting-AI-espionage</link>
+      <description>Disrupting the first reported AI-orchestrated cyber espionage campaign</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/disrupting-AI-espionage</guid>
+      <category>Policy</category>
       <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
