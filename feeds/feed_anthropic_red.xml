@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Anthropic Frontier Red Team Blog</title>
+    <link>https://anthropic.com/feed_anthropic_red.xml</link>
+    <description>Evidence-based analysis about AI's implications for cybersecurity, biosecurity, and autonomous systems</description>
+    <atom:link href="https://anthropic.com/feed_anthropic_red.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <image>
+      <url>https://www.anthropic.com/images/icons/apple-touch-icon.png</url>
+      <title>Anthropic Frontier Red Team Blog</title>
+      <link>https://anthropic.com/feed_anthropic_red.xml</link>
+    </image>
+    <language>en</language>
+    <lastBuildDate>Sun, 16 Nov 2025 16:10:32 +0000</lastBuildDate>
+    <item>
+      <title>Cyber Toolkits for LLMs</title>
+      <link>https://red.anthropic.com/2025/cyber-toolkits/index.html</link>
+      <description>Large Language Models (LLMs) that are not fine-tuned for cybersecurity can succeed in multistage
+                    attacks on networks with dozens of hosts when equipped with a novel toolkit.</description>
+      <guid isPermaLink="false">https://red.anthropic.com/2025/cyber-toolkits/index.html</guid>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Project Vend</title>
+      <link>https://red.anthropic.com/2025/project-vend/index.html</link>
+      <description>We let Claude manage an automated store in our office as a small business for about a month. We
+                    learned a lot about the plausible, strange, not-too-distant future in which AI models are
+                    autonomously running things in the real economy.</description>
+      <guid isPermaLink="false">https://red.anthropic.com/2025/project-vend/index.html</guid>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cyber Evaluations of Claude 4</title>
+      <link>https://red.anthropic.com/2025/claude-4-cyber/</link>
+      <description>We partnered with Pattern Labs on a range of cybersecurity evaluations of Claude Opus 4 and
+                    Claude
+                    Sonnet 4, with Opus demonstrating especially notable improvement over previous models.</description>
+      <guid isPermaLink="false">https://red.anthropic.com/2025/claude-4-cyber/</guid>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Does Cyber Competitions</title>
+      <link>https://red.anthropic.com/2025/cyber-competitions/</link>
+      <description>Throughout 2025, we have been quietly entering Claude in cybersecurity competitions designed
+                    primarily for humans. In many of these competitions Claude did pretty well, often placing in the
+                    top
+                    25% of competitors. However, it lagged behind the best human teams at the toughest challenges.</description>
+      <guid isPermaLink="false">https://red.anthropic.com/2025/cyber-competitions/</guid>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Developing Nuclear Safeguards for AI</title>
+      <link>https://red.anthropic.com/2025/nuclear-safeguards/</link>
+      <description>Together with the NNSA and DOE national laboratories, we have co-developed a classifier—an
+                        AI
+                        system
+                        that automatically categorizes content—that distinguishes between concerning and benign
+                        nuclear-related conversations with high accuracy in preliminary testing.</description>
+      <guid isPermaLink="false">https://red.anthropic.com/2025/nuclear-safeguards/</guid>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LLMs and Biorisk</title>
+      <link>https://red.anthropic.com/2025/biorisk/</link>
+      <description>Our work at Anthropic is animated by the potential for AI to advance scientific
+                    discovery—especially
+                    in biology and medicine. At the same time, AI is fundamentally a dual-use technology. This
+                    article
+                    explains why we believe that evaluating biorisk and safeguarding against it is a critical
+                    element
+                    of responsible AI development.</description>
+      <guid isPermaLink="false">https://red.anthropic.com/2025/biorisk/</guid>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building AI for Cyber Defenders</title>
+      <link>https://red.anthropic.com/2025/ai-for-cyber-defenders/</link>
+      <description>We invested in improving Claude's ability to help defenders detect, analyze, and remediate
+                        vulnerabilities in code and deployed systems. This work allowed Claude Sonnet 4.5 to match
+                        or
+                        eclipse Opus 4.1 in discovering code vulnerabilities and other cyber skills. Adopting and
+                        experimenting with AI will be key for defenders to keep pace.</description>
+      <guid isPermaLink="false">https://red.anthropic.com/2025/ai-for-cyber-defenders/</guid>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Project Fetch</title>
+      <link>https://red.anthropic.com/2025/project-fetch/</link>
+      <description>How could frontier AI models like Claude reach beyond computers and affect the physical world? One
+                    path is through robots. We ran an experiment to see how much Claude helped Anthropic staff perform
+                    complex tasks with a robot dog.</description>
+      <guid isPermaLink="false">https://red.anthropic.com/2025/project-fetch/</guid>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

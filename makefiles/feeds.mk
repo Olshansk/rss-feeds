@@ -37,6 +37,13 @@ feeds_anthropic_changelog_claude_code: ## Generate RSS feed for Anthropic Claude
 	$(Q)python feed_generators/anthropic_changelog_claude_code.py
 	$(call print_success,Claude Code changelog feed generated)
 
+.PHONY: feeds_anthropic_red
+feeds_anthropic_red: ## Generate RSS feed for Anthropic Frontier Red Team
+	$(call check_venv)
+	$(call print_info,Generating Anthropic Red Team feed)
+	$(Q)python feed_generators/anthropic_red_blog.py
+	$(call print_success,Anthropic Red Team feed generated)
+
 .PHONY: feeds_openai_research
 feeds_openai_research: ## Generate RSS feed for OpenAI Research
 	$(call check_venv)
