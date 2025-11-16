@@ -39,22 +39,54 @@ def fetch_red_content(url="https://red.anthropic.com/"):
 
 
 def parse_date(date_text):
-    """Parse date text from the blog (e.g., 'November 2025', 'September 2025')."""
+    """Parse date text from article pages (e.g., 'November 12, 2025', 'September 29, 2025')."""
     date_formats = [
-        "%B %Y",  # November 2025
-        "%b %Y",  # Nov 2025
+        "%B %d, %Y",  # November 12, 2025
+        "%b %d, %Y",  # Nov 12, 2025
+        "%B %Y",      # November 2025 (fallback)
+        "%b %Y",      # Nov 2025 (fallback)
     ]
 
     for date_format in date_formats:
         try:
             date = datetime.strptime(date_text, date_format)
-            # Use first day of the month
-            return date.replace(day=1, tzinfo=pytz.UTC)
+            return date.replace(tzinfo=pytz.UTC)
         except ValueError:
             continue
 
     logger.warning(f"Could not parse date: {date_text}")
     return None
+
+
+def fetch_article_date(article_url):
+    """Fetch the publication date from an individual article page."""
+    try:
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+        }
+        response = requests.get(article_url, headers=headers, timeout=10)
+        response.raise_for_status()
+
+        soup = BeautifulSoup(response.text, "html.parser")
+
+        # Look for date in d-article section
+        article_section = soup.select_one("d-article")
+        if article_section:
+            # The date is typically in the first <p> tag
+            first_p = article_section.select_one("p")
+            if first_p:
+                date_text = first_p.text.strip()
+                date = parse_date(date_text)
+                if date:
+                    logger.debug(f"Found date '{date_text}' for {article_url}")
+                    return date
+
+        logger.warning(f"Could not find date in article: {article_url}")
+        return None
+
+    except Exception as e:
+        logger.warning(f"Error fetching article date from {article_url}: {str(e)}")
+        return None
 
 
 def parse_red_html(html_content):
@@ -125,8 +157,13 @@ def parse_red_html(html_content):
             description_elem = article_link.select_one("div.description")
             description = description_elem.text.strip() if description_elem else title
 
-            # Use current date or fallback to now
-            article_date = current_date if current_date else datetime.now(pytz.UTC)
+            # Fetch actual publication date from the article page
+            article_date = fetch_article_date(link)
+
+            # Fallback to current date from main page if fetching fails
+            if not article_date:
+                article_date = current_date if current_date else datetime.now(pytz.UTC)
+                logger.warning(f"Using fallback date for article: {title}")
 
             # Create article object
             article = {
@@ -137,7 +174,7 @@ def parse_red_html(html_content):
             }
 
             articles.append(article)
-            logger.debug(f"Found article: {title}")
+            logger.debug(f"Found article: {title} (date: {article_date})")
 
         logger.info(f"Successfully parsed {len(articles)} articles")
         return articles
