@@ -5,23 +5,23 @@
 
 ## tl;dr Available RSS Feeds <!-- omit in toc -->
 
-| Blog                                                                                       | Feed                                                                                                                                                 |
-| ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Anthropic News](https://www.anthropic.com/news)                                           | [feed_anthropic_news.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml)                                   |
-| [Anthropic Engineering](https://www.anthropic.com/engineering)                             | [feed_anthropic_engineering.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_engineering.xml)                     |
-| [Anthropic Research](https://www.anthropic.com/research)                                   | [feed_anthropic_research.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_research.xml)                           |
-| [Claude Code Changelog](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md)  | [feed_anthropic_changelog_claude_code.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_changelog_claude_code.xml) |
-| [OpenAI Research](https://openai.com/news/research/)                                       | [feed_openai_research.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_openai_research.xml)                                 |
-| [Ollama Blog](https://ollama.com/blog)                                                     | [feed_ollama.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_ollama.xml)                                                   |
-| [Paul Graham's Articles](https://www.paulgraham.com/articles.html)                         | [feed_paulgraham.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_paulgraham.xml)                                           |
-| [Surge AI Blog](https://www.surgehq.ai/blog)                                               | [feed_blogsurgeai.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_blogsurgeai.xml)                                         |
-| [xAI News](https://x.ai/news)                                                              | [feed_xainews.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_xainews.xml)                                                 |
-| [Chander Ramesh's Writing](https://chanderramesh.com/writing)                              | [feed_chanderramesh.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_chanderramesh.xml)                                     |
-| [Thinking Machines Lab](https://thinkingmachines.ai/blog/)                                 | [feed_thinkingmachines.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_thinkingmachines.xml)                               |
-| [Patrick Collison's Blog](https://patrickcollison.com/culture)                             | _planned_                                                                                                                                            |
-| [Supabase Blog](https://supabase.com/blog)                                                 | _planned_                                                                                                                                            |
-| [David Crawshaw](https://crawshaw.io/)                                                     | _planned_                                                                                                                                            |
-| [Engineering.fyi](https://engineering.fyi/)                                                | _planned_                                                                                                                                            |
+| Blog                                                                                      | Feed                                                                                                                                                 |
+| ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Anthropic News](https://www.anthropic.com/news)                                          | [feed_anthropic_news.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml)                                   |
+| [Anthropic Engineering](https://www.anthropic.com/engineering)                            | [feed_anthropic_engineering.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_engineering.xml)                     |
+| [Anthropic Research](https://www.anthropic.com/research)                                  | [feed_anthropic_research.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_research.xml)                           |
+| [Claude Code Changelog](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md) | [feed_anthropic_changelog_claude_code.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_changelog_claude_code.xml) |
+| [OpenAI Research](https://openai.com/news/research/)                                      | [feed_openai_research.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_openai_research.xml)                                 |
+| [Ollama Blog](https://ollama.com/blog)                                                    | [feed_ollama.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_ollama.xml)                                                   |
+| [Paul Graham's Articles](https://www.paulgraham.com/articles.html)                        | [feed_paulgraham.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_paulgraham.xml)                                           |
+| [Surge AI Blog](https://www.surgehq.ai/blog)                                              | [feed_blogsurgeai.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_blogsurgeai.xml)                                         |
+| [xAI News](https://x.ai/news)                                                             | [feed_xainews.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_xainews.xml)                                                 |
+| [Chander Ramesh's Writing](https://chanderramesh.com/writing)                             | [feed_chanderramesh.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_chanderramesh.xml)                                     |
+| [Thinking Machines Lab](https://thinkingmachines.ai/blog/)                                | [feed_thinkingmachines.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_thinkingmachines.xml)                               |
+| [Patrick Collison's Blog](https://patrickcollison.com/culture)                            | _planned_                                                                                                                                            |
+| [Supabase Blog](https://supabase.com/blog)                                                | _planned_                                                                                                                                            |
+| [David Crawshaw](https://crawshaw.io/)                                                    | _planned_                                                                                                                                            |
+| [Engineering.fyi](https://engineering.fyi/)                                               | _planned_                                                                                                                                            |
 
 ### What is this?
 
@@ -34,13 +34,11 @@ You know that blog you like that doesn't have an RSS feed and might never will?
 - [Quick Start](#quick-start)
   - [Subscribe to a Feed](#subscribe-to-a-feed)
   - [Request a new Feed](#request-a-new-feed)
-  - [Create a new a Feed](#create-a-new-a-feed)
-- [For Developers 👀 only](#for-developers--only)
-  - [Project Tools](#project-tools)
+- [Create a new a Feed](#create-a-new-a-feed)
 - [Star History](#star-history)
-- [How It Works](#how-it-works)
 - [Ideas](#ideas)
-  - [X RSS Feed](#x-rss-feed)
+- [How It Works](#how-it-works)
+  - [For Developers 👀 only](#for-developers--only)
 
 ## Quick Start
 
@@ -64,57 +62,23 @@ Want me to create a feed for you?
 
 If I do, consider supporting my 🌟🧋 addiction by [buying me a coffee](https://buymeacoffee.com/olshansky).
 
-### Create a new a Feed
+## Create a new a Feed
 
-See [Project Tools](#project-tools) for details.
+1. Download the HTML of the blog you want to create a feed for.
+2. Open Claude Code CLI
+3. Tell claude to:
 
-In short: you use Claude to create a Python script that converts a blog's HTML into a `feed_*.xml` file (see existing scripts in `feed_generators/`).
-
-GitHub Actions will run your script automatically once it's committed
-
-## For Developers 👀 only
-
-- Open source and community-driven 🙌
-- Simple Python + GitHub Actions 🐍
-- AI tooling for easy contributions 🤖
-- Learn and contribute together 🧑‍🎓
-- Streamlines the use of Claude, Claude Projects, and Claude Sync
-
-### Project Tools
-
-1. Add `cmd_rss_feed_generator.md` to [Claude Code](https://claude.ai/code)'s [slash commands](https://docs.claude.com/en/docs/claude-code/slash-commands):
-
-   ```bash
-   cp cmd_rss_feed_generator.md ~/.claude/commands/
-   ```
-
-2. Download the HTLML of the blog you want to create a feed for.
-3. Open Claude Code CLI
-4. Invoke the `rss_feed_generator` command pointing to the html file.
-
-![Generate RSS Feed](./claude_code_rss_feed_generator.png)
-
-<details>
-
-<summary>Deprecated</summary>
-
-- **GitHub Copilot Workspace:** Used for some PRs ([label: copilot](https://github.com/Olshansk/rss-feeds/pulls?q=label%3Acopilot+)).
-- **Claude Projects:**
-
-  - Converts blog HTML to RSS via Python scripts.
-  - [Instructions](https://support.anthropic.com/en/articles/9517075-what-are-projects):
-
-    - Parse blog HTML → Python script → `feed_*.xml` (see `feed_generators/`)
-    - Scripts run via GitHub Actions
-    - If you can't parse the HTML, ask for a sample or explain the issue
-
-- **Claude Sync:** [ClaudeSync repo](https://github.com/jahwag/ClaudeSync?tab=readme-ov-files) keeps project files in sync.
-
-</details>
+```bash
+Use @cmd_rss_feed_generator.md to convert @<html_file>.html to a RSS feed for <blog_url>.
+```
 
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Olshansk/rss-feeds&type=Date)](https://star-history.com/#Olshansk/rss-feeds&Date)
+
+## Ideas
+
+- **X RSS Feed**: Going to `x.com/{USER}/index.xml` should give an RSS feed of the user's tweets.
 
 ## How It Works
 
@@ -151,8 +115,10 @@ flowchart TB
     style websites fill:#e2e3e5,stroke:#383d41,color:#000000
 ```
 
-## Ideas
+### For Developers 👀 only
 
-### X RSS Feed
-
-Going to `x.com/{USER}/index.xml` should give an RSS feed of the user's tweets.
+- Open source and community-driven 🙌
+- Simple Python + GitHub Actions 🐍
+- AI tooling for easy contributions 🤖
+- Learn and contribute together 🧑‍🎓
+- Streamlines the use of Claude, Claude Projects, and Claude Sync
