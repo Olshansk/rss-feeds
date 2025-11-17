@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Nov 2025 07:02:37 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Nov 2025 08:03:58 +0000</lastBuildDate>
     <item>
       <title>Defeating Nondeterminism in LLM Inference</title>
       <link>https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/</link>
