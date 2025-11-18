@@ -13,7 +13,7 @@
       <link>https://anthropic.com/news/feed_anthropic_news.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Nov 2025 14:05:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Nov 2025 15:04:53 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1197,6 +1197,22 @@
       <guid isPermaLink="false">https://www.anthropic.com/news/rwandan-government-partnership-ai-education</guid>
       <category>Announcements</category>
       <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude now available in Microsoft Foundry and Microsoft 365 Copilot</title>
+      <link>https://www.anthropic.com/news/claude-in-microsoft-foundry</link>
+      <description>Claude now available in Microsoft Foundry and Microsoft 365 Copilot</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/claude-in-microsoft-foundry</guid>
+      <category>Product</category>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft, NVIDIA and Anthropic announce strategic partnerships</title>
+      <link>https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships</link>
+      <description>Microsoft, NVIDIA and Anthropic announce strategic partnerships</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships</guid>
+      <category>Announcements</category>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic raises $13B Series F at $183B post-money valuation</title>
