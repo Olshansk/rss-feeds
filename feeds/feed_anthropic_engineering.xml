@@ -13,7 +13,7 @@
       <link>https://anthropic.com/engineering/feed_anthropic_engineering.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Nov 2025 18:05:05 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Nov 2025 19:03:54 +0000</lastBuildDate>
     <item>
       <title>Introducing Contextual Retrieval</title>
       <link>https://www.anthropic.com/engineering/contextual-retrieval</link>
@@ -125,6 +125,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/engineering/code-execution-with-mcp</guid>
       <category>Engineering</category>
       <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing advanced tool use on the Claude Developer Platform</title>
+      <link>https://www.anthropic.com/engineering/advanced-tool-use</link>
+      <description>We’ve added three new beta features that let Claude discover, learn, and execute tools dynamically. Here’s how they work.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/engineering/advanced-tool-use</guid>
+      <category>Engineering</category>
+      <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

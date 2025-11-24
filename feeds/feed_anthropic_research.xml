@@ -13,7 +13,7 @@
       <link>https://anthropic.com/research/feed_anthropic_research.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Nov 2025 18:03:52 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Nov 2025 19:03:04 +0000</lastBuildDate>
     <item>
       <title>Societal Impacts</title>
       <link>https://www.anthropic.com/research/team/societal-impacts</link>
@@ -58,14 +58,6 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/tracing-thoughts-language-model</guid>
       <category>Research</category>
       <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sep 15, 2025Economic ResearchAnthropic Economic Index: Tracking AI’s role in the US and global economy</title>
-      <link>https://www.anthropic.com/research/economic-index-geography</link>
-      <description>Sep 15, 2025Economic ResearchAnthropic Economic Index: Tracking AI’s role in the US and global economy</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/economic-index-geography</guid>
-      <category>Research</category>
-      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Sep 15, 2025Economic ResearchAnthropic Economic Index report: Uneven geographic and enterprise AI adoption</title>
@@ -138,6 +130,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/emergent-misalignment-reward-hacking</guid>
       <category>Research</category>
       <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nov 24, 2025ProductMitigating the risk of prompt injections in browser use</title>
+      <link>https://www.anthropic.com/research/prompt-injection-defenses</link>
+      <description>Nov 24, 2025ProductMitigating the risk of prompt injections in browser use</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/prompt-injection-defenses</guid>
+      <category>Research</category>
+      <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
