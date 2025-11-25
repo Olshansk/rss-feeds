@@ -13,7 +13,7 @@
       <link>https://anthropic.com/research/feed_anthropic_research.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Nov 2025 11:03:08 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Nov 2025 12:04:45 +0000</lastBuildDate>
     <item>
       <title>Societal Impacts</title>
       <link>https://www.anthropic.com/research/team/societal-impacts</link>
@@ -58,14 +58,6 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/tracing-thoughts-language-model</guid>
       <category>Research</category>
       <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sep 15, 2025Economic ResearchAnthropic Economic Index report: Uneven geographic and enterprise AI adoption</title>
-      <link>https://www.anthropic.com/research/anthropic-economic-index-september-2025-report</link>
-      <description>Sep 15, 2025Economic ResearchAnthropic Economic Index report: Uneven geographic and enterprise AI adoption</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/anthropic-economic-index-september-2025-report</guid>
-      <category>Research</category>
-      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Oct 3, 2025PolicyBuilding AI for cyber defenders</title>
@@ -138,6 +130,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/prompt-injection-defenses</guid>
       <category>Research</category>
       <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nov 25, 2025Economic ResearchEstimating AI productivity gains from Claude conversations</title>
+      <link>https://www.anthropic.com/research/estimating-productivity-gains</link>
+      <description>Nov 25, 2025Economic ResearchEstimating AI productivity gains from Claude conversations</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/estimating-productivity-gains</guid>
+      <category>Research</category>
+      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
