@@ -13,7 +13,7 @@
       <link>https://anthropic.com/engineering/feed_anthropic_engineering.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Nov 2025 17:03:53 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Nov 2025 18:04:14 +0000</lastBuildDate>
     <item>
       <title>Introducing Contextual Retrieval</title>
       <link>https://www.anthropic.com/engineering/contextual-retrieval</link>
@@ -133,6 +133,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/engineering/advanced-tool-use</guid>
       <category>Engineering</category>
       <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Effective harnesses for long-running agents</title>
+      <link>https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents</link>
+      <description>Agents still face challenges working across many context windows. We looked to human engineers for inspiration in creating a more effective harness for long-running agents.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents</guid>
+      <category>Engineering</category>
+      <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
