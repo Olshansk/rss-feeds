@@ -6,6 +6,8 @@ import pytz
 from feedgen.feed import FeedGenerator
 import logging
 from pathlib import Path
+import json
+import re
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
@@ -49,6 +51,7 @@ def extract_title(card):
         "h2[class*='heading']",
         "h3",
         "h2",
+        "span[class*='title']",
     ]
     for selector in selectors:
         elem = card.select_one(selector)
@@ -117,6 +120,68 @@ def extract_category(card, date_elem_text=None):
     return "News"
 
 
+def extract_articles_from_json(data, articles, seen_links):
+    """Recursively extract articles from JSON data."""
+    if isinstance(data, dict):
+        if data.get("_type") == "post":
+            title = data.get("title")
+            slug = data.get("slug", {}).get("current")
+            
+            if title and slug:
+                # Determine URL
+                directories = data.get("directories", [])
+                is_news = any(d.get("value") == "news" for d in directories)
+                is_research = any(d.get("value") == "research" for d in directories)
+                
+                if is_news:
+                    link = f"https://www.anthropic.com/news/{slug}"
+                elif is_research:
+                    link = f"https://www.anthropic.com/research/{slug}"
+                else:
+                    link = f"https://www.anthropic.com/news/{slug}"
+                
+                if link in seen_links:
+                    return
+
+                # Parse date
+                date_str = data.get("publishedOn")
+                if date_str:
+                    try:
+                        date_str = date_str.replace("Z", "+00:00")
+                        date = datetime.fromisoformat(date_str)
+                    except ValueError:
+                        date = datetime.now(pytz.UTC)
+                else:
+                    date = datetime.now(pytz.UTC)
+
+                # Category
+                subjects = data.get("subjects", [])
+                if subjects:
+                    category = subjects[0].get("label", "News")
+                else:
+                    category = "News"
+
+                article = {
+                    "title": title,
+                    "link": link,
+                    "date": date,
+                    "category": category,
+                    "description": data.get("summary") or title,
+                }
+                
+                if validate_article(article):
+                    articles.append(article)
+                    seen_links.add(link)
+            return
+
+        for key, value in data.items():
+            extract_articles_from_json(value, articles, seen_links)
+            
+    elif isinstance(data, list):
+        for item in data:
+            extract_articles_from_json(item, articles, seen_links)
+
+
 def validate_article(article):
     """Validate that article has all required fields with reasonable values."""
     if not article.get("title") or len(article["title"]) < 5:
@@ -140,6 +205,48 @@ def parse_news_html(html_content):
         soup = BeautifulSoup(html_content, "html.parser")
         articles = []
         seen_links = set()
+        
+        # Strategy 1: Try to extract from Next.js JSON data (script tags)
+        scripts = soup.find_all("script")
+        json_found = False
+        
+        for script in scripts:
+            if script.string and 'self.__next_f.push' in script.string:
+                # Look for strings that look like JSON data chunks
+                # The pattern is self.__next_f.push([1, "ID:JSON_STRING"])
+                # We use a regex that handles escaped quotes inside the string
+                matches = re.findall(r'self\.__next_f\.push\(\[1,\s*"((?:[^"\\]|\\.)*)"\]\)', script.string)
+                for content_str in matches:
+                    # The string starts with "ID:", e.g. "21:"
+                    if ':' in content_str:
+                        try:
+                            # Unescape the string to get the inner JSON
+                            # We wrap it in quotes to make it a valid JSON string for unescaping
+                            unescaped_content = json.loads(f'"{content_str}"')
+                            
+                            # Remove the ID prefix (e.g. "21:")
+                            if ':' in unescaped_content:
+                                _, json_payload = unescaped_content.split(':', 1)
+                                
+                                # Parse the actual data
+                                data = json.loads(json_payload)
+                                
+                                # Extract articles recursively
+                                prev_count = len(articles)
+                                extract_articles_from_json(data, articles, seen_links)
+                                if len(articles) > prev_count:
+                                    json_found = True
+                                    
+                        except Exception as e:
+                            # It's expected that some chunks won't be valid JSON or won't contain articles
+                            continue
+
+        if json_found and len(articles) > 0:
+            logger.info(f"Successfully parsed {len(articles)} articles from JSON data")
+            return articles
+
+        # Strategy 2: Fallback to HTML parsing
+        logger.info("JSON parsing yielded no results, falling back to HTML parsing")
         unknown_structures = 0
 
         # Find all links that point to news articles
