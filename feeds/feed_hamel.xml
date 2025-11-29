@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Hamel Husain's Blog</title>
+    <link>https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_hamel.xml</link>
+    <description>Applied AI engineering, machine learning, and data science</description>
+    <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_hamel.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 28 Nov 2025 03:18:37 +0000</lastBuildDate>
+    <item>
+      <title>Automated Machine Learning — A Paradigm Shift That Accelerates Data Scientist Productivity @ Airbnb</title>
+      <link>https://medium.com/airbnb-engineering/automated-machine-learning-a-paradigm-shift-that-accelerates-data-scientist-productivity-airbnb-f1f8a10d61f8</link>
+      <description>Automated Machine Learning — A Paradigm Shift That Accelerates Data Scientist Productivity @ Airbnb</description>
+      <guid isPermaLink="false">https://medium.com/airbnb-engineering/automated-machine-learning-a-paradigm-shift-that-accelerates-data-scientist-productivity-airbnb-f1f8a10d61f8</guid>
+      <pubDate>Wed, 10 May 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Docker Can Help You Become A More Effective Data Scientist</title>
+      <link>https://medium.com/towards-data-science/how-docker-can-help-you-become-a-more-effective-data-scientist-7fc048ef91d5</link>
+      <description>How Docker Can Help You Become A More Effective Data Scientist</description>
+      <guid isPermaLink="false">https://medium.com/towards-data-science/how-docker-can-help-you-become-a-more-effective-data-scientist-7fc048ef91d5</guid>
+      <pubDate>Sat, 16 Dec 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How To Create Magical Data Products Using Sequence-to-Sequence Models</title>
+      <link>https://towardsdatascience.com/how-to-create-data-products-that-are-magical-using-sequence-to-sequence-models-703f86a231f8</link>
+      <description>How To Create Magical Data Products Using Sequence-to-Sequence Models</description>
+      <guid isPermaLink="false">https://towardsdatascience.com/how-to-create-data-products-that-are-magical-using-sequence-to-sequence-models-703f86a231f8</guid>
+      <pubDate>Thu, 18 Jan 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How To Create Natural Language Semantic Search for Arbitrary Objects With Deep Learning</title>
+      <link>https://medium.com/@hamelhusain/semantic-code-search-3cd6d244a39c</link>
+      <description>How To Create Natural Language Semantic Search for Arbitrary Objects With Deep Learning</description>
+      <guid isPermaLink="false">https://medium.com/@hamelhusain/semantic-code-search-3cd6d244a39c</guid>
+      <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Automate Tasks on GitHub With Machine Learning for Fun and Profit</title>
+      <link>https://medium.com/@hamelhusain/mlapp-419f90e8f007?source=friends_link&amp;sk=760e18a2d6e60999d7eb2887352a92a8</link>
+      <description>How to Automate Tasks on GitHub With Machine Learning for Fun and Profit</description>
+      <guid isPermaLink="false">https://medium.com/@hamelhusain/mlapp-419f90e8f007?source=friends_link&amp;sk=760e18a2d6e60999d7eb2887352a92a8</guid>
+      <pubDate>Wed, 10 Apr 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CodeSearchNet Challenge: Evaluating the State of Semantic Code Search</title>
+      <link>https://arxiv.org/abs/1909.09436</link>
+      <description>CodeSearchNet Challenge: Evaluating the State of Semantic Code Search</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/1909.09436</guid>
+      <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Python Concurrency: The Tricky Bits</title>
+      <link>https://python.hamel.dev/concurrency/</link>
+      <description>Python Concurrency: The Tricky Bits</description>
+      <guid isPermaLink="false">https://python.hamel.dev/concurrency/</guid>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing fastpages, An easy to use blogging platform with extra features for Jupyter Notebooks.</title>
+      <link>https://fastpages.fast.ai/fastpages/jupyter/2020/02/21/introducing-fastpages.html</link>
+      <description>Introducing fastpages, An easy to use blogging platform with extra features for Jupyter Notebooks.</description>
+      <guid isPermaLink="false">https://fastpages.fast.ai/fastpages/jupyter/2020/02/21/introducing-fastpages.html</guid>
+      <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GitHub Actions: Providing Data Scientists With New Superpowers.</title>
+      <link>https://fastpages.fast.ai/actions/markdown/2020/03/06/fastpages-actions.html</link>
+      <description>GitHub Actions: Providing Data Scientists With New Superpowers.</description>
+      <guid isPermaLink="false">https://fastpages.fast.ai/actions/markdown/2020/03/06/fastpages-actions.html</guid>
+      <pubDate>Fri, 06 Mar 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Data Science Meets Devops: MLOps with Jupyter, Git, &amp; Kubernetes</title>
+      <link>https://blog.kubeflow.org/mlops/</link>
+      <description>Data Science Meets Devops: MLOps with Jupyter, Git, &amp; Kubernetes</description>
+      <guid isPermaLink="false">https://blog.kubeflow.org/mlops/</guid>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>fastcore: An Underrated Python Library</title>
+      <link>https://fastpages.fast.ai/fastcore</link>
+      <description>fastcore: An Underrated Python Library</description>
+      <guid isPermaLink="false">https://fastpages.fast.ai/fastcore</guid>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nbdev: A literate programming environment that democratizes software engineering best practices</title>
+      <link>https://github.blog/2020-11-20-nbdev-a-literate-programming-environment-that-democratizes-software-engineering-best-practices/</link>
+      <description>Nbdev: A literate programming environment that democratizes software engineering best practices</description>
+      <guid isPermaLink="false">https://github.blog/2020-11-20-nbdev-a-literate-programming-environment-that-democratizes-software-engineering-best-practices/</guid>
+      <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ghapi, a new third-party Python client for the GitHub API</title>
+      <link>https://github.blog/2020-12-18-learn-about-ghapi-a-new-third-party-python-client-for-the-github-api/</link>
+      <description>ghapi, a new third-party Python client for the GitHub API</description>
+      <guid isPermaLink="false">https://github.blog/2020-12-18-learn-about-ghapi-a-new-third-party-python-client-for-the-github-api/</guid>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Notebooks in production with Metaflow</title>
+      <link>https://outerbounds.com/blog/notebooks-in-production-with-metaflow/</link>
+      <description>Notebooks in production with Metaflow</description>
+      <guid isPermaLink="false">https://outerbounds.com/blog/notebooks-in-production-with-metaflow/</guid>
+      <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>nbdev + Quarto: A new secret weapon for productivity</title>
+      <link>https://www.fast.ai/2022/07/28/nbdev-v2/</link>
+      <description>nbdev + Quarto: A new secret weapon for productivity</description>
+      <guid isPermaLink="false">https://www.fast.ai/2022/07/28/nbdev-v2/</guid>
+      <pubDate>Thu, 28 Jul 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why Should ML Engineers Learn Kubernetes?</title>
+      <link>https://hamel.dev/./blog/posts/k8s/index.html</link>
+      <description>Why Should ML Engineers Learn Kubernetes?</description>
+      <guid isPermaLink="false">https://hamel.dev/./blog/posts/k8s/index.html</guid>
+      <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Optimizing LLM latency</title>
+      <link>https://hamel.dev/notes/llm/inference/inference.html</link>
+      <description>Optimizing LLM latency</description>
+      <guid isPermaLink="false">https://hamel.dev/notes/llm/inference/inference.html</guid>
+      <pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>vLLM &amp; Large Models</title>
+      <link>https://hamel.dev/notes/llm/inference/big_inference.html</link>
+      <description>vLLM &amp; Large Models</description>
+      <guid isPermaLink="false">https://hamel.dev/notes/llm/inference/big_inference.html</guid>
+      <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tools for curating LLM Data</title>
+      <link>https://hamel.dev/notes/llm/finetuning/data_cleaning.html</link>
+      <description>Tools for curating LLM Data</description>
+      <guid isPermaLink="false">https://hamel.dev/notes/llm/finetuning/data_cleaning.html</guid>
+      <pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tokenization Gotchas</title>
+      <link>https://hamel.dev/./notes/llm/finetuning/tokenizer_gotchas.html</link>
+      <description>Tokenization Gotchas</description>
+      <guid isPermaLink="false">https://hamel.dev/./notes/llm/finetuning/tokenizer_gotchas.html</guid>
+      <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dokku: my favorite personal serverless platform</title>
+      <link>https://hamel.dev/./blog/posts/dokku/index.html</link>
+      <description>Dokku: my favorite personal serverless platform</description>
+      <guid isPermaLink="false">https://hamel.dev/./blog/posts/dokku/index.html</guid>
+      <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How To Debug Axolotl</title>
+      <link>https://hamel.dev/./blog/posts/axolotl/index.html</link>
+      <description>How To Debug Axolotl</description>
+      <guid isPermaLink="false">https://hamel.dev/./blog/posts/axolotl/index.html</guid>
+      <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fuck You, Show Me The Prompt.</title>
+      <link>https://hamel.dev/./blog/posts/prompt/index.html</link>
+      <description>Fuck You, Show Me The Prompt.</description>
+      <guid isPermaLink="false">https://hamel.dev/./blog/posts/prompt/index.html</guid>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Is Fine-Tuning Still Valuable?</title>
+      <link>https://hamel.dev/./blog/posts/fine_tuning_valuable.html</link>
+      <description>Is Fine-Tuning Still Valuable?</description>
+      <guid isPermaLink="false">https://hamel.dev/./blog/posts/fine_tuning_valuable.html</guid>
+      <pubDate>Wed, 27 Mar 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Your AI Product Needs Evals</title>
+      <link>https://hamel.dev/./blog/posts/evals/index.html</link>
+      <description>Your AI Product Needs Evals</description>
+      <guid isPermaLink="false">https://hamel.dev/./blog/posts/evals/index.html</guid>
+      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Debugging AI With Adversarial Validation</title>
+      <link>https://hamel.dev/./blog/posts/drift/index.html</link>
+      <description>Debugging AI With Adversarial Validation</description>
+      <guid isPermaLink="false">https://hamel.dev/./blog/posts/drift/index.html</guid>
+      <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What We’ve Learned From A Year of Building with LLMs</title>
+      <link>https://applied-llms.org/</link>
+      <description>What We’ve Learned From A Year of Building with LLMs</description>
+      <guid isPermaLink="false">https://applied-llms.org/</guid>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>An Open Course on LLMs, Led by Practitioners</title>
+      <link>https://hamel.dev/./blog/posts/course/index.html</link>
+      <description>An Open Course on LLMs, Led by Practitioners</description>
+      <guid isPermaLink="false">https://hamel.dev/./blog/posts/course/index.html</guid>
+      <pubDate>Mon, 29 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Concurrency Foundations For FastHTML</title>
+      <link>https://hamel.dev/notes/fasthtml/concurrency.html</link>
+      <description>Concurrency Foundations For FastHTML</description>
+      <guid isPermaLink="false">https://hamel.dev/notes/fasthtml/concurrency.html</guid>
+      <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using LLM-as-a-Judge For Evaluation: A Complete Guide</title>
+      <link>https://hamel.dev/./blog/posts/llm-judge/index.html</link>
+      <description>Using LLM-as-a-Judge For Evaluation: A Complete Guide</description>
+      <guid isPermaLink="false">https://hamel.dev/./blog/posts/llm-judge/index.html</guid>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building an Audience Through Technical Writing: Strategies and Mistakes</title>
+      <link>https://hamel.dev/./blog/posts/audience/index.html</link>
+      <description>Building an Audience Through Technical Writing: Strategies and Mistakes</description>
+      <guid isPermaLink="false">https://hamel.dev/./blog/posts/audience/index.html</guid>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>nbsanity - Share Notebooks as Polished Web Pages in Seconds</title>
+      <link>https://www.answer.ai/posts/2024-12-13-nbsanity.html</link>
+      <description>nbsanity - Share Notebooks as Polished Web Pages in Seconds</description>
+      <guid isPermaLink="false">https://www.answer.ai/posts/2024-12-13-nbsanity.html</guid>
+      <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Thoughts On A Month With Devin</title>
+      <link>https://www.answer.ai/posts/2025-01-08-devin.html</link>
+      <description>Thoughts On A Month With Devin</description>
+      <guid isPermaLink="false">https://www.answer.ai/posts/2025-01-08-devin.html</guid>
+      <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Field Guide to Rapidly Improving AI Products</title>
+      <link>https://hamel.dev/./blog/posts/field-guide/index.html</link>
+      <description>A Field Guide to Rapidly Improving AI Products</description>
+      <guid isPermaLink="false">https://hamel.dev/./blog/posts/field-guide/index.html</guid>
+      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Inspect AI, An OSS Python Library For LLM Evals</title>
+      <link>https://hamel.dev/./notes/llm/evals/inspect.html</link>
+      <description>Inspect AI, An OSS Python Library For LLM Evals</description>
+      <guid isPermaLink="false">https://hamel.dev/./notes/llm/evals/inspect.html</guid>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Stop Saying RAG Is Dead</title>
+      <link>https://hamel.dev/./notes/llm/rag/not_dead.html</link>
+      <description>Stop Saying RAG Is Dead</description>
+      <guid isPermaLink="false">https://hamel.dev/./notes/llm/rag/not_dead.html</guid>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Selecting The Right AI Evals Tool</title>
+      <link>https://hamel.dev/./blog/posts/eval-tools/index.html</link>
+      <description>Selecting The Right AI Evals Tool</description>
+      <guid isPermaLink="false">https://hamel.dev/./blog/posts/eval-tools/index.html</guid>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LLM Evals: Everything You Need to Know</title>
+      <link>https://hamel.dev/./blog/posts/evals-faq/index.html</link>
+      <description>LLM Evals: Everything You Need to Know</description>
+      <guid isPermaLink="false">https://hamel.dev/./blog/posts/evals-faq/index.html</guid>
+      <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
