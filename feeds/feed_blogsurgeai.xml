@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 30 Nov 2025 17:02:43 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Nov 2025 18:03:11 +0000</lastBuildDate>
     <item>
       <title>The AI Bottleneck: High-Quality, Human-Powered Data</title>
       <link>https://www.surgehq.ai/blog/the-ai-bottleneck-high-quality-human-powered-data</link>
@@ -201,7 +201,7 @@
     <item>
       <title>The Human/AI Frontier: A Conversation with Bogdan Grechuk</title>
       <link>https://www.surgehq.ai/blog/the-human-frontier-bogdan-grechuk</link>
-      <description>At Surge AI, we work with the world’s sharpest minds to push the limits of AI. Professor Bogdan Grechuk—an IMO gold medalist and Associate Professor at the University of Leicester—is one of them. We interviewed him about the work he does to train SOTA models to perform frontier research.</description>
+      <description>At Surge AI, we work with the world’s sharpest minds to push the limits of AI. Professor Bogdan Grechuk – an IMO gold medalist and Associate Professor at the University of Leicester – is one of them. We interviewed him about the work he does to train SOTA models to perform frontier research.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/the-human-frontier-bogdan-grechuk</guid>
       <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
     </item>
