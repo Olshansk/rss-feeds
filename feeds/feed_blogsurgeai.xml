@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 28 Nov 2025 02:31:15 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Dec 2025 05:34:49 +0000</lastBuildDate>
     <item>
       <title>The AI Bottleneck: High-Quality, Human-Powered Data</title>
       <link>https://www.surgehq.ai/blog/the-ai-bottleneck-high-quality-human-powered-data</link>
@@ -199,16 +199,9 @@
       <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Unsexy AI Failures: Still Confidently Hallucinating Image Text</title>
-      <link>https://www.surgehq.ai/blog/unsexy-ai-failures-still-confidently-hallucinating-image-text</link>
-      <description>A core problem with today’s AI systems isn’t simply that they make mistakes – it’s that they make mistakes confidently. They’ll insist they can do something, describe exactly how they’ll do it, and then deliver something completely wrong. We saw this in our last Unsexy Failures post, where a SOTA model confidently described generating a Word document – even though this was a completely fabricated capability! – and provided a link to nowhere.</description>
-      <guid isPermaLink="false">https://www.surgehq.ai/blog/unsexy-ai-failures-still-confidently-hallucinating-image-text</guid>
-      <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The Human/AI Frontier: A Conversation with Bogdan Grechuk</title>
       <link>https://www.surgehq.ai/blog/the-human-frontier-bogdan-grechuk</link>
-      <description>At Surge AI, we work with the world’s sharpest minds to push the limits of AI. Professor Bogdan Grechuk—an IMO gold medalist and Associate Professor at the University of Leicester—is one of them. We interviewed him about the work he does to train SOTA models to perform frontier research.</description>
+      <description>At Surge AI, we work with the world’s sharpest minds to push the limits of AI. Professor Bogdan Grechuk – an IMO gold medalist and Associate Professor at the University of Leicester – is one of them. We interviewed him about the work he does to train SOTA models to perform frontier research.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/the-human-frontier-bogdan-grechuk</guid>
       <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
     </item>
@@ -239,6 +232,13 @@
       <description>Our RL environment run on 9 models revealed the core capabilities all agents need to master: tool use, planning, adaptability, groundedness, and common sense.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/rl-envs-real-world</guid>
       <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LMArena is a plague on AI</title>
+      <link>https://www.surgehq.ai/blog/lmarena-is-a-plague-on-ai</link>
+      <description>Would you trust a medical system whose only metric was "which doctor would the average Internet user vote for after 2 seconds of listening"? No. You'd call that malpractice. Yet that's LMArena.</description>
+      <guid isPermaLink="false">https://www.surgehq.ai/blog/lmarena-is-a-plague-on-ai</guid>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
