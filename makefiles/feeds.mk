@@ -93,6 +93,13 @@ feeds_thinkingmachines: ## Generate RSS feed for Thinking Machines Lab blog
 	$(Q)python feed_generators/thinkingmachines_blog.py
 	$(call print_success,Thinking Machines Lab feed generated)
 
+.PHONY: feeds_hamel
+feeds_hamel: ## Generate RSS feed for Hamel Husain's Blog
+	$(call check_venv)
+	$(call print_info,Generating Hamel Husain Blog feed)
+	$(Q)python feed_generators/hamel_blog.py
+	$(call print_success,Hamel Husain Blog feed generated)
+
 .PHONY: clean_feeds
 clean_feeds: ## Clean generated RSS feed files
 	$(call print_warning,Removing generated RSS feeds)
