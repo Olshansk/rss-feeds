@@ -101,7 +101,7 @@ def generate_rss_feed(blog_posts, feed_name="windsurf_blog"):
         fg.author({"name": "Windsurf"})
         fg.subtitle("Read about the latest announcements from Windsurf")
         fg.link(href="https://windsurf.com/blog", rel="alternate")
-        fg.link(href=f"https://windsurf.com/blog/feed_{feed_name}.xml", rel="self")
+        fg.link(href=f"https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_{feed_name}.xml", rel="self")
 
         # Sort by date (newest first)
         blog_posts_sorted = sorted(blog_posts, key=lambda x: x["date"], reverse=True)
