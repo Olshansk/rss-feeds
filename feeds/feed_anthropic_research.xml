@@ -13,7 +13,7 @@
       <link>https://anthropic.com/research/feed_anthropic_research.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Dec 2025 18:04:04 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Dec 2025 19:04:32 +0000</lastBuildDate>
     <item>
       <title>Societal Impacts</title>
       <link>https://www.anthropic.com/research/team/societal-impacts</link>
@@ -58,14 +58,6 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/tracing-thoughts-language-model</guid>
       <category>Research</category>
       <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Oct 3, 2025PolicyBuilding AI for cyber defenders</title>
-      <link>https://www.anthropic.com/research/building-ai-cyber-defenders</link>
-      <description>Oct 3, 2025PolicyBuilding AI for cyber defenders</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/building-ai-cyber-defenders</guid>
-      <category>Research</category>
-      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Oct 6, 2025AlignmentPetri: An open-source auditing tool to accelerate AI safety research</title>
@@ -138,6 +130,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/estimating-productivity-gains</guid>
       <category>Research</category>
       <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dec 2, 2025Societal ImpactsHow AI Is Transforming Work at Anthropic</title>
+      <link>https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic</link>
+      <description>Dec 2, 2025Societal ImpactsHow AI Is Transforming Work at Anthropic</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic</guid>
+      <category>Research</category>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
