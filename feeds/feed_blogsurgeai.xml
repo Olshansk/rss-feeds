@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Dec 2025 06:04:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Dec 2025 07:04:06 +0000</lastBuildDate>
     <item>
       <title>The AI Bottleneck: High-Quality, Human-Powered Data</title>
       <link>https://www.surgehq.ai/blog/the-ai-bottleneck-high-quality-human-powered-data</link>
@@ -236,7 +236,7 @@
     <item>
       <title>LMArena is a plague on AI</title>
       <link>https://www.surgehq.ai/blog/lmarena-is-a-plague-on-ai</link>
-      <description>Would you trust a medical system whose only metric was “which doctor would the average Internet user vote for?” No, you'd call that malpractice. Yet that's LMArena.</description>
+      <description>Would you trust a medical system whose only metric was “which doctor wins the Internet?” No, you'd call that malpractice. Yet that's LMArena.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/lmarena-is-a-plague-on-ai</guid>
       <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
     </item>
