@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Dec 2025 01:30:49 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Dec 2025 02:32:54 +0000</lastBuildDate>
     <item>
       <title>The AI Bottleneck: High-Quality, Human-Powered Data</title>
       <link>https://www.surgehq.ai/blog/the-ai-bottleneck-high-quality-human-powered-data</link>
@@ -194,7 +194,7 @@
     <item>
       <title>SWE-Bench Failures: When Coding Agents Spiral Into 693 Lines of Hallucinations</title>
       <link>https://www.surgehq.ai/blog/when-coding-agents-spiral-into-693-lines-of-hallucinations</link>
-      <description>When coding models spiral into self-reinforcing hallucinations, small mistakes compound into catastrophic failure. In SWE-bench, we saw SOTA models invent whole classes, methods, and terminal outputs—never realizing they had lost touch with the real codebase. In this case study, we’ll look at how three frontier coding agents tried to solve one particular SWE-bench problem: one spiraled into hallucinations and failed entirely, one spiraled but recovered, and one avoided hallucinations altogether. Our goal: to illustrate how dissecting real-world problems can steer models towards human-ready AGI.</description>
+      <description>When coding models spiral into self-reinforcing hallucinations, small mistakes compound into catastrophic failure. In SWE-bench, we saw SOTA models invent whole classes, methods, and terminal outputs – never realizing they had lost touch with the real codebase. In this case study, we’ll look at how three frontier coding agents tried to solve one particular SWE-bench problem: one spiraled into hallucinations and failed entirely, one spiraled but recovered, and one avoided hallucinations altogether. Our goal: to illustrate how dissecting real-world problems can steer models towards human-ready AGI.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/when-coding-agents-spiral-into-693-lines-of-hallucinations</guid>
       <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
     </item>
