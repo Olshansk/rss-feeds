@@ -40,7 +40,9 @@ def parse_changelog_markdown(markdown_content):
         current_version = None
         current_changes = []
         version_count = 0
-        base_date = datetime.now(pytz.UTC)
+        # Use a fixed reference date to ensure consistent dates across runs
+        # This prevents RSS readers from seeing the same items as new updates
+        base_date = datetime(2025, 1, 1, tzinfo=pytz.UTC)
         
         for line in lines:
             line = line.strip()
@@ -116,7 +118,7 @@ def generate_rss_feed(items, feed_name="anthropic_changelog_claude_code"):
             fe.link(href=item["link"])
             fe.published(item["date"])
             fe.category(term=item["category"])
-            fe.id(f"{item['link']}#{hash(item['title'])}")
+            fe.id(item["link"])
 
         logger.info("Successfully generated RSS feed")
         return fg
