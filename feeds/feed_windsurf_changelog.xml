@@ -2,13 +2,13 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>Windsurf Changelog</title>
-    <link>https://windsurf.com/changelog/feed_windsurf_changelog.xml</link>
+    <link>https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_windsurf_changelog.xml</link>
     <description>Latest version updates from Windsurf</description>
-    <atom:link href="https://windsurf.com/changelog/feed_windsurf_changelog.xml" rel="self"/>
+    <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_windsurf_changelog.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Dec 2025 09:26:41 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Dec 2025 06:05:36 +0000</lastBuildDate>
     <item>
       <title>Windsurf 1.0.2</title>
       <link>https://windsurf.com/changelog#1.0.2</link>
@@ -633,6 +633,22 @@
       <guid isPermaLink="false">https://windsurf.com/changelog#1.12.36#1.12.36</guid>
       <category>Changelog</category>
       <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf 1.12.37</title>
+      <link>https://windsurf.com/changelog#1.12.37</link>
+      <description>&lt;h3&gt;Patch Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;General bug fixes and improvements.&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog#1.12.37#1.12.37</guid>
+      <category>Changelog</category>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf 1.12.39</title>
+      <link>https://windsurf.com/changelog#1.12.39</link>
+      <description>&lt;h3&gt;GPT-5.1-Codex Max&lt;/h3&gt;&lt;p&gt;Introducing GPT-5.1-Codex Max in three reasoning tiers (Low, Medium, High). Low variant available at no cost to paid users for a limited time.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog#1.12.39#1.12.39</guid>
+      <category>Changelog</category>
+      <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

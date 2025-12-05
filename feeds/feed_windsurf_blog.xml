@@ -2,13 +2,13 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>Windsurf Blog</title>
-    <link>https://windsurf.com/blog/feed_windsurf_blog.xml</link>
+    <link>https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_windsurf_blog.xml</link>
     <description>Read about the latest announcements from Windsurf</description>
-    <atom:link href="https://windsurf.com/blog/feed_windsurf_blog.xml" rel="self"/>
+    <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_windsurf_blog.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Dec 2025 07:57:17 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Dec 2025 06:05:37 +0000</lastBuildDate>
     <item>
       <title>Codeium Beta Launch</title>
       <link>https://windsurf.com/blog/beta-launch-announcement</link>
