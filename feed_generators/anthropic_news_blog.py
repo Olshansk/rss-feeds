@@ -1,12 +1,16 @@
 import logging
+import time
 import xml.etree.ElementTree as ET
 from datetime import datetime
 from pathlib import Path
 
 import pytz
-import requests
+import undetected_chromedriver as uc
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
 
 # Set up logging
 logging.basicConfig(
@@ -27,18 +31,98 @@ def ensure_feeds_directory():
     return feeds_dir
 
 
+def setup_selenium_driver():
+    """Set up Selenium WebDriver with undetected-chromedriver."""
+    options = uc.ChromeOptions()
+    options.add_argument("--headless")
+    options.add_argument("--window-size=1920,1080")
+    options.add_argument("--disable-blink-features=AutomationControlled")
+    options.add_argument(
+        "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+    )
+    return uc.Chrome(options=options)
+
+
 def fetch_news_content(url="https://www.anthropic.com/news"):
-    """Fetch news content from Anthropic's website."""
+    """Fetch the fully loaded HTML content of the news page using Selenium."""
+    driver = None
     try:
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-        }
-        response = requests.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
-        return response.text
-    except requests.RequestException as e:
-        logger.error(f"Error fetching news content: {str(e)}")
+        logger.info(f"Fetching content from URL: {url}")
+        driver = setup_selenium_driver()
+        driver.get(url)
+
+        # Wait for initial page load
+        wait_time = 5
+        logger.info(f"Waiting {wait_time} seconds for the page to fully load...")
+        time.sleep(wait_time)
+
+        # Wait for news articles to be present
+        try:
+            WebDriverWait(driver, 15).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, "a[href*='/news/']"))
+            )
+            logger.info("News articles loaded successfully")
+        except Exception:
+            logger.warning("Could not confirm articles loaded, proceeding anyway...")
+
+        # Click "See more" button repeatedly until it's no longer available
+        max_clicks = 20  # Safety limit
+        clicks = 0
+        while clicks < max_clicks:
+            try:
+                # Look for the "See more" button using multiple selectors
+                see_more_button = None
+                selectors = [
+                    "[class*='seeMore']",
+                    "[class*='see-more']",
+                    "button[class*='More']",
+                ]
+                for selector in selectors:
+                    try:
+                        see_more_button = driver.find_element(By.CSS_SELECTOR, selector)
+                        if see_more_button and see_more_button.is_displayed():
+                            break
+                        see_more_button = None
+                    except Exception:
+                        continue
+
+                # Also try finding by text content using XPath
+                if not see_more_button:
+                    try:
+                        see_more_button = driver.find_element(
+                            By.XPATH,
+                            "//*[contains(text(), 'See more') or contains(text(), 'Load more')]",
+                        )
+                    except Exception:
+                        pass
+
+                if see_more_button and see_more_button.is_displayed():
+                    logger.info(f"Clicking 'See more' button (click {clicks + 1})...")
+                    driver.execute_script("arguments[0].click();", see_more_button)
+                    clicks += 1
+                    time.sleep(2)  # Wait for content to load
+                else:
+                    logger.info(
+                        f"No more 'See more' button found after {clicks} clicks"
+                    )
+                    break
+            except Exception as e:
+                # No more "See more" button found
+                logger.info(
+                    f"No more 'See more' button found after {clicks} clicks: {e}"
+                )
+                break
+
+        html_content = driver.page_source
+        logger.info("Successfully fetched HTML content")
+        return html_content
+
+    except Exception as e:
+        logger.error(f"Error fetching content: {e}")
         raise
+    finally:
+        if driver:
+            driver.quit()
 
 
 def extract_title(card):
@@ -251,18 +335,23 @@ def generate_rss_feed(articles, feed_name="anthropic_news"):
         fg = FeedGenerator()
         fg.title("Anthropic News")
         fg.description("Latest news and updates from Anthropic")
-        fg.link(href="https://www.anthropic.com/news")
         fg.language("en")
 
         # Set feed metadata
         fg.author({"name": "Anthropic News"})
         fg.logo("https://www.anthropic.com/images/icons/apple-touch-icon.png")
         fg.subtitle("Latest updates from Anthropic's newsroom")
+        # Set links - self link first, then alternate (which becomes the main <link>)
+        fg.link(
+            href=f"https://www.anthropic.com/feeds/feed_{feed_name}.xml", rel="self"
+        )
         fg.link(href="https://www.anthropic.com/news", rel="alternate")
-        fg.link(href=f"https://anthropic.com/news/feed_{feed_name}.xml", rel="self")
 
-        # Add entries
-        for article in articles:
+        # Sort articles by date (most recent first)
+        articles_sorted = sorted(articles, key=lambda x: x["date"], reverse=True)
+
+        # Add entries (feedgen may re-sort by pubDate during output, but RSS readers sort by date anyway)
+        for article in articles_sorted:
             fe = fg.add_entry()
             fe.title(article["title"])
             fe.description(article["description"])
@@ -319,11 +408,15 @@ def get_existing_links_from_feed(feed_path):
 def main(feed_name="anthropic_news"):
     """Main function to generate RSS feed from Anthropic's news page."""
     try:
-        # Fetch news content
+        # Fetch news content using Selenium
         html_content = fetch_news_content()
 
         # Parse articles from HTML
         articles = parse_news_html(html_content)
+
+        if not articles:
+            logger.warning("No articles found. Please check the HTML structure.")
+            return False
 
         # Generate RSS feed with all articles
         feed = generate_rss_feed(articles, feed_name)
