@@ -1,12 +1,15 @@
-import requests
-from datetime import datetime, timedelta
-import pytz
-from feedgen.feed import FeedGenerator
 import logging
-from pathlib import Path
 import re
+from datetime import datetime, timedelta
+from pathlib import Path
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+import pytz
+import requests
+from feedgen.feed import FeedGenerator
+
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
 logger = logging.getLogger(__name__)
 
 
@@ -20,7 +23,9 @@ def ensure_feeds_directory():
     return feeds_dir
 
 
-def fetch_changelog_content(url="https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md"):
+def fetch_changelog_content(
+    url="https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md",
+):
     try:
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
@@ -33,59 +38,86 @@ def fetch_changelog_content(url="https://raw.githubusercontent.com/anthropics/cl
         raise
 
 
+def version_to_date(version_str):
+    """Convert version string to a stable date based on version number.
+
+    This ensures each version always gets the same date regardless of
+    its position in the changelog file.
+    """
+    try:
+        parts = version_str.split(".")
+        major = int(parts[0]) if len(parts) > 0 else 0
+        minor = int(parts[1]) if len(parts) > 1 else 0
+        patch = int(parts[2]) if len(parts) > 2 else 0
+        # Calculate days from epoch: higher versions = later dates
+        days_offset = major * 1000 + minor * 100 + patch
+        epoch = datetime(2020, 1, 1, 0, 0, 0, tzinfo=pytz.UTC)
+        return epoch + timedelta(days=days_offset)
+    except (ValueError, IndexError):
+        return datetime(2024, 1, 1, 0, 0, 0, tzinfo=pytz.UTC)
+
+
 def parse_changelog_markdown(markdown_content):
     try:
         items = []
-        lines = markdown_content.split('\n')
+        lines = markdown_content.split("\n")
         current_version = None
         current_changes = []
-        version_count = 0
-        base_date = datetime.now(pytz.UTC)
-        
+
         for line in lines:
             line = line.strip()
-            
+
             # Check for version headers (## 1.0.71, ## 1.0.70, etc.)
-            if line.startswith('## ') and re.match(r'## \d+\.\d+\.\d+', line):
+            if line.startswith("## ") and re.match(r"## \d+\.\d+\.\d+", line):
                 # Save previous version if exists
                 if current_version and current_changes:
-                    version_anchor = current_version.replace('.', '')
+                    version_anchor = current_version.replace(".", "")
                     # Create HTML list for description
-                    description_html = '<ul>' + ''.join(f'<li>{change}</li>' for change in current_changes) + '</ul>'
-                    items.append({
-                        "title": f"v{current_version}",
-                        "link": f"https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#{version_anchor}",
-                        "description": description_html,
-                        "date": current_date,
-                        "category": "Changelog",
-                    })
-                
+                    description_html = (
+                        "<ul>"
+                        + "".join(f"<li>{change}</li>" for change in current_changes)
+                        + "</ul>"
+                    )
+                    items.append(
+                        {
+                            "title": f"v{current_version}",
+                            "link": f"https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#{version_anchor}",
+                            "description": description_html,
+                            "date": version_to_date(current_version),
+                            "category": "Changelog",
+                        }
+                    )
+
                 # Start new version
                 current_version = line[3:].strip()  # Remove "## "
                 current_changes = []
-                current_date = base_date - timedelta(days=version_count * 2)
-                version_count += 1
                 continue
-            
+
             # Check for bullet points under a version
-            if current_version and line.startswith('- '):
+            if current_version and line.startswith("- "):
                 change_description = line[2:].strip()  # Remove "- "
                 if change_description:
                     current_changes.append(change_description)
-        
+
         # Don't forget the last version
         if current_version and current_changes:
-            version_anchor = current_version.replace('.', '')
-            description_html = '<ul>' + ''.join(f'<li>{change}</li>' for change in current_changes) + '</ul>'
-            items.append({
-                "title": f"v{current_version}",
-                "link": f"https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#{version_anchor}",
-                "description": description_html,
-                "date": current_date,
-                "category": "Changelog",
-            })
+            version_anchor = current_version.replace(".", "")
+            description_html = (
+                "<ul>"
+                + "".join(f"<li>{change}</li>" for change in current_changes)
+                + "</ul>"
+            )
+            items.append(
+                {
+                    "title": f"v{current_version}",
+                    "link": f"https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#{version_anchor}",
+                    "description": description_html,
+                    "date": version_to_date(current_version),
+                    "category": "Changelog",
+                }
+            )
 
-        logger.info(f"Successfully parsed {len(items)} changelog items from {version_count} versions")
+        logger.info(f"Successfully parsed {len(items)} changelog items")
         return items
 
     except Exception as e:
@@ -104,7 +136,10 @@ def generate_rss_feed(items, feed_name="anthropic_changelog_claude_code"):
         fg.author({"name": "Anthropic"})
         fg.logo("https://www.anthropic.com/images/icons/apple-touch-icon.png")
         fg.subtitle("Claude Code Changelog")
-        fg.link(href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md", rel="alternate")
+        fg.link(
+            href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+            rel="alternate",
+        )
         fg.link(href=f"https://anthropic.com/feed_{feed_name}.xml", rel="self")
 
         items.sort(key=lambda x: x["date"], reverse=True)
@@ -116,7 +151,8 @@ def generate_rss_feed(items, feed_name="anthropic_changelog_claude_code"):
             fe.link(href=item["link"])
             fe.published(item["date"])
             fe.category(term=item["category"])
-            fe.id(f"{item['link']}#{hash(item['title'])}")
+            # Use stable GUID based on version link only (not hash which could vary)
+            fe.id(item["link"])
 
         logger.info("Successfully generated RSS feed")
         return fg
