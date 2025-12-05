@@ -1,14 +1,17 @@
-import requests
-import xml.etree.ElementTree as ET
-from bs4 import BeautifulSoup
-from datetime import datetime
-import pytz
-from feedgen.feed import FeedGenerator
 import logging
+import xml.etree.ElementTree as ET
+from datetime import datetime
 from pathlib import Path
 
+import pytz
+import requests
+from bs4 import BeautifulSoup
+from feedgen.feed import FeedGenerator
+
 # Set up logging
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
 logger = logging.getLogger(__name__)
 
 
@@ -41,6 +44,12 @@ def fetch_news_content(url="https://www.anthropic.com/news"):
 def extract_title(card):
     """Extract title using multiple fallback selectors."""
     selectors = [
+        # New FeaturedGrid layout
+        "h2[class*='featuredTitle']",
+        "h4[class*='title']",
+        # New PublicationList layout
+        "span[class*='title']",
+        # Legacy selectors
         "h3.PostCard_post-heading__Ob1pu",
         "h3.Card_headline__reaoT",
         "h3[class*='headline']",
@@ -60,11 +69,14 @@ def extract_title(card):
 def extract_date(card):
     """Extract date using multiple fallback selectors and formats."""
     selectors = [
-        "p.detail-m",  # Current format on listing page
+        # New layout selectors - time element is most reliable
+        "time[class*='date']",
+        "time",
+        # Legacy selectors
+        "p.detail-m",
         "div.PostList_post-date__djrOA",
         "p[class*='date']",
         "div[class*='date']",
-        "time",
     ]
 
     date_formats = [
@@ -95,6 +107,10 @@ def extract_date(card):
 def extract_category(card, date_elem_text=None):
     """Extract category using multiple fallback selectors."""
     selectors = [
+        # New layout selectors
+        "span[class*='subject']",  # PublicationList layout
+        "span.caption.bold",  # FeaturedGrid layout (category before date)
+        # Legacy selectors
         "span.text-label",
         "p.detail-m",
         "span[class*='category']",
@@ -109,8 +125,23 @@ def extract_category(card, date_elem_text=None):
             if date_elem_text and text == date_elem_text:
                 continue
             # Skip if it looks like a date
-            if any(month in text for month in ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
-                                                 "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]):
+            if any(
+                month in text
+                for month in [
+                    "Jan",
+                    "Feb",
+                    "Mar",
+                    "Apr",
+                    "May",
+                    "Jun",
+                    "Jul",
+                    "Aug",
+                    "Sep",
+                    "Oct",
+                    "Nov",
+                    "Dec",
+                ]
+            ):
                 continue
             return text
 
@@ -144,7 +175,10 @@ def parse_news_html(html_content):
 
         # Find all links that point to news articles
         # Use flexible selectors to catch current and future card types
-        all_news_links = soup.select('a[href*="/news/"]')
+        # Handle both relative (/news/...) and absolute (https://www.anthropic.com/news/...) URLs
+        all_news_links = soup.select(
+            'a[href*="/news/"], a[href*="anthropic.com/news/"]'
+        )
 
         logger.info(f"Found {len(all_news_links)} potential news article links")
 
@@ -160,8 +194,8 @@ def parse_news_html(html_content):
             if link in seen_links:
                 continue
 
-            # Skip the main news page link
-            if link.endswith("/news") or link.endswith("/news/"):
+            # Skip the main news page link and anchor links
+            if link.endswith("/news") or link.endswith("/news/") or "/news#" in link:
                 continue
 
             seen_links.add(link)
@@ -199,7 +233,9 @@ def parse_news_html(html_content):
                 unknown_structures += 1
 
         if unknown_structures > 0:
-            logger.warning(f"Encountered {unknown_structures} links with unknown or invalid structures")
+            logger.warning(
+                f"Encountered {unknown_structures} links with unknown or invalid structures"
+            )
 
         logger.info(f"Successfully parsed {len(articles)} valid articles")
         return articles
