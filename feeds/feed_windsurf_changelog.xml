@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Dec 2025 23:04:07 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Dec 2025 00:09:44 +0000</lastBuildDate>
     <item>
       <title>Windsurf 1.0.2</title>
       <link>https://windsurf.com/changelog#1.0.2</link>
@@ -355,14 +355,6 @@
       <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Windsurf 1.10.4</title>
-      <link>https://windsurf.com/changelog#1.10.4</link>
-      <description>&lt;h3&gt;Patch Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fixed API Pricing labels in the model selector&lt;/li&gt;&lt;li&gt;Fixed bugs related to planning mode&lt;/li&gt;&lt;li&gt;Fixed some behavior around conversation button dropdown&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog#1.10.4#1.10.4</guid>
-      <category>Changelog</category>
-      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Windsurf 1.10.5</title>
       <link>https://windsurf.com/changelog#1.10.5</link>
       <description>&lt;h3&gt;Browser Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fixed unauthenticated missing CSRF token&lt;/li&gt;&lt;/ul&gt;</description>
@@ -505,14 +497,6 @@
       <guid isPermaLink="false">https://windsurf.com/changelog#1.12.6#1.12.6</guid>
       <category>Changelog</category>
       <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf 1.12.8</title>
-      <link>https://windsurf.com/changelog#1.12.8</link>
-      <description>&lt;h3&gt;GPT-5-Codex is now in Windsurf!&lt;/h3&gt;&lt;p&gt;GPT-5-Codex is now available for free (0x credits) for a limited time for paid users!&lt;/p&gt;&lt;p&gt;Free users can use GPT-5-Codex as well for 0.5x credits.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog#1.12.8#1.12.8</guid>
-      <category>Changelog</category>
-      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Windsurf 1.12.9</title>

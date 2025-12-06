@@ -13,7 +13,7 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Dec 2025 23:02:58 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Dec 2025 00:09:03 +0000</lastBuildDate>
     <item>
       <title>v0.2.21</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#0221</link>
@@ -1317,6 +1317,14 @@
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2059</guid>
       <category>Changelog</category>
       <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>v2.0.60</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2060</link>
+      <description>&lt;ul&gt;&lt;li&gt;Added background agent support. Agents run in the background while you work&lt;/li&gt;&lt;li&gt;Added --disable-slash-commands CLI flag to disable all slash commands&lt;/li&gt;&lt;li&gt;Added model name to "Co-Authored-By" commit messages&lt;/li&gt;&lt;li&gt;Enabled "/mcp enable [server-name]" or "/mcp disable [server-name]" to quickly toggle all servers&lt;/li&gt;&lt;li&gt;Updated Fetch to skip summarization for pre-approved websites&lt;/li&gt;&lt;li&gt;VSCode: Added support for multiple terminal clients connecting to the IDE server simultaneously&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2060</guid>
+      <category>Changelog</category>
+      <pubDate>Fri, 22 Aug 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
