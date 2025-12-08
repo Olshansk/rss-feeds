@@ -13,7 +13,7 @@
       <link>https://anthropic.com/feed_anthropic_red.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Dec 2025 21:04:28 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Dec 2025 22:03:43 +0000</lastBuildDate>
     <item>
       <title>Cyber Toolkits for LLMs</title>
       <link>https://red.anthropic.com/2025/cyber-toolkits/index.html</link>
@@ -98,7 +98,7 @@
       <title>AI Agents Find Smart Contract Exploits</title>
       <link>https://red.anthropic.com/2025/smart-contracts/</link>
       <description>We evaluated AI agents' ability to exploit smart contracts using a new benchmark comprising
-                    contracts that were actually exploited. On contracts exploited after the latest knowledge cutoff,
+                    contracts that were actually exploited. On contracts exploited after the latest knowledge cutoffs,
                     Claude Opus 4.5, Claude Sonnet 4.5, and GPT-5 found vulnerabilities worth a combined $4.6 million, a
                     finding that underscores the need for proactive adoption of AI for defense.</description>
       <guid isPermaLink="false">https://red.anthropic.com/2025/smart-contracts/</guid>
