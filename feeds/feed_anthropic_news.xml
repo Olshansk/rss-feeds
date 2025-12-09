@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/news</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Dec 2025 10:05:08 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Dec 2025 13:16:05 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1269,6 +1269,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/news/snowflake-anthropic-expanded-partnership</guid>
       <category>Announcements</category>
       <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Accenture and Anthropic launch multi-year partnership to move enterprises from AI pilots to production</title>
+      <link>https://www.anthropic.com/news/anthropic-accenture-partnership</link>
+      <description>Accenture and Anthropic launch multi-year partnership to move enterprises from AI pilots to production</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/anthropic-accenture-partnership</guid>
+      <category>Announcements</category>
+      <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
