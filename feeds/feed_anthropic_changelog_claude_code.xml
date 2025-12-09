@@ -13,7 +13,7 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Dec 2025 01:30:51 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Dec 2025 02:33:17 +0000</lastBuildDate>
     <item>
       <title>v0.2.21</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#0221</link>
@@ -1333,6 +1333,14 @@
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2061</guid>
       <category>Changelog</category>
       <pubDate>Sat, 23 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>v2.0.62</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2062</link>
+      <description>&lt;ul&gt;&lt;li&gt;Added "(Recommended)" indicator for multiple-choice questions, with the recommended option moved to the top of the list&lt;/li&gt;&lt;li&gt;Added `attribution` setting to customize commit and PR bylines (deprecates `includeCoAuthoredBy`)&lt;/li&gt;&lt;li&gt;Fixed duplicate slash commands appearing when ~/.claude is symlinked to a project directory&lt;/li&gt;&lt;li&gt;Fixed slash command selection not working when multiple commands share the same name&lt;/li&gt;&lt;li&gt;Fixed an issue where skill files inside symlinked skill directories could become circular symlinks&lt;/li&gt;&lt;li&gt;Fixed running versions getting removed because lock file incorrectly going stale&lt;/li&gt;&lt;li&gt;Fixed IDE diff tab not closing when rejecting file changes&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2062</guid>
+      <category>Changelog</category>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
