@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 10 Dec 2025 21:04:31 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Dec 2025 22:03:58 +0000</lastBuildDate>
     <item>
       <title>Windsurf 1.0.2</title>
       <link>https://windsurf.com/changelog#1.0.2</link>
@@ -649,6 +649,14 @@
       <guid isPermaLink="false">https://windsurf.com/changelog#1.12.39#1.12.39</guid>
       <category>Changelog</category>
       <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf 1.12.41</title>
+      <link>https://windsurf.com/changelog#1.12.41</link>
+      <description>&lt;h3&gt;Features &amp; Tools&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Cascade Hooks on User Prompts&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Users can now configure Cascade Hooks on user prompts for logging all user prompts and blocking policy-violating prompts.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MCP Servers&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Added support for GitLab remote MCP.&lt;/li&gt;&lt;li&gt;Added OAuth support for GitHub remote MCP.&lt;/li&gt;&lt;li&gt;Fixed an issue where every MCP would reauth on opening Windsurf.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Diff Zones&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fixes issues with diff zones not rendering correctly or jumping to the end of a file when editing&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Tab (Supercomplete)&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Improves reliability of Tab autocomplete&lt;/li&gt;&lt;li&gt;Makes Tab more responsive and faster in the appropiate circumstances&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Bug fixes and improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;General stability and performance improvements&lt;/li&gt;&lt;li&gt;Fixes issues with login timing out too quickly during onboarding&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog#1.12.41#1.12.41</guid>
+      <category>Changelog</category>
+      <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
