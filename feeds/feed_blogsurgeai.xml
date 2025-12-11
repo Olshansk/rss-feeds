@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 11 Dec 2025 05:04:30 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Dec 2025 06:04:10 +0000</lastBuildDate>
     <item>
       <title>The AI Bottleneck: High-Quality, Human-Powered Data</title>
       <link>https://www.surgehq.ai/blog/the-ai-bottleneck-high-quality-human-powered-data</link>
@@ -50,13 +50,6 @@
       <description>Google Search is falling behind. We analyzed three areas – programming queries, sports queries, and cooking queries – to understand where Google Search lags behind its competitors.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/google-search-is-falling-behind</guid>
       <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The average number of ads on a Google Search recipe? 8.7</title>
-      <link>https://www.surgehq.ai/blog/the-average-number-of-ads-on-a-google-search-recipe-8-7</link>
-      <description>We ran a large-scale human evaluation to count the average number of ads on a Google Search recipe.</description>
-      <guid isPermaLink="false">https://www.surgehq.ai/blog/the-average-number-of-ads-on-a-google-search-recipe-8-7</guid>
-      <pubDate>Fri, 29 Apr 2022 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>We asked 100 humans to draw the DALL·E prompts</title>
