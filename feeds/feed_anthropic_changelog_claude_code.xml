@@ -13,7 +13,7 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 11 Dec 2025 04:12:39 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Dec 2025 05:04:31 +0000</lastBuildDate>
     <item>
       <title>v0.2.21</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#0221</link>
@@ -1349,6 +1349,14 @@
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2064</guid>
       <category>Changelog</category>
       <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>v2.0.65</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2065</link>
+      <description>&lt;ul&gt;&lt;li&gt;Added ability to switch models while writing a prompt using alt+p (linux, windows), option+p (macos).&lt;/li&gt;&lt;li&gt;Added context window information to status line input&lt;/li&gt;&lt;li&gt;Added `fileSuggestion` setting for custom `@` file search commands&lt;/li&gt;&lt;li&gt;Added `CLAUDE_CODE_SHELL` environment variable to override automatic shell detection (useful when login shell differs from actual working shell)&lt;/li&gt;&lt;li&gt;Fixed prompt not being saved to history when aborting a query with Escape&lt;/li&gt;&lt;li&gt;Fixed Read tool image handling to identify format from bytes instead of file extension&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2065</guid>
+      <category>Changelog</category>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
