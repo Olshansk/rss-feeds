@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 12 Dec 2025 10:03:48 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Dec 2025 11:04:40 +0000</lastBuildDate>
     <item>
       <title>Windsurf Next 1.2.106</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.2.106</link>
@@ -40,14 +40,6 @@
       <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.3.101#1.3.101</guid>
       <category>Changelog</category>
       <pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf Next 1.3.102</title>
-      <link>https://windsurf.com/changelog/windsurf-next#1.3.102</link>
-      <description>&lt;h3&gt;Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Improved Cascade Base&lt;/li&gt;&lt;li&gt;New Configure MCP toolbar&lt;/li&gt;&lt;li&gt;Bug Fixes and Improvements&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.3.102#1.3.102</guid>
-      <category>Changelog</category>
-      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Windsurf Next 1.3.104</title>
