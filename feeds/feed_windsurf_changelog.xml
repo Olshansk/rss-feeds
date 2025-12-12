@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 12 Dec 2025 18:05:34 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Dec 2025 19:04:36 +0000</lastBuildDate>
     <item>
       <title>Windsurf 1.0.2</title>
       <link>https://windsurf.com/changelog#1.0.2</link>
@@ -665,6 +665,14 @@
       <guid isPermaLink="false">https://windsurf.com/changelog#1.12.43#1.12.43</guid>
       <category>Changelog</category>
       <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf 1.12.44</title>
+      <link>https://windsurf.com/changelog#1.12.44</link>
+      <description>&lt;h3&gt;Patch Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Reduce occurrence of "prompt is too long" errors&lt;/li&gt;&lt;li&gt;Request all supported scopes if no scopes are provided in MCP OAuth config&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog#1.12.44#1.12.44</guid>
+      <category>Changelog</category>
+      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
