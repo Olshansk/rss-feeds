@@ -1,9 +1,7 @@
 import logging
 import re
-from datetime import datetime, timedelta
 from pathlib import Path
 
-import pytz
 import requests
 from feedgen.feed import FeedGenerator
 
@@ -38,26 +36,7 @@ def fetch_changelog_content(
         raise
 
 
-def version_to_date(version_str):
-    """Convert version string to a stable date based on version number.
-
-    This ensures each version always gets the same date regardless of
-    its position in the changelog file.
-    """
-    try:
-        parts = version_str.split(".")
-        major = int(parts[0]) if len(parts) > 0 else 0
-        minor = int(parts[1]) if len(parts) > 1 else 0
-        patch = int(parts[2]) if len(parts) > 2 else 0
-        # Calculate days from epoch: higher versions = later dates
-        days_offset = major * 1000 + minor * 100 + patch
-        epoch = datetime(2020, 1, 1, 0, 0, 0, tzinfo=pytz.UTC)
-        return epoch + timedelta(days=days_offset)
-    except (ValueError, IndexError):
-        return datetime(2024, 1, 1, 0, 0, 0, tzinfo=pytz.UTC)
-
-
-def parse_changelog_markdown(markdown_content):
+def parse_changelog_markdown(markdown_content, max_versions=50):
     try:
         items = []
         lines = markdown_content.split("\n")
@@ -83,10 +62,11 @@ def parse_changelog_markdown(markdown_content):
                             "title": f"v{current_version}",
                             "link": f"https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#{version_anchor}",
                             "description": description_html,
-                            "date": version_to_date(current_version),
                             "category": "Changelog",
                         }
                     )
+                    if len(items) >= max_versions:
+                        break
 
                 # Start new version
                 current_version = line[3:].strip()  # Remove "## "
@@ -99,8 +79,8 @@ def parse_changelog_markdown(markdown_content):
                 if change_description:
                     current_changes.append(change_description)
 
-        # Don't forget the last version
-        if current_version and current_changes:
+        # Don't forget the last version (if we haven't hit the limit)
+        if current_version and current_changes and len(items) < max_versions:
             version_anchor = current_version.replace(".", "")
             description_html = (
                 "<ul>"
@@ -112,7 +92,6 @@ def parse_changelog_markdown(markdown_content):
                     "title": f"v{current_version}",
                     "link": f"https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#{version_anchor}",
                     "description": description_html,
-                    "date": version_to_date(current_version),
                     "category": "Changelog",
                 }
             )
@@ -142,16 +121,13 @@ def generate_rss_feed(items, feed_name="anthropic_changelog_claude_code"):
         )
         fg.link(href=f"https://anthropic.com/feed_{feed_name}.xml", rel="self")
 
-        items.sort(key=lambda x: x["date"], reverse=True)
-
-        for item in items:
+        # feedgen reverses order, so reverse items to maintain newest-first
+        for item in reversed(items):
             fe = fg.add_entry()
             fe.title(item["title"])
             fe.description(item["description"])
             fe.link(href=item["link"])
-            fe.published(item["date"])
             fe.category(term=item["category"])
-            # Use stable GUID based on version link only (not hash which could vary)
             fe.id(item["link"])
 
         logger.info("Successfully generated RSS feed")
