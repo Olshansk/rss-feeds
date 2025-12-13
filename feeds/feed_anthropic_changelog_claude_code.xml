@@ -13,7 +13,7 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 12 Dec 2025 23:02:44 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Dec 2025 00:09:41 +0000</lastBuildDate>
     <item>
       <title>v0.2.21</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#0221</link>
@@ -1361,10 +1361,18 @@
     <item>
       <title>v2.0.67</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2067</link>
-      <description>&lt;ul&gt;&lt;li&gt;Claude now suggests prompts to speed up your workflow: press Tab to accept or Enter to submit&lt;/li&gt;&lt;li&gt;Thinking mode is now enabled by default for Opus 4.5&lt;/li&gt;&lt;li&gt;Thinking mode configuration has moved to /config&lt;/li&gt;&lt;li&gt;Added search functionality to `/permissions` command with `/` keyboard shortcut for filtering rules by tool name&lt;/li&gt;&lt;li&gt;Show reason why autoupdater is disabled in `/doctor`&lt;/li&gt;&lt;li&gt;Fixed false "Another process is currently updating Claude" error when running `claude update` while another instance is already on the latest version&lt;/li&gt;&lt;li&gt;Fixed MCP servers from `.mcp.json` being stuck in pending state when running in non-interactive mode (`-p` flag or piped input)&lt;/li&gt;&lt;li&gt;Fixed scroll position resetting after deleting a permission rule in `/permissions`&lt;/li&gt;&lt;li&gt;Fixed word deletion (opt+delete) and word navigation (opt+arrow) not working correctly with non-Latin text such as Cyrillic, Greek, Arabic, Hebrew, Thai, and Chinese&lt;/li&gt;&lt;li&gt;Fixed `claude install --force` not bypassing stale lock files&lt;/li&gt;&lt;li&gt;Fixed consecutive @~/ file references in CLAUDE.md being incorrectly parsed due to markdown strikethrough interference&lt;/li&gt;&lt;li&gt;Windows: Fixed plugin MCP servers failing due to colons in log directory paths&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;ul&gt;&lt;li&gt;Thinking mode is now enabled by default for Opus 4.5&lt;/li&gt;&lt;li&gt;Thinking mode configuration has moved to /config&lt;/li&gt;&lt;li&gt;Added search functionality to `/permissions` command with `/` keyboard shortcut for filtering rules by tool name&lt;/li&gt;&lt;li&gt;Show reason why autoupdater is disabled in `/doctor`&lt;/li&gt;&lt;li&gt;Fixed false "Another process is currently updating Claude" error when running `claude update` while another instance is already on the latest version&lt;/li&gt;&lt;li&gt;Fixed MCP servers from `.mcp.json` being stuck in pending state when running in non-interactive mode (`-p` flag or piped input)&lt;/li&gt;&lt;li&gt;Fixed scroll position resetting after deleting a permission rule in `/permissions`&lt;/li&gt;&lt;li&gt;Fixed word deletion (opt+delete) and word navigation (opt+arrow) not working correctly with non-Latin text such as Cyrillic, Greek, Arabic, Hebrew, Thai, and Chinese&lt;/li&gt;&lt;li&gt;Fixed `claude install --force` not bypassing stale lock files&lt;/li&gt;&lt;li&gt;Fixed consecutive @~/ file references in CLAUDE.md being incorrectly parsed due to markdown strikethrough interference&lt;/li&gt;&lt;li&gt;Windows: Fixed plugin MCP servers failing due to colons in log directory paths&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2067</guid>
       <category>Changelog</category>
       <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>v2.0.68</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2068</link>
+      <description>&lt;ul&gt;&lt;li&gt;Fixed IME (Input Method Editor) support for languages like Chinese, Japanese, and Korean by correctly positioning the composition window at the cursor&lt;/li&gt;&lt;li&gt;Fixed a bug where disallowed MCP tools were visible to the model&lt;/li&gt;&lt;li&gt;Fixed an issue where steering messages could be lost while a subagent is working&lt;/li&gt;&lt;li&gt;Fixed Option+Arrow word navigation treating entire CJK (Chinese, Japanese, Korean) text sequences as a single word instead of navigating by word boundaries&lt;/li&gt;&lt;li&gt;Improved plan mode exit UX: show simplified yes/no dialog when exiting with empty or missing plan instead of throwing an error&lt;/li&gt;&lt;li&gt;Add support for enterprise managed settings. Contact your Anthropic account team to enable this feature.&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2068</guid>
+      <category>Changelog</category>
+      <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
