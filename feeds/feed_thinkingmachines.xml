@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 12 Dec 2025 02:34:56 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Dec 2025 00:09:40 +0000</lastBuildDate>
     <item>
       <title>Defeating Nondeterminism in LLM Inference</title>
       <link>https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/</link>
@@ -57,6 +57,13 @@
       <description>Tinker: Call for Community Projects by Thinking Machines Lab</description>
       <guid isPermaLink="false">https://thinkingmachines.ai/blog/call-for-community-projects/</guid>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tinker: General Availability and Vision Input</title>
+      <link>https://thinkingmachines.ai/blog/tinker-general-availability/</link>
+      <description>Tinker: General Availability and Vision Input by Thinking Machines Lab</description>
+      <guid isPermaLink="false">https://thinkingmachines.ai/blog/tinker-general-availability/</guid>
+      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
