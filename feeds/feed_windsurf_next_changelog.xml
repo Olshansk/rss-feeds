@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 13 Dec 2025 02:33:18 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Dec 2025 03:25:46 +0000</lastBuildDate>
     <item>
       <title>Windsurf Next 1.2.106</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.2.106</link>
@@ -784,6 +784,14 @@
       <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.12.162#1.12.162</guid>
       <category>Changelog</category>
       <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.12.163</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.12.163</link>
+      <description>&lt;h3&gt;Patch Fixes and Improvements&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Agents &amp; Tool Execution&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Fixed Command-I functionality&lt;/li&gt;&lt;li&gt;Fixed Ctrl+C during tool execution not working properly&lt;/li&gt;&lt;li&gt;Fixed Go (fallback) processes not being killed properly&lt;/li&gt;&lt;li&gt;Fixed handling of parallel tool call errors&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;UI &amp; Rendering&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Fixed incorrect indentation from code blocks in terminal rendering&lt;/li&gt;&lt;li&gt;Fixed nested lists not rendering on new line in terminal markdown&lt;/li&gt;&lt;li&gt;Fixed content spacing issues&lt;/li&gt;&lt;li&gt;Fixed streaming flashes&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Messaging &amp; Platform&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Fixed rate limit error message to say "no credits were used" instead of "credits have been refunded"&lt;/li&gt;&lt;li&gt;Fixed continuously rechecking for updates on macOS&lt;/li&gt;&lt;li&gt;Added a user-facing message when API providers are exhausted&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Tooling &amp; Onboarding&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Improved MCP tool call visibility (show tool name, args, etc)&lt;/li&gt;&lt;li&gt;Added loading indicators when thinking or during long running operations&lt;/li&gt;&lt;li&gt;Allowed clicking items in the Windsurf onboarding pane&lt;/li&gt;&lt;li&gt;Respected gitignore patterns in the workspace directory tree&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.12.163#1.12.163</guid>
+      <category>Changelog</category>
+      <pubDate>Sat, 13 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
