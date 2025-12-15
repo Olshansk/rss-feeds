@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Dec 2025 02:39:55 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Dec 2025 03:32:03 +0000</lastBuildDate>
     <item>
       <title>Codeium Beta Launch</title>
       <link>https://windsurf.com/blog/beta-launch-announcement</link>
@@ -1449,6 +1449,18 @@
       <category>anthropic</category>
       <category>opus-4.5</category>
       <pubDate>Mon, 24 Nov 2025 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GPT 5.2 is now available in Windsurf!</title>
+      <link>https://windsurf.com/blog/gpt-5-2</link>
+      <description>GPT-5.2 is now live in Windsurf! Available for 0x credits for a limited time (paid and trial users). The version bump undersells the jump in intelligence: Biggest leap for GPT models in agentic coding since GPT-5, SOTA coding model at its price point, Default in Windsurf</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/gpt-5-2</guid>
+      <category>product</category>
+      <category>company</category>
+      <category>openai</category>
+      <category>gpt-5.2</category>
+      <category>windsurf</category>
+      <pubDate>Thu, 11 Dec 2025 12:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
