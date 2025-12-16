@@ -13,7 +13,14 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Dec 2025 23:02:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Dec 2025 00:10:22 +0000</lastBuildDate>
+    <item>
+      <title>v2.0.70</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2070</link>
+      <description>&lt;ul&gt;&lt;li&gt;Added Enter key to accept and submit prompt suggestions immediately (tab still accepts for editing)&lt;/li&gt;&lt;li&gt;Added wildcard syntax `mcp__server__*` for MCP tool permissions to allow or deny all tools from a server&lt;/li&gt;&lt;li&gt;Added auto-update toggle for plugin marketplaces, allowing per-marketplace control over automatic updates&lt;/li&gt;&lt;li&gt;Added `plan_mode_required` spawn parameter for teammates to require plan approval before implementing changes&lt;/li&gt;&lt;li&gt;Added `current_usage` field to status line input, enabling accurate context window percentage calculations&lt;/li&gt;&lt;li&gt;Fixed input being cleared when processing queued commands while the user was typing&lt;/li&gt;&lt;li&gt;Fixed prompt suggestions replacing typed input when pressing Tab&lt;/li&gt;&lt;li&gt;Fixed diff view not updating when terminal is resized&lt;/li&gt;&lt;li&gt;Improved memory usage by 3x for large conversations&lt;/li&gt;&lt;li&gt;Improved resolution of stats screenshots copied to clipboard (Ctrl+S) for crisper images&lt;/li&gt;&lt;li&gt;Removed # shortcut for quick memory entry (tell Claude to edit your CLAUDE.md instead)&lt;/li&gt;&lt;li&gt;Fix thinking mode toggle in /config not persisting correctly&lt;/li&gt;&lt;li&gt;Improve UI for file creation permission dialog&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2070</guid>
+      <category>Changelog</category>
+    </item>
     <item>
       <title>v2.0.69</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2069</link>
@@ -355,13 +362,6 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#208</link>
       <description>&lt;ul&gt;&lt;li&gt;Update Bedrock default Sonnet model to `global.anthropic.claude-sonnet-4-5-20250929-v1:0`&lt;/li&gt;&lt;li&gt;IDE: Add drag-and-drop support for files and folders in chat&lt;/li&gt;&lt;li&gt;/context: Fix counting for thinking blocks&lt;/li&gt;&lt;li&gt;Improve message rendering for users with light themes on dark terminals&lt;/li&gt;&lt;li&gt;Remove deprecated .claude.json allowedTools, ignorePatterns, env, and todoFeatureEnabled config options (instead, configure these in your settings.json)&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#208</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.5</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#205</link>
-      <description>&lt;ul&gt;&lt;li&gt;IDE: Fix IME unintended message submission with Enter and Tab&lt;/li&gt;&lt;li&gt;IDE: Add "Open in Terminal" link in login screen&lt;/li&gt;&lt;li&gt;Fix unhandled OAuth expiration 401 API errors&lt;/li&gt;&lt;li&gt;SDK: Added SDKUserMessageReplay.isReplay to prevent duplicate messages&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#205</guid>
       <category>Changelog</category>
     </item>
   </channel>
