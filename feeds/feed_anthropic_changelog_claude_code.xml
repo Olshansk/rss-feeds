@@ -13,7 +13,14 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Dec 2025 22:02:48 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Dec 2025 23:02:49 +0000</lastBuildDate>
+    <item>
+      <title>v2.0.71</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2071</link>
+      <description>&lt;ul&gt;&lt;li&gt;Added /config toggle to enable/disable prompt suggestions&lt;/li&gt;&lt;li&gt;Added `/settings` as an alias for the `/config` command&lt;/li&gt;&lt;li&gt;Fixed @ file reference suggestions incorrectly triggering when cursor is in the middle of a path&lt;/li&gt;&lt;li&gt;Fixed MCP servers from `.mcp.json` not loading when using `--dangerously-skip-permissions`&lt;/li&gt;&lt;li&gt;Fixed permission rules incorrectly rejecting valid bash commands containing shell glob patterns (e.g., `ls *.txt`, `for f in *.png`)&lt;/li&gt;&lt;li&gt;Bedrock: Environment variable `ANTHROPIC_BEDROCK_BASE_URL` is now respected for token counting and inference profile listing&lt;/li&gt;&lt;li&gt;New syntax highlighting engine for native build&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2071</guid>
+      <category>Changelog</category>
+    </item>
     <item>
       <title>v2.0.70</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2070</link>
@@ -355,13 +362,6 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#209</link>
       <description>&lt;ul&gt;&lt;li&gt;Fix regression where bash backgrounding stopped working&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#209</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.8</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#208</link>
-      <description>&lt;ul&gt;&lt;li&gt;Update Bedrock default Sonnet model to `global.anthropic.claude-sonnet-4-5-20250929-v1:0`&lt;/li&gt;&lt;li&gt;IDE: Add drag-and-drop support for files and folders in chat&lt;/li&gt;&lt;li&gt;/context: Fix counting for thinking blocks&lt;/li&gt;&lt;li&gt;Improve message rendering for users with light themes on dark terminals&lt;/li&gt;&lt;li&gt;Remove deprecated .claude.json allowedTools, ignorePatterns, env, and todoFeatureEnabled config options (instead, configure these in your settings.json)&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#208</guid>
       <category>Changelog</category>
     </item>
   </channel>
