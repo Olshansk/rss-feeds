@@ -13,7 +13,14 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 17 Dec 2025 21:03:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Dec 2025 22:02:53 +0000</lastBuildDate>
+    <item>
+      <title>v2.0.72</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2072</link>
+      <description>&lt;ul&gt;&lt;li&gt;Added Claude in Chrome (Beta) feature that works with the Chrome extension (https://claude.ai/chrome) to let you control your browser directly from Claude Code&lt;/li&gt;&lt;li&gt;Reduced terminal flickering&lt;/li&gt;&lt;li&gt;Added scannable QR code to mobile app tip for quick app downloads&lt;/li&gt;&lt;li&gt;Added loading indicator when resuming conversations for better feedback&lt;/li&gt;&lt;li&gt;Fixed `/context` command not respecting custom system prompts in non-interactive mode&lt;/li&gt;&lt;li&gt;Fixed order of consecutive Ctrl+K lines when pasting with Ctrl+Y&lt;/li&gt;&lt;li&gt;Improved @ mention file suggestion speed (~3x faster in git repositories)&lt;/li&gt;&lt;li&gt;Improved file suggestion performance in repos with `.ignore` or `.rgignore` files&lt;/li&gt;&lt;li&gt;Improved settings validation errors to be more prominent&lt;/li&gt;&lt;li&gt;Changed thinking toggle from Tab to Alt+T to avoid accidental triggers&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2072</guid>
+      <category>Changelog</category>
+    </item>
     <item>
       <title>v2.0.71</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2071</link>
@@ -355,13 +362,6 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2010</link>
       <description>&lt;ul&gt;&lt;li&gt;Rewrote terminal renderer for buttery smooth UI&lt;/li&gt;&lt;li&gt;Enable/disable MCP servers by @mentioning, or in /mcp&lt;/li&gt;&lt;li&gt;Added tab completion for shell commands in bash mode&lt;/li&gt;&lt;li&gt;PreToolUse hooks can now modify tool inputs&lt;/li&gt;&lt;li&gt;Press Ctrl-G to edit your prompt in your system's configured text editor&lt;/li&gt;&lt;li&gt;Fixes for bash permission checks with environment variables in the command&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2010</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.9</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#209</link>
-      <description>&lt;ul&gt;&lt;li&gt;Fix regression where bash backgrounding stopped working&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#209</guid>
       <category>Changelog</category>
     </item>
   </channel>
