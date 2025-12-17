@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 17 Dec 2025 09:06:58 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Dec 2025 10:04:28 +0000</lastBuildDate>
     <item>
       <title>Windsurf 1.0.2</title>
       <link>https://windsurf.com/changelog#1.0.2</link>
@@ -670,6 +670,14 @@
       <title>Windsurf 1.12.44</title>
       <link>https://windsurf.com/changelog#1.12.44</link>
       <description>&lt;h3&gt;Patch Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Reduce occurrence of "prompt is too long" errors&lt;/li&gt;&lt;li&gt;Request all supported scopes if no scopes are provided in MCP OAuth config&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog#1.12.44#1.12.44</guid>
+      <category>Changelog</category>
+      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf 1.12.44</title>
+      <link>https://windsurf.com/changelog#1.12.44</link>
+      <description>&lt;h3&gt;Features&lt;/h3&gt;&lt;p&gt;Added a new "Promo" label to LLM models that are newly available or have special discount pricing&lt;/p&gt;&lt;h3&gt;Bug fixes and improvements&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Agents &amp; Tool Execution&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Fixed Command-I functionality&lt;/li&gt;&lt;li&gt;Fixed Ctrl+C during tool execution not working properly&lt;/li&gt;&lt;li&gt;Fixed Go (fallback) processes not being killed properly&lt;/li&gt;&lt;li&gt;Fixed handling of parallel tool call errors&lt;/li&gt;&lt;li&gt;Improved MCP tool call visibility (show tool name, args, etc)&lt;/li&gt;&lt;li&gt;Fixed fallback diff handling for nonexistent files in code actions&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;UI &amp; Rendering&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Fixed incorrect indentation from code blocks in terminal rendering&lt;/li&gt;&lt;li&gt;Fixed nested lists not rendering on new line in terminal markdown&lt;/li&gt;&lt;li&gt;Fixed content spacing issues&lt;/li&gt;&lt;li&gt;Fixed streaming flashes&lt;/li&gt;&lt;li&gt;Enhanced code block file path display to hide line numbers for whole files&lt;/li&gt;&lt;li&gt;Improved citation and language parsing in code blocks with a more robust regex pattern&lt;/li&gt;&lt;li&gt;Updated the UI for code block title bars to properly handle long paths with truncation&lt;/li&gt;&lt;li&gt;Improved the auto-run command menu interface and its display logic&lt;/li&gt;&lt;li&gt;Added loading indicators when thinking or during long running operations&lt;/li&gt;&lt;li&gt;Fix opening old Cascade diffs&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Platform &amp; Messaging&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Fixed rate limit error message to say "no credits were used" instead of "credits have been refunded"&lt;/li&gt;&lt;li&gt;Fixed continuously rechecking for updates on macOS&lt;/li&gt;&lt;li&gt;Added a user-facing message when API providers are exhausted&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Workspace &amp; Onboarding&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Allowed clicking items in the Windsurf onboarding pane&lt;/li&gt;&lt;li&gt;Respect gitignore patterns in the workspace directory tree&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://windsurf.com/changelog#1.12.44#1.12.44</guid>
       <category>Changelog</category>
       <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
