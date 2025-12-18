@@ -13,7 +13,7 @@
       <link>https://anthropic.com/research/feed_anthropic_research.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 18 Dec 2025 12:04:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Dec 2025 13:14:41 +0000</lastBuildDate>
     <item>
       <title>Societal Impacts</title>
       <link>https://www.anthropic.com/research/team/societal-impacts</link>
@@ -65,14 +65,6 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/tracing-thoughts-language-model</guid>
       <category>Research</category>
       <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Oct 9, 2025AlignmentA small number of samples can poison LLMs of any size</title>
-      <link>https://www.anthropic.com/research/small-samples-poison</link>
-      <description>Oct 9, 2025AlignmentA small number of samples can poison LLMs of any size</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/small-samples-poison</guid>
-      <category>Research</category>
-      <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Oct 14, 2025PolicyPreparing for AI’s economic impact: exploring policy responses</title>
@@ -145,6 +137,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/anthropic-interviewer</guid>
       <category>Research</category>
       <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dec 18, 2025PolicyProject Vend: Phase two</title>
+      <link>https://www.anthropic.com/research/project-vend-2</link>
+      <description>Dec 18, 2025PolicyProject Vend: Phase two</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/project-vend-2</guid>
+      <category>Research</category>
+      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
