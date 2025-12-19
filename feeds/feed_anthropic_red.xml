@@ -13,15 +13,7 @@
       <link>https://anthropic.com/feed_anthropic_red.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 19 Dec 2025 10:03:34 +0000</lastBuildDate>
-    <item>
-      <title>Cyber Toolkits for LLMs</title>
-      <link>https://red.anthropic.com/2025/cyber-toolkits/index.html</link>
-      <description>Large Language Models (LLMs) that are not fine-tuned for cybersecurity can succeed in multistage
-                    attacks on networks with dozens of hosts when equipped with a novel toolkit.</description>
-      <guid isPermaLink="false">https://red.anthropic.com/2025/cyber-toolkits/index.html</guid>
-      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 19 Dec 2025 11:04:34 +0000</lastBuildDate>
     <item>
       <title>Project Vend</title>
       <link>https://red.anthropic.com/2025/project-vend/index.html</link>
@@ -29,7 +21,15 @@
                     learned a lot about the plausible, strange, not-too-distant future in which AI models are
                     autonomously running things in the real economy.</description>
       <guid isPermaLink="false">https://red.anthropic.com/2025/project-vend/index.html</guid>
-      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cyber Toolkits for LLMs</title>
+      <link>https://red.anthropic.com/2025/cyber-toolkits/index.html</link>
+      <description>Large Language Models (LLMs) that are not fine-tuned for cybersecurity can succeed in multistage
+                    attacks on networks with dozens of hosts when equipped with a novel toolkit.</description>
+      <guid isPermaLink="false">https://red.anthropic.com/2025/cyber-toolkits/index.html</guid>
+      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Cyber Evaluations of Claude 4</title>
@@ -48,7 +48,7 @@
                     top
                     25% of competitors. However, it lagged behind the best human teams at the toughest challenges.</description>
       <guid isPermaLink="false">https://red.anthropic.com/2025/cyber-competitions/</guid>
-      <pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Developing Nuclear Safeguards for AI</title>
@@ -112,7 +112,7 @@
                     The idea of an AI running a business doesn't seem as far-fetched as it once did. But the gap between
                     'capable' and 'completely robust' remains wide.</description>
       <guid isPermaLink="false">https://red.anthropic.com/2025/project-vend-2/</guid>
-      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
