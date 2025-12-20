@@ -13,7 +13,7 @@
       <link>https://anthropic.com/research/feed_anthropic_research.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sat, 20 Dec 2025 16:03:06 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Dec 2025 17:03:06 +0000</lastBuildDate>
     <item>
       <title>Societal Impacts</title>
       <link>https://www.anthropic.com/research/team/societal-impacts</link>
@@ -65,14 +65,6 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/tracing-thoughts-language-model</guid>
       <category>Research</category>
       <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Oct 14, 2025PolicyPreparing for AI’s economic impact: exploring policy responses</title>
-      <link>https://www.anthropic.com/research/economic-policy-responses</link>
-      <description>Oct 14, 2025PolicyPreparing for AI’s economic impact: exploring policy responses</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/economic-policy-responses</guid>
-      <category>Research</category>
-      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>InterpretabilityOct 29, 2025Signs of introspection in large language modelsCan Claude access and report on its own internal states? This research finds evidence for a limited but functional ability to introspect—a step toward understanding what's actually happening inside these models.</title>
@@ -145,6 +137,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/project-vend-2</guid>
       <category>Research</category>
       <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dec 19, 2025AlignmentIntroducing Bloom: an open source tool for automated behavioral evaluations</title>
+      <link>https://www.anthropic.com/research/bloom</link>
+      <description>Dec 19, 2025AlignmentIntroducing Bloom: an open source tool for automated behavioral evaluations</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/bloom</guid>
+      <category>Research</category>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
