@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 21 Dec 2025 20:04:05 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Dec 2025 21:03:58 +0000</lastBuildDate>
     <item>
       <title>Windsurf Next 1.2.106</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.2.106</link>
@@ -808,6 +808,14 @@
       <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.12.165#1.12.165</guid>
       <category>Changelog</category>
       <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.12.166</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.12.166</link>
+      <description>&lt;h3&gt;New Features&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Windsurf Dedicated Terminal&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Introduces a new terminal for Cascade that improves command execution reliability (OS X only)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Multi Cascade Panels and Tabs&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Adds support for multiple Cascade panels and tabs, allowing users to work with multiple Cascade sessions simultaneously&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Cascade Hooks on Cascade Response&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Allows users to configure Cascade Hooks on model response, specifically for logging all Cascade responses for auditing purposes&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;System-level Rules + Workflows&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Allows enterprises to place rules and workflows files on users' machines with MDM policies&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fix opening old Cascade diffs&lt;/li&gt;&lt;li&gt;Fix various stability issues with the new terminal implementation&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.12.166#1.12.166</guid>
+      <category>Changelog</category>
+      <pubDate>Sun, 21 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
