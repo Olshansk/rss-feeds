@@ -100,6 +100,20 @@ feeds_hamel: ## Generate RSS feed for Hamel Husain's Blog
 	$(Q)python feed_generators/hamel_blog.py
 	$(call print_success,Hamel Husain Blog feed generated)
 
+.PHONY: feeds_cursor
+feeds_cursor: ## Generate RSS feed for Cursor Blog (incremental)
+	$(call check_venv)
+	$(call print_info,Generating Cursor Blog feed)
+	$(Q)python feed_generators/cursor_blog.py
+	$(call print_success,Cursor Blog feed generated)
+
+.PHONY: feeds_cursor_full
+feeds_cursor_full: ## Generate RSS feed for Cursor Blog (full reset)
+	$(call check_venv)
+	$(call print_info,Generating Cursor Blog feed - FULL RESET)
+	$(Q)python feed_generators/cursor_blog.py --full
+	$(call print_success,Cursor Blog feed generated - full reset)
+
 .PHONY: clean_feeds
 clean_feeds: ## Clean generated RSS feed files
 	$(call print_warning,Removing generated RSS feeds)
