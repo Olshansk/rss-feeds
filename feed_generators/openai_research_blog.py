@@ -1,6 +1,6 @@
 import undetected_chromedriver as uc
 from bs4 import BeautifulSoup
-from datetime import datetime
+from datetime import datetime, timedelta
 import pytz
 from feedgen.feed import FeedGenerator
 import time
@@ -8,8 +8,18 @@ import logging
 from pathlib import Path
 
 # Set up logging
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
 logger = logging.getLogger(__name__)
+
+
+def stable_fallback_date(identifier):
+    """Generate a stable date from a URL or title hash."""
+    hash_val = abs(hash(identifier)) % 730
+    epoch = datetime(2023, 1, 1, 0, 0, 0, tzinfo=pytz.UTC)
+    return epoch + timedelta(days=hash_val)
+
 
 def setup_selenium_driver():
     """Set up Selenium WebDriver with undetected-chromedriver."""
@@ -17,8 +27,11 @@ def setup_selenium_driver():
     options.add_argument("--headless")  # Ensure headless mode is enabled
     options.add_argument("--window-size=1920,1080")
     options.add_argument("--disable-blink-features=AutomationControlled")
-    options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
+    options.add_argument(
+        "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+    )
     return uc.Chrome(options=options)
+
 
 def fetch_news_content_selenium(url):
     """Fetch the fully loaded HTML content of a webpage using Selenium."""
@@ -43,6 +56,7 @@ def fetch_news_content_selenium(url):
     finally:
         if driver:
             driver.quit()
+
 
 def parse_openai_news_html(html_content):
     """Parse the HTML content from OpenAI's Research News page."""
@@ -71,12 +85,18 @@ def parse_openai_news_html(html_content):
                     date = date.replace(tzinfo=pytz.UTC)
                 except Exception:
                     logger.warning(f"Date parsing failed for article: {title}")
-                    date = datetime.now(pytz.UTC)
+                    date = stable_fallback_date(link)
             else:
-                date = datetime.now(pytz.UTC)
+                date = stable_fallback_date(link)
 
             articles.append(
-                {"title": title, "link": link, "date": date, "category": "Research", "description": title}
+                {
+                    "title": title,
+                    "link": link,
+                    "date": date,
+                    "category": "Research",
+                    "description": title,
+                }
             )
         except Exception as e:
             logger.warning(f"Skipping an article due to parsing error: {e}")
@@ -84,6 +104,7 @@ def parse_openai_news_html(html_content):
 
     logger.info(f"Parsed {len(articles)} articles")
     return articles
+
 
 def generate_rss_feed(articles, feed_name="openai_research"):
     """Generate RSS feed from parsed articles."""
@@ -104,6 +125,7 @@ def generate_rss_feed(articles, feed_name="openai_research"):
     logger.info("RSS feed generated successfully")
     return fg
 
+
 def save_rss_feed(feed_generator, feed_name="openai_research"):
     """Save RSS feed to an XML file."""
     feeds_dir = Path("feeds")
@@ -112,6 +134,7 @@ def save_rss_feed(feed_generator, feed_name="openai_research"):
     feed_generator.rss_file(str(output_file), pretty=True)
     logger.info(f"RSS feed saved to {output_file}")
     return output_file
+
 
 def main():
     """Main function to generate OpenAI Research News RSS feed."""
@@ -126,6 +149,7 @@ def main():
         save_rss_feed(feed)
     except Exception as e:
         logger.error(f"Failed to generate RSS feed: {e}")
+
 
 if __name__ == "__main__":
     main()

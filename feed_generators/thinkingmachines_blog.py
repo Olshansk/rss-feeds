@@ -1,7 +1,7 @@
 import os
 import requests
 from bs4 import BeautifulSoup
-from datetime import datetime
+from datetime import datetime, timedelta
 import pytz
 from feedgen.feed import FeedGenerator
 import logging
@@ -9,8 +9,17 @@ from pathlib import Path
 from dateutil import parser
 
 # Set up logging
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
 logger = logging.getLogger(__name__)
+
+
+def stable_fallback_date(identifier):
+    """Generate a stable date from a URL or title hash."""
+    hash_val = abs(hash(identifier)) % 730
+    epoch = datetime(2023, 1, 1, 0, 0, 0, tzinfo=pytz.UTC)
+    return epoch + timedelta(days=hash_val)
 
 
 def get_project_root():
@@ -42,7 +51,7 @@ def fetch_content(url):
 def parse_date(date_text):
     """Parse dates with multiple format support."""
     if not date_text:
-        return datetime.now(pytz.UTC)
+        return None
 
     date_text = date_text.strip()
     current_year = datetime.now().year
@@ -67,9 +76,9 @@ def parse_date(date_text):
         except ValueError:
             continue
 
-    # If all formats fail, log warning and return current time
+    # If all formats fail, log warning and return None
     logger.warning(f"Could not parse date: {date_text}")
-    return datetime.now(pytz.UTC)
+    return None
 
 
 def extract_articles(soup):
@@ -89,7 +98,9 @@ def extract_articles(soup):
                 continue
 
             # Build full URL
-            link = f"https://thinkingmachines.ai{href}" if href.startswith("/") else href
+            link = (
+                f"https://thinkingmachines.ai{href}" if href.startswith("/") else href
+            )
 
             # Skip duplicates
             if link in seen_links:
@@ -99,7 +110,7 @@ def extract_articles(soup):
             # Extract date from time element
             date_elem = item.select_one("time.desktop-time")
             date_text = date_elem.get_text(strip=True) if date_elem else None
-            pub_date = parse_date(date_text)
+            pub_date = parse_date(date_text) or stable_fallback_date(link)
 
             # Extract title
             title_elem = item.select_one("div.post-title")
@@ -156,7 +167,9 @@ def generate_rss_feed(articles, feed_name="thinkingmachines"):
     try:
         fg = FeedGenerator()
         fg.title("Thinking Machines Lab - Connectionism")
-        fg.description("Research blog by Thinking Machines Lab - Shared science and news from the team")
+        fg.description(
+            "Research blog by Thinking Machines Lab - Shared science and news from the team"
+        )
         fg.link(href="https://thinkingmachines.ai/blog/")
         fg.language("en")
 
@@ -246,5 +259,6 @@ def main(feed_name="thinkingmachines", html_file=None):
 
 if __name__ == "__main__":
     import sys
+
     html_file = sys.argv[1] if len(sys.argv) > 1 else None
     main(html_file=html_file)

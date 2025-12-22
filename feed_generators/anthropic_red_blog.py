@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-from datetime import datetime
+from datetime import datetime, timedelta
 import pytz
 from feedgen.feed import FeedGenerator
 import logging
@@ -8,8 +8,17 @@ from pathlib import Path
 import re
 
 # Set up logging
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
 logger = logging.getLogger(__name__)
+
+
+def stable_fallback_date(identifier):
+    """Generate a stable date from a URL or title hash."""
+    hash_val = abs(hash(identifier)) % 730
+    epoch = datetime(2023, 1, 1, 0, 0, 0, tzinfo=pytz.UTC)
+    return epoch + timedelta(days=hash_val)
 
 
 def get_project_root():
@@ -43,8 +52,8 @@ def parse_date(date_text):
     date_formats = [
         "%B %d, %Y",  # November 12, 2025
         "%b %d, %Y",  # Nov 12, 2025
-        "%B %Y",      # November 2025 (fallback)
-        "%b %Y",      # Nov 2025 (fallback)
+        "%B %Y",  # November 2025 (fallback)
+        "%b %Y",  # Nov 2025 (fallback)
     ]
 
     for date_format in date_formats:
@@ -107,7 +116,7 @@ def parse_red_html(html_content):
         # Iterate through all children to process dates and articles in order
         for elem in toc.children:
             # Skip text nodes and non-tag elements
-            if not hasattr(elem, 'name'):
+            if not hasattr(elem, "name"):
                 continue
 
             # Check if this is a date divider
@@ -162,7 +171,9 @@ def parse_red_html(html_content):
 
             # Fallback to current date from main page if fetching fails
             if not article_date:
-                article_date = current_date if current_date else datetime.now(pytz.UTC)
+                article_date = (
+                    current_date if current_date else stable_fallback_date(link)
+                )
                 logger.warning(f"Using fallback date for article: {title}")
 
             # Create article object
@@ -189,14 +200,18 @@ def generate_rss_feed(articles, feed_name="anthropic_red"):
     try:
         fg = FeedGenerator()
         fg.title("Anthropic Frontier Red Team Blog")
-        fg.description("Research from Anthropic's Frontier Red Team on what frontier AI models mean for national security")
+        fg.description(
+            "Research from Anthropic's Frontier Red Team on what frontier AI models mean for national security"
+        )
         fg.link(href="https://red.anthropic.com/")
         fg.language("en")
 
         # Set feed metadata
         fg.author({"name": "Anthropic Frontier Red Team"})
         fg.logo("https://www.anthropic.com/images/icons/apple-touch-icon.png")
-        fg.subtitle("Evidence-based analysis about AI's implications for cybersecurity, biosecurity, and autonomous systems")
+        fg.subtitle(
+            "Evidence-based analysis about AI's implications for cybersecurity, biosecurity, and autonomous systems"
+        )
         fg.link(href="https://red.anthropic.com/", rel="alternate")
         fg.link(href=f"https://anthropic.com/feed_{feed_name}.xml", rel="self")
 

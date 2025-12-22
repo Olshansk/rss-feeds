@@ -1,15 +1,24 @@
 import requests
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
-from datetime import datetime
+from datetime import datetime, timedelta
 import pytz
 from feedgen.feed import FeedGenerator
 import logging
 from pathlib import Path
 
 # Set up logging
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
 logger = logging.getLogger(__name__)
+
+
+def stable_fallback_date(identifier):
+    """Generate a stable date from a URL or title hash."""
+    hash_val = abs(hash(identifier)) % 730
+    epoch = datetime(2023, 1, 1, 0, 0, 0, tzinfo=pytz.UTC)
+    return epoch + timedelta(days=hash_val)
 
 
 def get_project_root():
@@ -58,7 +67,7 @@ def parse_date(date_text):
             continue
 
     logger.warning(f"Could not parse date: {date_text}")
-    return datetime.now(pytz.UTC)
+    return None  # Return None so caller can use stable fallback with appropriate identifier
 
 
 def extract_articles(soup):
@@ -68,7 +77,7 @@ def extract_articles(soup):
 
     # Find all article containers
     # Looking for divs with class "group relative" that contain news articles
-    article_containers = soup.select('div.group.relative')
+    article_containers = soup.select("div.group.relative")
 
     logger.info(f"Found {len(article_containers)} potential article containers")
 
@@ -79,7 +88,7 @@ def extract_articles(soup):
             if not title_link:
                 continue
 
-            href = title_link.get('href', '')
+            href = title_link.get("href", "")
             if not href:
                 continue
 
@@ -97,7 +106,7 @@ def extract_articles(soup):
             seen_links.add(link)
 
             # Extract title - can be in h3 or h4
-            title_elem = title_link.select_one('h3, h4')
+            title_elem = title_link.select_one("h3, h4")
             if not title_elem:
                 logger.debug(f"Could not extract title for link: {link}")
                 continue
@@ -105,44 +114,93 @@ def extract_articles(soup):
             title = title_elem.text.strip()
 
             # Extract description
-            description_elem = container.select_one('p.text-secondary')
+            description_elem = container.select_one("p.text-secondary")
             description = description_elem.text.strip() if description_elem else title
 
             # Extract date - try multiple selectors
             date = None
 
             # First try: p.mono-tag.text-xs.leading-6 (featured article format)
-            date_elem = container.select_one('p.mono-tag.text-xs.leading-6')
+            date_elem = container.select_one("p.mono-tag.text-xs.leading-6")
             if date_elem:
                 date_text = date_elem.text.strip()
-                if any(month in date_text for month in ["January", "February", "March", "April", "May", "June",
-                                                         "July", "August", "September", "October", "November", "December"]):
+                if any(
+                    month in date_text
+                    for month in [
+                        "January",
+                        "February",
+                        "March",
+                        "April",
+                        "May",
+                        "June",
+                        "July",
+                        "August",
+                        "September",
+                        "October",
+                        "November",
+                        "December",
+                    ]
+                ):
                     date = parse_date(date_text)
 
             # Second try: span.mono-tag.text-xs in footer (standard article format)
             if not date:
-                footer_elements = container.select('div.flex.items-center.justify-between span.mono-tag.text-xs')
+                footer_elements = container.select(
+                    "div.flex.items-center.justify-between span.mono-tag.text-xs"
+                )
                 for elem in footer_elements:
                     text = elem.text.strip()
                     # Check if this looks like a date
-                    if any(month in text for month in ["January", "February", "March", "April", "May", "June",
-                                                       "July", "August", "September", "October", "November", "December"]):
+                    if any(
+                        month in text
+                        for month in [
+                            "January",
+                            "February",
+                            "March",
+                            "April",
+                            "May",
+                            "June",
+                            "July",
+                            "August",
+                            "September",
+                            "October",
+                            "November",
+                            "December",
+                        ]
+                    ):
                         date = parse_date(text)
                         break
 
-            # Fallback: use current date if we couldn't extract one
+            # Fallback: use stable date if we couldn't extract one
             if not date:
                 logger.warning(f"Could not extract date for article: {title}")
-                date = datetime.now(pytz.UTC)
+                date = stable_fallback_date(link)
 
             # Extract category (tags like "grok", etc.)
             category = "News"
-            category_elem = container.select_one('div:not(.flex.items-center.justify-between) span.mono-tag.text-xs')
+            category_elem = container.select_one(
+                "div:not(.flex.items-center.justify-between) span.mono-tag.text-xs"
+            )
             if category_elem:
                 category_text = category_elem.text.strip().lower()
                 # Skip if it's a date
-                if not any(month.lower() in category_text for month in ["january", "february", "march", "april", "may", "june",
-                                                                          "july", "august", "september", "october", "november", "december"]):
+                if not any(
+                    month.lower() in category_text
+                    for month in [
+                        "january",
+                        "february",
+                        "march",
+                        "april",
+                        "may",
+                        "june",
+                        "july",
+                        "august",
+                        "september",
+                        "october",
+                        "november",
+                        "december",
+                    ]
+                ):
                     category = category_text.capitalize()
 
             article = {
@@ -240,7 +298,7 @@ def main(feed_name="xainews", html_file=None):
         # Get HTML content either from local file or web
         if html_file:
             logger.info(f"Reading HTML content from local file: {html_file}")
-            with open(html_file, 'r', encoding='utf-8') as f:
+            with open(html_file, "r", encoding="utf-8") as f:
                 html_content = f.read()
         else:
             # Fetch news content from web

@@ -1,7 +1,7 @@
 import logging
 import time
 import xml.etree.ElementTree as ET
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 import pytz
@@ -17,6 +17,17 @@ logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
 )
 logger = logging.getLogger(__name__)
+
+
+def stable_fallback_date(identifier):
+    """Generate a stable date from a URL or title hash.
+
+    This prevents RSS readers from seeing entries as 'new' when date
+    extraction fails intermittently.
+    """
+    hash_val = abs(hash(identifier)) % 730  # ~2 years of days
+    epoch = datetime(2023, 1, 1, 0, 0, 0, tzinfo=pytz.UTC)
+    return epoch + timedelta(days=hash_val)
 
 
 def get_project_root():
@@ -296,7 +307,7 @@ def parse_news_html(html_content):
             date = extract_date(card)
             if not date:
                 logger.warning(f"Could not extract date for article: {title}")
-                date = datetime.now(pytz.UTC)
+                date = stable_fallback_date(link)
 
             # Extract category
             category = extract_category(card)

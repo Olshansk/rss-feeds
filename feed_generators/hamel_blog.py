@@ -1,14 +1,23 @@
 import requests
 from bs4 import BeautifulSoup
-from datetime import datetime
+from datetime import datetime, timedelta
 import pytz
 from feedgen.feed import FeedGenerator
 import logging
 from pathlib import Path
 
 # Set up logging
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
 logger = logging.getLogger(__name__)
+
+
+def stable_fallback_date(identifier):
+    """Generate a stable date from a URL or title hash."""
+    hash_val = abs(hash(identifier)) % 730
+    epoch = datetime(2023, 1, 1, 0, 0, 0, tzinfo=pytz.UTC)
+    return epoch + timedelta(days=hash_val)
 
 
 def get_project_root():
@@ -83,8 +92,10 @@ def parse_blog_page(html_content, base_url="https://hamel.dev"):
                     pub_date = datetime.strptime(date_text, "%m/%d/%y")
                     pub_date = pub_date.replace(tzinfo=pytz.UTC)
                 except ValueError:
-                    logger.warning(f"Could not parse date '{date_text}' for post '{title}'")
-                    pub_date = datetime.now(pytz.UTC)
+                    logger.warning(
+                        f"Could not parse date '{date_text}' for post '{title}'"
+                    )
+                    pub_date = stable_fallback_date(full_url)
 
                 blog_post = {
                     "title": title,
@@ -113,7 +124,9 @@ def generate_rss_feed(blog_posts, feed_name="hamel"):
     try:
         fg = FeedGenerator()
         fg.title("Hamel Husain's Blog")
-        fg.description("Notes on applied AI engineering, machine learning, and data science.")
+        fg.description(
+            "Notes on applied AI engineering, machine learning, and data science."
+        )
         fg.link(href="https://hamel.dev/")
         fg.language("en")
 
@@ -121,7 +134,10 @@ def generate_rss_feed(blog_posts, feed_name="hamel"):
         fg.author({"name": "Hamel Husain"})
         fg.subtitle("Applied AI engineering, machine learning, and data science")
         fg.link(href="https://hamel.dev/", rel="alternate")
-        fg.link(href=f"https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_{feed_name}.xml", rel="self")
+        fg.link(
+            href=f"https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_{feed_name}.xml",
+            rel="self",
+        )
 
         # Add entries
         for post in blog_posts:

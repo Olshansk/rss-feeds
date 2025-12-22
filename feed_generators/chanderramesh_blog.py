@@ -1,15 +1,24 @@
 import os
 import requests
 from bs4 import BeautifulSoup
-from datetime import datetime
+from datetime import datetime, timedelta
 import pytz
 from feedgen.feed import FeedGenerator
 import logging
 from pathlib import Path
 
 # Set up logging
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
 logger = logging.getLogger(__name__)
+
+
+def stable_fallback_date(identifier):
+    """Generate a stable date from a URL or title hash."""
+    hash_val = abs(hash(identifier)) % 730
+    epoch = datetime(2023, 1, 1, 0, 0, 0, tzinfo=pytz.UTC)
+    return epoch + timedelta(days=hash_val)
 
 
 def get_project_root():
@@ -46,7 +55,7 @@ def parse_date(date_str):
         return date.replace(tzinfo=pytz.UTC)
     except ValueError as e:
         logger.warning(f"Could not parse date: {date_str} - {str(e)}")
-        return datetime.now(pytz.UTC)
+        return None
 
 
 def parse_writing_page(html_content, base_url="https://chanderramesh.com"):
@@ -73,7 +82,9 @@ def parse_writing_page(html_content, base_url="https://chanderramesh.com"):
             date_str = date_elem.get_text(strip=True) if date_elem else None
 
             # Extract title
-            title_elem = link.find("h3", class_="font-semibold tracking-tight mb-3 text-xl font-serif")
+            title_elem = link.find(
+                "h3", class_="font-semibold tracking-tight mb-3 text-xl font-serif"
+            )
             title = title_elem.get_text(strip=True) if title_elem else "Untitled"
 
             # Extract description
@@ -81,7 +92,9 @@ def parse_writing_page(html_content, base_url="https://chanderramesh.com"):
             description = desc_elem.get_text(strip=True) if desc_elem else ""
 
             # Parse date
-            pub_date = parse_date(date_str) if date_str else datetime.now(pytz.UTC)
+            pub_date = (
+                parse_date(date_str) if date_str else None
+            ) or stable_fallback_date(full_url)
 
             blog_post = {
                 "title": title,
@@ -110,7 +123,9 @@ def generate_rss_feed(blog_posts, feed_name="chanderramesh"):
     try:
         fg = FeedGenerator()
         fg.title("Chander Ramesh - Writing")
-        fg.description("Essays by Chander Ramesh covering software, startups, investing, and philosophy")
+        fg.description(
+            "Essays by Chander Ramesh covering software, startups, investing, and philosophy"
+        )
         fg.link(href="https://chanderramesh.com/writing")
         fg.language("en")
 

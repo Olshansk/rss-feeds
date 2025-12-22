@@ -7,27 +7,40 @@ Scrapes https://www.surgehq.ai/blog and generates an RSS feed
 import requests
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-from datetime import datetime
+from datetime import datetime, timedelta
 from dateutil import parser
 import pytz
+
+
+def stable_fallback_date(identifier):
+    """Generate a stable date from a URL or title hash."""
+    hash_val = abs(hash(identifier)) % 730
+    epoch = datetime(2023, 1, 1, 0, 0, 0, tzinfo=pytz.UTC)
+    return epoch + timedelta(days=hash_val)
+
 
 def generate_blogsurgeai_feed():
     """Generate RSS feed for Surge AI blog"""
 
     # Initialize feed generator
     fg = FeedGenerator()
-    fg.id('https://www.surgehq.ai/blog')
-    fg.title('Surge AI Blog')
-    fg.author({'name': 'Surge AI', 'email': 'team@surgehq.ai'})
-    fg.link(href='https://www.surgehq.ai/blog', rel='alternate')
-    fg.link(href='https://raw.githubusercontent.com/olshansky/rss-feeds/main/feeds/feed_blogsurgeai.xml', rel='self')
-    fg.language('en')
-    fg.description('New methods, current trends & software infrastructure for NLP. Articles written by our senior engineering leads from Google, Facebook, Twitter, Harvard, MIT, and Y Combinator')
+    fg.id("https://www.surgehq.ai/blog")
+    fg.title("Surge AI Blog")
+    fg.author({"name": "Surge AI", "email": "team@surgehq.ai"})
+    fg.link(href="https://www.surgehq.ai/blog", rel="alternate")
+    fg.link(
+        href="https://raw.githubusercontent.com/olshansky/rss-feeds/main/feeds/feed_blogsurgeai.xml",
+        rel="self",
+    )
+    fg.language("en")
+    fg.description(
+        "New methods, current trends & software infrastructure for NLP. Articles written by our senior engineering leads from Google, Facebook, Twitter, Harvard, MIT, and Y Combinator"
+    )
 
     # Fetch the blog page
-    url = 'https://www.surgehq.ai/blog'
+    url = "https://www.surgehq.ai/blog"
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
     }
 
     try:
@@ -38,10 +51,10 @@ def generate_blogsurgeai_feed():
         return
 
     # Parse HTML
-    soup = BeautifulSoup(response.content, 'html.parser')
+    soup = BeautifulSoup(response.content, "html.parser")
 
     # Find all blog post items
-    blog_items = soup.find_all('div', class_='blog-hero-cms-item')
+    blog_items = soup.find_all("div", class_="blog-hero-cms-item")
 
     print(f"Found {len(blog_items)} blog posts")
 
@@ -49,34 +62,34 @@ def generate_blogsurgeai_feed():
     for item in blog_items:
         try:
             # Find the title
-            title_element = item.find('div', class_='blog-hero-cms-item-title')
+            title_element = item.find("div", class_="blog-hero-cms-item-title")
             if not title_element:
                 continue
 
             title = title_element.get_text(strip=True)
 
             # Find the link
-            link_element = item.find('a', class_='blog-hero-cms-item-link')
+            link_element = item.find("a", class_="blog-hero-cms-item-link")
             if not link_element:
                 continue
 
-            link = link_element.get('href')
-            if not link.startswith('http'):
-                link = 'https://www.surgehq.ai' + link
+            link = link_element.get("href")
+            if not link.startswith("http"):
+                link = "https://www.surgehq.ai" + link
 
             # Find the description
-            desc_element = item.find('div', class_='blog-hero-cms-item-desc')
+            desc_element = item.find("div", class_="blog-hero-cms-item-desc")
             description = desc_element.get_text(strip=True) if desc_element else title
 
             # Find the date
-            date_element = item.find('div', class_='blog-hero-cms-item-date')
-            pub_date = datetime.now(pytz.UTC)  # Default fallback
+            date_element = item.find("div", class_="blog-hero-cms-item-date")
+            pub_date = None  # Will be set by parsing or fallback
 
             if date_element:
                 # Find the visible date element (the one without w-condition-invisible)
-                date_texts = date_element.find_all('div', class_='txt fs-12 inline')
+                date_texts = date_element.find_all("div", class_="txt fs-12 inline")
                 for date_text in date_texts:
-                    if 'w-condition-invisible' not in date_text.get('class', []):
+                    if "w-condition-invisible" not in date_text.get("class", []):
                         date_str = date_text.get_text(strip=True)
                         try:
                             # Parse the date string (e.g., "October 10, 2025")
@@ -87,6 +100,10 @@ def generate_blogsurgeai_feed():
                             break
                         except Exception as e:
                             print(f"Could not parse date '{date_str}': {e}")
+
+            # Use stable fallback if no date was parsed
+            if pub_date is None:
+                pub_date = stable_fallback_date(link)
 
             # Create feed entry
             fe = fg.add_entry()
@@ -105,9 +122,10 @@ def generate_blogsurgeai_feed():
             continue
 
     # Generate RSS feed
-    output_path = 'feeds/feed_blogsurgeai.xml'
+    output_path = "feeds/feed_blogsurgeai.xml"
     fg.rss_file(output_path, pretty=True)
     print(f"\nRSS feed generated successfully: {output_path}")
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     generate_blogsurgeai_feed()
