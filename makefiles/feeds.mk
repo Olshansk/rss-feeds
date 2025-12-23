@@ -100,6 +100,27 @@ feeds_hamel: ## Generate RSS feed for Hamel Husain's Blog
 	$(Q)python feed_generators/hamel_blog.py
 	$(call print_success,Hamel Husain Blog feed generated)
 
+.PHONY: feeds_windsurf_blog
+feeds_windsurf_blog: ## Generate RSS feed for Windsurf Blog
+	$(call check_venv)
+	$(call print_info,Generating Windsurf Blog feed)
+	$(Q)python feed_generators/windsurf_blog.py
+	$(call print_success,Windsurf Blog feed generated)
+
+.PHONY: feeds_windsurf_changelog
+feeds_windsurf_changelog: ## Generate RSS feed for Windsurf Changelog
+	$(call check_venv)
+	$(call print_info,Generating Windsurf Changelog feed)
+	$(Q)python feed_generators/windsurf_changelog.py
+	$(call print_success,Windsurf Changelog feed generated)
+
+.PHONY: feeds_windsurf_next_changelog
+feeds_windsurf_next_changelog: ## Generate RSS feed for Windsurf Next Changelog
+	$(call check_venv)
+	$(call print_info,Generating Windsurf Next Changelog feed)
+	$(Q)python feed_generators/windsurf_next_changelog.py
+	$(call print_success,Windsurf Next Changelog feed generated)
+
 .PHONY: clean_feeds
 clean_feeds: ## Clean generated RSS feed files
 	$(call print_warning,Removing generated RSS feeds)

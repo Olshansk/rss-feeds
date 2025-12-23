@@ -13,7 +13,7 @@
       <link>https://anthropic.com/research/feed_anthropic_research.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Dec 2025 05:05:20 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Dec 2025 21:03:27 +0000</lastBuildDate>
     <item>
       <title>Societal Impacts</title>
       <link>https://www.anthropic.com/research/team/societal-impacts</link>
@@ -26,6 +26,13 @@
       <link>https://www.anthropic.com/research/team/interpretability</link>
       <description>Interpretability</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/interpretability</guid>
+      <category>Research</category>
+    </item>
+    <item>
+      <title>Economic Research</title>
+      <link>https://www.anthropic.com/research/team/economic-research</link>
+      <description>Economic Research</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/economic-research</guid>
       <category>Research</category>
     </item>
     <item>
@@ -60,28 +67,12 @@
       <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Oct 9, 2025AlignmentA small number of samples can poison LLMs of any size</title>
-      <link>https://www.anthropic.com/research/small-samples-poison</link>
-      <description>Oct 9, 2025AlignmentA small number of samples can poison LLMs of any size</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/small-samples-poison</guid>
-      <category>Research</category>
-      <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Oct 14, 2025PolicyPreparing for AI’s economic impact: exploring policy responses</title>
-      <link>https://www.anthropic.com/research/economic-policy-responses</link>
-      <description>Oct 14, 2025PolicyPreparing for AI’s economic impact: exploring policy responses</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/economic-policy-responses</guid>
-      <category>Research</category>
-      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>InterpretabilityOct 28, 2025Signs of introspection in large language modelsCan Claude access and report on its own internal states? This research finds evidence for a limited but functional ability to introspect—a step toward understanding what's actually happening inside these models.</title>
+      <title>InterpretabilityOct 29, 2025Signs of introspection in large language modelsCan Claude access and report on its own internal states? This research finds evidence for a limited but functional ability to introspect—a step toward understanding what's actually happening inside these models.</title>
       <link>https://www.anthropic.com/research/introspection</link>
-      <description>InterpretabilityOct 28, 2025Signs of introspection in large language modelsCan Claude access and report on its own internal states? This research finds evidence for a limited but functional ability to introspect—a step toward understanding what's actually happening inside these models.</description>
+      <description>InterpretabilityOct 29, 2025Signs of introspection in large language modelsCan Claude access and report on its own internal states? This research finds evidence for a limited but functional ability to introspect—a step toward understanding what's actually happening inside these models.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/introspection</guid>
       <category>Research</category>
-      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Nov 4, 2025AlignmentCommitments on model deprecation and preservation</title>
@@ -92,9 +83,9 @@
       <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Project Fetch: Can Claude train a robot dog?</title>
+      <title>Nov 12, 2025PolicyProject Fetch: Can Claude train a robot dog?</title>
       <link>https://www.anthropic.com/research/project-fetch-robot-dog</link>
-      <description>Project Fetch: Can Claude train a robot dog?</description>
+      <description>Nov 12, 2025PolicyProject Fetch: Can Claude train a robot dog?</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/project-fetch-robot-dog</guid>
       <category>Research</category>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
@@ -138,6 +129,22 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/anthropic-interviewer</guid>
       <category>Research</category>
       <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Project Vend: Phase two</title>
+      <link>https://www.anthropic.com/research/project-vend-2</link>
+      <description>Project Vend: Phase two</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/project-vend-2</guid>
+      <category>Research</category>
+      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dec 19, 2025AlignmentIntroducing Bloom: an open source tool for automated behavioral evaluations</title>
+      <link>https://www.anthropic.com/research/bloom</link>
+      <description>Dec 19, 2025AlignmentIntroducing Bloom: an open source tool for automated behavioral evaluations</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/bloom</guid>
+      <category>Research</category>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

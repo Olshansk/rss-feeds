@@ -13,7 +13,7 @@
       <link>https://anthropic.com/feed_anthropic_red.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Dec 2025 05:03:22 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Dec 2025 21:04:33 +0000</lastBuildDate>
     <item>
       <title>Cyber Toolkits for LLMs</title>
       <link>https://red.anthropic.com/2025/cyber-toolkits/index.html</link>
@@ -98,11 +98,21 @@
       <title>AI Agents Find Smart Contract Exploits</title>
       <link>https://red.anthropic.com/2025/smart-contracts/</link>
       <description>We evaluated AI agents' ability to exploit smart contracts using a new benchmark comprising
-                    contracts that were actually exploited. On contracts exploited after the latest knowledge cutoff,
+                    contracts that were actually exploited. On contracts exploited after the latest knowledge cutoffs,
                     Claude Opus 4.5, Claude Sonnet 4.5, and GPT-5 found vulnerabilities worth a combined $4.6 million, a
                     finding that underscores the need for proactive adoption of AI for defense.</description>
       <guid isPermaLink="false">https://red.anthropic.com/2025/smart-contracts/</guid>
       <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Project Vend: Phase Two</title>
+      <link>https://red.anthropic.com/2025/project-vend-2/</link>
+      <description>In June, we revealed that we'd set up a small shop in our San Francisco office run by an AI
+                    shopkeeper. It did not do particularly well. We made some adjustments for phase two of Project Vend.
+                    The idea of an AI running a business doesn't seem as far-fetched as it once did. But the gap between
+                    'capable' and 'completely robust' remains wide.</description>
+      <guid isPermaLink="false">https://red.anthropic.com/2025/project-vend-2/</guid>
+      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
