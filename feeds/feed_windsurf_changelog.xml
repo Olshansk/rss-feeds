@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 23 Dec 2025 18:05:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Dec 2025 19:05:07 +0000</lastBuildDate>
     <item>
       <title>Windsurf 1.0.2</title>
       <link>https://windsurf.com/changelog#1.0.2</link>
@@ -65,14 +65,6 @@
       <guid isPermaLink="false">https://windsurf.com/changelog#1.1.0#1.1.0</guid>
       <category>Changelog</category>
       <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf 1.1.1</title>
-      <link>https://windsurf.com/changelog#1.1.1</link>
-      <description>&lt;h3&gt;Quick Updates&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Product Improvements&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Added a "Send to Cascade" button in the Problems tab&lt;/li&gt;&lt;li&gt;Autocomplete and supercomplete show up regardless of intellisense.&lt;/li&gt;&lt;li&gt;You can now see your plan on the Status Bar, with usage information on mouse hover&lt;/li&gt;&lt;li&gt;Improvements to the onboarding flow&lt;/li&gt;&lt;li&gt;Ability to download Windsurf Logs to help with support tickets&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Fixes&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Fixed a bug for Cascade unable to apply its proposed code edits in chat mode on Windows&lt;/li&gt;&lt;li&gt;Fixes autocomplete speed slowdowns affecting some users&lt;/li&gt;&lt;li&gt;Bug fixes and stability improvements&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog#1.1.1#1.1.1</guid>
-      <category>Changelog</category>
-      <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Windsurf 1.1.2</title>
@@ -379,14 +371,6 @@
       <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Windsurf 1.10.7</title>
-      <link>https://windsurf.com/changelog#1.10.7</link>
-      <description>&lt;h3&gt;Cascade Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Improvements to Cascade reliability&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog#1.10.7#1.10.7</guid>
-      <category>Changelog</category>
-      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Windsurf 1.10.8</title>
       <link>https://windsurf.com/changelog#1.10.8</link>
       <description>&lt;h3&gt;Linux Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fixes to RHEL 8 Support&lt;/li&gt;&lt;/ul&gt;</description>
@@ -411,14 +395,6 @@
       <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Windsurf 1.11.2</title>
-      <link>https://windsurf.com/changelog#1.11.2</link>
-      <description>&lt;h3&gt;Patch Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Minor improvements and bug fixes&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog#1.11.2#1.11.2</guid>
-      <category>Changelog</category>
-      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Windsurf 1.11.3</title>
       <link>https://windsurf.com/changelog#1.11.3</link>
       <description>&lt;h3&gt;Patch Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Minor improvements and bug fixes&lt;/li&gt;&lt;/ul&gt;</description>
@@ -441,14 +417,6 @@
       <guid isPermaLink="false">https://windsurf.com/changelog#1.12.1#1.12.1</guid>
       <category>Changelog</category>
       <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf 1.12.2</title>
-      <link>https://windsurf.com/changelog#1.12.2</link>
-      <description>&lt;h3&gt;Patch Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Minor improvements and bug fixes&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog#1.12.2#1.12.2</guid>
-      <category>Changelog</category>
-      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Windsurf 1.12.2</title>
@@ -601,14 +569,6 @@
       <guid isPermaLink="false">https://windsurf.com/changelog#1.12.31#1.12.31</guid>
       <category>Changelog</category>
       <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf 1.12.32</title>
-      <link>https://windsurf.com/changelog#1.12.32</link>
-      <description>&lt;h3&gt;GPT-5.1 Priority Mode&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Added priority processing support for GPT-5.1 models, providing guaranteed low-latency responses for faster (~50 tokens/sec), more reliable AI assistance.&lt;/li&gt;&lt;li&gt;Priority processing costs 2x the standard rate, which will be reflected in the Windsurf credit system.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Patch Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fixed tool call calling issues for GPT-5.1-Codex and GPT-5.1-Codex Mini models&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog#1.12.32#1.12.32</guid>
-      <category>Changelog</category>
-      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Windsurf 1.12.33</title>
