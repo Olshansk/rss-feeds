@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-12-22T18:19:06.396405+00:00",
+  "last_updated": "2025-12-23T22:14:23.625204+00:00",
   "posts": [
+    {
+      "url": "https://cursor.com/blog/hooks-partners",
+      "title": "Hooks for security and platform teams",
+      "description": "We're partnering with ecosystem vendors who have built hooks support with Cursor.",
+      "date": "2025-12-22T00:00:00.000Z",
+      "category": "product"
+    },
     {
       "url": "https://cursor.com/blog/graphite",
       "title": "Graphite is joining Cursor",

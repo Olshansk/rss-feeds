@@ -13,7 +13,7 @@
       <link>https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_cursor.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 22 Dec 2025 18:19:06 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Dec 2025 22:14:23 +0000</lastBuildDate>
     <item>
       <title>Prompt design</title>
       <link>https://cursor.com/blog/prompt-design</link>
@@ -301,6 +301,14 @@
       <guid isPermaLink="false">https://cursor.com/blog/graphite</guid>
       <category>company</category>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hooks for security and platform teams</title>
+      <link>https://cursor.com/blog/hooks-partners</link>
+      <description>We're partnering with ecosystem vendors who have built hooks support with Cursor.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/hooks-partners</guid>
+      <category>product</category>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
