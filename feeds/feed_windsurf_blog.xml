@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Dec 2025 20:03:24 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Dec 2025 21:04:30 +0000</lastBuildDate>
     <item>
       <title>Codeium Beta Launch</title>
       <link>https://windsurf.com/blog/beta-launch-announcement</link>
@@ -1461,6 +1461,14 @@
       <category>gpt-5.2</category>
       <category>windsurf</category>
       <pubDate>Thu, 11 Dec 2025 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Wave 13: Merry Shipmas</title>
+      <link>https://windsurf.com/blog/windsurf-wave-13</link>
+      <description>Parallel agents, Git worktrees, multi-pane Cascade, dedicated terminal, and SWE-1.5 Free</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-13</guid>
+      <category>product</category>
+      <pubDate>Wed, 24 Dec 2025 12:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
