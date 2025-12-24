@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Dec 2025 19:04:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Dec 2025 20:03:22 +0000</lastBuildDate>
     <item>
       <title>Windsurf Next 1.2.106</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.2.106</link>
@@ -824,6 +824,14 @@
       <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.12.167#1.12.167</guid>
       <category>Changelog</category>
       <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.13.104</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.13.104</link>
+      <description>&lt;h3&gt;Wave 13: Merry Shipmas&lt;/h3&gt;&lt;p&gt;Wave 13 brings first-class support for parallel, multi-agent sessions in Windsurf, along with Git worktrees, side-by-side Cascade panes, and a dedicated terminal profile for more reliable agent execution.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;SWE-1.5 Free&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Our near-frontier model, SWE-1.5, is now available for free to all users for the next 3 months. SWE-1.5 Free has the full intelligence of SWE-1.5, with the same coding performance on SWE-Bench-Pro, but delivered at standard throughput speeds. The original variant of SWE-1.5 hosted on Cerebras will continue to be available for paid users. SWE-1.5 Free will replace SWE-1 as the default model in Windsurf starting today.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Git Worktree Support&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Windsurf now supports Git worktrees, letting you spawn multiple Cascade sessions in the same repository without conflicts. Git worktrees check out different branches into separate directories while sharing the same Git history.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Multi-Cascade Panes &amp; Tabs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;You can already run multiple Cascade sessions in Windsurf at the same time. Now, you can view and interact with them in separate panes and tabs within the same window. This lets you monitor progress and compare outputs of sessions side-by-side, or even turn Windsurf into a big Cascade dashboard.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Cascade Dedicated Terminal (Beta)&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Windsurf introduces a new approach for letting agents execute terminal commands. Instead of your default shell, Cascade will now run commands in a dedicated zsh shell specifically configured for reliability. The Cascade Dedicated Terminal can use the environment variables you set in your .zshrc configuration and is interactive, which means you can answer any prompts from shell scripts without having to break your flow. This should improve the reliability and speed of shell commands, especially for users with complicated prompts (e.g., powerlevel10k).&lt;/p&gt;&lt;p&gt;In this version, the Cascade Dedicated Te...</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.13.104#1.13.104</guid>
+      <category>Changelog</category>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
