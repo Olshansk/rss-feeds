@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Dec 2025 11:04:14 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Dec 2025 12:05:07 +0000</lastBuildDate>
     <item>
       <title>Windsurf 1.0.2</title>
       <link>https://windsurf.com/changelog#1.0.2</link>
@@ -57,14 +57,6 @@
       <guid isPermaLink="false">https://windsurf.com/changelog#1.0.7#1.0.7</guid>
       <category>Changelog</category>
       <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf 1.1.0</title>
-      <link>https://windsurf.com/changelog#1.1.0</link>
-      <description>&lt;h3&gt;Cascade Memories&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Cascade Memories&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;You can configure rules for Cascade Memories to follow. For example, you can use rules to specify if you want Cascade to respond in a certain language, communicate in a specific style, or use a specific API&lt;/li&gt;&lt;li&gt;Rules can be found in the Windsurf Quick Settings panel by clicking on "Windsurf Settings" on the status bar&lt;/li&gt;&lt;li&gt;Global rules are rules that will be applied to Cascade in all workspaces&lt;/li&gt;&lt;li&gt;Workspace rules are rules that will be applied to Cascade in the current workspace&lt;/li&gt;&lt;li&gt;More information can be found on ourdocs.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Cascade Auto Run Commands&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Cascade can now automatically detect to run certain terminal commands if it deems safe to do. This option is checked off by default and can be enabled in the Settings page, accessible in the top right dropdown. This only affects Cascade responses by premium models&lt;/li&gt;&lt;li&gt;Supports an allow list and deny list of commands for Cascade to run. Allow list always accept the command and deny list always requests for permission to run a command.&lt;/li&gt;&lt;li&gt;More information can be found on ourdocs.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Extensions&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;WSL support is now in beta&lt;/li&gt;&lt;li&gt;Bug fixes and improvements to devcontainer support, notably on Mac&lt;/li&gt;&lt;li&gt;Updates to Windsurf Pyright&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Misc&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Added Cascade undo/redo for full-file accept/reject and workspace-wide accept/reject all&lt;/li&gt;&lt;li&gt;One-time check to install Windsurf Pyright if Python found&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog#1.1.0#1.1.0</guid>
-      <category>Changelog</category>
-      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Windsurf 1.1.1</title>
@@ -145,14 +137,6 @@
       <guid isPermaLink="false">https://windsurf.com/changelog#1.3.4#1.3.4</guid>
       <category>Changelog</category>
       <pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf 1.3.9</title>
-      <link>https://windsurf.com/changelog#1.3.9</link>
-      <description>&lt;h3&gt;Claude 3.7&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;New Cascade Models&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Cascade now has a new premium model available: Claude 3.7 SonnetTakes 1.0 user prompt credits on every message and 1.0 flow action credits on each tool callSupport for Claude 3.7 Sonnet ships with Thinking, with a 1.5x multiplier on credit cost.&lt;/li&gt;&lt;li&gt;Takes 1.0 user prompt credits on every message and 1.0 flow action credits on each tool call&lt;/li&gt;&lt;li&gt;Support for Claude 3.7 Sonnet ships with Thinking, with a 1.5x multiplier on credit cost.&lt;/li&gt;&lt;li&gt;[ROLLING] Cascade supports GPT-4.5 as a beta modelDue to costs, rate limits, and quality from early testing, we will be rolling it out to users incrementally.&lt;/li&gt;&lt;li&gt;Due to costs, rate limits, and quality from early testing, we will be rolling it out to users incrementally.&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog#1.3.9#1.3.9</guid>
-      <category>Changelog</category>
-      <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Windsurf 1.3.10</title>
