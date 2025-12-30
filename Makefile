@@ -134,3 +134,6 @@ act_run_feeds_workflow: ci_run_feeds_workflow_local ## (Legacy) Run feeds workfl
 
 .PHONY: gh_run_feeds_workflow
 gh_run_feeds_workflow: ci_trigger_feeds_workflow ## (Legacy) Trigger feeds workflow on GitHub
+
+.PHONY: generate_the_batch_feed
+generate_the_batch_feed: feeds_the_batch ## (Legacy) Generate The Batch feed

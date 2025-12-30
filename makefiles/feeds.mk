@@ -135,6 +135,13 @@ feeds_windsurf_next_changelog: ## Generate RSS feed for Windsurf Next Changelog
 	$(Q)python feed_generators/windsurf_next_changelog.py
 	$(call print_success,Windsurf Next Changelog feed generated)
 
+.PHONY: feeds_the_batch
+feeds_the_batch: ## Generate RSS feed for The Batch by DeepLearning.AI
+	$(call check_venv)
+	$(call print_info,Generating The Batch feed)
+	$(Q)python feed_generators/deeplearningai_the_batch.py
+	$(call print_success,The Batch feed generated)
+
 .PHONY: clean_feeds
 clean_feeds: ## Clean generated RSS feed files
 	$(call print_warning,Removing generated RSS feeds)
