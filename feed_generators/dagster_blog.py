@@ -45,7 +45,29 @@ def parse_blog_html(html_content):
         soup = BeautifulSoup(html_content, "html.parser")
         blog_posts = []
 
-        # Find all blog post cards
+        # First, parse the featured blog post (if present)
+        featured_post = soup.select_one('div.featured_blog_link')
+        if featured_post:
+            title_elem = featured_post.select_one("h2.heading-style-h5")
+            date_elem = featured_post.select_one("p.text-color-neutral-500")
+            description_elem = featured_post.select_one("p.text-color-neutral-700")
+            link_elem = featured_post.select_one("a.clickable_link")
+
+            if title_elem and date_elem and link_elem:
+                title = title_elem.text.strip()
+                date_str = date_elem.text.strip()
+                date_obj = datetime.strptime(date_str, "%B %d, %Y")
+                description = description_elem.text.strip() if description_elem else ""
+                link = link_elem.get("href", "")
+
+                # Convert relative URLs to absolute URLs
+                if link.startswith("/"):
+                    link = f"https://dagster.io{link}"
+
+                if link:
+                    blog_posts.append({"title": title, "date": date_obj, "description": description, "link": link})
+
+        # Find all regular blog post cards
         posts = soup.select('div.blog_card')
 
         for post in posts:
