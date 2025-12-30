@@ -1,13 +1,16 @@
-import requests
-from bs4 import BeautifulSoup
-from datetime import datetime
-import pytz
-from feedgen.feed import FeedGenerator
 import logging
+from datetime import datetime
 from pathlib import Path
 
+import pytz
+import requests
+from bs4 import BeautifulSoup
+from feedgen.feed import FeedGenerator
+
 # Set up logging
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
 logger = logging.getLogger(__name__)
 
 
@@ -46,7 +49,7 @@ def parse_blog_html(html_content):
         blog_posts = []
 
         # First, parse the featured blog post (if present)
-        featured_post = soup.select_one('div.featured_blog_link')
+        featured_post = soup.select_one("div.featured_blog_link")
         if featured_post:
             title_elem = featured_post.select_one("h2.heading-style-h5")
             date_elem = featured_post.select_one("p.text-color-neutral-500")
@@ -65,10 +68,17 @@ def parse_blog_html(html_content):
                     link = f"https://dagster.io{link}"
 
                 if link:
-                    blog_posts.append({"title": title, "date": date_obj, "description": description, "link": link})
+                    blog_posts.append(
+                        {
+                            "title": title,
+                            "date": date_obj,
+                            "description": description,
+                            "link": link,
+                        }
+                    )
 
         # Find all regular blog post cards
-        posts = soup.select('div.blog_card')
+        posts = soup.select("div.blog_card")
 
         for post in posts:
             # Extract title
@@ -90,7 +100,7 @@ def parse_blog_html(html_content):
             description = description_elem.text.strip() if description_elem else ""
 
             # Extract link - find the clickable_link within the card
-            link_elem = post.select_one('a.clickable_link')
+            link_elem = post.select_one("a.clickable_link")
             if not link_elem or not link_elem.get("href"):
                 continue
             link = link_elem["href"]
@@ -99,7 +109,14 @@ def parse_blog_html(html_content):
             if link.startswith("/"):
                 link = f"https://dagster.io{link}"
 
-            blog_posts.append({"title": title, "date": date_obj, "description": description, "link": link})
+            blog_posts.append(
+                {
+                    "title": title,
+                    "date": date_obj,
+                    "description": description,
+                    "link": link,
+                }
+            )
 
         logger.info(f"Successfully parsed {len(blog_posts)} blog posts")
         return blog_posts
@@ -114,7 +131,9 @@ def generate_rss_feed(blog_posts, feed_name="dagster"):
     try:
         fg = FeedGenerator()
         fg.title("Dagster Blog")
-        fg.description("Read the latest from the Dagster team: insights, tutorials, and updates on data engineering, orchestration, and building better pipelines.")
+        fg.description(
+            "Read the latest from the Dagster team: insights, tutorials, and updates on data engineering, orchestration, and building better pipelines."
+        )
         fg.link(href="https://dagster.io/blog")
         fg.language("en")
 
