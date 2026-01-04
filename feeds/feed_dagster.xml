@@ -2,13 +2,1027 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>Dagster Blog</title>
-    <link>https://dagster.io/blog/feed_dagster.xml</link>
+    <link>https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_dagster.xml</link>
     <description>Latest updates from Dagster</description>
-    <atom:link href="https://dagster.io/blog/feed_dagster.xml" rel="self"/>
+    <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_dagster.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Jan 2026 02:47:28 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Jan 2026 03:25:14 +0000</lastBuildDate>
+    <item>
+      <title>Content Style Guide</title>
+      <link>https://dagster.io/blog/content-style-guide</link>
+      <description>This is an example blog post serving as a style guide.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/content-style-guide</guid>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why Elementl and Dagster: The Decade of Data</title>
+      <link>https://dagster.io/blog/decade-of-data</link>
+      <description>Announcing our $14M Series A led by Index Ventures, alongside Sequoia Capital, Slow Ventures, Coatue, Amplify Partners, OSS Capital, and others.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/decade-of-data</guid>
+      <pubDate>Tue, 16 Nov 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Dagster Cloud</title>
+      <link>https://dagster.io/blog/introducing-dagster-cloud</link>
+      <description>Dagster Cloud, the enterprise orchestration platform that puts developer experience first, with fully serverless or hybrid deployments, is now here.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/introducing-dagster-cloud</guid>
+      <pubDate>Thu, 02 Dec 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rebundling the Data Platform</title>
+      <link>https://dagster.io/blog/rebundling-the-data-platform</link>
+      <description>The Unbundling of Airflow' argued that modern data stack solutions (data ingestion, data transformation, reverse ETL) manage their own data orchestration. Data teams need is a control plane for the modern data stack.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/rebundling-the-data-platform</guid>
+      <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>My Path to Elementl: Pete Hunt</title>
+      <link>https://dagster.io/blog/pete-hunt-path-to-elementl</link>
+      <description>Pete Hunt discusses what caused him to make the leap from Twitter to Elementl.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/pete-hunt-path-to-elementl</guid>
+      <pubDate>Wed, 22 Jun 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dagster Day:  Announcing Dagster 1.0 and Dagster Cloud</title>
+      <link>https://dagster.io/blog/announcing-dagster-day</link>
+      <description>The release of Dagster 1.0 and the GA launch of Dagster Cloud represent major milestones in the evolution of our orchestration solution.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/announcing-dagster-day</guid>
+      <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dagster Cloud goes SOC 2</title>
+      <link>https://dagster.io/blog/soc2-compliance-dagster-blog</link>
+      <description>Elementl, the company behind the Dagster data orchestration tool achieves SOC2 compliance.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/soc2-compliance-dagster-blog</guid>
+      <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Open Core Business Model</title>
+      <link>https://dagster.io/blog/open-core-business-model-dagster</link>
+      <description>The relationship between Dagster, the open-source project, and Dagster Cloud, our hosted SaaS platform.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/open-core-business-model-dagster</guid>
+      <pubDate>Wed, 03 Aug 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Dagster 1.0: Hello</title>
+      <link>https://dagster.io/blog/dagster-1-0-hello</link>
+      <description>Announcing Dagster 1.0. - a stable foundation for building the orchestration layer for modern data platforms.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-1-0-hello</guid>
+      <pubDate>Fri, 05 Aug 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Launching Dagster Cloud to GA</title>
+      <link>https://dagster.io/blog/dagster-cloud-ga-launch</link>
+      <description>The enterprise orchestration platform that puts developer experience first: hybrid or serverless deployments, native branching, and out-of-the-box CI/CD.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-cloud-ga-launch</guid>
+      <pubDate>Tue, 09 Aug 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Spend Less Time Debugging with Dagster</title>
+      <link>https://dagster.io/blog/dagster-debugging</link>
+      <description>Itâs not uncommon for a data engineer to devote 80% of their day to debugging. Dagster radically improves on this.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-debugging</guid>
+      <pubDate>Wed, 17 Aug 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Postgres: a Better Message Queue than Kafka?</title>
+      <link>https://dagster.io/blog/skip-kafka-use-postgres-message-queue</link>
+      <description>When lots of event logs must be stored and indexed, Kafka is the obvious choice. Naturally, our queue runs on Postgres.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/skip-kafka-use-postgres-message-queue</guid>
+      <pubDate>Tue, 04 Oct 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Dagster Crash Course</title>
+      <link>https://dagster.io/blog/dagster-crash-course-oct-2022</link>
+      <description>If you are looking to get up and running with Dagster in 10 minutes or less, this is a good place to start. Buckle up.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-crash-course-oct-2022</guid>
+      <pubDate>Thu, 06 Oct 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dagster at all 5 Steps of the Development Lifecycle</title>
+      <link>https://dagster.io/blog/dagster-five-stages-development-lifecycle</link>
+      <description>Dagster facilitates a data engineers work across all five steps in the development lifecycle.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-five-stages-development-lifecycle</guid>
+      <pubDate>Sun, 16 Oct 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Web Workers are not the Answer</title>
+      <link>https://dagster.io/blog/web-workers-performance-issue</link>
+      <description>A tale of overstretched logs, counterintuitive web worker behavior, and ultimately a troublesome cursor issue.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/web-workers-performance-issue</guid>
+      <pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Unreasonable Effectiveness of Data Pipeline Smoke Tests</title>
+      <link>https://dagster.io/blog/smoke-test-data-pipeline</link>
+      <description>Data practitioners waste time writing unit tests to catch bugs they could have caught with smoke tests.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/smoke-test-data-pipeline</guid>
+      <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Build a poor manâs data lake from scratch with DuckDB</title>
+      <link>https://dagster.io/blog/duckdb-data-lake</link>
+      <description>DuckDB is so hot right now. Learn how to build a data lake from dbt using DuckDB for SQL transformations, along with Python, Dagster, and Parquet files.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/duckdb-data-lake</guid>
+      <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Orchestrating Machine Learning Pipelines with Dagster</title>
+      <link>https://dagster.io/blog/dagster-ml-pipelines</link>
+      <description>How to use Dagsterâs open source data orchestrator to build machine learning pipelines and train ML models.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-ml-pipelines</guid>
+      <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Adding Types to a Large Python Codebase</title>
+      <link>https://dagster.io/blog/adding-python-types</link>
+      <description>What we learned when we introduced dynamically typed code to a large Python codebase, bringing Dagster's public API to 100% type coverage.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/adding-python-types</guid>
+      <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pushing REST-API data to Google Sheets with Dagster</title>
+      <link>https://dagster.io/blog/dagster-google-sheets-tutorial</link>
+      <description>A total beginners tutorial in which we store REST API data in Google Sheets and learn some key abstractions.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-google-sheets-tutorial</guid>
+      <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>My Path to Elementl - Part 2</title>
+      <link>https://dagster.io/blog/pete-hunt-path-to-elementl-part2</link>
+      <description>Pete Hunt takes over as CEO as Nick Schrock takes on the CTO role.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/pete-hunt-path-to-elementl-part2</guid>
+      <pubDate>Fri, 18 Nov 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Getting Stuff Done: a Guide to Productive Software Engineering</title>
+      <link>https://dagster.io/blog/productive-software-engineering</link>
+      <description>To be a more productive software engineer you need to master changes, how these affect the program and others on the team.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/productive-software-engineering</guid>
+      <pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Announcing Dagster 1.1: Thank U, Next</title>
+      <link>https://dagster.io/blog/dagster-1-1-thank-u-next</link>
+      <description>A major release with Declarative Scheduling, multi-asset scheduling, and SDA partitioning. Plus Secrets management, Dagit enhancements, Integrations updates and more...</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-1-1-thank-u-next</guid>
+      <pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Build a GitHub Support Bot with GPT3, LangChain, and Python</title>
+      <link>https://dagster.io/blog/chatgpt-langchain</link>
+      <description>In this tutorial, we tap into the power of OpenAI's ChatGPT to build a GitHub support bot using GPT3, LangChain, and Python.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/chatgpt-langchain</guid>
+      <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Python Packages: a Primer for Data People (part 2 of 2)</title>
+      <link>https://dagster.io/blog/python-packages-primer-2</link>
+      <description>An introduction to managing Python dependencies and some virtual environment best practices.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/python-packages-primer-2</guid>
+      <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Python Packages: a Primer for Data People (part 1 of 2)</title>
+      <link>https://dagster.io/blog/python-packages-primer-1</link>
+      <description>The foundation of a solid Python project is mastering modules, packages and imports.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/python-packages-primer-1</guid>
+      <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Dagster Deploys 5X Faster with Warm Docker Containers</title>
+      <link>https://dagster.io/blog/fast-deploys-with-pex-and-docker</link>
+      <description>Using pex, Serverless Dagster Cloud now deploys 4 to 5 times faster by avoiding the overhead of building and launching Docker images.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/fast-deploys-with-pex-and-docker</guid>
+      <pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Announcing Dagster 1.2: Formation</title>
+      <link>https://dagster.io/blog/dagster-1-2-formation</link>
+      <description>Enhanced partitioned asset support and the introduction of Pythonic config and resources, and integration updates.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-1-2-formation</guid>
+      <pubDate>Thu, 09 Mar 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tracking the Fake GitHub Star Black Market with Dagster, dbt and BigQuery</title>
+      <link>https://dagster.io/blog/fake-stars</link>
+      <description>It's easy for an open-source project to buy fake GitHub stars. We share two approaches for detecting them.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/fake-stars</guid>
+      <pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Partitions in Data Pipelines</title>
+      <link>https://dagster.io/blog/partitioned-data-pipelines</link>
+      <description>Partitioning is a technique that helps data engineers and ML engineers organize data and the computations that produce that data.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/partitioned-data-pipelines</guid>
+      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Best Practices in Structuring Python Projects</title>
+      <link>https://dagster.io/blog/python-project-best-practices</link>
+      <description>We cover 9 best practices and examples on structuring your Python projects for collaboration and productivity.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/python-project-best-practices</guid>
+      <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Community Memo: Pythonic Config and Resources</title>
+      <link>https://dagster.io/blog/pythonic-config-and-resources</link>
+      <description>Major ergonomic improvements are coming to Dagster's config and resources systems, including a Pydantic frontend.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/pythonic-config-and-resources</guid>
+      <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>From Python Projects to Dagster Pipelines</title>
+      <link>https://dagster.io/blog/data-engineering-in-python</link>
+      <description>In part IV of our series, we explore setting up a Dagster project, and the key concept of Data Assets.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/data-engineering-in-python</guid>
+      <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Announcing Dagster 1.3: Smooth Operator</title>
+      <link>https://dagster.io/blog/dagster-1-3-smooth-operator</link>
+      <description>Dagster 1.3 officially inducts Pythonic Config and Resources and brings new enhancements to Software-Defined Assets, integrations, documentation, and guides.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-1-3-smooth-operator</guid>
+      <pubDate>Wed, 26 Apr 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Maintain High Product &amp; Code Quality As Your Startup Scales</title>
+      <link>https://dagster.io/blog/product-and-code-quality</link>
+      <description>Raising the quality bar requires process adjustments and a cultural shift.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/product-and-code-quality</guid>
+      <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deciphering Arcane Kubernetes and ECS Errors with Dagster</title>
+      <link>https://dagster.io/blog/surfacing-errors</link>
+      <description>Recent enhancements allow Dagster to surface clearer and more actionable errors to accelerate your development cycles.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/surfacing-errors</guid>
+      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Dynamic Definitions for Flexible Asset Partitioning</title>
+      <link>https://dagster.io/blog/dynamic-partitioning</link>
+      <description>Dagsterâs dynamic partition definitions allow engineers to use the power of partitions in a broader range of scenarios.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dynamic-partitioning</guid>
+      <pubDate>Fri, 19 May 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building Better Analytics Pipelines</title>
+      <link>https://dagster.io/blog/building-better-analytics-pipelines</link>
+      <description>A recap of our live event on the benefits and techniques for orchestrating analytics pipelines.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/building-better-analytics-pipelines</guid>
+      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dagster and the Decade of Data Engineering</title>
+      <link>https://dagster.io/blog/decade-of-data-engineering</link>
+      <description>We are pleased to announce Elementl's $33M Series B and share our vision for what's next for Dagster and the practice of data engineering.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/decade-of-data-engineering</guid>
+      <pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Elementl Raises $33 Million in Series B Funding to Accelerate Data Orchestration and Unleash Advanced Data Use Cases</title>
+      <link>https://dagster.io/blog/elementl-series-b</link>
+      <description>The new capital will accelerate the development and adoption of Dagster, the open-source, cloud-native data orchestrator.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/elementl-series-b</guid>
+      <pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Backfills in Data &amp; Machine Learning: A Primer</title>
+      <link>https://dagster.io/blog/backfills-in-ml</link>
+      <description>A step-by-step guide to using backfills and partitions to make data management more simple for data &amp; ML engineers.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/backfills-in-ml</guid>
+      <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Dagster Master Plan</title>
+      <link>https://dagster.io/blog/dagster-master-plan</link>
+      <description>Elementl CEO Pete Hunt shares the three priorities that guide how we will evolve Dagster.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-master-plan</guid>
+      <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Revisiting the Poor Manâs Data Lake with MotherDuck</title>
+      <link>https://dagster.io/blog/poor-mans-datalake-motherduck</link>
+      <description>See how much easier you can collaborate using DuckDBâs high-powered cloud version MotherDuck to build a one-system data lake.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/poor-mans-datalake-motherduck</guid>
+      <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Two New Self-Serve Plans for Dagster Cloud</title>
+      <link>https://dagster.io/blog/new-standard-plans</link>
+      <description>Solo' and 'Team' plans, with event-based pricing, will replace the old compute-duration based plan. We explain why we are making this change.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/new-standard-plans</guid>
+      <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LLM training pipelines with Langchain, Airbyte, and Dagster</title>
+      <link>https://dagster.io/blog/training-llms</link>
+      <description>This tutorial shows you how to combine Langchain, Airbyte, and Dagster to build maintainable and scalable pipelines for training LLMs.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/training-llms</guid>
+      <pubDate>Wed, 05 Jul 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Announcing Dagster 1.4: Material Girl</title>
+      <link>https://dagster.io/blog/dagster-1-4-material-girl</link>
+      <description>The latest release brings major new dbt capabilities, new asset materialization controls, and more.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-1-4-material-girl</guid>
+      <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Speeding up the dbtâ¢ docs by 20x with React Server Components</title>
+      <link>https://dagster.io/blog/dbt-docs-on-react</link>
+      <description>dbt docs slow? See how we dropped page load time and memory usage for a large dbt project by 20x using React Server Components.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dbt-docs-on-react</guid>
+      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Orchestrating dbtâ¢ with Dagster</title>
+      <link>https://dagster.io/blog/orchestrating-dbt-with-dagster</link>
+      <description>Orchestrate dbt with Dagsterâs popular dbt integration, now with major enhancements to supercharge your dbt models as part of your data pipeline.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/orchestrating-dbt-with-dagster</guid>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Podcast: Drill to Detail - Dagster, Orchestration and Software-Defined Assets</title>
+      <link>https://dagster.io/blog/podcast-drill-to-detail-aug-2023</link>
+      <description>Dagster Labs founder Nick Shrock is interviewed by Rittman Analytics founder Mark Rittman</description>
+      <guid isPermaLink="false">https://dagster.io/blog/podcast-drill-to-detail-aug-2023</guid>
+      <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Environment Variables in Python</title>
+      <link>https://dagster.io/blog/python-environment-variables</link>
+      <description>In part V of our series on Data Engineering with Python, we cover best practices for managing environment variables in Python.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/python-environment-variables</guid>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Type Hinting in Python</title>
+      <link>https://dagster.io/blog/python-type-hinting</link>
+      <description>In part VI of our Data Engineering with Python series, we explore type hinting functions and classes, and how type hints reduce errors.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/python-type-hinting</guid>
+      <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building an Outbound Reporting Pipeline</title>
+      <link>https://dagster.io/blog/outbound-reporting-pipeline</link>
+      <description>Learn how to use data engineering patterns and Dagsterâs dynamic partitioning to build an outbound email report delivery pipeline.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/outbound-reporting-pipeline</guid>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Dagster Labs</title>
+      <link>https://dagster.io/blog/introducing-dagster-labs</link>
+      <description>In the spirit of simplification, the company formerly known as Elementl is now doing business as Dagster Labs.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/introducing-dagster-labs</guid>
+      <pubDate>Mon, 21 Aug 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Factory Patterns in Python</title>
+      <link>https://dagster.io/blog/python-factory-patterns</link>
+      <description>We explore design patterns â reusable solutions to common problems in software design â as used in data engineering, specifically factory patterns in Python.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/python-factory-patterns</guid>
+      <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pedram Navid: Why I Joined Dagster Labs</title>
+      <link>https://dagster.io/blog/pedram-why-i-joined-dagster-labs</link>
+      <description>It is not every day you get to join a company working on building a product purpose-built for you.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/pedram-why-i-joined-dagster-labs</guid>
+      <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Escaping the Modern Data Trap</title>
+      <link>https://dagster.io/blog/dagster-escaping-the-modern-data-trap</link>
+      <description>Launch Week kicks off October 9th with new functionality being shared each day. Our theme: Escaping the Modern Data Trap!</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-escaping-the-modern-data-trap</guid>
+      <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Write-Audit-Publish in data pipelines</title>
+      <link>https://dagster.io/blog/python-write-audit-publish</link>
+      <description>We look at the write-audit-publish software design pattern used in ETL to ensure quality and reliability in data engineering workflows.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/python-write-audit-publish</guid>
+      <pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Announcing Dagster 1.5: How Will I Know?</title>
+      <link>https://dagster.io/blog/dagster-1-5-how-will-i-know</link>
+      <description>Ahead of Launch Week, we are proud to be rolling out some exciting new capabilities.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-1-5-how-will-i-know</guid>
+      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Dagster Asset Checks</title>
+      <link>https://dagster.io/blog/dagster-asset-checks</link>
+      <description>Deliver high-quality data with Dagster Asset Checks, the ability to embed data quality checks into your data pipeline.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-asset-checks</guid>
+      <pubDate>Mon, 09 Oct 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Improving visibility into data operations with Dagster Insights</title>
+      <link>https://dagster.io/blog/dagster-insights</link>
+      <description>Gain operational observability on your data pipelines and bring cloud costs back under control with the Dagster Insights feature.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-insights</guid>
+      <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Improving the Dagster learning curve</title>
+      <link>https://dagster.io/blog/announcing-dagster-university</link>
+      <description>Learn Dagster essentials and build asset-based data pipelines with Dagster University, our new self-guided course for beginners.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/announcing-dagster-university</guid>
+      <pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Stop Reinventing Orchestration: Embedded ELT in the Orchestrator</title>
+      <link>https://dagster.io/blog/dagster-embedded-elt</link>
+      <description>Solve data ingestion issues with Dagster's Embedded ELT feature, a lightweight embedded library.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-embedded-elt</guid>
+      <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Dagster Pipes</title>
+      <link>https://dagster.io/blog/dagster-pipes</link>
+      <description>A new protocol and toolkit for integrating and launching compute into remote execution environments from Dagster.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-pipes</guid>
+      <pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Dagster External Assets</title>
+      <link>https://dagster.io/blog/dagster-external-assets</link>
+      <description>Use Dagsterâs External Assets feature for data observability, lineage, data quality, and cataloging while bringing your own orchestration and scheduling.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-external-assets</guid>
+      <pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CI/CD and Data Pipeline Automation (with Git)</title>
+      <link>https://dagster.io/blog/python-ci-cd-automation</link>
+      <description>Learn how to automate data pipelines and deployments by integrating Git and CI/CD in our Python for data engineering series.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/python-ci-cd-automation</guid>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Orchestrate Unstructured Data Pipelines with Dagster and dlt</title>
+      <link>https://dagster.io/blog/dagster-dlt</link>
+      <description>Load messy data sources into well-structured tables or datasets, through automatic schema inference and evolution.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-dlt</guid>
+      <pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>High-performance Python for Data Engineering</title>
+      <link>https://dagster.io/blog/python-high-performance</link>
+      <description>Learn how to optimize your Python data pipeline code to run faster with our high-performance Python guide for data engineers.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/python-high-performance</guid>
+      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scaling Dagsterâs DAG Visualization to Handle Tens of Thousands of Assets</title>
+      <link>https://dagster.io/blog/scaling-dag-visualization</link>
+      <description>How the Dagster frontend team rapidly scaled Dagsterâs DAG visualization for enterprise-sized data asset graphs.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/scaling-dag-visualization</guid>
+      <pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Dagster Labs runs Dagster: Open-Sourcing our Own Pipelines</title>
+      <link>https://dagster.io/blog/how-dagster-labs-runs-dagster</link>
+      <description>A technical deep dive into the patterns and implementations of the Dagster Open Platform using our open-sourced code and dbt models.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/how-dagster-labs-runs-dagster</guid>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Retain.ai joins Dagster Labs</title>
+      <link>https://dagster.io/blog/dagster-labs-retain-ai</link>
+      <description>Weâre excited and humbled to bring the Retain.ai organization into our fold to help build out Dagsterâs data orchestration capabilities.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-labs-retain-ai</guid>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Announcing Dagster 1.6: Back to Black</title>
+      <link>https://dagster.io/blog/dagster-1-6-back-to-black</link>
+      <description>Major UI enhancements, Dagster Pipes upgrades and of course, dark mode :-)</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-1-6-back-to-black</guid>
+      <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What Dagster Believes About Data Platforms</title>
+      <link>https://dagster.io/blog/what-dagster-believes-about-data-platforms</link>
+      <description>The beliefs that organizations adopt about the way their data platforms should function influence their outcomes. Here are ours.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/what-dagster-believes-about-data-platforms</guid>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Thinking in Assets When Building Data Pipelines</title>
+      <link>https://dagster.io/blog/thinking-in-assets</link>
+      <description>How to develop data pipelines using Software-defined Assets.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/thinking-in-assets</guid>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Standardize Pipelines with Domain-Specific Languages</title>
+      <link>https://dagster.io/blog/scale-and-standardize-data-pipelines-with-dsl</link>
+      <description>By implementing DSLs, data teams can open their data platform to many more users without compromising on standards.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/scale-and-standardize-data-pipelines-with-dsl</guid>
+      <pubDate>Thu, 08 Feb 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Balancing the Data Scales: Centralization vs. Decentralization</title>
+      <link>https://dagster.io/blog/balancing-the-data-scales-centralization-vs-decentralization</link>
+      <description>Learn how organizations can harness the strengths of both approaches to optimize their data operations.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/balancing-the-data-scales-centralization-vs-decentralization</guid>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Breaking Packages in Python</title>
+      <link>https://dagster.io/blog/python-breaking-packages</link>
+      <description>An exposÃ© of the nooks and crannies of Pythonâs modules and packages.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/python-breaking-packages</guid>
+      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>New Dagster Integration: Include OpenAI Calls Into Your Data Pipelines</title>
+      <link>https://dagster.io/blog/dagster-openai</link>
+      <description>The new dagster-openai integration lets you tap into the power of LLMs in a cost-efficient way.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-openai</guid>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Exploring The Data Engineering Lifecycle</title>
+      <link>https://dagster.io/blog/the-data-engineering-lifecycle</link>
+      <description>Learn the fundamentals of a healthy data engineering lifecycle to optimize pipeline and asset production.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/the-data-engineering-lifecycle</guid>
+      <pubDate>Tue, 26 Mar 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sling Out Your ETL Provider with Embedded ELT</title>
+      <link>https://dagster.io/blog/sling-out-your-etl-provider-with-embedded-elt</link>
+      <description>How we saved $40k and gained better control over our ingestion steps.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/sling-out-your-etl-provider-with-embedded-elt</guid>
+      <pubDate>Wed, 03 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Expanding the Dagster Embedded ELT Ecosystem with dltHub for Data Ingestion</title>
+      <link>https://dagster.io/blog/expanding-dagsters-embedded-elt-ecosystem-with-dlthub-for-data-ingestion</link>
+      <description>We now have an officially supported dlt integration.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/expanding-dagsters-embedded-elt-ecosystem-with-dlthub-for-data-ingestion</guid>
+      <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Announcing Dagster 1.7: Love Plus One</title>
+      <link>https://dagster.io/blog/dagster-1-7-love-plus-one</link>
+      <description>A major set of updates to Dagster Core ahead of our Dagster+ launch.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-1-7-love-plus-one</guid>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Data Engineering Impedance Mismatch</title>
+      <link>https://dagster.io/blog/impedance-mismatch-in-data-orchestration</link>
+      <description>A case for asset-oriented over workflow-oriented in data orchestration.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/impedance-mismatch-in-data-orchestration</guid>
+      <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ensuring Reliable Data with Dagster+</title>
+      <link>https://dagster.io/blog/ensuring-reliable-data-dagster-plus</link>
+      <description>Dagster+ helps you monitor the freshness, quality, and schema of your data.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/ensuring-reliable-data-dagster-plus</guid>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dagster+ Catalog: A New Built-in Asset Library for All Practitioners</title>
+      <link>https://dagster.io/blog/dagster-plus-calatog-a-new-built-in-asset-library</link>
+      <description>Give your data teams a powerful new system of record without the overhead of maintaining a third-party catalog.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-plus-calatog-a-new-built-in-asset-library</guid>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>See Both the Forest and the Trees with Dagster+ Insights</title>
+      <link>https://dagster.io/blog/see-the-forest-and-trees-dagster-plus</link>
+      <description>How Dagster+ Insights helps you control costs and elevate your data platformâs observability.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/see-the-forest-and-trees-dagster-plus</guid>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Change Tracking Branch Deployments in Dagster+</title>
+      <link>https://dagster.io/blog/change-tracking-branch-deployments-in-dagster-plus</link>
+      <description>Dagster+ further enhances identification and collaboration around changes to your data pipelines.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/change-tracking-branch-deployments-in-dagster-plus</guid>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unlocking Flexible Pipelines: Customizing the Asset Decorator</title>
+      <link>https://dagster.io/blog/unlocking-flexible-pipelines-customizing-asset-decorator</link>
+      <description>Use Asset Factories within Dagster to streamline data asset creation, promote code reusability, and maintain data engineering workflows.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/unlocking-flexible-pipelines-customizing-asset-decorator</guid>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building Cost Effective AI Pipelines with OpenAI, LangChain, and Dagster</title>
+      <link>https://dagster.io/blog/building-cost-effective-ai-pipelines-openai-langchain-dagster</link>
+      <description>Leverage the power of LLMs while keeping the costs in check using the Dagster OpenAI integration.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/building-cost-effective-ai-pipelines-openai-langchain-dagster</guid>
+      <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What is Dagster: A Guide to the Data Orchestrator</title>
+      <link>https://dagster.io/blog/what-is-dagster</link>
+      <description>Get to know the tool that sets the standard for modern data orchestration.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/what-is-dagster</guid>
+      <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dagsterâs Code Location Architecture</title>
+      <link>https://dagster.io/blog/dagster-code-locations</link>
+      <description>A structure for a reliable, maintainable data platform design.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-code-locations</guid>
+      <pubDate>Tue, 28 May 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ELT Options in Dagster</title>
+      <link>https://dagster.io/blog/elt-options-in-dagster</link>
+      <description>Why running data ingestion jobs straight from the orchestrator is often a preferred approach.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/elt-options-in-dagster</guid>
+      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Rise of Medium Code</title>
+      <link>https://dagster.io/blog/the-rise-of-medium-code</link>
+      <description>Why the reports of softwareâs demise are greatly exaggerated.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/the-rise-of-medium-code</guid>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Enabling Data Quality with Dagster and Great Expectations</title>
+      <link>https://dagster.io/blog/ensuring-data-quality-with-dagster-and-great-expectations</link>
+      <description>Use Dagster and GX to improve data pipeline reliability without writing custom logic for data testing.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/ensuring-data-quality-with-dagster-and-great-expectations</guid>
+      <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Look Inside the Dagster Labs Culture</title>
+      <link>https://dagster.io/blog/a-look-inside-dagster-labs-culture</link>
+      <description>Operations Lead Eunice Ho dives into the Dagster Labs culture and why it makes for an ideal work environment.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/a-look-inside-dagster-labs-culture</guid>
+      <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dagster Deep Dive Recap: Building Reliable Data Platforms</title>
+      <link>https://dagster.io/blog/deepdive-recap-data-reliability</link>
+      <description>Explore the importance of data quality and learn strategies for integrating quality checks using Dagster.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/deepdive-recap-data-reliability</guid>
+      <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dagster 1.8: Call Me Maybe</title>
+      <link>https://dagster.io/blog/dagster-1-8-call-me-maybe</link>
+      <description>Ecosystem and integration improvements, data catalog improvements, new asset checks, new declarative automation, and more.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-1-8-call-me-maybe</guid>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dagster Deep Dive Recap: Evolution of the Data Platform</title>
+      <link>https://dagster.io/blog/deepdive-recap-evolution-data-platform</link>
+      <description>Dagster and SDF show how the power of two can connect local development and production orchestration.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/deepdive-recap-evolution-data-platform</guid>
+      <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dagster Deep Dive Recap: Building a True Data Platform</title>
+      <link>https://dagster.io/blog/deepdive-recap-building-a-true-data-platform</link>
+      <description>Move past the MDS and build a data platform for observability, cost-efficiency, and top-tier orchestrating.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/deepdive-recap-building-a-true-data-platform</guid>
+      <pubDate>Fri, 06 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What is Data Visibility?</title>
+      <link>https://dagster.io/blog/data-visibility-primer</link>
+      <description>The unseen data is often the deadliest. Hereâs how to shine a light on it in your business.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/data-visibility-primer</guid>
+      <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dagster vs. Airflow</title>
+      <link>https://dagster.io/blog/dagster-airflow</link>
+      <description>Get the tale of the tape between the two orchestration giants and see why Dagster stands tall as the superior choice.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-airflow</guid>
+      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Rise of the Data Platform Engineer</title>
+      <link>https://dagster.io/blog/rise-of-the-data-platform-engineer</link>
+      <description>How the next step in the evolution of the Data Engineering role requires a platform approach.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/rise-of-the-data-platform-engineer</guid>
+      <pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dagster Deep Dive Recap: Orchestrating Flexible Compute for ML with Dagster and Modal</title>
+      <link>https://dagster.io/blog/deepdive-recap-dagster-modal</link>
+      <description>Learn how to use Dagster and Modal to automate and streamline your machine learning model training and data processing.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/deepdive-recap-dagster-modal</guid>
+      <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>5 Best Practices AI Engineers Should Learn From Data Engineering</title>
+      <link>https://dagster.io/blog/ai-engineering-is-data-engineering</link>
+      <description>AI engineering is data engineering. Here are 5 best practices the former should adopt from the latter to succeed.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/ai-engineering-is-data-engineering</guid>
+      <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>10 Reasons Why No-Code Solutions Almost Always Fail</title>
+      <link>https://dagster.io/blog/why-no-code-solutions-almost-always-fail</link>
+      <description>No-code solutions sound easy â until they arenât. Hereâs why they often fail and what you can do about it for your data engineering.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/why-no-code-solutions-almost-always-fail</guid>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>From Chaos to Control: How Dagster Unifies Orchestration and Data Cataloging</title>
+      <link>https://dagster.io/blog/data-catalog</link>
+      <description>Navigate complex data environments more effectively, and ensure that valuable data assets are easily discoverable and usable.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/data-catalog</guid>
+      <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI's Long-Term Impact on Data Engineering Roles</title>
+      <link>https://dagster.io/blog/ai-and-data-engineering-roles</link>
+      <description>Expectations for Data Engineering will rapidly inflate; the nature of the work will change.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/ai-and-data-engineering-roles</guid>
+      <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dagster 1.9: Spooky</title>
+      <link>https://dagster.io/blog/dagster-1-9-spooky</link>
+      <description>Declarative automation has officially graduated, BI in your asset graph, Airlift to streamline migrations, and more.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-1-9-spooky</guid>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bridging Business Intelligence and Data Orchestration with Dagster + Sigma</title>
+      <link>https://dagster.io/blog/dagster-sigma</link>
+      <description>Break down the silos between data engineering and BI tools</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-sigma</guid>
+      <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Announcing 4 New Integrations: Dagster + Your Favorite BI Tools</title>
+      <link>https://dagster.io/blog/dagster-power-bi</link>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-power-bi</guid>
+      <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Interactive Debugging With Dagster and Docker</title>
+      <link>https://dagster.io/blog/interactive-debugging-with-dagster-and-docker</link>
+      <description>Step-by-step guide to debugging Dagster code directly in Docker, bridging the gap between development and deployment.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/interactive-debugging-with-dagster-and-docker</guid>
+      <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Data Platform Week 2024</title>
+      <link>https://dagster.io/blog/data-platform-week-2024</link>
+      <description>The future of data platforms are composable, unified, and leveraged</description>
+      <guid isPermaLink="false">https://dagster.io/blog/data-platform-week-2024</guid>
+      <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>From Prototype to Production: Building AI Products That Scale with Dagster</title>
+      <link>https://dagster.io/blog/building-ai-products-that-scale</link>
+      <description>Modern AI development requires different patterns than traditional software. By combining familiar engineering practices with new approaches for handling the probabilistic nature of AI, teams can successfully scale their AI products into production.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/building-ai-products-that-scale</guid>
+      <pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Reference Architectures</title>
+      <link>https://dagster.io/blog/ai-reference-architectures</link>
+      <description>Guide to the some common AI Architectures patterns with Dagster</description>
+      <guid isPermaLink="false">https://dagster.io/blog/ai-reference-architectures</guid>
+      <pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dagster 1.10: Mambo No 5</title>
+      <link>https://dagster.io/blog/dagster-1-10-mambo-no-5</link>
+      <description>Intuitive Concurrency Controls, Improved ELT integrations, and Developer Experience Upgrades</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-1-10-mambo-no-5</guid>
+      <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building with Dagster vs Airflow</title>
+      <link>https://dagster.io/blog/building-with-dagster-vs-airflow</link>
+      <description>Rebuilding Airflow's tutorial in Dagster</description>
+      <guid isPermaLink="false">https://dagster.io/blog/building-with-dagster-vs-airflow</guid>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Observability That Matters with Dagster+ Alerts</title>
+      <link>https://dagster.io/blog/observability-that-matters-with-dagster-alerts</link>
+      <description>Broken pipelines are unavoidable. Catch problems as soon as they happen with the improved alerting suite in Dagster+.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/observability-that-matters-with-dagster-alerts</guid>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dagster University Presents: Testing with Dagster</title>
+      <link>https://dagster.io/blog/dagster-university-presents-testing-with-dagster</link>
+      <description>Learn best practices for writing Pythonic tests for Dagster.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-university-presents-testing-with-dagster</guid>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MS Fabric vs. Dagster: Why Your Architecture Choices Matter</title>
+      <link>https://dagster.io/blog/dagster-fabric</link>
+      <description>The fundamental challenge facing data teams today is building scalable platforms that enable self-service for data consumers.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-fabric</guid>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Free Your Mind With Dagster</title>
+      <link>https://dagster.io/blog/free-your-mind-with-dagster</link>
+      <description>You need tools that handle the trivial stuff and give you, your team, and your company space to think and act decisively.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/free-your-mind-with-dagster</guid>
+      <pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why we love uv</title>
+      <link>https://dagster.io/blog/why-we-love-uv</link>
+      <description>Making Python package management simple and how Dagster leverages uv.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/why-we-love-uv</guid>
+      <pubDate>Mon, 21 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Case for Dagster: Moving Beyond Airflow in the Modern Data Stackâ¢</title>
+      <link>https://dagster.io/blog/moving-beyond-airflow-in-the-modern-data-stack</link>
+      <description>How we think about data orchestration needs to fundamentally change, and Dagster represents that shift in thinking.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/moving-beyond-airflow-in-the-modern-data-stack</guid>
+      <pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Accelerate Data Pipeline Development with Dagster Components</title>
+      <link>https://dagster.io/blog/accelerate-data-pipeline-development-with-dagster-components</link>
+      <description>Introducing Dagster Components, a simplified approach to developing and managing your data pipelines</description>
+      <guid isPermaLink="false">https://dagster.io/blog/accelerate-data-pipeline-development-with-dagster-components</guid>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cut Through the Noise: Precision Data Management with Dagster's Asset Selection Framework</title>
+      <link>https://dagster.io/blog/updated-asset-selection-syntax</link>
+      <description>Data platforms can be complex, Dagster's understanding of Lineage makes it easy to get to whats important.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/updated-asset-selection-syntax</guid>
+      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dagster Pipes: Now available for TypeScript, Rust, and Java</title>
+      <link>https://dagster.io/blog/pipes-typescript-rust-java</link>
+      <description>Expanding Dagster pipes to support Typescript, Rust, and Java</description>
+      <guid isPermaLink="false">https://dagster.io/blog/pipes-typescript-rust-java</guid>
+      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vibe Coding Survival Guide</title>
+      <link>https://dagster.io/blog/vibe-coding-survival-guide</link>
+      <description>How data engineers can get the most from AI coding</description>
+      <guid isPermaLink="false">https://dagster.io/blog/vibe-coding-survival-guide</guid>
+      <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Beyond Point to Point</title>
+      <link>https://dagster.io/blog/beyond-point-to-point</link>
+      <description>Why Modern Data Teams Need Orchestration, Not Just Integration</description>
+      <guid isPermaLink="false">https://dagster.io/blog/beyond-point-to-point</guid>
+      <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Code Location Best Practices</title>
+      <link>https://dagster.io/blog/code-location-best-practices</link>
+      <description>How to organize your code locations for clarity, maintainability, and reuse.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/code-location-best-practices</guid>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DSLs to the Rescue</title>
+      <link>https://dagster.io/blog/dsls-to-the-rescue</link>
+      <description>Designing better data tooling with DSLs</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dsls-to-the-rescue</guid>
+      <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dagster 1.11: Build Me Up Buttercup</title>
+      <link>https://dagster.io/blog/dagster-1-11-build-me-up-buttercup</link>
+      <description>Significantly improved pipeline-building experience with Components and dg, enhanced orchestration capabilities, integration power-ups, and more.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-1-11-build-me-up-buttercup</guid>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Announcing ETL Course with Dagster</title>
+      <link>https://dagster.io/blog/annoucing-etl-with-dagster</link>
+      <description>Dagster is excited to announce the launch of ETL with Dagster, a comprehensive seven-lesson course. This free course guides you through practical ETL implementation and architectural considerations, from single-file ingestion to full-scale database replication</description>
+      <guid isPermaLink="false">https://dagster.io/blog/annoucing-etl-with-dagster</guid>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What CoPilot Wonât Teach You About Python (Part 1)</title>
+      <link>https://dagster.io/blog/what-copilot-wont-teach-you-about-python-part-1</link>
+      <description>Advanced Python features that AI agents may miss</description>
+      <guid isPermaLink="false">https://dagster.io/blog/what-copilot-wont-teach-you-about-python-part-1</guid>
+      <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Structure Your Dagster Project</title>
+      <link>https://dagster.io/blog/how-to-structure-your-dagster-project</link>
+      <description>Setting up your Dagster project the right way from day one saves you headaches later, makes your team more effective, and helps scale.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/how-to-structure-your-dagster-project</guid>
+      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Practical Guide to Dagster Resources</title>
+      <link>https://dagster.io/blog/a-practical-guide-to-dagster-resources</link>
+      <description>How dependency injection and smart resource management can save your sanity (and your deployments)</description>
+      <guid isPermaLink="false">https://dagster.io/blog/a-practical-guide-to-dagster-resources</guid>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Untangling Python Packages Part 1</title>
+      <link>https://dagster.io/blog/untangling-python-packages-part-1</link>
+      <description>Python's clean syntax makes it easy to jump into unfamiliar codebases, but this simplicity often masks the intricate world of packaging that confuses many developers.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/untangling-python-packages-part-1</guid>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Software-Defined Assets Explained</title>
+      <link>https://dagster.io/blog/software-defined-assets</link>
+      <description>Software-Defined Assets are a new abstraction that allows data teams to focus on the end products, not just the individual tasks, in their data pipeline.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/software-defined-assets</guid>
+      <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Untangling Python Packages Part 2</title>
+      <link>https://dagster.io/blog/untangling-python-packages-part-2</link>
+      <description>A deep dive into how Dagster leverages pyproject.toml for modern Python packaging, from project metadata and dependencies to build systems and development tooling.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/untangling-python-packages-part-2</guid>
+      <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dagsterâs MCP Server</title>
+      <link>https://dagster.io/blog/dagsters-mcp-server</link>
+      <description>We are announcing the release of our MCP server, enabling AI assistants like Cursor to seamlessly integrate with Dagster projects through Model Context Protocol, unlocking composable workflows across your entire data stack.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagsters-mcp-server</guid>
+      <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What CoPilot Wonât Teach You About Python (Part 2)</title>
+      <link>https://dagster.io/blog/what-copilot-wont-teach-you-about-python-part-2</link>
+      <description>Explore another set of powerful yet overlooked Python featuresâfrom overload and cached_property to contextvars and ExitStack</description>
+      <guid isPermaLink="false">https://dagster.io/blog/what-copilot-wont-teach-you-about-python-part-2</guid>
+      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>dbt Fusion Support Comes to Dagster</title>
+      <link>https://dagster.io/blog/dbt-fusion-support-comes-to-dagster</link>
+      <description>Learn how to use the beta dbt Fusion engine in your Dagster pipelines, and the technical details of how support was added</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dbt-fusion-support-comes-to-dagster</guid>
+      <pubDate>Fri, 22 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Compass: Data-driven decisions right in Slack</title>
+      <link>https://dagster.io/blog/introducing-compass</link>
+      <description>Converse with your company's data right in Dagster. Compass moves beyond static dashboards by enabling a natural language, two-way conversation with your data. This allows anyone to ask follow-up questions, incorporate their own business context, and achieve true data fluency without writing a single line of SQL.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/introducing-compass</guid>
+      <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing the new Dagster+ UI â Your Data Platformâs Command Center</title>
+      <link>https://dagster.io/blog/introducing-the-new-dagster-plus-ui</link>
+      <description>Featuring a new modern homepage, enhanced asset health and freshness monitoring, customizable dashboards, and real-time insights with cost monitoring.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/introducing-the-new-dagster-plus-ui</guid>
+      <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dagster Components are Generally Available (GA)</title>
+      <link>https://dagster.io/blog/dagster-components-ga</link>
+      <description>Featuring YAML-based pipeline definitions, plug-and-play integrations, automatic documentation, and a unified CLI experience.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-components-ga</guid>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dagster+ Now Available in the EU</title>
+      <link>https://dagster.io/blog/dagster-plus-now-available-in-the-eu</link>
+      <description>We're thrilled to announce that Dagster+ has arrived in Europe!</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-plus-now-available-in-the-eu</guid>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Designing User-Friendly Dagster Components</title>
+      <link>https://dagster.io/blog/designing-user-friendly-dagster-components</link>
+      <description>The difference between components that thrive and components that collect digital dust? User experience design.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/designing-user-friendly-dagster-components</guid>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building a Better Lakehouse: From Airflow to Dagster</title>
+      <link>https://dagster.io/blog/building-a-better-lakehouse-from-airflow-to-dagster</link>
+      <description>How I took an excellent lakehouse tutorial and made it even better with modern data orchestration</description>
+      <guid isPermaLink="false">https://dagster.io/blog/building-a-better-lakehouse-from-airflow-to-dagster</guid>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Bridging High-Code and Low-Code</title>
       <link>https://dagster.io/blog/bridging-high-code-and-low-code</link>

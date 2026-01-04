@@ -179,3 +179,6 @@ cython_debug/
 
 # HTML
 *.html
+
+# Cache (keep .gitkeep but ignore JSON cache files)
+cache/*.json
