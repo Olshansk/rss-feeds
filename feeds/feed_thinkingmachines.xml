@@ -8,62 +8,62 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Jan 2026 18:03:15 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Jan 2026 19:02:34 +0000</lastBuildDate>
     <item>
       <title>Defeating Nondeterminism in LLM Inference</title>
       <link>https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/</link>
       <description>Defeating Nondeterminism in LLM Inference by Horace He in collaboration with others at Thinking Machines</description>
       <guid isPermaLink="false">https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Modular Manifolds</title>
       <link>https://thinkingmachines.ai/blog/modular-manifolds/</link>
       <description>Modular Manifolds by Jeremy Bernstein</description>
       <guid isPermaLink="false">https://thinkingmachines.ai/blog/modular-manifolds/</guid>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>LoRA Without Regret</title>
       <link>https://thinkingmachines.ai/blog/lora/</link>
       <description>LoRA Without Regret by John Schulman in collaboration with others at Thinking Machines</description>
       <guid isPermaLink="false">https://thinkingmachines.ai/blog/lora/</guid>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Announcing Tinker</title>
       <link>https://thinkingmachines.ai/blog/announcing-tinker/</link>
       <description>Announcing Tinker by Thinking Machines Lab</description>
       <guid isPermaLink="false">https://thinkingmachines.ai/blog/announcing-tinker/</guid>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>On-Policy Distillation</title>
       <link>https://thinkingmachines.ai/blog/on-policy-distillation/</link>
       <description>On-Policy Distillation by Kevin Lu in collaboration with others at Thinking Machines</description>
       <guid isPermaLink="false">https://thinkingmachines.ai/blog/on-policy-distillation/</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Announcing Tinker Research and Teaching Grants</title>
       <link>https://thinkingmachines.ai/blog/tinker-research-and-teaching-grants/</link>
       <description>Announcing Tinker Research and Teaching Grants by Thinking Machines Lab</description>
       <guid isPermaLink="false">https://thinkingmachines.ai/blog/tinker-research-and-teaching-grants/</guid>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Tinker: Call for Community Projects</title>
       <link>https://thinkingmachines.ai/blog/call-for-community-projects/</link>
       <description>Tinker: Call for Community Projects by Thinking Machines Lab</description>
       <guid isPermaLink="false">https://thinkingmachines.ai/blog/call-for-community-projects/</guid>
-      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Tinker: General Availability and Vision Input</title>
       <link>https://thinkingmachines.ai/blog/tinker-general-availability/</link>
       <description>Tinker: General Availability and Vision Input by Thinking Machines Lab</description>
       <guid isPermaLink="false">https://thinkingmachines.ai/blog/tinker-general-availability/</guid>
-      <pubDate>Sat, 12 Dec 2026 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
