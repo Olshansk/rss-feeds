@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>The Batch | DeepLearning.AI</title>
+    <link>https://www.deeplearning.ai/the-batch/feed_the_batch.xml</link>
+    <description>Weekly AI news and insights from DeepLearning.AI's The Batch.</description>
+    <atom:link href="https://www.deeplearning.ai/the-batch/feed_the_batch.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 30 Dec 2025 14:37:26 +0000</lastBuildDate>
+    <item>
+      <title>DeepSeek Sharpens Its Reasoning: DeepSeek-R1, an affordable rival to OpenAI’s o1</title>
+      <link>https://www.deeplearning.ai/the-batch/deepseek-r1-an-affordable-rival-to-openais-o1/</link>
+      <description>DeepSeek Sharpens Its Reasoning: DeepSeek-R1, an affordable rival to OpenAI’s o1</description>
+      <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/deepseek-r1-an-affordable-rival-to-openais-o1/</guid>
+      <pubDate>Wed, 22 Jan 2025 07:18:00 -0800</pubDate>
+    </item>
+    <item>
+      <title>Reinforcement Learning Heats Up, White House Orders Muscular AI Policy, Computer Use Gains Momentum, Fine Control of Fine-Tuning</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-286/</link>
+      <description>Reinforcement Learning Heats Up, White House Orders Muscular AI Policy, Computer Use Gains Momentum, Fine Control of Fine-Tuning</description>
+      <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-286/</guid>
+      <pubDate>Wed, 29 Jan 2025 14:48:00 -0800</pubDate>
+    </item>
+    <item>
+      <title>Stronger Chatbot Guardrails, Weaker Google Monopoly, AI-Assisted Education, 10 Million Tokens of Context</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-318/</link>
+      <description>The Batch AI News and Insights: This week, Coursera held its annual conference in Las Vegas. A major theme was the shift from knowledge- to skills-based education, which will help many individuals, businesses, and educational institutions.</description>
+      <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-318/</guid>
+      <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Drone Swarms Go To War, States Ban AI Mental-Health Treatments, Qwen3-Next Accelerates, Transformers Get Energized</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-319/</link>
+      <description>The Batch AI News and Insights: Automated software testing is growing in importance in the era of AI-assisted coding.</description>
+      <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-319/</guid>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Agents Spend Money, Online Betting Automates, ChatGPT Users Shift, Reinforcement Learning Accelerates</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-320/</link>
+      <description>The Batch AI News and Insights: Last week, China barred its major tech companies from buying Nvidia chips.</description>
+      <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-320/</guid>
+      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI’s Trillion-Dollar Bet, Generating Viruses, Modeling Planet Earth, Paying for Training Data</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-321/</link>
+      <description>The Batch AI News and Insights: LandingAI’s Agentic Document Extraction (ADE) turns PDF files into LLM-ready markdown text.</description>
+      <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-321/</guid>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Levels Up, Qwen3 Proliferates, Big AI Diversifies Product Lines, LoRA Adapters on Tap</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-322/</link>
+      <description>The Batch AI News and Insights: I’m thrilled to announce my latest course: Agentic AI! This course will get you up to speed building cutting-edge agentic workflows.</description>
+      <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-322/</guid>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DeepSeek Cuts Inference Costs, OpenAI Tightens Ties with AMD, Thinking Machines Simplifies Fine-Tuning, Robots Improve Spatial Awareness</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-323/</link>
+      <description>The Batch AI News and Insights: Readers responded with both surprise and agreement last week when I wrote that the single biggest predictor of how rapidly a team makes progress building an AI agent lay in their ability to drive a disciplined process for evals...</description>
+      <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-323/</guid>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ling-1T Leads Non-Reasoning Performance, MCP Poses Security Risks, California Regulates AI, Auto-Tune for Agentic Prompts</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-324/</link>
+      <description>The Batch AI News and Insights: In last week’s letter, I explained how effective agentic AI development needs a disciplined evals and error analysis process, and described an approach to performing evals.</description>
+      <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-324/</guid>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Monsters of AI: AI Psychosis, Lethal Drones, Decaying Data, Speculative Bubbles</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-325/</link>
+      <description>The Batch AI News and Insights: Today I’m launching DeepLearning.AI Pro — the one membership that keeps you at the forefront of AI. Please join!</description>
+      <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-325/</guid>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing DeepLearning.AI Pro</title>
+      <link>https://www.deeplearning.ai/the-batch/introducing-deeplearning-ai-pro/</link>
+      <description>Introducing DeepLearning.AI Pro</description>
+      <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/introducing-deeplearning-ai-pro/</guid>
+      <pubDate>Fri, 31 Oct 2025 07:47:02 -0700</pubDate>
+    </item>
+    <item>
+      <title>OpenAI Reorgs For Profit, MiniMax-M2 Leads Open Coding, Universal Music Group Embraces AI, LLMs Go Private</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-326/</link>
+      <description>The Batch AI News and Insights: AI agents are getting better at looking at different types of data in businesses to spot patterns and create value. This is making data silos increasingly painful.</description>
+      <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-326/</guid>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Safer (and Sexier) Chatbots, Better Images Through Reasoning, The Dawn of Industrial AI, Forecasting Time Series</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-327/</link>
+      <description>The Batch AI News and Insights: I recently received an email titled “An 18-year-old’s dilemma: Too late to contribute to AI?” Its author, who gave me permission to share this, is preparing for college.</description>
+      <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-327/</guid>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Self-Driving On U.S. Freeways, Open LLM Tops Agentic Leaderboard, Anthropic Sparks Controversy, Efficient Agentic Search</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-328/</link>
+      <description>The Batch AI News and Insights: I just got back from AI Dev x NYC, the AI developer conference where our community gathers for a day of coding, learning, and connecting.</description>
+      <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-328/</guid>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google Rules Arena Leaderboards, Microsoft+Anthropic, Record Labels Back AI Music, Personality Control for LLMs</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-329/</link>
+      <description>The Batch AI News and Insights: Is there an AI bubble? With the massive number of dollars going into AI infrastructure such as OpenAI’s $1.4 trillion plan and Nvidia briefly reaching a $5 trillion market cap, many have asked if speculation and hype have driven the values of...</description>
+      <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-329/</guid>
+      <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Meta’s Open 3D Pipeline, World Labs’ Virtual Spaces, Baidu’s Multimodal Models, Coordinating Robot Teams</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-330/</link>
+      <description>The Batch AI News and Insights: Separate reports by the publicity firm Edelman and Pew Research show that Americans, and more broadly large parts of Europe and the western world, do not trust AI and are not excited about it.</description>
+      <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-330/</guid>
+      <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Opus 4.5 Saves Tokens, White House Boosts AI-Powered Science, Amazon Exposes Nova 2 Pro Checkpoints, Small Models Solve Hard Puzzles</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-331/</link>
+      <description>The Batch AI News and Insights: If you have not yet built an agentic workflow, I encourage you to try doing so, using the simple recipe I’ll share here!</description>
+      <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-331/</guid>
+      <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI’s Answer to Gemini 3, Runway’s Interactive Worlds, Disney’s Alliance With OpenAI, Adapting LLMs for Low-Data Domains</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-332/</link>
+      <description>The Batch AI News and Insights: As amazing as LLMs are, improving their knowledge today involves a more piecemeal process than is widely appreciated.</description>
+      <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-332/</guid>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Top Stories of 2025! Big AI Poaches Talent, Reasoning Models Boost Performance, Agents Write Code, Data Centers Drive GDP, China Turns the Tables</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-333/</link>
+      <description>The Batch AI News and Insights: Another year of rapid AI advances has created more opportunities than ever for anyone — including those just entering the field — to build software.</description>
+      <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-333/</guid>
+      <pubDate>Fri, 26 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
