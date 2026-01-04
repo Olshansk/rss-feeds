@@ -34,20 +34,92 @@ make ci_run_feeds_workflow_local  # Test workflow locally with act
 ```
 feed_generators/           # Python scripts that scrape blogs and generate RSS
   run_all_feeds.py         # Orchestrator that runs all generators
+  utils.py                 # Shared utilities (setup_feed_links, get_project_root, etc.)
   <source>_blog.py         # Individual feed generators
 feeds/                     # Output directory for feed_*.xml files
+cache/                     # JSON cache for paginated feeds (cursor_posts.json, dagster_posts.json)
 makefiles/                 # Modular Makefile includes (feeds.mk, env.mk, dev.mk, ci.mk)
 ```
 
-### Feed Generator Pattern
+### Feed Generator Patterns
 
-Each generator follows a consistent structure:
-1. `fetch_blog_content(url)` - HTTP request with User-Agent header
-2. `parse_blog_html(html)` - BeautifulSoup parsing for posts (title, date, description, link)
-3. `generate_rss_feed(posts)` - Create feed using `feedgen` library
-4. `save_rss_feed(fg, name)` - Write to `feeds/feed_{name}.xml`
+Three patterns exist based on how the target site loads content:
 
-Key libraries: `requests`, `beautifulsoup4`, `feedgen`, `selenium` (for JS-heavy sites)
+#### 1. Simple Static (Default)
+
+For blogs where all content loads on first request.
+
+```
+ollama_blog.py, paulgraham_blog.py, hamel_blog.py
+```
+
+- `fetch_blog_content(url)` - HTTP request with User-Agent header
+- `parse_blog_html(html)` - BeautifulSoup parsing for posts
+- `generate_rss_feed(posts)` - Create feed using `feedgen`
+- `save_rss_feed(fg, name)` - Write to `feeds/feed_{name}.xml`
+
+#### 2. Pagination + Caching
+
+For blogs with "Load More" or pagination that uses URL query params.
+
+```
+cursor_blog.py, dagster_blog.py
+```
+
+- **Cache**: JSON file in `cache/<source>_posts.json` with `last_updated` and `posts`
+- **Full fetch**: `python <source>_blog.py --full` to fetch all pages
+- **Incremental**: Default mode fetches page 1 only, merges with cache
+- **Dedupe**: By URL, sorted by date descending
+
+Key functions:
+- `load_cache()` / `save_cache(posts)` - JSON persistence
+- `merge_posts(new, cached)` - Dedupe and merge
+- `fetch_all_pages()` - Follow pagination until no next link
+
+#### 3. Selenium + Click "Load More"
+
+For JS-heavy sites where content loads dynamically via JavaScript.
+
+```
+anthropic_news_blog.py, anthropic_research_blog.py, openai_research_blog.py
+```
+
+- Uses `undetected-chromedriver` to avoid bot detection
+- Clicks "See more"/"Load more" button repeatedly
+- Waits for content to load between clicks
+- `max_clicks` safety limit to prevent infinite loops
+
+Key functions:
+- `setup_selenium_driver()` - Headless Chrome with undetected-chromedriver
+- `fetch_news_content()` - Load page, click buttons, return final HTML
+
+### When to Use Each Pattern
+
+| Site Behavior | Pattern | Example |
+|--------------|---------|---------|
+| All posts on single page | Simple Static | ollama_blog.py |
+| URL-based pagination (`?page=2`) | Pagination + Caching | dagster_blog.py |
+| JS button loads more content | Selenium + Click | anthropic_news_blog.py |
+
+Key libraries: `requests`, `beautifulsoup4`, `feedgen`, `selenium`, `undetected-chromedriver`
+
+### Feed Link Setup (Important)
+
+The main `<link>` element must point to the original blog, not the feed URL. Use the helper:
+
+```python
+from utils import setup_feed_links
+
+fg = FeedGenerator()
+# ... set title, description, etc.
+setup_feed_links(fg, blog_url="https://example.com/blog", feed_name="example")
+```
+
+**Why this matters**: In `feedgen`, link order determines which URL becomes the main `<link>`:
+- `rel="self"` must be set **first** → becomes `<atom:link rel="self">`
+- `rel="alternate"` must be set **last** → becomes the main `<link>`
+
+Wrong order produces `<link>https://.../feed_example.xml</link>` instead of the blog URL.
 
 ## Adding a New Feed
 

@@ -1,5 +1,6 @@
 import argparse
 import json
+import logging
 import re
 from datetime import datetime
 from pathlib import Path
@@ -8,7 +9,8 @@ import pytz
 import requests
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-import logging
+
+from utils import setup_feed_links
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
@@ -175,13 +177,11 @@ def generate_rss_feed(posts):
     fg = FeedGenerator()
     fg.title("Cursor Blog")
     fg.description("The AI Code Editor")
-    fg.link(href=BLOG_URL)
     fg.language("en")
     fg.author({"name": "Cursor"})
     fg.logo("https://cursor.com/favicon.ico")
     fg.subtitle("Latest updates from Cursor")
-    fg.link(href=BLOG_URL, rel="alternate")
-    fg.link(href=f"https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_{FEED_NAME}.xml", rel="self")
+    setup_feed_links(fg, blog_url=BLOG_URL, feed_name=FEED_NAME)
 
     for post in posts:
         fe = fg.add_entry()
