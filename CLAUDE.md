@@ -34,6 +34,7 @@ make ci_run_feeds_workflow_local  # Test workflow locally with act
 ```
 feed_generators/           # Python scripts that scrape blogs and generate RSS
   run_all_feeds.py         # Orchestrator that runs all generators
+  utils.py                 # Shared utilities (setup_feed_links, get_project_root, etc.)
   <source>_blog.py         # Individual feed generators
 feeds/                     # Output directory for feed_*.xml files
 cache/                     # JSON cache for paginated feeds (cursor_posts.json, dagster_posts.json)
@@ -101,6 +102,24 @@ Key functions:
 | JS button loads more content | Selenium + Click | anthropic_news_blog.py |
 
 Key libraries: `requests`, `beautifulsoup4`, `feedgen`, `selenium`, `undetected-chromedriver`
+
+### Feed Link Setup (Important)
+
+The main `<link>` element must point to the original blog, not the feed URL. Use the helper:
+
+```python
+from utils import setup_feed_links
+
+fg = FeedGenerator()
+# ... set title, description, etc.
+setup_feed_links(fg, blog_url="https://example.com/blog", feed_name="example")
+```
+
+**Why this matters**: In `feedgen`, link order determines which URL becomes the main `<link>`:
+- `rel="self"` must be set **first** → becomes `<atom:link rel="self">`
+- `rel="alternate"` must be set **last** → becomes the main `<link>`
+
+Wrong order produces `<link>https://.../feed_example.xml</link>` instead of the blog URL.
 
 ## Adding a New Feed
 

@@ -9,6 +9,8 @@ import requests
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
+from utils import setup_feed_links
+
 # Set up logging
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
@@ -212,16 +214,11 @@ def generate_rss_feed(posts):
     fg.description(
         "Read the latest from the Dagster team: insights, tutorials, and updates on data engineering, orchestration, and building better pipelines."
     )
-    fg.link(href=BLOG_URL)
     fg.language("en")
 
     fg.author({"name": "Dagster"})
     fg.subtitle("Latest updates from Dagster")
-    fg.link(href=BLOG_URL, rel="alternate")
-    fg.link(
-        href=f"https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_{FEED_NAME}.xml",
-        rel="self",
-    )
+    setup_feed_links(fg, blog_url=BLOG_URL, feed_name=FEED_NAME)
 
     for post in posts:
         fe = fg.add_entry()
