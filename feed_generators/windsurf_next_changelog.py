@@ -7,6 +7,8 @@ import logging
 from pathlib import Path
 import re
 
+from utils import sort_posts_for_feed
+
 # Set up logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
@@ -157,8 +159,8 @@ def generate_rss_feed(changelog_entries, feed_name="windsurf_next_changelog"):
         fg.link(href="https://windsurf.com/changelog/windsurf-next", rel="alternate")
         fg.link(href=f"https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_{feed_name}.xml", rel="self")
 
-        # Sort by date (newest first)
-        entries_sorted = sorted(changelog_entries, key=lambda x: x["date"], reverse=True)
+        # Sort for correct feed order (newest first in output)
+        entries_sorted = sort_posts_for_feed(changelog_entries, date_field="date")
 
         for entry in entries_sorted:
             fe = fg.add_entry()

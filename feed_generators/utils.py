@@ -1,6 +1,7 @@
 """Shared utilities for feed generators."""
 
 from pathlib import Path
+from typing import Any
 
 from feedgen.feed import FeedGenerator
 
@@ -43,3 +44,28 @@ def setup_feed_links(fg: FeedGenerator, blog_url: str, feed_name: str) -> None:
     )
     # Alternate link last - this becomes the main <link>
     fg.link(href=blog_url, rel="alternate")
+
+
+def sort_posts_for_feed(posts: list[dict[str, Any]], date_field: str = "date") -> list[dict[str, Any]]:
+    """Sort posts so newest appears first in the final RSS feed.
+
+    IMPORTANT: feedgen reverses the order when writing entries to XML.
+    So we sort ASCENDING (oldest first) here, which becomes DESCENDING
+    (newest first) in the final feed output.
+
+    Args:
+        posts: List of post dicts with date fields
+        date_field: Key name for the date field (default: "date")
+
+    Returns:
+        Sorted list with posts ordered for correct feed output
+    """
+    # Separate posts with and without dates
+    posts_with_date = [p for p in posts if p.get(date_field) is not None]
+    posts_without_date = [p for p in posts if p.get(date_field) is None]
+
+    # Sort ascending (oldest first) - feedgen will reverse this
+    posts_with_date.sort(key=lambda x: x[date_field], reverse=False)
+
+    # Posts without dates go at the end
+    return posts_with_date + posts_without_date

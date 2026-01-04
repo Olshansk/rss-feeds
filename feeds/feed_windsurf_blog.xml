@@ -8,1127 +8,327 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Jan 2026 20:04:45 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Jan 2026 20:24:38 +0000</lastBuildDate>
     <item>
-      <title>Codeium Beta Launch</title>
-      <link>https://windsurf.com/blog/beta-launch-announcement</link>
-      <description>We are excited to announce the launch of the Codeium Beta.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/beta-launch-announcement</guid>
+      <title>Windsurf Wave 13: Merry Shipmas</title>
+      <link>https://windsurf.com/blog/windsurf-wave-13</link>
+      <description>Parallel agents, Git worktrees, multi-pane Cascade, dedicated terminal, and SWE-1.5 Free</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-13</guid>
+      <category>product</category>
+      <pubDate>Wed, 24 Dec 2025 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GPT 5.2 is now available in Windsurf!</title>
+      <link>https://windsurf.com/blog/gpt-5-2</link>
+      <description>GPT-5.2 is now live in Windsurf! Available for 0x credits for a limited time (paid and trial users). The version bump undersells the jump in intelligence: Biggest leap for GPT models in agentic coding since GPT-5, SOTA coding model at its price point, Default in Windsurf</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/gpt-5-2</guid>
+      <category>product</category>
       <category>company</category>
-      <pubDate>Fri, 28 Oct 2022 07:00:00 +0000</pubDate>
+      <category>openai</category>
+      <category>gpt-5.2</category>
+      <category>windsurf</category>
+      <pubDate>Thu, 11 Dec 2025 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Changelist: November 2022</title>
-      <link>https://windsurf.com/blog/changelist-nov22</link>
-      <description>Codeium updates from November 2022!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/changelist-nov22</guid>
+      <title>Opus 4.5 is now available in Windsurf</title>
+      <link>https://windsurf.com/blog/opus-4.5</link>
+      <description>The most capable model in Windsurf yet, now available at Sonnet prices for a limited time</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/opus-4.5</guid>
       <category>product</category>
-      <category>changelist</category>
-      <pubDate>Mon, 05 Dec 2022 07:00:00 +0000</pubDate>
+      <category>windsurf</category>
+      <category>anthropic</category>
+      <category>opus-4.5</category>
+      <pubDate>Mon, 24 Nov 2025 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>What "Copilot for X" Really Takes</title>
-      <link>https://windsurf.com/blog/copilot-for-x-learnings</link>
-      <description>A "Copilot for X" guide from the team that built the first real Copilot competitor!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/copilot-for-x-learnings</guid>
-      <category>industry</category>
-      <pubDate>Tue, 20 Dec 2022 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Changelist: December 2022</title>
-      <link>https://windsurf.com/blog/changelist-dec22</link>
-      <description>Codeium updates from December 2022!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/changelist-dec22</guid>
+      <title>GPT 5.1, GPT 5.1-Codex, and GPT-5.1-Codex Mini are now available in Windsurf</title>
+      <link>https://windsurf.com/blog/gpt-5-1</link>
+      <description>GPT 5.1, GPT 5.1-Codex, and GPT-5.1-Codex Mini deliver a solid upgrade for agentic coding with variable thinking and improved steerability</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/gpt-5-1</guid>
       <category>product</category>
-      <category>changelist</category>
-      <pubDate>Tue, 03 Jan 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Codeium in Jupyter Notebooks</title>
-      <link>https://windsurf.com/blog/codeium-in-jupyter-notebooks</link>
-      <description>Launching Codeium in Jupyter Notebooks.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/codeium-in-jupyter-notebooks</guid>
-      <category>product</category>
-      <pubDate>Sat, 07 Jan 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why ChatGPT Highlights Copilot's Fundamental Flaw</title>
-      <link>https://windsurf.com/blog/chatgpt-and-copilots-fundamental-flaw</link>
-      <description>How a user study and the rise of ChatGPT point to the underlying product issue of Github Copilot.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/chatgpt-and-copilots-fundamental-flaw</guid>
-      <category>industry</category>
-      <pubDate>Fri, 13 Jan 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Codeium in Vim and Neovim</title>
-      <link>https://windsurf.com/blog/codeium-copilot-alternative-in-vim</link>
-      <description>Launching Codeium in Vim and Neovim.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/codeium-copilot-alternative-in-vim</guid>
-      <category>product</category>
-      <pubDate>Thu, 19 Jan 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>User Analytics</title>
-      <link>https://windsurf.com/blog/user-analytics-launch</link>
-      <description>Introducing user-level Codeium usage analytics!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/user-analytics-launch</guid>
-      <category>product</category>
-      <pubDate>Thu, 26 Jan 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Code Assistants: Head to Head</title>
-      <link>https://windsurf.com/blog/code-assistant-comparison-copilot-tabnine-ghostwriter-codeium</link>
-      <description>The first head to head assessment of the leading AI powered code assistants: Github Copilot, Tabnine, Replit Ghostwriter, and Codeium.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/code-assistant-comparison-copilot-tabnine-ghostwriter-codeium</guid>
-      <category>industry</category>
-      <pubDate>Fri, 27 Jan 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Changelist: January 2023</title>
-      <link>https://windsurf.com/blog/changelist-jan23</link>
-      <description>Codeium updates from January 2023!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/changelist-jan23</guid>
-      <category>product</category>
-      <category>changelist</category>
-      <pubDate>Wed, 01 Feb 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>We compete with Github. Bing does not show our website.</title>
-      <link>https://windsurf.com/blog/bing-does-not-index-codeium</link>
-      <description>A genuine question on why we are not getting indexed by Bing.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/bing-does-not-index-codeium</guid>
-      <pubDate>Fri, 10 Feb 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Codeium Chrome Extension</title>
-      <link>https://windsurf.com/blog/codeium-chrome-extension-launch</link>
-      <description>Injecting the power of Codeium directly into the browser.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/codeium-chrome-extension-launch</guid>
-      <category>product</category>
-      <pubDate>Tue, 14 Feb 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Best AI Product Lists</title>
-      <link>https://windsurf.com/blog/best-ai-product-lists</link>
-      <description>An aggregation of the best AI product aggregators for discovery.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/best-ai-product-lists</guid>
-      <category>industry</category>
-      <pubDate>Thu, 16 Feb 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Codeium in Emacs</title>
-      <link>https://windsurf.com/blog/codeium-copilot-alternative-in-emacs</link>
-      <description>Launching Codeium in Emacs.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/codeium-copilot-alternative-in-emacs</guid>
-      <category>product</category>
-      <pubDate>Fri, 17 Feb 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Codeium in Databricks Notebooks</title>
-      <link>https://windsurf.com/blog/codeium-copilot-alternative-in-databricks-notebooks</link>
-      <description>Launching Codeium in Databricks Notebooks.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/codeium-copilot-alternative-in-databricks-notebooks</guid>
-      <category>product</category>
-      <pubDate>Wed, 01 Mar 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Changelist: February 2023</title>
-      <link>https://windsurf.com/blog/changelist-feb23</link>
-      <description>Codeium updates from February 2023!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/changelist-feb23</guid>
-      <category>product</category>
-      <category>changelist</category>
-      <pubDate>Thu, 02 Mar 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Using Code Syntax Parsing for Generative AI</title>
-      <link>https://windsurf.com/blog/using-code-syntax-parsing-for-generative-ai</link>
-      <description>The theory, challenges, and future of code syntax parsing.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/using-code-syntax-parsing-for-generative-ai</guid>
-      <category>industry</category>
-      <pubDate>Wed, 15 Mar 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Codeium for Enterprises</title>
-      <link>https://windsurf.com/blog/codeium-for-enterprises</link>
-      <description>Codeium for Enterprises is the only AI acceleration offering to provide code security, fine-tuning, and state-of-the-art quality.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/codeium-for-enterprises</guid>
-      <category>product</category>
-      <category>enterprise</category>
-      <pubDate>Fri, 17 Mar 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How is Codeium Free?</title>
-      <link>https://windsurf.com/blog/how-is-codeium-free</link>
-      <description>Diving into our monetization strategy, and why individuals can get Codeium for free.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/how-is-codeium-free</guid>
       <category>company</category>
-      <pubDate>Fri, 24 Mar 2023 07:00:00 +0000</pubDate>
+      <category>openai</category>
+      <category>gpt-5.1</category>
+      <category>codex</category>
+      <pubDate>Thu, 13 Nov 2025 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Why your AI Code Completion tool needs to Fill in the Middle</title>
-      <link>https://windsurf.com/blog/why-code-completion-needs-fill-in-the-middle</link>
-      <description>Analyzing how fill-in-the-middle allows Codeium to make better suggestions.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/why-code-completion-needs-fill-in-the-middle</guid>
-      <category>industry</category>
+      <title>Introducing SWE-1.5: Our Fast Agent Model</title>
+      <link>https://windsurf.com/blog/swe-1-5</link>
+      <description>SWE-1.5 is our latest frontier model, delivering near-SOTA coding performance at unprecedented speed.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/swe-1-5</guid>
+      <category>product</category>
+      <category>company</category>
+      <pubDate>Wed, 29 Oct 2025 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cognition and Windsurf's Commitment to United States Government (USG) and Impact Level 6 (IL6) Deployments</title>
+      <link>https://windsurf.com/blog/cognition-windsurf-il6</link>
+      <description>Windsurf is ready to support IL6 deployments through partnership with Palantir FedStart, demonstrating Cognition's commitment to serving DoD missions across all networks and domains.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/cognition-windsurf-il6</guid>
+      <category>company</category>
       <category>enterprise</category>
-      <pubDate>Fri, 31 Mar 2023 07:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Oct 2025 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>User Personalization, the Next Frontier in LLMs</title>
-      <link>https://windsurf.com/blog/user-personalization-for-llms</link>
-      <description>How tuning the model layer of LLM applications creates the highest quality experiences for enterprises.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/user-personalization-for-llms</guid>
-      <category>industry</category>
+      <title>Cognition (Windsurf) Named a Leader in the 2025 Gartner® Magic Quadrant™ for AI Code Assistants</title>
+      <link>https://windsurf.com/blog/gartner-windsurf-cognition-magic-quadrant-ai-coding-assistants</link>
+      <description>Cognition’s Windsurf has been named a Leader in the 2025 Gartner® Magic Quadrant™ for AI Code Assistants</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/gartner-windsurf-cognition-magic-quadrant-ai-coding-assistants</guid>
+      <category>product</category>
       <category>enterprise</category>
-      <pubDate>Fri, 31 Mar 2023 07:00:00 +0000</pubDate>
+      <category>industry</category>
+      <category>company</category>
+      <pubDate>Wed, 17 Sep 2025 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Changelist: March 2023</title>
-      <link>https://windsurf.com/blog/changelist-mar23</link>
-      <description>Codeium updates from March 2023!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/changelist-mar23</guid>
+      <title>Windsurf Queued Messages Release</title>
+      <link>https://windsurf.com/blog/queued-messages</link>
+      <description>Windsurf now has Queued Messages!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/queued-messages</guid>
+      <category>product</category>
+      <pubDate>Tue, 16 Sep 2025 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Wave 12: Devin features in Windsurf</title>
+      <link>https://windsurf.com/blog/windsurf-wave-12</link>
+      <description>DeepWiki, Vibe and Replace, Dev Containers, and more!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-12</guid>
+      <category>product</category>
+      <pubDate>Thu, 14 Aug 2025 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Wave 11: Just Keep Shipping</title>
+      <link>https://windsurf.com/blog/windsurf-wave-11</link>
+      <description>More tools for the Browser, Voice Mode, Checkpoints, and more!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-11</guid>
+      <category>product</category>
+      <pubDate>Thu, 17 Jul 2025 10:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Our Commitment to Windsurf</title>
+      <link>https://windsurf.com/blog/our-commitment-cognition-partnership</link>
+      <description>What the acquisition by Cognition means for you</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/our-commitment-cognition-partnership</guid>
+      <category>company</category>
+      <category>enterprise</category>
+      <category>product</category>
+      <pubDate>Wed, 16 Jul 2025 10:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Next Chapter</title>
+      <link>https://windsurf.com/blog/windsurfs-next-chapter</link>
+      <description>Windsurf is joining forces with Cognition.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/windsurfs-next-chapter</guid>
+      <category>company</category>
+      <pubDate>Mon, 14 Jul 2025 10:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Next Stage of Windsurf</title>
+      <link>https://windsurf.com/blog/windsurfs-next-stage</link>
+      <description>Entering a new era.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/windsurfs-next-stage</guid>
+      <category>company</category>
+      <pubDate>Fri, 11 Jul 2025 10:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelist: June 2025</title>
+      <link>https://windsurf.com/blog/changelist-jun25</link>
+      <description>Windsurf updates from June 2025!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/changelist-jun25</guid>
       <category>product</category>
       <category>changelist</category>
-      <pubDate>Mon, 03 Apr 2023 07:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Jul 2025 15:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>GitHub Copilot Emits GPL. Codeium Does Not.</title>
-      <link>https://windsurf.com/blog/copilot-trains-on-gpl-codeium-does-not</link>
-      <description>Demonstrating that GitHub Copilot trains on non-permissive licenses and is unable to filter out suggestions properly, while Codeium does not expose users to legal risk.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/copilot-trains-on-gpl-codeium-does-not</guid>
-      <category>industry</category>
+      <title>Windsurf and AHEAD Form Strategic AI DevOps Partnership</title>
+      <link>https://windsurf.com/blog/ahead-partnership</link>
+      <description>AHEAD is now offering a full suite of services around Windsurf</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/ahead-partnership</guid>
       <category>enterprise</category>
-      <pubDate>Thu, 20 Apr 2023 07:00:00 +0000</pubDate>
+      <pubDate>Thu, 26 Jun 2025 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Amazon CodeWhisperer is out of beta. We tried it. Spoiler: it isn’t good.</title>
-      <link>https://windsurf.com/blog/amazon-codewhisperer-review</link>
-      <description>An in-depth analysis on the capabilities and performance of Amazon CodeWhisperer post-general access release.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/amazon-codewhisperer-review</guid>
-      <category>industry</category>
-      <category>enterprise</category>
-      <pubDate>Mon, 24 Apr 2023 07:00:00 +0000</pubDate>
+      <title>Our Brand</title>
+      <link>https://windsurf.com/blog/our-brand</link>
+      <description>A visual reflection of how we want our users to feel while using the platform: LIMITLESS.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/our-brand</guid>
+      <category>company</category>
+      <pubDate>Fri, 20 Jun 2025 10:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Should your Company ban Generative AI?</title>
-      <link>https://windsurf.com/blog/is-your-company-banning-gen-ai</link>
-      <description>Generative AI poses risks for companies that do not have strict data governance</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/is-your-company-banning-gen-ai</guid>
-      <category>industry</category>
-      <category>enterprise</category>
-      <pubDate>Thu, 04 May 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Changelist: April 2023</title>
-      <link>https://windsurf.com/blog/changelist-apr23</link>
-      <description>Codeium updates from April 2023!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/changelist-apr23</guid>
+      <title>Percentage of Code Written</title>
+      <link>https://windsurf.com/blog/percentage-code-written</link>
+      <guid isPermaLink="false">https://windsurf.com/blog/percentage-code-written</guid>
       <category>product</category>
-      <category>changelist</category>
-      <pubDate>Mon, 08 May 2023 07:00:00 +0000</pubDate>
+      <pubDate>Fri, 13 Jun 2025 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Changelist: May 2023</title>
-      <link>https://windsurf.com/blog/changelist-may23</link>
-      <description>Codeium updates from May 2023!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/changelist-may23</guid>
+      <title>Wave 10: Other Announcements</title>
+      <link>https://windsurf.com/blog/windsurf-wave-10-ux-enterprise</link>
+      <description>A number of improvements to the enterprise offering and general UI/UX.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-10-ux-enterprise</guid>
       <category>product</category>
-      <category>changelist</category>
-      <pubDate>Thu, 08 Jun 2023 07:00:00 +0000</pubDate>
+      <pubDate>Thu, 12 Jun 2025 10:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Code Suggestions You Don’t Get from Copilot: In-line FIM</title>
-      <link>https://windsurf.com/blog/inline-fim-code-suggestions</link>
-      <description>In-line Fill-in-the-Middle suggestions, valuable suggestions produced only by Codeium.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/inline-fim-code-suggestions</guid>
-      <category>industry</category>
-      <category>enterprise</category>
-      <pubDate>Fri, 09 Jun 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>What GitHub Copilot Lacks: Fine-tuning on Your Private Code</title>
-      <link>https://windsurf.com/blog/what-github-copilot-lacks-finetuning-on-your-private-code</link>
-      <description>Proof that Codeium fine-tuned on a repository significantly outperforms GitHub Copilot.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/what-github-copilot-lacks-finetuning-on-your-private-code</guid>
+      <title>Wave 10: The Windsurf Browser</title>
+      <link>https://windsurf.com/blog/windsurf-wave-10-browser</link>
+      <description>Our new browser surface for maximum implicit context understanding and flow awareness.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-10-browser</guid>
       <category>product</category>
-      <category>industry</category>
-      <category>enterprise</category>
-      <pubDate>Mon, 03 Jul 2023 07:00:00 +0000</pubDate>
+      <pubDate>Wed, 11 Jun 2025 10:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Changelist: June 2023</title>
-      <link>https://windsurf.com/blog/changelist-jun23</link>
-      <description>Codeium updates from June 2023!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/changelist-jun23</guid>
+      <title>Wave 10: Planning Mode</title>
+      <link>https://windsurf.com/blog/windsurf-wave-10-planning-mode</link>
+      <description>A native way to collaborate with the AI on longer, more complex tasks.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-10-planning-mode</guid>
       <category>product</category>
-      <category>changelist</category>
-      <pubDate>Fri, 07 Jul 2023 07:00:00 +0000</pubDate>
+      <pubDate>Tue, 10 Jun 2025 10:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>How to Make AI UX Your Moat</title>
-      <link>https://windsurf.com/blog/how-to-make-ai-ux-your-moat</link>
-      <description>Design great AI Products that go beyond "just LLM Wrappers": make AI more present, more practical, and more powerful.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/how-to-make-ai-ux-your-moat</guid>
-      <category>industry</category>
-      <pubDate>Sun, 09 Jul 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GitLab Code Suggestions: Why You Should Not Build Your Own Generative AI Product for Code</title>
-      <link>https://windsurf.com/blog/gitlab-ai-review</link>
-      <description>An analysis on the capabilities and performance of the AI code assistant from GitLab.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/gitlab-ai-review</guid>
-      <category>industry</category>
-      <category>enterprise</category>
-      <pubDate>Fri, 14 Jul 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>What to Know About the Context Going into your Code LLM</title>
-      <link>https://windsurf.com/blog/what-to-know-about-the-context-going-into-your-llm</link>
-      <description>Why real-time context for AI code assistants is a meaningful and tricky problem.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/what-to-know-about-the-context-going-into-your-llm</guid>
-      <category>industry</category>
-      <category>enterprise</category>
-      <pubDate>Fri, 21 Jul 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Context Aware Everything: More Advanced Realtime Context than GitHub Copilot</title>
-      <link>https://windsurf.com/blog/context-aware-everything-more-advanced-realtime-context-than-github-copilot</link>
-      <description>A deep dive into context awareness of Codeium and how it stacks up against GitHub Copilot and CopilotX.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/context-aware-everything-more-advanced-realtime-context-than-github-copilot</guid>
-      <category>industry</category>
-      <category>enterprise</category>
-      <pubDate>Mon, 24 Jul 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Codeium in Visual Studio, and Eclipse</title>
-      <link>https://windsurf.com/blog/codeium-copilot-alternative-in-visual-studio-sublime-eclipse</link>
-      <description>Launching Codeium in Visual Studio, and Eclipse.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/codeium-copilot-alternative-in-visual-studio-sublime-eclipse</guid>
-      <category>product</category>
-      <pubDate>Fri, 28 Jul 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Productionizing Context Aware Everything</title>
-      <link>https://windsurf.com/blog/productionizing-context-aware-everything</link>
-      <description>Why it is hard to create a context reasoning engine for code LLMs that consistently works.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/productionizing-context-aware-everything</guid>
-      <category>industry</category>
-      <category>enterprise</category>
-      <pubDate>Thu, 03 Aug 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Changelist: July 2023</title>
-      <link>https://windsurf.com/blog/changelist-jul23</link>
-      <description>Codeium updates from July 2023!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/changelist-jul23</guid>
-      <category>product</category>
-      <category>changelist</category>
-      <pubDate>Mon, 07 Aug 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>What you Actually Get (and Don’t Get) with GitHub Copilot for Business</title>
-      <link>https://windsurf.com/blog/what-you-actually-get-and-dont-get-with-github-copilot-for-business</link>
-      <description>Clarifying the GitHub Copilot for Business offering.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/what-you-actually-get-and-dont-get-with-github-copilot-for-business</guid>
-      <category>industry</category>
-      <category>enterprise</category>
-      <pubDate>Tue, 15 Aug 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Codeium Chat in JetBrains!</title>
-      <link>https://windsurf.com/blog/jetbrains-codeium-chat-announcement</link>
-      <description>General access to the Codeium Chat functionality in all JetBrains IDEs.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/jetbrains-codeium-chat-announcement</guid>
-      <category>product</category>
-      <pubDate>Mon, 21 Aug 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Codeium is SOC2 Compliant</title>
-      <link>https://windsurf.com/blog/codeium-is-soc2-compliant</link>
-      <description>Announcing our SOC2 Type I Report.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/codeium-is-soc2-compliant</guid>
-      <category>product</category>
-      <category>enterprise</category>
-      <pubDate>Thu, 24 Aug 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How We Think of AI Product Development</title>
-      <link>https://windsurf.com/blog/how-we-think-of-ai-product-development</link>
-      <description>Our approach to building AI products that developers trust and love.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/how-we-think-of-ai-product-development</guid>
-      <category>product</category>
-      <category>enterprise</category>
-      <pubDate>Wed, 27 Sep 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why You Should Not Trust All the Numbers You See</title>
-      <link>https://windsurf.com/blog/code-llm-eval-why-you-should-not-trust-all-the-numbers-you-see</link>
-      <description>Our take on industry benchmarks and how to actually evaluate AI code LLMs and tools.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/code-llm-eval-why-you-should-not-trust-all-the-numbers-you-see</guid>
-      <category>product</category>
-      <category>enterprise</category>
-      <pubDate>Tue, 03 Oct 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Changelist: August &amp; September 2023</title>
-      <link>https://windsurf.com/blog/changelist-aug23-sep23</link>
-      <description>Codeium updates from August &amp; September 2023!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/changelist-aug23-sep23</guid>
-      <category>product</category>
-      <category>changelist</category>
-      <pubDate>Sat, 07 Oct 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Codeium Chat in Eclipse!</title>
-      <link>https://windsurf.com/blog/eclipse-codeium-chat-announcement</link>
-      <description>General access to the Codeium Chat functionality in Eclipse.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/eclipse-codeium-chat-announcement</guid>
-      <category>product</category>
-      <pubDate>Mon, 30 Oct 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Codeium Teams</title>
-      <link>https://windsurf.com/blog/codeium-teams-launch</link>
-      <description>A self-serve paid plan to supercharge teams and small enterprises with AI tooling.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/codeium-teams-launch</guid>
-      <category>product</category>
-      <pubDate>Wed, 01 Nov 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Codeium Brings VS Codium AI Powers</title>
-      <link>https://windsurf.com/blog/codeium-vs-codium-ai</link>
-      <description>Publishing Codeium on OpenVSX enables it for VS Codium.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/codeium-vs-codium-ai</guid>
-      <category>product</category>
-      <pubDate>Fri, 03 Nov 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Codeium Chat in Visual Studio!</title>
-      <link>https://windsurf.com/blog/visual-studio-codeium-chat-announcement</link>
-      <description>General access to the Codeium Chat functionality in Visual Studio.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/visual-studio-codeium-chat-announcement</guid>
-      <category>product</category>
-      <pubDate>Tue, 07 Nov 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Changelist: October 2023</title>
-      <link>https://windsurf.com/blog/changelist-oct23</link>
-      <description>Codeium updates from October 2023!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/changelist-oct23</guid>
-      <category>product</category>
-      <category>changelist</category>
-      <pubDate>Thu, 09 Nov 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Codeium Command</title>
-      <link>https://windsurf.com/blog/codeium-command-launch-announcement</link>
-      <description>A new modality to generate code inline via instructions.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/codeium-command-launch-announcement</guid>
-      <category>product</category>
-      <pubDate>Mon, 13 Nov 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Codeium Live: Free, Forever Up-to-Date In-Browser Chat</title>
-      <link>https://windsurf.com/blog/codeium-live</link>
-      <description>Codeium live is free, forever in-browser chat with direct access to external repositories and libraries, updated every day to get accurate, relevant answers.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/codeium-live</guid>
-      <category>product</category>
-      <category>prototype</category>
-      <pubDate>Thu, 16 Nov 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GitHub Copilot’s Security Filters Don’t Work</title>
-      <link>https://windsurf.com/blog/github-copilot-security-scanning-does-not-work</link>
-      <description>We tested the claim that LLMs can catch security vulnerabilities.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/github-copilot-security-scanning-does-not-work</guid>
-      <category>industry</category>
-      <pubDate>Wed, 22 Nov 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CodeSandbox x Codeium</title>
-      <link>https://windsurf.com/blog/codesandbox-codeium-partnership-announcement</link>
-      <description>Announcing our first class integration and partnership with CodeSandbox.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/codesandbox-codeium-partnership-announcement</guid>
-      <category>industry</category>
-      <category>product</category>
-      <category>partnership</category>
-      <pubDate>Fri, 24 Nov 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anduril on Windsurf</title>
-      <link>https://windsurf.com/blog/anduril-case-study</link>
-      <description>Anduril uses Windsurf to accelerate their developers.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/anduril-case-study</guid>
+      <title>athenahealth Advances Healthcare Innovation with Windsurf</title>
+      <link>https://windsurf.com/blog/athena-health-case-study</link>
+      <description>athenahealth uses Windsurf to accelerate their developers.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/athena-health-case-study</guid>
       <category>enterprise</category>
       <category>case studies</category>
-      <pubDate>Tue, 28 Nov 2023 07:00:00 +0000</pubDate>
+      <pubDate>Tue, 10 Jun 2025 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Code Suggestion Attribution</title>
-      <link>https://windsurf.com/blog/attribution-announcement</link>
-      <description>We have built state-of-the-art post-generation attribution to further our compliance story.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/attribution-announcement</guid>
-      <category>enterprise</category>
-      <category>product</category>
-      <pubDate>Wed, 06 Dec 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Changelist: November 2023</title>
-      <link>https://windsurf.com/blog/changelist-nov23</link>
-      <description>Codeium updates from November 2023!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/changelist-nov23</guid>
+      <title>Changelist: May 2025</title>
+      <link>https://windsurf.com/blog/changelist-may25</link>
+      <description>Windsurf updates from May 2025!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/changelist-may25</guid>
       <category>product</category>
       <category>changelist</category>
-      <pubDate>Mon, 11 Dec 2023 07:00:00 +0000</pubDate>
+      <pubDate>Fri, 06 Jun 2025 15:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Prototype Capabilities</title>
-      <link>https://windsurf.com/blog/codeium-prototype-features</link>
-      <description>Balancing product development with uncertainty.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/codeium-prototype-features</guid>
+      <title>Statement on Anthropic Model Availability</title>
+      <link>https://windsurf.com/blog/anthropic-models</link>
+      <description>Anthropic deciding to cut off capacity does not change our commitment to providing the best product for our users.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/anthropic-models</guid>
       <category>product</category>
-      <category>prototype</category>
-      <pubDate>Tue, 12 Dec 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Codeium is SOC 2 Type 2 Compliant</title>
-      <link>https://windsurf.com/blog/codeium-is-soc2-type2-compliant</link>
-      <description>Announcing our SOC 2 Type 2 Report.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/codeium-is-soc2-type2-compliant</guid>
-      <category>product</category>
-      <category>enterprise</category>
-      <pubDate>Wed, 13 Dec 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>What We Think of 2023 Q4 AI News</title>
-      <link>https://windsurf.com/blog/what-we-think-of-2023q4-ai-announcements</link>
-      <description>Our takes on an eventful ending to 2023.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/what-we-think-of-2023q4-ai-announcements</guid>
+      <category>company</category>
       <category>industry</category>
-      <pubDate>Mon, 18 Dec 2023 07:00:00 +0000</pubDate>
+      <pubDate>Tue, 03 Jun 2025 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Effect of Generative AI on the Human-Tool Interface</title>
-      <link>https://windsurf.com/blog/human-tool-interface</link>
-      <description>A mental model of how we think about maximizing the value of AI tools.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/human-tool-interface</guid>
-      <category>industry</category>
-      <pubDate>Tue, 19 Dec 2023 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Golden Metrics: Characters per Opportunity and Percentage Code Written</title>
-      <link>https://windsurf.com/blog/golden-metrics-characters-per-opportunity-percentage-code-written</link>
-      <description>We introduce two metrics, Characters per Opportunity (CPO) and Percentage Code Written (PCW), which we believe should be the gold standards for benchmarking AI code assistants and assessing end value driven, respectively.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/golden-metrics-characters-per-opportunity-percentage-code-written</guid>
-      <category>industry</category>
+      <title>An Inflection Point for U.S. Government</title>
+      <link>https://windsurf.com/blog/windsurf-inflection-government</link>
+      <description>Windsurf is uniquely positioned to address the U.S. Government’s challenges</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-inflection-government</guid>
       <category>enterprise</category>
-      <category>product</category>
-      <pubDate>Wed, 03 Jan 2024 07:00:00 +0000</pubDate>
+      <pubDate>Thu, 29 May 2025 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Streamlining AI Code Chat with @ Mentions</title>
-      <link>https://windsurf.com/blog/introducing-at-mentions</link>
-      <description>@ Mentions make it easier than ever to integrate chat into your workflows.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/introducing-at-mentions</guid>
-      <category>product</category>
-      <pubDate>Thu, 04 Jan 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Changelist: December 2023</title>
-      <link>https://windsurf.com/blog/changelist-dec23</link>
-      <description>Codeium updates from December 2023!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/changelist-dec23</guid>
-      <category>product</category>
-      <category>changelist</category>
-      <pubDate>Tue, 09 Jan 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Termium: Codeium in the Terminal</title>
-      <link>https://windsurf.com/blog/termium-codeium-in-terminal-launch</link>
-      <description>AI-powered autocomplete for your terminal commands.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/termium-codeium-in-terminal-launch</guid>
-      <category>product</category>
-      <category>prototype</category>
-      <pubDate>Wed, 10 Jan 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MongoDB x Codeium</title>
-      <link>https://windsurf.com/blog/mongodb-codeium-partnership-announcement</link>
-      <description>Announcing our integration and partnership with MongoDB. Get started with MongoDB and Codeium in under 5 minutes using this tutorial.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/mongodb-codeium-partnership-announcement</guid>
-      <category>industry</category>
-      <category>product</category>
-      <category>enterprise</category>
-      <category>partnership</category>
-      <pubDate>Wed, 17 Jan 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Latency, the Ultimate Gen AI Constraint</title>
-      <link>https://windsurf.com/blog/latency-the-ultimate-constraint</link>
-      <description>How latency constraints enable us to use our infrastructure expertise to make better products.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/latency-the-ultimate-constraint</guid>
-      <category>product</category>
-      <category>enterprise</category>
-      <category>industry</category>
-      <pubDate>Thu, 18 Jan 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Atlassian x Codeium</title>
-      <link>https://windsurf.com/blog/atlassian-codeium-announcement</link>
-      <description>Announcing our integrations and work with Atlassian.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/atlassian-codeium-announcement</guid>
-      <category>industry</category>
-      <category>product</category>
-      <category>enterprise</category>
-      <category>partnership</category>
-      <pubDate>Mon, 22 Jan 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Clearwater Analytics on Codeium</title>
-      <link>https://windsurf.com/blog/clearwater-analytics-case-study</link>
-      <description>Clearwater Analytics uses Codeium to accelerate their developers.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/clearwater-analytics-case-study</guid>
-      <category>enterprise</category>
+      <title>Windsurf Fuels Mercado Libre’s Growth Strategy</title>
+      <link>https://windsurf.com/blog/mercado-libre-case-study</link>
+      <description>Mercado Libre uses Windsurf to accelerate their developers.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/mercado-libre-case-study</guid>
       <category>case studies</category>
-      <pubDate>Thu, 25 Jan 2024 07:00:00 +0000</pubDate>
+      <pubDate>Tue, 27 May 2025 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Series B Announcement</title>
-      <link>https://windsurf.com/blog/series-b-annoucement</link>
-      <description>Today, we are excited to announce our $65m Series B round at a $500m valuation, led by Kleiner Perkins and with participation from repeat investor Greenoaks as well as General Catalyst. This adds to our previous $28m raised.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/series-b-annoucement</guid>
+      <title>SWE-1: Our First Frontier Models</title>
+      <link>https://windsurf.com/blog/windsurf-wave-9-swe-1</link>
+      <description>Introducing our first Frontier Models!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-9-swe-1</guid>
+      <category>product</category>
       <category>company</category>
-      <pubDate>Tue, 30 Jan 2024 14:00:00 +0000</pubDate>
+      <pubDate>Thu, 15 May 2025 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Changelist: January 2024</title>
-      <link>https://windsurf.com/blog/changelist-jan24</link>
-      <description>Codeium updates from Jaunary 2024!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/changelist-jan24</guid>
+      <title>Self-Hosted Deployment Maintenance Mode</title>
+      <link>https://windsurf.com/blog/self-hosted-deployment-maintenance-mode</link>
+      <description>We have decided to place our self-hosted offering in maintenance mode, and offer a new single-tenant hosted offering that can expose our agentic capabilities.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/self-hosted-deployment-maintenance-mode</guid>
+      <category>company</category>
+      <pubDate>Mon, 12 May 2025 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Wave 8: UX Features + Plugins Update</title>
+      <link>https://windsurf.com/blog/windsurf-wave-8-ux-features-and-plugins</link>
+      <description>Introducing Wave 8, our biggest batch of updates yet! This is part 3 of 3.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-8-ux-features-and-plugins</guid>
+      <category>product</category>
+      <category>company</category>
+      <pubDate>Thu, 08 May 2025 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Wave 8: Cascade Customization Features</title>
+      <link>https://windsurf.com/blog/windsurf-wave-8-cascade-customization-features</link>
+      <description>Introducing Wave 8, our biggest batch of updates yet! This is part 2 of 3.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-8-cascade-customization-features</guid>
+      <category>product</category>
+      <category>company</category>
+      <pubDate>Wed, 07 May 2025 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Wave 8: Teams &amp; Enterprise Features</title>
+      <link>https://windsurf.com/blog/windsurf-wave-8-teams-and-enterprise</link>
+      <description>Introducing Wave 8, our biggest batch of updates yet! This is part 1 of 3.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-8-teams-and-enterprise</guid>
+      <category>product</category>
+      <category>company</category>
+      <pubDate>Tue, 06 May 2025 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelist: April 2025</title>
+      <link>https://windsurf.com/blog/changelist-apr25</link>
+      <description>Windsurf updates from April 2025!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/changelist-apr25</guid>
       <category>product</category>
       <category>changelist</category>
-      <pubDate>Wed, 07 Feb 2024 07:00:00 +0000</pubDate>
+      <pubDate>Fri, 02 May 2025 15:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Remote Indexing and Multi-repository Context Awareness</title>
-      <link>https://windsurf.com/blog/remote-indexing-multirepo-announcement</link>
-      <description>Announcing expanded and improved context awareness capabilities in Codeium.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/remote-indexing-multirepo-announcement</guid>
+      <title>An Update to Our Free Plan</title>
+      <link>https://windsurf.com/blog/update-to-free-plan</link>
+      <description>The Free Tier is getting an upgrade!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/update-to-free-plan</guid>
       <category>product</category>
-      <category>enterprise</category>
-      <pubDate>Tue, 20 Feb 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Codeium Passes One Million Downloads</title>
-      <link>https://windsurf.com/blog/one-million-codeium-downloads</link>
-      <description>Codeium has been downloaded over one million times by developers across 40+ IDEs.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/one-million-codeium-downloads</guid>
       <category>company</category>
-      <pubDate>Wed, 28 Feb 2024 14:00:00 +0000</pubDate>
+      <pubDate>Mon, 28 Apr 2025 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Context Pinning</title>
-      <link>https://windsurf.com/blog/codeium-context-pinning-launch</link>
-      <description>Developers can now specify and persist known relevant context for Codeium to emphasize in results.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/codeium-context-pinning-launch</guid>
+      <title>An Update to Our Pricing</title>
+      <link>https://windsurf.com/blog/pricing-v2</link>
+      <description>Our pricing model is getting much simpler!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/pricing-v2</guid>
       <category>product</category>
-      <category>enterprise</category>
-      <pubDate>Wed, 06 Mar 2024 07:00:00 +0000</pubDate>
+      <category>company</category>
+      <pubDate>Mon, 21 Apr 2025 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Changelist: February 2024</title>
-      <link>https://windsurf.com/blog/changelist-feb24</link>
-      <description>Codeium updates from February 2024!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/changelist-feb24</guid>
+      <title>Changelist: March 2025</title>
+      <link>https://windsurf.com/blog/changelist-mar25</link>
+      <description>Codeium updates from March 2025!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/changelist-mar25</guid>
       <category>product</category>
       <category>changelist</category>
-      <pubDate>Thu, 07 Mar 2024 07:00:00 +0000</pubDate>
+      <pubDate>Fri, 11 Apr 2025 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>What do you actually get with GitHub Copilot for Enterprises?</title>
-      <link>https://windsurf.com/blog/github-copilot-enterprise-review</link>
-      <description>A feature-by-feature analysis of the new GitHub Copilot tier.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/github-copilot-enterprise-review</guid>
+      <title>Windsurf Named 2025’s Forbes AI 50 Recipient</title>
+      <link>https://windsurf.com/blog/windsurf-codeium-forbes-ai50</link>
+      <description>Forbes AI 50 spotlights the most promising private companies applying AI to real-world challenges.hero</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-codeium-forbes-ai50</guid>
+      <category>company</category>
       <category>industry</category>
       <category>enterprise</category>
-      <pubDate>Tue, 12 Mar 2024 07:00:00 +0000</pubDate>
+      <pubDate>Thu, 10 Apr 2025 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Personalization: Context Awareness vs Customer-Specific Finetuning</title>
-      <link>https://windsurf.com/blog/personalization-context-awareness-vs-customer-specific-finetuning</link>
-      <description>We break down the value of context awareness and finetuning to personalize the Codeium system to particular enterprises.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/personalization-context-awareness-vs-customer-specific-finetuning</guid>
-      <category>industry</category>
-      <category>enterprise</category>
-      <category>product</category>
-      <pubDate>Mon, 01 Apr 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Changelist: March 2024</title>
-      <link>https://windsurf.com/blog/changelist-mar24</link>
-      <description>Codeium updates from March 2024!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/changelist-mar24</guid>
-      <category>product</category>
-      <category>changelist</category>
-      <pubDate>Tue, 09 Apr 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Codeium: Forbes AI 50 Recipient</title>
-      <link>https://windsurf.com/blog/codeium-forbes-ai-50</link>
-      <description>Codeium is the only AI code assistant in the 2024 Forbes AI 50 List.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/codeium-forbes-ai-50</guid>
-      <category>company</category>
-      <pubDate>Thu, 18 Apr 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Google Gemini CodeAssist: A Review</title>
-      <link>https://windsurf.com/blog/google-gemini-codeassist-review</link>
-      <description>An analysis and test of the AI code assistant tool from Google.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/google-gemini-codeassist-review</guid>
-      <category>industry</category>
-      <pubDate>Tue, 23 Apr 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>World Wide Technology on Codeium</title>
-      <link>https://windsurf.com/blog/wwt-case-study</link>
-      <description>WWT uses Codeium to accelerate their developers.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/wwt-case-study</guid>
-      <category>enterprise</category>
-      <category>case studies</category>
-      <pubDate>Tue, 30 Apr 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Codeium Command in JetBrains</title>
-      <link>https://windsurf.com/blog/jetbrains-codeium-command-launch</link>
-      <description>Codeium Command is now available on JetBrains IDEs.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/jetbrains-codeium-command-launch</guid>
-      <category>product</category>
-      <pubDate>Wed, 01 May 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Changelist: April 2024</title>
-      <link>https://windsurf.com/blog/changelist-apr24</link>
-      <description>Codeium updates from April 2024!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/changelist-apr24</guid>
-      <category>product</category>
-      <category>changelist</category>
-      <pubDate>Wed, 08 May 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Changelist: May 2024</title>
-      <link>https://windsurf.com/blog/changelist-may24</link>
-      <description>Codeium updates from May 2024!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/changelist-may24</guid>
-      <category>product</category>
-      <category>changelist</category>
-      <pubDate>Wed, 05 Jun 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Our Cultural Principles</title>
-      <link>https://windsurf.com/blog/codeium-cultural-principles</link>
-      <description>What makes Codeium, Codeium?</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/codeium-cultural-principles</guid>
-      <category>company</category>
-      <pubDate>Fri, 07 Jun 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Codeium: Truly Enterprise-Ready Code Assistant</title>
-      <link>https://windsurf.com/blog/codeium-truly-enterprise-ready</link>
-      <description>A deeper dive into recent enterprise readiness capabilities: indexing access controls, subteam analytics, and audit logging.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/codeium-truly-enterprise-ready</guid>
-      <category>enterprise</category>
-      <category>product</category>
-      <pubDate>Tue, 11 Jun 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hybrid Deployment: Perfect mix of security and performance</title>
-      <link>https://windsurf.com/blog/hybrid-deployment</link>
-      <description>An analysis of the Hybrid deployment from Codeium, a first-of-its-kind offering.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/hybrid-deployment</guid>
-      <category>enterprise</category>
-      <category>product</category>
-      <pubDate>Wed, 19 Jun 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Codeium: Leader According to Stack Overflow Survey</title>
-      <link>https://windsurf.com/blog/codeium-stack-overflow-pulse-survey</link>
-      <description>Codeium was ranked as the AI Code Assistant driving the most self-reported satisfication and productivity.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/codeium-stack-overflow-pulse-survey</guid>
-      <category>company</category>
-      <pubDate>Sat, 29 Jun 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Changelist: June 2024</title>
-      <link>https://windsurf.com/blog/changelist-jun24</link>
-      <description>Codeium updates from June 2024!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/changelist-jun24</guid>
-      <category>product</category>
-      <category>changelist</category>
-      <pubDate>Mon, 08 Jul 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Zillow on Codeium</title>
-      <link>https://windsurf.com/blog/zillow-codeium-case-study</link>
-      <description>Zillow uses Codeium to accelerate their developers.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/zillow-codeium-case-study</guid>
-      <category>enterprise</category>
-      <category>case studies</category>
-      <pubDate>Wed, 17 Jul 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Work at Little Tech</title>
-      <link>https://windsurf.com/blog/work-at-little-tech-codeium</link>
-      <description>Our billboard campaign to raise awareness for the startup world.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/work-at-little-tech-codeium</guid>
-      <category>company</category>
-      <pubDate>Mon, 22 Jul 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Command: A Case Study in Product Development</title>
-      <link>https://windsurf.com/blog/codeium-command-improvement-case-study</link>
-      <description>How we made a state-of-the-art instruction following system by training proprietary foundational models and listening to user feedback.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/codeium-command-improvement-case-study</guid>
-      <category>product</category>
-      <pubDate>Mon, 22 Jul 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Culture: Be Valuable, Not Right</title>
-      <link>https://windsurf.com/blog/codeium-culture-be-valuable-not-right</link>
-      <description>A little bit about our origin story and staying honest with ourselves.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/codeium-culture-be-valuable-not-right</guid>
-      <category>company</category>
-      <pubDate>Fri, 26 Jul 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Codeium: Rising the Ranks on Stack Overflow</title>
-      <link>https://windsurf.com/blog/codeium-stack-overflow-developer-survey-2024</link>
-      <description>Codeium is one of the most desired and admired AI tools for developers.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/codeium-stack-overflow-developer-survey-2024</guid>
-      <category>company</category>
-      <pubDate>Mon, 29 Jul 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Better Chat than ChatGPT</title>
-      <link>https://windsurf.com/blog/codeium-better-chat</link>
-      <description>Model, reasoning, and UX breakthroughs across the Codeium Chat stack to make it a best-in-class AI Chat developer experience.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/codeium-better-chat</guid>
-      <category>product</category>
-      <pubDate>Thu, 01 Aug 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Changelist: July 2024</title>
-      <link>https://windsurf.com/blog/changelist-jul24</link>
-      <description>Codeium updates from July 2024!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/changelist-jul24</guid>
-      <category>product</category>
-      <category>changelist</category>
-      <pubDate>Thu, 08 Aug 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Dream Bigger</title>
-      <link>https://windsurf.com/blog/codeium-dream-bigger</link>
-      <description>The Codeium mission, Riptide and Forge launches, and detailed vision.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/codeium-dream-bigger</guid>
-      <category>company</category>
-      <category>product</category>
-      <pubDate>Tue, 13 Aug 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Smart Paste: Effortless Code Translation</title>
-      <link>https://windsurf.com/blog/codeium-smart-paste</link>
-      <description>A new feature that allows you to translate code to any desired language automatically.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/codeium-smart-paste</guid>
-      <category>product</category>
-      <pubDate>Wed, 21 Aug 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Broadcom x Codeium</title>
-      <link>https://windsurf.com/blog/vmware-codeium-announcement</link>
-      <description>Announcing Codeium on VMware Private AI by Broadcom.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/vmware-codeium-announcement</guid>
-      <category>industry</category>
-      <category>enterprise</category>
-      <category>partnership</category>
-      <pubDate>Mon, 26 Aug 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Our Model Strategy</title>
-      <link>https://windsurf.com/blog/our-model-strategy</link>
-      <description>Our model strategy is simple. Whatever delivers the most value.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/our-model-strategy</guid>
-      <category>company</category>
-      <category>industry</category>
-      <pubDate>Mon, 26 Aug 2024 08:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Codeium: Gartner AI Challenger</title>
-      <link>https://windsurf.com/blog/gartner-codeium-magic-quadrant-critical-capabilities</link>
-      <description>Codeium is recognized as a Gartner Magic Quadrant™ Challenger, ranking highest in Code Modernization and Artifact Building &amp; Testing.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/gartner-codeium-magic-quadrant-critical-capabilities</guid>
-      <category>industry</category>
-      <category>enterprise</category>
-      <pubDate>Wed, 28 Aug 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Series C Announcement</title>
-      <link>https://windsurf.com/blog/series-c-annoucement</link>
-      <description>Today, we are excited to announce our $150m Series C round at a $1.25b valuation, led by General Catalyst and with participation from Kleiner Perkins and Greenoaks. This adds to our previous $93m raised.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/series-c-annoucement</guid>
-      <category>company</category>
-      <pubDate>Thu, 29 Aug 2024 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Changelist: August 2024</title>
-      <link>https://windsurf.com/blog/changelist-aug24</link>
-      <description>Codeium updates from August 2024!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/changelist-aug24</guid>
-      <category>product</category>
-      <category>changelist</category>
-      <pubDate>Thu, 05 Sep 2024 15:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pro Tier</title>
-      <link>https://windsurf.com/blog/pro-tier-launch</link>
-      <description>Introducing the Pro Tier, a premium paid plan for individual developers. </description>
-      <guid isPermaLink="false">https://windsurf.com/blog/pro-tier-launch</guid>
+      <title>Windsurf Wave 7</title>
+      <link>https://windsurf.com/blog/windsurf-wave-7</link>
+      <description>Introducing Wave 7, our seventh batch of updates to the Windsurf Editor.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-7</guid>
       <category>product</category>
       <category>company</category>
-      <pubDate>Wed, 18 Sep 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>What Will Harvard Business School Write?</title>
-      <link>https://windsurf.com/blog/what-will-hbs-write</link>
-      <description>History is written by the victors.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/what-will-hbs-write</guid>
-      <category>company</category>
-      <pubDate>Wed, 25 Sep 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Changelist: September 2024</title>
-      <link>https://windsurf.com/blog/changelist-sep24</link>
-      <description>Codeium updates from September 2024!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/changelist-sep24</guid>
-      <category>product</category>
-      <category>changelist</category>
-      <pubDate>Fri, 04 Oct 2024 15:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Supercomplete</title>
-      <link>https://windsurf.com/blog/supercomplete-launch</link>
-      <description>Introducing Supercomplete, a new modality that predicts your next intent.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/supercomplete-launch</guid>
-      <category>product</category>
-      <category>enterprise</category>
-      <pubDate>Mon, 14 Oct 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Art of Analytics</title>
-      <link>https://windsurf.com/blog/the-art-of-analytics</link>
-      <description>Why should we care about analytics? What could go wrong?</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/the-art-of-analytics</guid>
-      <category>company</category>
-      <category>enterprise</category>
-      <category>product</category>
-      <category>industry</category>
-      <pubDate>Wed, 23 Oct 2024 08:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Codeium: JPMorgan Chase's Hall of Innovation</title>
-      <link>https://windsurf.com/blog/jpmc-codeium-hall-of-innovation</link>
-      <description>Codeium inducted into JPMorgan Chase Hall of Innovation for AI-powered development solutions.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/jpmc-codeium-hall-of-innovation</guid>
-      <category>industry</category>
-      <category>product</category>
-      <category>company</category>
-      <category>enterprise</category>
-      <category>partnership</category>
-      <category>case studies</category>
-      <pubDate>Thu, 31 Oct 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Changelist: October 2024</title>
-      <link>https://windsurf.com/blog/changelist-oct24</link>
-      <description>Codeium updates from October 2024!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/changelist-oct24</guid>
-      <category>product</category>
-      <category>changelist</category>
-      <pubDate>Sat, 02 Nov 2024 15:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Codeium Helps Onboarding</title>
-      <link>https://windsurf.com/blog/codeium-helps-onboarding</link>
-      <description>Minimizing developer onboarding time is critical for any serious enterprise.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/codeium-helps-onboarding</guid>
-      <category>industry</category>
-      <category>product</category>
-      <category>company</category>
-      <category>enterprise</category>
-      <pubDate>Wed, 06 Nov 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf Launch</title>
-      <link>https://windsurf.com/blog/windsurf-launch</link>
-      <description>Introducing the Windsurf Editor, our new IDE.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-launch</guid>
-      <category>industry</category>
-      <category>product</category>
-      <category>company</category>
-      <pubDate>Wed, 13 Nov 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Plans and Pricing Updates</title>
-      <link>https://windsurf.com/blog/pricing-windsurf</link>
-      <description>Some changes to our pricing model for Cascade.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/pricing-windsurf</guid>
-      <category>product</category>
-      <category>company</category>
-      <pubDate>Fri, 06 Dec 2024 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Changelist: November 2024</title>
-      <link>https://windsurf.com/blog/changelist-nov24</link>
-      <description>Codeium updates from November 2024!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/changelist-nov24</guid>
-      <category>product</category>
-      <category>changelist</category>
-      <pubDate>Tue, 10 Dec 2024 15:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf Wave 1</title>
-      <link>https://windsurf.com/blog/windsurf-wave-1</link>
-      <description>Introducing Wave 1, our first batch of updates to the Windsurf Editor.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-1</guid>
-      <category>product</category>
-      <category>company</category>
-      <pubDate>Wed, 11 Dec 2024 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Innovation, not Productivity: Why we Built Windsurf</title>
-      <link>https://windsurf.com/blog/why-we-built-windsurf</link>
-      <description>Why did we build Windsurf? Were the extensions not good enough?</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/why-we-built-windsurf</guid>
-      <category>product</category>
-      <category>company</category>
-      <pubDate>Thu, 19 Dec 2024 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Changelist: December 2024</title>
-      <link>https://windsurf.com/blog/changelist-dec24</link>
-      <description>Codeium updates from December 2024!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/changelist-dec24</guid>
-      <category>product</category>
-      <category>changelist</category>
-      <pubDate>Fri, 03 Jan 2025 15:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DRW on Codeium</title>
-      <link>https://windsurf.com/blog/drw-case-study</link>
-      <description>DRW uses Codeium to boost developer productivity while safeguarding intellectual property.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/drw-case-study</guid>
-      <category>enterprise</category>
-      <category>case studies</category>
-      <pubDate>Mon, 06 Jan 2025 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf Wave 2</title>
-      <link>https://windsurf.com/blog/windsurf-wave-2</link>
-      <description>Introducing Wave 2, our second batch of updates to the Windsurf Editor.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-2</guid>
-      <category>product</category>
-      <category>company</category>
-      <pubDate>Fri, 17 Jan 2025 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DeepSeek R1 and OpenAI o3-mini now available in Windsurf</title>
-      <link>https://windsurf.com/blog/deepseek-r1-and-o3-mini-available-in-windsurf</link>
-      <description>DeepSeek R1, DeepSeek V3, and OpenAI o3-mini are now available in Windsurf.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/deepseek-r1-and-o3-mini-available-in-windsurf</guid>
-      <category>product</category>
-      <category>company</category>
-      <pubDate>Fri, 31 Jan 2025 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf Next Launch</title>
-      <link>https://windsurf.com/blog/windsurf-next</link>
-      <description>Introducing Windsurf Next, our opt-in prerelease version of Windsurf.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-next</guid>
-      <category>product</category>
-      <category>company</category>
-      <pubDate>Wed, 05 Feb 2025 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Changelist: January 2025</title>
-      <link>https://windsurf.com/blog/changelist-jan25</link>
-      <description>Codeium updates from January 2025!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/changelist-jan25</guid>
-      <category>product</category>
-      <category>changelist</category>
-      <pubDate>Thu, 06 Feb 2025 15:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf Wave 3</title>
-      <link>https://windsurf.com/blog/windsurf-wave-3</link>
-      <description>Introducing Wave 3, our third batch of updates to the Windsurf Editor.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-3</guid>
-      <category>product</category>
-      <category>company</category>
-      <pubDate>Thu, 13 Feb 2025 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf Wave 4</title>
-      <link>https://windsurf.com/blog/windsurf-wave-4</link>
-      <description>Introducing Wave 4, our fourth batch of updates to the Windsurf Editor.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-4</guid>
-      <category>product</category>
-      <category>company</category>
-      <pubDate>Wed, 05 Mar 2025 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Changelist: February 2025</title>
-      <link>https://windsurf.com/blog/changelist-feb25</link>
-      <description>Codeium updates from February 2025!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/changelist-feb25</guid>
-      <category>product</category>
-      <category>changelist</category>
-      <pubDate>Fri, 07 Mar 2025 15:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf Extensions are now FedRAMP High Authorized and compliant with DoD IL5 and ITAR: A Milestone for Secure AI-Driven Development in the Federal Space</title>
-      <link>https://windsurf.com/blog/fedramp-certification</link>
-      <description>Windsurf Extensions have achieved FedRAMP High Authorization and IL5 Compliance, marking a significant milestone in the federal space.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/fedramp-certification</guid>
-      <category>company</category>
-      <category>enterprise</category>
-      <pubDate>Mon, 10 Mar 2025 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf Wave 5</title>
-      <link>https://windsurf.com/blog/windsurf-wave-5</link>
-      <description>Introducing Wave 5, our fifth batch of updates to the Windsurf Editor.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-5</guid>
-      <category>product</category>
-      <category>company</category>
-      <pubDate>Fri, 14 Mar 2025 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf Wave 6</title>
-      <link>https://windsurf.com/blog/windsurf-wave-6</link>
-      <description>Introducing Wave 6, our sixth batch of updates to the Windsurf Editor.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-6</guid>
-      <category>product</category>
-      <category>company</category>
-      <pubDate>Wed, 02 Apr 2025 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>What is an Agent?</title>
-      <link>https://windsurf.com/blog/what-is-an-agent</link>
-      <description>Demystifying AI agents: understanding the reasoning-action loop that powers modern AI systems</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/what-is-an-agent</guid>
-      <category>industry</category>
-      <category>company</category>
-      <category>enterprise</category>
-      <pubDate>Thu, 03 Apr 2025 12:00:00 +0000</pubDate>
+      <pubDate>Wed, 09 Apr 2025 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>The Next Chapter: Renaming to Windsurf</title>
@@ -1150,325 +350,1125 @@
       <pubDate>Fri, 04 Apr 2025 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Windsurf Wave 7</title>
-      <link>https://windsurf.com/blog/windsurf-wave-7</link>
-      <description>Introducing Wave 7, our seventh batch of updates to the Windsurf Editor.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-7</guid>
-      <category>product</category>
-      <category>company</category>
-      <pubDate>Wed, 09 Apr 2025 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf Named 2025’s Forbes AI 50 Recipient</title>
-      <link>https://windsurf.com/blog/windsurf-codeium-forbes-ai50</link>
-      <description>Forbes AI 50 spotlights the most promising private companies applying AI to real-world challenges.hero</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-codeium-forbes-ai50</guid>
-      <category>company</category>
+      <title>What is an Agent?</title>
+      <link>https://windsurf.com/blog/what-is-an-agent</link>
+      <description>Demystifying AI agents: understanding the reasoning-action loop that powers modern AI systems</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/what-is-an-agent</guid>
       <category>industry</category>
+      <category>company</category>
       <category>enterprise</category>
-      <pubDate>Thu, 10 Apr 2025 12:00:00 +0000</pubDate>
+      <pubDate>Thu, 03 Apr 2025 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Changelist: March 2025</title>
-      <link>https://windsurf.com/blog/changelist-mar25</link>
-      <description>Codeium updates from March 2025!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/changelist-mar25</guid>
-      <category>product</category>
-      <category>changelist</category>
-      <pubDate>Fri, 11 Apr 2025 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>An Update to Our Pricing</title>
-      <link>https://windsurf.com/blog/pricing-v2</link>
-      <description>Our pricing model is getting much simpler!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/pricing-v2</guid>
+      <title>Windsurf Wave 6</title>
+      <link>https://windsurf.com/blog/windsurf-wave-6</link>
+      <description>Introducing Wave 6, our sixth batch of updates to the Windsurf Editor.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-6</guid>
       <category>product</category>
       <category>company</category>
-      <pubDate>Mon, 21 Apr 2025 12:00:00 +0000</pubDate>
+      <pubDate>Wed, 02 Apr 2025 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>An Update to Our Free Plan</title>
-      <link>https://windsurf.com/blog/update-to-free-plan</link>
-      <description>The Free Tier is getting an upgrade!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/update-to-free-plan</guid>
+      <title>Windsurf Wave 5</title>
+      <link>https://windsurf.com/blog/windsurf-wave-5</link>
+      <description>Introducing Wave 5, our fifth batch of updates to the Windsurf Editor.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-5</guid>
       <category>product</category>
       <category>company</category>
-      <pubDate>Mon, 28 Apr 2025 12:00:00 +0000</pubDate>
+      <pubDate>Fri, 14 Mar 2025 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Changelist: April 2025</title>
-      <link>https://windsurf.com/blog/changelist-apr25</link>
-      <description>Windsurf updates from April 2025!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/changelist-apr25</guid>
-      <category>product</category>
-      <category>changelist</category>
-      <pubDate>Fri, 02 May 2025 15:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf Wave 8: Teams &amp; Enterprise Features</title>
-      <link>https://windsurf.com/blog/windsurf-wave-8-teams-and-enterprise</link>
-      <description>Introducing Wave 8, our biggest batch of updates yet! This is part 1 of 3.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-8-teams-and-enterprise</guid>
-      <category>product</category>
+      <title>Windsurf Extensions are now FedRAMP High Authorized and compliant with DoD IL5 and ITAR: A Milestone for Secure AI-Driven Development in the Federal Space</title>
+      <link>https://windsurf.com/blog/fedramp-certification</link>
+      <description>Windsurf Extensions have achieved FedRAMP High Authorization and IL5 Compliance, marking a significant milestone in the federal space.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/fedramp-certification</guid>
       <category>company</category>
-      <pubDate>Tue, 06 May 2025 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wave 8: Cascade Customization Features</title>
-      <link>https://windsurf.com/blog/windsurf-wave-8-cascade-customization-features</link>
-      <description>Introducing Wave 8, our biggest batch of updates yet! This is part 2 of 3.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-8-cascade-customization-features</guid>
-      <category>product</category>
-      <category>company</category>
-      <pubDate>Wed, 07 May 2025 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wave 8: UX Features + Plugins Update</title>
-      <link>https://windsurf.com/blog/windsurf-wave-8-ux-features-and-plugins</link>
-      <description>Introducing Wave 8, our biggest batch of updates yet! This is part 3 of 3.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-8-ux-features-and-plugins</guid>
-      <category>product</category>
-      <category>company</category>
-      <pubDate>Thu, 08 May 2025 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Self-Hosted Deployment Maintenance Mode</title>
-      <link>https://windsurf.com/blog/self-hosted-deployment-maintenance-mode</link>
-      <description>We have decided to place our self-hosted offering in maintenance mode, and offer a new single-tenant hosted offering that can expose our agentic capabilities.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/self-hosted-deployment-maintenance-mode</guid>
-      <category>company</category>
-      <pubDate>Mon, 12 May 2025 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SWE-1: Our First Frontier Models</title>
-      <link>https://windsurf.com/blog/windsurf-wave-9-swe-1</link>
-      <description>Introducing our first Frontier Models!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-9-swe-1</guid>
-      <category>product</category>
-      <category>company</category>
-      <pubDate>Thu, 15 May 2025 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf Fuels Mercado Libre’s Growth Strategy</title>
-      <link>https://windsurf.com/blog/mercado-libre-case-study</link>
-      <description>Mercado Libre uses Windsurf to accelerate their developers.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/mercado-libre-case-study</guid>
-      <category>case studies</category>
-      <pubDate>Tue, 27 May 2025 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>An Inflection Point for U.S. Government</title>
-      <link>https://windsurf.com/blog/windsurf-inflection-government</link>
-      <description>Windsurf is uniquely positioned to address the U.S. Government’s challenges</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-inflection-government</guid>
       <category>enterprise</category>
-      <pubDate>Thu, 29 May 2025 07:00:00 +0000</pubDate>
+      <pubDate>Mon, 10 Mar 2025 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Statement on Anthropic Model Availability</title>
-      <link>https://windsurf.com/blog/anthropic-models</link>
-      <description>Anthropic deciding to cut off capacity does not change our commitment to providing the best product for our users.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/anthropic-models</guid>
-      <category>product</category>
-      <category>company</category>
-      <category>industry</category>
-      <pubDate>Tue, 03 Jun 2025 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Changelist: May 2025</title>
-      <link>https://windsurf.com/blog/changelist-may25</link>
-      <description>Windsurf updates from May 2025!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/changelist-may25</guid>
+      <title>Changelist: February 2025</title>
+      <link>https://windsurf.com/blog/changelist-feb25</link>
+      <description>Codeium updates from February 2025!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/changelist-feb25</guid>
       <category>product</category>
       <category>changelist</category>
-      <pubDate>Fri, 06 Jun 2025 15:00:00 +0000</pubDate>
+      <pubDate>Fri, 07 Mar 2025 15:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>athenahealth Advances Healthcare Innovation with Windsurf</title>
-      <link>https://windsurf.com/blog/athena-health-case-study</link>
-      <description>athenahealth uses Windsurf to accelerate their developers.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/athena-health-case-study</guid>
+      <title>Windsurf Wave 4</title>
+      <link>https://windsurf.com/blog/windsurf-wave-4</link>
+      <description>Introducing Wave 4, our fourth batch of updates to the Windsurf Editor.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-4</guid>
+      <category>product</category>
+      <category>company</category>
+      <pubDate>Wed, 05 Mar 2025 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Wave 3</title>
+      <link>https://windsurf.com/blog/windsurf-wave-3</link>
+      <description>Introducing Wave 3, our third batch of updates to the Windsurf Editor.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-3</guid>
+      <category>product</category>
+      <category>company</category>
+      <pubDate>Thu, 13 Feb 2025 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelist: January 2025</title>
+      <link>https://windsurf.com/blog/changelist-jan25</link>
+      <description>Codeium updates from January 2025!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/changelist-jan25</guid>
+      <category>product</category>
+      <category>changelist</category>
+      <pubDate>Thu, 06 Feb 2025 15:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next Launch</title>
+      <link>https://windsurf.com/blog/windsurf-next</link>
+      <description>Introducing Windsurf Next, our opt-in prerelease version of Windsurf.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-next</guid>
+      <category>product</category>
+      <category>company</category>
+      <pubDate>Wed, 05 Feb 2025 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DeepSeek R1 and OpenAI o3-mini now available in Windsurf</title>
+      <link>https://windsurf.com/blog/deepseek-r1-and-o3-mini-available-in-windsurf</link>
+      <description>DeepSeek R1, DeepSeek V3, and OpenAI o3-mini are now available in Windsurf.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/deepseek-r1-and-o3-mini-available-in-windsurf</guid>
+      <category>product</category>
+      <category>company</category>
+      <pubDate>Fri, 31 Jan 2025 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Wave 2</title>
+      <link>https://windsurf.com/blog/windsurf-wave-2</link>
+      <description>Introducing Wave 2, our second batch of updates to the Windsurf Editor.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-2</guid>
+      <category>product</category>
+      <category>company</category>
+      <pubDate>Fri, 17 Jan 2025 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DRW on Codeium</title>
+      <link>https://windsurf.com/blog/drw-case-study</link>
+      <description>DRW uses Codeium to boost developer productivity while safeguarding intellectual property.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/drw-case-study</guid>
       <category>enterprise</category>
       <category>case studies</category>
-      <pubDate>Tue, 10 Jun 2025 07:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 Jan 2025 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Wave 10: Planning Mode</title>
-      <link>https://windsurf.com/blog/windsurf-wave-10-planning-mode</link>
-      <description>A native way to collaborate with the AI on longer, more complex tasks.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-10-planning-mode</guid>
-      <category>product</category>
-      <pubDate>Tue, 10 Jun 2025 10:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wave 10: The Windsurf Browser</title>
-      <link>https://windsurf.com/blog/windsurf-wave-10-browser</link>
-      <description>Our new browser surface for maximum implicit context understanding and flow awareness.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-10-browser</guid>
-      <category>product</category>
-      <pubDate>Wed, 11 Jun 2025 10:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wave 10: Other Announcements</title>
-      <link>https://windsurf.com/blog/windsurf-wave-10-ux-enterprise</link>
-      <description>A number of improvements to the enterprise offering and general UI/UX.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-10-ux-enterprise</guid>
-      <category>product</category>
-      <pubDate>Thu, 12 Jun 2025 10:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Percentage of Code Written</title>
-      <link>https://windsurf.com/blog/percentage-code-written</link>
-      <guid isPermaLink="false">https://windsurf.com/blog/percentage-code-written</guid>
-      <category>product</category>
-      <pubDate>Fri, 13 Jun 2025 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Our Brand</title>
-      <link>https://windsurf.com/blog/our-brand</link>
-      <description>A visual reflection of how we want our users to feel while using the platform: LIMITLESS.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/our-brand</guid>
-      <category>company</category>
-      <pubDate>Fri, 20 Jun 2025 10:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf and AHEAD Form Strategic AI DevOps Partnership</title>
-      <link>https://windsurf.com/blog/ahead-partnership</link>
-      <description>AHEAD is now offering a full suite of services around Windsurf</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/ahead-partnership</guid>
-      <category>enterprise</category>
-      <pubDate>Thu, 26 Jun 2025 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Changelist: June 2025</title>
-      <link>https://windsurf.com/blog/changelist-jun25</link>
-      <description>Windsurf updates from June 2025!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/changelist-jun25</guid>
+      <title>Changelist: December 2024</title>
+      <link>https://windsurf.com/blog/changelist-dec24</link>
+      <description>Codeium updates from December 2024!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/changelist-dec24</guid>
       <category>product</category>
       <category>changelist</category>
-      <pubDate>Tue, 01 Jul 2025 15:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Jan 2025 15:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Next Stage of Windsurf</title>
-      <link>https://windsurf.com/blog/windsurfs-next-stage</link>
-      <description>Entering a new era.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/windsurfs-next-stage</guid>
+      <title>Innovation, not Productivity: Why we Built Windsurf</title>
+      <link>https://windsurf.com/blog/why-we-built-windsurf</link>
+      <description>Why did we build Windsurf? Were the extensions not good enough?</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/why-we-built-windsurf</guid>
+      <category>product</category>
       <category>company</category>
-      <pubDate>Fri, 11 Jul 2025 10:00:00 +0000</pubDate>
+      <pubDate>Thu, 19 Dec 2024 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Next Chapter</title>
-      <link>https://windsurf.com/blog/windsurfs-next-chapter</link>
-      <description>Windsurf is joining forces with Cognition.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/windsurfs-next-chapter</guid>
+      <title>Windsurf Wave 1</title>
+      <link>https://windsurf.com/blog/windsurf-wave-1</link>
+      <description>Introducing Wave 1, our first batch of updates to the Windsurf Editor.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-1</guid>
+      <category>product</category>
       <category>company</category>
-      <pubDate>Mon, 14 Jul 2025 10:00:00 +0000</pubDate>
+      <pubDate>Wed, 11 Dec 2024 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Our Commitment to Windsurf</title>
-      <link>https://windsurf.com/blog/our-commitment-cognition-partnership</link>
-      <description>What the acquisition by Cognition means for you</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/our-commitment-cognition-partnership</guid>
+      <title>Changelist: November 2024</title>
+      <link>https://windsurf.com/blog/changelist-nov24</link>
+      <description>Codeium updates from November 2024!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/changelist-nov24</guid>
+      <category>product</category>
+      <category>changelist</category>
+      <pubDate>Tue, 10 Dec 2024 15:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Plans and Pricing Updates</title>
+      <link>https://windsurf.com/blog/pricing-windsurf</link>
+      <description>Some changes to our pricing model for Cascade.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/pricing-windsurf</guid>
+      <category>product</category>
+      <category>company</category>
+      <pubDate>Fri, 06 Dec 2024 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Launch</title>
+      <link>https://windsurf.com/blog/windsurf-launch</link>
+      <description>Introducing the Windsurf Editor, our new IDE.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-launch</guid>
+      <category>industry</category>
+      <category>product</category>
+      <category>company</category>
+      <pubDate>Wed, 13 Nov 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Codeium Helps Onboarding</title>
+      <link>https://windsurf.com/blog/codeium-helps-onboarding</link>
+      <description>Minimizing developer onboarding time is critical for any serious enterprise.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/codeium-helps-onboarding</guid>
+      <category>industry</category>
+      <category>product</category>
+      <category>company</category>
+      <category>enterprise</category>
+      <pubDate>Wed, 06 Nov 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelist: October 2024</title>
+      <link>https://windsurf.com/blog/changelist-oct24</link>
+      <description>Codeium updates from October 2024!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/changelist-oct24</guid>
+      <category>product</category>
+      <category>changelist</category>
+      <pubDate>Sat, 02 Nov 2024 15:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Codeium: JPMorgan Chase's Hall of Innovation</title>
+      <link>https://windsurf.com/blog/jpmc-codeium-hall-of-innovation</link>
+      <description>Codeium inducted into JPMorgan Chase Hall of Innovation for AI-powered development solutions.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/jpmc-codeium-hall-of-innovation</guid>
+      <category>industry</category>
+      <category>product</category>
+      <category>company</category>
+      <category>enterprise</category>
+      <category>partnership</category>
+      <category>case studies</category>
+      <pubDate>Thu, 31 Oct 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Art of Analytics</title>
+      <link>https://windsurf.com/blog/the-art-of-analytics</link>
+      <description>Why should we care about analytics? What could go wrong?</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/the-art-of-analytics</guid>
       <category>company</category>
       <category>enterprise</category>
       <category>product</category>
-      <pubDate>Wed, 16 Jul 2025 10:00:00 +0000</pubDate>
+      <category>industry</category>
+      <pubDate>Wed, 23 Oct 2024 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Wave 11: Just Keep Shipping</title>
-      <link>https://windsurf.com/blog/windsurf-wave-11</link>
-      <description>More tools for the Browser, Voice Mode, Checkpoints, and more!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-11</guid>
+      <title>Supercomplete</title>
+      <link>https://windsurf.com/blog/supercomplete-launch</link>
+      <description>Introducing Supercomplete, a new modality that predicts your next intent.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/supercomplete-launch</guid>
       <category>product</category>
-      <pubDate>Thu, 17 Jul 2025 10:00:00 +0000</pubDate>
+      <category>enterprise</category>
+      <pubDate>Mon, 14 Oct 2024 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Windsurf Wave 12: Devin features in Windsurf</title>
-      <link>https://windsurf.com/blog/windsurf-wave-12</link>
-      <description>DeepWiki, Vibe and Replace, Dev Containers, and more!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-12</guid>
+      <title>Changelist: September 2024</title>
+      <link>https://windsurf.com/blog/changelist-sep24</link>
+      <description>Codeium updates from September 2024!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/changelist-sep24</guid>
       <category>product</category>
-      <pubDate>Thu, 14 Aug 2025 12:00:00 +0000</pubDate>
+      <category>changelist</category>
+      <pubDate>Fri, 04 Oct 2024 15:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Windsurf Queued Messages Release</title>
-      <link>https://windsurf.com/blog/queued-messages</link>
-      <description>Windsurf now has Queued Messages!</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/queued-messages</guid>
+      <title>What Will Harvard Business School Write?</title>
+      <link>https://windsurf.com/blog/what-will-hbs-write</link>
+      <description>History is written by the victors.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/what-will-hbs-write</guid>
+      <category>company</category>
+      <pubDate>Wed, 25 Sep 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pro Tier</title>
+      <link>https://windsurf.com/blog/pro-tier-launch</link>
+      <description>Introducing the Pro Tier, a premium paid plan for individual developers. </description>
+      <guid isPermaLink="false">https://windsurf.com/blog/pro-tier-launch</guid>
       <category>product</category>
-      <pubDate>Tue, 16 Sep 2025 12:00:00 +0000</pubDate>
+      <category>company</category>
+      <pubDate>Wed, 18 Sep 2024 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Cognition (Windsurf) Named a Leader in the 2025 Gartner® Magic Quadrant™ for AI Code Assistants</title>
-      <link>https://windsurf.com/blog/gartner-windsurf-cognition-magic-quadrant-ai-coding-assistants</link>
-      <description>Cognition’s Windsurf has been named a Leader in the 2025 Gartner® Magic Quadrant™ for AI Code Assistants</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/gartner-windsurf-cognition-magic-quadrant-ai-coding-assistants</guid>
+      <title>Changelist: August 2024</title>
+      <link>https://windsurf.com/blog/changelist-aug24</link>
+      <description>Codeium updates from August 2024!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/changelist-aug24</guid>
+      <category>product</category>
+      <category>changelist</category>
+      <pubDate>Thu, 05 Sep 2024 15:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Series C Announcement</title>
+      <link>https://windsurf.com/blog/series-c-annoucement</link>
+      <description>Today, we are excited to announce our $150m Series C round at a $1.25b valuation, led by General Catalyst and with participation from Kleiner Perkins and Greenoaks. This adds to our previous $93m raised.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/series-c-annoucement</guid>
+      <category>company</category>
+      <pubDate>Thu, 29 Aug 2024 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Codeium: Gartner AI Challenger</title>
+      <link>https://windsurf.com/blog/gartner-codeium-magic-quadrant-critical-capabilities</link>
+      <description>Codeium is recognized as a Gartner Magic Quadrant™ Challenger, ranking highest in Code Modernization and Artifact Building &amp; Testing.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/gartner-codeium-magic-quadrant-critical-capabilities</guid>
+      <category>industry</category>
+      <category>enterprise</category>
+      <pubDate>Wed, 28 Aug 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Our Model Strategy</title>
+      <link>https://windsurf.com/blog/our-model-strategy</link>
+      <description>Our model strategy is simple. Whatever delivers the most value.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/our-model-strategy</guid>
+      <category>company</category>
+      <category>industry</category>
+      <pubDate>Mon, 26 Aug 2024 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Broadcom x Codeium</title>
+      <link>https://windsurf.com/blog/vmware-codeium-announcement</link>
+      <description>Announcing Codeium on VMware Private AI by Broadcom.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/vmware-codeium-announcement</guid>
+      <category>industry</category>
+      <category>enterprise</category>
+      <category>partnership</category>
+      <pubDate>Mon, 26 Aug 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Smart Paste: Effortless Code Translation</title>
+      <link>https://windsurf.com/blog/codeium-smart-paste</link>
+      <description>A new feature that allows you to translate code to any desired language automatically.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/codeium-smart-paste</guid>
+      <category>product</category>
+      <pubDate>Wed, 21 Aug 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dream Bigger</title>
+      <link>https://windsurf.com/blog/codeium-dream-bigger</link>
+      <description>The Codeium mission, Riptide and Forge launches, and detailed vision.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/codeium-dream-bigger</guid>
+      <category>company</category>
+      <category>product</category>
+      <pubDate>Tue, 13 Aug 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelist: July 2024</title>
+      <link>https://windsurf.com/blog/changelist-jul24</link>
+      <description>Codeium updates from July 2024!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/changelist-jul24</guid>
+      <category>product</category>
+      <category>changelist</category>
+      <pubDate>Thu, 08 Aug 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Better Chat than ChatGPT</title>
+      <link>https://windsurf.com/blog/codeium-better-chat</link>
+      <description>Model, reasoning, and UX breakthroughs across the Codeium Chat stack to make it a best-in-class AI Chat developer experience.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/codeium-better-chat</guid>
+      <category>product</category>
+      <pubDate>Thu, 01 Aug 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Codeium: Rising the Ranks on Stack Overflow</title>
+      <link>https://windsurf.com/blog/codeium-stack-overflow-developer-survey-2024</link>
+      <description>Codeium is one of the most desired and admired AI tools for developers.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/codeium-stack-overflow-developer-survey-2024</guid>
+      <category>company</category>
+      <pubDate>Mon, 29 Jul 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Culture: Be Valuable, Not Right</title>
+      <link>https://windsurf.com/blog/codeium-culture-be-valuable-not-right</link>
+      <description>A little bit about our origin story and staying honest with ourselves.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/codeium-culture-be-valuable-not-right</guid>
+      <category>company</category>
+      <pubDate>Fri, 26 Jul 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Work at Little Tech</title>
+      <link>https://windsurf.com/blog/work-at-little-tech-codeium</link>
+      <description>Our billboard campaign to raise awareness for the startup world.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/work-at-little-tech-codeium</guid>
+      <category>company</category>
+      <pubDate>Mon, 22 Jul 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Command: A Case Study in Product Development</title>
+      <link>https://windsurf.com/blog/codeium-command-improvement-case-study</link>
+      <description>How we made a state-of-the-art instruction following system by training proprietary foundational models and listening to user feedback.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/codeium-command-improvement-case-study</guid>
+      <category>product</category>
+      <pubDate>Mon, 22 Jul 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Zillow on Codeium</title>
+      <link>https://windsurf.com/blog/zillow-codeium-case-study</link>
+      <description>Zillow uses Codeium to accelerate their developers.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/zillow-codeium-case-study</guid>
+      <category>enterprise</category>
+      <category>case studies</category>
+      <pubDate>Wed, 17 Jul 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelist: June 2024</title>
+      <link>https://windsurf.com/blog/changelist-jun24</link>
+      <description>Codeium updates from June 2024!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/changelist-jun24</guid>
+      <category>product</category>
+      <category>changelist</category>
+      <pubDate>Mon, 08 Jul 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Codeium: Leader According to Stack Overflow Survey</title>
+      <link>https://windsurf.com/blog/codeium-stack-overflow-pulse-survey</link>
+      <description>Codeium was ranked as the AI Code Assistant driving the most self-reported satisfication and productivity.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/codeium-stack-overflow-pulse-survey</guid>
+      <category>company</category>
+      <pubDate>Sat, 29 Jun 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hybrid Deployment: Perfect mix of security and performance</title>
+      <link>https://windsurf.com/blog/hybrid-deployment</link>
+      <description>An analysis of the Hybrid deployment from Codeium, a first-of-its-kind offering.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/hybrid-deployment</guid>
+      <category>enterprise</category>
+      <category>product</category>
+      <pubDate>Wed, 19 Jun 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Codeium: Truly Enterprise-Ready Code Assistant</title>
+      <link>https://windsurf.com/blog/codeium-truly-enterprise-ready</link>
+      <description>A deeper dive into recent enterprise readiness capabilities: indexing access controls, subteam analytics, and audit logging.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/codeium-truly-enterprise-ready</guid>
+      <category>enterprise</category>
+      <category>product</category>
+      <pubDate>Tue, 11 Jun 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Our Cultural Principles</title>
+      <link>https://windsurf.com/blog/codeium-cultural-principles</link>
+      <description>What makes Codeium, Codeium?</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/codeium-cultural-principles</guid>
+      <category>company</category>
+      <pubDate>Fri, 07 Jun 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelist: May 2024</title>
+      <link>https://windsurf.com/blog/changelist-may24</link>
+      <description>Codeium updates from May 2024!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/changelist-may24</guid>
+      <category>product</category>
+      <category>changelist</category>
+      <pubDate>Wed, 05 Jun 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelist: April 2024</title>
+      <link>https://windsurf.com/blog/changelist-apr24</link>
+      <description>Codeium updates from April 2024!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/changelist-apr24</guid>
+      <category>product</category>
+      <category>changelist</category>
+      <pubDate>Wed, 08 May 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Codeium Command in JetBrains</title>
+      <link>https://windsurf.com/blog/jetbrains-codeium-command-launch</link>
+      <description>Codeium Command is now available on JetBrains IDEs.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/jetbrains-codeium-command-launch</guid>
+      <category>product</category>
+      <pubDate>Wed, 01 May 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>World Wide Technology on Codeium</title>
+      <link>https://windsurf.com/blog/wwt-case-study</link>
+      <description>WWT uses Codeium to accelerate their developers.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/wwt-case-study</guid>
+      <category>enterprise</category>
+      <category>case studies</category>
+      <pubDate>Tue, 30 Apr 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google Gemini CodeAssist: A Review</title>
+      <link>https://windsurf.com/blog/google-gemini-codeassist-review</link>
+      <description>An analysis and test of the AI code assistant tool from Google.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/google-gemini-codeassist-review</guid>
+      <category>industry</category>
+      <pubDate>Tue, 23 Apr 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Codeium: Forbes AI 50 Recipient</title>
+      <link>https://windsurf.com/blog/codeium-forbes-ai-50</link>
+      <description>Codeium is the only AI code assistant in the 2024 Forbes AI 50 List.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/codeium-forbes-ai-50</guid>
+      <category>company</category>
+      <pubDate>Thu, 18 Apr 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelist: March 2024</title>
+      <link>https://windsurf.com/blog/changelist-mar24</link>
+      <description>Codeium updates from March 2024!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/changelist-mar24</guid>
+      <category>product</category>
+      <category>changelist</category>
+      <pubDate>Tue, 09 Apr 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Personalization: Context Awareness vs Customer-Specific Finetuning</title>
+      <link>https://windsurf.com/blog/personalization-context-awareness-vs-customer-specific-finetuning</link>
+      <description>We break down the value of context awareness and finetuning to personalize the Codeium system to particular enterprises.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/personalization-context-awareness-vs-customer-specific-finetuning</guid>
+      <category>industry</category>
+      <category>enterprise</category>
+      <category>product</category>
+      <pubDate>Mon, 01 Apr 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What do you actually get with GitHub Copilot for Enterprises?</title>
+      <link>https://windsurf.com/blog/github-copilot-enterprise-review</link>
+      <description>A feature-by-feature analysis of the new GitHub Copilot tier.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/github-copilot-enterprise-review</guid>
+      <category>industry</category>
+      <category>enterprise</category>
+      <pubDate>Tue, 12 Mar 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelist: February 2024</title>
+      <link>https://windsurf.com/blog/changelist-feb24</link>
+      <description>Codeium updates from February 2024!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/changelist-feb24</guid>
+      <category>product</category>
+      <category>changelist</category>
+      <pubDate>Thu, 07 Mar 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Context Pinning</title>
+      <link>https://windsurf.com/blog/codeium-context-pinning-launch</link>
+      <description>Developers can now specify and persist known relevant context for Codeium to emphasize in results.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/codeium-context-pinning-launch</guid>
+      <category>product</category>
+      <category>enterprise</category>
+      <pubDate>Wed, 06 Mar 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Codeium Passes One Million Downloads</title>
+      <link>https://windsurf.com/blog/one-million-codeium-downloads</link>
+      <description>Codeium has been downloaded over one million times by developers across 40+ IDEs.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/one-million-codeium-downloads</guid>
+      <category>company</category>
+      <pubDate>Wed, 28 Feb 2024 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Remote Indexing and Multi-repository Context Awareness</title>
+      <link>https://windsurf.com/blog/remote-indexing-multirepo-announcement</link>
+      <description>Announcing expanded and improved context awareness capabilities in Codeium.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/remote-indexing-multirepo-announcement</guid>
+      <category>product</category>
+      <category>enterprise</category>
+      <pubDate>Tue, 20 Feb 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelist: January 2024</title>
+      <link>https://windsurf.com/blog/changelist-jan24</link>
+      <description>Codeium updates from Jaunary 2024!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/changelist-jan24</guid>
+      <category>product</category>
+      <category>changelist</category>
+      <pubDate>Wed, 07 Feb 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Series B Announcement</title>
+      <link>https://windsurf.com/blog/series-b-annoucement</link>
+      <description>Today, we are excited to announce our $65m Series B round at a $500m valuation, led by Kleiner Perkins and with participation from repeat investor Greenoaks as well as General Catalyst. This adds to our previous $28m raised.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/series-b-annoucement</guid>
+      <category>company</category>
+      <pubDate>Tue, 30 Jan 2024 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Clearwater Analytics on Codeium</title>
+      <link>https://windsurf.com/blog/clearwater-analytics-case-study</link>
+      <description>Clearwater Analytics uses Codeium to accelerate their developers.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/clearwater-analytics-case-study</guid>
+      <category>enterprise</category>
+      <category>case studies</category>
+      <pubDate>Thu, 25 Jan 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Atlassian x Codeium</title>
+      <link>https://windsurf.com/blog/atlassian-codeium-announcement</link>
+      <description>Announcing our integrations and work with Atlassian.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/atlassian-codeium-announcement</guid>
+      <category>industry</category>
+      <category>product</category>
+      <category>enterprise</category>
+      <category>partnership</category>
+      <pubDate>Mon, 22 Jan 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Latency, the Ultimate Gen AI Constraint</title>
+      <link>https://windsurf.com/blog/latency-the-ultimate-constraint</link>
+      <description>How latency constraints enable us to use our infrastructure expertise to make better products.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/latency-the-ultimate-constraint</guid>
       <category>product</category>
       <category>enterprise</category>
       <category>industry</category>
-      <category>company</category>
-      <pubDate>Wed, 17 Sep 2025 12:00:00 +0000</pubDate>
+      <pubDate>Thu, 18 Jan 2024 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Cognition and Windsurf's Commitment to United States Government (USG) and Impact Level 6 (IL6) Deployments</title>
-      <link>https://windsurf.com/blog/cognition-windsurf-il6</link>
-      <description>Windsurf is ready to support IL6 deployments through partnership with Palantir FedStart, demonstrating Cognition's commitment to serving DoD missions across all networks and domains.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/cognition-windsurf-il6</guid>
-      <category>company</category>
+      <title>MongoDB x Codeium</title>
+      <link>https://windsurf.com/blog/mongodb-codeium-partnership-announcement</link>
+      <description>Announcing our integration and partnership with MongoDB. Get started with MongoDB and Codeium in under 5 minutes using this tutorial.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/mongodb-codeium-partnership-announcement</guid>
+      <category>industry</category>
+      <category>product</category>
       <category>enterprise</category>
-      <pubDate>Fri, 03 Oct 2025 12:00:00 +0000</pubDate>
+      <category>partnership</category>
+      <pubDate>Wed, 17 Jan 2024 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing SWE-1.5: Our Fast Agent Model</title>
-      <link>https://windsurf.com/blog/swe-1-5</link>
-      <description>SWE-1.5 is our latest frontier model, delivering near-SOTA coding performance at unprecedented speed.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/swe-1-5</guid>
+      <title>Termium: Codeium in the Terminal</title>
+      <link>https://windsurf.com/blog/termium-codeium-in-terminal-launch</link>
+      <description>AI-powered autocomplete for your terminal commands.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/termium-codeium-in-terminal-launch</guid>
       <category>product</category>
+      <category>prototype</category>
+      <pubDate>Wed, 10 Jan 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelist: December 2023</title>
+      <link>https://windsurf.com/blog/changelist-dec23</link>
+      <description>Codeium updates from December 2023!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/changelist-dec23</guid>
+      <category>product</category>
+      <category>changelist</category>
+      <pubDate>Tue, 09 Jan 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Streamlining AI Code Chat with @ Mentions</title>
+      <link>https://windsurf.com/blog/introducing-at-mentions</link>
+      <description>@ Mentions make it easier than ever to integrate chat into your workflows.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/introducing-at-mentions</guid>
+      <category>product</category>
+      <pubDate>Thu, 04 Jan 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Golden Metrics: Characters per Opportunity and Percentage Code Written</title>
+      <link>https://windsurf.com/blog/golden-metrics-characters-per-opportunity-percentage-code-written</link>
+      <description>We introduce two metrics, Characters per Opportunity (CPO) and Percentage Code Written (PCW), which we believe should be the gold standards for benchmarking AI code assistants and assessing end value driven, respectively.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/golden-metrics-characters-per-opportunity-percentage-code-written</guid>
+      <category>industry</category>
+      <category>enterprise</category>
+      <category>product</category>
+      <pubDate>Wed, 03 Jan 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Effect of Generative AI on the Human-Tool Interface</title>
+      <link>https://windsurf.com/blog/human-tool-interface</link>
+      <description>A mental model of how we think about maximizing the value of AI tools.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/human-tool-interface</guid>
+      <category>industry</category>
+      <pubDate>Tue, 19 Dec 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What We Think of 2023 Q4 AI News</title>
+      <link>https://windsurf.com/blog/what-we-think-of-2023q4-ai-announcements</link>
+      <description>Our takes on an eventful ending to 2023.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/what-we-think-of-2023q4-ai-announcements</guid>
+      <category>industry</category>
+      <pubDate>Mon, 18 Dec 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Codeium is SOC 2 Type 2 Compliant</title>
+      <link>https://windsurf.com/blog/codeium-is-soc2-type2-compliant</link>
+      <description>Announcing our SOC 2 Type 2 Report.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/codeium-is-soc2-type2-compliant</guid>
+      <category>product</category>
+      <category>enterprise</category>
+      <pubDate>Wed, 13 Dec 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Prototype Capabilities</title>
+      <link>https://windsurf.com/blog/codeium-prototype-features</link>
+      <description>Balancing product development with uncertainty.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/codeium-prototype-features</guid>
+      <category>product</category>
+      <category>prototype</category>
+      <pubDate>Tue, 12 Dec 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelist: November 2023</title>
+      <link>https://windsurf.com/blog/changelist-nov23</link>
+      <description>Codeium updates from November 2023!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/changelist-nov23</guid>
+      <category>product</category>
+      <category>changelist</category>
+      <pubDate>Mon, 11 Dec 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Code Suggestion Attribution</title>
+      <link>https://windsurf.com/blog/attribution-announcement</link>
+      <description>We have built state-of-the-art post-generation attribution to further our compliance story.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/attribution-announcement</guid>
+      <category>enterprise</category>
+      <category>product</category>
+      <pubDate>Wed, 06 Dec 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anduril on Windsurf</title>
+      <link>https://windsurf.com/blog/anduril-case-study</link>
+      <description>Anduril uses Windsurf to accelerate their developers.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/anduril-case-study</guid>
+      <category>enterprise</category>
+      <category>case studies</category>
+      <pubDate>Tue, 28 Nov 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CodeSandbox x Codeium</title>
+      <link>https://windsurf.com/blog/codesandbox-codeium-partnership-announcement</link>
+      <description>Announcing our first class integration and partnership with CodeSandbox.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/codesandbox-codeium-partnership-announcement</guid>
+      <category>industry</category>
+      <category>product</category>
+      <category>partnership</category>
+      <pubDate>Fri, 24 Nov 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GitHub Copilot’s Security Filters Don’t Work</title>
+      <link>https://windsurf.com/blog/github-copilot-security-scanning-does-not-work</link>
+      <description>We tested the claim that LLMs can catch security vulnerabilities.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/github-copilot-security-scanning-does-not-work</guid>
+      <category>industry</category>
+      <pubDate>Wed, 22 Nov 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Codeium Live: Free, Forever Up-to-Date In-Browser Chat</title>
+      <link>https://windsurf.com/blog/codeium-live</link>
+      <description>Codeium live is free, forever in-browser chat with direct access to external repositories and libraries, updated every day to get accurate, relevant answers.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/codeium-live</guid>
+      <category>product</category>
+      <category>prototype</category>
+      <pubDate>Thu, 16 Nov 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Codeium Command</title>
+      <link>https://windsurf.com/blog/codeium-command-launch-announcement</link>
+      <description>A new modality to generate code inline via instructions.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/codeium-command-launch-announcement</guid>
+      <category>product</category>
+      <pubDate>Mon, 13 Nov 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelist: October 2023</title>
+      <link>https://windsurf.com/blog/changelist-oct23</link>
+      <description>Codeium updates from October 2023!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/changelist-oct23</guid>
+      <category>product</category>
+      <category>changelist</category>
+      <pubDate>Thu, 09 Nov 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Codeium Chat in Visual Studio!</title>
+      <link>https://windsurf.com/blog/visual-studio-codeium-chat-announcement</link>
+      <description>General access to the Codeium Chat functionality in Visual Studio.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/visual-studio-codeium-chat-announcement</guid>
+      <category>product</category>
+      <pubDate>Tue, 07 Nov 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Codeium Brings VS Codium AI Powers</title>
+      <link>https://windsurf.com/blog/codeium-vs-codium-ai</link>
+      <description>Publishing Codeium on OpenVSX enables it for VS Codium.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/codeium-vs-codium-ai</guid>
+      <category>product</category>
+      <pubDate>Fri, 03 Nov 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Codeium Teams</title>
+      <link>https://windsurf.com/blog/codeium-teams-launch</link>
+      <description>A self-serve paid plan to supercharge teams and small enterprises with AI tooling.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/codeium-teams-launch</guid>
+      <category>product</category>
+      <pubDate>Wed, 01 Nov 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Codeium Chat in Eclipse!</title>
+      <link>https://windsurf.com/blog/eclipse-codeium-chat-announcement</link>
+      <description>General access to the Codeium Chat functionality in Eclipse.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/eclipse-codeium-chat-announcement</guid>
+      <category>product</category>
+      <pubDate>Mon, 30 Oct 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelist: August &amp; September 2023</title>
+      <link>https://windsurf.com/blog/changelist-aug23-sep23</link>
+      <description>Codeium updates from August &amp; September 2023!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/changelist-aug23-sep23</guid>
+      <category>product</category>
+      <category>changelist</category>
+      <pubDate>Sat, 07 Oct 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why You Should Not Trust All the Numbers You See</title>
+      <link>https://windsurf.com/blog/code-llm-eval-why-you-should-not-trust-all-the-numbers-you-see</link>
+      <description>Our take on industry benchmarks and how to actually evaluate AI code LLMs and tools.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/code-llm-eval-why-you-should-not-trust-all-the-numbers-you-see</guid>
+      <category>product</category>
+      <category>enterprise</category>
+      <pubDate>Tue, 03 Oct 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How We Think of AI Product Development</title>
+      <link>https://windsurf.com/blog/how-we-think-of-ai-product-development</link>
+      <description>Our approach to building AI products that developers trust and love.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/how-we-think-of-ai-product-development</guid>
+      <category>product</category>
+      <category>enterprise</category>
+      <pubDate>Wed, 27 Sep 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Codeium is SOC2 Compliant</title>
+      <link>https://windsurf.com/blog/codeium-is-soc2-compliant</link>
+      <description>Announcing our SOC2 Type I Report.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/codeium-is-soc2-compliant</guid>
+      <category>product</category>
+      <category>enterprise</category>
+      <pubDate>Thu, 24 Aug 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Codeium Chat in JetBrains!</title>
+      <link>https://windsurf.com/blog/jetbrains-codeium-chat-announcement</link>
+      <description>General access to the Codeium Chat functionality in all JetBrains IDEs.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/jetbrains-codeium-chat-announcement</guid>
+      <category>product</category>
+      <pubDate>Mon, 21 Aug 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What you Actually Get (and Don’t Get) with GitHub Copilot for Business</title>
+      <link>https://windsurf.com/blog/what-you-actually-get-and-dont-get-with-github-copilot-for-business</link>
+      <description>Clarifying the GitHub Copilot for Business offering.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/what-you-actually-get-and-dont-get-with-github-copilot-for-business</guid>
+      <category>industry</category>
+      <category>enterprise</category>
+      <pubDate>Tue, 15 Aug 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelist: July 2023</title>
+      <link>https://windsurf.com/blog/changelist-jul23</link>
+      <description>Codeium updates from July 2023!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/changelist-jul23</guid>
+      <category>product</category>
+      <category>changelist</category>
+      <pubDate>Mon, 07 Aug 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Productionizing Context Aware Everything</title>
+      <link>https://windsurf.com/blog/productionizing-context-aware-everything</link>
+      <description>Why it is hard to create a context reasoning engine for code LLMs that consistently works.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/productionizing-context-aware-everything</guid>
+      <category>industry</category>
+      <category>enterprise</category>
+      <pubDate>Thu, 03 Aug 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Codeium in Visual Studio, and Eclipse</title>
+      <link>https://windsurf.com/blog/codeium-copilot-alternative-in-visual-studio-sublime-eclipse</link>
+      <description>Launching Codeium in Visual Studio, and Eclipse.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/codeium-copilot-alternative-in-visual-studio-sublime-eclipse</guid>
+      <category>product</category>
+      <pubDate>Fri, 28 Jul 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Context Aware Everything: More Advanced Realtime Context than GitHub Copilot</title>
+      <link>https://windsurf.com/blog/context-aware-everything-more-advanced-realtime-context-than-github-copilot</link>
+      <description>A deep dive into context awareness of Codeium and how it stacks up against GitHub Copilot and CopilotX.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/context-aware-everything-more-advanced-realtime-context-than-github-copilot</guid>
+      <category>industry</category>
+      <category>enterprise</category>
+      <pubDate>Mon, 24 Jul 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What to Know About the Context Going into your Code LLM</title>
+      <link>https://windsurf.com/blog/what-to-know-about-the-context-going-into-your-llm</link>
+      <description>Why real-time context for AI code assistants is a meaningful and tricky problem.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/what-to-know-about-the-context-going-into-your-llm</guid>
+      <category>industry</category>
+      <category>enterprise</category>
+      <pubDate>Fri, 21 Jul 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GitLab Code Suggestions: Why You Should Not Build Your Own Generative AI Product for Code</title>
+      <link>https://windsurf.com/blog/gitlab-ai-review</link>
+      <description>An analysis on the capabilities and performance of the AI code assistant from GitLab.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/gitlab-ai-review</guid>
+      <category>industry</category>
+      <category>enterprise</category>
+      <pubDate>Fri, 14 Jul 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Make AI UX Your Moat</title>
+      <link>https://windsurf.com/blog/how-to-make-ai-ux-your-moat</link>
+      <description>Design great AI Products that go beyond "just LLM Wrappers": make AI more present, more practical, and more powerful.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/how-to-make-ai-ux-your-moat</guid>
+      <category>industry</category>
+      <pubDate>Sun, 09 Jul 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelist: June 2023</title>
+      <link>https://windsurf.com/blog/changelist-jun23</link>
+      <description>Codeium updates from June 2023!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/changelist-jun23</guid>
+      <category>product</category>
+      <category>changelist</category>
+      <pubDate>Fri, 07 Jul 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What GitHub Copilot Lacks: Fine-tuning on Your Private Code</title>
+      <link>https://windsurf.com/blog/what-github-copilot-lacks-finetuning-on-your-private-code</link>
+      <description>Proof that Codeium fine-tuned on a repository significantly outperforms GitHub Copilot.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/what-github-copilot-lacks-finetuning-on-your-private-code</guid>
+      <category>product</category>
+      <category>industry</category>
+      <category>enterprise</category>
+      <pubDate>Mon, 03 Jul 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Code Suggestions You Don’t Get from Copilot: In-line FIM</title>
+      <link>https://windsurf.com/blog/inline-fim-code-suggestions</link>
+      <description>In-line Fill-in-the-Middle suggestions, valuable suggestions produced only by Codeium.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/inline-fim-code-suggestions</guid>
+      <category>industry</category>
+      <category>enterprise</category>
+      <pubDate>Fri, 09 Jun 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelist: May 2023</title>
+      <link>https://windsurf.com/blog/changelist-may23</link>
+      <description>Codeium updates from May 2023!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/changelist-may23</guid>
+      <category>product</category>
+      <category>changelist</category>
+      <pubDate>Thu, 08 Jun 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelist: April 2023</title>
+      <link>https://windsurf.com/blog/changelist-apr23</link>
+      <description>Codeium updates from April 2023!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/changelist-apr23</guid>
+      <category>product</category>
+      <category>changelist</category>
+      <pubDate>Mon, 08 May 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Should your Company ban Generative AI?</title>
+      <link>https://windsurf.com/blog/is-your-company-banning-gen-ai</link>
+      <description>Generative AI poses risks for companies that do not have strict data governance</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/is-your-company-banning-gen-ai</guid>
+      <category>industry</category>
+      <category>enterprise</category>
+      <pubDate>Thu, 04 May 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Amazon CodeWhisperer is out of beta. We tried it. Spoiler: it isn’t good.</title>
+      <link>https://windsurf.com/blog/amazon-codewhisperer-review</link>
+      <description>An in-depth analysis on the capabilities and performance of Amazon CodeWhisperer post-general access release.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/amazon-codewhisperer-review</guid>
+      <category>industry</category>
+      <category>enterprise</category>
+      <pubDate>Mon, 24 Apr 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GitHub Copilot Emits GPL. Codeium Does Not.</title>
+      <link>https://windsurf.com/blog/copilot-trains-on-gpl-codeium-does-not</link>
+      <description>Demonstrating that GitHub Copilot trains on non-permissive licenses and is unable to filter out suggestions properly, while Codeium does not expose users to legal risk.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/copilot-trains-on-gpl-codeium-does-not</guid>
+      <category>industry</category>
+      <category>enterprise</category>
+      <pubDate>Thu, 20 Apr 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelist: March 2023</title>
+      <link>https://windsurf.com/blog/changelist-mar23</link>
+      <description>Codeium updates from March 2023!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/changelist-mar23</guid>
+      <category>product</category>
+      <category>changelist</category>
+      <pubDate>Mon, 03 Apr 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why your AI Code Completion tool needs to Fill in the Middle</title>
+      <link>https://windsurf.com/blog/why-code-completion-needs-fill-in-the-middle</link>
+      <description>Analyzing how fill-in-the-middle allows Codeium to make better suggestions.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/why-code-completion-needs-fill-in-the-middle</guid>
+      <category>industry</category>
+      <category>enterprise</category>
+      <pubDate>Fri, 31 Mar 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>User Personalization, the Next Frontier in LLMs</title>
+      <link>https://windsurf.com/blog/user-personalization-for-llms</link>
+      <description>How tuning the model layer of LLM applications creates the highest quality experiences for enterprises.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/user-personalization-for-llms</guid>
+      <category>industry</category>
+      <category>enterprise</category>
+      <pubDate>Fri, 31 Mar 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How is Codeium Free?</title>
+      <link>https://windsurf.com/blog/how-is-codeium-free</link>
+      <description>Diving into our monetization strategy, and why individuals can get Codeium for free.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/how-is-codeium-free</guid>
       <category>company</category>
-      <pubDate>Wed, 29 Oct 2025 12:00:00 +0000</pubDate>
+      <pubDate>Fri, 24 Mar 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>GPT 5.1, GPT 5.1-Codex, and GPT-5.1-Codex Mini are now available in Windsurf</title>
-      <link>https://windsurf.com/blog/gpt-5-1</link>
-      <description>GPT 5.1, GPT 5.1-Codex, and GPT-5.1-Codex Mini deliver a solid upgrade for agentic coding with variable thinking and improved steerability</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/gpt-5-1</guid>
+      <title>Codeium for Enterprises</title>
+      <link>https://windsurf.com/blog/codeium-for-enterprises</link>
+      <description>Codeium for Enterprises is the only AI acceleration offering to provide code security, fine-tuning, and state-of-the-art quality.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/codeium-for-enterprises</guid>
       <category>product</category>
+      <category>enterprise</category>
+      <pubDate>Fri, 17 Mar 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using Code Syntax Parsing for Generative AI</title>
+      <link>https://windsurf.com/blog/using-code-syntax-parsing-for-generative-ai</link>
+      <description>The theory, challenges, and future of code syntax parsing.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/using-code-syntax-parsing-for-generative-ai</guid>
+      <category>industry</category>
+      <pubDate>Wed, 15 Mar 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelist: February 2023</title>
+      <link>https://windsurf.com/blog/changelist-feb23</link>
+      <description>Codeium updates from February 2023!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/changelist-feb23</guid>
+      <category>product</category>
+      <category>changelist</category>
+      <pubDate>Thu, 02 Mar 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Codeium in Databricks Notebooks</title>
+      <link>https://windsurf.com/blog/codeium-copilot-alternative-in-databricks-notebooks</link>
+      <description>Launching Codeium in Databricks Notebooks.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/codeium-copilot-alternative-in-databricks-notebooks</guid>
+      <category>product</category>
+      <pubDate>Wed, 01 Mar 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Codeium in Emacs</title>
+      <link>https://windsurf.com/blog/codeium-copilot-alternative-in-emacs</link>
+      <description>Launching Codeium in Emacs.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/codeium-copilot-alternative-in-emacs</guid>
+      <category>product</category>
+      <pubDate>Fri, 17 Feb 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Best AI Product Lists</title>
+      <link>https://windsurf.com/blog/best-ai-product-lists</link>
+      <description>An aggregation of the best AI product aggregators for discovery.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/best-ai-product-lists</guid>
+      <category>industry</category>
+      <pubDate>Thu, 16 Feb 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Codeium Chrome Extension</title>
+      <link>https://windsurf.com/blog/codeium-chrome-extension-launch</link>
+      <description>Injecting the power of Codeium directly into the browser.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/codeium-chrome-extension-launch</guid>
+      <category>product</category>
+      <pubDate>Tue, 14 Feb 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>We compete with Github. Bing does not show our website.</title>
+      <link>https://windsurf.com/blog/bing-does-not-index-codeium</link>
+      <description>A genuine question on why we are not getting indexed by Bing.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/bing-does-not-index-codeium</guid>
+      <pubDate>Fri, 10 Feb 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelist: January 2023</title>
+      <link>https://windsurf.com/blog/changelist-jan23</link>
+      <description>Codeium updates from January 2023!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/changelist-jan23</guid>
+      <category>product</category>
+      <category>changelist</category>
+      <pubDate>Wed, 01 Feb 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Code Assistants: Head to Head</title>
+      <link>https://windsurf.com/blog/code-assistant-comparison-copilot-tabnine-ghostwriter-codeium</link>
+      <description>The first head to head assessment of the leading AI powered code assistants: Github Copilot, Tabnine, Replit Ghostwriter, and Codeium.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/code-assistant-comparison-copilot-tabnine-ghostwriter-codeium</guid>
+      <category>industry</category>
+      <pubDate>Fri, 27 Jan 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>User Analytics</title>
+      <link>https://windsurf.com/blog/user-analytics-launch</link>
+      <description>Introducing user-level Codeium usage analytics!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/user-analytics-launch</guid>
+      <category>product</category>
+      <pubDate>Thu, 26 Jan 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Codeium in Vim and Neovim</title>
+      <link>https://windsurf.com/blog/codeium-copilot-alternative-in-vim</link>
+      <description>Launching Codeium in Vim and Neovim.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/codeium-copilot-alternative-in-vim</guid>
+      <category>product</category>
+      <pubDate>Thu, 19 Jan 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why ChatGPT Highlights Copilot's Fundamental Flaw</title>
+      <link>https://windsurf.com/blog/chatgpt-and-copilots-fundamental-flaw</link>
+      <description>How a user study and the rise of ChatGPT point to the underlying product issue of Github Copilot.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/chatgpt-and-copilots-fundamental-flaw</guid>
+      <category>industry</category>
+      <pubDate>Fri, 13 Jan 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Codeium in Jupyter Notebooks</title>
+      <link>https://windsurf.com/blog/codeium-in-jupyter-notebooks</link>
+      <description>Launching Codeium in Jupyter Notebooks.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/codeium-in-jupyter-notebooks</guid>
+      <category>product</category>
+      <pubDate>Sat, 07 Jan 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelist: December 2022</title>
+      <link>https://windsurf.com/blog/changelist-dec22</link>
+      <description>Codeium updates from December 2022!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/changelist-dec22</guid>
+      <category>product</category>
+      <category>changelist</category>
+      <pubDate>Tue, 03 Jan 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What "Copilot for X" Really Takes</title>
+      <link>https://windsurf.com/blog/copilot-for-x-learnings</link>
+      <description>A "Copilot for X" guide from the team that built the first real Copilot competitor!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/copilot-for-x-learnings</guid>
+      <category>industry</category>
+      <pubDate>Tue, 20 Dec 2022 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelist: November 2022</title>
+      <link>https://windsurf.com/blog/changelist-nov22</link>
+      <description>Codeium updates from November 2022!</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/changelist-nov22</guid>
+      <category>product</category>
+      <category>changelist</category>
+      <pubDate>Mon, 05 Dec 2022 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Codeium Beta Launch</title>
+      <link>https://windsurf.com/blog/beta-launch-announcement</link>
+      <description>We are excited to announce the launch of the Codeium Beta.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/beta-launch-announcement</guid>
       <category>company</category>
-      <category>openai</category>
-      <category>gpt-5.1</category>
-      <category>codex</category>
-      <pubDate>Thu, 13 Nov 2025 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Opus 4.5 is now available in Windsurf</title>
-      <link>https://windsurf.com/blog/opus-4.5</link>
-      <description>The most capable model in Windsurf yet, now available at Sonnet prices for a limited time</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/opus-4.5</guid>
-      <category>product</category>
-      <category>windsurf</category>
-      <category>anthropic</category>
-      <category>opus-4.5</category>
-      <pubDate>Mon, 24 Nov 2025 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GPT 5.2 is now available in Windsurf!</title>
-      <link>https://windsurf.com/blog/gpt-5-2</link>
-      <description>GPT-5.2 is now live in Windsurf! Available for 0x credits for a limited time (paid and trial users). The version bump undersells the jump in intelligence: Biggest leap for GPT models in agentic coding since GPT-5, SOTA coding model at its price point, Default in Windsurf</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/gpt-5-2</guid>
-      <category>product</category>
-      <category>company</category>
-      <category>openai</category>
-      <category>gpt-5.2</category>
-      <category>windsurf</category>
-      <pubDate>Thu, 11 Dec 2025 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf Wave 13: Merry Shipmas</title>
-      <link>https://windsurf.com/blog/windsurf-wave-13</link>
-      <description>Parallel agents, Git worktrees, multi-pane Cascade, dedicated terminal, and SWE-1.5 Free</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-13</guid>
-      <category>product</category>
-      <pubDate>Wed, 24 Dec 2025 12:00:00 +0000</pubDate>
+      <pubDate>Fri, 28 Oct 2022 07:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
