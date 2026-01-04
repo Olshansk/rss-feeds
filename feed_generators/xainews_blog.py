@@ -7,6 +7,8 @@ from feedgen.feed import FeedGenerator
 import logging
 from pathlib import Path
 
+from utils import sort_posts_for_feed
+
 # Set up logging
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
@@ -247,8 +249,8 @@ def generate_rss_feed(articles, feed_name="xainews"):
         fg.link(href="https://x.ai/news", rel="alternate")
         fg.link(href=f"https://x.ai/news/feed_{feed_name}.xml", rel="self")
 
-        # Sort articles by date (newest first)
-        articles_sorted = sorted(articles, key=lambda x: x["date"], reverse=True)
+        # Sort articles for correct feed order (newest first in output)
+        articles_sorted = sort_posts_for_feed(articles, date_field="date")
 
         # Add entries
         for article in articles_sorted:

@@ -10,7 +10,7 @@ import requests
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
-from utils import setup_feed_links
+from utils import setup_feed_links, sort_posts_for_feed
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
@@ -137,9 +137,8 @@ def merge_posts(new_posts, cached_posts):
 
     logger.info(f"Added {added_count} new posts to cache")
 
-    # Sort by date descending
-    merged.sort(key=lambda p: p.get("date", ""), reverse=True)
-    return merged
+    # Sort for correct feed order (newest first in output)
+    return sort_posts_for_feed(merged, date_field="date")
 
 
 def fetch_all_pages():
@@ -166,10 +165,10 @@ def fetch_all_pages():
             unique_posts.append(post)
             seen.add(post["url"])
 
-    # Sort by date descending
-    unique_posts.sort(key=lambda p: p.get("date", ""), reverse=True)
-    logger.info(f"Total unique posts across all pages: {len(unique_posts)}")
-    return unique_posts
+    # Sort for correct feed order (newest first in output)
+    sorted_posts = sort_posts_for_feed(unique_posts, date_field="date")
+    logger.info(f"Total unique posts across all pages: {len(sorted_posts)}")
+    return sorted_posts
 
 
 def generate_rss_feed(posts):

@@ -7,6 +7,8 @@ import logging
 from pathlib import Path
 import re
 
+from utils import sort_posts_for_feed
+
 # Set up logging
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
@@ -215,8 +217,8 @@ def generate_rss_feed(articles, feed_name="anthropic_red"):
         fg.link(href="https://red.anthropic.com/", rel="alternate")
         fg.link(href=f"https://anthropic.com/feed_{feed_name}.xml", rel="self")
 
-        # Sort articles by date (newest first)
-        sorted_articles = sorted(articles, key=lambda x: x["date"], reverse=True)
+        # Sort articles for correct feed order (newest first in output)
+        sorted_articles = sort_posts_for_feed(articles, date_field="date")
 
         # Add entries
         for article in sorted_articles:

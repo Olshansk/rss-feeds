@@ -12,6 +12,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
+from utils import sort_posts_for_feed
+
 # Set up logging
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
@@ -358,10 +360,10 @@ def generate_rss_feed(articles, feed_name="anthropic_news"):
         )
         fg.link(href="https://www.anthropic.com/news", rel="alternate")
 
-        # Sort articles by date (most recent first)
-        articles_sorted = sorted(articles, key=lambda x: x["date"], reverse=True)
+        # Sort articles for correct feed order (newest first in output)
+        articles_sorted = sort_posts_for_feed(articles, date_field="date")
 
-        # Add entries (feedgen may re-sort by pubDate during output, but RSS readers sort by date anyway)
+        # Add entries
         for article in articles_sorted:
             fe = fg.add_entry()
             fe.title(article["title"])
