@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Jan 2026 15:04:57 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Jan 2026 16:05:07 +0000</lastBuildDate>
     <item>
       <title>Windsurf 1.13.5</title>
       <link>https://windsurf.com/changelog#1.13.5</link>
@@ -30,14 +30,6 @@
       <link>https://windsurf.com/changelog#1.12.44</link>
       <description>&lt;h3&gt;Patch Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Reduce occurrence of "prompt is too long" errors&lt;/li&gt;&lt;li&gt;Request all supported scopes if no scopes are provided in MCP OAuth config&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://windsurf.com/changelog#1.12.44#1.12.44</guid>
-      <category>Changelog</category>
-      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf 1.12.47</title>
-      <link>https://windsurf.com/changelog#1.12.47</link>
-      <description>&lt;h3&gt;Features&lt;/h3&gt;&lt;p&gt;Added a new "Promo" label to LLM models that are newly available or have special discount pricing&lt;/p&gt;&lt;h3&gt;Bug fixes and improvements&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Agents &amp; Tool Execution&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Fixed Command-I functionality&lt;/li&gt;&lt;li&gt;Fixed Ctrl+C during tool execution not working properly&lt;/li&gt;&lt;li&gt;Fixed Go (fallback) processes not being killed properly&lt;/li&gt;&lt;li&gt;Fixed handling of parallel tool call errors&lt;/li&gt;&lt;li&gt;Improved MCP tool call visibility (show tool name, args, etc)&lt;/li&gt;&lt;li&gt;Fixed fallback diff handling for nonexistent files in code actions&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;UI &amp; Rendering&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Fixed incorrect indentation from code blocks in terminal rendering&lt;/li&gt;&lt;li&gt;Fixed nested lists not rendering on new line in terminal markdown&lt;/li&gt;&lt;li&gt;Fixed content spacing issues&lt;/li&gt;&lt;li&gt;Fixed streaming flashes&lt;/li&gt;&lt;li&gt;Enhanced code block file path display to hide line numbers for whole files&lt;/li&gt;&lt;li&gt;Improved citation and language parsing in code blocks with a more robust regex pattern&lt;/li&gt;&lt;li&gt;Updated the UI for code block title bars to properly handle long paths with truncation&lt;/li&gt;&lt;li&gt;Improved the auto-run command menu interface and its display logic&lt;/li&gt;&lt;li&gt;Added loading indicators when thinking or during long running operations&lt;/li&gt;&lt;li&gt;Fix opening old Cascade diffs&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Platform &amp; Messaging&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Fixed rate limit error message to say "no credits were used" instead of "credits have been refunded"&lt;/li&gt;&lt;li&gt;Fixed continuously rechecking for updates on macOS&lt;/li&gt;&lt;li&gt;Added a user-facing message when API providers are exhausted&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Workspace &amp; Onboarding&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Allowed clicking items in the Windsurf onboarding pane&lt;/li&gt;&lt;li&gt;Respect gitignore patterns in the workspace directory tree&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog#1.12.47#1.12.47</guid>
       <category>Changelog</category>
       <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
     </item>
@@ -120,14 +112,6 @@
       <guid isPermaLink="false">https://windsurf.com/changelog#1.12.28#1.12.28</guid>
       <category>Changelog</category>
       <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf 1.12.27</title>
-      <link>https://windsurf.com/changelog#1.12.27</link>
-      <description>&lt;h3&gt;Falcon Alpha&lt;/h3&gt;&lt;p&gt;You can now try a new stealth model in Windsurf: Falcon Alpha. Falcon Alpha is a powerful agentic model designed for speed. We're excited to hear what you build with it!&lt;/p&gt;&lt;h3&gt;Patch Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Various performance improvements and bug fixes.&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog#1.12.27#1.12.27</guid>
-      <category>Changelog</category>
-      <pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Windsurf 1.12.25</title>
@@ -266,28 +250,12 @@
       <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Windsurf 1.12.1</title>
-      <link>https://windsurf.com/changelog#1.12.1</link>
-      <description>&lt;h3&gt;Devin features in Windsurf, stability improvements, and a brand new UI&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Stability &amp; Performance: Over 100 bug fixes and reliability improvements.&lt;/li&gt;&lt;li&gt;DeepWiki in Windsurf: Hover over code symbols for intelligent DeepWiki-powered documentation.&lt;/li&gt;&lt;li&gt;Vibe and Replace: AI-powered find and replace functionality. Apply intelligent transformations to multiple code matches.&lt;/li&gt;&lt;li&gt;Cascade Agent Improvements: Automatic planning mode with no manual toggles required. Revamped tools with more accurate edits. Enhanced code exploration leveraging long context models.&lt;/li&gt;&lt;li&gt;Tab Autocomplete: New system with more frequent and smarter suggestions.&lt;/li&gt;&lt;li&gt;UI Redesign: All-new Chat, Cascade, and home screen panels.&lt;/li&gt;&lt;li&gt;Dev Containers: Support for development containers via remote SSH access.&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog#1.12.1#1.12.1</guid>
-      <category>Changelog</category>
-      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Windsurf 1.11.5</title>
       <link>https://windsurf.com/changelog#1.11.5</link>
       <description>&lt;h3&gt;GPT-5 Available&lt;/h3&gt;&lt;p&gt;Windsurf now supports the GPT-5 suite of models including GPT-5 (low reasoning), GPT-5 (medium reasoning), and GPT-5 (high reasoning). They are available for free for a limited time for paying users!&lt;/p&gt;&lt;h3&gt;Patch Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Minor improvements and bug fixes&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://windsurf.com/changelog#1.11.5#1.11.5</guid>
       <category>Changelog</category>
       <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf 1.11.3</title>
-      <link>https://windsurf.com/changelog#1.11.3</link>
-      <description>&lt;h3&gt;Patch Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Minor improvements and bug fixes&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog#1.11.3#1.11.3</guid>
-      <category>Changelog</category>
-      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Windsurf 1.11.2</title>
@@ -314,14 +282,6 @@
       <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Windsurf 1.10.8</title>
-      <link>https://windsurf.com/changelog#1.10.8</link>
-      <description>&lt;h3&gt;Linux Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fixes to RHEL 8 Support&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog#1.10.8#1.10.8</guid>
-      <category>Changelog</category>
-      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Windsurf 1.10.7</title>
       <link>https://windsurf.com/changelog#1.10.7</link>
       <description>&lt;h3&gt;Cascade Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Improvements to Cascade reliability&lt;/li&gt;&lt;/ul&gt;</description>
@@ -344,14 +304,6 @@
       <guid isPermaLink="false">https://windsurf.com/changelog#1.10.5#1.10.5</guid>
       <category>Changelog</category>
       <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf 1.10.4</title>
-      <link>https://windsurf.com/changelog#1.10.4</link>
-      <description>&lt;h3&gt;Patch Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fixed API Pricing labels in the model selector&lt;/li&gt;&lt;li&gt;Fixed bugs related to planning mode&lt;/li&gt;&lt;li&gt;Fixed some behavior around conversation button dropdown&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog#1.10.4#1.10.4</guid>
-      <category>Changelog</category>
-      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Windsurf 1.10.3</title>
@@ -378,14 +330,6 @@
       <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Windsurf 1.9.2</title>
-      <link>https://windsurf.com/changelog#1.9.2</link>
-      <description>&lt;h3&gt;Bring your Own Anthropic Key&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;BYOK (Anthropic Key)&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;You can now bring your own API Key from Anthropic to use the Claude 4 Sonnet, Claude 4 Sonnet (Thinking), Claude 4 Opus, and Claude 4 Opus (Thinking) models in Cascade&lt;/li&gt;&lt;li&gt;To use BYOK, go toprovide API keysand input your key&lt;/li&gt;&lt;li&gt;Once entered, go back to Windsurf and reload the window. You should now be able to use the new models&lt;/li&gt;&lt;li&gt;This is only available for Free and Pro users at this time&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog#1.9.2#1.9.2</guid>
-      <category>Changelog</category>
-      <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Windsurf 1.9.1</title>
       <link>https://windsurf.com/changelog#1.9.1</link>
       <description>&lt;h3&gt;SWE-1 Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Adds multi-modal (image) support to SWE-1&lt;/li&gt;&lt;/ul&gt;</description>
@@ -400,14 +344,6 @@
       <guid isPermaLink="false">https://windsurf.com/changelog#1.9.0#1.9.0</guid>
       <category>Changelog</category>
       <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf 1.8.0</title>
-      <link>https://windsurf.com/changelog#1.8.0</link>
-      <description>&lt;h3&gt;Teams Features&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Teams: Windsurf Reviews&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Team admins can install a Github app for code review and PR title/description edits&lt;/li&gt;&lt;li&gt;Available to Teams and Enterprise SAAS for 500 reviews/month&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Teams: Conversation Sharing&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Team users can generate a shareable URL to a Cascade conversation&lt;/li&gt;&lt;li&gt;Only fellow team members can access this URL&lt;/li&gt;&lt;li&gt;Available to Teams and Enterprise SaaS&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Teams: Knowledge&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Team admins can connect their Google account and curate relevant Google Docs&lt;/li&gt;&lt;li&gt;Team members will be able to @mention these docs, and Cascade can retrieve them&lt;/li&gt;&lt;li&gt;Available to Teams and Enterprise SaaS&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Teams Deploys&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Teams users can connect their Netlify account via Windsurf settings&lt;/li&gt;&lt;li&gt;Deploy apps through Cascade directly to your Netlify team for full control&lt;/li&gt;&lt;li&gt;Supports team-specific settings like SSO, custom domains, and more through the Netlify dashboard&lt;/li&gt;&lt;li&gt;Team admins can manage Deploy permissions and settings for their team.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Teams Analytics&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Teams users get a refreshed analytics dashboard for their team&lt;/li&gt;&lt;li&gt;Includes new Cascade analytics such as messages sent, total tool calls, model usage, and more&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Misc&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Upgrade to VS Code 1.99.1&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog#1.8.0#1.8.0</guid>
-      <category>Changelog</category>
-      <pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Windsurf 1.8.2</title>
@@ -586,14 +522,6 @@
       <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Windsurf 1.2.4</title>
-      <link>https://windsurf.com/changelog#1.2.4</link>
-      <description>&lt;h3&gt;New Models: DeepSeek-R1, DeepSeek-V3 and o3-mini&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Models&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Cascade now has new premium models available: DeepSeek-R1, Deepseek-V3 and o3-miniDeepseek-V3 and Deepseek-R1 are available to users on Pro and Pro Ultimate PlansDeepseek-V3 takes 0.25 user prompt credits on every message and 0.25 flow action credits on each tool callDeepSeek-R1 takes 0.5 user prompt credits on every message and 0.5 flow action credits on each tool callo3-mini is available to all users on paid planso3-mini takes 1 user prompt credit on every message and 1 flow action credit on each tool call&lt;/li&gt;&lt;li&gt;Deepseek-V3 and Deepseek-R1 are available to users on Pro and Pro Ultimate Plans&lt;/li&gt;&lt;li&gt;Deepseek-V3 takes 0.25 user prompt credits on every message and 0.25 flow action credits on each tool call&lt;/li&gt;&lt;li&gt;DeepSeek-R1 takes 0.5 user prompt credits on every message and 0.5 flow action credits on each tool call&lt;/li&gt;&lt;li&gt;o3-mini is available to all users on paid plans&lt;/li&gt;&lt;li&gt;o3-mini takes 1 user prompt credit on every message and 1 flow action credit on each tool call&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Fixes&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Further fixes to input lag in long Cascade conversations&lt;/li&gt;&lt;li&gt;Fixed a bug where Cascade panel would always open on reload, even if the user disabled it in their settings&lt;/li&gt;&lt;li&gt;@docshas more options to choose from&lt;/li&gt;&lt;li&gt;Fixed Tab to Jump Quick Setting configuration&lt;/li&gt;&lt;li&gt;Added support for drag and drop images into Cascade&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog#1.2.4#1.2.4</guid>
-      <category>Changelog</category>
-      <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Windsurf 1.2.5</title>
       <link>https://windsurf.com/changelog#1.2.5</link>
       <description>&lt;h3&gt;Patch Fixes&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Fixes&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Fixed tool calls errors, specifically around invalid tool calls by the model&lt;/li&gt;&lt;li&gt;Fixed Web Search setting unavailable message option&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;New Models&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Cascade now has a new premium model available: Gemini 2.0 FlashGemini 2.0 Flash takes 0.25 user prompt credits on every message and 0.25 flow action credits on each tool call&lt;/li&gt;&lt;li&gt;Gemini 2.0 Flash takes 0.25 user prompt credits on every message and 0.25 flow action credits on each tool call&lt;/li&gt;&lt;/ul&gt;</description>
@@ -656,14 +584,6 @@
       <guid isPermaLink="false">https://windsurf.com/changelog#1.0.7#1.0.7</guid>
       <category>Changelog</category>
       <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf 1.0.6</title>
-      <link>https://windsurf.com/changelog#1.0.6</link>
-      <description>&lt;h3&gt;Usage Transparency&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Usage Transparency and Pricing&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Rolling out updated usage and pricing system for Windsurf. Seepricingfor details&lt;/li&gt;&lt;li&gt;Quick settings panel now additionally shows current plan usage, with information on trial expiry, next refresh cycle, and links to upgrade&lt;/li&gt;&lt;li&gt;Introduction of new "Legacy Chat" mode in Cascade that activates when users run out of Flow Credits. This mode is limited compared to Cascade's normal capabilities, but does not require any Flow Credits to use&lt;/li&gt;&lt;li&gt;View Cascade usage in the settings panel. Learn more about viewing Cascade usagehere.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Cascade Image Uploads&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Cascade image uploads are no longer limited to 1MB&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Improved Language support for Python&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Added feature-rich language support for Python with Windsurf Pyright. Windsurf Pyright is a Pylance alternative&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Misc&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Importing from other VS Code-based IDEs now imports snippets alongside settings&lt;/li&gt;&lt;li&gt;AI-related Keybindings can be viewed and configured in the quick settings panel&lt;/li&gt;&lt;li&gt;Added clearer error messages and debug handling for users experiencing auth issues&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog#1.0.6#1.0.6</guid>
-      <category>Changelog</category>
-      <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Windsurf 1.0.5</title>
