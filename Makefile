@@ -105,6 +105,9 @@ generate_anthropic_research_feed: feeds_anthropic_research ## (Legacy) Generate 
 .PHONY: generate_anthropic_changelog_claude_code_feed
 generate_anthropic_changelog_claude_code_feed: feeds_anthropic_changelog_claude_code ## (Legacy) Generate Claude Code changelog feed
 
+.PHONY: generate_google_ai_feed
+generate_google_ai_feed: feeds_google_ai ## (Legacy) Generate Google AI feed
+
 .PHONY: generate_openai_research_feed
 generate_openai_research_feed: feeds_openai_research ## (Legacy) Generate OpenAI Research feed
 
