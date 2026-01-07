@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Jan 2026 17:07:08 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Jan 2026 18:05:11 +0000</lastBuildDate>
     <item>
       <title>Windsurf 1.13.5</title>
       <link>https://windsurf.com/changelog#1.13.5</link>
@@ -202,14 +202,6 @@
       <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Windsurf 1.12.6</title>
-      <link>https://windsurf.com/changelog#1.12.6</link>
-      <description>&lt;h3&gt;Cascade Improvements&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Queued messages&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Users can now add follow-up messages to Cascade while it is working, and Cascade will process them in order after the current task is complete.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Mermaid diagram support&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Cascade now renders mermaid diagrams in the conversation.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Deprecation&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Windsurf Browser is now deprecated. We plan to refactor and release a replacement feature in the coming months. Please usePreviewsinstead.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Patch Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Made improvements to the sign up onboarding flow.&lt;/li&gt;&lt;li&gt;Various bug fixes and stability improvements.&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog#1.12.6#1.12.6</guid>
-      <category>Changelog</category>
-      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Windsurf 1.12.5</title>
       <link>https://windsurf.com/changelog#1.12.5</link>
       <description>&lt;h3&gt;Patch Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Minor improvements and bug fixes&lt;/li&gt;&lt;/ul&gt;</description>
@@ -330,14 +322,6 @@
       <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Windsurf 1.10.6</title>
-      <link>https://windsurf.com/changelog#1.10.6</link>
-      <description>&lt;h3&gt;Patch Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Minor improvements and bug fixes&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog#1.10.6#1.10.6</guid>
-      <category>Changelog</category>
-      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Windsurf 1.10.5</title>
       <link>https://windsurf.com/changelog#1.10.5</link>
       <description>&lt;h3&gt;Browser Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fixed unauthenticated missing CSRF token&lt;/li&gt;&lt;/ul&gt;</description>
@@ -424,14 +408,6 @@
       <guid isPermaLink="false">https://windsurf.com/changelog#1.7.3#1.7.3</guid>
       <category>Changelog</category>
       <pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf 1.7.2</title>
-      <link>https://windsurf.com/changelog#1.7.2</link>
-      <description>&lt;h3&gt;New App Icon &amp; Upgraded Free Tier&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;New App Icon&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Windsurf is now refreshed with a new app icon&lt;/li&gt;&lt;li&gt;Windsurf.com has been updated with the new wordmark&lt;/li&gt;&lt;li&gt;(Mac) Customizable app icons now use the new logo&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Upgraded Free Tier&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Free tier now has new, higher limits&lt;/li&gt;&lt;li&gt;Ability to use Cascade in write mode&lt;/li&gt;&lt;li&gt;Cascade prompt credits: 5 to 25 Cascade prompt credits per month&lt;/li&gt;&lt;li&gt;Unlimited Fast Tab&lt;/li&gt;&lt;li&gt;Unlimited Cascade Base&lt;/li&gt;&lt;li&gt;Access to Previews&lt;/li&gt;&lt;li&gt;1 Deploy&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Performance Improvements&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Performance and reliability improvements when deploying an app using Deploys&lt;/li&gt;&lt;li&gt;Allow users to create a new deployment even if they have an existing deployment config yaml&lt;/li&gt;&lt;li&gt;Deploy web app tool now has a check deploy status tool call&lt;/li&gt;&lt;li&gt;Stability improvements for remote extensions (WSL, SSH, Dev Containers)&lt;/li&gt;&lt;li&gt;Performance improvements when typing in a large active diff zone&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Misc&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Adds GPT-4.1 to Command&lt;/li&gt;&lt;li&gt;Upgraded to VSCode base version 1.98&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog#1.7.2#1.7.2</guid>
-      <category>Changelog</category>
-      <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Windsurf 1.7.1</title>
