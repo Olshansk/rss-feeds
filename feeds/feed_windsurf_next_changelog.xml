@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Jan 2026 05:07:28 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Jan 2026 06:05:07 +0000</lastBuildDate>
     <item>
       <title>Windsurf Next 1.13.106</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.13.106</link>
@@ -218,14 +218,6 @@
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Windsurf Next 1.12.129</title>
-      <link>https://windsurf.com/changelog/windsurf-next#1.12.129</link>
-      <description>&lt;h3&gt;Patch Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Bug fixes and improvements.&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.12.129#1.12.129</guid>
-      <category>Changelog</category>
-      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Windsurf Next 1.12.130</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.12.130</link>
       <description>&lt;h3&gt;Patch Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Early preview of Windsurf's new Tab model.&lt;/li&gt;&lt;li&gt;Bug fixes and improvements.&lt;/li&gt;&lt;/ul&gt;</description>
@@ -432,14 +424,6 @@
       <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.10.112#1.10.112</guid>
       <category>Changelog</category>
       <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf Next 1.10.111</title>
-      <link>https://windsurf.com/changelog/windsurf-next#1.10.111</link>
-      <description>&lt;h3&gt;Patch fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Miscellaneous fixes&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.10.111#1.10.111</guid>
-      <category>Changelog</category>
-      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Windsurf Next 1.10.109</title>
@@ -688,14 +672,6 @@
       <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.6.115#1.6.115</guid>
       <category>Changelog</category>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf Next 1.6.112</title>
-      <link>https://windsurf.com/changelog/windsurf-next#1.6.112</link>
-      <description>&lt;p&gt;&lt;strong&gt;Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;UI fixes to Cascade&lt;/li&gt;&lt;li&gt;Improvements to the no-internet state&lt;/li&gt;&lt;li&gt;Commit message generation reliability and quality&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.6.112#1.6.112</guid>
-      <category>Changelog</category>
-      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Windsurf Next 1.6.111</title>
