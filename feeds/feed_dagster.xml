@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Jan 2026 20:04:51 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Jan 2026 21:05:17 +0000</lastBuildDate>
+    <item>
+      <title>Evaluating Model Behavior Through Chess</title>
+      <link>https://dagster.io/blog/evaluating-model-behavior-through-chess</link>
+      <description>Benchmarks measure outcomes, not behavior. By letting AI models play chess in repeatable tournaments, we can observe how they handle risk, repetition, and long-term objectives, revealing patterns that static evals hide.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/evaluating-model-behavior-through-chess</guid>
+      <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>How to Enforce Data Quality at Every Stage: A Practical Guide to Catching Issues Before They Cost You</title>
       <link>https://dagster.io/blog/how-to-enforce-data-quality-at-every-stage-a-practical-guide-to-catching-issues-before-they-cost-you</link>

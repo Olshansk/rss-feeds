@@ -13,7 +13,21 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Jan 2026 20:03:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Jan 2026 21:02:56 +0000</lastBuildDate>
+    <item>
+      <title>v2.0.76</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2076</link>
+      <description>&lt;ul&gt;&lt;li&gt;Fixed issue with macOS code-sign warning when using Claude in Chrome integration&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2076</guid>
+      <category>Changelog</category>
+    </item>
+    <item>
+      <title>v2.0.75</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2075</link>
+      <description>&lt;ul&gt;&lt;li&gt;Minor bugfixes&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2075</guid>
+      <category>Changelog</category>
+    </item>
     <item>
       <title>v2.0.74</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2074</link>
@@ -348,20 +362,6 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2014</link>
       <description>&lt;ul&gt;&lt;li&gt;Fix @-mentioning MCP servers to toggle them on/off&lt;/li&gt;&lt;li&gt;Improve permission checks for bash with inline env vars&lt;/li&gt;&lt;li&gt;Fix ultrathink + thinking toggle&lt;/li&gt;&lt;li&gt;Reduce unnecessary logins&lt;/li&gt;&lt;li&gt;Document --system-prompt&lt;/li&gt;&lt;li&gt;Several improvements to rendering&lt;/li&gt;&lt;li&gt;Plugins UI polish&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2014</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.13</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2013</link>
-      <description>&lt;ul&gt;&lt;li&gt;Fixed `/plugin` not working on native build&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2013</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.12</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2012</link>
-      <description>&lt;ul&gt;&lt;li&gt;**Plugin System Released**: Extend Claude Code with custom commands, agents, hooks, and MCP servers from marketplaces&lt;/li&gt;&lt;li&gt;`/plugin install`, `/plugin enable/disable`, `/plugin marketplace` commands for plugin management&lt;/li&gt;&lt;li&gt;Repository-level plugin configuration via `extraKnownMarketplaces` for team collaboration&lt;/li&gt;&lt;li&gt;`/plugin validate` command for validating plugin structure and configuration&lt;/li&gt;&lt;li&gt;Plugin announcement blog post at https://www.anthropic.com/news/claude-code-plugins&lt;/li&gt;&lt;li&gt;Plugin documentation available at https://code.claude.com/docs/en/plugins&lt;/li&gt;&lt;li&gt;Comprehensive error messages and diagnostics via `/doctor` command&lt;/li&gt;&lt;li&gt;Avoid flickering in `/model` selector&lt;/li&gt;&lt;li&gt;Improvements to `/help`&lt;/li&gt;&lt;li&gt;Avoid mentioning hooks in `/resume` summaries&lt;/li&gt;&lt;li&gt;Changes to the "verbose" setting in `/config` now persist across sessions&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2012</guid>
       <category>Changelog</category>
     </item>
   </channel>
