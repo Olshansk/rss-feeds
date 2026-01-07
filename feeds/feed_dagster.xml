@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Jan 2026 23:03:53 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Jan 2026 00:11:47 +0000</lastBuildDate>
     <item>
       <title>How to Enforce Data Quality at Every Stage: A Practical Guide to Catching Issues Before They Cost You</title>
       <link>https://dagster.io/blog/how-to-enforce-data-quality-at-every-stage-a-practical-guide-to-catching-issues-before-they-cost-you</link>
