@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-04T21:24:00.443175+00:00",
+  "last_updated": "2026-01-08T07:17:50.404718+00:00",
   "posts": [
     {
       "url": "https://cursor.com/blog/prompt-design",
@@ -259,6 +259,13 @@
       "description": "We're partnering with ecosystem vendors who have built hooks support with Cursor.",
       "date": "2025-12-22T00:00:00.000Z",
       "category": "product"
+    },
+    {
+      "url": "https://cursor.com/blog/dynamic-context-discovery",
+      "title": "Dynamic context discovery",
+      "description": "As models improve as agents, we've found success by providing fewer details up front, making it easier for the agent to pull relevant context on its own.",
+      "date": "2026-01-06T12:00:00.000Z",
+      "category": "research"
     }
   ]
 }

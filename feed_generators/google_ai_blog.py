@@ -9,6 +9,13 @@ from feedgen.feed import FeedGenerator
 
 from utils import setup_feed_links, sort_posts_for_feed
 
+# TODO_IMPROVE: Add caching (Pattern 2) and "Load More" pagination support.
+# Currently only fetches the first page of results. Should:
+# 1. Add cache file (cache/google_ai_posts.json) with load_cache()/save_cache()
+# 2. Implement pagination to fetch all pages (check for "Load more" or page params)
+# 3. Support --full flag for full reset vs incremental updates
+# See cursor_blog.py or dagster_blog.py for reference implementation.
+
 # Set up logging
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
@@ -28,7 +35,9 @@ def ensure_feeds_directory():
     return feeds_dir
 
 
-def fetch_blog_content(url="https://developers.googleblog.com/search/?technology_categories=AI"):
+def fetch_blog_content(
+    url="https://developers.googleblog.com/search/?technology_categories=AI",
+):
     """Fetch the HTML content of the Google Developers Blog AI page."""
     try:
         logger.info(f"Fetching content from URL: {url}")
@@ -74,48 +83,48 @@ def parse_blog_posts(html_content):
             if not eyebrow:
                 logger.warning("No eyebrow found, skipping post")
                 continue
-            
+
             eyebrow_text = eyebrow.get_text(strip=True)
             # Split by ' / ' to get date and category
             parts = eyebrow_text.split(" / ")
             if len(parts) < 1:
                 logger.warning(f"Could not parse eyebrow: {eyebrow_text}")
                 continue
-            
+
             date_str = parts[0]
             category = parts[1] if len(parts) > 1 else "Uncategorized"
-            
+
             # Extract title and link
             title_elem = result.find("h3", class_="search-result__title")
             if not title_elem:
                 logger.warning("No title found, skipping post")
                 continue
-            
+
             link_elem = title_elem.find("a")
             if not link_elem:
                 logger.warning("No link found in title, skipping post")
                 continue
-            
+
             title = link_elem.get_text(strip=True)
             relative_url = link_elem.get("href", "")
-            
+
             # Make absolute URL
             if relative_url.startswith("/"):
                 link = f"https://developers.googleblog.com{relative_url}"
             else:
                 link = relative_url
-            
+
             # Extract summary
             summary_elem = result.find("p", class_="search-result__summary")
             summary = summary_elem.get_text(strip=True) if summary_elem else ""
-            
+
             # Extract featured image
             img_elem = result.find("img", class_="search-result__featured-img")
             image_url = img_elem.get("src", "") if img_elem else ""
-            
+
             # Parse date
             pub_date = parse_date(date_str)
-            
+
             post = {
                 "title": title,
                 "link": link,
@@ -124,10 +133,10 @@ def parse_blog_posts(html_content):
                 "category": category,
                 "image_url": image_url,
             }
-            
+
             posts.append(post)
             logger.debug(f"Parsed post: {title}")
-            
+
         except Exception as e:
             logger.error(f"Error parsing post: {e}")
             continue
@@ -141,7 +150,11 @@ def create_rss_feed(posts, output_file):
     fg = FeedGenerator()
     fg.title("Google Developers Blog - AI")
     fg.description("Latest AI-related posts from Google Developers Blog")
-    setup_feed_links(fg, "https://developers.googleblog.com/search/?technology_categories=AI", "google_ai")
+    setup_feed_links(
+        fg,
+        "https://developers.googleblog.com/search/?technology_categories=AI",
+        "google_ai",
+    )
     fg.language("en")
 
     # Sort posts for correct feed output (oldest first, feedgen reverses it)
@@ -152,19 +165,21 @@ def create_rss_feed(posts, output_file):
         fe = fg.add_entry()
         fe.title(post["title"])
         fe.link(href=post["link"])
-        
+
         # Build description with summary and image
         description = ""
         if post.get("image_url"):
-            description += f'<img src="{post["image_url"]}" alt="Featured image" /><br/><br/>'
+            description += (
+                f'<img src="{post["image_url"]}" alt="Featured image" /><br/><br/>'
+            )
         description += post["summary"]
-        
+
         fe.description(description)
-        
+
         if post["date"]:
             fe.published(post["date"])
             fe.updated(post["date"])
-        
+
         if post.get("category"):
             fe.category(term=post["category"])
 

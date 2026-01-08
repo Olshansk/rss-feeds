@@ -10,11 +10,18 @@ feeds_generate_all: ## Generate all RSS feeds
 	$(call print_success,All feeds generated)
 
 .PHONY: feeds_anthropic_news
-feeds_anthropic_news: ## Generate RSS feed for Anthropic News
+feeds_anthropic_news: ## Generate RSS feed for Anthropic News (incremental)
 	$(call check_venv)
 	$(call print_info,Generating Anthropic News feed)
 	$(Q)python feed_generators/anthropic_news_blog.py
 	$(call print_success,Anthropic News feed generated)
+
+.PHONY: feeds_anthropic_news_full
+feeds_anthropic_news_full: ## Generate RSS feed for Anthropic News (full reset)
+	$(call check_venv)
+	$(call print_info,Generating Anthropic News feed - FULL RESET)
+	$(Q)python feed_generators/anthropic_news_blog.py --full
+	$(call print_success,Anthropic News feed generated - full reset)
 
 .PHONY: feeds_anthropic_engineering
 feeds_anthropic_engineering: ## Generate RSS feed for Anthropic Engineering

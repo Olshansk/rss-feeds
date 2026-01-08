@@ -97,19 +97,24 @@ For blogs with "Load More" or pagination that uses URL query params (`?page=2`).
 
 For JS-heavy sites where content loads dynamically via JavaScript button clicks.
 
-**Examples**: `anthropic_news_blog.py`, `anthropic_research_blog.py`, `openai_research_blog.py`
+**Examples**: `anthropic_news_blog.py` (reference implementation), `anthropic_research_blog.py`, `openai_research_blog.py`
 
 **Key functions**:
 - `setup_selenium_driver()` - Headless Chrome with `undetected-chromedriver`
-- `fetch_news_content()` - Load page, click buttons, return final HTML
+- `fetch_news_content(max_clicks)` - Load page, click buttons, return final HTML
+- `load_cache()` / `save_cache(articles)` - JSON persistence in `cache/<source>_posts.json`
+- `merge_articles(new, cached)` - Dedupe by link, merge, sort by date
 
 **Selenium specifics**:
 - Uses `undetected-chromedriver` to avoid bot detection
 - Clicks "See more"/"Load more" button repeatedly
 - Waits for content to load between clicks
-- `max_clicks` safety limit (default: 20) to prevent infinite loops
+- `max_clicks` parameter controls depth (20 for full, 2-3 for incremental)
 
-**Cache**: Should use caching (like Pattern 2) for efficiency, but currently refetches all posts each run.
+**Cache behavior** (see `anthropic_news_blog.py` for reference):
+- **First run / `--full` flag**: Click up to 20 times, fetch all articles, populate cache
+- **Incremental (default)**: Click 2-3 times (recent articles), merge with cache
+- **Dedupe**: By URL, sorted by date descending
 
 ### When to Use Each Pattern
 
@@ -117,7 +122,7 @@ For JS-heavy sites where content loads dynamically via JavaScript button clicks.
 |--------------|---------|---------|--------|
 | All posts on single page | Simple Static | `ollama_blog.py` | No |
 | URL-based pagination (`?page=2`) | Pagination + Caching | `dagster_blog.py` | Yes |
-| JS button loads more content | Selenium + Click | `anthropic_news_blog.py` | Recommended |
+| JS button loads more content | Selenium + Click | `anthropic_news_blog.py` | Yes |
 
 **Key libraries**: `requests`, `beautifulsoup4`, `feedgen`, `selenium`, `undetected-chromedriver`
 
