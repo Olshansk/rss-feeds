@@ -13,7 +13,7 @@
       <link>https://anthropic.com/research/feed_anthropic_research.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 09 Jan 2026 21:03:51 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Jan 2026 22:03:05 +0000</lastBuildDate>
     <item>
       <title>Societal Impacts</title>
       <link>https://www.anthropic.com/research/team/societal-impacts</link>
@@ -41,6 +41,14 @@
       <description>Alignment</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
       <category>Research</category>
+    </item>
+    <item>
+      <title>Jan 9, 2026AlignmentNext-generation Constitutional Classifiers: More efficient protection against universal jailbreaks</title>
+      <link>https://www.anthropic.com/research/next-generation-constitutional-classifiers</link>
+      <description>Jan 9, 2026AlignmentNext-generation Constitutional Classifiers: More efficient protection against universal jailbreaks</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/next-generation-constitutional-classifiers</guid>
+      <category>Research</category>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Dec 19, 2025AlignmentIntroducing Bloom: an open source tool for automated behavioral evaluations</title>
