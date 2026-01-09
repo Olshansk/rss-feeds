@@ -8,6 +8,8 @@ import logging
 from pathlib import Path
 from dateutil import parser
 
+from utils import sort_posts_for_feed
+
 # Set up logging
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
@@ -145,8 +147,8 @@ def extract_articles(soup):
             logger.warning(f"Failed to parse article: {str(e)}")
             continue
 
-    # Sort by date (newest first)
-    articles.sort(key=lambda x: x["pub_date"], reverse=True)
+    # Sort for correct feed order (newest first in output)
+    articles = sort_posts_for_feed(articles, date_field="pub_date")
 
     logger.info(f"Successfully parsed {len(articles)} articles")
     return articles

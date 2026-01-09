@@ -7,6 +7,8 @@ import time
 import logging
 from pathlib import Path
 
+from utils import sort_posts_for_feed
+
 # Set up logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
@@ -254,13 +256,9 @@ def generate_rss_feed(articles, feed_name="anthropic_research"):
         fg.link(href="https://www.anthropic.com/research", rel="alternate")
         fg.link(href=f"https://anthropic.com/research/feed_{feed_name}.xml", rel="self")
 
-        # Sort articles by date (most recent first), but handle None dates
-        # Articles with dates come first, then articles without dates (preserve original order)
-        articles_with_date = [a for a in articles if a["date"] is not None]
-        articles_without_date = [a for a in articles if a["date"] is None]
-
-        articles_with_date.sort(key=lambda x: x["date"], reverse=True)
-        articles_sorted = articles_with_date + articles_without_date
+        # Sort articles for correct feed order (newest first in output)
+        # Articles without dates will appear at the end
+        articles_sorted = sort_posts_for_feed(articles, date_field="date")
 
         # Add entries
         for article in articles_sorted:

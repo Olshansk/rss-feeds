@@ -7,6 +7,8 @@ from feedgen.feed import FeedGenerator
 import logging
 from pathlib import Path
 
+from utils import sort_posts_for_feed
+
 # Set up logging
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
@@ -106,9 +108,8 @@ def parse_writing_page(html_content, base_url="https://chanderramesh.com"):
             blog_posts.append(blog_post)
             logger.info(f"Parsed: {title} ({date_str})")
 
-        # Sort by date ascending (oldest first) since feedgen reverses the order
-        # This ensures newest posts appear first in the final RSS feed
-        blog_posts.sort(key=lambda x: x["pub_date"], reverse=False)
+        # Sort for correct feed order (newest first in output)
+        blog_posts = sort_posts_for_feed(blog_posts, date_field="pub_date")
 
         logger.info(f"Successfully parsed {len(blog_posts)} blog posts")
         return blog_posts

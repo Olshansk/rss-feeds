@@ -1,7 +1,6 @@
 import argparse
 import json
 import logging
-import re
 from datetime import datetime
 from pathlib import Path
 
@@ -12,11 +11,16 @@ from feedgen.feed import FeedGenerator
 
 from utils import setup_feed_links, sort_posts_for_feed
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+# Set up logging
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
 logger = logging.getLogger(__name__)
 
-BLOG_URL = "https://cursor.com/blog"
-FEED_NAME = "cursor"
+BLOG_URL = "https://dagster.io/blog"
+FEED_NAME = "dagster"
+# Dagster uses Webflow CMS pagination with this query param
+PAGINATION_PARAM = "a17fdf47_page"
 
 
 def get_project_root():
@@ -26,7 +30,7 @@ def get_project_root():
 
 def get_cache_file():
     """Get the cache file path."""
-    return get_project_root() / "cache" / "cursor_posts.json"
+    return get_project_root() / "cache" / "dagster_posts.json"
 
 
 def get_feeds_dir():
@@ -46,56 +50,82 @@ def fetch_page(url):
     return response.text
 
 
-def parse_posts(html):
-    """Extract posts from HTML. Returns (posts, next_page_url or None)."""
-    soup = BeautifulSoup(html, "html.parser")
-    posts = []
+def parse_posts(html_content):
+    """Parse the blog HTML content and extract post information.
 
-    for card in soup.find_all("a", class_=re.compile(r"card")):
-        href = card.get("href", "")
-        if "/blog/" not in href or "/topic/" in href or "/page/" in href:
+    Returns (posts, has_next_page).
+    """
+    soup = BeautifulSoup(html_content, "html.parser")
+    blog_posts = []
+
+    # Parse the featured blog post (if present)
+    featured_post = soup.select_one("div.featured_blog_link")
+    if featured_post:
+        title_elem = featured_post.select_one("h2.heading-style-h5")
+        date_elem = featured_post.select_one("p.text-color-neutral-500")
+        description_elem = featured_post.select_one("p.text-color-neutral-700")
+        link_elem = featured_post.select_one("a.clickable_link")
+
+        if title_elem and date_elem and link_elem:
+            title = title_elem.text.strip()
+            date_str = date_elem.text.strip()
+            date_obj = datetime.strptime(date_str, "%B %d, %Y")
+            description = description_elem.text.strip() if description_elem else ""
+            link = link_elem.get("href", "")
+
+            if link.startswith("/"):
+                link = f"https://dagster.io{link}"
+
+            if link:
+                blog_posts.append(
+                    {
+                        "url": link,
+                        "title": title,
+                        "date": date_obj.strftime("%Y-%m-%d"),
+                        "description": description,
+                    }
+                )
+
+    # Find all regular blog post cards
+    posts = soup.select("div.blog_card")
+
+    for post in posts:
+        title_elem = post.select_one("h3.blog_card_title")
+        if not title_elem:
             continue
+        title = title_elem.text.strip()
 
-        # Make URL absolute
-        if href.startswith("/"):
-            href = f"https://cursor.com{href}"
+        date_elem = post.select_one("p.text-color-neutral-500.text-size-small")
+        if not date_elem:
+            continue
+        date_str = date_elem.text.strip()
+        date_obj = datetime.strptime(date_str, "%B %d, %Y")
 
-        ps = card.find_all("p")
-        title = ps[0].get_text(strip=True) if ps else ""
-        description = ps[1].get_text(strip=True) if len(ps) > 1 else ""
+        description_elem = post.select_one('p[fs-cmsfilter-field="description"]')
+        description = description_elem.text.strip() if description_elem else ""
 
-        time_el = card.find("time")
-        date = time_el.get("datetime", "") if time_el else ""
+        link_elem = post.select_one("a.clickable_link")
+        if not link_elem or not link_elem.get("href"):
+            continue
+        link = link_elem["href"]
 
-        category_el = card.find("span", class_="capitalize")
-        category = category_el.get_text(strip=True).rstrip(" ·") if category_el else ""
+        if link.startswith("/"):
+            link = f"https://dagster.io{link}"
 
-        posts.append({
-            "url": href,
-            "title": title,
-            "description": description,
-            "date": date,
-            "category": category,
-        })
+        blog_posts.append(
+            {
+                "url": link,
+                "title": title,
+                "date": date_obj.strftime("%Y-%m-%d"),
+                "description": description,
+            }
+        )
 
-    # Find next page link - look for links containing "Next" or "Older"
-    next_link = None
-    for link in soup.find_all("a", href=re.compile(r"/blog/page/\d+")):
-        link_text = link.get_text(strip=True)
-        if "Next" in link_text or "Older" in link_text:
-            next_link = link
-            break
+    # Check for "Load more" / next page link
+    next_link = soup.select_one("a.w-pagination-next")
+    has_next_page = next_link is not None and next_link.get("href")
 
-    next_url = None
-    if next_link:
-        href = next_link.get("href")
-        # Make relative URLs absolute
-        if href.startswith("/"):
-            next_url = f"https://cursor.com{href}"
-        else:
-            next_url = href
-
-    return posts, next_url
+    return blog_posts, has_next_page
 
 
 def load_cache():
@@ -142,22 +172,27 @@ def merge_posts(new_posts, cached_posts):
 
 
 def fetch_all_pages():
-    """Follow pagination until no Next link. Returns all posts."""
+    """Follow pagination until no next link. Returns all posts."""
     all_posts = []
-    url = BLOG_URL
     page_num = 1
 
-    while url:
+    while True:
+        if page_num == 1:
+            url = BLOG_URL
+        else:
+            url = f"{BLOG_URL}?{PAGINATION_PARAM}={page_num}"
+
         logger.info(f"Fetching page {page_num}: {url}")
         html = fetch_page(url)
-        posts, next_url = parse_posts(html)
+        posts, has_next_page = parse_posts(html)
         all_posts.extend(posts)
         logger.info(f"Found {len(posts)} posts on page {page_num}")
 
-        url = next_url
+        if not has_next_page:
+            break
         page_num += 1
 
-    # Dedupe by URL (in case of overlaps)
+    # Dedupe by URL
     seen = set()
     unique_posts = []
     for post in all_posts:
@@ -172,14 +207,16 @@ def fetch_all_pages():
 
 
 def generate_rss_feed(posts):
-    """Generate RSS feed from posts."""
+    """Generate RSS feed from blog posts."""
     fg = FeedGenerator()
-    fg.title("Cursor Blog")
-    fg.description("The AI Code Editor")
+    fg.title("Dagster Blog")
+    fg.description(
+        "Read the latest from the Dagster team: insights, tutorials, and updates on data engineering, orchestration, and building better pipelines."
+    )
     fg.language("en")
-    fg.author({"name": "Cursor"})
-    fg.logo("https://cursor.com/favicon.ico")
-    fg.subtitle("Latest updates from Cursor")
+
+    fg.author({"name": "Dagster"})
+    fg.subtitle("Latest updates from Dagster")
     setup_feed_links(fg, blog_url=BLOG_URL, feed_name=FEED_NAME)
 
     for post in posts:
@@ -191,20 +228,17 @@ def generate_rss_feed(posts):
 
         if post.get("date"):
             try:
-                dt = datetime.fromisoformat(post["date"].replace("Z", "+00:00"))
-                fe.published(dt)
+                dt = datetime.strptime(post["date"], "%Y-%m-%d")
+                fe.published(dt.replace(tzinfo=pytz.UTC))
             except ValueError:
                 pass
-
-        if post.get("category"):
-            fe.category(term=post["category"])
 
     logger.info(f"Generated RSS feed with {len(posts)} entries")
     return fg
 
 
 def save_rss_feed(feed_generator):
-    """Save the RSS feed to a file."""
+    """Save the RSS feed to a file in the feeds directory."""
     feeds_dir = get_feeds_dir()
     output_file = feeds_dir / f"feed_{FEED_NAME}.xml"
     feed_generator.rss_file(str(output_file), pretty=True)
@@ -213,7 +247,12 @@ def save_rss_feed(feed_generator):
 
 
 def main(full_reset=False):
-    """Main function to generate RSS feed."""
+    """Main function to generate RSS feed from blog URL.
+
+    Args:
+        full_reset: If True, fetch all pages. If False, only fetch page 1
+                   and merge with cached posts.
+    """
     cache = load_cache()
 
     if full_reset or not cache["posts"]:
@@ -236,7 +275,9 @@ def main(full_reset=False):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Generate Cursor Blog RSS feed")
-    parser.add_argument("--full", action="store_true", help="Force full reset (fetch all pages)")
+    parser = argparse.ArgumentParser(description="Generate Dagster Blog RSS feed")
+    parser.add_argument(
+        "--full", action="store_true", help="Force full reset (fetch all pages)"
+    )
     args = parser.parse_args()
     main(full_reset=args.full)

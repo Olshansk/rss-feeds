@@ -1,3 +1,5 @@
+import argparse
+import json
 import logging
 import time
 import xml.etree.ElementTree as ET
@@ -11,6 +13,11 @@ from feedgen.feed import FeedGenerator
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
+
+from utils import sort_posts_for_feed
+
+FEED_NAME = "anthropic_news"
+BLOG_URL = "https://www.anthropic.com/news"
 
 # Set up logging
 logging.basicConfig(
@@ -42,6 +49,79 @@ def ensure_feeds_directory():
     return feeds_dir
 
 
+def get_cache_file():
+    """Get the cache file path."""
+    cache_dir = get_project_root() / "cache"
+    cache_dir.mkdir(exist_ok=True)
+    return cache_dir / f"{FEED_NAME}_posts.json"
+
+
+def load_cache():
+    """Load existing cache or return empty structure."""
+    cache_file = get_cache_file()
+    if cache_file.exists():
+        with open(cache_file, "r") as f:
+            data = json.load(f)
+            logger.info(f"Loaded cache with {len(data.get('articles', []))} articles")
+            return data
+    logger.info("No cache file found, will do full fetch")
+    return {"last_updated": None, "articles": []}
+
+
+def save_cache(articles):
+    """Save articles to cache file."""
+    cache_file = get_cache_file()
+    # Convert datetime objects to ISO strings for JSON serialization
+    serializable_articles = []
+    for article in articles:
+        article_copy = article.copy()
+        if isinstance(article_copy.get("date"), datetime):
+            article_copy["date"] = article_copy["date"].isoformat()
+        serializable_articles.append(article_copy)
+
+    data = {
+        "last_updated": datetime.now(pytz.UTC).isoformat(),
+        "articles": serializable_articles,
+    }
+    with open(cache_file, "w") as f:
+        json.dump(data, f, indent=2)
+    logger.info(f"Saved cache with {len(articles)} articles to {cache_file}")
+
+
+def deserialize_articles(articles):
+    """Convert cached articles back to proper format with datetime objects."""
+    result = []
+    for article in articles:
+        article_copy = article.copy()
+        if isinstance(article_copy.get("date"), str):
+            try:
+                article_copy["date"] = datetime.fromisoformat(article_copy["date"])
+            except ValueError:
+                article_copy["date"] = stable_fallback_date(
+                    article_copy.get("link", "")
+                )
+        result.append(article_copy)
+    return result
+
+
+def merge_articles(new_articles, cached_articles):
+    """Merge new articles into cache, dedupe by link, sort by date desc."""
+    existing_links = {a["link"] for a in cached_articles}
+    merged = list(cached_articles)
+
+    added_count = 0
+    for article in new_articles:
+        if article["link"] not in existing_links:
+            merged.append(article)
+            existing_links.add(article["link"])
+            added_count += 1
+
+    logger.info(f"Added {added_count} new articles to cache")
+
+    # Sort for correct feed order (newest first in output)
+    return sort_posts_for_feed(merged, date_field="date")
+
+
 def setup_selenium_driver():
     """Set up Selenium WebDriver with undetected-chromedriver."""
     options = uc.ChromeOptions()
@@ -54,11 +134,17 @@ def setup_selenium_driver():
     return uc.Chrome(options=options)
 
 
-def fetch_news_content(url="https://www.anthropic.com/news"):
-    """Fetch the fully loaded HTML content of the news page using Selenium."""
+def fetch_news_content(url=BLOG_URL, max_clicks=20):
+    """Fetch the fully loaded HTML content of the news page using Selenium.
+
+    Args:
+        url: The URL to fetch
+        max_clicks: Maximum number of "See more" button clicks.
+                   Use 20 for full fetch, 2-3 for incremental updates.
+    """
     driver = None
     try:
-        logger.info(f"Fetching content from URL: {url}")
+        logger.info(f"Fetching content from URL: {url} (max_clicks={max_clicks})")
         driver = setup_selenium_driver()
         driver.get(url)
 
@@ -77,7 +163,6 @@ def fetch_news_content(url="https://www.anthropic.com/news"):
             logger.warning("Could not confirm articles loaded, proceeding anyway...")
 
         # Click "See more" button repeatedly until it's no longer available
-        max_clicks = 20  # Safety limit
         clicks = 0
         while clicks < max_clicks:
             try:
@@ -358,10 +443,10 @@ def generate_rss_feed(articles, feed_name="anthropic_news"):
         )
         fg.link(href="https://www.anthropic.com/news", rel="alternate")
 
-        # Sort articles by date (most recent first)
-        articles_sorted = sorted(articles, key=lambda x: x["date"], reverse=True)
+        # Sort articles for correct feed order (newest first in output)
+        articles_sorted = sort_posts_for_feed(articles, date_field="date")
 
-        # Add entries (feedgen may re-sort by pubDate during output, but RSS readers sort by date anyway)
+        # Add entries
         for article in articles_sorted:
             fe = fg.add_entry()
             fe.title(article["title"])
@@ -416,24 +501,41 @@ def get_existing_links_from_feed(feed_path):
     return existing_links
 
 
-def main(feed_name="anthropic_news"):
-    """Main function to generate RSS feed from Anthropic's news page."""
-    try:
-        # Fetch news content using Selenium
-        html_content = fetch_news_content()
+def main(full_reset=False):
+    """Main function to generate RSS feed from Anthropic's news page.
 
-        # Parse articles from HTML
-        articles = parse_news_html(html_content)
+    Args:
+        full_reset: If True, fetch all articles (click "See more" up to 20 times).
+                   If False, do incremental update (click 2-3 times, merge with cache).
+    """
+    try:
+        cache = load_cache()
+        cached_articles = deserialize_articles(cache.get("articles", []))
+
+        if full_reset or not cached_articles:
+            mode = "full reset" if full_reset else "no cache exists"
+            logger.info(f"Running full fetch ({mode})")
+            html_content = fetch_news_content(max_clicks=20)
+            articles = parse_news_html(html_content)
+        else:
+            logger.info("Running incremental update (2 clicks only)")
+            html_content = fetch_news_content(max_clicks=2)
+            new_articles = parse_news_html(html_content)
+            logger.info(f"Found {len(new_articles)} articles from recent pages")
+            articles = merge_articles(new_articles, cached_articles)
 
         if not articles:
             logger.warning("No articles found. Please check the HTML structure.")
             return False
 
+        # Save to cache
+        save_cache(articles)
+
         # Generate RSS feed with all articles
-        feed = generate_rss_feed(articles, feed_name)
+        feed = generate_rss_feed(articles, FEED_NAME)
 
         # Save feed to file
-        output_file = save_rss_feed(feed, feed_name)
+        output_file = save_rss_feed(feed, FEED_NAME)
 
         logger.info(f"Successfully generated RSS feed with {len(articles)} articles")
         return True
@@ -444,4 +546,9 @@ def main(feed_name="anthropic_news"):
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description="Generate Anthropic News RSS feed")
+    parser.add_argument(
+        "--full", action="store_true", help="Force full reset (fetch all articles)"
+    )
+    args = parser.parse_args()
+    main(full_reset=args.full)

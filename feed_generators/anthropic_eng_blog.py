@@ -6,6 +6,8 @@ from feedgen.feed import FeedGenerator
 import logging
 from pathlib import Path
 
+from utils import sort_posts_for_feed
+
 # Set up logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
@@ -148,11 +150,11 @@ def generate_rss_feed(articles, feed_name="anthropic_engineering"):
         fg.link(href="https://www.anthropic.com/engineering", rel="alternate")
         fg.link(href=f"https://anthropic.com/engineering/feed_{feed_name}.xml", rel="self")
 
-        # Sort articles by date (newest first)
-        articles.sort(key=lambda x: x["date"], reverse=True)
+        # Sort articles for correct feed order (newest first in output)
+        articles_sorted = sort_posts_for_feed(articles, date_field="date")
 
         # Add entries
-        for article in articles:
+        for article in articles_sorted:
             fe = fg.add_entry()
             fe.title(article["title"])
             fe.description(article["description"])

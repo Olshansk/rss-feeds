@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>Cursor Blog</title>
-    <link>https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_cursor.xml</link>
+    <link>https://cursor.com/blog</link>
     <description>Latest updates from Cursor</description>
     <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_cursor.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
@@ -10,289 +10,25 @@
     <image>
       <url>https://cursor.com/favicon.ico</url>
       <title>Cursor Blog</title>
-      <link>https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_cursor.xml</link>
+      <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Dec 2025 13:16:03 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Jan 2026 15:05:17 +0000</lastBuildDate>
     <item>
-      <title>Prompt design</title>
-      <link>https://cursor.com/blog/prompt-design</link>
-      <description>Prompting is like web design. Let’s call it prompt design, and build better tools for it.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/prompt-design</guid>
+      <title>Dynamic context discovery</title>
+      <link>https://cursor.com/blog/dynamic-context-discovery</link>
+      <description>As models improve as agents, we've found success by providing fewer details up front, making it easier for the agent to pull relevant context on its own.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/dynamic-context-discovery</guid>
       <category>research</category>
-      <pubDate>Sun, 11 Jun 2023 23:58:00 +0000</pubDate>
+      <pubDate>Tue, 06 Jan 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Inference characteristics of Llama</title>
-      <link>https://cursor.com/blog/llama-inference</link>
-      <description>A primer on inference math and an examination of the surprising costs of Llama.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/llama-inference</guid>
-      <category>research</category>
-      <pubDate>Thu, 20 Jul 2023 16:11:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Our problems</title>
-      <link>https://cursor.com/blog/problems-2023</link>
-      <description>A list of problems we are excited to solve for Cursor.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/problems-2023</guid>
-      <category>research</category>
-      <pubDate>Thu, 12 Oct 2023 23:58:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Editing Files at 1000 Tokens per Second</title>
-      <link>https://cursor.com/blog/instant-apply</link>
-      <description>A new model and inference method for high-accuracy full-file edits at 1000 tokens/s.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/instant-apply</guid>
-      <category>research</category>
-      <pubDate>Tue, 14 May 2024 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>More problems</title>
-      <link>https://cursor.com/blog/problems-2024</link>
-      <description>Several exciting problem areas for the next phase of AI-programming.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/problems-2024</guid>
-      <category>research</category>
-      <pubDate>Sat, 25 May 2024 23:58:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Series A and Magic</title>
-      <link>https://cursor.com/blog/series-a</link>
-      <description>We’ve raised $60M to create a magical tool with the aim of writing the world’s software.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/series-a</guid>
-      <category>company</category>
-      <pubDate>Thu, 22 Aug 2024 23:58:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Iterating with shadow workspaces</title>
-      <link>https://cursor.com/blog/shadow-workspace</link>
-      <description>Hidden windows and kernel-level folder proxies to let AIs iterate on code without affecting the user.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/shadow-workspace</guid>
-      <category>research</category>
-      <pubDate>Sun, 01 Sep 2024 23:58:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Supermaven joins Cursor</title>
-      <link>https://cursor.com/blog/supermaven</link>
-      <description>We’re teaming up to build the next phase of AI coding.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/supermaven</guid>
-      <category>company</category>
-      <pubDate>Tue, 12 Nov 2024 00:58:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Character Prefix Conditioning</title>
-      <link>https://cursor.com/blog/cpc</link>
-      <description>A clever algorithm for more accurate code completion sampling.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/cpc</guid>
+      <title>Hooks for security and platform teams</title>
+      <link>https://cursor.com/blog/hooks-partners</link>
+      <description>We're partnering with ecosystem vendors who have built hooks support with Cursor.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/hooks-partners</guid>
       <category>product</category>
-      <pubDate>Mon, 06 Jan 2025 21:08:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A new Tab model</title>
-      <link>https://cursor.com/blog/tab-update</link>
-      <description>Announcing the next-generation Cursor Tab model.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/tab-update</guid>
-      <category>product</category>
-      <pubDate>Mon, 13 Jan 2025 21:08:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Series B and Automating Code</title>
-      <link>https://cursor.com/blog/series-b</link>
-      <description>We’ve raised $105M to further our mission of automating code.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/series-b</guid>
-      <category>company</category>
-      <pubDate>Thu, 16 Jan 2025 21:08:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Early team</title>
-      <link>https://cursor.com/blog/team</link>
-      <description>Lots of great people are behind Cursor! Here are some.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/team</guid>
-      <category>company</category>
-      <pubDate>Sat, 26 Apr 2025 20:08:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Series C and Scale</title>
-      <link>https://cursor.com/blog/series-c</link>
-      <description>We’ve raised $900m to push the frontier of AI coding research.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/series-c</guid>
-      <category>company</category>
-      <pubDate>Fri, 06 Jun 2025 20:08:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Updates to Ultra and Pro</title>
-      <link>https://cursor.com/blog/new-tier</link>
-      <description>In collaboration with the model providers, we’re introducing a $200 / mo tier for power users.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/new-tier</guid>
-      <category>product</category>
-      <pubDate>Mon, 16 Jun 2025 20:08:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cursor on web and mobile</title>
-      <link>https://cursor.com/blog/agent-web</link>
-      <description>Work with a powerful coding assistant anywhere with the Cursor Agent on web and mobile.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/agent-web</guid>
-      <category>product</category>
-      <pubDate>Mon, 30 Jun 2025 23:09:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Clarifying our pricing</title>
-      <link>https://cursor.com/blog/june-2025-pricing</link>
-      <description>How the new Pro plan works and why we changed our pricing.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/june-2025-pricing</guid>
-      <category>product</category>
-      <pubDate>Fri, 04 Jul 2025 20:08:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bugbot is out of beta</title>
-      <link>https://cursor.com/blog/bugbot-out-of-beta</link>
-      <description>Automatically review your PRs with Bugbot.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/bugbot-out-of-beta</guid>
-      <category>product</category>
-      <pubDate>Thu, 24 Jul 2025 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GPT-5 is now available in Cursor</title>
-      <link>https://cursor.com/blog/gpt-5</link>
-      <description>This is OpenAI's most powerful model, and we've found it to be quite effective for coding.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/gpt-5</guid>
-      <category>product</category>
-      <pubDate>Thu, 07 Aug 2025 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cursor Agent CLI</title>
-      <link>https://cursor.com/blog/cli</link>
-      <description>You can now use Cursor Agent from the CLI or headless in any environment.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/cli</guid>
-      <category>product</category>
-      <pubDate>Thu, 07 Aug 2025 07:10:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Updates to Teams and Auto</title>
-      <link>https://cursor.com/blog/aug-2025-pricing</link>
-      <description>Variable requests for teams and competitive pricing for Auto.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/aug-2025-pricing</guid>
-      <category>product</category>
-      <pubDate>Tue, 12 Aug 2025 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bringing the Cursor Agent to Linear</title>
-      <link>https://cursor.com/blog/linear</link>
-      <description>You can now trigger Cursor Background Agents directly from Linear, helping you fix bugs, build features, and respond quickly to user feedback.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/linear</guid>
-      <category>product</category>
-      <pubDate>Thu, 21 Aug 2025 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>1.5x faster MoE training with custom MXFP8 kernels</title>
-      <link>https://cursor.com/blog/kernels</link>
-      <description>Achieving a 3.5x MoE layer speedup with a complete rebuild for Blackwell GPUs.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/kernels</guid>
-      <category>research</category>
-      <pubDate>Fri, 29 Aug 2025 02:55:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>Improving Cursor Tab with online RL</title>
-      <link>https://cursor.com/blog/tab-rl</link>
-      <description>Our new Tab model makes 21% fewer suggestions while having 28% higher accept rate.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/tab-rl</guid>
-      <category>research</category>
-      <pubDate>Fri, 12 Sep 2025 01:16:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Improving Java support in Cursor</title>
-      <link>https://cursor.com/blog/java</link>
-      <description>We're speeding up the Java Language Server Protocol (LSP) and VS Code ecosystem.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/java</guid>
-      <category>product</category>
-      <pubDate>Wed, 01 Oct 2025 17:20:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Plan Mode</title>
-      <link>https://cursor.com/blog/plan-mode</link>
-      <description>Cursor can now create plans, research your codebase, and run agents for significantly longer.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/plan-mode</guid>
-      <category>product</category>
-      <pubDate>Tue, 07 Oct 2025 17:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Cursor 2.0 and Composer</title>
-      <link>https://cursor.com/blog/2-0</link>
-      <description>A new interface and our first coding model, both purpose-built for working with agents.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/2-0</guid>
-      <category>product</category>
-      <pubDate>Wed, 29 Oct 2025 04:54:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>Composer: Building a fast frontier model with RL</title>
-      <link>https://cursor.com/blog/composer</link>
-      <description>Composer is our new agent model designed for software engineering intelligence and speed.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/composer</guid>
-      <category>research</category>
-      <pubDate>Wed, 29 Oct 2025 06:49:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cloud Agents</title>
-      <link>https://cursor.com/blog/cloud-agents</link>
-      <description>Cloud agents make it easy to run many agents at once, without requiring your laptop to stay connected to the internet.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/cloud-agents</guid>
-      <category>product</category>
-      <pubDate>Thu, 30 Oct 2025 15:09:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Cursor for Enterprise</title>
-      <link>https://cursor.com/blog/enterprise</link>
-      <description>Cursor is used by tens of thousands of enterprises, including Salesforce, NVIDIA, and PwC, to accelerate product velocity and build durable software.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/enterprise</guid>
-      <category>product</category>
-      <pubDate>Fri, 31 Oct 2025 19:23:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Improving agent with semantic search</title>
-      <link>https://cursor.com/blog/semsearch</link>
-      <description>Semantic search significantly improves coding agent performance with 12.5% higher accuracy, improves code retention and decreases dissatisfied user requests.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/semsearch</guid>
-      <category>research</category>
-      <pubDate>Thu, 06 Nov 2025 03:10:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The productivity impact of coding agents</title>
-      <link>https://cursor.com/blog/productivity</link>
-      <description>A new study from the University of Chicago finds that companies merge 39% more PRs after Cursor's agent became the default.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/productivity</guid>
-      <category>research</category>
-      <pubDate>Tue, 11 Nov 2025 17:37:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Past, Present, and Future</title>
-      <link>https://cursor.com/blog/series-d</link>
-      <description>We raised our Series D of $2.3B and have passed $1B in annualized revenue.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/series-d</guid>
-      <category>company</category>
-      <pubDate>Thu, 13 Nov 2025 11:27:11 +0000</pubDate>
-    </item>
-    <item>
-      <title>Improving Cursor’s agent for OpenAI Codex models</title>
-      <link>https://cursor.com/blog/codex-model-harness</link>
-      <description>How we updated our agent harness to support GPT-5.1-Codex-Max.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/codex-model-harness</guid>
-      <category>product</category>
-      <pubDate>Thu, 04 Dec 2025 16:02:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Debug Mode: Agents with runtime logs</title>
-      <link>https://cursor.com/blog/debug-mode</link>
-      <description>Debug Mode helps you reproduce and fix the most tricky bugs.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/debug-mode</guid>
-      <category>product</category>
-      <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A visual editor for the Cursor Browser</title>
-      <link>https://cursor.com/blog/browser-visual-editor</link>
-      <description>Bringing design and engineering closer together.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/browser-visual-editor</guid>
-      <category>product</category>
-      <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Graphite is joining Cursor</title>
@@ -303,12 +39,284 @@
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Hooks for security and platform teams</title>
-      <link>https://cursor.com/blog/hooks-partners</link>
-      <description>We're partnering with ecosystem vendors who have built hooks support with Cursor.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/hooks-partners</guid>
+      <title>A visual editor for the Cursor Browser</title>
+      <link>https://cursor.com/blog/browser-visual-editor</link>
+      <description>Bringing design and engineering closer together.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/browser-visual-editor</guid>
       <category>product</category>
-      <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Debug Mode: Agents with runtime logs</title>
+      <link>https://cursor.com/blog/debug-mode</link>
+      <description>Debug Mode helps you reproduce and fix the most tricky bugs.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/debug-mode</guid>
+      <category>product</category>
+      <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Improving Cursor’s agent for OpenAI Codex models</title>
+      <link>https://cursor.com/blog/codex-model-harness</link>
+      <description>How we updated our agent harness to support GPT-5.1-Codex-Max.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/codex-model-harness</guid>
+      <category>product</category>
+      <pubDate>Thu, 04 Dec 2025 16:02:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Past, Present, and Future</title>
+      <link>https://cursor.com/blog/series-d</link>
+      <description>We raised our Series D of $2.3B and have passed $1B in annualized revenue.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/series-d</guid>
+      <category>company</category>
+      <pubDate>Thu, 13 Nov 2025 11:27:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>The productivity impact of coding agents</title>
+      <link>https://cursor.com/blog/productivity</link>
+      <description>A new study from the University of Chicago finds that companies merge 39% more PRs after Cursor's agent became the default.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/productivity</guid>
+      <category>research</category>
+      <pubDate>Tue, 11 Nov 2025 17:37:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Improving agent with semantic search</title>
+      <link>https://cursor.com/blog/semsearch</link>
+      <description>Semantic search significantly improves coding agent performance with 12.5% higher accuracy, improves code retention and decreases dissatisfied user requests.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/semsearch</guid>
+      <category>research</category>
+      <pubDate>Thu, 06 Nov 2025 03:10:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Cursor for Enterprise</title>
+      <link>https://cursor.com/blog/enterprise</link>
+      <description>Cursor is used by tens of thousands of enterprises, including Salesforce, NVIDIA, and PwC, to accelerate product velocity and build durable software.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/enterprise</guid>
+      <category>product</category>
+      <pubDate>Fri, 31 Oct 2025 19:23:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cloud Agents</title>
+      <link>https://cursor.com/blog/cloud-agents</link>
+      <description>Cloud agents make it easy to run many agents at once, without requiring your laptop to stay connected to the internet.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/cloud-agents</guid>
+      <category>product</category>
+      <pubDate>Thu, 30 Oct 2025 15:09:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Composer: Building a fast frontier model with RL</title>
+      <link>https://cursor.com/blog/composer</link>
+      <description>Composer is our new agent model designed for software engineering intelligence and speed.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/composer</guid>
+      <category>research</category>
+      <pubDate>Wed, 29 Oct 2025 06:49:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Cursor 2.0 and Composer</title>
+      <link>https://cursor.com/blog/2-0</link>
+      <description>A new interface and our first coding model, both purpose-built for working with agents.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/2-0</guid>
+      <category>product</category>
+      <pubDate>Wed, 29 Oct 2025 04:54:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Plan Mode</title>
+      <link>https://cursor.com/blog/plan-mode</link>
+      <description>Cursor can now create plans, research your codebase, and run agents for significantly longer.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/plan-mode</guid>
+      <category>product</category>
+      <pubDate>Tue, 07 Oct 2025 17:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Improving Java support in Cursor</title>
+      <link>https://cursor.com/blog/java</link>
+      <description>We're speeding up the Java Language Server Protocol (LSP) and VS Code ecosystem.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/java</guid>
+      <category>product</category>
+      <pubDate>Wed, 01 Oct 2025 17:20:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Improving Cursor Tab with online RL</title>
+      <link>https://cursor.com/blog/tab-rl</link>
+      <description>Our new Tab model makes 21% fewer suggestions while having 28% higher accept rate.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/tab-rl</guid>
+      <category>research</category>
+      <pubDate>Fri, 12 Sep 2025 01:16:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>1.5x faster MoE training with custom MXFP8 kernels</title>
+      <link>https://cursor.com/blog/kernels</link>
+      <description>Achieving a 3.5x MoE layer speedup with a complete rebuild for Blackwell GPUs.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/kernels</guid>
+      <category>research</category>
+      <pubDate>Fri, 29 Aug 2025 02:55:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bringing the Cursor Agent to Linear</title>
+      <link>https://cursor.com/blog/linear</link>
+      <description>You can now trigger Cursor Background Agents directly from Linear, helping you fix bugs, build features, and respond quickly to user feedback.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/linear</guid>
+      <category>product</category>
+      <pubDate>Thu, 21 Aug 2025 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Updates to Teams and Auto</title>
+      <link>https://cursor.com/blog/aug-2025-pricing</link>
+      <description>Variable requests for teams and competitive pricing for Auto.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/aug-2025-pricing</guid>
+      <category>product</category>
+      <pubDate>Tue, 12 Aug 2025 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cursor Agent CLI</title>
+      <link>https://cursor.com/blog/cli</link>
+      <description>You can now use Cursor Agent from the CLI or headless in any environment.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/cli</guid>
+      <category>product</category>
+      <pubDate>Thu, 07 Aug 2025 07:10:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GPT-5 is now available in Cursor</title>
+      <link>https://cursor.com/blog/gpt-5</link>
+      <description>This is OpenAI's most powerful model, and we've found it to be quite effective for coding.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/gpt-5</guid>
+      <category>product</category>
+      <pubDate>Thu, 07 Aug 2025 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bugbot is out of beta</title>
+      <link>https://cursor.com/blog/bugbot-out-of-beta</link>
+      <description>Automatically review your PRs with Bugbot.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/bugbot-out-of-beta</guid>
+      <category>product</category>
+      <pubDate>Thu, 24 Jul 2025 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Clarifying our pricing</title>
+      <link>https://cursor.com/blog/june-2025-pricing</link>
+      <description>How the new Pro plan works and why we changed our pricing.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/june-2025-pricing</guid>
+      <category>product</category>
+      <pubDate>Fri, 04 Jul 2025 20:08:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cursor on web and mobile</title>
+      <link>https://cursor.com/blog/agent-web</link>
+      <description>Work with a powerful coding assistant anywhere with the Cursor Agent on web and mobile.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/agent-web</guid>
+      <category>product</category>
+      <pubDate>Mon, 30 Jun 2025 23:09:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Updates to Ultra and Pro</title>
+      <link>https://cursor.com/blog/new-tier</link>
+      <description>In collaboration with the model providers, we’re introducing a $200 / mo tier for power users.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/new-tier</guid>
+      <category>product</category>
+      <pubDate>Mon, 16 Jun 2025 20:08:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Series C and Scale</title>
+      <link>https://cursor.com/blog/series-c</link>
+      <description>We’ve raised $900m to push the frontier of AI coding research.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/series-c</guid>
+      <category>company</category>
+      <pubDate>Fri, 06 Jun 2025 20:08:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Early team</title>
+      <link>https://cursor.com/blog/team</link>
+      <description>Lots of great people are behind Cursor! Here are some.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/team</guid>
+      <category>company</category>
+      <pubDate>Sat, 26 Apr 2025 20:08:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Series B and Automating Code</title>
+      <link>https://cursor.com/blog/series-b</link>
+      <description>We’ve raised $105M to further our mission of automating code.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/series-b</guid>
+      <category>company</category>
+      <pubDate>Thu, 16 Jan 2025 21:08:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A new Tab model</title>
+      <link>https://cursor.com/blog/tab-update</link>
+      <description>Announcing the next-generation Cursor Tab model.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/tab-update</guid>
+      <category>product</category>
+      <pubDate>Mon, 13 Jan 2025 21:08:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Character Prefix Conditioning</title>
+      <link>https://cursor.com/blog/cpc</link>
+      <description>A clever algorithm for more accurate code completion sampling.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/cpc</guid>
+      <category>product</category>
+      <pubDate>Mon, 06 Jan 2025 21:08:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Supermaven joins Cursor</title>
+      <link>https://cursor.com/blog/supermaven</link>
+      <description>We’re teaming up to build the next phase of AI coding.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/supermaven</guid>
+      <category>company</category>
+      <pubDate>Tue, 12 Nov 2024 00:58:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Iterating with shadow workspaces</title>
+      <link>https://cursor.com/blog/shadow-workspace</link>
+      <description>Hidden windows and kernel-level folder proxies to let AIs iterate on code without affecting the user.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/shadow-workspace</guid>
+      <category>research</category>
+      <pubDate>Sun, 01 Sep 2024 23:58:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Series A and Magic</title>
+      <link>https://cursor.com/blog/series-a</link>
+      <description>We’ve raised $60M to create a magical tool with the aim of writing the world’s software.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/series-a</guid>
+      <category>company</category>
+      <pubDate>Thu, 22 Aug 2024 23:58:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>More problems</title>
+      <link>https://cursor.com/blog/problems-2024</link>
+      <description>Several exciting problem areas for the next phase of AI-programming.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/problems-2024</guid>
+      <category>research</category>
+      <pubDate>Sat, 25 May 2024 23:58:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Editing Files at 1000 Tokens per Second</title>
+      <link>https://cursor.com/blog/instant-apply</link>
+      <description>A new model and inference method for high-accuracy full-file edits at 1000 tokens/s.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/instant-apply</guid>
+      <category>research</category>
+      <pubDate>Tue, 14 May 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Our problems</title>
+      <link>https://cursor.com/blog/problems-2023</link>
+      <description>A list of problems we are excited to solve for Cursor.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/problems-2023</guid>
+      <category>research</category>
+      <pubDate>Thu, 12 Oct 2023 23:58:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Inference characteristics of Llama</title>
+      <link>https://cursor.com/blog/llama-inference</link>
+      <description>A primer on inference math and an examination of the surprising costs of Llama.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/llama-inference</guid>
+      <category>research</category>
+      <pubDate>Thu, 20 Jul 2023 16:11:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Prompt design</title>
+      <link>https://cursor.com/blog/prompt-design</link>
+      <description>Prompting is like web design. Let’s call it prompt design, and build better tools for it.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/prompt-design</guid>
+      <category>research</category>
+      <pubDate>Sun, 11 Jun 2023 23:58:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

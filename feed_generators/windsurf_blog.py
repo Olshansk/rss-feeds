@@ -5,6 +5,8 @@ from feedgen.feed import FeedGenerator
 import logging
 from pathlib import Path
 
+from utils import sort_posts_for_feed
+
 # Set up logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
@@ -103,8 +105,8 @@ def generate_rss_feed(blog_posts, feed_name="windsurf_blog"):
         fg.link(href="https://windsurf.com/blog", rel="alternate")
         fg.link(href=f"https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_{feed_name}.xml", rel="self")
 
-        # Sort by date (newest first)
-        blog_posts_sorted = sorted(blog_posts, key=lambda x: x["date"], reverse=True)
+        # Sort for correct feed order (newest first in output)
+        blog_posts_sorted = sort_posts_for_feed(blog_posts, date_field="date")
 
         for post in blog_posts_sorted:
             fe = fg.add_entry()

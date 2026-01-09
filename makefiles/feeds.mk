@@ -10,11 +10,18 @@ feeds_generate_all: ## Generate all RSS feeds
 	$(call print_success,All feeds generated)
 
 .PHONY: feeds_anthropic_news
-feeds_anthropic_news: ## Generate RSS feed for Anthropic News
+feeds_anthropic_news: ## Generate RSS feed for Anthropic News (incremental)
 	$(call check_venv)
 	$(call print_info,Generating Anthropic News feed)
 	$(Q)python feed_generators/anthropic_news_blog.py
 	$(call print_success,Anthropic News feed generated)
+
+.PHONY: feeds_anthropic_news_full
+feeds_anthropic_news_full: ## Generate RSS feed for Anthropic News (full reset)
+	$(call check_venv)
+	$(call print_info,Generating Anthropic News feed - FULL RESET)
+	$(Q)python feed_generators/anthropic_news_blog.py --full
+	$(call print_success,Anthropic News feed generated - full reset)
 
 .PHONY: feeds_anthropic_engineering
 feeds_anthropic_engineering: ## Generate RSS feed for Anthropic Engineering
@@ -43,6 +50,13 @@ feeds_anthropic_red: ## Generate RSS feed for Anthropic Frontier Red Team
 	$(call print_info,Generating Anthropic Red Team feed)
 	$(Q)python feed_generators/anthropic_red_blog.py
 	$(call print_success,Anthropic Red Team feed generated)
+
+.PHONY: feeds_google_ai
+feeds_google_ai: ## Generate RSS feed for Google AI Blog
+	$(call check_venv)
+	$(call print_info,Generating Google AI feed)
+	$(Q)python feed_generators/google_ai_blog.py
+	$(call print_success,Google AI feed generated)
 
 .PHONY: feeds_openai_research
 feeds_openai_research: ## Generate RSS feed for OpenAI Research
@@ -141,6 +155,13 @@ feeds_the_batch: ## Generate RSS feed for The Batch by DeepLearning.AI
 	$(call print_info,Generating The Batch feed)
 	$(Q)python feed_generators/deeplearningai_the_batch.py
 	$(call print_success,The Batch feed generated)
+
+.PHONY: feeds_dagster
+feeds_dagster: ## Generate RSS feed for Dagster Blog
+	$(call check_venv)
+	$(call print_info,Generating Dagster Blog feed)
+	$(Q)python feed_generators/dagster_blog.py
+	$(call print_success,Dagster Blog feed generated)
 
 .PHONY: clean_feeds
 clean_feeds: ## Clean generated RSS feed files
