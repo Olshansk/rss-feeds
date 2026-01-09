@@ -4,6 +4,7 @@ from datetime import datetime
 from pathlib import Path
 
 import pytz
+import requests
 from bs4 import BeautifulSoup
 from dateutil import parser as date_parser
 from feedgen.feed import FeedGenerator
@@ -11,16 +12,25 @@ from feedgen.feed import FeedGenerator
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
 
-
 PROJECT_ROOT = Path(__file__).parent.parent
-HTML_FILENAME = "The Batch _ DeepLearning.AI _ AI News & Insights.html"
 BLOG_URL = "https://www.deeplearning.ai/the-batch/"
+MAX_PAGES = 30  # Safety limit for pagination
 
 
 def ensure_feeds_directory() -> Path:
     feeds_dir = PROJECT_ROOT / "feeds"
     feeds_dir.mkdir(exist_ok=True)
     return feeds_dir
+
+
+def fetch_page(url: str) -> str:
+    """Fetch a page using requests with proper headers."""
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+    }
+    response = requests.get(url, headers=headers, timeout=30)
+    response.raise_for_status()
+    return response.text
 
 
 def parse_date(value: str | None) -> datetime:
@@ -44,14 +54,18 @@ def clean_text(text: str | None) -> str | None:
 
 
 def extract_article_link(article) -> str | None:
-    """Return first deeplearning.ai article link excluding tag links."""
+    """Return first article link excluding tag links. Handles relative URLs."""
     for anchor in article.find_all("a", href=True):
         href = anchor["href"]
-        if "deeplearning.ai/the-batch" not in href:
-            continue
+        # Skip tag links
         if "/tag/" in href:
             continue
-        return href
+        # Match both absolute and relative URLs to /the-batch/
+        if href.startswith("/the-batch/") or "deeplearning.ai/the-batch" in href:
+            # Convert relative to absolute URL
+            if href.startswith("/"):
+                return f"https://www.deeplearning.ai{href}"
+            return href
     return None
 
 
@@ -62,7 +76,7 @@ def extract_date_text(article) -> str | None:
 
     # Featured card uses a pill with plain text (e.g., "Dec 26, 2025")
     date_pattern = re.compile(
-        "(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\\s+\\d{1,2},\\s+\\d{4}",
+        r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+\d{1,2},\s+\d{4}",
         re.I,
     )
     for tag in article.find_all(["a", "div", "span"]):
@@ -88,8 +102,9 @@ def extract_description(article) -> str | None:
     return None
 
 
-def parse_articles_from_html(html_path: Path) -> list[dict]:
-    soup = BeautifulSoup(html_path.read_text(), "lxml")
+def parse_articles_from_html(html_content: str) -> list[dict]:
+    """Parse articles from HTML content string."""
+    soup = BeautifulSoup(html_content, "lxml")
     articles = []
 
     for article in soup.find_all("article"):
@@ -108,8 +123,54 @@ def parse_articles_from_html(html_path: Path) -> list[dict]:
 
         articles.append({"title": title, "link": link, "published": published, "description": description})
 
-    logger.info("Parsed %d articles from %s", len(articles), html_path)
     return articles
+
+
+def fetch_all_articles() -> list[dict]:
+    """Fetch all articles by iterating through paginated pages."""
+    all_articles = []
+    seen_links = set()
+
+    for page_num in range(1, MAX_PAGES + 1):
+        # Construct page URL
+        if page_num == 1:
+            url = BLOG_URL
+        else:
+            url = f"{BLOG_URL}page/{page_num}/"
+
+        logger.info(f"Fetching page {page_num}: {url}")
+
+        try:
+            html_content = fetch_page(url)
+        except requests.HTTPError as e:
+            if e.response.status_code == 404:
+                logger.info(f"Page {page_num} not found, stopping pagination")
+                break
+            raise
+
+        # Parse articles from current page
+        page_articles = parse_articles_from_html(html_content)
+
+        if not page_articles:
+            logger.info(f"No articles found on page {page_num}, stopping pagination")
+            break
+
+        # Deduplicate and add new articles
+        new_count = 0
+        for article in page_articles:
+            if article["link"] not in seen_links:
+                seen_links.add(article["link"])
+                all_articles.append(article)
+                new_count += 1
+
+        logger.info(f"Page {page_num}: Found {len(page_articles)} articles, {new_count} new")
+
+        if new_count == 0:
+            logger.info("No new articles found, stopping pagination")
+            break
+
+    logger.info(f"Total articles fetched: {len(all_articles)}")
+    return all_articles
 
 
 def build_feed(articles: list[dict]) -> FeedGenerator:
@@ -139,13 +200,16 @@ def save_feed(feed: FeedGenerator, feed_name: str = "the_batch") -> Path:
 
 
 def main():
-    html_path = PROJECT_ROOT / HTML_FILENAME
-    if not html_path.exists():
-        raise FileNotFoundError(f"HTML file not found: {html_path}")
+    articles = fetch_all_articles()
 
-    articles = parse_articles_from_html(html_path)
+    if not articles:
+        logger.warning("No articles found")
+        return False
+
     feed = build_feed(articles)
     save_feed(feed, "the_batch")
+    logger.info(f"Successfully generated RSS feed with {len(articles)} articles")
+    return True
 
 
 if __name__ == "__main__":
