@@ -13,7 +13,14 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Jan 2026 23:02:56 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Jan 2026 00:10:11 +0000</lastBuildDate>
+    <item>
+      <title>v2.1.2</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#212</link>
+      <description>&lt;ul&gt;&lt;li&gt;Added source path metadata to images dragged onto the terminal, helping Claude understand where images originated&lt;/li&gt;&lt;li&gt;Added clickable hyperlinks for file paths in tool output in terminals that support OSC 8 (like iTerm)&lt;/li&gt;&lt;li&gt;Added support for Windows Package Manager (winget) installations with automatic detection and update instructions&lt;/li&gt;&lt;li&gt;Added Shift+Tab keyboard shortcut in plan mode to quickly select "auto-accept edits" option&lt;/li&gt;&lt;li&gt;Added `FORCE_AUTOUPDATE_PLUGINS` environment variable to allow plugin autoupdate even when the main auto-updater is disabled&lt;/li&gt;&lt;li&gt;Added `agent_type` to SessionStart hook input, populated if `--agent` is specified&lt;/li&gt;&lt;li&gt;Fixed a command injection vulnerability in bash command processing where malformed input could execute arbitrary commands&lt;/li&gt;&lt;li&gt;Fixed a memory leak where tree-sitter parse trees were not being freed, causing WASM memory to grow unbounded over long sessions&lt;/li&gt;&lt;li&gt;Fixed binary files (images, PDFs, etc.) being accidentally included in memory when using `@include` directives in CLAUDE.md files&lt;/li&gt;&lt;li&gt;Fixed updates incorrectly claiming another installation is in progress&lt;/li&gt;&lt;li&gt;Fixed crash when socket files exist in watched directories (defense-in-depth for EOPNOTSUPP errors)&lt;/li&gt;&lt;li&gt;Fixed remote session URL and teleport being broken when using `/tasks` command&lt;/li&gt;&lt;li&gt;Fixed MCP tool names being exposed in analytics events by sanitizing user-specific server configurations&lt;/li&gt;&lt;li&gt;Improved Option-as-Meta hint on macOS to show terminal-specific instructions for native CSIu terminals like iTerm2, Kitty, and WezTerm&lt;/li&gt;&lt;li&gt;Improved error message when pasting images over SSH to suggest using `scp` instead of the unhelpful clipboard shortcut hint&lt;/li&gt;&lt;li&gt;Improved permission explainer to not flag routine dev workflows (git fetch/rebase, npm install, tests, PRs) as medium risk&lt;/li&gt;&lt;li&gt;Changed large bash command outputs to be saved to disk instead of truncated, allowing Claude to read the full content&lt;/li&gt;&lt;li&gt;Changed large tool outputs to be persisted to disk instead of truncated, providing full output access via file references&lt;/li&gt;&lt;li&gt;Changed `/plugins` installed tab to unify plugins and MCPs with scope-based grouping&lt;/li&gt;&lt;li&gt;Deprecated Windows managed settings path `C:\ProgramData\ClaudeCode\managed-settings.json` - administrators should migrate to `C:\Program Files\ClaudeCode\managed-settings.json`&lt;/li&gt;&lt;li&gt;[SDK] Changed minimum zod peer dependency to ^4.0.0&lt;/li&gt;&lt;li&gt;[VSCode] Fixed usage display not updating after manual compact&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#212</guid>
+      <category>Changelog</category>
+    </item>
     <item>
       <title>v2.1.0</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#210</link>
@@ -355,13 +362,6 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2017</link>
       <description>&lt;ul&gt;&lt;li&gt;Added Haiku 4.5 to model selector!&lt;/li&gt;&lt;li&gt;Haiku 4.5 automatically uses Sonnet in plan mode, and Haiku for execution (i.e. SonnetPlan by default)&lt;/li&gt;&lt;li&gt;3P (Bedrock and Vertex) are not automatically upgraded yet. Manual upgrading can be done through setting `ANTHROPIC_DEFAULT_HAIKU_MODEL`&lt;/li&gt;&lt;li&gt;Introducing the Explore subagent. Powered by Haiku it'll search through your codebase efficiently to save context!&lt;/li&gt;&lt;li&gt;OTEL: support HTTP_PROXY and HTTPS_PROXY&lt;/li&gt;&lt;li&gt;`CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC` now disables release notes fetching&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2017</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.15</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2015</link>
-      <description>&lt;ul&gt;&lt;li&gt;Fixed bug with resuming where previously created files needed to be read again before writing&lt;/li&gt;&lt;li&gt;Fixed bug with `-p` mode where @-mentioned files needed to be read again before writing&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2015</guid>
       <category>Changelog</category>
     </item>
   </channel>

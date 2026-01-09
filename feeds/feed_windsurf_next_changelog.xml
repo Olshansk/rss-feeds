@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Jan 2026 23:06:07 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Jan 2026 00:11:21 +0000</lastBuildDate>
     <item>
       <title>Windsurf Next 1.13.106</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.13.106</link>
@@ -24,6 +24,14 @@
       <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.13.104#1.13.104</guid>
       <category>Changelog</category>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.12.167</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.12.167</link>
+      <description>&lt;h3&gt;Bug Fixes and Performance Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fix race condition in the new dedicated terminal implementation&lt;/li&gt;&lt;li&gt;MCP fixes&lt;/li&gt;&lt;li&gt;Added setting to control scroll-to-next-hunk behavior in diff zones (default off)&lt;/li&gt;&lt;li&gt;Improve markdown completion&lt;/li&gt;&lt;li&gt;Preserve terminal colors and styling in the Cascade terminal output pane&lt;/li&gt;&lt;li&gt;Diff zone fixes and improvements&lt;/li&gt;&lt;li&gt;Support turbo mode for web fetch requests made by Cascade's Web Fetch tool&lt;/li&gt;&lt;li&gt;Support force killing commands in the new dedicated terminal&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.12.167#1.12.167</guid>
+      <category>Changelog</category>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Windsurf Next 1.12.166</title>
@@ -688,6 +696,14 @@
       <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.6.112#1.6.112</guid>
       <category>Changelog</category>
       <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.6.111</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.6.111</link>
+      <description>&lt;p&gt;&lt;strong&gt;Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;UI Fixes and updates&lt;/li&gt;&lt;li&gt;Cascade icon returned in upper corner&lt;/li&gt;&lt;li&gt;Improvements to terminal output rendering in Cascade&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.6.111#1.6.111</guid>
+      <category>Changelog</category>
+      <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Windsurf Next 1.6.110</title>
