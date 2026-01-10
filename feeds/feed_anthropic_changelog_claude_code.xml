@@ -13,7 +13,14 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 09 Jan 2026 23:02:55 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Jan 2026 00:09:56 +0000</lastBuildDate>
+    <item>
+      <title>v2.1.3</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#213</link>
+      <description>&lt;ul&gt;&lt;li&gt;Merged slash commands and skills, simplifying the mental model with no change in behavior&lt;/li&gt;&lt;li&gt;Added release channel (`stable` or `latest`) toggle to `/config`&lt;/li&gt;&lt;li&gt;Added detection and warnings for unreachable permission rules, with warnings in `/doctor` and after saving rules that include the source of each rule and actionable fix guidance&lt;/li&gt;&lt;li&gt;Fixed plan files persisting across `/clear` commands, now ensuring a fresh plan file is used after clearing a conversation&lt;/li&gt;&lt;li&gt;Fixed false skill duplicate detection on filesystems with large inodes (e.g., ExFAT) by using 64-bit precision for inode values&lt;/li&gt;&lt;li&gt;Fixed mismatch between background task count in status bar and items shown in tasks dialog&lt;/li&gt;&lt;li&gt;Fixed sub-agents using the wrong model during conversation compaction&lt;/li&gt;&lt;li&gt;Fixed web search in sub-agents using incorrect model&lt;/li&gt;&lt;li&gt;Fixed trust dialog acceptance when running from the home directory not enabling trust-requiring features like hooks during the session&lt;/li&gt;&lt;li&gt;Improved terminal rendering stability by preventing uncontrolled writes from corrupting cursor state&lt;/li&gt;&lt;li&gt;Improved slash command suggestion readability by truncating long descriptions to 2 lines&lt;/li&gt;&lt;li&gt;Changed tool hook execution timeout from 60 seconds to 10 minutes&lt;/li&gt;&lt;li&gt;[VSCode] Added clickable destination selector for permission requests, allowing you to choose where settings are saved (this project, all projects, shared with team, or session only)&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#213</guid>
+      <category>Changelog</category>
+    </item>
     <item>
       <title>v2.1.2</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#212</link>
@@ -355,13 +362,6 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2019</link>
       <description>&lt;ul&gt;&lt;li&gt;Auto-background long-running bash commands instead of killing them. Customize with BASH_DEFAULT_TIMEOUT_MS&lt;/li&gt;&lt;li&gt;Fixed a bug where Haiku was unnecessarily called in print mode&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2019</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.17</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2017</link>
-      <description>&lt;ul&gt;&lt;li&gt;Added Haiku 4.5 to model selector!&lt;/li&gt;&lt;li&gt;Haiku 4.5 automatically uses Sonnet in plan mode, and Haiku for execution (i.e. SonnetPlan by default)&lt;/li&gt;&lt;li&gt;3P (Bedrock and Vertex) are not automatically upgraded yet. Manual upgrading can be done through setting `ANTHROPIC_DEFAULT_HAIKU_MODEL`&lt;/li&gt;&lt;li&gt;Introducing the Explore subagent. Powered by Haiku it'll search through your codebase efficiently to save context!&lt;/li&gt;&lt;li&gt;OTEL: support HTTP_PROXY and HTTPS_PROXY&lt;/li&gt;&lt;li&gt;`CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC` now disables release notes fetching&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2017</guid>
       <category>Changelog</category>
     </item>
   </channel>
