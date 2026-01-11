@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 11 Jan 2026 19:03:20 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Jan 2026 20:04:57 +0000</lastBuildDate>
     <item>
       <title>Windsurf 1.13.5</title>
       <link>https://windsurf.com/changelog#1.13.5</link>
@@ -681,14 +681,6 @@
       <guid isPermaLink="false">https://windsurf.com/changelog#1.0.4#1.0.4</guid>
       <category>Changelog</category>
       <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf 1.0.3</title>
-      <link>https://windsurf.com/changelog#1.0.3</link>
-      <description>&lt;h3&gt;Improvements &amp; fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Minor fixes to Cascade&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog#1.0.3#1.0.3</guid>
-      <category>Changelog</category>
-      <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Windsurf 1.0.2</title>
