@@ -13,7 +13,14 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sun, 11 Jan 2026 00:11:19 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Jan 2026 01:31:37 +0000</lastBuildDate>
+    <item>
+      <title>v2.1.4</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#214</link>
+      <description>&lt;ul&gt;&lt;li&gt;Added `CLAUDE_CODE_DISABLE_BACKGROUND_TASKS` environment variable to disable all background task functionality including auto-backgrounding and the Ctrl+B shortcut&lt;/li&gt;&lt;li&gt;Fixed "Help improve Claude" setting fetch to refresh OAuth and retry when it fails due to a stale OAuth token&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#214</guid>
+      <category>Changelog</category>
+    </item>
     <item>
       <title>v2.1.3</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#213</link>
@@ -355,13 +362,6 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2020</link>
       <description>&lt;ul&gt;&lt;li&gt;Added support for Claude Skills&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2020</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.19</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2019</link>
-      <description>&lt;ul&gt;&lt;li&gt;Auto-background long-running bash commands instead of killing them. Customize with BASH_DEFAULT_TIMEOUT_MS&lt;/li&gt;&lt;li&gt;Fixed a bug where Haiku was unnecessarily called in print mode&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2019</guid>
       <category>Changelog</category>
     </item>
   </channel>
