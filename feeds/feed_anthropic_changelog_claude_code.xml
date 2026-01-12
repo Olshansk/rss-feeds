@@ -13,7 +13,14 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Jan 2026 18:04:16 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Jan 2026 19:04:58 +0000</lastBuildDate>
+    <item>
+      <title>v2.1.5</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#215</link>
+      <description>&lt;ul&gt;&lt;li&gt;Added `CLAUDE_CODE_TMPDIR` environment variable to override the temp directory used for internal temp files, useful for environments with custom temp directory requirements&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#215</guid>
+      <category>Changelog</category>
+    </item>
     <item>
       <title>v2.1.4</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#214</link>
@@ -355,13 +362,6 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2021</link>
       <description>&lt;ul&gt;&lt;li&gt;Support MCP `structuredContent` field in tool responses&lt;/li&gt;&lt;li&gt;Added an interactive question tool&lt;/li&gt;&lt;li&gt;Claude will now ask you questions more often in plan mode&lt;/li&gt;&lt;li&gt;Added Haiku 4.5 as a model option for Pro users&lt;/li&gt;&lt;li&gt;Fixed an issue where queued commands don't have access to previous messages' output&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2021</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.20</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2020</link>
-      <description>&lt;ul&gt;&lt;li&gt;Added support for Claude Skills&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2020</guid>
       <category>Changelog</category>
     </item>
   </channel>
