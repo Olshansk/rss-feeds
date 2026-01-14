@@ -8,7 +8,18 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Jan 2026 18:05:29 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Jan 2026 19:05:48 +0000</lastBuildDate>
+    <item>
+      <title>GPT-5.2-Codex is now available in Windsurf!</title>
+      <link>https://windsurf.com/blog/gpt-5-2-codex</link>
+      <description>GPT-5.2-Codex is now available in Windsurf with multiple reasoning effort levels. For a limited time, enjoy discounts on credit usage.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/gpt-5-2-codex</guid>
+      <category>product</category>
+      <category>company</category>
+      <category>openai</category>
+      <category>windsurf</category>
+      <pubDate>Wed, 14 Jan 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Windsurf Wave 13: Merry Shipmas</title>
       <link>https://windsurf.com/blog/windsurf-wave-13</link>
