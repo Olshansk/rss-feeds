@@ -13,19 +13,30 @@
       <link>https://anthropic.com/feed_anthropic_red.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Jan 2026 03:33:01 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Jan 2026 04:21:24 +0000</lastBuildDate>
     <item>
       <title>Experimenting with AI to Defend Critical Infrastructure</title>
       <link>https://red.anthropic.com/2026/critical-infrastructure-defense/</link>
       <description>AI could help defenders of critical infrastructure identify the vulnerabilities that attackers
-                        might
-                        exploit—and close them before they are exploited. Anthropic has partnered with Pacific Northwest
-                        National Laboratory (PNNL) to explore this defensive application of AI, demonstrating both the
-                        potential of AI-accelerated defense and the value of public-private partnerships in harnessing
-                        AI
-                        for national security.</description>
+                    might
+                    exploit—and close them before they are exploited. Anthropic has partnered with Pacific Northwest
+                    National Laboratory (PNNL) to explore this defensive application of AI, demonstrating both the
+                    potential of AI-accelerated defense and the value of public-private partnerships in harnessing
+                    AI
+                    for national security.</description>
       <guid isPermaLink="false">https://red.anthropic.com/2026/critical-infrastructure-defense/</guid>
       <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Finding Bugs with Claude and Property-based Testing</title>
+      <link>https://red.anthropic.com/2026/property-based-testing/</link>
+      <description>Ensuring that programs are bug-free is one of the most challenging aspects of software
+                        engineering. We developed an agent that can efficiently identify bugs in large software
+                        projects. Our agent infers general properties of code that should be true, and then applies
+                        property-based testing. After extensive manual validation, we are in the process of reporting
+                        bugs in top Python packages to their developers, several of which have already been patched.</description>
+      <guid isPermaLink="false">https://red.anthropic.com/2026/property-based-testing/</guid>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Project Vend: Phase Two</title>
