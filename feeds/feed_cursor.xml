@@ -13,11 +13,11 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Jan 2026 19:09:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Jan 2026 20:04:48 +0000</lastBuildDate>
     <item>
       <title>Building a better Bugbot</title>
       <link>https://cursor.com/blog/building-bugbot</link>
-      <description>The process of building Bugbot began with qualitative assessments and gradually evolved into a more systematic approach, using a custom AI-driven metric to hill-climb on quality.</description>
+      <description>How we used a custom AI-driven metric to systematically improve Bugbot.</description>
       <guid isPermaLink="false">https://cursor.com/blog/building-bugbot</guid>
       <category>research</category>
       <pubDate>Thu, 15 Jan 2026 12:00:00 +0000</pubDate>
