@@ -13,7 +13,7 @@
       <link>https://anthropic.com/research/feed_anthropic_research.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Jan 2026 10:03:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Jan 2026 11:03:52 +0000</lastBuildDate>
     <item>
       <title>Societal Impacts</title>
       <link>https://www.anthropic.com/research/team/societal-impacts</link>
@@ -41,6 +41,22 @@
       <description>Alignment</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
       <category>Research</category>
+    </item>
+    <item>
+      <title>Jan 15, 2026Economic ResearchAnthropic Economic Index report: economic primitives</title>
+      <link>https://www.anthropic.com/research/anthropic-economic-index-january-2026-report</link>
+      <description>Jan 15, 2026Economic ResearchAnthropic Economic Index report: economic primitives</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/anthropic-economic-index-january-2026-report</guid>
+      <category>Research</category>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Jan 15, 2026Economic ResearchAnthropic Economic Index: new building blocks for understanding AI use</title>
+      <link>https://www.anthropic.com/research/economic-index-primitives</link>
+      <description>Jan 15, 2026Economic ResearchAnthropic Economic Index: new building blocks for understanding AI use</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/economic-index-primitives</guid>
+      <category>Research</category>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Jan 9, 2026AlignmentNext-generation Constitutional Classifiers: More efficient protection against universal jailbreaks</title>
@@ -105,22 +121,6 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/emergent-misalignment-reward-hacking</guid>
       <category>Research</category>
       <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Nov 12, 2025PolicyProject Fetch: Can Claude train a robot dog?</title>
-      <link>https://www.anthropic.com/research/project-fetch-robot-dog</link>
-      <description>Nov 12, 2025PolicyProject Fetch: Can Claude train a robot dog?</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/project-fetch-robot-dog</guid>
-      <category>Research</category>
-      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Nov 4, 2025AlignmentCommitments on model deprecation and preservation</title>
-      <link>https://www.anthropic.com/research/deprecation-commitments</link>
-      <description>Nov 4, 2025AlignmentCommitments on model deprecation and preservation</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/deprecation-commitments</guid>
-      <category>Research</category>
-      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>InterpretabilityOct 29, 2025Signs of introspection in large language modelsCan Claude access and report on its own internal states? This research finds evidence for a limited but functional ability to introspect—a step toward understanding what's actually happening inside these models.</title>
