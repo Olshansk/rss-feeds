@@ -13,7 +13,27 @@
       <link>https://anthropic.com/feed_anthropic_red.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Jan 2026 14:05:19 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Jan 2026 15:04:55 +0000</lastBuildDate>
+    <item>
+      <title>AI Models on Realistic Cyber Ranges</title>
+      <link>https://red.anthropic.com/2026/cyber-toolkits-update/</link>
+      <description>In a recent evaluation of AI models’ cyber capabilities, current Claude models can now succeed
+                        at multistage attacks on networks with dozens of hosts using only standard, open-source tools,
+                        instead of the custom tools needed by previous generations.</description>
+      <guid isPermaLink="false">https://red.anthropic.com/2026/cyber-toolkits-update/</guid>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Finding Bugs with Claude and Property-based Testing</title>
+      <link>https://red.anthropic.com/2026/property-based-testing/</link>
+      <description>Ensuring that programs are bug-free is one of the most challenging aspects of software
+                        engineering. We developed an agent that can efficiently identify bugs in large software
+                        projects. Our agent infers general properties of code that should be true, and then applies
+                        property-based testing. After extensive manual validation, we are in the process of reporting
+                        bugs in top Python packages to their developers, several of which have already been patched.</description>
+      <guid isPermaLink="false">https://red.anthropic.com/2026/property-based-testing/</guid>
+      <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Experimenting with AI to Defend Critical Infrastructure</title>
       <link>https://red.anthropic.com/2026/critical-infrastructure-defense/</link>
@@ -26,17 +46,6 @@
                     for national security.</description>
       <guid isPermaLink="false">https://red.anthropic.com/2026/critical-infrastructure-defense/</guid>
       <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Finding Bugs with Claude and Property-based Testing</title>
-      <link>https://red.anthropic.com/2026/property-based-testing/</link>
-      <description>Ensuring that programs are bug-free is one of the most challenging aspects of software
-                        engineering. We developed an agent that can efficiently identify bugs in large software
-                        projects. Our agent infers general properties of code that should be true, and then applies
-                        property-based testing. After extensive manual validation, we are in the process of reporting
-                        bugs in top Python packages to their developers, several of which have already been patched.</description>
-      <guid isPermaLink="false">https://red.anthropic.com/2026/property-based-testing/</guid>
-      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Project Vend: Phase Two</title>
