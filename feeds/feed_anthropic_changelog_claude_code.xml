@@ -13,7 +13,14 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Jan 2026 01:31:19 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Jan 2026 02:39:22 +0000</lastBuildDate>
+    <item>
+      <title>v2.1.9</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#219</link>
+      <description>&lt;ul&gt;&lt;li&gt;Added `auto:N` syntax for configuring the MCP tool search auto-enable threshold, where N is the context window percentage (0-100)&lt;/li&gt;&lt;li&gt;Added `plansDirectory` setting to customize where plan files are stored&lt;/li&gt;&lt;li&gt;Added external editor support (Ctrl+G) in AskUserQuestion "Other" input field&lt;/li&gt;&lt;li&gt;Added session URL attribution to commits and PRs created from web sessions&lt;/li&gt;&lt;li&gt;Added support for `PreToolUse` hooks to return `additionalContext` to the model&lt;/li&gt;&lt;li&gt;Added `${CLAUDE_SESSION_ID}` string substitution for skills to access the current session ID&lt;/li&gt;&lt;li&gt;Fixed long sessions with parallel tool calls failing with an API error about orphan tool_result blocks&lt;/li&gt;&lt;li&gt;Fixed MCP server reconnection hanging when cached connection promise never resolves&lt;/li&gt;&lt;li&gt;Fixed Ctrl+Z suspend not working in terminals using Kitty keyboard protocol (Ghostty, iTerm2, kitty, WezTerm)&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#219</guid>
+      <category>Changelog</category>
+    </item>
     <item>
       <title>v2.1.7</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#217</link>
@@ -355,13 +362,6 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2025</link>
       <description>&lt;ul&gt;&lt;li&gt;Removed legacy SDK entrypoint. Please migrate to @anthropic-ai/claude-agent-sdk for future SDK updates: https://platform.claude.com/docs/en/agent-sdk/migration-guide&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2025</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.24</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2024</link>
-      <description>&lt;ul&gt;&lt;li&gt;Fixed a bug where project-level skills were not loading when --setting-sources 'project' was specified&lt;/li&gt;&lt;li&gt;Claude Code Web: Support for Web -&gt; CLI teleport&lt;/li&gt;&lt;li&gt;Sandbox: Releasing a sandbox mode for the BashTool on Linux &amp; Mac&lt;/li&gt;&lt;li&gt;Bedrock: Display awsAuthRefresh output when auth is required&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2024</guid>
       <category>Changelog</category>
     </item>
   </channel>
