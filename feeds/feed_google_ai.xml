@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Jan 2026 16:03:47 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Jan 2026 17:05:18 +0000</lastBuildDate>
+    <item>
+      <title>A Guide to Fine-Tuning FunctionGemma</title>
+      <link>https://developers.googleblog.com/a-guide-to-fine-tuning-functiongemma/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/train-gpt2-model-with-jax-on-tpu-b.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;FunctionGemma is a specialized AI model for function calling. This post explains why fine-tuning is key to resolving tool selection ambiguity (e.g., internal vs. Google search) and achieving ultra-specialization, transforming it into a strict, enterprise-compliant agent. A case study demonstrates the improved logic. It also introduces the "FunctionGemma Tuning Lab," a no-code demo on Hugging Face Spaces, which streamlines the entire fine-tuning process for developers.</description>
+      <category>AI</category>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Under the Hood: Universal Commerce Protocol (UCP)</title>
       <link>https://developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/</link>
@@ -71,13 +78,6 @@
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/mcp-apigee-agentic-experience.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;The new Gemini Interactions API enables stateful, multi-turn AI agent workflows, providing a single interface for raw models and the Gemini Deep Research Agent. It can be integrated with existing ADK systems as a superior inference engine with simplified state management, or used as a transparent remote A2A agent via InteractionsApiTransport, allowing seamless expansion of multi-agent systems with minimal refactoring.</description>
       <category>AI</category>
       <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pick up exactly where you left off with Session Management in Gemini CLI</title>
-      <link>https://developers.googleblog.com/pick-up-exactly-where-you-left-off-with-session-management-in-gemini-cli/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_-_Session_Management_me.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Gemini CLI's new automatic **Session Management** (v0.20.0+) saves your conversation history, tool outputs, and reasoning, providing project-specific context. Resume easily using the **Interactive Session Browser** (`/resume`) or command-line flags (`--resume`). This feature ensures you never lose your work state, capturing prompts, tool execution details, and usage stats. Customize history with cleanup policies in `settings.json`.</description>
-      <category>AI</category>
-      <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
