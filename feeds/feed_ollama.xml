@@ -13,7 +13,7 @@
       <link>https://ollama.com/blog/feed_ollama.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Jan 2026 05:06:07 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Jan 2026 06:04:15 +0000</lastBuildDate>
     <item>
       <title>Run Llama 2 uncensored locally</title>
       <link>https://ollama.com/blog/run-llama2-uncensored-locally</link>
@@ -293,6 +293,13 @@
       <description>Ollama is partnering with OpenAI and ROOST (Robust Open Online Safety Tools) to bring the latest gpt-oss-safeguard reasoning models to users for safety classification tasks. gpt-oss-safeguard models are available in two sizes: 20B and 120B, and are permissively licensed under the Apache 2.0 license.</description>
       <guid isPermaLink="false">https://ollama.com/blog/gpt-oss-safeguard</guid>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI Codex with Ollama</title>
+      <link>https://ollama.com/blog/codex</link>
+      <description>Open models can be used with OpenAI's Codex CLI through Ollama. Codex can read, modify, and execute code in your working directory using models such as gpt-oss:20b, gpt-oss:120b, or other open-weight alternatives.</description>
+      <guid isPermaLink="false">https://ollama.com/blog/codex</guid>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
