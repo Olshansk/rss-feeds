@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Jan 2026 05:06:47 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Jan 2026 06:07:33 +0000</lastBuildDate>
     <item>
       <title>Automated Machine Learning — A Paradigm Shift That Accelerates Data Scientist Productivity @ Airbnb</title>
       <link>https://medium.com/airbnb-engineering/automated-machine-learning-a-paradigm-shift-that-accelerates-data-scientist-productivity-airbnb-f1f8a10d61f8</link>
@@ -120,6 +120,13 @@
       <description>Why Should ML Engineers Learn Kubernetes?</description>
       <guid isPermaLink="false">https://hamel.dev/./blog/posts/k8s/index.html</guid>
       <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>On commercializing nbdev</title>
+      <link>https://hamel.dev/./blog/posts/nbdev/index.html</link>
+      <description>On commercializing nbdev</description>
+      <guid isPermaLink="false">https://hamel.dev/./blog/posts/nbdev/index.html</guid>
+      <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Optimizing LLM latency</title>
@@ -273,7 +280,7 @@
       <link>https://hamel.dev/./blog/posts/evals-faq/index.html</link>
       <description>LLM Evals: Everything You Need to Know</description>
       <guid isPermaLink="false">https://hamel.dev/./blog/posts/evals-faq/index.html</guid>
-      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
