@@ -13,7 +13,7 @@
       <link>https://ollama.com/blog/feed_ollama.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Jan 2026 07:03:09 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Jan 2026 08:03:15 +0000</lastBuildDate>
     <item>
       <title>Run Llama 2 uncensored locally</title>
       <link>https://ollama.com/blog/run-llama2-uncensored-locally</link>
@@ -300,6 +300,13 @@
       <description>Open models can be used with OpenAI's Codex CLI through Ollama. Codex can read, modify, and execute code in your working directory using models such as gpt-oss:20b, gpt-oss:120b, or other open-weight alternatives.</description>
       <guid isPermaLink="false">https://ollama.com/blog/codex</guid>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Code with Anthropic API compatibility</title>
+      <link>https://ollama.com/blog/claude</link>
+      <description>Ollama is now compatible with the Anthropic Messages API, making it possible to use tools like Claude Code with open models.</description>
+      <guid isPermaLink="false">https://ollama.com/blog/claude</guid>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
