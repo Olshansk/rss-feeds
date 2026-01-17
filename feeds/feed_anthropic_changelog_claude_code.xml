@@ -13,7 +13,14 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Jan 2026 16:02:44 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Jan 2026 17:02:41 +0000</lastBuildDate>
+    <item>
+      <title>v2.1.12</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2112</link>
+      <description>&lt;ul&gt;&lt;li&gt;Fixed message rendering bug&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2112</guid>
+      <category>Changelog</category>
+    </item>
     <item>
       <title>v2.1.11</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2111</link>
@@ -355,13 +362,6 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2030</link>
       <description>&lt;ul&gt;&lt;li&gt;Added helpful hint to run `security unlock-keychain` when encountering API key errors on macOS with locked keychain&lt;/li&gt;&lt;li&gt;Added `allowUnsandboxedCommands` sandbox setting to disable the dangerouslyDisableSandbox escape hatch at policy level&lt;/li&gt;&lt;li&gt;Added `disallowedTools` field to custom agent definitions for explicit tool blocking&lt;/li&gt;&lt;li&gt;Added prompt-based stop hooks&lt;/li&gt;&lt;li&gt;VSCode: Added respectGitIgnore configuration to include .gitignored files in file searches (defaults to true)&lt;/li&gt;&lt;li&gt;Enabled SSE MCP servers on native build&lt;/li&gt;&lt;li&gt;Deprecated output styles. Review options in `/output-style` and use --system-prompt-file, --system-prompt, --append-system-prompt, CLAUDE.md, or plugins instead&lt;/li&gt;&lt;li&gt;Removed support for custom ripgrep configuration, resolving an issue where Search returns no results and config discovery fails&lt;/li&gt;&lt;li&gt;Fixed Explore agent creating unwanted .md investigation files during codebase exploration&lt;/li&gt;&lt;li&gt;Fixed a bug where `/context` would sometimes fail with "max_tokens must be greater than thinking.budget_tokens" error message&lt;/li&gt;&lt;li&gt;Fixed `--mcp-config` flag to correctly override file-based MCP configurations&lt;/li&gt;&lt;li&gt;Fixed bug that saved session permissions to local settings&lt;/li&gt;&lt;li&gt;Fixed MCP tools not being available to sub-agents&lt;/li&gt;&lt;li&gt;Fixed hooks and plugins not executing when using --dangerously-skip-permissions flag&lt;/li&gt;&lt;li&gt;Fixed delay when navigating through typeahead suggestions with arrow keys&lt;/li&gt;&lt;li&gt;VSCode: Restored selection indicator in input footer showing current file or code selection status&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2030</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.28</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2028</link>
-      <description>&lt;ul&gt;&lt;li&gt;Plan mode: introduced new Plan subagent&lt;/li&gt;&lt;li&gt;Subagents: claude can now choose to resume subagents&lt;/li&gt;&lt;li&gt;Subagents: claude can dynamically choose the model used by its subagents&lt;/li&gt;&lt;li&gt;SDK: added --max-budget-usd flag&lt;/li&gt;&lt;li&gt;Discovery of custom slash commands, subagents, and output styles no longer respects .gitignore&lt;/li&gt;&lt;li&gt;Stop `/terminal-setup` from adding backslash to `Shift + Enter` in VS Code&lt;/li&gt;&lt;li&gt;Add branch and tag support for git-based plugins and marketplaces using fragment syntax (e.g., `owner/repo#branch`)&lt;/li&gt;&lt;li&gt;Fixed a bug where macOS permission prompts would show up upon initial launch when launching from home directory&lt;/li&gt;&lt;li&gt;Various other bug fixes&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2028</guid>
       <category>Changelog</category>
     </item>
   </channel>
