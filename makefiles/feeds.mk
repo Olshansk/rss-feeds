@@ -100,6 +100,20 @@ feeds_chanderramesh: ## Generate RSS feed for Chander Ramesh's writing
 	$(Q)python feed_generators/chanderramesh_blog.py
 	$(call print_success,Chander Ramesh feed generated)
 
+.PHONY: feeds_claude
+feeds_claude: ## Generate RSS feed for Claude Blog (incremental)
+	$(call check_venv)
+	$(call print_info,Generating Claude Blog feed)
+	$(Q)python feed_generators/claude_blog.py
+	$(call print_success,Claude Blog feed generated)
+
+.PHONY: feeds_claude_full
+feeds_claude_full: ## Generate RSS feed for Claude Blog (full reset)
+	$(call check_venv)
+	$(call print_info,Generating Claude Blog feed - FULL RESET)
+	$(Q)python feed_generators/claude_blog.py --full
+	$(call print_success,Claude Blog feed generated - full reset)
+
 .PHONY: feeds_thinkingmachines
 feeds_thinkingmachines: ## Generate RSS feed for Thinking Machines Lab blog
 	$(call check_venv)
