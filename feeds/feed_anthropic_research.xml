@@ -13,7 +13,7 @@
       <link>https://anthropic.com/research/feed_anthropic_research.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Jan 2026 20:03:33 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Jan 2026 21:03:03 +0000</lastBuildDate>
     <item>
       <title>Societal Impacts</title>
       <link>https://www.anthropic.com/research/team/societal-impacts</link>
@@ -41,6 +41,14 @@
       <description>Alignment</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
       <category>Research</category>
+    </item>
+    <item>
+      <title>Jan 19, 2026InterpretabilityThe assistant axis: situating and stabilizing the character of large language models</title>
+      <link>https://www.anthropic.com/research/assistant-axis</link>
+      <description>Jan 19, 2026InterpretabilityThe assistant axis: situating and stabilizing the character of large language models</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/assistant-axis</guid>
+      <category>Research</category>
+      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Jan 15, 2026Economic ResearchAnthropic Economic Index report: economic primitives</title>
@@ -113,14 +121,6 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/prompt-injection-defenses</guid>
       <category>Research</category>
       <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Nov 21, 2025AlignmentFrom shortcuts to sabotage: natural emergent misalignment from reward hacking</title>
-      <link>https://www.anthropic.com/research/emergent-misalignment-reward-hacking</link>
-      <description>Nov 21, 2025AlignmentFrom shortcuts to sabotage: natural emergent misalignment from reward hacking</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/emergent-misalignment-reward-hacking</guid>
-      <category>Research</category>
-      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>InterpretabilityOct 29, 2025Signs of introspection in large language modelsCan Claude access and report on its own internal states? This research finds evidence for a limited but functional ability to introspect—a step toward understanding what's actually happening inside these models.</title>
