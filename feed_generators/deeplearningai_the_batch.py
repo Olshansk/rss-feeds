@@ -11,10 +11,12 @@ import undetected_chromedriver as uc
 from bs4 import BeautifulSoup
 from dateutil import parser as date_parser
 from feedgen.feed import FeedGenerator
+from utils import (get_cache_dir, get_feeds_dir, setup_feed_links,
+                   sort_posts_for_feed)
 
-from utils import get_cache_dir, get_feeds_dir, setup_feed_links, sort_posts_for_feed
-
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
 logger = logging.getLogger(__name__)
 
 FEED_NAME = "the_batch"
@@ -72,9 +74,13 @@ def deserialize_articles(articles):
         article_copy = article.copy()
         if isinstance(article_copy.get("published"), str):
             try:
-                article_copy["published"] = datetime.fromisoformat(article_copy["published"])
+                article_copy["published"] = datetime.fromisoformat(
+                    article_copy["published"]
+                )
             except ValueError:
-                article_copy["published"] = stable_fallback_date(article_copy.get("link", ""))
+                article_copy["published"] = stable_fallback_date(
+                    article_copy.get("link", "")
+                )
         result.append(article_copy)
     return result
 
@@ -135,76 +141,175 @@ def clean_text(text: str | None) -> str | None:
     return " ".join(text.split())
 
 
-def extract_article_link(article) -> str | None:
-    """Return first article link excluding tag links. Handles relative URLs."""
-    for anchor in article.find_all("a", href=True):
-        href = anchor["href"]
-        # Skip tag links
-        if "/tag/" in href:
-            continue
-        # Match both absolute and relative URLs to /the-batch/
-        if href.startswith("/the-batch/") or "deeplearning.ai/the-batch" in href:
-            # Convert relative to absolute URL
-            if href.startswith("/"):
-                return f"https://www.deeplearning.ai{href}"
-            return href
-    return None
+def is_valid_article_link(href: str) -> bool:
+    """Check if href is a valid article link (not a tag, category, or page link)."""
+    if not href:
+        return False
+    # Skip tag links, page links, and the main batch page
+    if "/tag/" in href or "/page/" in href:
+        return False
+    if href in ("/the-batch/", "/the-batch"):
+        return False
+    # Must be a the-batch article link
+    if href.startswith("/the-batch/") or "deeplearning.ai/the-batch/" in href:
+        return True
+    return False
 
 
-def extract_date_text(article) -> str | None:
-    time_el = article.find("time")
+def normalize_link(href: str) -> str:
+    """Convert relative URL to absolute URL."""
+    if href.startswith("/"):
+        return f"https://www.deeplearning.ai{href}"
+    return href
+
+
+def extract_date_text(element) -> str | None:
+    """Extract date text from element or its children.
+
+    Looks for:
+    - <time> elements with datetime attribute
+    - Tag links like <a href="/the-batch/tag/jan-16-2026/">Jan 16, 2026</a>
+    - Plain text matching date patterns
+    """
+    if element is None:
+        return None
+
+    # Check for time element
+    time_el = element.find("time")
     if time_el:
         return time_el.get("datetime") or time_el.get_text(" ", strip=True)
 
-    # Featured card uses a pill with plain text (e.g., "Dec 26, 2025")
+    # Check for date in tag links (new format)
+    for anchor in element.find_all("a", href=True):
+        href = anchor.get("href", "")
+        if "/tag/" in href:
+            text = anchor.get_text(" ", strip=True)
+            if text:
+                return text
+
+    # Date pattern for plain text (e.g., "Dec 26, 2025" or "January 16, 2026")
     date_pattern = re.compile(
-        r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+\d{1,2},\s+\d{4}",
+        r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+\d{1,2},?\s+\d{4}",
         re.I,
     )
-    for tag in article.find_all(["a", "div", "span"]):
+    for tag in element.find_all(["a", "div", "span", "p"]):
         text = tag.get_text(" ", strip=True)
         match = date_pattern.search(text or "")
         if match:
             return match.group(0)
+
+    # Check element's own text
+    text = (
+        element.get_text(" ", strip=True)
+        if hasattr(element, "get_text")
+        else str(element)
+    )
+    match = date_pattern.search(text or "")
+    if match:
+        return match.group(0)
+
     return None
 
 
-def extract_description(article) -> str | None:
+def extract_description(element) -> str | None:
+    """Extract description/excerpt from element or its parent context."""
+    if element is None:
+        return None
+
     # Prefer visible snippet if present (line clamp text)
-    summary = article.find(
-        lambda tag: tag.name in {"div", "p"} and tag.get("class") and any("line-clamp" in cls for cls in tag.get("class"))
+    summary = element.find(
+        lambda tag: tag.name in {"div", "p"}
+        and tag.get("class")
+        and any("line-clamp" in cls for cls in (tag.get("class") or []))
     )
     if summary:
         return clean_text(summary.get_text(" ", strip=True))
 
-    first_para = article.find("p")
-    if first_para:
-        return clean_text(first_para.get_text(" ", strip=True))
+    # Check parent for description
+    parent = element.parent
+    if parent:
+        summary = parent.find(
+            lambda tag: tag.name in {"div", "p"}
+            and tag.get("class")
+            and any("line-clamp" in cls for cls in (tag.get("class") or []))
+        )
+        if summary:
+            return clean_text(summary.get_text(" ", strip=True))
+
+        first_para = parent.find("p")
+        if first_para:
+            text = clean_text(first_para.get_text(" ", strip=True))
+            # Skip if it looks like just a date
+            if text and len(text) > 20:
+                return text
 
     return None
 
 
 def parse_articles_from_html(html_content: str) -> list[dict]:
-    """Parse articles from HTML content string."""
+    """Parse articles from HTML content string.
+
+    The site uses a card-based layout without <article> tags. Articles are
+    identified by finding links to /the-batch/issue-* URLs and extracting
+    title/date from the link context.
+    """
     soup = BeautifulSoup(html_content, "lxml")
     articles = []
+    seen_links = set()
 
-    for article in soup.find_all("article"):
-        heading = article.find(["h1", "h2", "h3", "h4"])
+    # Find all links that point to article pages
+    for anchor in soup.find_all("a", href=True):
+        href = anchor["href"]
+        if not is_valid_article_link(href):
+            continue
+
+        link = normalize_link(href)
+        if link in seen_links:
+            continue
+        seen_links.add(link)
+
+        # Extract title from heading within the link or nearby
+        heading = anchor.find(["h1", "h2", "h3", "h4"])
         if not heading:
+            # Try parent element for title
+            parent = anchor.parent
+            if parent:
+                heading = parent.find(["h1", "h2", "h3", "h4"])
+        if not heading:
+            # Use link text as fallback
+            text = clean_text(anchor.get_text(" ", strip=True))
+            if text and len(text) > 10:
+                title = text
+            else:
+                continue
+        else:
+            title = clean_text(heading.get_text(" ", strip=True))
+
+        if not title:
             continue
 
-        title = clean_text(heading.get_text(" ", strip=True))
-        link = extract_article_link(article)
-        if not title or not link:
-            continue
-
-        date_text = extract_date_text(article)
+        # Extract date - look for tag links or date patterns near the link
+        date_text = extract_date_text(anchor)
+        if not date_text:
+            # Check parent/sibling elements
+            parent = anchor.parent
+            if parent:
+                date_text = extract_date_text(parent)
         published = parse_date(date_text, fallback_id=link)
-        description = extract_description(article) or title
 
-        articles.append({"title": title, "link": link, "published": published, "description": description})
+        # Extract description from nearby paragraph or use title
+        description = extract_description(anchor) or title
 
+        articles.append(
+            {
+                "title": title,
+                "link": link,
+                "published": published,
+                "description": description,
+            }
+        )
+
+    logger.info(f"Parsed {len(articles)} articles from HTML")
     return articles
 
 
@@ -239,7 +344,9 @@ def fetch_all_articles(max_pages: int = MAX_PAGES) -> list[dict]:
             page_articles = parse_articles_from_html(html_content)
 
             if not page_articles:
-                logger.info(f"No articles found on page {page_num}, stopping pagination")
+                logger.info(
+                    f"No articles found on page {page_num}, stopping pagination"
+                )
                 break
 
             # Deduplicate and add new articles
@@ -250,7 +357,9 @@ def fetch_all_articles(max_pages: int = MAX_PAGES) -> list[dict]:
                     all_articles.append(article)
                     new_count += 1
 
-            logger.info(f"Page {page_num}: Found {len(page_articles)} articles, {new_count} new")
+            logger.info(
+                f"Page {page_num}: Found {len(page_articles)} articles, {new_count} new"
+            )
 
             if new_count == 0:
                 logger.info("No new articles found, stopping pagination")
@@ -325,7 +434,11 @@ def main(full_reset=False):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Generate DeepLearning.AI The Batch RSS feed")
-    parser.add_argument("--full", action="store_true", help="Force full reset (fetch all pages)")
+    parser = argparse.ArgumentParser(
+        description="Generate DeepLearning.AI The Batch RSS feed"
+    )
+    parser.add_argument(
+        "--full", action="store_true", help="Force full reset (fetch all pages)"
+    )
     args = parser.parse_args()
     main(full_reset=args.full)
