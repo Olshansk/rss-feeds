@@ -13,7 +13,14 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Jan 2026 22:04:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Jan 2026 23:04:26 +0000</lastBuildDate>
+    <item>
+      <title>v2.1.15</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2115</link>
+      <description>&lt;ul&gt;&lt;li&gt;Added deprecation notification for npm installations - run `claude install` or see https://docs.anthropic.com/en/docs/claude-code/getting-started for more options&lt;/li&gt;&lt;li&gt;Improved UI rendering performance with React Compiler&lt;/li&gt;&lt;li&gt;Fixed the "Context left until auto-compact" warning not disappearing after running `/compact`&lt;/li&gt;&lt;li&gt;Fixed MCP stdio server timeout not killing child process, which could cause UI freezes&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2115</guid>
+      <category>Changelog</category>
+    </item>
     <item>
       <title>v2.1.14</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2114</link>
@@ -355,13 +362,6 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2032</link>
       <description>&lt;ul&gt;&lt;li&gt;Un-deprecate output styles based on community feedback&lt;/li&gt;&lt;li&gt;Added `companyAnnouncements` setting for displaying announcements on startup&lt;/li&gt;&lt;li&gt;Fixed hook progress messages not updating correctly during PostToolUse hook execution&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2032</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.31</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2031</link>
-      <description>&lt;ul&gt;&lt;li&gt;Windows: native installation uses shift+tab as shortcut for mode switching, instead of alt+m&lt;/li&gt;&lt;li&gt;Vertex: add support for Web Search on supported models&lt;/li&gt;&lt;li&gt;VSCode: Adding the respectGitIgnore configuration to include .gitignored files in file searches (defaults to true)&lt;/li&gt;&lt;li&gt;Fixed a bug with subagents and MCP servers related to "Tool names must be unique" error&lt;/li&gt;&lt;li&gt;Fixed issue causing `/compact` to fail with `prompt_too_long` by making it respect existing compact boundaries&lt;/li&gt;&lt;li&gt;Fixed plugin uninstall not removing plugins&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2031</guid>
       <category>Changelog</category>
     </item>
   </channel>
