@@ -13,7 +13,7 @@
       <link>https://anthropic.com/research/feed_anthropic_research.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Jan 2026 14:08:28 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Jan 2026 16:07:09 +0000</lastBuildDate>
     <item>
       <title>Societal Impacts</title>
       <link>https://www.anthropic.com/research/team/societal-impacts</link>
@@ -113,14 +113,6 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/estimating-productivity-gains</guid>
       <category>Research</category>
       <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Nov 24, 2025ProductMitigating the risk of prompt injections in browser use</title>
-      <link>https://www.anthropic.com/research/prompt-injection-defenses</link>
-      <description>Nov 24, 2025ProductMitigating the risk of prompt injections in browser use</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/prompt-injection-defenses</guid>
-      <category>Research</category>
-      <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>InterpretabilityOct 29, 2025Signs of introspection in large language modelsCan Claude access and report on its own internal states? This research finds evidence for a limited but functional ability to introspect—a step toward understanding what's actually happening inside these models.</title>

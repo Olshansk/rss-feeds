@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Jan 2026 15:08:22 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Jan 2026 16:08:35 +0000</lastBuildDate>
+    <item>
+      <title>Dagster + Snowflake: Building Production AI Pipelines with Cortex</title>
+      <link>https://dagster.io/blog/dagster-snowflake-cortex</link>
+      <description>Snowflake handles AI compute while Dagster handles orchestration, observability, and the operational patterns that turn AI experiments into reliable production pipelines.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-snowflake-cortex</guid>
+      <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Your GTM Data, Finally Untangled</title>
       <link>https://dagster.io/blog/your-gtm-data-finally-untangled</link>
