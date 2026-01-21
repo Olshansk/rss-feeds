@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Jan 2026 01:07:24 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Jan 2026 04:20:23 +0000</lastBuildDate>
     <item>
       <title>Your GTM Data, Finally Untangled</title>
       <link>https://dagster.io/blog/your-gtm-data-finally-untangled</link>
@@ -38,13 +38,6 @@
       <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>How to Enforce Data Quality at Every Stage: A Practical Guide to Catching Issues Before They Cost You</title>
-      <link>https://dagster.io/blog/how-to-enforce-data-quality-at-every-stage-a-practical-guide-to-catching-issues-before-they-cost-you</link>
-      <description>This post gives you a framework for enforcing data quality at every stage so you catch issues early, maintain trust, and build platforms that actually work in production.</description>
-      <guid isPermaLink="false">https://dagster.io/blog/how-to-enforce-data-quality-at-every-stage-a-practical-guide-to-catching-issues-before-they-cost-you</guid>
-      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>When Sync Isnât Enough</title>
       <link>https://dagster.io/blog/when-sync-isnt-enough</link>
       <description>This post introduces a custom async executor for Dagster that enables high-concurrency fan-out, async-native libraries, and incremental adoption, without changing how runs are launched or monitored.</description>
@@ -59,18 +52,18 @@
       <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Data Ingestion Patterns: When to Use Push, Pull, and Poll (With Real Examples)</title>
-      <link>https://dagster.io/blog/data-ingestion-patterns-when-to-use-push-pull-and-poll</link>
-      <description>A practical guide to choosing between push, pull, and poll data ingestion patterns. With real Dagster code examples to help you build reliable, maintainable pipelines.</description>
-      <guid isPermaLink="false">https://dagster.io/blog/data-ingestion-patterns-when-to-use-push-pull-and-poll</guid>
-      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Orchestrating Nanochat: Deploying the Model</title>
       <link>https://dagster.io/blog/orchestrating-nanochat-deploying-the-model</link>
       <description>Once the model is trained, the final step is getting it into usersâ hands. This guide walks through turning your model into a fast, reliable RunPod endpointâcomplete with orchestration and automated updates from Dagster.</description>
       <guid isPermaLink="false">https://dagster.io/blog/orchestrating-nanochat-deploying-the-model</guid>
       <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Data Ingestion Patterns: When to Use Push, Pull, and Poll (With Real Examples)</title>
+      <link>https://dagster.io/blog/data-ingestion-patterns-when-to-use-push-pull-and-poll</link>
+      <description>A practical guide to choosing between push, pull, and poll data ingestion patterns. With real Dagster code examples to help you build reliable, maintainable pipelines.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/data-ingestion-patterns-when-to-use-push-pull-and-poll</guid>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Dagster + Atlan: Real-Time Asset Observability in Your Data Catalog</title>
