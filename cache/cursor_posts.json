@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-09T19:20:02.047841+00:00",
+  "last_updated": "2026-01-21T01:06:33.311301+00:00",
   "posts": [
     {
       "url": "https://cursor.com/blog/prompt-design",
@@ -265,6 +265,27 @@
       "title": "Dynamic context discovery",
       "description": "As models improve as agents, we've found success by providing fewer details up front, making it easier for the agent to pull relevant context on its own.",
       "date": "2026-01-06T12:00:00.000Z",
+      "category": "research"
+    },
+    {
+      "url": "https://cursor.com/blog/agent-best-practices",
+      "title": "Best practices for coding with agents",
+      "description": "A comprehensive guide to working with coding agents, from starting with plans to managing context, customizing workflows, and reviewing code.",
+      "date": "2026-01-09T12:00:00.000Z",
+      "category": "product"
+    },
+    {
+      "url": "https://cursor.com/blog/scaling-agents",
+      "title": "Scaling long-running autonomous coding",
+      "description": "We've been experimenting with running coding agents autonomously for weeks at a time.",
+      "date": "2026-01-14T12:00:00.000Z",
+      "category": "research"
+    },
+    {
+      "url": "https://cursor.com/blog/building-bugbot",
+      "title": "Building a better Bugbot",
+      "description": "How we used a custom AI-driven metric to systematically improve Bugbot.",
+      "date": "2026-01-15T12:00:00.000Z",
       "category": "research"
     }
   ]
