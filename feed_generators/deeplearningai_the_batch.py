@@ -2,12 +2,11 @@ import argparse
 import json
 import logging
 import re
-import time
 from datetime import datetime, timedelta
 from pathlib import Path
 
 import pytz
-import undetected_chromedriver as uc
+import requests
 from bs4 import BeautifulSoup
 from dateutil import parser as date_parser
 from feedgen.feed import FeedGenerator
@@ -101,24 +100,15 @@ def merge_articles(new_articles, cached_articles):
     return sort_posts_for_feed(merged, date_field="published")
 
 
-def setup_selenium_driver():
-    """Set up Selenium WebDriver with undetected-chromedriver."""
-    options = uc.ChromeOptions()
-    options.add_argument("--headless")
-    options.add_argument("--window-size=1920,1080")
-    options.add_argument("--disable-blink-features=AutomationControlled")
-    options.add_argument(
-        "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-    )
-    return uc.Chrome(options=options)
-
-
-def fetch_page(driver, url: str) -> str:
-    """Fetch a page using Selenium with proper waits."""
+def fetch_page(url: str) -> str:
+    """Fetch a page using requests."""
     logger.info(f"Fetching: {url}")
-    driver.get(url)
-    time.sleep(3)  # Wait for page to load
-    return driver.page_source
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+    response = requests.get(url, headers=headers, timeout=30)
+    response.raise_for_status()
+    return response.text
 
 
 def parse_date(value: str | None, fallback_id: str = "") -> datetime:
@@ -314,60 +304,58 @@ def parse_articles_from_html(html_content: str) -> list[dict]:
 
 
 def fetch_all_articles(max_pages: int = MAX_PAGES) -> list[dict]:
-    """Fetch all articles by iterating through paginated pages using Selenium."""
+    """Fetch all articles by iterating through paginated pages."""
     all_articles = []
     seen_links = set()
-    driver = None
 
-    try:
-        driver = setup_selenium_driver()
+    for page_num in range(1, max_pages + 1):
+        # Construct page URL
+        if page_num == 1:
+            url = BLOG_URL
+        else:
+            url = f"{BLOG_URL}page/{page_num}/"
 
-        for page_num in range(1, max_pages + 1):
-            # Construct page URL
-            if page_num == 1:
-                url = BLOG_URL
+        try:
+            html_content = fetch_page(url)
+        except requests.exceptions.HTTPError as e:
+            if e.response.status_code == 404:
+                logger.info(f"Page {page_num} not found (404), stopping pagination")
             else:
-                url = f"{BLOG_URL}page/{page_num}/"
+                logger.info(f"Error fetching page {page_num}: {e}")
+            break
+        except Exception as e:
+            logger.info(f"Error fetching page {page_num}, stopping pagination: {e}")
+            break
 
-            try:
-                html_content = fetch_page(driver, url)
-            except Exception as e:
-                logger.info(f"Error fetching page {page_num}, stopping pagination: {e}")
-                break
+        # Check for 404-like conditions (page not found)
+        if "Page not found" in html_content or "404" in html_content[:1000]:
+            logger.info(f"Page {page_num} not found, stopping pagination")
+            break
 
-            # Check for 404-like conditions (page not found)
-            if "Page not found" in html_content or "404" in html_content[:1000]:
-                logger.info(f"Page {page_num} not found, stopping pagination")
-                break
+        # Parse articles from current page
+        page_articles = parse_articles_from_html(html_content)
 
-            # Parse articles from current page
-            page_articles = parse_articles_from_html(html_content)
-
-            if not page_articles:
-                logger.info(
-                    f"No articles found on page {page_num}, stopping pagination"
-                )
-                break
-
-            # Deduplicate and add new articles
-            new_count = 0
-            for article in page_articles:
-                if article["link"] not in seen_links:
-                    seen_links.add(article["link"])
-                    all_articles.append(article)
-                    new_count += 1
-
+        if not page_articles:
             logger.info(
-                f"Page {page_num}: Found {len(page_articles)} articles, {new_count} new"
+                f"No articles found on page {page_num}, stopping pagination"
             )
+            break
 
-            if new_count == 0:
-                logger.info("No new articles found, stopping pagination")
-                break
+        # Deduplicate and add new articles
+        new_count = 0
+        for article in page_articles:
+            if article["link"] not in seen_links:
+                seen_links.add(article["link"])
+                all_articles.append(article)
+                new_count += 1
 
-    finally:
-        if driver:
-            driver.quit()
+        logger.info(
+            f"Page {page_num}: Found {len(page_articles)} articles, {new_count} new"
+        )
+
+        if new_count == 0:
+            logger.info("No new articles found, stopping pagination")
+            break
 
     logger.info(f"Total articles fetched: {len(all_articles)}")
     return all_articles
