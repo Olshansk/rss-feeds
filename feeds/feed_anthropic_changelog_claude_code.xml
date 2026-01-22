@@ -13,7 +13,14 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Jan 2026 20:03:15 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jan 2026 21:04:29 +0000</lastBuildDate>
+    <item>
+      <title>v2.1.16</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2116</link>
+      <description>&lt;ul&gt;&lt;li&gt;Added new task management system, including new capabilities like dependency tracking&lt;/li&gt;&lt;li&gt;[VSCode] Added native plugin management support&lt;/li&gt;&lt;li&gt;[VSCode] Added ability for OAuth users to browse and resume remote Claude sessions from the Sessions dialog&lt;/li&gt;&lt;li&gt;Fixed out-of-memory crashes when resuming sessions with heavy subagent usage&lt;/li&gt;&lt;li&gt;Fixed an issue where the "context remaining" warning was not hidden after running `/compact`&lt;/li&gt;&lt;li&gt;Fixed session titles on the resume screen not respecting the user's language setting&lt;/li&gt;&lt;li&gt;[IDE] Fixed a race condition on Windows where the Claude Code sidebar view container would not appear on start&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2116</guid>
+      <category>Changelog</category>
+    </item>
     <item>
       <title>v2.1.15</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2115</link>
@@ -355,13 +362,6 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2033</link>
       <description>&lt;ul&gt;&lt;li&gt;Native binary installs now launch quicker.&lt;/li&gt;&lt;li&gt;Fixed `claude doctor` incorrectly detecting Homebrew vs npm-global installations by properly resolving symlinks&lt;/li&gt;&lt;li&gt;Fixed `claude mcp serve` exposing tools with incompatible outputSchemas&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2033</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.32</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2032</link>
-      <description>&lt;ul&gt;&lt;li&gt;Un-deprecate output styles based on community feedback&lt;/li&gt;&lt;li&gt;Added `companyAnnouncements` setting for displaying announcements on startup&lt;/li&gt;&lt;li&gt;Fixed hook progress messages not updating correctly during PostToolUse hook execution&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2032</guid>
       <category>Changelog</category>
     </item>
   </channel>
