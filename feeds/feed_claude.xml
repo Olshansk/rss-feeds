@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Jan 2026 21:04:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jan 2026 22:03:32 +0000</lastBuildDate>
     <item>
       <title>Eight trends defining how software gets built in 2026</title>
       <link>https://claude.com/blog/eight-trends-defining-how-software-gets-built-in-2026</link>
@@ -25,9 +25,9 @@
       <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Extending Claudeâs capabilities with skills and MCP servers</title>
+      <title>Extending Claude’s capabilities with skills and MCP servers</title>
       <link>https://claude.com/blog/extending-claude-capabilities-with-skills-mcp-servers</link>
-      <description>Extending Claudeâs capabilities with skills and MCP servers</description>
+      <description>Extending Claude’s capabilities with skills and MCP servers</description>
       <guid isPermaLink="false">https://claude.com/blog/extending-claude-capabilities-with-skills-mcp-servers</guid>
       <category>Agents</category>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
@@ -103,9 +103,9 @@
       <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Whatâs new in Claude: Turning Claude into your thinking partner</title>
+      <title>What’s new in Claude: Turning Claude into your thinking partner</title>
       <link>https://claude.com/blog/your-thinking-partner</link>
-      <description>Whatâs new in Claude: Turning Claude into your thinking partner</description>
+      <description>What’s new in Claude: Turning Claude into your thinking partner</description>
       <guid isPermaLink="false">https://claude.com/blog/your-thinking-partner</guid>
       <category>Product announcements</category>
       <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
@@ -464,9 +464,9 @@
       <pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Claude on Google Cloudâs Vertex AI: FedRAMP High and IL2 Authorized</title>
+      <title>Claude on Google Cloud’s Vertex AI: FedRAMP High and IL2 Authorized</title>
       <link>https://claude.com/blog/claude-on-google-cloud-fedramp-high</link>
-      <description>Claude on Google Cloudâs Vertex AI: FedRAMP High and IL2 Authorized</description>
+      <description>Claude on Google Cloud’s Vertex AI: FedRAMP High and IL2 Authorized</description>
       <guid isPermaLink="false">https://claude.com/blog/claude-on-google-cloud-fedramp-high</guid>
       <category>Product announcements</category>
       <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
@@ -503,9 +503,9 @@
       <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Tailor Claudeâs responses to your personal style</title>
+      <title>Tailor Claude’s responses to your personal style</title>
       <link>https://claude.com/blog/styles</link>
-      <description>Tailor Claudeâs responses to your personal style</description>
+      <description>Tailor Claude’s responses to your personal style</description>
       <guid isPermaLink="false">https://claude.com/blog/styles</guid>
       <category>Product announcements</category>
       <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
