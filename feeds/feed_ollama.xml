@@ -13,7 +13,7 @@
       <link>https://ollama.com/blog/feed_ollama.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Jan 2026 07:03:40 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Jan 2026 08:03:22 +0000</lastBuildDate>
     <item>
       <title>Run Llama 2 uncensored locally</title>
       <link>https://ollama.com/blog/run-llama2-uncensored-locally</link>
@@ -314,6 +314,13 @@
       <description>Generate images locally with Ollama on macOS. Windows and Linux support coming soon.</description>
       <guid isPermaLink="false">https://ollama.com/blog/image-generation</guid>
       <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ollama launch</title>
+      <link>https://ollama.com/blog/launch</link>
+      <description>ollama launch is a new command which sets up and runs coding tools like Claude Code, OpenCode, and Codex with local or cloud models. No environment variables or config files needed.</description>
+      <guid isPermaLink="false">https://ollama.com/blog/launch</guid>
+      <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
