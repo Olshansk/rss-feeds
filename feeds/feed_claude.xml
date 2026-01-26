@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Jan 2026 22:03:06 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jan 2026 23:03:30 +0000</lastBuildDate>
+    <item>
+      <title>How Anthropic's Growth Marketing team cut ad creation time from 30 minutes to 30 seconds with Claude Code</title>
+      <link>https://claude.com/blog/how-anthropic-uses-claude-marketing</link>
+      <description>How Anthropic's Growth Marketing team cut ad creation time from 30 minutes to 30 seconds with Claude Code</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-anthropic-uses-claude-marketing</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Your favorite work tools are now interactive inside Claude</title>
       <link>https://claude.com/blog/interactive-tools-in-claude</link>
