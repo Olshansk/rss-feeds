@@ -13,14 +13,14 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Jan 2026 18:06:39 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jan 2026 19:09:12 +0000</lastBuildDate>
     <item>
       <title>Dropbox uses Cursor to index over 550,000 files and build an AI-native SDLC</title>
       <link>https://cursor.com/blog/dropbox</link>
       <description>Dropbox accepts more than 1 million lines of agent generated code with Cursor every month, improving PR velocity and cycle time.</description>
       <guid isPermaLink="false">https://cursor.com/blog/dropbox</guid>
       <category>customers</category>
-      <pubDate>Thu, 22 Jan 2026 12:00:00 +0000</pubDate>
+      <pubDate>Mon, 26 Jan 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Salesforce ships higher-quality code across 20,000 developers with Cursor</title>
