@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Jan 2026 22:03:15 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Jan 2026 23:03:02 +0000</lastBuildDate>
     <item>
       <title>How Anthropic's Growth Marketing team cut ad creation time from 30 minutes to 30 seconds with Claude Code</title>
       <link>https://claude.com/blog/how-anthropic-uses-claude-marketing</link>
@@ -85,7 +85,7 @@
       <link>https://claude.com/blog/how-to-configure-hooks</link>
       <description>Claude Code power user customization: How to configure hooks</description>
       <guid isPermaLink="false">https://claude.com/blog/how-to-configure-hooks</guid>
-      <category>Coding</category>
+      <category>Claude Code</category>
       <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -123,7 +123,7 @@
       <link>https://claude.com/blog/key-benefits-transitioning-agentic-coding</link>
       <description>What are the key benefits of transitioning to agentic coding for software development?</description>
       <guid isPermaLink="false">https://claude.com/blog/key-benefits-transitioning-agentic-coding</guid>
-      <category>Coding</category>
+      <category>Claude Code</category>
       <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -131,7 +131,7 @@
       <link>https://claude.com/blog/using-claude-md-files</link>
       <description>Using CLAUDE.md files: Customizing Claude Code for your codebase</description>
       <guid isPermaLink="false">https://claude.com/blog/using-claude-md-files</guid>
-      <category>Coding</category>
+      <category>Claude Code</category>
       <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -147,7 +147,7 @@
       <link>https://claude.com/blog/how-to-create-skills-key-steps-limitations-and-examples</link>
       <description>How to create Skills: Key steps, limitations, and examples</description>
       <guid isPermaLink="false">https://claude.com/blog/how-to-create-skills-key-steps-limitations-and-examples</guid>
-      <category>Coding</category>
+      <category>Claude Code</category>
       <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -155,7 +155,7 @@
       <link>https://claude.com/blog/building-companies-with-claude-code</link>
       <description>How three YC startups built their companies with Claude Code</description>
       <guid isPermaLink="false">https://claude.com/blog/building-companies-with-claude-code</guid>
-      <category>Coding</category>
+      <category>Claude Code</category>
       <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -226,7 +226,7 @@
       <link>https://claude.com/blog/introduction-to-agentic-coding</link>
       <description>Introduction to agentic coding</description>
       <guid isPermaLink="false">https://claude.com/blog/introduction-to-agentic-coding</guid>
-      <category>Coding</category>
+      <category>Claude Code</category>
       <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -241,7 +241,7 @@
       <link>https://claude.com/blog/fix-software-bugs-faster-with-claude</link>
       <description>Fix software bugs faster with Claude</description>
       <guid isPermaLink="false">https://claude.com/blog/fix-software-bugs-faster-with-claude</guid>
-      <category>Coding</category>
+      <category>Claude Code</category>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -249,7 +249,7 @@
       <link>https://claude.com/blog/integrate-apis-seamlessly</link>
       <description>How to integrate APIs seamlessly</description>
       <guid isPermaLink="false">https://claude.com/blog/integrate-apis-seamlessly</guid>
-      <category>Coding</category>
+      <category>Claude Code</category>
       <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -280,7 +280,7 @@
       <link>https://claude.com/blog/scaling-agentic-coding</link>
       <description>How to scale agentic coding across your engineering organization</description>
       <guid isPermaLink="false">https://claude.com/blog/scaling-agentic-coding</guid>
-      <category>Coding</category>
+      <category>Claude Code</category>
       <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -288,7 +288,7 @@
       <link>https://claude.com/blog/build-responsive-web-layouts</link>
       <description>Build responsive web layouts</description>
       <guid isPermaLink="false">https://claude.com/blog/build-responsive-web-layouts</guid>
-      <category>Coding</category>
+      <category>Claude Code</category>
       <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -304,7 +304,7 @@
       <link>https://claude.com/blog/beyond-permission-prompts-making-claude-code-more-secure-and-autonomous</link>
       <description>Beyond permission prompts: making Claude Code more secure and autonomous</description>
       <guid isPermaLink="false">https://claude.com/blog/beyond-permission-prompts-making-claude-code-more-secure-and-autonomous</guid>
-      <category>Coding</category>
+      <category>Claude Code</category>
       <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -312,7 +312,7 @@
       <link>https://claude.com/blog/identify-security-vulnerabilities</link>
       <description>Identifying security vulnerabilities in your code</description>
       <guid isPermaLink="false">https://claude.com/blog/identify-security-vulnerabilities</guid>
-      <category>Coding</category>
+      <category>Claude Code</category>
       <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -320,7 +320,7 @@
       <link>https://claude.com/blog/optimize-code-performance-quickly</link>
       <description>Optimize code performance quickly</description>
       <guid isPermaLink="false">https://claude.com/blog/optimize-code-performance-quickly</guid>
-      <category>Coding</category>
+      <category>Claude Code</category>
       <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
