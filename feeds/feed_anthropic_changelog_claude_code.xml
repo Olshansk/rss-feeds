@@ -13,7 +13,14 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Jan 2026 01:31:27 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Jan 2026 02:43:50 +0000</lastBuildDate>
+    <item>
+      <title>v2.1.20</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2120</link>
+      <description>&lt;ul&gt;&lt;li&gt;Added arrow key history navigation in vim normal mode when cursor cannot move further&lt;/li&gt;&lt;li&gt;Added external editor shortcut (Ctrl+G) to the help menu for better discoverability&lt;/li&gt;&lt;li&gt;Added PR review status indicator to the prompt footer, showing the current branch's PR state (approved, changes requested, pending, or draft) as a colored dot with a clickable link&lt;/li&gt;&lt;li&gt;Added support for loading `CLAUDE.md` files from additional directories specified via `--add-dir` flag (requires setting `CLAUDE_CODE_ADDITIONAL_DIRECTORIES_CLAUDE_MD=1`)&lt;/li&gt;&lt;li&gt;Added ability to delete tasks via the `TaskUpdate` tool&lt;/li&gt;&lt;li&gt;Fixed session compaction issues that could cause resume to load full history instead of the compact summary&lt;/li&gt;&lt;li&gt;Fixed agents sometimes ignoring user messages sent while actively working on a task&lt;/li&gt;&lt;li&gt;Fixed wide character (emoji, CJK) rendering artifacts where trailing columns were not cleared when replaced by narrower characters&lt;/li&gt;&lt;li&gt;Fixed JSON parsing errors when MCP tool responses contain special Unicode characters&lt;/li&gt;&lt;li&gt;Fixed up/down arrow keys in multi-line and wrapped text input to prioritize cursor movement over history navigation&lt;/li&gt;&lt;li&gt;Fixed draft prompt being lost when pressing UP arrow to navigate command history&lt;/li&gt;&lt;li&gt;Fixed ghost text flickering when typing slash commands mid-input&lt;/li&gt;&lt;li&gt;Fixed marketplace source removal not properly deleting settings&lt;/li&gt;&lt;li&gt;Fixed duplicate output in some commands like `/context`&lt;/li&gt;&lt;li&gt;Fixed task list sometimes showing outside the main conversation view&lt;/li&gt;&lt;li&gt;Fixed syntax highlighting for diffs occurring within multiline constructs like Python docstrings&lt;/li&gt;&lt;li&gt;Fixed crashes when cancelling tool use&lt;/li&gt;&lt;li&gt;Improved `/sandbox` command UI to show dependency status with installation instructions when dependencies are missing&lt;/li&gt;&lt;li&gt;Improved thinking status text with a subtle shimmer animation&lt;/li&gt;&lt;li&gt;Improved task list to dynamically adjust visible items based on terminal height&lt;/li&gt;&lt;li&gt;Improved fork conversation hint to show how to resume the original session&lt;/li&gt;&lt;li&gt;Changed collapsed read/search groups to show present tense ("Reading", "Searching for") while in progress, and past tense ("Read", "Searched for") when complete&lt;/li&gt;&lt;li&gt;Changed teammate messages to render with rich Markdown formatting (bold, code blocks, lists, etc.) instead of plain text&lt;/li&gt;&lt;li&gt;Changed `ToolSearch` results to appear as a brief notification instead of inline in the conversation&lt;/li&gt;&lt;li&gt;Changed the `/commit-push-pr` skill to automatically post PR URLs to Slack channels when configured via MCP tools&lt;/li&gt;&lt;li&gt;Changed the `/copy` command to be available to all users&lt;/li&gt;&lt;li&gt;Changed background agents to prompt for tool permissions before launching&lt;/li&gt;&lt;li&gt;Changed permission rules like `Bash(*)` to be accepted and treated as equivalent to `Bash`&lt;/li&gt;&lt;li&gt;Changed config backups to be timestamped and rotated (keeping 5 most recent) to prevent data loss&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2120</guid>
+      <category>Changelog</category>
+    </item>
     <item>
       <title>v2.1.19</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2119</link>
@@ -355,13 +362,6 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2037</link>
       <description>&lt;ul&gt;&lt;li&gt;Fixed how idleness is computed for notifications&lt;/li&gt;&lt;li&gt;Hooks: Added matcher values for Notification hook events&lt;/li&gt;&lt;li&gt;Output Styles: Added `keep-coding-instructions` option to frontmatter&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2037</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.36</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2036</link>
-      <description>&lt;ul&gt;&lt;li&gt;Fixed: DISABLE_AUTOUPDATER environment variable now properly disables package manager update notifications&lt;/li&gt;&lt;li&gt;Fixed queued messages being incorrectly executed as bash commands&lt;/li&gt;&lt;li&gt;Fixed input being lost when typing while a queued message is processed&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2036</guid>
       <category>Changelog</category>
     </item>
   </channel>
