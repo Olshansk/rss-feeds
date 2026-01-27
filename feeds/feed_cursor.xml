@@ -13,14 +13,14 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Jan 2026 17:09:15 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Jan 2026 18:07:25 +0000</lastBuildDate>
     <item>
       <title>Securely indexing large codebases</title>
       <link>https://cursor.com/blog/secure-codebase-indexing</link>
       <description>By securely reusing a teammate's existing index, we cut time-to-first-query from hours to seconds on the largest repos.</description>
       <guid isPermaLink="false">https://cursor.com/blog/secure-codebase-indexing</guid>
       <category>research</category>
-      <pubDate>Mon, 26 Jan 2026 12:00:00 +0000</pubDate>
+      <pubDate>Tue, 27 Jan 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Dropbox uses Cursor to index over 550,000 files and build an AI-native SDLC</title>
