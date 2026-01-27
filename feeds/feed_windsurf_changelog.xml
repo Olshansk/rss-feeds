@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Jan 2026 21:04:29 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Jan 2026 22:04:50 +0000</lastBuildDate>
     <item>
       <title>Windsurf 1.13.13</title>
       <link>https://windsurf.com/changelog#1.13.13</link>
@@ -20,7 +20,7 @@
     <item>
       <title>Windsurf 1.13.12</title>
       <link>https://windsurf.com/changelog#1.13.12</link>
-      <description>&lt;h3&gt;Enterprise Features&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Enterprise admins can now specify organization-wide allow and deny lists for command auto-execution.Learn more&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Bug fixes and performance improvements for diff zones&lt;/li&gt;&lt;li&gt;Improved overall stability and reliability&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;h3&gt;Enterprise Features&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Enterprise admins can now specify organization-wide allow and deny lists for command auto-execution.Learn more&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Bug fixes and performance improvements for diff zones&lt;/li&gt;&lt;li&gt;Improved overall stability and reliability&lt;/li&gt;&lt;li&gt;Addedpost_setup_worktreehook for initializing worktrees in Cascade&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://windsurf.com/changelog#1.13.12#1.13.12</guid>
       <category>Changelog</category>
       <pubDate>Sun, 25 Jan 2026 00:00:00 +0000</pubDate>
