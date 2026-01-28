@@ -13,7 +13,14 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Jan 2026 01:31:41 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Jan 2026 02:41:33 +0000</lastBuildDate>
+    <item>
+      <title>v2.1.21</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2121</link>
+      <description>&lt;ul&gt;&lt;li&gt;Added support for full-width (zenkaku) number input from Japanese IME in option selection prompts&lt;/li&gt;&lt;li&gt;Fixed shell completion cache files being truncated on exit&lt;/li&gt;&lt;li&gt;Fixed API errors when resuming sessions that were interrupted during tool execution&lt;/li&gt;&lt;li&gt;Fixed auto-compact triggering too early on models with large output token limits&lt;/li&gt;&lt;li&gt;Fixed task IDs potentially being reused after deletion&lt;/li&gt;&lt;li&gt;Fixed file search not working in VS Code extension on Windows&lt;/li&gt;&lt;li&gt;Improved read/search progress indicators to show "Reading…" while in progress and "Read" when complete&lt;/li&gt;&lt;li&gt;Improved Claude to prefer file operation tools (Read, Edit, Write) over bash equivalents (cat, sed, awk)&lt;/li&gt;&lt;li&gt;[VSCode] Added automatic Python virtual environment activation, ensuring `python` and `pip` commands use the correct interpreter (configurable via `claudeCode.usePythonEnvironment` setting)&lt;/li&gt;&lt;li&gt;[VSCode] Fixed message action buttons having incorrect background colors&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2121</guid>
+      <category>Changelog</category>
+    </item>
     <item>
       <title>v2.1.20</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2120</link>
@@ -355,13 +362,6 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2041</link>
       <description>&lt;ul&gt;&lt;li&gt;Added `model` parameter to prompt-based stop hooks, allowing users to specify a custom model for hook evaluation&lt;/li&gt;&lt;li&gt;Fixed slash commands from user settings being loaded twice, which could cause rendering issues&lt;/li&gt;&lt;li&gt;Fixed incorrect labeling of user settings vs project settings in command descriptions&lt;/li&gt;&lt;li&gt;Fixed crash when plugin command hooks timeout during execution&lt;/li&gt;&lt;li&gt;Fixed: Bedrock users no longer see duplicate Opus entries in the /model picker when using `--model haiku`&lt;/li&gt;&lt;li&gt;Fixed broken security documentation links in trust dialogs and onboarding&lt;/li&gt;&lt;li&gt;Fixed issue where pressing ESC to close the diff modal would also interrupt the model&lt;/li&gt;&lt;li&gt;ctrl-r history search landing on a slash command no longer cancels the search&lt;/li&gt;&lt;li&gt;SDK: Support custom timeouts for hooks&lt;/li&gt;&lt;li&gt;Allow more safe git commands to run without approval&lt;/li&gt;&lt;li&gt;Plugins: Added support for sharing and installing output styles&lt;/li&gt;&lt;li&gt;Teleporting a session from web will automatically set the upstream branch&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2041</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.37</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2037</link>
-      <description>&lt;ul&gt;&lt;li&gt;Fixed how idleness is computed for notifications&lt;/li&gt;&lt;li&gt;Hooks: Added matcher values for Notification hook events&lt;/li&gt;&lt;li&gt;Output Styles: Added `keep-coding-instructions` option to frontmatter&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2037</guid>
       <category>Changelog</category>
     </item>
   </channel>
