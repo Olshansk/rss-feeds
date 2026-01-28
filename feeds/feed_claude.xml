@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Jan 2026 18:06:02 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Jan 2026 19:07:27 +0000</lastBuildDate>
     <item>
       <title>How Anthropic's Growth Marketing team cut ad creation time from 30 minutes to 30 seconds with Claude Code</title>
       <link>https://claude.com/blog/how-anthropic-uses-claude-marketing</link>
@@ -226,6 +226,14 @@
       <description>Claude and your productivity platforms</description>
       <guid isPermaLink="false">https://claude.com/blog/productivity-platforms</guid>
       <category>Product announcements</category>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Equipping agents for the real world with Agent Skills</title>
+      <link>https://claude.com/blog/equipping-agents-for-the-real-world-with-agent-skills</link>
+      <description>Equipping agents for the real world with Agent Skills</description>
+      <guid isPermaLink="false">https://claude.com/blog/equipping-agents-for-the-real-world-with-agent-skills</guid>
+      <category>Claude Code</category>
       <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
