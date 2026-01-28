@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Jan 2026 16:07:40 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Jan 2026 17:10:47 +0000</lastBuildDate>
     <item>
       <title>How Anthropic's Growth Marketing team cut ad creation time from 30 minutes to 30 seconds with Claude Code</title>
       <link>https://claude.com/blog/how-anthropic-uses-claude-marketing</link>
@@ -65,30 +65,6 @@
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Skills for organizations, partners, the ecosystem</title>
-      <link>https://claude.com/blog/organization-skills-and-directory</link>
-      <description>Skills for organizations, partners, the ecosystem</description>
-      <guid isPermaLink="false">https://claude.com/blog/organization-skills-and-directory</guid>
-      <category>Product announcements</category>
-      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Making Claude a better electrical engineer</title>
-      <link>https://claude.com/blog/making-claude-a-better-electrical-engineer</link>
-      <description>Making Claude a better electrical engineer</description>
-      <guid isPermaLink="false">https://claude.com/blog/making-claude-a-better-electrical-engineer</guid>
-      <category>Enterprise AI</category>
-      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude Code power user customization: How to configure hooks</title>
-      <link>https://claude.com/blog/how-to-configure-hooks</link>
-      <description>Claude Code power user customization: How to configure hooks</description>
-      <guid isPermaLink="false">https://claude.com/blog/how-to-configure-hooks</guid>
-      <category>Claude Code</category>
-      <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>How enterprises are building AI agents in 2026</title>
       <link>https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026</link>
       <description>How enterprises are building AI agents in 2026</description>
@@ -102,21 +78,6 @@
       <guid isPermaLink="false">https://claude.com/blog/claude-code-and-slack</guid>
       <category>Product announcements</category>
       <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Anthropic's legal team cut review times from days to hours with Claude</title>
-      <link>https://claude.com/blog/how-anthropic-uses-claude-legal</link>
-      <description>How Anthropic's legal team cut review times from days to hours with Claude</description>
-      <guid isPermaLink="false">https://claude.com/blog/how-anthropic-uses-claude-legal</guid>
-      <category>Enterprise AI</category>
-      <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Building Skills for Claude Code: Automating your procedural knowledge</title>
-      <link>https://claude.com/blog/building-skills-for-claude-code</link>
-      <description>Building Skills for Claude Code: Automating your procedural knowledge</description>
-      <guid isPermaLink="false">https://claude.com/blog/building-skills-for-claude-code</guid>
-      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>What are the key benefits of transitioning to agentic coding for software development?</title>
@@ -157,14 +118,6 @@
       <guid isPermaLink="false">https://claude.com/blog/building-companies-with-claude-code</guid>
       <category>Claude Code</category>
       <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Structured outputs on the Claude Developer Platform</title>
-      <link>https://claude.com/blog/structured-outputs-on-the-claude-developer-platform</link>
-      <description>Structured outputs on the Claude Developer Platform</description>
-      <guid isPermaLink="false">https://claude.com/blog/structured-outputs-on-the-claude-developer-platform</guid>
-      <category>Product announcements</category>
-      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Skills explained: How Skills compares to prompts, Projects, MCP, and subagents </title>
@@ -308,14 +261,6 @@
       <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Identifying security vulnerabilities in your code</title>
-      <link>https://claude.com/blog/identify-security-vulnerabilities</link>
-      <description>Identifying security vulnerabilities in your code</description>
-      <guid isPermaLink="false">https://claude.com/blog/identify-security-vulnerabilities</guid>
-      <category>Claude Code</category>
-      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Optimize code performance quickly</title>
       <link>https://claude.com/blog/optimize-code-performance-quickly</link>
       <description>Optimize code performance quickly</description>
@@ -353,14 +298,6 @@
       <guid isPermaLink="false">https://claude.com/blog/claude-now-available-in-microsoft-365-copilot</guid>
       <category>Product announcements</category>
       <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bringing memory to Claude</title>
-      <link>https://claude.com/blog/memory</link>
-      <description>Bringing memory to Claude</description>
-      <guid isPermaLink="false">https://claude.com/blog/memory</guid>
-      <category>Product announcements</category>
-      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Claude can now create and edit files</title>
@@ -433,14 +370,6 @@
       <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Turn ideas into interactive AI-powered apps</title>
-      <link>https://claude.com/blog/build-artifacts</link>
-      <description>Turn ideas into interactive AI-powered apps</description>
-      <guid isPermaLink="false">https://claude.com/blog/build-artifacts</guid>
-      <category>Product announcements</category>
-      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Introducing Citations on the Anthropic API</title>
       <link>https://claude.com/blog/introducing-citations-api</link>
       <description>Introducing Citations on the Anthropic API</description>
@@ -492,7 +421,6 @@
       <link>https://claude.com/blog/max-plan</link>
       <description>Introducing the Max Plan</description>
       <guid isPermaLink="false">https://claude.com/blog/max-plan</guid>
-      <category>Product announcements</category>
       <pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -533,14 +461,6 @@
       <guid isPermaLink="false">https://claude.com/blog/trainium2-and-distillation</guid>
       <category>Product announcements</category>
       <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tailor Claude’s responses to your personal style</title>
-      <link>https://claude.com/blog/styles</link>
-      <description>Tailor Claude’s responses to your personal style</description>
-      <guid isPermaLink="false">https://claude.com/blog/styles</guid>
-      <category>Product announcements</category>
-      <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Introducing the analysis tool in Claude.ai</title>
@@ -653,14 +573,6 @@
       <guid isPermaLink="false">https://claude.com/blog/amazon-bedrock-general-availability</guid>
       <category>Product announcements</category>
       <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude 2 on Amazon Bedrock</title>
-      <link>https://claude.com/blog/claude-2-amazon-bedrock</link>
-      <description>Claude 2 on Amazon Bedrock</description>
-      <guid isPermaLink="false">https://claude.com/blog/claude-2-amazon-bedrock</guid>
-      <category>Product announcements</category>
-      <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
