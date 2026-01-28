@@ -13,7 +13,14 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Jan 2026 06:05:27 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Jan 2026 07:07:22 +0000</lastBuildDate>
+    <item>
+      <title>v2.1.22</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2122</link>
+      <description>&lt;ul&gt;&lt;li&gt;Fixed structured outputs for non-interactive (-p) mode&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2122</guid>
+      <category>Changelog</category>
+    </item>
     <item>
       <title>v2.1.21</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2121</link>
@@ -355,13 +362,6 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2042</link>
       <description>&lt;ul&gt;&lt;li&gt;Added `agent_id` and `agent_transcript_path` fields to `SubagentStop` hooks.&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2042</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.41</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2041</link>
-      <description>&lt;ul&gt;&lt;li&gt;Added `model` parameter to prompt-based stop hooks, allowing users to specify a custom model for hook evaluation&lt;/li&gt;&lt;li&gt;Fixed slash commands from user settings being loaded twice, which could cause rendering issues&lt;/li&gt;&lt;li&gt;Fixed incorrect labeling of user settings vs project settings in command descriptions&lt;/li&gt;&lt;li&gt;Fixed crash when plugin command hooks timeout during execution&lt;/li&gt;&lt;li&gt;Fixed: Bedrock users no longer see duplicate Opus entries in the /model picker when using `--model haiku`&lt;/li&gt;&lt;li&gt;Fixed broken security documentation links in trust dialogs and onboarding&lt;/li&gt;&lt;li&gt;Fixed issue where pressing ESC to close the diff modal would also interrupt the model&lt;/li&gt;&lt;li&gt;ctrl-r history search landing on a slash command no longer cancels the search&lt;/li&gt;&lt;li&gt;SDK: Support custom timeouts for hooks&lt;/li&gt;&lt;li&gt;Allow more safe git commands to run without approval&lt;/li&gt;&lt;li&gt;Plugins: Added support for sharing and installing output styles&lt;/li&gt;&lt;li&gt;Teleporting a session from web will automatically set the upstream branch&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2041</guid>
       <category>Changelog</category>
     </item>
   </channel>
