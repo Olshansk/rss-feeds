@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Jan 2026 15:11:13 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Jan 2026 16:10:01 +0000</lastBuildDate>
     <item>
       <title>Updates to Claude Team</title>
       <link>https://claude.com/blog/claude-team-updates</link>
@@ -613,6 +613,14 @@
       <guid isPermaLink="false">https://claude.com/blog/amazon-bedrock-general-availability</guid>
       <category>Product announcements</category>
       <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude 2 on Amazon Bedrock</title>
+      <link>https://claude.com/blog/claude-2-amazon-bedrock</link>
+      <description>Claude 2 on Amazon Bedrock</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-2-amazon-bedrock</guid>
+      <category>Product announcements</category>
+      <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
