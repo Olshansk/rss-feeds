@@ -13,7 +13,14 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Jan 2026 00:12:16 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Jan 2026 01:31:58 +0000</lastBuildDate>
+    <item>
+      <title>v2.1.23</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2123</link>
+      <description>&lt;ul&gt;&lt;li&gt;Added customizable spinner verbs setting (`spinnerVerbs`)&lt;/li&gt;&lt;li&gt;Fixed mTLS and proxy connectivity for users behind corporate proxies or using client certificates&lt;/li&gt;&lt;li&gt;Fixed per-user temp directory isolation to prevent permission conflicts on shared systems&lt;/li&gt;&lt;li&gt;Fixed a race condition that could cause 400 errors when prompt caching scope was enabled&lt;/li&gt;&lt;li&gt;Fixed pending async hooks not being cancelled when headless streaming sessions ended&lt;/li&gt;&lt;li&gt;Fixed tab completion not updating the input field when accepting a suggestion&lt;/li&gt;&lt;li&gt;Fixed ripgrep search timeouts silently returning empty results instead of reporting errors&lt;/li&gt;&lt;li&gt;Improved terminal rendering performance with optimized screen data layout&lt;/li&gt;&lt;li&gt;Changed Bash commands to show timeout duration alongside elapsed time&lt;/li&gt;&lt;li&gt;Changed merged pull requests to show a purple status indicator in the prompt footer&lt;/li&gt;&lt;li&gt;[IDE] Fixed model options displaying incorrect region strings for Bedrock users in headless mode&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2123</guid>
+      <category>Changelog</category>
+    </item>
     <item>
       <title>v2.1.22</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2122</link>
@@ -185,7 +192,7 @@
     <item>
       <title>v2.0.72</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2072</link>
-      <description>&lt;ul&gt;&lt;li&gt;Added Claude in Chrome (Beta) feature that works with the Chrome extension (https://claude.ai/chrome) to let you control your browser directly from Claude Code&lt;/li&gt;&lt;li&gt;Reduced terminal flickering&lt;/li&gt;&lt;li&gt;Added scannable QR code to mobile app tip for quick app downloads&lt;/li&gt;&lt;li&gt;Added loading indicator when resuming conversations for better feedback&lt;/li&gt;&lt;li&gt;Fixed `/context` command not respecting custom system prompts in non-interactive mode&lt;/li&gt;&lt;li&gt;Fixed order of consecutive Ctrl+K lines when pasting with Ctrl+Y&lt;/li&gt;&lt;li&gt;Improved @ mention file suggestion speed (~3x faster in git repositories)&lt;/li&gt;&lt;li&gt;Improved file suggestion performance in repos with `.ignore` or `.rgignore` files&lt;/li&gt;&lt;li&gt;Improved settings validation errors to be more prominent&lt;/li&gt;&lt;li&gt;Changed thinking toggle from Tab to Alt+T to avoid accidental triggers&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;ul&gt;&lt;li&gt;Added Claude in Chrome (Beta) feature that works with the Chrome extension (https://claude.ai/chrome) to let you control your browser directly from Claude Code&lt;/li&gt;&lt;li&gt;Reduced terminal flickering&lt;/li&gt;&lt;li&gt;Added scannable QR code to mobile app tip for quick app downloads&lt;/li&gt;&lt;li&gt;Added loading indicator when resuming conversations for better feedback&lt;/li&gt;&lt;li&gt;Fixed `/context` command not respecting custom system prompts in non-interactive mode&lt;/li&gt;&lt;li&gt;Fixed order of consecutive Ctrl+K lines when pasting with Ctrl+Y&lt;/li&gt;&lt;li&gt;Improved @ mention file suggestion speed (~3× faster in git repositories)&lt;/li&gt;&lt;li&gt;Improved file suggestion performance in repos with `.ignore` or `.rgignore` files&lt;/li&gt;&lt;li&gt;Improved settings validation errors to be more prominent&lt;/li&gt;&lt;li&gt;Changed thinking toggle from Tab to Alt+T to avoid accidental triggers&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2072</guid>
       <category>Changelog</category>
     </item>
@@ -355,13 +362,6 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2043</link>
       <description>&lt;ul&gt;&lt;li&gt;Added `permissionMode` field for custom agents&lt;/li&gt;&lt;li&gt;Added `tool_use_id` field to `PreToolUseHookInput` and `PostToolUseHookInput` types&lt;/li&gt;&lt;li&gt;Added skills frontmatter field to declare skills to auto-load for subagents&lt;/li&gt;&lt;li&gt;Added the `SubagentStart` hook event&lt;/li&gt;&lt;li&gt;Fixed nested `CLAUDE.md` files not loading when @-mentioning files&lt;/li&gt;&lt;li&gt;Fixed duplicate rendering of some messages in the UI&lt;/li&gt;&lt;li&gt;Fixed some visual flickers&lt;/li&gt;&lt;li&gt;Fixed NotebookEdit tool inserting cells at incorrect positions when cell IDs matched the pattern `cell-N`&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2043</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.42</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2042</link>
-      <description>&lt;ul&gt;&lt;li&gt;Added `agent_id` and `agent_transcript_path` fields to `SubagentStop` hooks.&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2042</guid>
       <category>Changelog</category>
     </item>
   </channel>
