@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Jan 2026 18:09:35 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Jan 2026 19:12:33 +0000</lastBuildDate>
     <item>
       <title>Updates to Claude Team</title>
       <link>https://claude.com/blog/claude-team-updates</link>
@@ -86,14 +86,6 @@
       <description>How enterprises are building AI agents in 2026</description>
       <guid isPermaLink="false">https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026</guid>
       <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude Code and Slack</title>
-      <link>https://claude.com/blog/claude-code-and-slack</link>
-      <description>Claude Code and Slack</description>
-      <guid isPermaLink="false">https://claude.com/blog/claude-code-and-slack</guid>
-      <category>Product announcements</category>
-      <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>How Anthropic's legal team cut review times from days to hours with Claude</title>
