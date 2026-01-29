@@ -13,7 +13,14 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Jan 2026 21:05:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Jan 2026 22:04:48 +0000</lastBuildDate>
+    <item>
+      <title>v2.1.25</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2125</link>
+      <description>&lt;ul&gt;&lt;li&gt;Fixed beta header validation error for gateway users on Bedrock and Vertex, ensuring `CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS=1` avoids the error&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2125</guid>
+      <category>Changelog</category>
+    </item>
     <item>
       <title>v2.1.23</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2123</link>
@@ -355,13 +362,6 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2045</link>
       <description>&lt;ul&gt;&lt;li&gt;Added support for Microsoft Foundry! See https://code.claude.com/docs/en/azure-ai-foundry&lt;/li&gt;&lt;li&gt;Added `PermissionRequest` hook to automatically approve or deny tool permission requests with custom logic&lt;/li&gt;&lt;li&gt;Send background tasks to Claude Code on the web by starting a message with `&amp;`&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2045</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.43</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2043</link>
-      <description>&lt;ul&gt;&lt;li&gt;Added `permissionMode` field for custom agents&lt;/li&gt;&lt;li&gt;Added `tool_use_id` field to `PreToolUseHookInput` and `PostToolUseHookInput` types&lt;/li&gt;&lt;li&gt;Added skills frontmatter field to declare skills to auto-load for subagents&lt;/li&gt;&lt;li&gt;Added the `SubagentStart` hook event&lt;/li&gt;&lt;li&gt;Fixed nested `CLAUDE.md` files not loading when @-mentioning files&lt;/li&gt;&lt;li&gt;Fixed duplicate rendering of some messages in the UI&lt;/li&gt;&lt;li&gt;Fixed some visual flickers&lt;/li&gt;&lt;li&gt;Fixed NotebookEdit tool inserting cells at incorrect positions when cell IDs matched the pattern `cell-N`&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2043</guid>
       <category>Changelog</category>
     </item>
   </channel>
