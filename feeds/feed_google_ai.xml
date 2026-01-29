@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Jan 2026 08:08:12 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Jan 2026 09:12:33 +0000</lastBuildDate>
+    <item>
+      <title>Beyond the Chatbot: A Blueprint for Trustable AI</title>
+      <link>https://developers.googleblog.com/beyond-the-chatbot-a-blueprint-for-trustable-ai/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-banner.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;At Thunderhill Raceway Park, a team of Google Developer Experts (GDEs) put a new "Trustable AI Framework" to the test. Here is how they used GCP, Gemini and Antigravity to turn high-velocity racing into a masterclass for agentic architecture.</description>
+      <category>DeepMind</category>
+      <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Tailor Gemini CLI to your workflow with hooks</title>
       <link>https://developers.googleblog.com/tailor-gemini-cli-to-your-workflow-with-hooks/</link>
@@ -71,13 +78,6 @@
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-banner.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Introducing the Agent Development Kit (ADK) for TypeScript, an open-source framework for building complex, multi-agent AI systems with a code-first approach. Developers can define agent logic in TypeScript, applying traditional software development best practices (version control, testing). ADK offers end-to-end type safety, modularity, and deployment-agnostic functionality, leveraging the familiar TypeScript/JavaScript ecosystem.</description>
       <category>AI</category>
       <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Developer’s guide to multi-agent patterns in ADK</title>
-      <link>https://developers.googleblog.com/developers-guide-to-multi-agent-patterns-in-adk/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/meta-data_image.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Learn how to build modular and reliable agentic applications using 8 effective multi-agent design patterns with the Agent Development Kit (ADK).</description>
-      <category>AI</category>
-      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
