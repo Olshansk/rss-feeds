@@ -13,7 +13,7 @@
       <link>https://anthropic.com/engineering/feed_anthropic_engineering.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Jan 2026 14:15:30 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Jan 2026 15:12:36 +0000</lastBuildDate>
     <item>
       <title>Designing AI-resistant technical evaluations</title>
       <link>https://www.anthropic.com/engineering/AI-resistant-technical-evaluations</link>
@@ -63,26 +63,10 @@
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Equipping agents for the real world with Agent Skills</title>
-      <link>https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills</link>
-      <description>Claude is powerful, but real work requires procedural knowledge and organizational context. Introducing Agent Skills, a new way to build specialized agents using files and folders.</description>
-      <guid isPermaLink="false">https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills</guid>
-      <category>Engineering</category>
-      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Effective context engineering for AI agents</title>
       <link>https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents</link>
       <description>Context is a critical but finite resource for AI agents. In this post, we explore strategies for effectively curating and managing the context that powers them.</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents</guid>
-      <category>Engineering</category>
-      <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Building agents with the Claude Agent SDK</title>
-      <link>https://www.anthropic.com/engineering/building-agents-with-the-claude-agent-sdk</link>
-      <description>The Claude Agent SDK is a collection of tools that helps developers build powerful agents on top of Claude Code. In this article, we walk through how to get started  and share our best practices.</description>
-      <guid isPermaLink="false">https://www.anthropic.com/engineering/building-agents-with-the-claude-agent-sdk</guid>
       <category>Engineering</category>
       <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
     </item>
