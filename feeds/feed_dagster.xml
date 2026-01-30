@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Jan 2026 09:12:35 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Jan 2026 10:08:55 +0000</lastBuildDate>
     <item>
       <title>Pytest for Agent-Generated Code: Concrete Testing Strategies to Put Into Practice</title>
       <link>https://dagster.io/blog/pytest-for-agent-generated-code-concrete-testing-strategies-to-put-into-practice</link>
