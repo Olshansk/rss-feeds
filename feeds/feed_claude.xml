@@ -8,12 +8,20 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Jan 2026 23:05:43 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Jan 2026 00:12:34 +0000</lastBuildDate>
     <item>
       <title>Understand Claude Code’s impact with contribution metrics</title>
       <link>https://claude.com/blog/contribution-metrics</link>
       <description>Understand Claude Code’s impact with contribution metrics</description>
       <guid isPermaLink="false">https://claude.com/blog/contribution-metrics</guid>
+      <category>Claude Code</category>
+      <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A complete guide to building skills for Claude</title>
+      <link>https://claude.com/blog/complete-guide-to-building-skills-for-claude</link>
+      <description>A complete guide to building skills for Claude</description>
+      <guid isPermaLink="false">https://claude.com/blog/complete-guide-to-building-skills-for-claude</guid>
       <category>Claude Code</category>
       <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
     </item>
