@@ -8,12 +8,20 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Jan 2026 20:05:18 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Jan 2026 21:07:02 +0000</lastBuildDate>
     <item>
       <title>Windsurf Next 1.9544.1018</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.9544.1018</link>
       <description>&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Various bug fixes and performance improvements&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.9544.1018#1.9544.1018</guid>
+      <category>Changelog</category>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.9544.1024</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.9544.1024</link>
+      <description>&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Various bug fixes and performance improvements&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.9544.1024#1.9544.1024</guid>
       <category>Changelog</category>
       <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
     </item>

@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Jan 2026 20:05:21 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Jan 2026 21:07:04 +0000</lastBuildDate>
+    <item>
+      <title>Windsurf 1.9544.24</title>
+      <link>https://windsurf.com/changelog#1.9544.24</link>
+      <description>&lt;h3&gt;Wave 14: Arena Mode&lt;/h3&gt;&lt;p&gt;Arena Mode brings side-by-side model comparison directly into your IDE, plus Plan Mode for smarter task planning.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Arena Mode&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Run two Cascade agents side-by-side with hidden model identities and vote on which performs better. Arena Mode lets you discover which models actually work best foryourworkflow, codebase, and tasks—not just what benchmarks or influencers say.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Battle Groups: Choose specific models to compare or let Windsurf randomly select from curated groups like "fast models" vs "smart models"&lt;/li&gt;&lt;li&gt;Personal &amp; Global Leaderboards: Your votes contribute to both a personal leaderboard (your preferences) and a global one (across all Windsurf users)&lt;/li&gt;&lt;li&gt;Sync or Branch: Send followup prompts to both agents simultaneously, or branch and explore different paths individually&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;To get started, select the newArenatab in the model picker. All battle groups are free for the first week for paid users.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Plan Mode&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Plan Mode is a new Cascade mode alongside Code and Ask. Use it to create detailed implementation plans before diving into code.&lt;/p&gt;&lt;p&gt;Pro tip: Typemegaplanin the Cascade input box to trigger an advanced form that asks clarifying questions to create a more aligned, comprehensive plan.&lt;/p&gt;&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Admins can now set a default model that applies to all team members when they first open Windsurf&lt;/li&gt;&lt;li&gt;Various bug fixes and performance improvements&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog#1.9544.24#1.9544.24</guid>
+      <category>Changelog</category>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Windsurf 1.13.14</title>
       <link>https://windsurf.com/changelog#1.13.14</link>
