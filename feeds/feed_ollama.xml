@@ -13,7 +13,7 @@
       <link>https://ollama.com/blog/feed_ollama.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Feb 2026 03:57:17 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Feb 2026 04:43:51 +0000</lastBuildDate>
     <item>
       <title>Run Llama 2 uncensored locally</title>
       <link>https://ollama.com/blog/run-llama2-uncensored-locally</link>
@@ -321,6 +321,13 @@
       <description>ollama launch is a new command which sets up and runs coding tools like Claude Code, OpenCode, and Codex with local or cloud models. No environment variables or config files needed.</description>
       <guid isPermaLink="false">https://ollama.com/blog/launch</guid>
       <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenClaw</title>
+      <link>https://ollama.com/blog/openclaw</link>
+      <description>OpenClaw is a personal AI assistant that connects your messaging apps to local AI coding agents, all running on your own device.</description>
+      <guid isPermaLink="false">https://ollama.com/blog/openclaw</guid>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
