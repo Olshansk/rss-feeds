@@ -13,7 +13,31 @@
       <link>https://www.anthropic.com/news</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Jan 2026 21:08:40 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Feb 2026 21:11:08 +0000</lastBuildDate>
+    <item>
+      <title>Apple’s Xcode now supports the Claude Agent SDK</title>
+      <link>https://www.anthropic.com/news/apple-xcode-claude-agent-sdk</link>
+      <description>Apple’s Xcode now supports the Claude Agent SDK</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/apple-xcode-claude-agent-sdk</guid>
+      <category>Product</category>
+      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic partners with Allen Institute and Howard Hughes Medical Institute to accelerate scientific discovery</title>
+      <link>https://www.anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute</link>
+      <description>Anthropic partners with Allen Institute and Howard Hughes Medical Institute to accelerate scientific discovery</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute</guid>
+      <category>Societal Impacts</category>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ServiceNow chooses Claude to power customer apps and increase internal productivity</title>
+      <link>https://www.anthropic.com/news/servicenow-anthropic-claude</link>
+      <description>ServiceNow chooses Claude to power customer apps and increase internal productivity</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/servicenow-anthropic-claude</guid>
+      <category>Announcements</category>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Anthropic partners with the UK Government to bring AI assistance to GOV.UK services</title>
       <link>https://www.anthropic.com/news/gov-UK-partnership</link>
