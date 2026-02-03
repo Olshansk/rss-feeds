@@ -8,13 +8,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Feb 2026 17:18:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Feb 2026 18:16:10 +0000</lastBuildDate>
     <item>
       <title>Easy FunctionGemma finetuning with Tunix on Google TPUs</title>
       <link>https://developers.googleblog.com/easy-functiongemma-finetuning-with-tunix-on-google-tpus/</link>
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-banner.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Finetuning the FunctionGemma model is made fast and easy using the lightweight JAX-based Tunix library on Google TPUs, a process demonstrated here using LoRA for supervised finetuning. This approach delivers significant accuracy improvements with high TPU efficiency, culminating in a model ready for deployment.</description>
       <category>AI</category>
-      <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Beyond the Chatbot: A Blueprint for Trustable AI</title>
