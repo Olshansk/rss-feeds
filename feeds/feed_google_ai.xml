@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Feb 2026 11:11:53 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Feb 2026 12:07:52 +0000</lastBuildDate>
     <item>
       <title>Easy FunctionGemma finetuning with Tunix on Google TPUs</title>
       <link>https://developers.googleblog.com/easy-functiongemma-finetuning-with-tunix-on-google-tpus/</link>
