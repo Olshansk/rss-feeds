@@ -13,7 +13,14 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Feb 2026 00:11:19 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Feb 2026 01:32:20 +0000</lastBuildDate>
+    <item>
+      <title>v2.1.31</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2131</link>
+      <description>&lt;ul&gt;&lt;li&gt;Added session resume hint on exit, showing how to continue your conversation later&lt;/li&gt;&lt;li&gt;Added support for full-width (zenkaku) space input from Japanese IME in checkbox selection&lt;/li&gt;&lt;li&gt;Fixed PDF too large errors permanently locking up sessions, requiring users to start a new conversation&lt;/li&gt;&lt;li&gt;Fixed bash commands incorrectly reporting failure with "Read-only file system" errors when sandbox mode was enabled&lt;/li&gt;&lt;li&gt;Fixed a crash that made sessions unusable after entering plan mode when project config in `~/.claude.json` was missing default fields&lt;/li&gt;&lt;li&gt;Fixed `temperatureOverride` being silently ignored in the streaming API path, causing all streaming requests to use the default temperature (1) regardless of the configured override&lt;/li&gt;&lt;li&gt;Fixed LSP shutdown/exit compatibility with strict language servers that reject null params&lt;/li&gt;&lt;li&gt;Improved system prompts to more clearly guide the model toward using dedicated tools (Read, Edit, Glob, Grep) instead of bash equivalents (`cat`, `sed`, `grep`, `find`), reducing unnecessary bash command usage&lt;/li&gt;&lt;li&gt;Improved PDF and request size error messages to show actual limits (100 pages, 20MB)&lt;/li&gt;&lt;li&gt;Reduced layout jitter in the terminal when the spinner appears and disappears during streaming&lt;/li&gt;&lt;li&gt;Removed misleading Anthropic API pricing from model selector for third-party provider (Bedrock, Vertex, Foundry) users&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2131</guid>
+      <category>Changelog</category>
+    </item>
     <item>
       <title>v2.1.30</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2130</link>
@@ -355,13 +362,6 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2050</link>
       <description>&lt;ul&gt;&lt;li&gt;Fixed bug preventing calling MCP tools that have nested references in their input schemas&lt;/li&gt;&lt;li&gt;Silenced a noisy but harmless error during upgrades&lt;/li&gt;&lt;li&gt;Improved ultrathink text display&lt;/li&gt;&lt;li&gt;Improved clarity of 5-hour session limit warning message&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2050</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.49</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2049</link>
-      <description>&lt;ul&gt;&lt;li&gt;Added readline-style ctrl-y for pasting deleted text&lt;/li&gt;&lt;li&gt;Improved clarity of usage limit warning message&lt;/li&gt;&lt;li&gt;Fixed handling of subagent permissions&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2049</guid>
       <category>Changelog</category>
     </item>
   </channel>
