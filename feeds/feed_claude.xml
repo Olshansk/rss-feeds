@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Feb 2026 21:08:24 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Feb 2026 22:03:55 +0000</lastBuildDate>
     <item>
       <title>Customize Cowork with plugins</title>
       <link>https://claude.com/blog/cowork-plugins</link>
@@ -182,6 +182,14 @@
       <guid isPermaLink="false">https://claude.com/blog/building-companies-with-claude-code</guid>
       <category>Claude Code</category>
       <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Structured outputs on the Claude Developer Platform</title>
+      <link>https://claude.com/blog/structured-outputs-on-the-claude-developer-platform</link>
+      <description>Structured outputs on the Claude Developer Platform</description>
+      <guid isPermaLink="false">https://claude.com/blog/structured-outputs-on-the-claude-developer-platform</guid>
+      <category>Product announcements</category>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Skills explained: How Skills compares to prompts, Projects, MCP, and subagents </title>
