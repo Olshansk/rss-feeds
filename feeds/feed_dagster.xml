@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Feb 2026 08:11:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Feb 2026 09:14:57 +0000</lastBuildDate>
     <item>
       <title>Closing the DataOps Loop: Why We Built Compass for Dagster+</title>
       <link>https://dagster.io/blog/closing-the-dataops-loop-why-we-built-compass-for-dagster</link>
