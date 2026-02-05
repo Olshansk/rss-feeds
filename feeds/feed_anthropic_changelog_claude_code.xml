@@ -13,7 +13,14 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Feb 2026 17:16:36 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Feb 2026 18:15:07 +0000</lastBuildDate>
+    <item>
+      <title>v2.1.32</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2132</link>
+      <description>&lt;ul&gt;&lt;li&gt;Claude Opus 4.6 is now available!&lt;/li&gt;&lt;li&gt;Added research preview agent teams feature for multi-agent collaboration (token-intensive feature, requires setting CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1)&lt;/li&gt;&lt;li&gt;Claude now automatically records and recalls memories as it works&lt;/li&gt;&lt;li&gt;Added "Summarize from here" to the message selector, allowing partial conversation summarization.&lt;/li&gt;&lt;li&gt;Skills defined in `.claude/skills/` within additional directories (`--add-dir`) are now loaded automatically.&lt;/li&gt;&lt;li&gt;Fixed `@` file completion showing incorrect relative paths when running from a subdirectory&lt;/li&gt;&lt;li&gt;Updated --resume to re-use --agent value specified in previous conversation by default.&lt;/li&gt;&lt;li&gt;Fixed: Bash tool no longer throws "Bad substitution" errors when heredocs contain JavaScript template literals like `${index + 1}`, which previously interrupted tool execution&lt;/li&gt;&lt;li&gt;Skill character budget now scales with context window (2% of context), so users with larger context windows can see more skill descriptions without truncation&lt;/li&gt;&lt;li&gt;Fixed Thai/Lao spacing vowels (สระ า, ำ) not rendering correctly in the input field&lt;/li&gt;&lt;li&gt;VSCode: Fixed slash commands incorrectly being executed when pressing Enter with preceding text in the input field&lt;/li&gt;&lt;li&gt;VSCode: Added spinner when loading past conversations list&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2132</guid>
+      <category>Changelog</category>
+    </item>
     <item>
       <title>v2.1.31</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2131</link>
@@ -355,13 +362,6 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2051</link>
       <description>&lt;ul&gt;&lt;li&gt;Added Opus 4.5! https://www.anthropic.com/news/claude-opus-4-5&lt;/li&gt;&lt;li&gt;Introducing Claude Code for Desktop: https://claude.com/download&lt;/li&gt;&lt;li&gt;To give you room to try out our new model, we've updated usage limits for Claude Code users. See the Claude Opus 4.5 blog for full details&lt;/li&gt;&lt;li&gt;Pro users can now purchase extra usage for access to Opus 4.5 in Claude Code&lt;/li&gt;&lt;li&gt;Plan Mode now builds more precise plans and executes more thoroughly&lt;/li&gt;&lt;li&gt;Usage limit notifications now easier to understand&lt;/li&gt;&lt;li&gt;Switched `/usage` back to "% used"&lt;/li&gt;&lt;li&gt;Fixed handling of thinking errors&lt;/li&gt;&lt;li&gt;Fixed performance regression&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2051</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.50</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2050</link>
-      <description>&lt;ul&gt;&lt;li&gt;Fixed bug preventing calling MCP tools that have nested references in their input schemas&lt;/li&gt;&lt;li&gt;Silenced a noisy but harmless error during upgrades&lt;/li&gt;&lt;li&gt;Improved ultrathink text display&lt;/li&gt;&lt;li&gt;Improved clarity of 5-hour session limit warning message&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2050</guid>
       <category>Changelog</category>
     </item>
   </channel>
