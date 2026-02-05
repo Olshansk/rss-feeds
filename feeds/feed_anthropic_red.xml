@@ -13,7 +13,15 @@
       <link>https://anthropic.com/feed_anthropic_red.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Feb 2026 16:15:39 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Feb 2026 17:17:47 +0000</lastBuildDate>
+    <item>
+      <title>LLM-discovered 0-days</title>
+      <link>https://red.anthropic.com/2026/zero-days/</link>
+      <description>AI models can now find high-severity vulnerabilities at scale. This is a moment to empower
+                        defenders. We're now using Claude to find and help fix vulnerabilities in open source software.</description>
+      <guid isPermaLink="false">https://red.anthropic.com/2026/zero-days/</guid>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Models on Realistic Cyber Ranges</title>
       <link>https://red.anthropic.com/2026/cyber-toolkits-update/</link>

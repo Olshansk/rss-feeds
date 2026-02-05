@@ -13,7 +13,15 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Feb 2026 16:15:55 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Feb 2026 17:18:02 +0000</lastBuildDate>
+    <item>
+      <title>Towards self-driving codebases</title>
+      <link>https://cursor.com/blog/self-driving-codebases</link>
+      <description>We're making a part of our multi-agent research harness available to try today in preview.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/self-driving-codebases</guid>
+      <category>research</category>
+      <pubDate>Thu, 05 Feb 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Securely indexing large codebases</title>
       <link>https://cursor.com/blog/secure-codebase-indexing</link>
