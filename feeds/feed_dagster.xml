@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Feb 2026 14:18:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Feb 2026 15:15:20 +0000</lastBuildDate>
+    <item>
+      <title>Great Infrastructure Needs Great Stories: Designing our Children’s Book</title>
+      <link>https://dagster.io/blog/great-infrastructure-needs-great-stories</link>
+      <description>We set out to explain Dagster assets in the simplest possible way: as living characters that wait, react, and change with their dependencies. By designing a children’s book with warmth, visuals, and motion, we rediscovered what makes assets compelling in the first place.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/great-infrastructure-needs-great-stories</guid>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Closing the DataOps Loop: Why We Built Compass for Dagster+</title>
       <link>https://dagster.io/blog/closing-the-dataops-loop-why-we-built-compass-for-dagster</link>
