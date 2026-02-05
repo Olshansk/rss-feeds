@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Feb 2026 00:13:49 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Feb 2026 01:32:39 +0000</lastBuildDate>
     <item>
       <title>The AI Bottleneck: High-Quality, Human-Powered Data</title>
       <link>https://www.surgehq.ai/blog/the-ai-bottleneck-high-quality-human-powered-data</link>
@@ -241,7 +241,7 @@
       <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Hemingway-bench AI Writing Leaderboard: Because Good Writing Isn't a Checklist of Vibes</title>
+      <title>Hemingway-bench Leaderboard: Because Good Writing Isn't a Checklist of Vibes</title>
       <link>https://www.surgehq.ai/blog/hemingway-bench-ai-writing-leaderboard</link>
       <description>Stop rewarding slop. Hemingway-bench is an AI writing leaderboard that takes real-world writing tasks and puts them in front of master wordsmiths. Our goal: to push AI writing from two-second vibes to genuine nuance and impact.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/hemingway-bench-ai-writing-leaderboard</guid>
