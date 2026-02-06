@@ -13,7 +13,7 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Feb 2026 23:06:16 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 00:12:46 +0000</lastBuildDate>
     <item>
       <title>Towards self-driving codebases</title>
       <link>https://cursor.com/blog/self-driving-codebases</link>
@@ -39,9 +39,9 @@
       <pubDate>Mon, 26 Jan 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Salesforce ships higher-quality code across 20,000 developers with Cursor</title>
+      <title>Salesforce accelerates velocity by over 30% and ships higher-quality code with Cursor</title>
       <link>https://cursor.com/blog/salesforce</link>
-      <description>Over 90% of developers at Salesforce now use Cursor, driving double-digit improvements in cycle time, PR velocity, and code quality.</description>
+      <description>Over 75% of developers at Salesforce now use Cursor, driving double-digit improvements in cycle time, PR velocity, and code quality.</description>
       <guid isPermaLink="false">https://cursor.com/blog/salesforce</guid>
       <category>customers</category>
       <pubDate>Wed, 21 Jan 2026 12:00:00 +0000</pubDate>
