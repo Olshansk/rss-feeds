@@ -8,11 +8,11 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Feb 2026 00:12:22 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 01:34:07 +0000</lastBuildDate>
     <item>
       <title>Windsurf 1.9544.35</title>
       <link>https://windsurf.com/changelog#1.9544.35</link>
-      <description>&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Various bug fixes and performance improvements&lt;/li&gt;&lt;li&gt;Released Tab v2 model selector to all users&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;h3&gt;Claude Opus 4.6&lt;/h3&gt;&lt;p&gt;Claude Opus 4.6 is now available in Windsurf with limited-time promotional pricing for self serve users:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;No thinking:2x credits&lt;/li&gt;&lt;li&gt;With thinking:3x credits&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Opus 4.6 is available in Arena Mode's Frontier Arena and Hybrid Arena. Try it head-to-head against other frontier models to see how it performs on your real-world tasks.&lt;/p&gt;&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Various bug fixes and performance improvements&lt;/li&gt;&lt;li&gt;Released Tab v2 model selector to all users&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://windsurf.com/changelog#1.9544.35#1.9544.35</guid>
       <category>Changelog</category>
       <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
