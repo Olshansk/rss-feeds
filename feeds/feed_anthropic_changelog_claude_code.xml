@@ -13,7 +13,14 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Feb 2026 01:32:40 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 02:56:22 +0000</lastBuildDate>
+    <item>
+      <title>v2.1.33</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2133</link>
+      <description>&lt;ul&gt;&lt;li&gt;Fixed agent teammate sessions in tmux to send and receive messages&lt;/li&gt;&lt;li&gt;Fixed warnings about agent teams not being available on your current plan&lt;/li&gt;&lt;li&gt;Added `TeammateIdle` and `TaskCompleted` hook events for multi-agent workflows&lt;/li&gt;&lt;li&gt;Added support for restricting which sub-agents can be spawned via `Task(agent_type)` syntax in agent "tools" frontmatter&lt;/li&gt;&lt;li&gt;Added `memory` frontmatter field support for agents, enabling persistent memory with `user`, `project`, or `local` scope&lt;/li&gt;&lt;li&gt;Added plugin name to skill descriptions and `/skills` menu for better discoverability&lt;/li&gt;&lt;li&gt;Fixed an issue where submitting a new message while the model was in extended thinking would interrupt the thinking phase&lt;/li&gt;&lt;li&gt;Fixed an API error that could occur when aborting mid-stream, where whitespace text combined with a thinking block would bypass normalization and produce an invalid request&lt;/li&gt;&lt;li&gt;Fixed API proxy compatibility issue where 404 errors on streaming endpoints no longer triggered non-streaming fallback&lt;/li&gt;&lt;li&gt;Fixed an issue where proxy settings configured via `settings.json` environment variables were not applied to WebFetch and other HTTP requests on the Node.js build&lt;/li&gt;&lt;li&gt;Fixed `/resume` session picker showing raw XML markup instead of clean titles for sessions started with slash commands&lt;/li&gt;&lt;li&gt;Improved error messages for API connection failures — now shows specific cause (e.g., ECONNREFUSED, SSL errors) instead of generic "Connection error"&lt;/li&gt;&lt;li&gt;Errors from invalid managed settings are now surfaced&lt;/li&gt;&lt;li&gt;VSCode: Added support for remote sessions, allowing OAuth users to browse and resume sessions from claude.ai&lt;/li&gt;&lt;li&gt;VSCode: Added git branch and message count to the session picker, with support for searching by branch name&lt;/li&gt;&lt;li&gt;VSCode: Fixed scroll-to-bottom under-scrolling on initial session load and session switch&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2133</guid>
+      <category>Changelog</category>
+    </item>
     <item>
       <title>v2.1.32</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2132</link>
@@ -355,13 +362,6 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2052</link>
       <description>&lt;ul&gt;&lt;li&gt;Fixed duplicate message display when starting Claude with a command line argument&lt;/li&gt;&lt;li&gt;Fixed `/usage` command progress bars to fill up as usage increases (instead of showing remaining percentage)&lt;/li&gt;&lt;li&gt;Fixed image pasting not working on Linux systems running Wayland (now falls back to wl-paste when xclip is unavailable)&lt;/li&gt;&lt;li&gt;Permit some uses of `$!` in bash commands&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2052</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.51</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2051</link>
-      <description>&lt;ul&gt;&lt;li&gt;Added Opus 4.5! https://www.anthropic.com/news/claude-opus-4-5&lt;/li&gt;&lt;li&gt;Introducing Claude Code for Desktop: https://claude.com/download&lt;/li&gt;&lt;li&gt;To give you room to try out our new model, we've updated usage limits for Claude Code users. See the Claude Opus 4.5 blog for full details&lt;/li&gt;&lt;li&gt;Pro users can now purchase extra usage for access to Opus 4.5 in Claude Code&lt;/li&gt;&lt;li&gt;Plan Mode now builds more precise plans and executes more thoroughly&lt;/li&gt;&lt;li&gt;Usage limit notifications now easier to understand&lt;/li&gt;&lt;li&gt;Switched `/usage` back to "% used"&lt;/li&gt;&lt;li&gt;Fixed handling of thinking errors&lt;/li&gt;&lt;li&gt;Fixed performance regression&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2051</guid>
       <category>Changelog</category>
     </item>
   </channel>
