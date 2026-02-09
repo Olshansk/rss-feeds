@@ -13,7 +13,15 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Feb 2026 20:12:39 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Feb 2026 21:13:46 +0000</lastBuildDate>
+    <item>
+      <title>Introducing Composer 1.5</title>
+      <link>https://cursor.com/blog/composer-1-5</link>
+      <description>Improved reasoning over challenging coding tasks by scaling RL over 20x.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/composer-1-5</guid>
+      <category>product</category>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>NVIDIA commits 3x more code across 30,000 developers with Cursor</title>
       <link>https://cursor.com/blog/nvidia</link>
