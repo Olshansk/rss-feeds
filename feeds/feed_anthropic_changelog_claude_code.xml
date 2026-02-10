@@ -13,7 +13,14 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Feb 2026 00:17:49 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Feb 2026 01:33:21 +0000</lastBuildDate>
+    <item>
+      <title>v2.1.38</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2138</link>
+      <description>&lt;ul&gt;&lt;li&gt;Fixed VS Code terminal scroll-to-top regression introduced in 2.1.37&lt;/li&gt;&lt;li&gt;Fixed Tab key queueing slash commands instead of autocompleting&lt;/li&gt;&lt;li&gt;Fixed bash permission matching for commands using environment variable wrappers&lt;/li&gt;&lt;li&gt;Fixed text between tool uses disappearing when not using streaming&lt;/li&gt;&lt;li&gt;Fixed duplicate sessions when resuming in VS Code extension&lt;/li&gt;&lt;li&gt;Improved heredoc delimiter parsing to prevent command smuggling&lt;/li&gt;&lt;li&gt;Blocked writes to `.claude/skills` directory in sandbox mode&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2138</guid>
+      <category>Changelog</category>
+    </item>
     <item>
       <title>v2.1.37</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2137</link>
@@ -355,13 +362,6 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2057</link>
       <description>&lt;ul&gt;&lt;li&gt;Added feedback input when rejecting plans, allowing users to tell Claude what to change&lt;/li&gt;&lt;li&gt;VSCode: Added streaming message support for real-time response display&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2057</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.56</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2056</link>
-      <description>&lt;ul&gt;&lt;li&gt;Added setting to enable/disable terminal progress bar (OSC 9;4)&lt;/li&gt;&lt;li&gt;VSCode Extension: Added support for VS Code's secondary sidebar (VS Code 1.97+), allowing Claude Code to be displayed in the right sidebar while keeping the file explorer on the left. Requires setting sidebar as Preferred Location in the config.&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2056</guid>
       <category>Changelog</category>
     </item>
   </channel>
