@@ -13,11 +13,11 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Feb 2026 15:19:58 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Feb 2026 16:21:12 +0000</lastBuildDate>
     <item>
       <title>v2.1.39</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2139</link>
-      <description>&lt;ul&gt;&lt;li&gt;Added guard against launching Claude Code inside another Claude Code session&lt;/li&gt;&lt;li&gt;Fixed Agent Teams using wrong model identifier for Bedrock, Vertex, and Foundry customers&lt;/li&gt;&lt;li&gt;Fixed a crash when MCP tools return image content during streaming&lt;/li&gt;&lt;li&gt;Fixed /resume session previews showing raw XML tags instead of readable command names&lt;/li&gt;&lt;li&gt;Improved model error messages for Bedrock/Vertex/Foundry users with fallback suggestions&lt;/li&gt;&lt;li&gt;Improved terminal rendering performance&lt;/li&gt;&lt;li&gt;Fixed fatal errors being swallowed instead of displayed&lt;/li&gt;&lt;li&gt;Fixed process hanging after session close&lt;/li&gt;&lt;li&gt;Fixed character loss at terminal screen boundary&lt;/li&gt;&lt;li&gt;Fixed blank lines in verbose transcript view&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;ul&gt;&lt;li&gt;Added guard against launching Claude Code inside another Claude Code session&lt;/li&gt;&lt;li&gt;Fixed Agent Teams using wrong model identifier for Bedrock, Vertex, and Foundry customers&lt;/li&gt;&lt;li&gt;Fixed a crash when MCP tools return image content during streaming&lt;/li&gt;&lt;li&gt;Fixed /resume session previews showing raw XML tags instead of readable command names&lt;/li&gt;&lt;li&gt;Improved model error messages for Bedrock/Vertex/Foundry users with fallback suggestions&lt;/li&gt;&lt;li&gt;Fixed hook blocking errors (exit code 2) not showing stderr to the user&lt;/li&gt;&lt;li&gt;Added `speed` attribute to OTel events and trace spans for fast mode visibility&lt;/li&gt;&lt;li&gt;Improved terminal rendering performance&lt;/li&gt;&lt;li&gt;Fixed fatal errors being swallowed instead of displayed&lt;/li&gt;&lt;li&gt;Fixed process hanging after session close&lt;/li&gt;&lt;li&gt;Fixed character loss at terminal screen boundary&lt;/li&gt;&lt;li&gt;Fixed blank lines in verbose transcript view&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2139</guid>
       <category>Changelog</category>
     </item>
