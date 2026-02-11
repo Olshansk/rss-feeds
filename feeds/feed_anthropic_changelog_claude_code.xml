@@ -13,7 +13,14 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Feb 2026 23:13:41 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Feb 2026 00:18:15 +0000</lastBuildDate>
+    <item>
+      <title>v2.1.39</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2139</link>
+      <description>&lt;ul&gt;&lt;li&gt;Improved terminal rendering performance&lt;/li&gt;&lt;li&gt;Fixed fatal errors being swallowed instead of displayed&lt;/li&gt;&lt;li&gt;Fixed process hanging after session close&lt;/li&gt;&lt;li&gt;Fixed character loss at terminal screen boundary&lt;/li&gt;&lt;li&gt;Fixed blank lines in verbose transcript view&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2139</guid>
+      <category>Changelog</category>
+    </item>
     <item>
       <title>v2.1.38</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2138</link>
@@ -355,13 +362,6 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2058</link>
       <description>&lt;ul&gt;&lt;li&gt;Pro users now have access to Opus 4.5 as part of their subscription!&lt;/li&gt;&lt;li&gt;Fixed timer duration showing "11m 60s" instead of "12m 0s"&lt;/li&gt;&lt;li&gt;Windows: Managed settings now prefer `C:\Program Files\ClaudeCode` if it exists. Support for `C:\ProgramData\ClaudeCode` will be removed in a future version.&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2058</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.57</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2057</link>
-      <description>&lt;ul&gt;&lt;li&gt;Added feedback input when rejecting plans, allowing users to tell Claude what to change&lt;/li&gt;&lt;li&gt;VSCode: Added streaming message support for real-time response display&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2057</guid>
       <category>Changelog</category>
     </item>
   </channel>
