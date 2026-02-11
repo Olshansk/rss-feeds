@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Feb 2026 09:16:46 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Feb 2026 10:17:08 +0000</lastBuildDate>
+    <item>
+      <title>Making Gemini CLI extensions easier to use</title>
+      <link>https://developers.googleblog.com/making-gemini-cli-extensions-easier-to-use/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_Extension_settings_hero.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;To simplify the user experience and prevent startup failures, the Gemini CLI has introduced structured extension settings that eliminate the need for manual environment variable configuration. This update enables extensions to automatically prompt users for required details during installation and securely stores sensitive information, such as API keys, directly in the system keychain. Users can now easily manage and override these configurations globally or per project using the new Gemini extensions config command.</description>
+      <category>AI</category>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Access public data insights faster: Data Commons MCP is now hosted on Google Cloud</title>
       <link>https://developers.googleblog.com/access-public-data-insights-faster-data-commons-mcp-is-now-hosted-on-google-cloud/</link>
@@ -71,13 +78,6 @@
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/meta.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;A practical guide to debugging and profiling JAX on Cloud TPUs. It outlines core components (libtpu, JAX/jaxlib) and essential techniques. Tools covered include: Verbose Logging (via libtpu env vars), TPU Monitoring Library for performance metrics, tpu-info for real-time utilization, XLA HLO Dumps for compiler debugging, and the XProf suite for in-depth performance analysis.</description>
       <category>AI</category>
       <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Real-World Agent Examples with Gemini 3</title>
-      <link>https://developers.googleblog.com/real-world-agent-examples-with-gemini-3/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/social-meta.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Gemini 3 is powering the next generation of reliable, production-ready AI agents. This post highlights 6 open-source framework collaborations (ADK, Agno, Browser Use, Eigent, Letta, mem0), demonstrating practical agentic workflows for tasks like deep search, multi-agent systems, browser and enterprise automation, and stateful agents with advanced memory. Clone the examples and start building today.</description>
-      <category>AI</category>
-      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
