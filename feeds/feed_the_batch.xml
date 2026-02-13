@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Feb 2026 14:17:16 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Feb 2026 15:14:41 +0000</lastBuildDate>
+    <item>
+      <title>Claude Opus 4.6 Thinks Smarter, xAI Joins SpaceX, AI Outperforms Doctors, Standardized AI Audits</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-340/</link>
+      <description>The Batch AI News and Insights: I recently spoke at the Sundance Film Festival on a panel about AI.</description>
+      <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-340/</guid>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>OpenClaw Runs Amok, Kimi’s Open Model, Ministral Distilled, Wikipedia’s Partners</title>
       <link>https://www.deeplearning.ai/the-batch/issue-339/</link>
