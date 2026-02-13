@@ -8,14 +8,22 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Feb 2026 03:01:22 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Feb 2026 04:37:32 +0000</lastBuildDate>
     <item>
       <title>Windsurf Next 1.9552.1021</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.9552.1021</link>
-      <description>&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Various bug fixes and performance improvements&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;h3&gt;Cascade Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Plan Mode now supports automatic switching back to Code Mode when you start implementing a plan&lt;/li&gt;&lt;li&gt;Added support for reading skills from the.agents/skillsdirectory&lt;/li&gt;&lt;li&gt;Tracking triggered rules in thepost_cascade_responsehook via a newrules_appliedfield&lt;/li&gt;&lt;li&gt;Diff zones will now automatically close on commit&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Linux ARM64 Support&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Full Linux ARM64 client support with deb and rpm packaging&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Enterprise &amp; Team Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Cloud configuration for Cascade Hooks is now available for enterprise teams via the cloud dashboard&lt;/li&gt;&lt;li&gt;Support for Devin service key authentication&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fixes forpost_write_codehooks to handle all code editing tool formats&lt;/li&gt;&lt;li&gt;Fixes and improvements for MCP server resource loading&lt;/li&gt;&lt;li&gt;Fixed osascript privilege escalation being incorrectly triggered on Linux for shell command installation&lt;/li&gt;&lt;li&gt;Addressed multiple memory leaks&lt;/li&gt;&lt;li&gt;Improved RTL language rendering in todo lists&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.9552.1021#1.9552.1021</guid>
       <category>Changelog</category>
       <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.9544.1029</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.9544.1029</link>
+      <description>&lt;h3&gt;Claude Opus 4.6 (fast mode)&lt;/h3&gt;&lt;p&gt;Claude Opus 4.6 (fast mode) is now available in Windsurf in research preview with limited-time promotional pricing for self serve users until Feb 16:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;No thinking:10x credits&lt;/li&gt;&lt;li&gt;With thinking:12x credits&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Opus 4.6 (fast mode) has the same intelligence as Opus 4.6 but with up to 2.5x higher output speeds.&lt;/p&gt;&lt;h3&gt;Claude Opus 4.6&lt;/h3&gt;&lt;p&gt;Claude Opus 4.6 is now available in Windsurf with limited-time promotional pricing for self serve users:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;No thinking:2x credits&lt;/li&gt;&lt;li&gt;With thinking:3x credits&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Opus 4.6 is available in Arena Mode's Frontier Arena and Hybrid Arena. Try it head-to-head against other frontier models to see how it performs on your real-world tasks.&lt;/p&gt;&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Various bug fixes and performance improvements&lt;/li&gt;&lt;li&gt;Released Tab v2 model selector to all users&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.9544.1029#1.9544.1029</guid>
+      <category>Changelog</category>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Windsurf Next 1.9544.1028</title>
@@ -28,7 +36,7 @@
     <item>
       <title>Windsurf Next 1.9544.1018</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.9544.1018</link>
-      <description>&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Various bug fixes and performance improvements&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;h3&gt;Wave 14: Arena Mode&lt;/h3&gt;&lt;p&gt;Arena Mode brings side-by-side model comparison directly into your IDE, plus Plan Mode for smarter task planning.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Arena Mode&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Run two Cascade agents side-by-side with hidden model identities and vote on which performs better. Arena Mode lets you discover which models actually work best foryourworkflow, codebase, and tasks—not just what benchmarks or influencers say.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Battle Groups: Choose specific models to compare or let Windsurf randomly select from curated groups like "fast models" vs "smart models"&lt;/li&gt;&lt;li&gt;Personal &amp; Global Leaderboards: Your votes contribute to both a personal leaderboard (your preferences) and a global one (across all Windsurf users)&lt;/li&gt;&lt;li&gt;Sync or Branch: Send followup prompts to both agents simultaneously, or branch and explore different paths individually&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;To get started, select the newArenatab in the model picker. All battle groups are free for the first week for paid users.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Plan Mode&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Plan Mode is a new Cascade mode alongside Code and Ask. Use it to create detailed implementation plans before diving into code.&lt;/p&gt;&lt;p&gt;Pro tip: Typemegaplanin the Cascade input box to trigger an advanced form that asks clarifying questions to create a more aligned, comprehensive plan.&lt;/p&gt;&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Admins can now set a default model that applies to all team members when they first open Windsurf&lt;/li&gt;&lt;li&gt;Various bug fixes and performance improvements&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.9544.1018#1.9544.1018</guid>
       <category>Changelog</category>
       <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
