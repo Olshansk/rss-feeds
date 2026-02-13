@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Feb 2026 09:15:37 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Feb 2026 10:14:55 +0000</lastBuildDate>
+    <item>
+      <title>Conductor Update: Introducing Automated Reviews</title>
+      <link>https://developers.googleblog.com/conductor-update-introducing-automated-reviews/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GCLI005-Conductor-Blog-Header_Bmva.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Conductor for the Gemini CLI has introduced a new Automated Review feature designed to verify the quality and accuracy of AI-generated code. This update addresses the challenge of validating agentic development by automatically checking implementations against original plans, enforcing style guides, and identifying security risks or bugs. by incorporating test-suite validation and providing actionable reports, Conductor helps developers ensure that their AI agents deliver safe, predictable, and architecturally sound code before it is finalized.</description>
+      <category>AI</category>
+      <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Making Gemini CLI extensions easier to use</title>
       <link>https://developers.googleblog.com/making-gemini-cli-extensions-easier-to-use/</link>
@@ -71,13 +78,6 @@
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Meta_Banner_Image-3_1.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;The Universal Commerce Protocol (UCP) is a new, open-source standard for agentic commerce, co-developed by Google and industry leaders. It establishes a common, secure language to connect consumer surfaces (like Gemini and AI Mode in Search) with business backends, enabling seamless shopping from product discovery to purchase. UCP simplifies integration for businesses, supports various payment providers, and is designed to power the next generation of conversational commerce experiences.</description>
       <category>AI</category>
       <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A Developer's Guide to Debugging JAX on Cloud TPUs: Essential Tools and Techniques</title>
-      <link>https://developers.googleblog.com/a-developers-guide-to-debugging-jax-on-cloud-tpus-essential-tools-and-techniques/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/meta.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;A practical guide to debugging and profiling JAX on Cloud TPUs. It outlines core components (libtpu, JAX/jaxlib) and essential techniques. Tools covered include: Verbose Logging (via libtpu env vars), TPU Monitoring Library for performance metrics, tpu-info for real-time utilization, XLA HLO Dumps for compiler debugging, and the XProf suite for in-depth performance analysis.</description>
-      <category>AI</category>
-      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
