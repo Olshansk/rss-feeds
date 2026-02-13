@@ -13,7 +13,14 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Feb 2026 19:18:14 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Feb 2026 20:10:26 +0000</lastBuildDate>
+    <item>
+      <title>v2.1.42</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2142</link>
+      <description>&lt;ul&gt;&lt;li&gt;Improved startup performance by deferring Zod schema construction&lt;/li&gt;&lt;li&gt;Improved prompt cache hit rates by moving date out of system prompt&lt;/li&gt;&lt;li&gt;Added one-time Opus 4.6 effort callout for eligible users&lt;/li&gt;&lt;li&gt;Fixed /resume showing interrupt messages as session titles&lt;/li&gt;&lt;li&gt;Fixed image dimension limit errors to suggest /compact&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2142</guid>
+      <category>Changelog</category>
+    </item>
     <item>
       <title>v2.1.41</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2141</link>
@@ -355,13 +362,6 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2060</link>
       <description>&lt;ul&gt;&lt;li&gt;Added background agent support. Agents run in the background while you work&lt;/li&gt;&lt;li&gt;Added --disable-slash-commands CLI flag to disable all slash commands&lt;/li&gt;&lt;li&gt;Added model name to "Co-Authored-By" commit messages&lt;/li&gt;&lt;li&gt;Enabled "/mcp enable [server-name]" or "/mcp disable [server-name]" to quickly toggle all servers&lt;/li&gt;&lt;li&gt;Updated Fetch to skip summarization for pre-approved websites&lt;/li&gt;&lt;li&gt;VSCode: Added support for multiple terminal clients connecting to the IDE server simultaneously&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2060</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.59</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2059</link>
-      <description>&lt;ul&gt;&lt;li&gt;Added --agent CLI flag to override the agent setting for the current session&lt;/li&gt;&lt;li&gt;Added `agent` setting to configure main thread with a specific agent's system prompt, tool restrictions, and model&lt;/li&gt;&lt;li&gt;VS Code: Fixed .claude.json config file being read from incorrect location&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2059</guid>
       <category>Changelog</category>
     </item>
   </channel>
