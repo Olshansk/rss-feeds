@@ -8,7 +8,18 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Feb 2026 00:14:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Feb 2026 01:32:43 +0000</lastBuildDate>
+    <item>
+      <title>GPT-5.3-Codex-Spark is now available in Windsurf</title>
+      <link>https://windsurf.com/blog/gpt-5.3-codex-spark</link>
+      <description>OpenAI's GPT-5.3-Codex-Spark, an ultra-fast model optimized for real-time coding, is now available in Windsurf's Arena Mode Fast and Hybrid battle groups.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/gpt-5.3-codex-spark</guid>
+      <category>product</category>
+      <category>windsurf</category>
+      <category>openai</category>
+      <category>gpt-5.3-codex-spark</category>
+      <pubDate>Thu, 12 Feb 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Windsurf Arena Mode Leaderboard: The People Want Speed</title>
       <link>https://windsurf.com/blog/windsurf-arena-mode-leaderboard</link>
