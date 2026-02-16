@@ -13,7 +13,7 @@
       <link>https://anthropic.com/research/feed_anthropic_research.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Feb 2026 07:23:24 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 08:11:47 +0000</lastBuildDate>
     <item>
       <title>Societal Impacts</title>
       <link>https://www.anthropic.com/research/team/societal-impacts</link>
@@ -41,6 +41,14 @@
       <description>Alignment</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
       <category>Research</category>
+    </item>
+    <item>
+      <title>Feb 16, 2026Economic ResearchIndia Country Brief: The Anthropic Economic Index</title>
+      <link>https://www.anthropic.com/research/india-brief-economic-index</link>
+      <description>Feb 16, 2026Economic ResearchIndia Country Brief: The Anthropic Economic Index</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/india-brief-economic-index</guid>
+      <category>Research</category>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Jan 29, 2026AlignmentHow AI assistance impacts the formation of coding skills</title>
@@ -105,14 +113,6 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/project-vend-2</guid>
       <category>Research</category>
       <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Dec 4, 2025Societal ImpactsIntroducing Anthropic Interviewer: What 1,250 professionals told us about working with AI</title>
-      <link>https://www.anthropic.com/research/anthropic-interviewer</link>
-      <description>Dec 4, 2025Societal ImpactsIntroducing Anthropic Interviewer: What 1,250 professionals told us about working with AI</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/anthropic-interviewer</guid>
-      <category>Research</category>
-      <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>InterpretabilityOct 29, 2025Signs of introspection in large language modelsCan Claude access and report on its own internal states? This research finds evidence for a limited but functional ability to introspect—a step toward understanding what's actually happening inside these models.</title>
