@@ -13,7 +13,21 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Feb 2026 21:07:36 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 22:06:09 +0000</lastBuildDate>
+    <item>
+      <title>v2.1.44</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2144</link>
+      <description>&lt;ul&gt;&lt;li&gt;Fixed auth refresh errors&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2144</guid>
+      <category>Changelog</category>
+    </item>
+    <item>
+      <title>v2.1.43</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2143</link>
+      <description>&lt;ul&gt;&lt;li&gt;Fixed AWS auth refresh hanging indefinitely by adding a 3-minute timeout&lt;/li&gt;&lt;li&gt;Fixed spurious warnings for non-agent markdown files in `.claude/agents/` directory&lt;/li&gt;&lt;li&gt;Fixed structured-outputs beta header being sent unconditionally on Vertex/Bedrock&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2143</guid>
+      <category>Changelog</category>
+    </item>
     <item>
       <title>v2.1.42</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2142</link>
@@ -348,20 +362,6 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2062</link>
       <description>&lt;ul&gt;&lt;li&gt;Added "(Recommended)" indicator for multiple-choice questions, with the recommended option moved to the top of the list&lt;/li&gt;&lt;li&gt;Added `attribution` setting to customize commit and PR bylines (deprecates `includeCoAuthoredBy`)&lt;/li&gt;&lt;li&gt;Fixed duplicate slash commands appearing when ~/.claude is symlinked to a project directory&lt;/li&gt;&lt;li&gt;Fixed slash command selection not working when multiple commands share the same name&lt;/li&gt;&lt;li&gt;Fixed an issue where skill files inside symlinked skill directories could become circular symlinks&lt;/li&gt;&lt;li&gt;Fixed running versions getting removed because lock file incorrectly going stale&lt;/li&gt;&lt;li&gt;Fixed IDE diff tab not closing when rejecting file changes&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2062</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.61</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2061</link>
-      <description>&lt;ul&gt;&lt;li&gt;Reverted VSCode support for multiple terminal clients due to responsiveness issues.&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2061</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.60</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2060</link>
-      <description>&lt;ul&gt;&lt;li&gt;Added background agent support. Agents run in the background while you work&lt;/li&gt;&lt;li&gt;Added --disable-slash-commands CLI flag to disable all slash commands&lt;/li&gt;&lt;li&gt;Added model name to "Co-Authored-By" commit messages&lt;/li&gt;&lt;li&gt;Enabled "/mcp enable [server-name]" or "/mcp disable [server-name]" to quickly toggle all servers&lt;/li&gt;&lt;li&gt;Updated Fetch to skip summarization for pre-approved websites&lt;/li&gt;&lt;li&gt;VSCode: Added support for multiple terminal clients connecting to the IDE server simultaneously&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2060</guid>
       <category>Changelog</category>
     </item>
   </channel>
