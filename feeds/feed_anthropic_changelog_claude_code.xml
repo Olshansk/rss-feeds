@@ -13,7 +13,14 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Feb 2026 18:18:08 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Feb 2026 19:20:38 +0000</lastBuildDate>
+    <item>
+      <title>v2.1.45</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2145</link>
+      <description>&lt;ul&gt;&lt;li&gt;Added support for Claude Sonnet 4.6&lt;/li&gt;&lt;li&gt;Added support for reading `enabledPlugins` and `extraKnownMarketplaces` from `--add-dir` directories&lt;/li&gt;&lt;li&gt;Added `spinnerTipsOverride` setting to customize spinner tips — configure `tips` with an array of custom tip strings, and optionally set `excludeDefault: true` to show only your custom tips instead of the built-in ones&lt;/li&gt;&lt;li&gt;Added `SDKRateLimitInfo` and `SDKRateLimitEvent` types to the SDK, enabling consumers to receive rate limit status updates including utilization, reset times, and overage information&lt;/li&gt;&lt;li&gt;Fixed Agent Teams teammates failing on Bedrock, Vertex, and Foundry by propagating API provider environment variables to tmux-spawned processes (anthropics/claude-code#23561)&lt;/li&gt;&lt;li&gt;Fixed sandbox "operation not permitted" errors when writing temporary files on macOS by using the correct per-user temp directory (anthropics/claude-code#21654)&lt;/li&gt;&lt;li&gt;Fixed Task tool (backgrounded agents) crashing with a `ReferenceError` on completion (anthropics/claude-code#22087)&lt;/li&gt;&lt;li&gt;Fixed autocomplete suggestions not being accepted on Enter when images are pasted in the input&lt;/li&gt;&lt;li&gt;Fixed skills invoked by subagents incorrectly appearing in main session context after compaction&lt;/li&gt;&lt;li&gt;Fixed excessive `.claude.json.backup` files accumulating on every startup&lt;/li&gt;&lt;li&gt;Fixed plugin-provided commands, agents, and hooks not being available immediately after installation without requiring a restart&lt;/li&gt;&lt;li&gt;Improved startup performance by removing eager loading of session history for stats caching&lt;/li&gt;&lt;li&gt;Improved memory usage for shell commands that produce large output — RSS no longer grows unboundedly with command output size&lt;/li&gt;&lt;li&gt;Improved collapsed read/search groups to show the current file or search pattern being processed beneath the summary line while active&lt;/li&gt;&lt;li&gt;[VSCode] Improved permission destination choice (project/user/session) to persist across sessions&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2145</guid>
+      <category>Changelog</category>
+    </item>
     <item>
       <title>v2.1.44</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2144</link>
@@ -355,13 +362,6 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2064</link>
       <description>&lt;ul&gt;&lt;li&gt;Made auto-compacting instant&lt;/li&gt;&lt;li&gt;Agents and bash commands can run asynchronously and send messages to wake up the main agent&lt;/li&gt;&lt;li&gt;/stats now provides users with interesting CC stats, such as favorite model, usage graph, usage streak&lt;/li&gt;&lt;li&gt;Added named session support: use `/rename` to name sessions, `/resume &lt;name&gt;` in REPL or `claude --resume &lt;name&gt;` from the terminal to resume them&lt;/li&gt;&lt;li&gt;Added support for .claude/rules/`.  See https://code.claude.com/docs/en/memory for details.&lt;/li&gt;&lt;li&gt;Added image dimension metadata when images are resized, enabling accurate coordinate mappings for large images&lt;/li&gt;&lt;li&gt;Fixed auto-loading .env when using native installer&lt;/li&gt;&lt;li&gt;Fixed `--system-prompt` being ignored when using `--continue` or `--resume` flags&lt;/li&gt;&lt;li&gt;Improved `/resume` screen with grouped forked sessions and keyboard shortcuts for preview (P) and rename (R)&lt;/li&gt;&lt;li&gt;VSCode: Added copy-to-clipboard button on code blocks and bash tool inputs&lt;/li&gt;&lt;li&gt;VSCode: Fixed extension not working on Windows ARM64 by falling back to x64 binary via emulation&lt;/li&gt;&lt;li&gt;Bedrock: Improve efficiency of token counting&lt;/li&gt;&lt;li&gt;Bedrock: Add support for `aws login` AWS Management Console credentials&lt;/li&gt;&lt;li&gt;Unshipped AgentOutputTool and BashOutputTool, in favor of a new unified TaskOutputTool&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2064</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.62</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2062</link>
-      <description>&lt;ul&gt;&lt;li&gt;Added "(Recommended)" indicator for multiple-choice questions, with the recommended option moved to the top of the list&lt;/li&gt;&lt;li&gt;Added `attribution` setting to customize commit and PR bylines (deprecates `includeCoAuthoredBy`)&lt;/li&gt;&lt;li&gt;Fixed duplicate slash commands appearing when ~/.claude is symlinked to a project directory&lt;/li&gt;&lt;li&gt;Fixed slash command selection not working when multiple commands share the same name&lt;/li&gt;&lt;li&gt;Fixed an issue where skill files inside symlinked skill directories could become circular symlinks&lt;/li&gt;&lt;li&gt;Fixed running versions getting removed because lock file incorrectly going stale&lt;/li&gt;&lt;li&gt;Fixed IDE diff tab not closing when rejecting file changes&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2062</guid>
       <category>Changelog</category>
     </item>
   </channel>

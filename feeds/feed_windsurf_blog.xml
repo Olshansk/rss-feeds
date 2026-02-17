@@ -8,7 +8,18 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Feb 2026 18:16:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Feb 2026 19:19:13 +0000</lastBuildDate>
+    <item>
+      <title>Claude Sonnet 4.6 is now available in Windsurf</title>
+      <link>https://windsurf.com/blog/sonnet-4.6</link>
+      <description>Claude Sonnet 4.6 is now available in Windsurf with limited-time promotional pricing for self serve users: 2x credits without thinking and 3x credits with thinking.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/sonnet-4.6</guid>
+      <category>product</category>
+      <category>windsurf</category>
+      <category>anthropic</category>
+      <category>sonnet-4.6</category>
+      <pubDate>Tue, 17 Feb 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>GLM-5 and Minimax M2.5 are now available in Windsurf</title>
       <link>https://windsurf.com/blog/glm-5-minimax-m2.5</link>
