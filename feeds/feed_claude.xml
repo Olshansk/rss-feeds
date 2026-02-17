@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Feb 2026 00:14:31 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Feb 2026 01:33:09 +0000</lastBuildDate>
     <item>
       <title>Claude Enterprise, now available self-serve</title>
       <link>https://claude.com/blog/self-serve-enterprise</link>
@@ -82,9 +82,9 @@
       <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Your favorite work tools are now interactive inside Claude</title>
+      <title>Your favorite work tools are now interactive connectors inside Claude</title>
       <link>https://claude.com/blog/interactive-tools-in-claude</link>
-      <description>Your favorite work tools are now interactive inside Claude</description>
+      <description>Your favorite work tools are now interactive connectors inside Claude</description>
       <guid isPermaLink="false">https://claude.com/blog/interactive-tools-in-claude</guid>
       <category>Product announcements</category>
       <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
