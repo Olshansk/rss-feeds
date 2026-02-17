@@ -13,7 +13,7 @@
       <link>https://ollama.com/blog/feed_ollama.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Feb 2026 01:32:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Feb 2026 02:58:07 +0000</lastBuildDate>
     <item>
       <title>Run Llama 2 uncensored locally</title>
       <link>https://ollama.com/blog/run-llama2-uncensored-locally</link>
@@ -328,6 +328,13 @@
       <description>OpenClaw is a personal AI assistant that connects your messaging apps to local AI coding agents, all running on your own device.</description>
       <guid isPermaLink="false">https://ollama.com/blog/openclaw</guid>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Subagents and web search in Claude Code</title>
+      <link>https://ollama.com/blog/web-search-subagents-claude-code</link>
+      <description>Ollama now supports subagents and web search in Claude Code.</description>
+      <guid isPermaLink="false">https://ollama.com/blog/web-search-subagents-claude-code</guid>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
