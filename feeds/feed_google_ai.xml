@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Feb 2026 19:20:35 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Feb 2026 20:11:07 +0000</lastBuildDate>
+    <item>
+      <title>Get ready for Google I/O 2026</title>
+      <link>https://developers.googleblog.com/get-ready-for-google-io-2026/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/1600x873_SVD_Blog_Hero_Metacard-Da.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Google I/O returns May 19-20. Watch the livestreams for updates on Android, AI, Chrome, and Cloud. Registration is open on the Google I/O website.</description>
+      <category>Android</category>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Conductor Update: Introducing Automated Reviews</title>
       <link>https://developers.googleblog.com/conductor-update-introducing-automated-reviews/</link>
@@ -71,13 +78,6 @@
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/train-gpt2-model-with-jax-on-tpu-b.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;FunctionGemma is a specialized AI model for function calling. This post explains why fine-tuning is key to resolving tool selection ambiguity (e.g., internal vs. Google search) and achieving ultra-specialization, transforming it into a strict, enterprise-compliant agent. A case study demonstrates the improved logic. It also introduces the "FunctionGemma Tuning Lab," a no-code demo on Hugging Face Spaces, which streamlines the entire fine-tuning process for developers.</description>
       <category>AI</category>
       <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Under the Hood: Universal Commerce Protocol (UCP)</title>
-      <link>https://developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Meta_Banner_Image-3_1.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;The Universal Commerce Protocol (UCP) is a new, open-source standard for agentic commerce, co-developed by Google and industry leaders. It establishes a common, secure language to connect consumer surfaces (like Gemini and AI Mode in Search) with business backends, enabling seamless shopping from product discovery to purchase. UCP simplifies integration for businesses, supports various payment providers, and is designed to power the next generation of conversational commerce experiences.</description>
-      <category>AI</category>
-      <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
