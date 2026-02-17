@@ -13,7 +13,15 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Feb 2026 13:27:34 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Feb 2026 14:17:50 +0000</lastBuildDate>
+    <item>
+      <title>How Stripe rolled out a consistent Cursor experience for 3,000 engineers</title>
+      <link>https://cursor.com/blog/stripe</link>
+      <description>Stripe pre-installs Cursor on every developer's machine to help engineers become productive with coding agents on day one.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/stripe</guid>
+      <category>customers</category>
+      <pubDate>Tue, 17 Feb 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Box chooses Cursor for enterprise-grade quality, security, and control</title>
       <link>https://cursor.com/blog/box</link>
