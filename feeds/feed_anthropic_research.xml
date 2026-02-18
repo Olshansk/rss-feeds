@@ -13,7 +13,7 @@
       <link>https://anthropic.com/research/feed_anthropic_research.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Feb 2026 15:16:35 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Feb 2026 20:10:46 +0000</lastBuildDate>
     <item>
       <title>Societal Impacts</title>
       <link>https://www.anthropic.com/research/team/societal-impacts</link>
@@ -41,6 +41,14 @@
       <description>Alignment</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
       <category>Research</category>
+    </item>
+    <item>
+      <title>Feb 18, 2026Societal ImpactsMeasuring AI agent autonomy in practice</title>
+      <link>https://www.anthropic.com/research/measuring-agent-autonomy</link>
+      <description>Feb 18, 2026Societal ImpactsMeasuring AI agent autonomy in practice</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/measuring-agent-autonomy</guid>
+      <category>Research</category>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Feb 16, 2026Economic ResearchIndia Country Brief: The Anthropic Economic Index</title>
