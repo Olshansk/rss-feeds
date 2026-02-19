@@ -8,7 +8,18 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Feb 2026 16:15:45 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Feb 2026 17:19:11 +0000</lastBuildDate>
+    <item>
+      <title>Gemini 3.1 Pro is now available in Windsurf</title>
+      <link>https://windsurf.com/blog/gemini-3.1-pro</link>
+      <description>Gemini 3.1 Pro is now available in Windsurf with Low and High thinking variants. For a limited time, enjoy promotional pricing on credit usage.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/gemini-3.1-pro</guid>
+      <category>product</category>
+      <category>windsurf</category>
+      <category>google</category>
+      <category>gemini-3.1-pro</category>
+      <pubDate>Thu, 19 Feb 2026 16:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Claude Sonnet 4.6 is now available in Windsurf</title>
       <link>https://windsurf.com/blog/sonnet-4.6</link>
