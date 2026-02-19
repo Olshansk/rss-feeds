@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Feb 2026 21:08:14 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Feb 2026 22:06:09 +0000</lastBuildDate>
     <item>
       <title>The AI Bottleneck: High-Quality, Human-Powered Data</title>
       <link>https://www.surgehq.ai/blog/the-ai-bottleneck-high-quality-human-powered-data</link>
@@ -250,7 +250,7 @@
     <item>
       <title>EnterpriseBench: CoreCraft – An RL Environment for Enterprise Chaos</title>
       <link>https://www.surgehq.ai/blog/enterprisebench-corecraft</link>
-      <description>Stop testing models in simplistic environments. We built CoreCraft, a large-scale, fully operational startup world, and let AI agents run loose. Our goal: to move agents beyond the cleanliness of the lab and into the messy complexity of the real world.</description>
+      <description>Stop testing models in tiny, self-contained environments. We built CoreCraft, a large-scale startup world, and deployed AI agents to solve real tasks. Our goal: to move agents beyond the cleanliness of the lab and into the chaos of enterprise reality.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/enterprisebench-corecraft</guid>
       <pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate>
     </item>
