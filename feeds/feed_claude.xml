@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Feb 2026 19:14:29 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 20:05:01 +0000</lastBuildDate>
+    <item>
+      <title>Bringing automated preview, review, and merge to Claude Code on desktop</title>
+      <link>https://claude.com/blog/preview-review-and-merge-with-claude-code</link>
+      <description>Bringing automated preview, review, and merge to Claude Code on desktop</description>
+      <guid isPermaLink="false">https://claude.com/blog/preview-review-and-merge-with-claude-code</guid>
+      <category>Claude Code</category>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Increase web search accuracy and efficiency with dynamic filtering</title>
       <link>https://claude.com/blog/improved-web-search-with-dynamic-filtering</link>
