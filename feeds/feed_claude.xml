@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Feb 2026 03:44:07 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Feb 2026 04:30:29 +0000</lastBuildDate>
     <item>
       <title>Bringing automated preview, review, and merge to Claude Code on desktop</title>
       <link>https://claude.com/blog/preview-review-and-merge-with-claude-code</link>
