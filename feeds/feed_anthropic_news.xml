@@ -13,7 +13,15 @@
       <link>https://www.anthropic.com/news</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Feb 2026 17:23:43 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Feb 2026 21:11:02 +0000</lastBuildDate>
+    <item>
+      <title>Anthropic’s Responsible Scaling Policy: Version 3.0</title>
+      <link>https://www.anthropic.com/news/responsible-scaling-policy-v3</link>
+      <description>Anthropic’s Responsible Scaling Policy: Version 3.0</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/responsible-scaling-policy-v3</guid>
+      <category>Policy</category>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Detecting and preventing distillation attacks</title>
       <link>https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks</link>
