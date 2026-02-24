@@ -13,7 +13,7 @@
       <link>https://ollama.com/blog/feed_ollama.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Feb 2026 00:14:24 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Feb 2026 01:32:41 +0000</lastBuildDate>
     <item>
       <title>Run Llama 2 uncensored locally</title>
       <link>https://ollama.com/blog/run-llama2-uncensored-locally</link>
@@ -335,6 +335,13 @@
       <description>Ollama now supports subagents and web search in Claude Code.</description>
       <guid isPermaLink="false">https://ollama.com/blog/web-search-subagents-claude-code</guid>
       <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The simplest and fastest way to setup OpenClaw</title>
+      <link>https://ollama.com/blog/openclaw-tutorial</link>
+      <description>Setup OpenClaw in under two minutes with a single Ollama command.</description>
+      <guid isPermaLink="false">https://ollama.com/blog/openclaw-tutorial</guid>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
