@@ -13,7 +13,7 @@
       <link>https://anthropic.com/research/feed_anthropic_research.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Feb 2026 22:14:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Feb 2026 00:14:44 +0000</lastBuildDate>
     <item>
       <title>Societal Impacts</title>
       <link>https://www.anthropic.com/research/team/societal-impacts</link>
@@ -47,6 +47,14 @@
       <link>https://www.anthropic.com/research/AI-fluency-index</link>
       <description>Feb 23, 2026AnnouncementsAnthropic Education Report: The AI Fluency Index</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/AI-fluency-index</guid>
+      <category>Research</category>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Feb 23, 2026AlignmentThe persona selection model</title>
+      <link>https://www.anthropic.com/research/persona-selection-model</link>
+      <description>Feb 23, 2026AlignmentThe persona selection model</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/persona-selection-model</guid>
       <category>Research</category>
       <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
     </item>
@@ -105,14 +113,6 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/economic-index-primitives</guid>
       <category>Research</category>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Jan 9, 2026AlignmentNext-generation Constitutional Classifiers: More efficient protection against universal jailbreaks</title>
-      <link>https://www.anthropic.com/research/next-generation-constitutional-classifiers</link>
-      <description>Jan 9, 2026AlignmentNext-generation Constitutional Classifiers: More efficient protection against universal jailbreaks</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/next-generation-constitutional-classifiers</guid>
-      <category>Research</category>
-      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Project Vend: Phase two</title>
