@@ -13,7 +13,14 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Feb 2026 06:20:03 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Feb 2026 07:21:01 +0000</lastBuildDate>
+    <item>
+      <title>v2.1.52</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2152</link>
+      <description>&lt;ul&gt;&lt;li&gt;VS Code: Fixed extension crash on Windows ("command 'claude-vscode.editor.openLast' not found")&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2152</guid>
+      <category>Changelog</category>
+    </item>
     <item>
       <title>v2.1.51</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2151</link>
@@ -355,13 +362,6 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2071</link>
       <description>&lt;ul&gt;&lt;li&gt;Added /config toggle to enable/disable prompt suggestions&lt;/li&gt;&lt;li&gt;Added `/settings` as an alias for the `/config` command&lt;/li&gt;&lt;li&gt;Fixed @ file reference suggestions incorrectly triggering when cursor is in the middle of a path&lt;/li&gt;&lt;li&gt;Fixed MCP servers from `.mcp.json` not loading when using `--dangerously-skip-permissions`&lt;/li&gt;&lt;li&gt;Fixed permission rules incorrectly rejecting valid bash commands containing shell glob patterns (e.g., `ls *.txt`, `for f in *.png`)&lt;/li&gt;&lt;li&gt;Bedrock: Environment variable `ANTHROPIC_BEDROCK_BASE_URL` is now respected for token counting and inference profile listing&lt;/li&gt;&lt;li&gt;New syntax highlighting engine for native build&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2071</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.70</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2070</link>
-      <description>&lt;ul&gt;&lt;li&gt;Added Enter key to accept and submit prompt suggestions immediately (tab still accepts for editing)&lt;/li&gt;&lt;li&gt;Added wildcard syntax `mcp__server__*` for MCP tool permissions to allow or deny all tools from a server&lt;/li&gt;&lt;li&gt;Added auto-update toggle for plugin marketplaces, allowing per-marketplace control over automatic updates&lt;/li&gt;&lt;li&gt;Added `current_usage` field to status line input, enabling accurate context window percentage calculations&lt;/li&gt;&lt;li&gt;Fixed input being cleared when processing queued commands while the user was typing&lt;/li&gt;&lt;li&gt;Fixed prompt suggestions replacing typed input when pressing Tab&lt;/li&gt;&lt;li&gt;Fixed diff view not updating when terminal is resized&lt;/li&gt;&lt;li&gt;Improved memory usage by 3x for large conversations&lt;/li&gt;&lt;li&gt;Improved resolution of stats screenshots copied to clipboard (Ctrl+S) for crisper images&lt;/li&gt;&lt;li&gt;Removed # shortcut for quick memory entry (tell Claude to edit your CLAUDE.md instead)&lt;/li&gt;&lt;li&gt;Fix thinking mode toggle in /config not persisting correctly&lt;/li&gt;&lt;li&gt;Improve UI for file creation permission dialog&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2070</guid>
       <category>Changelog</category>
     </item>
   </channel>
