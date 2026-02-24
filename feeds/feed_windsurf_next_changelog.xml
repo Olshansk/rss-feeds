@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Feb 2026 15:19:34 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Feb 2026 16:21:08 +0000</lastBuildDate>
     <item>
       <title>Windsurf Next 1.9552.1025</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.9552.1025</link>
@@ -848,14 +848,6 @@
       <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.6.105#1.6.105</guid>
       <category>Changelog</category>
       <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf Next 1.6.103</title>
-      <link>https://windsurf.com/changelog/windsurf-next#1.6.103</link>
-      <description>&lt;p&gt;&lt;strong&gt;Improvements&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;More improvements to the tab completions experience&lt;/li&gt;&lt;li&gt;Improvements to Cascade "start with history"&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.6.103#1.6.103</guid>
-      <category>Changelog</category>
-      <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Windsurf Next 1.6.101</title>
