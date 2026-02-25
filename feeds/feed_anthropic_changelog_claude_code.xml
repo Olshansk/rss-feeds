@@ -13,7 +13,14 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Feb 2026 23:07:46 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Feb 2026 00:15:19 +0000</lastBuildDate>
+    <item>
+      <title>v2.1.53</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2153</link>
+      <description>&lt;ul&gt;&lt;li&gt;Fixed a UI flicker where user input would briefly disappear after submission before the message rendered&lt;/li&gt;&lt;li&gt;Fixed bulk agent kill (ctrl+f) to send a single aggregate notification instead of one per agent, and to properly clear the command queue&lt;/li&gt;&lt;li&gt;Fixed graceful shutdown sometimes leaving stale sessions when using Remote Control by parallelizing teardown network calls&lt;/li&gt;&lt;li&gt;Fixed `--worktree` sometimes being ignored on first launch&lt;/li&gt;&lt;li&gt;Fixed a panic ("switch on corrupted value") on Windows&lt;/li&gt;&lt;li&gt;Fixed a crash that could occur when spawning many processes on Windows&lt;/li&gt;&lt;li&gt;Fixed a crash in the WebAssembly interpreter on Linux x64 &amp; Windows x64&lt;/li&gt;&lt;li&gt;Fixed a crash that sometimes occurred after 2 minutes on Windows ARM64&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2153</guid>
+      <category>Changelog</category>
+    </item>
     <item>
       <title>v2.1.52</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2152</link>
@@ -355,13 +362,6 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2072</link>
       <description>&lt;ul&gt;&lt;li&gt;Added Claude in Chrome (Beta) feature that works with the Chrome extension (https://claude.ai/chrome) to let you control your browser directly from Claude Code&lt;/li&gt;&lt;li&gt;Reduced terminal flickering&lt;/li&gt;&lt;li&gt;Added scannable QR code to mobile app tip for quick app downloads&lt;/li&gt;&lt;li&gt;Added loading indicator when resuming conversations for better feedback&lt;/li&gt;&lt;li&gt;Fixed `/context` command not respecting custom system prompts in non-interactive mode&lt;/li&gt;&lt;li&gt;Fixed order of consecutive Ctrl+K lines when pasting with Ctrl+Y&lt;/li&gt;&lt;li&gt;Improved @ mention file suggestion speed (~3× faster in git repositories)&lt;/li&gt;&lt;li&gt;Improved file suggestion performance in repos with `.ignore` or `.rgignore` files&lt;/li&gt;&lt;li&gt;Improved settings validation errors to be more prominent&lt;/li&gt;&lt;li&gt;Changed thinking toggle from Tab to Alt+T to avoid accidental triggers&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2072</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.71</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2071</link>
-      <description>&lt;ul&gt;&lt;li&gt;Added /config toggle to enable/disable prompt suggestions&lt;/li&gt;&lt;li&gt;Added `/settings` as an alias for the `/config` command&lt;/li&gt;&lt;li&gt;Fixed @ file reference suggestions incorrectly triggering when cursor is in the middle of a path&lt;/li&gt;&lt;li&gt;Fixed MCP servers from `.mcp.json` not loading when using `--dangerously-skip-permissions`&lt;/li&gt;&lt;li&gt;Fixed permission rules incorrectly rejecting valid bash commands containing shell glob patterns (e.g., `ls *.txt`, `for f in *.png`)&lt;/li&gt;&lt;li&gt;Bedrock: Environment variable `ANTHROPIC_BEDROCK_BASE_URL` is now respected for token counting and inference profile listing&lt;/li&gt;&lt;li&gt;New syntax highlighting engine for native build&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2071</guid>
       <category>Changelog</category>
     </item>
   </channel>
