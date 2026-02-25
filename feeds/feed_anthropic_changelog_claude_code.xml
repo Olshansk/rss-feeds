@@ -13,7 +13,14 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Feb 2026 19:24:34 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Feb 2026 20:11:45 +0000</lastBuildDate>
+    <item>
+      <title>v2.1.58</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2158</link>
+      <description>&lt;ul&gt;&lt;li&gt;Expand Remote Control to more users&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2158</guid>
+      <category>Changelog</category>
+    </item>
     <item>
       <title>v2.1.56</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2156</link>
@@ -355,13 +362,6 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2075</link>
       <description>&lt;ul&gt;&lt;li&gt;Minor bugfixes&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2075</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.0.74</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2074</link>
-      <description>&lt;ul&gt;&lt;li&gt;Added LSP (Language Server Protocol) tool for code intelligence features like go-to-definition, find references, and hover documentation&lt;/li&gt;&lt;li&gt;Added `/terminal-setup` support for Kitty, Alacritty, Zed, and Warp terminals&lt;/li&gt;&lt;li&gt;Added ctrl+t shortcut in `/theme` to toggle syntax highlighting on/off&lt;/li&gt;&lt;li&gt;Added syntax highlighting info to theme picker&lt;/li&gt;&lt;li&gt;Added guidance for macOS users when Alt shortcuts fail due to terminal configuration&lt;/li&gt;&lt;li&gt;Fixed skill `allowed-tools` not being applied to tools invoked by the skill&lt;/li&gt;&lt;li&gt;Fixed Opus 4.5 tip incorrectly showing when user was already using Opus&lt;/li&gt;&lt;li&gt;Fixed a potential crash when syntax highlighting isn't initialized correctly&lt;/li&gt;&lt;li&gt;Fixed visual bug in `/plugins discover` where list selection indicator showed while search box was focused&lt;/li&gt;&lt;li&gt;Fixed macOS keyboard shortcuts to display 'opt' instead of 'alt'&lt;/li&gt;&lt;li&gt;Improved `/context` command visualization with grouped skills and agents by source, slash commands, and sorted token count&lt;/li&gt;&lt;li&gt;[Windows] Fixed issue with improper rendering&lt;/li&gt;&lt;li&gt;[VSCode] Added gift tag pictogram for year-end promotion message&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2074</guid>
       <category>Changelog</category>
     </item>
   </channel>
