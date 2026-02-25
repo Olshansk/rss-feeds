@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Feb 2026 21:10:57 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Feb 2026 22:06:56 +0000</lastBuildDate>
+    <item>
+      <title>Windsurf 1.9566.9</title>
+      <link>https://windsurf.com/changelog#1.9566.9</link>
+      <description>&lt;p&gt;&lt;strong&gt;New Model Picker&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;We introduced a new model picker that groups models by family and adds a hovercard with toggles for specific variants, like reasoning effort and speed. Separately, we also added the ability to pin models.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Cascade Improvements&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;AddedPOST_CASCADE_RESPONSE_WITH_TRANSCRIPTcascade hook&lt;/li&gt;&lt;li&gt;Added Cascade hooks configuration visibility on team settings page&lt;/li&gt;&lt;li&gt;Reduced the priority of Git commits in @ mention search&lt;/li&gt;&lt;li&gt;Added awindsurf.cascade.readClaudeCodeConfigflag to disable reading Claude configuration&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;MCP Improvements&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Added an MCP Refresh button&lt;/li&gt;&lt;li&gt;Auto-trigger OAuth login when adding HTTP/SSE MCP servers&lt;/li&gt;&lt;li&gt;Fix bugs with parsing on Windows and startup&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Platform Improvements&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Merged changes from VS Code 1.108&lt;/li&gt;&lt;li&gt;Improved startup reliability for Cascade&lt;/li&gt;&lt;li&gt;Fixed Windows update initialization path that could block updates&lt;/li&gt;&lt;li&gt;Released binaries for Linux ARM64&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog#1.9566.9#1.9566.9</guid>
+      <category>Changelog</category>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Windsurf 1.9552.25</title>
       <link>https://windsurf.com/changelog#1.9552.25</link>
