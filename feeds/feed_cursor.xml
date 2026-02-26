@@ -13,11 +13,19 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Feb 2026 19:16:07 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Feb 2026 20:09:07 +0000</lastBuildDate>
+    <item>
+      <title>The third era of AI software development</title>
+      <link>https://cursor.com/blog/third-era</link>
+      <description>A third era of AI software development is emerging as autonomous cloud agents take on larger tasks over longer timescales.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/third-era</guid>
+      <category>product</category>
+      <pubDate>Thu, 26 Feb 2026 19:35:24 +0000</pubDate>
+    </item>
     <item>
       <title>Closing the code review loop with Bugbot Autofix</title>
       <link>https://cursor.com/blog/bugbot-autofix</link>
-      <description>Bugbot Autofix can find and automatically fix issues in PRs by kicking off cloud agents to test your changes.</description>
+      <description>Bugbot Autofix can find and automatically fix issues in PRs by spawning cloud agents to test your changes.</description>
       <guid isPermaLink="false">https://cursor.com/blog/bugbot-autofix</guid>
       <category>product</category>
       <pubDate>Thu, 26 Feb 2026 12:00:00 +0000</pubDate>
@@ -85,14 +93,6 @@
       <guid isPermaLink="false">https://cursor.com/blog/composer-1-5</guid>
       <category>research</category>
       <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>NVIDIA commits 3x more code across 30,000 developers with Cursor</title>
-      <link>https://cursor.com/blog/nvidia</link>
-      <description>NVIDIA embeds Cursor across its SDLC to automate key workflows like code generation, testing, debugging, and deployment.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/nvidia</guid>
-      <category>customers</category>
-      <pubDate>Fri, 06 Feb 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Building a better Bugbot</title>
