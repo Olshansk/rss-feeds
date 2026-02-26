@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Feb 2026 07:21:57 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Feb 2026 08:13:11 +0000</lastBuildDate>
+    <item>
+      <title>Windsurf 1.9566.11</title>
+      <link>https://windsurf.com/changelog#1.9566.11</link>
+      <description>&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fix extension installation version selection&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog#1.9566.11#1.9566.11</guid>
+      <category>Changelog</category>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Windsurf 1.9566.9</title>
       <link>https://windsurf.com/changelog#1.9566.9</link>
