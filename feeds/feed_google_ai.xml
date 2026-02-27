@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Feb 2026 16:09:26 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 17:12:48 +0000</lastBuildDate>
+    <item>
+      <title>Supercharge your AI agents: The New ADK Integrations Ecosystem</title>
+      <link>https://developers.googleblog.com/supercharge-your-ai-agents-adk-integrations-ecosystem/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog_banner.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Agent Development Kit (ADK) now supports a robust ecosystem of third-party tools and integrations. Connect your agents to GitHub, Notion, Hugging Face, and more to build capable, real-world applications.</description>
+      <category>AI</category>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>On-Device Function Calling in Google AI Edge Gallery</title>
       <link>https://developers.googleblog.com/on-device-function-calling-in-google-ai-edge-gallery/</link>
@@ -71,13 +78,6 @@
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-banner.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;At Thunderhill Raceway Park, a team of Google Developer Experts (GDEs) put a new "Trustable AI Framework" to the test. Here is how they used GCP, Gemini and Antigravity to turn high-velocity racing into a masterclass for agentic architecture.</description>
       <category>DeepMind</category>
       <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>LiteRT: The Universal Framework for On-Device AI</title>
-      <link>https://developers.googleblog.com/litert-the-universal-framework-for-on-device-ai/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/LiteERT_banner.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;LiteRT, the evolution of TFLite, is now the universal framework for on-device AI. It delivers up to 1.4x faster GPU, new NPU support, and streamlined GenAI deployment for models like Gemma.</description>
-      <category>Mobile</category>
-      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
