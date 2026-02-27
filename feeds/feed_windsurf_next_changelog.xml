@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Feb 2026 09:13:10 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 10:11:42 +0000</lastBuildDate>
     <item>
       <title>Windsurf Next 1.9566.1011</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.9566.1011</link>
@@ -234,6 +234,14 @@
       <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Windsurf Next 1.12.157</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.12.157</link>
+      <description>&lt;h3&gt;GPT-5.1-Codex Max&lt;/h3&gt;&lt;p&gt;Introducing GPT-5.1-Codex Max in three reasoning tiers (Low, Medium, High). Low variant available at no cost to paid users for a limited time.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.12.157#1.12.157</guid>
+      <category>Changelog</category>
+      <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Windsurf Next 1.12.153</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.12.153</link>
       <description>&lt;h3&gt;Claude Opus 4.5&lt;/h3&gt;&lt;p&gt;You can now use Claude Opus 4.5 in Windsurf!&lt;/p&gt;&lt;p&gt;Opus 4.5 is the most capable model in Windsurf yet and is now available at Sonnet pricing for a limited time (2x credits compared to 20x for Opus 4.1).&lt;/p&gt;&lt;p&gt;This model is available to all paid Windsurf subscribers.&lt;/p&gt;</description>
@@ -362,6 +370,14 @@
       <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Windsurf Next 1.12.127</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.12.127</link>
+      <description>&lt;h3&gt;Patch Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fixes issues with the experimental Cascade tool for finding context not working properly.&lt;/li&gt;&lt;li&gt;Improvements and bug fixes for the beta Codemaps feature.&lt;/li&gt;&lt;li&gt;Improvements to the Lifeguard (Beta) feature.&lt;/li&gt;&lt;li&gt;Fixes issue with custom MCP servers not being displayed correctly in the new MCP panel.&lt;/li&gt;&lt;li&gt;Fixes issue where some bash commands would get stuck.&lt;/li&gt;&lt;li&gt;Fixes issue where certain models couldn't create or edit Jupyter notebooks.&lt;/li&gt;&lt;li&gt;General bug fixes and improvements.&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.12.127#1.12.127</guid>
+      <category>Changelog</category>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Windsurf Next 1.12.126</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.12.126</link>
       <description>&lt;h3&gt;Patch Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Various improvements to the experimental Cascade tool which searches and finds relevant files.&lt;/li&gt;&lt;/ul&gt;</description>
@@ -458,12 +474,28 @@
       <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Windsurf Next 1.12.109</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.12.109</link>
+      <description>&lt;h3&gt;Patch Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Minor improvements and bug fixes&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.12.109#1.12.109</guid>
+      <category>Changelog</category>
+      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Windsurf Next 1.12.108</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.12.108</link>
       <description>&lt;h3&gt;Patch Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Minor improvements and bug fixes&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.12.108#1.12.108</guid>
       <category>Changelog</category>
       <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.12.105</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.12.105</link>
+      <description>&lt;h3&gt;Patch Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Minor improvements and bug fixes&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.12.105#1.12.105</guid>
+      <category>Changelog</category>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Windsurf Next 1.12.103</title>
