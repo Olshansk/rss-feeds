@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Mar 2026 03:52:16 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Mar 2026 04:33:08 +0000</lastBuildDate>
     <item>
       <title>Windsurf Next 1.9566.1011</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.9566.1011</link>
@@ -120,14 +120,6 @@
       <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.13.110#1.13.110</guid>
       <category>Changelog</category>
       <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf Next 1.13.109</title>
-      <link>https://windsurf.com/changelog/windsurf-next#1.13.109</link>
-      <description>&lt;h3&gt;GPT-5.2-Codex&lt;/h3&gt;&lt;p&gt;Adds support for GPT-5.2-Codex with four reasoning efforts (low, medium, high, and xhigh). GPT-5.2-Codex is OpenAI's latest model designed for agentic coding. It excels at working in large codebases over long sessions. For most tasks, we recommend using the medium reasoning effort.&lt;/p&gt;&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Various bug fixes and performance improvements&lt;/li&gt;&lt;li&gt;Improved stability and reliability&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.13.109#1.13.109</guid>
-      <category>Changelog</category>
-      <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Windsurf Next 1.13.108</title>
@@ -312,14 +304,6 @@
       <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.12.140#1.12.140</guid>
       <category>Changelog</category>
       <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf Next 1.12.138</title>
-      <link>https://windsurf.com/changelog/windsurf-next#1.12.138</link>
-      <description>&lt;h3&gt;Falcon Alpha&lt;/h3&gt;&lt;p&gt;You can now try a new stealth model in Windsurf: Falcon Alpha. Falcon Alpha is a powerful agentic model designed for speed. We're excited to hear what you build with it!&lt;/p&gt;&lt;h3&gt;Patch Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Various performance improvements and bug fixes.&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.12.138#1.12.138</guid>
-      <category>Changelog</category>
-      <pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Windsurf Next 1.12.133</title>
@@ -570,14 +554,6 @@
       <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Windsurf Next 1.10.111</title>
-      <link>https://windsurf.com/changelog/windsurf-next#1.10.111</link>
-      <description>&lt;h3&gt;Patch fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Miscellaneous fixes&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.10.111#1.10.111</guid>
-      <category>Changelog</category>
-      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Windsurf Next 1.10.109</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.10.109</link>
       <description>&lt;h3&gt;Patch fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Miscellaneous fixes&lt;/li&gt;&lt;/ul&gt;</description>
@@ -696,14 +672,6 @@
       <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.8.105#1.8.105</guid>
       <category>Changelog</category>
       <pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windsurf Next 1.8.102</title>
-      <link>https://windsurf.com/changelog/windsurf-next#1.8.102</link>
-      <description>&lt;h3&gt;Improvements&lt;/h3&gt;&lt;p&gt;Some improvements to app icons, fixes to SSH server connection, and UI Polish for Cascade Plugins.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.8.102#1.8.102</guid>
-      <category>Changelog</category>
-      <pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Windsurf Next 1.8.101</title>
