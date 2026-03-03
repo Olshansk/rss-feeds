@@ -8,7 +8,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Mar 2026 17:17:01 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Mar 2026 18:13:47 +0000</lastBuildDate>
+    <item>
+      <title>How we built the Google I/O 2026 Save the Date experience</title>
+      <link>https://developers.googleblog.com/how-we-built-the-google-io-2026-save-the-date-experience/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/mbu-svd-hero.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Google I/O 2026 is returning May 19-20 at Shoreline Amphitheatre in Mountain View, CA. But before the keynotes begin, you can get into the spirit of the event with our annual tradition: the save the date puzzle.  This year's experience highlights how AI can empower and accelerate</description>
+      <category>Gemini</category>
+    </item>
     <item>
       <title>Supercharge your AI agents: The New ADK Integrations Ecosystem</title>
       <link>https://developers.googleblog.com/supercharge-your-ai-agents-adk-integrations-ecosystem/</link>
@@ -71,13 +77,6 @@
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-banner.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Finetuning the FunctionGemma model is made fast and easy using the lightweight JAX-based Tunix library on Google TPUs, a process demonstrated here using LoRA for supervised finetuning. This approach delivers significant accuracy improvements with high TPU efficiency, culminating in a model ready for deployment.</description>
       <category>AI</category>
       <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Beyond the Chatbot: A Blueprint for Trustable AI</title>
-      <link>https://developers.googleblog.com/beyond-the-chatbot-a-blueprint-for-trustable-ai/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-banner.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;At Thunderhill Raceway Park, a team of Google Developer Experts (GDEs) put a new "Trustable AI Framework" to the test. Here is how they used GCP, Gemini and Antigravity to turn high-velocity racing into a masterclass for agentic architecture.</description>
-      <category>DeepMind</category>
-      <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
