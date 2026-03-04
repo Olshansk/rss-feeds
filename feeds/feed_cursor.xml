@@ -13,7 +13,15 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Mar 2026 15:11:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Mar 2026 16:10:40 +0000</lastBuildDate>
+    <item>
+      <title>Cursor is now available in JetBrains IDEs</title>
+      <link>https://cursor.com/blog/jetbrains-acp</link>
+      <description>Use Cursor agents in IntelliJ IDEA, PyCharm, WebStorm, and other JetBrains IDEs through the Agent Client Protocol.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/jetbrains-acp</guid>
+      <category>product</category>
+      <pubDate>Wed, 04 Mar 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>How technical support at Cursor uses Cursor</title>
       <link>https://cursor.com/blog/cursor-support</link>
@@ -85,14 +93,6 @@
       <guid isPermaLink="false">https://cursor.com/blog/box</guid>
       <category>customers</category>
       <pubDate>Fri, 13 Feb 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Expanding our long-running agents research preview</title>
-      <link>https://cursor.com/blog/long-running-agents</link>
-      <description>Long-running agents are now available in the Cursor web app for Ultra, Teams, and Enterprise users.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/long-running-agents</guid>
-      <category>product</category>
-      <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Building a better Bugbot</title>
