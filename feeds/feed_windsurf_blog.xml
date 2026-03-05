@@ -8,7 +8,18 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Mar 2026 17:42:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Mar 2026 18:33:52 +0000</lastBuildDate>
+    <item>
+      <title>GPT-5.4 is now available in Windsurf</title>
+      <link>https://windsurf.com/blog/gpt-5.4</link>
+      <description>GPT-5.4 is now available in Windsurf with multiple reasoning effort levels. For a limited time, self serve users enjoy promotional pricing starting at 1x credits.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/gpt-5.4</guid>
+      <category>product</category>
+      <category>windsurf</category>
+      <category>openai</category>
+      <category>gpt-5.4</category>
+      <pubDate>Thu, 05 Mar 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Gemini 3.1 Pro is now available in Windsurf</title>
       <link>https://windsurf.com/blog/gemini-3.1-pro</link>
