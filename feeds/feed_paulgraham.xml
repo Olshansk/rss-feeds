@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Mar 2026 16:17:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Mar 2026 17:44:06 +0000</lastBuildDate>
     <item>
       <title>This Year We Can End the Death Penalty in California</title>
       <link>https://paulgraham.com/prop62.html</link>
@@ -3426,6 +3426,19 @@ would learn something from it. It would add to their picture of the
 world. For a handful of readers it might even ...</description>
       <guid isPermaLink="false">https://paulgraham.com/field.html</guid>
       <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Brand Age</title>
+      <link>https://paulgraham.com/brandage.html</link>
+      <description>In the early 1970s disaster struck the Swiss watch industry. Now
+people call it the quartz crisis, but in fact it was a compound of
+three separate disasters that all happened at about the same time.The first was competition from Japan. The Swiss had been watching
+the Japanese in the rear view mirror all through the 1960s, and
+they'd been improving at an alarming rate. But even so the Swiss
+were surprised in 1968 when the Japanese swept all the top spots
+for mechanical watches at the Geneva Obser...</description>
+      <guid isPermaLink="false">https://paulgraham.com/brandage.html</guid>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>How to Lose Time and Money</title>
