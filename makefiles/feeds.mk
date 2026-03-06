@@ -177,6 +177,20 @@ feeds_dagster: ## Generate RSS feed for Dagster Blog
 	$(Q)python feed_generators/dagster_blog.py
 	$(call print_success,Dagster Blog feed generated)
 
+.PHONY: feeds_langchain
+feeds_langchain: ## Generate RSS feed for LangChain Blog (incremental)
+	$(call check_venv)
+	$(call print_info,Generating LangChain Blog feed)
+	$(Q)python feed_generators/langchain_blog.py
+	$(call print_success,LangChain Blog feed generated)
+
+.PHONY: feeds_langchain_full
+feeds_langchain_full: ## Generate RSS feed for LangChain Blog (full reset)
+	$(call check_venv)
+	$(call print_info,Generating LangChain Blog feed - FULL RESET)
+	$(Q)python feed_generators/langchain_blog.py --full
+	$(call print_success,LangChain Blog feed generated - full reset)
+
 .PHONY: clean_feeds
 clean_feeds: ## Clean generated RSS feed files
 	$(call print_warning,Removing generated RSS feeds)
