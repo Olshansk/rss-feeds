@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Mar 2026 12:05:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Mar 2026 13:15:41 +0000</lastBuildDate>
     <item>
       <title>Windsurf Next 1.9566.1015</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.9566.1015</link>
@@ -78,6 +78,14 @@
       <link>https://windsurf.com/changelog/windsurf-next#1.9544.1018</link>
       <description>&lt;h3&gt;Wave 14: Arena Mode&lt;/h3&gt;&lt;p&gt;Arena Mode brings side-by-side model comparison directly into your IDE, plus Plan Mode for smarter task planning.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Arena Mode&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Run two Cascade agents side-by-side with hidden model identities and vote on which performs better. Arena Mode lets you discover which models actually work best foryourworkflow, codebase, and tasks—not just what benchmarks or influencers say.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Battle Groups: Choose specific models to compare or let Windsurf randomly select from curated groups like "fast models" vs "smart models"&lt;/li&gt;&lt;li&gt;Personal &amp; Global Leaderboards: Your votes contribute to both a personal leaderboard (your preferences) and a global one (across all Windsurf users)&lt;/li&gt;&lt;li&gt;Sync or Branch: Send followup prompts to both agents simultaneously, or branch and explore different paths individually&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;To get started, select the newArenatab in the model picker. All battle groups are free for the first week for paid users.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Plan Mode&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Plan Mode is a new Cascade mode alongside Code and Ask. Use it to create detailed implementation plans before diving into code.&lt;/p&gt;&lt;p&gt;Pro tip: Typemegaplanin the Cascade input box to trigger an advanced form that asks clarifying questions to create a more aligned, comprehensive plan.&lt;/p&gt;&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Admins can now set a default model that applies to all team members when they first open Windsurf&lt;/li&gt;&lt;li&gt;Various bug fixes and performance improvements&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.9544.1018#1.9544.1018</guid>
+      <category>Changelog</category>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.9544.1024</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.9544.1024</link>
+      <description>&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Various bug fixes and performance improvements&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.9544.1024#1.9544.1024</guid>
       <category>Changelog</category>
       <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
     </item>
@@ -306,6 +314,14 @@
       <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Windsurf Next 1.12.140</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.12.140</link>
+      <description>&lt;h3&gt;Features&lt;/h3&gt;&lt;p&gt;New beta plan mode (type /plan in the Cascade chat input to activate it).&lt;/p&gt;&lt;p&gt;Expanded Codemaps:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Chat with map&lt;/li&gt;&lt;li&gt;Mermaid diagrams in maps&lt;/li&gt;&lt;li&gt;Cascade suggestions for maps&lt;/li&gt;&lt;li&gt;Chat / edit nudge includes “map option”&lt;/li&gt;&lt;li&gt;Smart mode option&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Bug fixes and improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fixes for lag spikes when using sticky scroll&lt;/li&gt;&lt;li&gt;Fixes for general slowness caused by VSCode OSS update&lt;/li&gt;&lt;li&gt;Powershell fixes for Windows terminal integration / commands appearing stuck.&lt;/li&gt;&lt;li&gt;Fixes for certain edge cases around shells with custom themes.&lt;/li&gt;&lt;li&gt;Fixed an issue where the editor would freeze when opening the terminal&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.12.140#1.12.140</guid>
+      <category>Changelog</category>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Windsurf Next 1.12.138</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.12.138</link>
       <description>&lt;h3&gt;Falcon Alpha&lt;/h3&gt;&lt;p&gt;You can now try a new stealth model in Windsurf: Falcon Alpha. Falcon Alpha is a powerful agentic model designed for speed. We're excited to hear what you build with it!&lt;/p&gt;&lt;h3&gt;Patch Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Various performance improvements and bug fixes.&lt;/li&gt;&lt;/ul&gt;</description>
@@ -400,6 +416,14 @@
       <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.12.121#1.12.121</guid>
       <category>Changelog</category>
       <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.12.119</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.12.119</link>
+      <description>&lt;h3&gt;Codemaps&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Beta preview of codemaps: open the codemaps pane to try it out!&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.12.119#1.12.119</guid>
+      <category>Changelog</category>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Windsurf Next 1.12.118</title>
@@ -880,6 +904,14 @@
       <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.5.108#1.5.108</guid>
       <category>Changelog</category>
       <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.5.107</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.5.107</link>
+      <description>&lt;p&gt;&lt;strong&gt;Patch Fixes&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Builds off of Windsurf v1.4.3&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.5.107#1.5.107</guid>
+      <category>Changelog</category>
+      <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Windsurf Next 1.3.110</title>
