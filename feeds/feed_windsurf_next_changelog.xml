@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Mar 2026 14:07:58 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2026 15:04:22 +0000</lastBuildDate>
     <item>
       <title>Windsurf Next 1.9566.1015</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.9566.1015</link>
@@ -96,6 +96,14 @@
       <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.9544.1026#1.9544.1026</guid>
       <category>Changelog</category>
       <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.13.115</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.13.115</link>
+      <description>&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fix bug with permanently disconnected cascades&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.13.115#1.13.115</guid>
+      <category>Changelog</category>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Windsurf Next 1.13.114</title>
@@ -402,6 +410,14 @@
       <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Windsurf Next 1.12.121</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.12.121</link>
+      <description>&lt;h3&gt;Lifeguard&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Beta preview of lifeguard, a tool to help you find and resolve bugs inside your IDE.&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.12.121#1.12.121</guid>
+      <category>Changelog</category>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Windsurf Next 1.12.119</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.12.119</link>
       <description>&lt;h3&gt;Codemaps&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Beta preview of codemaps: open the codemaps pane to try it out!&lt;/li&gt;&lt;/ul&gt;</description>
@@ -448,6 +464,14 @@
       <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.12.113#1.12.113</guid>
       <category>Changelog</category>
       <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.12.112</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.12.112</link>
+      <description>&lt;h3&gt;Cascade Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Queued messages in Cascade&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Patch Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Various improvements and bug fixes&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.12.112#1.12.112</guid>
+      <category>Changelog</category>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Windsurf Next 1.12.110</title>
