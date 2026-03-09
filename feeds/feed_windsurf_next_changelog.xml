@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Mar 2026 11:14:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 12:08:18 +0000</lastBuildDate>
     <item>
       <title>Windsurf Next 1.9566.1015</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.9566.1015</link>
@@ -296,6 +296,14 @@
       <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.12.144#1.12.144</guid>
       <category>Changelog</category>
       <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.12.143</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.12.143</link>
+      <description>&lt;h3&gt;Features&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Improvements to SWE-1.5 + Claude Sonnet 4.5 Mode&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Enhanced the SWE-1.5 + Claude Sonnet 4.5 mode with improved performance and reliability for better coding assistance.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.12.143#1.12.143</guid>
+      <category>Changelog</category>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Windsurf Next 1.12.142</title>
