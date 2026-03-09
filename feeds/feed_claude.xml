@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Mar 2026 18:14:06 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 19:16:28 +0000</lastBuildDate>
+    <item>
+      <title>Bringing Code Review to Claude Code</title>
+      <link>https://claude.com/blog/code-review</link>
+      <description>Bringing Code Review to Claude Code</description>
+      <guid isPermaLink="false">https://claude.com/blog/code-review</guid>
+      <category>Claude Code</category>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Common workflow patterns for AI agents—and when to use them</title>
       <link>https://claude.com/blog/common-workflow-patterns-for-ai-agents-and-when-to-use-them</link>
