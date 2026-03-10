@@ -13,7 +13,7 @@
       <link>https://anthropic.com/research/feed_anthropic_research.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Feb 2026 21:09:09 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 21:07:40 +0000</lastBuildDate>
     <item>
       <title>Societal Impacts</title>
       <link>https://www.anthropic.com/research/team/societal-impacts</link>
@@ -41,6 +41,14 @@
       <description>Alignment</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
       <category>Research</category>
+    </item>
+    <item>
+      <title>Mar 5, 2026Economic ResearchLabor market impacts of AI: A new measure and early evidence</title>
+      <link>https://www.anthropic.com/research/labor-market-impacts</link>
+      <description>Mar 5, 2026Economic ResearchLabor market impacts of AI: A new measure and early evidence</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/labor-market-impacts</guid>
+      <category>Research</category>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Feb 25, 2026AlignmentAn update on our model deprecation commitments for Claude Opus 3</title>
@@ -105,14 +113,6 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/assistant-axis</guid>
       <category>Research</category>
       <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Jan 15, 2026Economic ResearchAnthropic Economic Index: New building blocks for understanding AI use</title>
-      <link>https://www.anthropic.com/research/economic-index-primitives</link>
-      <description>Jan 15, 2026Economic ResearchAnthropic Economic Index: New building blocks for understanding AI use</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/economic-index-primitives</guid>
-      <category>Research</category>
-      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Project Vend: Phase two</title>
