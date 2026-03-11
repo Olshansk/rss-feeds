@@ -13,7 +13,14 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Mar 2026 18:17:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Mar 2026 19:18:21 +0000</lastBuildDate>
+    <item>
+      <title>v2.1.73</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2173</link>
+      <description>&lt;ul&gt;&lt;li&gt;Added `modelOverrides` setting to map model picker entries to custom provider model IDs (e.g. Bedrock inference profile ARNs)&lt;/li&gt;&lt;li&gt;Added actionable guidance when OAuth login or connectivity checks fail due to SSL certificate errors (corporate proxies, `NODE_EXTRA_CA_CERTS`)&lt;/li&gt;&lt;li&gt;Fixed freezes and 100% CPU loops triggered by permission prompts for complex bash commands&lt;/li&gt;&lt;li&gt;Fixed a deadlock that could freeze Claude Code when many skill files changed at once (e.g. during `git pull` in a repo with a large `.claude/skills/` directory)&lt;/li&gt;&lt;li&gt;Fixed Bash tool output being lost when running multiple Claude Code sessions in the same project directory&lt;/li&gt;&lt;li&gt;Fixed subagents with `model: opus`/`sonnet`/`haiku` being silently downgraded to older model versions on Bedrock, Vertex, and Microsoft Foundry&lt;/li&gt;&lt;li&gt;Fixed background bash processes spawned by subagents not being cleaned up when the agent exits&lt;/li&gt;&lt;li&gt;Fixed `/resume` showing the current session in the picker&lt;/li&gt;&lt;li&gt;Fixed `/ide` crashing with `onInstall is not defined` when auto-installing the extension&lt;/li&gt;&lt;li&gt;Fixed `/loop` not being available on Bedrock/Vertex/Foundry and when telemetry was disabled&lt;/li&gt;&lt;li&gt;Fixed SessionStart hooks firing twice when resuming a session via `--resume` or `--continue`&lt;/li&gt;&lt;li&gt;Fixed JSON-output hooks injecting no-op system-reminder messages into the model's context on every turn&lt;/li&gt;&lt;li&gt;Fixed voice mode session corruption when a slow connection overlaps a new recording&lt;/li&gt;&lt;li&gt;Fixed Linux sandbox failing to start with "ripgrep (rg) not found" on native builds&lt;/li&gt;&lt;li&gt;Fixed Linux native modules not loading on Amazon Linux 2 and other glibc 2.26 systems&lt;/li&gt;&lt;li&gt;Fixed "media_type: Field required" API error when receiving images via Remote Control&lt;/li&gt;&lt;li&gt;Fixed `/heapdump` failing on Windows with `EEXIST` error when the Desktop folder already exists&lt;/li&gt;&lt;li&gt;Improved Up arrow after interrupting Claude — now restores the interrupted prompt and rewinds the conversation in one step&lt;/li&gt;&lt;li&gt;Improved IDE detection speed at startup&lt;/li&gt;&lt;li&gt;Improved clipboard image pasting performance on macOS&lt;/li&gt;&lt;li&gt;Improved `/effort` to work while Claude is responding, matching `/model` behavior&lt;/li&gt;&lt;li&gt;Improved voice mode to automatically retry transient connection failures during rapid push-to-talk re-press&lt;/li&gt;&lt;li&gt;Improved the Remote Control spawn mode selection prompt with better context&lt;/li&gt;&lt;li&gt;Changed default Opus model on Bedrock, Vertex, and Microsoft Foundry to Opus 4.6 (was Opus 4.1)&lt;/li&gt;&lt;li&gt;Deprecated `/output-style` command — use `/config` instead. Output style is now fixed at session start for better prompt caching&lt;/li&gt;&lt;li&gt;VSCode: Fixed HTTP 400 errors for users behind proxies or on Bedrock/Vertex with Claude 4.5 models&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2173</guid>
+      <category>Changelog</category>
+    </item>
     <item>
       <title>v2.1.72</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2172</link>
@@ -355,13 +362,6 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2111</link>
       <description>&lt;ul&gt;&lt;li&gt;Fixed excessive MCP connection requests for HTTP/SSE transports&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2111</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.1.10</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2110</link>
-      <description>&lt;ul&gt;&lt;li&gt;Added new `Setup` hook event that can be triggered via `--init`, `--init-only`, or `--maintenance` CLI flags for repository setup and maintenance operations&lt;/li&gt;&lt;li&gt;Added keyboard shortcut 'c' to copy OAuth URL when browser doesn't open automatically during login&lt;/li&gt;&lt;li&gt;Fixed a crash when running bash commands containing heredocs with JavaScript template literals like `${index + 1}`&lt;/li&gt;&lt;li&gt;Improved startup to capture keystrokes typed before the REPL is fully ready&lt;/li&gt;&lt;li&gt;Improved file suggestions to show as removable attachments instead of inserting text when accepted&lt;/li&gt;&lt;li&gt;[VSCode] Added install count display to plugin listings&lt;/li&gt;&lt;li&gt;[VSCode] Added trust warning when installing plugins&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2110</guid>
       <category>Changelog</category>
     </item>
   </channel>
