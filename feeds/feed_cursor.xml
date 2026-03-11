@@ -13,7 +13,15 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Mar 2026 16:15:53 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Mar 2026 17:17:04 +0000</lastBuildDate>
+    <item>
+      <title>Over 30 new plugins join the Cursor Marketplace</title>
+      <link>https://cursor.com/blog/new-plugins</link>
+      <description>Extend Cursor with prebuilt capabilities in our marketplace.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/new-plugins</guid>
+      <category>product</category>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Build agents that run automatically</title>
       <link>https://cursor.com/blog/automations</link>
@@ -85,14 +93,6 @@
       <guid isPermaLink="false">https://cursor.com/blog/stripe</guid>
       <category>customers</category>
       <pubDate>Tue, 17 Feb 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Extend Cursor with plugins</title>
-      <link>https://cursor.com/blog/marketplace</link>
-      <description>Discover and install pre-built capabilities on the Cursor Marketplace.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/marketplace</guid>
-      <category>product</category>
-      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Building a better Bugbot</title>
