@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Mar 2026 09:14:48 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2026 10:13:48 +0000</lastBuildDate>
     <item>
       <title>On-Policy Distillation</title>
       <link>https://thinkingmachines.ai/blog/on-policy-distillation/</link>
