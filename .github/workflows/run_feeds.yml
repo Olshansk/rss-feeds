@@ -40,7 +40,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git pull --rebase || true
+          git pull --rebase || { echo "Rebase failed, aborting and retrying with merge"; git rebase --abort 2>/dev/null; git pull; }
           git add feeds/*.xml
           if git diff --staged --quiet; then
             echo "No changes to commit"

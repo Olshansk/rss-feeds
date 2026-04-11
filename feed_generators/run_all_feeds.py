@@ -28,9 +28,9 @@ def run_all_feeds(skip_selenium=False, selenium_only=False):
 
     Args:
         skip_selenium: If True, skip generators that use Selenium/undetected_chromedriver.
-                      Used by the hourly workflow to run only lightweight generators.
+                      Used by the hourly requests workflow to run only lightweight generators.
         selenium_only: If True, run ONLY generators that use Selenium.
-                      Used by the daily workflow to run only heavy generators.
+                      Used by the hourly Selenium workflow to run only heavy generators.
 
     Returns:
         int: Exit code (0 for success, 1 if any script failed)

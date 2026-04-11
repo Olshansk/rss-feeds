@@ -73,8 +73,7 @@ def main():
     print(f"{'='*70}")
 
     for r in results:
-        icon = {"OK": "OK", "EMPTY": "EMPTY", "STALE": "STALE", "ERROR": "ERROR"}[r["status"]]
-        print(f"  {r['name']:50s} {icon:5s}  {r['message']}")
+        print(f"  {r['name']:50s} {r['status']:5s}  {r['message']}")
 
     empty = [r for r in results if r["status"] == "EMPTY"]
     stale = [r for r in results if r["status"] == "STALE"]
