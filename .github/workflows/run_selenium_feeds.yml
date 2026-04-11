@@ -52,5 +52,5 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m 'Update RSS feeds (Selenium)'
-            git push
+            git push || { git pull --rebase && git push; }
           fi
