@@ -1,37 +1,21 @@
-import logging
 import re
-from pathlib import Path
 
-import requests
 from feedgen.feed import FeedGenerator
 
-logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
-)
-logger = logging.getLogger(__name__)
+from utils import fetch_page, save_rss_feed, setup_feed_links, setup_logging
 
+logger = setup_logging()
 
-def get_project_root():
-    return Path(__file__).parent.parent
-
-
-def ensure_feeds_directory():
-    feeds_dir = get_project_root() / "feeds"
-    feeds_dir.mkdir(exist_ok=True)
-    return feeds_dir
+FEED_NAME = "anthropic_changelog_claude_code"
+BLOG_URL = "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
 
 
 def fetch_changelog_content(
     url="https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md",
 ):
     try:
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-        }
-        response = requests.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
-        return response.text
-    except requests.RequestException as e:
+        return fetch_page(url)
+    except Exception as e:
         logger.error(f"Error fetching changelog content: {str(e)}")
         raise
 
@@ -104,22 +88,17 @@ def parse_changelog_markdown(markdown_content, max_versions=50):
         raise
 
 
-def generate_rss_feed(items, feed_name="anthropic_changelog_claude_code"):
+def generate_rss_feed(items, feed_name=FEED_NAME):
     try:
         fg = FeedGenerator()
         fg.title("Claude Code Changelog")
         fg.description("Version updates and changes from Claude Code CHANGELOG.md")
-        fg.link(href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md")
+        setup_feed_links(fg, BLOG_URL, feed_name)
         fg.language("en")
 
         fg.author({"name": "Anthropic"})
         fg.logo("https://www.anthropic.com/images/icons/apple-touch-icon.png")
         fg.subtitle("Claude Code Changelog")
-        fg.link(
-            href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
-            rel="alternate",
-        )
-        fg.link(href=f"https://anthropic.com/feed_{feed_name}.xml", rel="self")
 
         # feedgen reverses order, so reverse items to maintain newest-first
         for item in reversed(items):
@@ -138,19 +117,7 @@ def generate_rss_feed(items, feed_name="anthropic_changelog_claude_code"):
         raise
 
 
-def save_rss_feed(feed_generator, feed_name="anthropic_changelog_claude_code"):
-    try:
-        feeds_dir = ensure_feeds_directory()
-        output_filename = feeds_dir / f"feed_{feed_name}.xml"
-        feed_generator.rss_file(str(output_filename), pretty=True)
-        logger.info(f"Successfully saved RSS feed to {output_filename}")
-        return output_filename
-    except Exception as e:
-        logger.error(f"Error saving RSS feed: {str(e)}")
-        raise
-
-
-def main(feed_name="anthropic_changelog_claude_code"):
+def main(feed_name=FEED_NAME):
     try:
         markdown_content = fetch_changelog_content()
         items = parse_changelog_markdown(markdown_content)
@@ -160,7 +127,7 @@ def main(feed_name="anthropic_changelog_claude_code"):
             return False
 
         feed = generate_rss_feed(items, feed_name)
-        output_file = save_rss_feed(feed, feed_name)
+        save_rss_feed(feed, feed_name)
 
         logger.info(f"Successfully generated RSS feed with {len(items)} items")
         return True

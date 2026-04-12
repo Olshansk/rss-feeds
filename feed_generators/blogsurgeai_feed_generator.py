@@ -4,19 +4,25 @@ RSS Feed Generator for Surge AI Blog
 Scrapes https://www.surgehq.ai/blog and generates an RSS feed
 """
 
-import requests
-from bs4 import BeautifulSoup
-from feedgen.feed import FeedGenerator
-from datetime import datetime, timedelta
-from dateutil import parser
+from datetime import datetime
+
 import pytz
+from bs4 import BeautifulSoup
+from dateutil import parser
+from feedgen.feed import FeedGenerator
 
+from utils import (
+    fetch_page,
+    save_rss_feed,
+    setup_feed_links,
+    setup_logging,
+    stable_fallback_date,
+)
 
-def stable_fallback_date(identifier):
-    """Generate a stable date from a URL or title hash."""
-    hash_val = abs(hash(identifier)) % 730
-    epoch = datetime(2023, 1, 1, 0, 0, 0, tzinfo=pytz.UTC)
-    return epoch + timedelta(days=hash_val)
+logger = setup_logging()
+
+FEED_NAME = "blogsurgeai"
+BLOG_URL = "https://www.surgehq.ai/blog"
 
 
 def generate_blogsurgeai_feed():
@@ -24,39 +30,29 @@ def generate_blogsurgeai_feed():
 
     # Initialize feed generator
     fg = FeedGenerator()
-    fg.id("https://www.surgehq.ai/blog")
+    fg.id(BLOG_URL)
     fg.title("Surge AI Blog")
     fg.author({"name": "Surge AI", "email": "team@surgehq.ai"})
-    fg.link(href="https://www.surgehq.ai/blog", rel="alternate")
-    fg.link(
-        href="https://raw.githubusercontent.com/olshansky/rss-feeds/main/feeds/feed_blogsurgeai.xml",
-        rel="self",
-    )
+    setup_feed_links(fg, blog_url=BLOG_URL, feed_name=FEED_NAME)
     fg.language("en")
     fg.description(
         "New methods, current trends & software infrastructure for NLP. Articles written by our senior engineering leads from Google, Facebook, Twitter, Harvard, MIT, and Y Combinator"
     )
 
     # Fetch the blog page
-    url = "https://www.surgehq.ai/blog"
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
-    }
-
     try:
-        response = requests.get(url, headers=headers, timeout=30)
-        response.raise_for_status()
+        html = fetch_page(BLOG_URL)
     except Exception as e:
-        print(f"Error fetching blog page: {e}")
+        logger.error(f"Error fetching blog page: {e}")
         return
 
     # Parse HTML
-    soup = BeautifulSoup(response.content, "html.parser")
+    soup = BeautifulSoup(html, "html.parser")
 
     # Find all blog post items
     blog_items = soup.find_all("div", class_="blog-hero-cms-item")
 
-    print(f"Found {len(blog_items)} blog posts")
+    logger.info(f"Found {len(blog_items)} blog posts")
 
     # Process each blog post
     for item in blog_items:
@@ -99,7 +95,7 @@ def generate_blogsurgeai_feed():
                                 pub_date = pytz.UTC.localize(pub_date)
                             break
                         except Exception as e:
-                            print(f"Could not parse date '{date_str}': {e}")
+                            logger.warning(f"Could not parse date '{date_str}': {e}")
 
             # Use stable fallback if no date was parsed
             if pub_date is None:
@@ -115,16 +111,14 @@ def generate_blogsurgeai_feed():
             # Set description
             fe.description(description)
 
-            print(f"Added: {title}")
+            logger.info(f"Added: {title}")
 
         except Exception as e:
-            print(f"Error processing blog item: {e}")
+            logger.error(f"Error processing blog item: {e}")
             continue
 
     # Generate RSS feed
-    output_path = "feeds/feed_blogsurgeai.xml"
-    fg.rss_file(output_path, pretty=True)
-    print(f"\nRSS feed generated successfully: {output_path}")
+    save_rss_feed(fg, FEED_NAME)
 
 
 if __name__ == "__main__":

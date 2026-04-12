@@ -1,52 +1,29 @@
-import requests
-import xml.etree.ElementTree as ET
-from bs4 import BeautifulSoup
-from datetime import datetime, timedelta
+import sys
+from datetime import datetime
+
 import pytz
+from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-import logging
-from pathlib import Path
 
-from utils import sort_posts_for_feed
-
-# Set up logging
-logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+from utils import (
+    fetch_page,
+    get_project_root,
+    save_rss_feed,
+    setup_feed_links,
+    setup_logging,
+    sort_posts_for_feed,
+    stable_fallback_date,
 )
-logger = logging.getLogger(__name__)
+
+logger = setup_logging()
+
+FEED_NAME = "xainews"
+BLOG_URL = "https://x.ai/news"
 
 
-def stable_fallback_date(identifier):
-    """Generate a stable date from a URL or title hash."""
-    hash_val = abs(hash(identifier)) % 730
-    epoch = datetime(2023, 1, 1, 0, 0, 0, tzinfo=pytz.UTC)
-    return epoch + timedelta(days=hash_val)
-
-
-def get_project_root():
-    """Get the project root directory."""
-    return Path(__file__).parent.parent
-
-
-def ensure_feeds_directory():
-    """Ensure the feeds directory exists."""
-    feeds_dir = get_project_root() / "feeds"
-    feeds_dir.mkdir(exist_ok=True)
-    return feeds_dir
-
-
-def fetch_news_content(url="https://x.ai/news"):
+def fetch_news_content(url=BLOG_URL):
     """Fetch news content from xAI's website."""
-    try:
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-        }
-        response = requests.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
-        return response.text
-    except requests.RequestException as e:
-        logger.error(f"Error fetching news content: {str(e)}")
-        raise
+    return fetch_page(url, timeout=10)
 
 
 def parse_date(date_text):
@@ -234,20 +211,18 @@ def parse_news_html(html_content):
         raise
 
 
-def generate_rss_feed(articles, feed_name="xainews"):
+def generate_rss_feed(articles):
     """Generate RSS feed from news articles."""
     try:
         fg = FeedGenerator()
         fg.title("xAI News")
         fg.description("Latest news and updates from xAI")
-        fg.link(href="https://x.ai/news")
         fg.language("en")
 
         # Set feed metadata
         fg.author({"name": "xAI"})
         fg.subtitle("Latest updates from xAI")
-        fg.link(href="https://x.ai/news", rel="alternate")
-        fg.link(href=f"https://x.ai/news/feed_{feed_name}.xml", rel="self")
+        setup_feed_links(fg, blog_url=BLOG_URL, feed_name=FEED_NAME)
 
         # Sort articles for correct feed order (newest first in output)
         articles_sorted = sort_posts_for_feed(articles, date_field="date")
@@ -270,30 +245,11 @@ def generate_rss_feed(articles, feed_name="xainews"):
         raise
 
 
-def save_rss_feed(feed_generator, feed_name="xainews"):
-    """Save the RSS feed to a file in the feeds directory."""
-    try:
-        # Ensure feeds directory exists and get its path
-        feeds_dir = ensure_feeds_directory()
-
-        # Create the output file path
-        output_filename = feeds_dir / f"feed_{feed_name}.xml"
-
-        # Save the feed
-        feed_generator.rss_file(str(output_filename), pretty=True)
-        logger.info(f"Successfully saved RSS feed to {output_filename}")
-        return output_filename
-
-    except Exception as e:
-        logger.error(f"Error saving RSS feed: {str(e)}")
-        raise
-
-
-def main(feed_name="xainews", html_file=None):
+def main(full_reset=False, html_file=None):
     """Main function to generate RSS feed from xAI's news page.
 
     Args:
-        feed_name: Name of the feed (default: "xainews")
+        full_reset: Unused, kept for interface consistency.
         html_file: Optional path to local HTML file to parse instead of fetching from web
     """
     try:
@@ -314,10 +270,10 @@ def main(feed_name="xainews", html_file=None):
             return False
 
         # Generate RSS feed with all articles
-        feed = generate_rss_feed(articles, feed_name)
+        feed = generate_rss_feed(articles)
 
         # Save feed to file
-        output_file = save_rss_feed(feed, feed_name)
+        save_rss_feed(feed, FEED_NAME)
 
         logger.info(f"Successfully generated RSS feed with {len(articles)} articles")
         return True
@@ -328,7 +284,7 @@ def main(feed_name="xainews", html_file=None):
 
 
 if __name__ == "__main__":
-    import sys
+    from pathlib import Path
 
     # Check if HTML file path was provided as argument
     html_file = None

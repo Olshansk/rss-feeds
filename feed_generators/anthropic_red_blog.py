@@ -1,50 +1,30 @@
-import requests
-from bs4 import BeautifulSoup
-from datetime import datetime, timedelta
-import pytz
-from feedgen.feed import FeedGenerator
-import logging
-from pathlib import Path
 import re
+from datetime import datetime
 
-from utils import sort_posts_for_feed
+import pytz
+from bs4 import BeautifulSoup
+from feedgen.feed import FeedGenerator
 
-# Set up logging
-logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+from utils import (
+    fetch_page,
+    save_rss_feed,
+    setup_feed_links,
+    setup_logging,
+    sort_posts_for_feed,
+    stable_fallback_date,
 )
-logger = logging.getLogger(__name__)
+
+logger = setup_logging()
+
+FEED_NAME = "anthropic_red"
+BLOG_URL = "https://red.anthropic.com/"
 
 
-def stable_fallback_date(identifier):
-    """Generate a stable date from a URL or title hash."""
-    hash_val = abs(hash(identifier)) % 730
-    epoch = datetime(2023, 1, 1, 0, 0, 0, tzinfo=pytz.UTC)
-    return epoch + timedelta(days=hash_val)
-
-
-def get_project_root():
-    """Get the project root directory."""
-    return Path(__file__).parent.parent
-
-
-def ensure_feeds_directory():
-    """Ensure the feeds directory exists."""
-    feeds_dir = get_project_root() / "feeds"
-    feeds_dir.mkdir(exist_ok=True)
-    return feeds_dir
-
-
-def fetch_red_content(url="https://red.anthropic.com/"):
+def fetch_red_content(url=BLOG_URL):
     """Fetch content from Anthropic's red team blog."""
     try:
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-        }
-        response = requests.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
-        return response.text
-    except requests.RequestException as e:
+        return fetch_page(url)
+    except Exception as e:
         logger.error(f"Error fetching red team blog content: {str(e)}")
         raise
 
@@ -72,13 +52,9 @@ def parse_date(date_text):
 def fetch_article_date(article_url):
     """Fetch the publication date from an individual article page."""
     try:
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-        }
-        response = requests.get(article_url, headers=headers, timeout=10)
-        response.raise_for_status()
+        html = fetch_page(article_url)
 
-        soup = BeautifulSoup(response.text, "html.parser")
+        soup = BeautifulSoup(html, "html.parser")
 
         # Look for date in d-article section
         article_section = soup.select_one("d-article")
@@ -197,7 +173,7 @@ def parse_red_html(html_content):
         raise
 
 
-def generate_rss_feed(articles, feed_name="anthropic_red"):
+def generate_rss_feed(articles, feed_name=FEED_NAME):
     """Generate RSS feed from red team blog articles."""
     try:
         fg = FeedGenerator()
@@ -205,7 +181,7 @@ def generate_rss_feed(articles, feed_name="anthropic_red"):
         fg.description(
             "Research from Anthropic's Frontier Red Team on what frontier AI models mean for national security"
         )
-        fg.link(href="https://red.anthropic.com/")
+        setup_feed_links(fg, BLOG_URL, feed_name)
         fg.language("en")
 
         # Set feed metadata
@@ -214,8 +190,6 @@ def generate_rss_feed(articles, feed_name="anthropic_red"):
         fg.subtitle(
             "Evidence-based analysis about AI's implications for cybersecurity, biosecurity, and autonomous systems"
         )
-        fg.link(href="https://red.anthropic.com/", rel="alternate")
-        fg.link(href=f"https://anthropic.com/feed_{feed_name}.xml", rel="self")
 
         # Sort articles for correct feed order (newest first in output)
         sorted_articles = sort_posts_for_feed(articles, date_field="date")
@@ -237,26 +211,7 @@ def generate_rss_feed(articles, feed_name="anthropic_red"):
         raise
 
 
-def save_rss_feed(feed_generator, feed_name="anthropic_red"):
-    """Save the RSS feed to a file in the feeds directory."""
-    try:
-        # Ensure feeds directory exists and get its path
-        feeds_dir = ensure_feeds_directory()
-
-        # Create the output file path
-        output_filename = feeds_dir / f"feed_{feed_name}.xml"
-
-        # Save the feed
-        feed_generator.rss_file(str(output_filename), pretty=True)
-        logger.info(f"Successfully saved RSS feed to {output_filename}")
-        return output_filename
-
-    except Exception as e:
-        logger.error(f"Error saving RSS feed: {str(e)}")
-        raise
-
-
-def main(feed_name="anthropic_red"):
+def main(feed_name=FEED_NAME):
     """Main function to generate RSS feed from Anthropic's red team blog."""
     try:
         # Fetch blog content
@@ -273,7 +228,7 @@ def main(feed_name="anthropic_red"):
         feed = generate_rss_feed(articles, feed_name)
 
         # Save feed to file
-        output_file = save_rss_feed(feed, feed_name)
+        save_rss_feed(feed, feed_name)
 
         logger.info(f"Successfully generated RSS feed with {len(articles)} articles")
         return True

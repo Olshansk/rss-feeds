@@ -1,41 +1,29 @@
-import requests
-from bs4 import BeautifulSoup
-from datetime import datetime
-import pytz
-from feedgen.feed import FeedGenerator
-import logging
-from pathlib import Path
 import re
+from datetime import datetime
 
-from utils import sort_posts_for_feed
+import pytz
+from bs4 import BeautifulSoup
+from feedgen.feed import FeedGenerator
 
-# Set up logging
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
-logger = logging.getLogger(__name__)
+from utils import (
+    fetch_page,
+    save_rss_feed,
+    setup_feed_links,
+    setup_logging,
+    sort_posts_for_feed,
+)
+
+logger = setup_logging()
+
+FEED_NAME = "windsurf_changelog"
+BLOG_URL = "https://windsurf.com/changelog"
 
 
-def get_project_root():
-    """Get the project root directory."""
-    return Path(__file__).parent.parent
-
-
-def ensure_feeds_directory():
-    """Ensure the feeds directory exists."""
-    feeds_dir = get_project_root() / "feeds"
-    feeds_dir.mkdir(exist_ok=True)
-    return feeds_dir
-
-
-def fetch_changelog_content(url="https://windsurf.com/changelog"):
+def fetch_changelog_content(url=BLOG_URL):
     """Fetch changelog content from Windsurf's website."""
     try:
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-        }
-        response = requests.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
-        return response.text
-    except requests.RequestException as e:
+        return fetch_page(url)
+    except Exception as e:
         logger.error(f"Error fetching changelog content: {str(e)}")
         raise
 
@@ -145,19 +133,17 @@ def parse_changelog_html(html_content):
         raise
 
 
-def generate_rss_feed(changelog_entries, feed_name="windsurf_changelog"):
+def generate_rss_feed(changelog_entries, feed_name=FEED_NAME):
     """Generate RSS feed from changelog entries."""
     try:
         fg = FeedGenerator()
         fg.title("Windsurf Changelog")
         fg.description("Version updates and changes from Windsurf")
-        fg.link(href="https://windsurf.com/changelog")
+        setup_feed_links(fg, BLOG_URL, feed_name)
         fg.language("en")
 
         fg.author({"name": "Windsurf"})
         fg.subtitle("Latest version updates from Windsurf")
-        fg.link(href="https://windsurf.com/changelog", rel="alternate")
-        fg.link(href=f"https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_{feed_name}.xml", rel="self")
 
         # Sort for correct feed order (newest first in output)
         entries_sorted = sort_posts_for_feed(changelog_entries, date_field="date")
@@ -179,20 +165,7 @@ def generate_rss_feed(changelog_entries, feed_name="windsurf_changelog"):
         raise
 
 
-def save_rss_feed(feed_generator, feed_name="windsurf_changelog"):
-    """Save the RSS feed to a file in the feeds directory."""
-    try:
-        feeds_dir = ensure_feeds_directory()
-        output_filename = feeds_dir / f"feed_{feed_name}.xml"
-        feed_generator.rss_file(str(output_filename), pretty=True)
-        logger.info(f"Successfully saved RSS feed to {output_filename}")
-        return output_filename
-    except Exception as e:
-        logger.error(f"Error saving RSS feed: {str(e)}")
-        raise
-
-
-def main(feed_name="windsurf_changelog"):
+def main(feed_name=FEED_NAME):
     """Main function to generate RSS feed from Windsurf changelog."""
     try:
         html_content = fetch_changelog_content()
@@ -203,7 +176,7 @@ def main(feed_name="windsurf_changelog"):
             return False
 
         feed = generate_rss_feed(changelog_entries, feed_name)
-        output_file = save_rss_feed(feed, feed_name)
+        save_rss_feed(feed, feed_name)
 
         logger.info(f"Successfully generated RSS feed with {len(changelog_entries)} entries")
         return True

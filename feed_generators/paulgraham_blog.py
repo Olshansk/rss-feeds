@@ -1,51 +1,22 @@
-import os
-import requests
-from bs4 import BeautifulSoup
-from datetime import datetime, timedelta
-import pytz
-from feedgen.feed import FeedGenerator
-import logging
-from pathlib import Path
 import re
+from datetime import datetime
 
-# Set up logging
-logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+import pytz
+from bs4 import BeautifulSoup
+from feedgen.feed import FeedGenerator
+
+from utils import (
+    fetch_page,
+    save_rss_feed,
+    setup_feed_links,
+    setup_logging,
+    stable_fallback_date,
 )
-logger = logging.getLogger(__name__)
 
+logger = setup_logging()
 
-def stable_fallback_date(identifier):
-    """Generate a stable date from a URL or title hash."""
-    hash_val = abs(hash(identifier)) % 730
-    epoch = datetime(2023, 1, 1, 0, 0, 0, tzinfo=pytz.UTC)
-    return epoch + timedelta(days=hash_val)
-
-
-def get_project_root():
-    """Get the project root directory."""
-    return Path(__file__).parent.parent
-
-
-def ensure_feeds_directory():
-    """Ensure the feeds directory exists."""
-    feeds_dir = get_project_root() / "feeds"
-    feeds_dir.mkdir(exist_ok=True)
-    return feeds_dir
-
-
-def fetch_html_content(url):
-    """Fetch HTML content from the given URL."""
-    try:
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-        }
-        response = requests.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
-        return response.text
-    except requests.RequestException as e:
-        logger.error(f"Error fetching content from {url}: {str(e)}")
-        raise
+FEED_NAME = "paulgraham"
+BLOG_URL = "https://paulgraham.com/articles.html"
 
 
 def extract_date_from_text(text):
@@ -138,7 +109,7 @@ def parse_essays_page(html_content, base_url="https://paulgraham.com", max_essay
             logger.info(f"Fetching article: {title}")
 
             # Fetch article content once and reuse it
-            article_html = fetch_html_content(full_url)
+            article_html = fetch_page(full_url)
             content, pub_date = get_article_content(article_html)
 
             if content:
@@ -150,7 +121,7 @@ def parse_essays_page(html_content, base_url="https://paulgraham.com", max_essay
                 "title": title,
                 "link": full_url,
                 "description": description,
-                "pub_date": pub_date
+                "date": pub_date
                 or stable_fallback_date(
                     full_url
                 ),  # Fallback to stable date if none found
@@ -172,20 +143,18 @@ def parse_essays_page(html_content, base_url="https://paulgraham.com", max_essay
         raise
 
 
-def generate_rss_feed(blog_posts, feed_name="paulgraham"):
+def generate_rss_feed(blog_posts):
     """Generate RSS feed from blog posts."""
     try:
         fg = FeedGenerator()
         fg.title("Paul Graham Essays")
         fg.description("Essays by Paul Graham")
-        fg.link(href="https://paulgraham.com/articles.html")
         fg.language("en")
 
         # Set feed metadata
         fg.author({"name": "Paul Graham"})
         fg.subtitle("Paul Graham's Essays and Writings")
-        fg.link(href="https://paulgraham.com/articles.html", rel="alternate")
-        fg.link(href=f"https://paulgraham.com/feed_{feed_name}.xml", rel="self")
+        setup_feed_links(fg, blog_url=BLOG_URL, feed_name=FEED_NAME)
 
         # Add entries
         for post in blog_posts:
@@ -193,7 +162,7 @@ def generate_rss_feed(blog_posts, feed_name="paulgraham"):
             fe.title(post["title"])
             fe.description(post["description"])
             fe.link(href=post["link"])
-            fe.published(post["pub_date"])
+            fe.published(post["date"])
             fe.id(post["link"])
 
         logger.info("Successfully generated RSS feed")
@@ -204,34 +173,20 @@ def generate_rss_feed(blog_posts, feed_name="paulgraham"):
         raise
 
 
-def save_rss_feed(feed_generator, feed_name="paulgraham"):
-    """Save the RSS feed to a file in the feeds directory."""
-    try:
-        feeds_dir = ensure_feeds_directory()
-        output_filename = feeds_dir / f"feed_{feed_name}.xml"
-        feed_generator.rss_file(str(output_filename), pretty=True)
-        logger.info(f"Successfully saved RSS feed to {output_filename}")
-        return output_filename
-
-    except Exception as e:
-        logger.error(f"Error saving RSS feed: {str(e)}")
-        raise
-
-
-def main(blog_url="https://paulgraham.com/articles.html", feed_name="paulgraham"):
+def main():
     """Main function to generate RSS feed from blog URL."""
     try:
         # Fetch blog content
-        html_content = fetch_html_content(blog_url)
+        html_content = fetch_page(BLOG_URL)
 
         # Parse blog posts
         blog_posts = parse_essays_page(html_content)
 
         # Generate RSS feed
-        feed = generate_rss_feed(blog_posts, feed_name)
+        feed = generate_rss_feed(blog_posts)
 
         # Save feed to file
-        _output_file = save_rss_feed(feed, feed_name)
+        save_rss_feed(feed, FEED_NAME)
 
         return True
 

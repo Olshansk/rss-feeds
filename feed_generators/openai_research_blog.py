@@ -1,36 +1,23 @@
-import undetected_chromedriver as uc
-from bs4 import BeautifulSoup
-from datetime import datetime, timedelta
-import pytz
-from feedgen.feed import FeedGenerator
 import time
-import logging
-from pathlib import Path
+from datetime import datetime
 
-# Set up logging
-logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+import pytz
+from bs4 import BeautifulSoup
+from feedgen.feed import FeedGenerator
+
+from utils import (
+    save_rss_feed,
+    setup_feed_links,
+    setup_logging,
+    setup_selenium_driver,
+    sort_posts_for_feed,
+    stable_fallback_date,
 )
-logger = logging.getLogger(__name__)
 
+logger = setup_logging()
 
-def stable_fallback_date(identifier):
-    """Generate a stable date from a URL or title hash."""
-    hash_val = abs(hash(identifier)) % 730
-    epoch = datetime(2023, 1, 1, 0, 0, 0, tzinfo=pytz.UTC)
-    return epoch + timedelta(days=hash_val)
-
-
-def setup_selenium_driver():
-    """Set up Selenium WebDriver with undetected-chromedriver."""
-    options = uc.ChromeOptions()
-    options.add_argument("--headless")  # Ensure headless mode is enabled
-    options.add_argument("--window-size=1920,1080")
-    options.add_argument("--disable-blink-features=AutomationControlled")
-    options.add_argument(
-        "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-    )
-    return uc.Chrome(options=options)
+FEED_NAME = "openai_research"
+BLOG_URL = "https://openai.com/news/research"
 
 
 def fetch_news_content_selenium(url):
@@ -106,15 +93,18 @@ def parse_openai_news_html(html_content):
     return articles
 
 
-def generate_rss_feed(articles, feed_name="openai_research"):
+def generate_rss_feed(articles):
     """Generate RSS feed from parsed articles."""
     fg = FeedGenerator()
     fg.title("OpenAI Research News")
     fg.description("Latest research news and updates from OpenAI")
-    fg.link(href="https://openai.com/news/research")
     fg.language("en")
+    setup_feed_links(fg, blog_url=BLOG_URL, feed_name=FEED_NAME)
 
-    for article in articles:
+    # Sort articles for correct feed order (newest first in output)
+    articles_sorted = sort_posts_for_feed(articles, date_field="date")
+
+    for article in articles_sorted:
         fe = fg.add_entry()
         fe.title(article["title"])
         fe.link(href=article["link"])
@@ -126,17 +116,7 @@ def generate_rss_feed(articles, feed_name="openai_research"):
     return fg
 
 
-def save_rss_feed(feed_generator, feed_name="openai_research"):
-    """Save RSS feed to an XML file."""
-    feeds_dir = Path("feeds")
-    feeds_dir.mkdir(exist_ok=True)
-    output_file = feeds_dir / f"feed_{feed_name}.xml"
-    feed_generator.rss_file(str(output_file), pretty=True)
-    logger.info(f"RSS feed saved to {output_file}")
-    return output_file
-
-
-def main():
+def main(full_reset=False):
     """Main function to generate OpenAI Research News RSS feed."""
     url = "https://openai.com/news/research/?limit=500"
 
@@ -146,7 +126,7 @@ def main():
         if not articles:
             logger.warning("No articles were parsed. Check your selectors.")
         feed = generate_rss_feed(articles)
-        save_rss_feed(feed)
+        save_rss_feed(feed, FEED_NAME)
     except Exception as e:
         logger.error(f"Failed to generate RSS feed: {e}")
 

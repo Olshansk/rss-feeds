@@ -1,103 +1,28 @@
 import argparse
-import json
-import logging
 import re
-from datetime import datetime, timedelta
-from pathlib import Path
 
-import pytz
 import requests
 from bs4 import BeautifulSoup
 from dateutil import parser as date_parser
 from feedgen.feed import FeedGenerator
-from utils import (get_cache_dir, get_feeds_dir, setup_feed_links,
-                   sort_posts_for_feed)
 
-logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+from utils import (
+    deserialize_entries,
+    load_cache,
+    merge_entries,
+    save_cache,
+    save_rss_feed,
+    setup_feed_links,
+    setup_logging,
+    sort_posts_for_feed,
+    stable_fallback_date,
 )
-logger = logging.getLogger(__name__)
+
+logger = setup_logging()
 
 FEED_NAME = "the_batch"
 BLOG_URL = "https://www.deeplearning.ai/the-batch/"
 MAX_PAGES = 30  # Safety limit for pagination
-
-
-def stable_fallback_date(identifier):
-    """Generate a stable date from a URL or title hash."""
-    hash_val = abs(hash(identifier)) % 730  # ~2 years of days
-    epoch = datetime(2023, 1, 1, 0, 0, 0, tzinfo=pytz.UTC)
-    return epoch + timedelta(days=hash_val)
-
-
-def get_cache_file():
-    """Get the cache file path."""
-    return get_cache_dir() / f"{FEED_NAME}_posts.json"
-
-
-def load_cache():
-    """Load existing cache or return empty structure."""
-    cache_file = get_cache_file()
-    if cache_file.exists():
-        with open(cache_file, "r") as f:
-            data = json.load(f)
-            logger.info(f"Loaded cache with {len(data.get('articles', []))} articles")
-            return data
-    logger.info("No cache file found, will do full fetch")
-    return {"last_updated": None, "articles": []}
-
-
-def save_cache(articles):
-    """Save articles to cache file."""
-    cache_file = get_cache_file()
-    serializable_articles = []
-    for article in articles:
-        article_copy = article.copy()
-        if isinstance(article_copy.get("published"), datetime):
-            article_copy["published"] = article_copy["published"].isoformat()
-        serializable_articles.append(article_copy)
-
-    data = {
-        "last_updated": datetime.now(pytz.UTC).isoformat(),
-        "articles": serializable_articles,
-    }
-    with open(cache_file, "w") as f:
-        json.dump(data, f, indent=2)
-    logger.info(f"Saved cache with {len(articles)} articles to {cache_file}")
-
-
-def deserialize_articles(articles):
-    """Convert cached articles back to proper format with datetime objects."""
-    result = []
-    for article in articles:
-        article_copy = article.copy()
-        if isinstance(article_copy.get("published"), str):
-            try:
-                article_copy["published"] = datetime.fromisoformat(
-                    article_copy["published"]
-                )
-            except ValueError:
-                article_copy["published"] = stable_fallback_date(
-                    article_copy.get("link", "")
-                )
-        result.append(article_copy)
-    return result
-
-
-def merge_articles(new_articles, cached_articles):
-    """Merge new articles into cache, dedupe by link, sort by date desc."""
-    existing_links = {a["link"] for a in cached_articles}
-    merged = list(cached_articles)
-
-    added_count = 0
-    for article in new_articles:
-        if article["link"] not in existing_links:
-            merged.append(article)
-            existing_links.add(article["link"])
-            added_count += 1
-
-    logger.info(f"Added {added_count} new articles to cache")
-    return sort_posts_for_feed(merged, date_field="published")
 
 
 def fetch_page(url: str) -> str:
@@ -111,13 +36,14 @@ def fetch_page(url: str) -> str:
     return response.text
 
 
-def parse_date(value: str | None, fallback_id: str = "") -> datetime:
+def parse_date(value: str | None, fallback_id: str = ""):
     """Parse date text/datetime strings into timezone-aware datetime."""
     if not value:
         return stable_fallback_date(fallback_id)
     try:
         dt = date_parser.parse(value)
         if dt.tzinfo is None:
+            import pytz
             dt = dt.replace(tzinfo=pytz.UTC)
         return dt
     except (ValueError, TypeError) as exc:
@@ -285,7 +211,7 @@ def parse_articles_from_html(html_content: str) -> list[dict]:
             parent = anchor.parent
             if parent:
                 date_text = extract_date_text(parent)
-        published = parse_date(date_text, fallback_id=link)
+        date = parse_date(date_text, fallback_id=link)
 
         # Extract description from nearby paragraph or use title
         description = extract_description(anchor) or title
@@ -294,7 +220,7 @@ def parse_articles_from_html(html_content: str) -> list[dict]:
             {
                 "title": title,
                 "link": link,
-                "published": published,
+                "date": date,
                 "description": description,
             }
         )
@@ -369,24 +295,17 @@ def build_feed(articles: list[dict]) -> FeedGenerator:
     setup_feed_links(fg, blog_url=BLOG_URL, feed_name=FEED_NAME)
 
     # Sort articles for correct feed order (newest first in output)
-    articles_sorted = sort_posts_for_feed(articles, date_field="published")
+    articles_sorted = sort_posts_for_feed(articles, date_field="date")
 
     for article in articles_sorted:
         entry = fg.add_entry()
         entry.title(article["title"])
         entry.link(href=article["link"])
         entry.id(article["link"])
-        entry.published(article["published"])
+        entry.published(article["date"])
         entry.description(article["description"])
 
     return fg
-
-
-def save_feed(feed: FeedGenerator) -> Path:
-    output_path = get_feeds_dir() / f"feed_{FEED_NAME}.xml"
-    feed.rss_file(str(output_path), pretty=True)
-    logger.info("Wrote feed to %s", output_path)
-    return output_path
 
 
 def main(full_reset=False):
@@ -395,8 +314,8 @@ def main(full_reset=False):
     Args:
         full_reset: If True, fetch all pages. If False, fetch only first 3 pages and merge with cache.
     """
-    cache = load_cache()
-    cached_articles = deserialize_articles(cache.get("articles", []))
+    cache = load_cache(FEED_NAME)
+    cached_articles = deserialize_entries(cache.get("entries", []))
 
     if full_reset or not cached_articles:
         mode = "full reset" if full_reset else "no cache exists"
@@ -406,17 +325,17 @@ def main(full_reset=False):
         logger.info("Running incremental update (3 pages only)")
         new_articles = fetch_all_articles(max_pages=3)
         logger.info(f"Found {len(new_articles)} articles from recent pages")
-        articles = merge_articles(new_articles, cached_articles)
+        articles = merge_entries(new_articles, cached_articles)
 
     if not articles:
         logger.warning("No articles found")
         return False
 
     # Save to cache
-    save_cache(articles)
+    save_cache(FEED_NAME, articles)
 
     feed = build_feed(articles)
-    save_feed(feed)
+    save_rss_feed(feed, FEED_NAME)
     logger.info(f"Successfully generated RSS feed with {len(articles)} articles")
     return True
 

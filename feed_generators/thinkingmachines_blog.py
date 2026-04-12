@@ -1,53 +1,25 @@
 import os
-import requests
-from bs4 import BeautifulSoup
-from datetime import datetime, timedelta
+import sys
+from datetime import datetime
+
 import pytz
+from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-import logging
-from pathlib import Path
-from dateutil import parser
 
-from utils import sort_posts_for_feed
-
-# Set up logging
-logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+from utils import (
+    fetch_page,
+    get_project_root,
+    save_rss_feed,
+    setup_feed_links,
+    setup_logging,
+    sort_posts_for_feed,
+    stable_fallback_date,
 )
-logger = logging.getLogger(__name__)
 
+logger = setup_logging()
 
-def stable_fallback_date(identifier):
-    """Generate a stable date from a URL or title hash."""
-    hash_val = abs(hash(identifier)) % 730
-    epoch = datetime(2023, 1, 1, 0, 0, 0, tzinfo=pytz.UTC)
-    return epoch + timedelta(days=hash_val)
-
-
-def get_project_root():
-    """Get the project root directory."""
-    return Path(__file__).parent.parent
-
-
-def ensure_feeds_directory():
-    """Ensure the feeds directory exists."""
-    feeds_dir = get_project_root() / "feeds"
-    feeds_dir.mkdir(exist_ok=True)
-    return feeds_dir
-
-
-def fetch_content(url):
-    """Fetch content from website."""
-    try:
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-        }
-        response = requests.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
-        return response.text
-    except requests.RequestException as e:
-        logger.error(f"Error fetching content from {url}: {str(e)}")
-        raise
+FEED_NAME = "thinkingmachines"
+BLOG_URL = "https://thinkingmachines.ai/blog/"
 
 
 def parse_date(date_text):
@@ -136,7 +108,7 @@ def extract_articles(soup):
                 "title": title,
                 "link": link,
                 "description": f"{title} by {author_text}",
-                "pub_date": pub_date,
+                "date": pub_date,
                 "author": author_text,
             }
 
@@ -148,7 +120,7 @@ def extract_articles(soup):
             continue
 
     # Sort for correct feed order (newest first in output)
-    articles = sort_posts_for_feed(articles, date_field="pub_date")
+    articles = sort_posts_for_feed(articles)
 
     logger.info(f"Successfully parsed {len(articles)} articles")
     return articles
@@ -164,7 +136,7 @@ def parse_html(html_content):
         raise
 
 
-def generate_rss_feed(articles, feed_name="thinkingmachines"):
+def generate_rss_feed(articles):
     """Generate RSS feed using feedgen."""
     try:
         fg = FeedGenerator()
@@ -172,14 +144,12 @@ def generate_rss_feed(articles, feed_name="thinkingmachines"):
         fg.description(
             "Research blog by Thinking Machines Lab - Shared science and news from the team"
         )
-        fg.link(href="https://thinkingmachines.ai/blog/")
         fg.language("en")
 
         # Set feed metadata
         fg.author({"name": "Thinking Machines Lab"})
         fg.subtitle("Shared science and news from the team")
-        fg.link(href="https://thinkingmachines.ai/blog/", rel="alternate")
-        fg.link(href=f"https://thinkingmachines.ai/feed_{feed_name}.xml", rel="self")
+        setup_feed_links(fg, blog_url=BLOG_URL, feed_name=FEED_NAME)
 
         # Add entries
         for article in articles:
@@ -187,7 +157,7 @@ def generate_rss_feed(articles, feed_name="thinkingmachines"):
             fe.title(article["title"])
             fe.description(article["description"])
             fe.link(href=article["link"])
-            fe.published(article["pub_date"])
+            fe.published(article["date"])
             fe.author({"name": article["author"]})
             fe.id(article["link"])
 
@@ -199,21 +169,7 @@ def generate_rss_feed(articles, feed_name="thinkingmachines"):
         raise
 
 
-def save_rss_feed(feed_generator, feed_name="thinkingmachines"):
-    """Save feed to XML file."""
-    try:
-        feeds_dir = ensure_feeds_directory()
-        output_filename = feeds_dir / f"feed_{feed_name}.xml"
-        feed_generator.rss_file(str(output_filename), pretty=True)
-        logger.info(f"Successfully saved RSS feed to {output_filename}")
-        return output_filename
-
-    except Exception as e:
-        logger.error(f"Error saving RSS feed: {str(e)}")
-        raise
-
-
-def main(feed_name="thinkingmachines", html_file=None):
+def main(html_file=None):
     """Main entry point with local file support."""
     try:
         # Check for local HTML file
@@ -240,16 +196,16 @@ def main(feed_name="thinkingmachines", html_file=None):
             if not local_file_found:
                 # Fetch from website
                 logger.info("Fetching content from website")
-                html_content = fetch_content("https://thinkingmachines.ai/blog/")
+                html_content = fetch_page(BLOG_URL)
 
         # Parse articles
         articles = parse_html(html_content)
 
         # Generate RSS feed
-        feed = generate_rss_feed(articles, feed_name)
+        feed = generate_rss_feed(articles)
 
         # Save feed to file
-        _output_file = save_rss_feed(feed, feed_name)
+        save_rss_feed(feed, FEED_NAME)
 
         logger.info(f"Successfully generated RSS feed with {len(articles)} articles")
         return True
@@ -260,7 +216,5 @@ def main(feed_name="thinkingmachines", html_file=None):
 
 
 if __name__ == "__main__":
-    import sys
-
     html_file = sys.argv[1] if len(sys.argv) > 1 else None
     main(html_file=html_file)

@@ -1,27 +1,20 @@
-import requests
 from datetime import datetime
+
 import pytz
+import requests
 from feedgen.feed import FeedGenerator
-import logging
-from pathlib import Path
 
-from utils import sort_posts_for_feed
+from utils import (
+    save_rss_feed,
+    setup_feed_links,
+    setup_logging,
+    sort_posts_for_feed,
+)
 
-# Set up logging
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
-logger = logging.getLogger(__name__)
+logger = setup_logging()
 
-
-def get_project_root():
-    """Get the project root directory."""
-    return Path(__file__).parent.parent
-
-
-def ensure_feeds_directory():
-    """Ensure the feeds directory exists."""
-    feeds_dir = get_project_root() / "feeds"
-    feeds_dir.mkdir(exist_ok=True)
-    return feeds_dir
+FEED_NAME = "windsurf_blog"  # keep _blog suffix for backwards compatibility (feed URL)
+BLOG_URL = "https://windsurf.com/blog"
 
 
 def fetch_blog_posts():
@@ -91,19 +84,17 @@ def parse_blog_posts(api_response):
         raise
 
 
-def generate_rss_feed(blog_posts, feed_name="windsurf_blog"):
+def generate_rss_feed(blog_posts, feed_name=FEED_NAME):
     """Generate RSS feed from blog posts."""
     try:
         fg = FeedGenerator()
         fg.title("Windsurf Blog")
         fg.description("Latest updates and announcements from Windsurf")
-        fg.link(href="https://windsurf.com/blog")
+        setup_feed_links(fg, BLOG_URL, feed_name)
         fg.language("en")
 
         fg.author({"name": "Windsurf"})
         fg.subtitle("Read about the latest announcements from Windsurf")
-        fg.link(href="https://windsurf.com/blog", rel="alternate")
-        fg.link(href=f"https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_{feed_name}.xml", rel="self")
 
         # Sort for correct feed order (newest first in output)
         blog_posts_sorted = sort_posts_for_feed(blog_posts, date_field="date")
@@ -128,20 +119,7 @@ def generate_rss_feed(blog_posts, feed_name="windsurf_blog"):
         raise
 
 
-def save_rss_feed(feed_generator, feed_name="windsurf_blog"):
-    """Save the RSS feed to a file in the feeds directory."""
-    try:
-        feeds_dir = ensure_feeds_directory()
-        output_filename = feeds_dir / f"feed_{feed_name}.xml"
-        feed_generator.rss_file(str(output_filename), pretty=True)
-        logger.info(f"Successfully saved RSS feed to {output_filename}")
-        return output_filename
-    except Exception as e:
-        logger.error(f"Error saving RSS feed: {str(e)}")
-        raise
-
-
-def main(feed_name="windsurf_blog"):
+def main(feed_name=FEED_NAME):
     """Main function to generate RSS feed from Windsurf blog."""
     try:
         api_response = fetch_blog_posts()
@@ -152,7 +130,7 @@ def main(feed_name="windsurf_blog"):
             return False
 
         feed = generate_rss_feed(blog_posts, feed_name)
-        output_file = save_rss_feed(feed, feed_name)
+        save_rss_feed(feed, feed_name)
 
         logger.info(f"Successfully generated RSS feed with {len(blog_posts)} posts")
         return True

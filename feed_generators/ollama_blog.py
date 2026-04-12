@@ -1,40 +1,27 @@
-import requests
-from bs4 import BeautifulSoup
 from datetime import datetime
+
 import pytz
+from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-import logging
-from pathlib import Path
 
-# Set up logging
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
-logger = logging.getLogger(__name__)
+from utils import (
+    fetch_page,
+    save_rss_feed,
+    setup_feed_links,
+    setup_logging,
+)
 
+logger = setup_logging()
 
-def get_project_root():
-    """Get the project root directory."""
-    # Since this script is in feed_generators/ollama_blog.py,
-    # we need to go up one level to reach the project root
-    return Path(__file__).parent.parent
-
-
-def ensure_feeds_directory():
-    """Ensure the feeds directory exists."""
-    feeds_dir = get_project_root() / "feeds"
-    feeds_dir.mkdir(exist_ok=True)
-    return feeds_dir
+FEED_NAME = "ollama"
+BLOG_URL = "https://ollama.com/blog"
 
 
-def fetch_blog_content(url):
+def fetch_blog_content(url=BLOG_URL):
     """Fetch blog content from the given URL."""
     try:
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-        }
-        response = requests.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
-        return response.text
-    except requests.RequestException as e:
+        return fetch_page(url)
+    except Exception as e:
         logger.error(f"Error fetching blog content: {str(e)}")
         raise
 
@@ -72,21 +59,19 @@ def parse_blog_html(html_content):
         raise
 
 
-def generate_rss_feed(blog_posts, feed_name="ollama"):
+def generate_rss_feed(blog_posts, feed_name=FEED_NAME):
     """Generate RSS feed from blog posts."""
     try:
         fg = FeedGenerator()
         fg.title("Ollama Blog")
         fg.description("Get up and running with large language models.")
-        fg.link(href="https://ollama.com/blog")
+        setup_feed_links(fg, BLOG_URL, feed_name)
         fg.language("en")
 
         # Set feed metadata
         fg.author({"name": "Ollama"})
         fg.logo("https://ollama.com/public/icon-64x64.png")
         fg.subtitle("Latest updates from Ollama")
-        fg.link(href="https://ollama.com/blog", rel="alternate")
-        fg.link(href=f"https://ollama.com/blog/feed_{feed_name}.xml", rel="self")
 
         # Add entries
         for post in blog_posts:
@@ -105,26 +90,7 @@ def generate_rss_feed(blog_posts, feed_name="ollama"):
         raise
 
 
-def save_rss_feed(feed_generator, feed_name="ollama"):
-    """Save the RSS feed to a file in the feeds directory."""
-    try:
-        # Ensure feeds directory exists and get its path
-        feeds_dir = ensure_feeds_directory()
-
-        # Create the output file path
-        output_filename = feeds_dir / f"feed_{feed_name}.xml"
-
-        # Save the feed
-        feed_generator.rss_file(str(output_filename), pretty=True)
-        logger.info(f"Successfully saved RSS feed to {output_filename}")
-        return output_filename
-
-    except Exception as e:
-        logger.error(f"Error saving RSS feed: {str(e)}")
-        raise
-
-
-def main(blog_url="https://ollama.com/blog", feed_name="ollama"):
+def main(blog_url=BLOG_URL, feed_name=FEED_NAME):
     """Main function to generate RSS feed from blog URL."""
     try:
         # Fetch blog content
@@ -137,7 +103,7 @@ def main(blog_url="https://ollama.com/blog", feed_name="ollama"):
         feed = generate_rss_feed(blog_posts, feed_name)
 
         # Save feed to file
-        output_file = save_rss_feed(feed, feed_name)
+        save_rss_feed(feed, feed_name)
 
         return True
 

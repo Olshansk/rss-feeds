@@ -1,41 +1,20 @@
-import requests
-import xml.etree.ElementTree as ET
-from bs4 import BeautifulSoup
 from datetime import datetime
+
 import pytz
+from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-import logging
-from pathlib import Path
 
-# Set up logging
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
-logger = logging.getLogger(__name__)
+from utils import (
+    fetch_page,
+    save_rss_feed,
+    setup_feed_links,
+    setup_logging,
+)
 
+logger = setup_logging()
 
-def get_project_root():
-    """Get the project root directory."""
-    return Path(__file__).parent.parent
-
-
-def ensure_feeds_directory():
-    """Ensure the feeds directory exists."""
-    feeds_dir = get_project_root() / "feeds"
-    feeds_dir.mkdir(exist_ok=True)
-    return feeds_dir
-
-
-def fetch_news_content(url="https://www.anthropic.com/news"):
-    """Fetch news content from Anthropic's website."""
-    try:
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-        }
-        response = requests.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
-        return response.text
-    except requests.RequestException as e:
-        logger.error(f"Error fetching news content: {str(e)}")
-        raise
+FEED_NAME = "anthropic"
+BLOG_URL = "https://www.anthropic.com/news"
 
 
 def parse_news_html(html_content):
@@ -89,21 +68,19 @@ def parse_news_html(html_content):
         raise
 
 
-def generate_rss_feed(articles, feed_name="anthropic"):
+def generate_rss_feed(articles):
     """Generate RSS feed from news articles."""
     try:
         fg = FeedGenerator()
         fg.title("Anthropic News")
         fg.description("Latest news and updates from Anthropic")
-        fg.link(href="https://www.anthropic.com/news")
         fg.language("en")
 
         # Set feed metadata
         fg.author({"name": "Anthropic"})
         fg.logo("https://www.anthropic.com/images/icons/apple-touch-icon.png")
         fg.subtitle("Latest updates from Anthropic's newsroom")
-        fg.link(href="https://www.anthropic.com/news", rel="alternate")
-        fg.link(href=f"https://anthropic.com/news/feed_{feed_name}.xml", rel="self")
+        setup_feed_links(fg, blog_url=BLOG_URL, feed_name=FEED_NAME)
 
         # Add entries
         for article in articles:
@@ -123,27 +100,10 @@ def generate_rss_feed(articles, feed_name="anthropic"):
         raise
 
 
-def save_rss_feed(feed_generator, feed_name="anthropic"):
-    """Save the RSS feed to a file in the feeds directory."""
-    try:
-        # Ensure feeds directory exists and get its path
-        feeds_dir = ensure_feeds_directory()
-
-        # Create the output file path
-        output_filename = feeds_dir / f"feed_{feed_name}.xml"
-
-        # Save the feed
-        feed_generator.rss_file(str(output_filename), pretty=True)
-        logger.info(f"Successfully saved RSS feed to {output_filename}")
-        return output_filename
-
-    except Exception as e:
-        logger.error(f"Error saving RSS feed: {str(e)}")
-        raise
-
-
 def get_existing_links_from_feed(feed_path):
     """Parse the existing RSS feed and return a set of all article links."""
+    import xml.etree.ElementTree as ET
+
     existing_links = set()
     try:
         if not feed_path.exists():
@@ -160,20 +120,20 @@ def get_existing_links_from_feed(feed_path):
     return existing_links
 
 
-def main(feed_name="anthropic"):
+def main():
     """Main function to generate RSS feed from Anthropic's news page."""
     try:
         # Fetch news content
-        html_content = fetch_news_content()
+        html_content = fetch_page(BLOG_URL)
 
         # Parse articles from HTML
         articles = parse_news_html(html_content)
 
         # Generate RSS feed with all articles
-        feed = generate_rss_feed(articles, feed_name)
+        feed = generate_rss_feed(articles)
 
         # Save feed to file
-        output_file = save_rss_feed(feed, feed_name)
+        save_rss_feed(feed, FEED_NAME)
 
         logger.info(f"Successfully generated RSS feed with {len(articles)} articles")
         return True
