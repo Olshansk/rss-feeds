@@ -11,10 +11,10 @@ dev_format: ## Format Python code
 	$(call print_success,Code formatted)
 
 .PHONY: dev_test_feed
-dev_test_feed: ## Run the test_feed.py script
+dev_test_feed: ## Run a test feed generator (ollama)
 	$(call check_venv)
-	$(call print_info,Running test_feed.py)
-	$(Q)python feed_generators/test_feed.py
+	$(call print_info,Running ollama_blog.py as test feed)
+	$(Q)python feed_generators/ollama_blog.py
 	$(call print_success,Test feed completed)
 
 .PHONY: dev_test_all

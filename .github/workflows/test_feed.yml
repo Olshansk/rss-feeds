@@ -27,10 +27,10 @@ jobs:
           set -e
           uv venv
           uv pip install -r requirements.txt
-          uv run feed_generators/test_feed.py
+          uv run feed_generators/ollama_blog.py
 
       - name: Upload test feed artifact
         uses: actions/upload-artifact@v7
         with:
           name: feed_test
-          path: feeds/feed_anthropic.xml
+          path: feeds/feed_ollama.xml

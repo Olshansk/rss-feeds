@@ -24,8 +24,8 @@ def fetch_news_content_selenium(url):
         driver = setup_selenium_driver()
         driver.get(url)
 
-        # Log wait time
-        wait_time = 5
+        # Wait for JS-rendered content to load
+        wait_time = 8
         logger.info(f"Waiting {wait_time} seconds for the page to fully load...")
         time.sleep(wait_time)
 
@@ -45,31 +45,61 @@ def parse_openai_news_html(html_content):
     """Parse the HTML content from OpenAI's Research News page."""
     soup = BeautifulSoup(html_content, "html.parser")
     articles = []
+    seen_links = set()
 
-    # Extract news items - look for links to research/news articles
-    news_items = soup.select("a[href*='/research/'], a[href*='/index/']")
+    # Articles are links with href starting with /index/
+    news_items = soup.select('a[href^="/index/"]')
+    logger.info(f"Found {len(news_items)} potential article links")
+
+    date_formats = ["%b %d, %Y", "%B %d, %Y"]
 
     for item in news_items:
         try:
-            # Extract title
-            title_elem = item.select_one("div.line-clamp-4")
+            href = item.get("href", "")
+            if not href:
+                continue
+
+            link = "https://openai.com" + href
+
+            # Skip duplicates
+            if link in seen_links:
+                continue
+            seen_links.add(link)
+
+            # Extract title from div.text-h5 or fallback selectors
+            title_elem = item.select_one("div.text-h5, div[class*='text-h'], h3, h4")
             if not title_elem:
                 continue
             title = title_elem.text.strip()
+            if len(title) < 5:
+                continue
 
-            # Extract link
-            link = "https://openai.com" + item["href"]
+            # Extract category from first span in metadata
+            category = "Research"
+            meta_elem = item.select_one("p.text-meta, p[class*='meta']")
+            if meta_elem:
+                first_span = meta_elem.select_one("span")
+                if first_span:
+                    cat_text = first_span.text.strip()
+                    if cat_text and not any(c.isdigit() for c in cat_text):
+                        category = cat_text
 
-            # Extract date
-            date_elem = item.select_one("span.text-small")
-            if date_elem:
-                try:
-                    date = datetime.strptime(date_elem.text.strip(), "%b %d, %Y")
-                    date = date.replace(tzinfo=pytz.UTC)
-                except Exception:
-                    logger.warning(f"Date parsing failed for article: {title}")
-                    date = stable_fallback_date(link)
-            else:
+            # Extract date - look in metadata spans
+            date = None
+            date_spans = item.select("span")
+            for span in date_spans:
+                span_text = span.text.strip()
+                for fmt in date_formats:
+                    try:
+                        date = datetime.strptime(span_text, fmt)
+                        date = date.replace(tzinfo=pytz.UTC)
+                        break
+                    except ValueError:
+                        continue
+                if date:
+                    break
+
+            if not date:
                 date = stable_fallback_date(link)
 
             articles.append(
@@ -77,7 +107,7 @@ def parse_openai_news_html(html_content):
                     "title": title,
                     "link": link,
                     "date": date,
-                    "category": "Research",
+                    "category": category,
                     "description": title,
                 }
             )

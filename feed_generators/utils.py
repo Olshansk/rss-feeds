@@ -40,7 +40,9 @@ def setup_logging(name: str | None = None) -> logging.Logger:
     if name is None:
         import inspect
 
-        name = inspect.stack()[1].f_globals.get("__name__", __name__)
+        frame_info = inspect.stack()[1]
+        frame = getattr(frame_info, "frame", frame_info[0])
+        name = frame.f_globals.get("__name__", __name__)
     return logging.getLogger(name)
 
 

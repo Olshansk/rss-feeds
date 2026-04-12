@@ -1,11 +1,16 @@
-import sys
+import argparse
+import time
 from datetime import datetime
 
 import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-from utils import (fetch_page, get_project_root, save_rss_feed,
-                   setup_feed_links, setup_logging, sort_posts_for_feed,
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
+from utils import (deserialize_entries, load_cache, merge_entries, save_cache,
+                   save_rss_feed, setup_feed_links, setup_logging,
+                   setup_selenium_driver, sort_posts_for_feed,
                    stable_fallback_date)
 
 logger = setup_logging()
@@ -15,8 +20,39 @@ BLOG_URL = "https://x.ai/news"
 
 
 def fetch_news_content(url=BLOG_URL):
-    """Fetch news content from xAI's website."""
-    return fetch_page(url, timeout=10)
+    """Fetch the fully loaded HTML content of xAI's news page using Selenium.
+
+    The xAI news page is JS-rendered, so a simple HTTP request returns an empty
+    shell. We need Selenium to wait for the content to load.
+    """
+    driver = None
+    try:
+        logger.info(f"Fetching content from URL: {url}")
+        driver = setup_selenium_driver()
+        driver.get(url)
+
+        # Wait for news articles to load
+        try:
+            WebDriverWait(driver, 20).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, "a[href*='/news/']"))
+            )
+            logger.info("News articles loaded successfully")
+        except Exception:
+            logger.warning("Could not confirm articles loaded, proceeding anyway...")
+
+        # Allow additional time for all dynamic content
+        time.sleep(2)
+
+        html_content = driver.page_source
+        logger.info("Successfully fetched HTML content")
+        return html_content
+
+    except Exception as e:
+        logger.error(f"Error fetching content: {e}")
+        raise
+    finally:
+        if driver:
+            driver.quit()
 
 
 def parse_date(date_text):
@@ -39,7 +75,28 @@ def parse_date(date_text):
             continue
 
     logger.warning(f"Could not parse date: {date_text}")
-    return None  # Return None so caller can use stable fallback with appropriate identifier
+    return None
+
+
+MONTH_NAMES = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+]
+
+
+def looks_like_date(text):
+    """Check if text looks like a date string."""
+    return any(month in text for month in MONTH_NAMES)
 
 
 def extract_articles(soup):
@@ -48,9 +105,7 @@ def extract_articles(soup):
     seen_links = set()
 
     # Find all article containers
-    # Looking for divs with class "group relative" that contain news articles
     article_containers = soup.select("div.group.relative")
-
     logger.info(f"Found {len(article_containers)} potential article containers")
 
     for container in article_containers:
@@ -92,87 +147,37 @@ def extract_articles(soup):
             # Extract date - try multiple selectors
             date = None
 
-            # First try: p.mono-tag.text-xs.leading-6 (featured article format)
+            # First try: featured article format
             date_elem = container.select_one("p.mono-tag.text-xs.leading-6")
             if date_elem:
                 date_text = date_elem.text.strip()
-                if any(
-                    month in date_text
-                    for month in [
-                        "January",
-                        "February",
-                        "March",
-                        "April",
-                        "May",
-                        "June",
-                        "July",
-                        "August",
-                        "September",
-                        "October",
-                        "November",
-                        "December",
-                    ]
-                ):
+                if looks_like_date(date_text):
                     date = parse_date(date_text)
 
-            # Second try: span.mono-tag.text-xs in footer (standard article format)
+            # Second try: standard article format in footer
             if not date:
                 footer_elements = container.select(
                     "div.flex.items-center.justify-between span.mono-tag.text-xs"
                 )
                 for elem in footer_elements:
                     text = elem.text.strip()
-                    # Check if this looks like a date
-                    if any(
-                        month in text
-                        for month in [
-                            "January",
-                            "February",
-                            "March",
-                            "April",
-                            "May",
-                            "June",
-                            "July",
-                            "August",
-                            "September",
-                            "October",
-                            "November",
-                            "December",
-                        ]
-                    ):
+                    if looks_like_date(text):
                         date = parse_date(text)
                         break
 
-            # Fallback: use stable date if we couldn't extract one
+            # Fallback: use stable date
             if not date:
                 logger.warning(f"Could not extract date for article: {title}")
                 date = stable_fallback_date(link)
 
-            # Extract category (tags like "grok", etc.)
+            # Extract category
             category = "News"
             category_elem = container.select_one(
                 "div:not(.flex.items-center.justify-between) span.mono-tag.text-xs"
             )
             if category_elem:
                 category_text = category_elem.text.strip().lower()
-                # Skip if it's a date
-                if not any(
-                    month.lower() in category_text
-                    for month in [
-                        "january",
-                        "february",
-                        "march",
-                        "april",
-                        "may",
-                        "june",
-                        "july",
-                        "august",
-                        "september",
-                        "october",
-                        "november",
-                        "december",
-                    ]
-                ):
+                if not looks_like_date(category_text):
                     category = category_text.capitalize()
 
             article = {
@@ -206,66 +211,69 @@ def parse_news_html(html_content):
 
 def generate_rss_feed(articles):
     """Generate RSS feed from news articles."""
-    try:
-        fg = FeedGenerator()
-        fg.title("xAI News")
-        fg.description("Latest news and updates from xAI")
-        fg.language("en")
+    fg = FeedGenerator()
+    fg.title("xAI News")
+    fg.description("Latest news and updates from xAI")
+    fg.language("en")
 
-        # Set feed metadata
-        fg.author({"name": "xAI"})
-        fg.subtitle("Latest updates from xAI")
-        setup_feed_links(fg, blog_url=BLOG_URL, feed_name=FEED_NAME)
+    fg.author({"name": "xAI"})
+    fg.subtitle("Latest updates from xAI")
+    setup_feed_links(fg, blog_url=BLOG_URL, feed_name=FEED_NAME)
 
-        # Sort articles for correct feed order (newest first in output)
-        articles_sorted = sort_posts_for_feed(articles, date_field="date")
+    # Sort articles for correct feed order (newest first in output)
+    articles_sorted = sort_posts_for_feed(articles, date_field="date")
 
-        # Add entries
-        for article in articles_sorted:
-            fe = fg.add_entry()
-            fe.title(article["title"])
-            fe.description(article["description"])
-            fe.link(href=article["link"])
-            fe.published(article["date"])
-            fe.category(term=article["category"])
-            fe.id(article["link"])
+    for article in articles_sorted:
+        fe = fg.add_entry()
+        fe.title(article["title"])
+        fe.description(article["description"])
+        fe.link(href=article["link"])
+        fe.published(article["date"])
+        fe.category(term=article["category"])
+        fe.id(article["link"])
 
-        logger.info("Successfully generated RSS feed")
-        return fg
-
-    except Exception as e:
-        logger.error(f"Error generating RSS feed: {str(e)}")
-        raise
+    logger.info("Successfully generated RSS feed")
+    return fg
 
 
-def main(full_reset=False, html_file=None):
+def main(full_reset=False):
     """Main function to generate RSS feed from xAI's news page.
 
     Args:
-        full_reset: Unused, kept for interface consistency.
-        html_file: Optional path to local HTML file to parse instead of fetching from web
+        full_reset: If True, ignore cache and fetch fresh.
+                   If False, merge with cached articles.
     """
     try:
-        # Get HTML content either from local file or web
-        if html_file:
-            logger.info(f"Reading HTML content from local file: {html_file}")
-            with open(html_file, "r", encoding="utf-8") as f:
-                html_content = f.read()
+        cache = load_cache(FEED_NAME)
+        cached_articles = deserialize_entries(cache.get("entries", []))
+
+        if full_reset or not cached_articles:
+            mode = "full reset" if full_reset else "no cache exists"
+            logger.info(f"Running full fetch ({mode})")
         else:
-            # Fetch news content from web
-            html_content = fetch_news_content()
+            logger.info("Running incremental update")
+
+        # Fetch news content using Selenium (xAI is JS-rendered)
+        html_content = fetch_news_content()
 
         # Parse articles from HTML
-        articles = parse_news_html(html_content)
+        new_articles = parse_news_html(html_content)
 
-        if not articles:
+        if not new_articles and not cached_articles:
             logger.warning("No articles found!")
             return False
 
-        # Generate RSS feed with all articles
-        feed = generate_rss_feed(articles)
+        # Merge with cache or use fresh articles
+        if cached_articles and not full_reset:
+            articles = merge_entries(new_articles, cached_articles)
+        else:
+            articles = new_articles
 
-        # Save feed to file
+        # Save to cache
+        save_cache(FEED_NAME, articles)
+
+        # Generate and save RSS feed
+        feed = generate_rss_feed(articles)
         save_rss_feed(feed, FEED_NAME)
 
         logger.info(f"Successfully generated RSS feed with {len(articles)} articles")
@@ -277,27 +285,9 @@ def main(full_reset=False, html_file=None):
 
 
 if __name__ == "__main__":
-    from pathlib import Path
-
-    # Check if HTML file path was provided as argument
-    html_file = None
-    if len(sys.argv) > 1:
-        html_file = sys.argv[1]
-        if not Path(html_file).exists():
-            logger.error(f"HTML file not found: {html_file}")
-            sys.exit(1)
-
-    # Check if xAINews.html exists in current directory or parent directory
-    if not html_file:
-        potential_paths = [
-            Path("xAINews.html"),
-            Path("../xAINews.html"),
-            get_project_root() / "xAINews.html",
-        ]
-        for path in potential_paths:
-            if path.exists():
-                html_file = str(path)
-                logger.info(f"Found local HTML file: {html_file}")
-                break
-
-    main(html_file=html_file)
+    parser = argparse.ArgumentParser(description="Generate xAI News RSS feed")
+    parser.add_argument(
+        "--full", action="store_true", help="Force full reset (fetch all articles)"
+    )
+    args = parser.parse_args()
+    main(full_reset=args.full)

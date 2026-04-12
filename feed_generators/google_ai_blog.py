@@ -34,10 +34,18 @@ def fetch_blog_content(url=BLOG_URL):
 def parse_date(date_str):
     """Parse date string like 'DEC. 19, 2025' to datetime object."""
     try:
-        # Remove the period after the month abbreviation
-        date_str = date_str.replace(".", "").strip()
-        # Parse the date
-        dt = datetime.strptime(date_str, "%b %d, %Y")
+        # Remove the period after the month abbreviation and normalize case
+        # e.g., "MARCH 23, 2026" -> "March 23, 2026", "DEC. 19, 2025" -> "Dec 19, 2025"
+        date_str = date_str.replace(".", "").strip().title()
+        # Try abbreviated month first, then full month name
+        for fmt in ("%b %d, %Y", "%B %d, %Y"):
+            try:
+                dt = datetime.strptime(date_str, fmt)
+                break
+            except ValueError:
+                continue
+        else:
+            raise ValueError(f"No matching date format for '{date_str}'")
         # Make it timezone-aware (UTC)
         return dt.replace(tzinfo=pytz.UTC)
     except Exception as e:

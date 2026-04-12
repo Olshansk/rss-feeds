@@ -8,66 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 12 Apr 2026 14:13:05 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 19:40:08 +0000</lastBuildDate>
     <item>
-      <title>Developer’s Guide to AI Agent Protocols</title>
-      <link>https://developers.googleblog.com/developers-guide-to-ai-agent-protocols/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/agent_protocol_banner.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;This blog post introduces a suite of six protocols, such as MCP and A2A, designed to eliminate custom integration code by standardizing how AI agents access data and communicate. Using a "kitchen manager" agent as a practical example, it demonstrates how these tools handle complex tasks like real-time inventory checks, wholesale commerce via UCP, and secure payment authorization through AP2. By leveraging the Agent Development Kit (ADK), developers can also implement A2UI and AG-UI to deliver interactive dashboards and seamless streaming interfaces to users.</description>
+      <title>TorchTPU: Running PyTorch Natively on TPUs at Google Scale</title>
+      <link>https://developers.googleblog.com/torchtpu-running-pytorch-natively-on-tpus-at-google-scale/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Blog-A.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;TorchTPU is a new engineering stack designed to provide a native, high-performance experience for running PyTorch workloads on Google’s TPU infrastructure with minimal code changes. It features an "Eager First" approach with multiple execution modes and utilizes the XLA compiler to optimize distributed training across massive clusters. Moving into 2026, the project aims to further reduce compilation overhead and expand support for dynamic shapes and custom kernels to ensure seamless scalability for the next generation of AI.</description>
       <category>AI</category>
-    </item>
-    <item>
-      <title>Build a smart financial assistant with LlamaParse and Gemini 3.1</title>
-      <link>https://developers.googleblog.com/build-a-smart-financial-assistant-with-llamaparse-and-gemini-31/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/llamaindex_gemini-api_1.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;This blog post introduces a workflow for extracting high-quality data from complex, unstructured documents by combining LlamaParse with Gemini 3.1 models. It demonstrates an event-driven architecture that uses Gemini 3.1 Pro for agentic parsing of dense financial tables and Gemini 3.1 Flash for cost-effective summarization. By following the provided tutorial, developers can build a personal finance assistant capable of transforming messy brokerage statements into structured, human-readable insights.</description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>Jump to play: Building with Gemini &amp; MediaPipe</title>
-      <link>https://developers.googleblog.com/jump-to-play-building-with-gemini-mediapipe/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/jump_to_play_banner.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;The provided workflow streamlines motion-controlled game development by using Gemini Canvas to rapidly prototype mechanics like the MediaPipe Pose Landmarker through high-level prompting. Developers can refine these prototypes in Google AI Studio by optimizing for low-latency "lite" models and stable tracking points, such as shoulder landmarks, to ensure responsive gameplay. The process concludes by using Gemini Code Assist to refactor experimental code into a modular, production-ready application capable of supporting various multimodal inputs.</description>
-      <category>Mobile</category>
-    </item>
-    <item>
-      <title>Closing the knowledge gap with agent skills</title>
-      <link>https://developers.googleblog.com/closing-the-knowledge-gap-with-agent-skills/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_API_Skills_Banner_v2.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;To bridge the gap between static model knowledge and rapidly evolving software practices, Google DeepMind developed a "Gemini API developer skill" that provides agents with live documentation and SDK guidance. Evaluation results show a massive performance boost, with the gemini-3.1-pro-preview model jumping from a 28.2% to a 96.6% success rate when equipped with the skill. This lightweight approach demonstrates how giving models strong reasoning capabilities and access to a "source of truth" can effectively eliminate outdated coding patterns.</description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>Announcing ADK for Java 1.0.0: Building the Future of AI Agents in Java</title>
-      <link>https://developers.googleblog.com/announcing-adk-for-java-100-building-the-future-of-ai-agents-in-java/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/adk-java-1-0-release-1600x476.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Google has released version 1.0.0 of the Agent Development Kit (ADK) for Java, introducing powerful new features like Google Maps grounding, built-in URL fetching, and a standardized Agent2Agent protocol for cross-framework collaboration. The update enhances agent control through a new "App" and "Plugin" architecture, which allows for global logging, automated context window management via event compaction, and "Human-in-the-Loop" workflows for action confirmations. Additionally, the release provides robust session and memory services using Google Cloud integrations like Firestore and Vertex AI to manage long-term state and large data artifacts.</description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>ADK Go 1.0 Arrives!</title>
-      <link>https://developers.googleblog.com/adk-go-10-arrives/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/ADK_Go_Blog_Banner-Gemini_Generate.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;The launch of Agent Development Kit (ADK) for Go 1.0 marks a significant shift from experimental AI scripts to production-ready services by prioritizing observability, security, and extensibility. Key updates include native OpenTelemetry integration for deep tracing, a new plugin system for self-healing logic, and "Human-in-the-Loop" confirmations to ensure safety during sensitive operations. Additionally, the release introduces YAML-based configurations for rapid iteration and refined Agent2Agent (A2A) protocols to support seamless communication across different programming languages. This framework empowers developers to build complex, reliable multi-agent systems using the high-performance engineering standards of Golang.</description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>Boost Training Goodput: How Continuous Checkpointing Optimizes Reliability in Orbax and MaxText</title>
-      <link>https://developers.googleblog.com/boost-training-goodput-how-continuous-checkpointing-optimizes-reliability-in-orbax-and-maxtext/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/adk-gemini-cli-agent-building-bann.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;The newly introduced continuous checkpointing feature in Orbax and MaxText is designed to optimize the balance between reliability and performance during model training, addressing issues with conventional fixed-frequency checkpointing. Unlike fixed intervals—which can either compromise reliability or bottleneck performance—continuous checkpointing maximizes I/O bandwidth and minimizes failure risk by asynchronously initiating a new save operation only after the previous one successfully completes. Benchmarks demonstrate that this approach significantly reduces checkpoint intervals and results in substantial resource conservation, especially in large-scale training jobs where mean-time-between-failure (MTBF) is short.</description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>Developer’s Guide to Building ADK Agents with Skills</title>
-      <link>https://developers.googleblog.com/developers-guide-to-building-adk-agents-with-skills/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/part1-cover.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;The Agent Development Kit (ADK) SkillToolset introduces a "progressive disclosure" architecture that allows AI agents to load domain expertise on demand, reducing token usage by up to 90% compared to traditional monolithic prompts. Through four distinct patterns—ranging from simple inline checklists to "skill factories" where agents write their own code—the system enables agents to dynamically expand their capabilities at runtime using the universal agentskills.io specification. This modular approach ensures that complex instructions and external resources are only accessed when relevant, creating a scalable and self-extending framework for modern AI development.</description>
-      <category>AI</category>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Bring state-of-the-art agentic skills to the edge with Gemma 4</title>
       <link>https://developers.googleblog.com/bring-state-of-the-art-agentic-skills-to-the-edge-with-gemma-4/</link>
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/gemma4_banner_2.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Google DeepMind has launched Gemma 4, a family of state-of-the-art open models designed to enable multi-step planning and autonomous agentic workflows directly on-device. The release includes the Google AI Edge Gallery for experimenting with "Agent Skills" and the LiteRT-LM library, which offers a significant speed boost and structured output for developers. Available under an Apache 2.0 license, Gemma 4 supports over 140 languages and is compatible with a wide range of hardware, including mobile devices, desktops, and IoT platforms like Raspberry Pi.</description>
       <category>Mobile</category>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>TorchTPU: Running PyTorch Natively on TPUs at Google Scale</title>
-      <link>https://developers.googleblog.com/torchtpu-running-pytorch-natively-on-tpus-at-google-scale/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Blog-A.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;TorchTPU is a new engineering stack designed to provide a native, high-performance experience for running PyTorch workloads on Google’s TPU infrastructure with minimal code changes. It features an "Eager First" approach with multiple execution modes and utilizes the XLA compiler to optimize distributed training across massive clusters. Moving into 2026, the project aims to further reduce compilation overhead and expand support for dynamic shapes and custom kernels to ensure seamless scalability for the next generation of AI.</description>
+      <title>Developer’s Guide to Building ADK Agents with Skills</title>
+      <link>https://developers.googleblog.com/developers-guide-to-building-adk-agents-with-skills/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/part1-cover.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;The Agent Development Kit (ADK) SkillToolset introduces a "progressive disclosure" architecture that allows AI agents to load domain expertise on demand, reducing token usage by up to 90% compared to traditional monolithic prompts. Through four distinct patterns—ranging from simple inline checklists to "skill factories" where agents write their own code—the system enables agents to dynamically expand their capabilities at runtime using the universal agentskills.io specification. This modular approach ensures that complex instructions and external resources are only accessed when relevant, creating a scalable and self-extending framework for modern AI development.</description>
       <category>AI</category>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ADK Go 1.0 Arrives!</title>
+      <link>https://developers.googleblog.com/adk-go-10-arrives/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/ADK_Go_Blog_Banner-Gemini_Generate.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;The launch of Agent Development Kit (ADK) for Go 1.0 marks a significant shift from experimental AI scripts to production-ready services by prioritizing observability, security, and extensibility. Key updates include native OpenTelemetry integration for deep tracing, a new plugin system for self-healing logic, and "Human-in-the-Loop" confirmations to ensure safety during sensitive operations. Additionally, the release introduces YAML-based configurations for rapid iteration and refined Agent2Agent (A2A) protocols to support seamless communication across different programming languages. This framework empowers developers to build complex, reliable multi-agent systems using the high-performance engineering standards of Golang.</description>
+      <category>AI</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Boost Training Goodput: How Continuous Checkpointing Optimizes Reliability in Orbax and MaxText</title>
+      <link>https://developers.googleblog.com/boost-training-goodput-how-continuous-checkpointing-optimizes-reliability-in-orbax-and-maxtext/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/adk-gemini-cli-agent-building-bann.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;The newly introduced continuous checkpointing feature in Orbax and MaxText is designed to optimize the balance between reliability and performance during model training, addressing issues with conventional fixed-frequency checkpointing. Unlike fixed intervals—which can either compromise reliability or bottleneck performance—continuous checkpointing maximizes I/O bandwidth and minimizes failure risk by asynchronously initiating a new save operation only after the previous one successfully completes. Benchmarks demonstrate that this approach significantly reduces checkpoint intervals and results in substantial resource conservation, especially in large-scale training jobs where mean-time-between-failure (MTBF) is short.</description>
+      <category>AI</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Announcing ADK for Java 1.0.0: Building the Future of AI Agents in Java</title>
+      <link>https://developers.googleblog.com/announcing-adk-for-java-100-building-the-future-of-ai-agents-in-java/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/adk-java-1-0-release-1600x476.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Google has released version 1.0.0 of the Agent Development Kit (ADK) for Java, introducing powerful new features like Google Maps grounding, built-in URL fetching, and a standardized Agent2Agent protocol for cross-framework collaboration. The update enhances agent control through a new "App" and "Plugin" architecture, which allows for global logging, automated context window management via event compaction, and "Human-in-the-Loop" workflows for action confirmations. Additionally, the release provides robust session and memory services using Google Cloud integrations like Firestore and Vertex AI to manage long-term state and large data artifacts.</description>
+      <category>AI</category>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Closing the knowledge gap with agent skills</title>
+      <link>https://developers.googleblog.com/closing-the-knowledge-gap-with-agent-skills/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_API_Skills_Banner_v2.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;To bridge the gap between static model knowledge and rapidly evolving software practices, Google DeepMind developed a "Gemini API developer skill" that provides agents with live documentation and SDK guidance. Evaluation results show a massive performance boost, with the gemini-3.1-pro-preview model jumping from a 28.2% to a 96.6% success rate when equipped with the skill. This lightweight approach demonstrates how giving models strong reasoning capabilities and access to a "source of truth" can effectively eliminate outdated coding patterns.</description>
+      <category>AI</category>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Jump to play: Building with Gemini &amp; MediaPipe</title>
+      <link>https://developers.googleblog.com/jump-to-play-building-with-gemini-mediapipe/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/jump_to_play_banner.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;The provided workflow streamlines motion-controlled game development by using Gemini Canvas to rapidly prototype mechanics like the MediaPipe Pose Landmarker through high-level prompting. Developers can refine these prototypes in Google AI Studio by optimizing for low-latency "lite" models and stable tracking points, such as shoulder landmarks, to ensure responsive gameplay. The process concludes by using Gemini Code Assist to refactor experimental code into a modular, production-ready application capable of supporting various multimodal inputs.</description>
+      <category>Mobile</category>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Build a smart financial assistant with LlamaParse and Gemini 3.1</title>
+      <link>https://developers.googleblog.com/build-a-smart-financial-assistant-with-llamaparse-and-gemini-31/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/llamaindex_gemini-api_1.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;This blog post introduces a workflow for extracting high-quality data from complex, unstructured documents by combining LlamaParse with Gemini 3.1 models. It demonstrates an event-driven architecture that uses Gemini 3.1 Pro for agentic parsing of dense financial tables and Gemini 3.1 Flash for cost-effective summarization. By following the provided tutorial, developers can build a personal finance assistant capable of transforming messy brokerage statements into structured, human-readable insights.</description>
+      <category>AI</category>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Developer’s Guide to AI Agent Protocols</title>
+      <link>https://developers.googleblog.com/developers-guide-to-ai-agent-protocols/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/agent_protocol_banner.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;This blog post introduces a suite of six protocols, such as MCP and A2A, designed to eliminate custom integration code by standardizing how AI agents access data and communicate. Using a "kitchen manager" agent as a practical example, it demonstrates how these tools handle complex tasks like real-time inventory checks, wholesale commerce via UCP, and secure payment authorization through AP2. By leveraging the Agent Development Kit (ADK), developers can also implement A2UI and AG-UI to deliver interactive dashboards and seamless streaming interfaces to users.</description>
+      <category>AI</category>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

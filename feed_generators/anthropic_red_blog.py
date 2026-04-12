@@ -76,38 +76,19 @@ def parse_red_html(html_content):
         articles = []
         seen_links = set()
 
-        # Find the table of contents container
-        toc = soup.select_one("div.toc")
-        if not toc:
-            logger.error("Could not find table of contents container")
-            return articles
+        # Find all article links across the entire page (TOC + body sections)
+        all_notes = soup.select("a.note")
+        logger.info(f"Found {len(all_notes)} potential article links")
 
-        current_date = None
+        # Build a map of date dividers for context
+        date_sections = {}
+        for date_div in soup.select("div.date"):
+            date_text = date_div.text.strip()
+            parsed = parse_date(date_text)
+            if parsed:
+                date_sections[date_text] = parsed
 
-        # Iterate through all children to process dates and articles in order
-        for elem in toc.children:
-            # Skip text nodes and non-tag elements
-            if not hasattr(elem, "name"):
-                continue
-
-            # Check if this is a date divider
-            if elem.name == "div" and "date" in elem.get("class", []):
-                date_text = elem.text.strip()
-                current_date = parse_date(date_text)
-                logger.debug(f"Found date section: {date_text}")
-                continue
-
-            # Check if this is an article link or a div containing an article link
-            article_link = None
-            if elem.name == "a" and "note" in elem.get("class", []):
-                article_link = elem
-            elif elem.name == "div":
-                # Some articles are wrapped in divs (e.g., for scheduled releases)
-                article_link = elem.select_one("a.note")
-
-            if not article_link:
-                continue
-
+        for article_link in all_notes:
             # Extract article information
             href = article_link.get("href", "")
             if not href:
@@ -140,11 +121,9 @@ def parse_red_html(html_content):
             # Fetch actual publication date from the article page
             article_date = fetch_article_date(link)
 
-            # Fallback to current date from main page if fetching fails
+            # Fallback to stable date if fetching fails
             if not article_date:
-                article_date = (
-                    current_date if current_date else stable_fallback_date(link)
-                )
+                article_date = stable_fallback_date(link)
                 logger.warning(f"Using fallback date for article: {title}")
 
             # Create article object

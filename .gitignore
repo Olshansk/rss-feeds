@@ -202,3 +202,5 @@ cache/*.json
 
 # Agent skills evals (never commit)
 .agents/skills/*/evals/
+
+PR_DESCRIPTION.md

@@ -2,18 +2,18 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>Claude Code Changelog</title>
-    <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
+    <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md</link>
     <description>Claude Code Changelog</description>
-    <atom:link href="https://anthropic.com/feed_anthropic_changelog_claude_code.xml" rel="self"/>
+    <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_changelog_claude_code.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <image>
       <url>https://www.anthropic.com/images/icons/apple-touch-icon.png</url>
       <title>Claude Code Changelog</title>
-      <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sun, 12 Apr 2026 14:12:51 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 19:38:30 +0000</lastBuildDate>
     <item>
       <title>v2.1.101</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21101</link>
