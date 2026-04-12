@@ -97,7 +97,7 @@ For blogs with "Load More" or pagination that uses URL query params (`?page=2`).
 
 For JS-heavy sites where content loads dynamically via JavaScript button clicks.
 
-**Examples**: `anthropic_news_blog.py` (reference implementation), `anthropic_research_blog.py`, `openai_research_blog.py`
+**Examples**: `anthropic_news_blog.py` (reference implementation), `anthropic_research_blog.py`, `openai_research_blog.py`, `xainews_blog.py`
 
 **Key functions**:
 - `setup_selenium_driver()` - Headless Chrome with `undetected-chromedriver`
@@ -123,6 +123,7 @@ For JS-heavy sites where content loads dynamically via JavaScript button clicks.
 | All posts on single page | Simple Static | `ollama_blog.py` | No |
 | URL-based pagination (`?page=2`) | Pagination + Caching | `dagster_blog.py` | Yes |
 | JS button loads more content | Selenium + Click | `anthropic_news_blog.py` | Yes |
+| JS-rendered page (curl returns empty shell) | Selenium + Wait | `xainews_blog.py` | Yes |
 
 **Key libraries**: `requests`, `beautifulsoup4`, `feedgen`, `selenium`, `undetected-chromedriver`
 
@@ -261,7 +262,12 @@ Before submitting your PR, verify:
 - Add the date format to the `date_formats` list
 - Use `stable_fallback_date()` for entries without parseable dates
 
+**Empty feed after Selenium run (0 items)**
+- The site is JS-rendered but `curl` returns a minimal HTML shell — confirm with `curl -sL <url> | wc -c` (< 10KB = JS-rendered)
+- Capture Selenium page source to a file and inspect actual selectors: element classes on JS-rendered pages often differ from View Source
+- Always call `deserialize_entries()` on cached data before passing to `merge_entries()` — ISO strings don't sort correctly as datetimes
+
 ## GitHub Actions
 
 - `run_feeds.yml` - Runs hourly, executes `run_all_feeds.py`, commits updated XML files
-- `test_feed.yml` - Tests feed generation on PRs
+- `test_feed.yml` - Tests feed generation on PRs (runs `ollama_blog.py`)
