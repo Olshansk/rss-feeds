@@ -1,6 +1,5 @@
 """Shared utilities for feed generators."""
 
-import argparse
 import json
 import logging
 import re
@@ -29,7 +28,7 @@ DEFAULT_HEADERS = {"User-Agent": DEFAULT_USER_AGENT}
 # ---------------------------------------------------------------------------
 
 
-def setup_logging() -> logging.Logger:
+def setup_logging(name: str | None = None) -> logging.Logger:
     """Configure logging and return a logger for the calling module.
 
     Call once at module level: ``logger = setup_logging()``
@@ -38,7 +37,10 @@ def setup_logging() -> logging.Logger:
         level=logging.INFO,
         format="%(asctime)s - %(levelname)s - %(message)s",
     )
-    return logging.getLogger(__name__)
+    if name is None:
+        import inspect
+        name = inspect.stack()[1].f_globals.get("__name__", __name__)
+    return logging.getLogger(name)
 
 
 logger = setup_logging()
@@ -294,28 +296,6 @@ def save_rss_feed(fg: FeedGenerator, feed_name: str) -> Path:
     logger.info(f"Saved RSS feed to {output_file}")
     return output_file
 
-
-# ---------------------------------------------------------------------------
-# CLI
-# ---------------------------------------------------------------------------
-
-
-def create_feed_cli(description: str) -> argparse.Namespace:
-    """Create a standard feed generator CLI with ``--full`` flag.
-
-    Args:
-        description: Help text for the generator script.
-
-    Returns:
-        Parsed arguments namespace with ``full`` attribute.
-    """
-    parser = argparse.ArgumentParser(description=description)
-    parser.add_argument(
-        "--full",
-        action="store_true",
-        help="Force full reset (fetch all pages instead of incremental)",
-    )
-    return parser.parse_args()
 
 
 # ---------------------------------------------------------------------------

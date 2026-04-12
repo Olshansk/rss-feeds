@@ -1,6 +1,7 @@
 import argparse
 import re
 
+import pytz
 import requests
 from bs4 import BeautifulSoup
 from dateutil import parser as date_parser
@@ -34,7 +35,6 @@ def parse_date(value: str | None, fallback_id: str = ""):
     try:
         dt = date_parser.parse(value)
         if dt.tzinfo is None:
-            import pytz
             dt = dt.replace(tzinfo=pytz.UTC)
         return dt
     except (ValueError, TypeError) as exc:
