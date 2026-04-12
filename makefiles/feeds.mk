@@ -65,6 +65,13 @@ feeds_openai_research: ## Generate RSS feed for OpenAI Research
 	$(Q)python feed_generators/openai_research_blog.py
 	$(call print_success,OpenAI Research feed generated)
 
+.PHONY: feeds_openai_developer
+feeds_openai_developer: ## Generate RSS feed for OpenAI Developer Blog
+	$(call check_venv)
+	$(call print_info,Generating OpenAI Developer Blog feed)
+	$(Q)python feed_generators/openai_developer_blog.py
+	$(call print_success,OpenAI Developer Blog feed generated)
+
 .PHONY: feeds_ollama
 feeds_ollama: ## Generate RSS feed for Ollama Blog
 	$(call check_venv)
