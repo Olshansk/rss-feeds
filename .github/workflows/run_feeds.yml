@@ -37,6 +37,7 @@ jobs:
           uv run feed_generators/run_all_feeds.py --skip-selenium
 
       - name: Commit and push feeds
+        if: github.ref == 'refs/heads/main'
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
