@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>OpenAI Engineering</title>
+    <link>https://openai.com/news/engineering/</link>
+    <description>Engineering posts from the official OpenAI news feed</description>
+    <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_openai_engineering.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 11 Mar 2026 21:14:18 +0000</lastBuildDate>
+    <item>
+      <title>From model to agent: Equipping the Responses API with a computer environment</title>
+      <link>https://openai.com/index/equip-responses-api-computer-environment</link>
+      <description>How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.</description>
+      <category>Engineering</category>
+      <pubDate>Wed, 11 Mar 2026 11:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Beyond rate limits: scaling access to Codex and Sora</title>
+      <link>https://openai.com/index/beyond-rate-limits</link>
+      <description>How OpenAI built a real-time access system combining rate limits, usage tracking, and credits to power continuous access to Sora and Codex.</description>
+      <category>Engineering</category>
+      <pubDate>Fri, 13 Feb 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Harness engineering: leveraging Codex in an agent-first world</title>
+      <link>https://openai.com/index/harness-engineering</link>
+      <description>By Ryan Lopopolo, Member of the Technical Staff</description>
+      <category>Engineering</category>
+      <pubDate>Wed, 11 Feb 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unlocking the Codex harness: how we built the App Server</title>
+      <link>https://openai.com/index/unlocking-the-codex-harness</link>
+      <description>Learn how to embed the Codex agent using the Codex App Server, a bidirectional JSON-RPC API powering streaming progress, tool use, approvals, and diffs.</description>
+      <category>Engineering</category>
+      <pubDate>Wed, 04 Feb 2026 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Inside OpenAI’s in-house data agent</title>
+      <link>https://openai.com/index/inside-our-in-house-data-agent</link>
+      <description>How OpenAI built an in-house AI data agent that uses GPT-5, Codex, and memory to reason over massive datasets and deliver reliable insights in minutes.</description>
+      <category>Engineering</category>
+      <pubDate>Thu, 29 Jan 2026 10:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unrolling the Codex agent loop</title>
+      <link>https://openai.com/index/unrolling-the-codex-agent-loop</link>
+      <description>A technical deep dive into the Codex agent loop, explaining how Codex CLI orchestrates models, tools, prompts, and performance using the Responses API.</description>
+      <category>Engineering</category>
+      <pubDate>Fri, 23 Jan 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scaling PostgreSQL to power 800 million ChatGPT users</title>
+      <link>https://openai.com/index/scaling-postgresql</link>
+      <description>An inside look at how OpenAI scaled PostgreSQL to millions of queries per second using replicas, caching, rate limiting, and workload isolation.</description>
+      <category>Engineering</category>
+      <pubDate>Thu, 22 Jan 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How We Used Codex to Ship Sora for Android in 28 Days</title>
+      <link>https://openai.com/index/shipping-sora-for-android-with-codex</link>
+      <description>OpenAI shipped Sora for Android in 28 days using Codex. AI-assisted planning, translation, and parallel coding workflows helped a nimble team deliver rapid, reliable development.</description>
+      <category>Engineering</category>
+      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
