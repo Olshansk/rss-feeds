@@ -10,16 +10,8 @@ import pytz
 import requests
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-
-from utils import (
-    load_cache,
-    merge_entries,
-    save_cache,
-    save_rss_feed,
-    setup_feed_links,
-    setup_logging,
-    sort_posts_for_feed,
-)
+from utils import (load_cache, merge_entries, save_cache, save_rss_feed,
+                   setup_feed_links, setup_logging, sort_posts_for_feed)
 
 logger = setup_logging()
 

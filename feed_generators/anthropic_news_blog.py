@@ -9,19 +9,10 @@ from feedgen.feed import FeedGenerator
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-
-from utils import (
-    deserialize_entries,
-    load_cache,
-    merge_entries,
-    save_cache,
-    save_rss_feed,
-    setup_feed_links,
-    setup_logging,
-    setup_selenium_driver,
-    sort_posts_for_feed,
-    stable_fallback_date,
-)
+from utils import (deserialize_entries, load_cache, merge_entries, save_cache,
+                   save_rss_feed, setup_feed_links, setup_logging,
+                   setup_selenium_driver, sort_posts_for_feed,
+                   stable_fallback_date)
 
 FEED_NAME = "anthropic_news"
 BLOG_URL = "https://www.anthropic.com/news"

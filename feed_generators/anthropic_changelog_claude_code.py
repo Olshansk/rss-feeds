@@ -1,7 +1,8 @@
 import re
+from datetime import datetime
 
+import pytz
 from feedgen.feed import FeedGenerator
-
 from utils import fetch_page, save_rss_feed, setup_feed_links, setup_logging
 
 logger = setup_logging()
@@ -25,13 +26,16 @@ def parse_changelog_markdown(markdown_content, max_versions=50):
         items = []
         lines = markdown_content.split("\n")
         current_version = None
+        current_date = None
         current_changes = []
 
         for line in lines:
             line = line.strip()
 
             # Check for version headers (## 1.0.71, ## 1.0.70, etc.)
-            if line.startswith("## ") and re.match(r"## \d+\.\d+\.\d+", line):
+            # Also match headers with dates like "## 1.0.71 (2025-06-15)"
+            version_match = re.match(r"## (\d+\.\d+\.\d+)(?:\s*\(([^)]+)\))?", line)
+            if version_match:
                 # Save previous version if exists
                 if current_version and current_changes:
                     version_anchor = current_version.replace(".", "")
@@ -41,19 +45,31 @@ def parse_changelog_markdown(markdown_content, max_versions=50):
                         + "".join(f"<li>{change}</li>" for change in current_changes)
                         + "</ul>"
                     )
-                    items.append(
-                        {
-                            "title": f"v{current_version}",
-                            "link": f"https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#{version_anchor}",
-                            "description": description_html,
-                            "category": "Changelog",
-                        }
-                    )
+                    item = {
+                        "title": f"v{current_version}",
+                        "link": f"https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#{version_anchor}",
+                        "description": description_html,
+                        "category": "Changelog",
+                    }
+                    if current_date:
+                        item["date"] = current_date
+                    items.append(item)
                     if len(items) >= max_versions:
                         break
 
                 # Start new version
-                current_version = line[3:].strip()  # Remove "## "
+                current_version = version_match.group(1)
+                current_date = None
+                date_str = version_match.group(2)
+                if date_str:
+                    try:
+                        current_date = datetime.strptime(
+                            date_str.strip(), "%Y-%m-%d"
+                        ).replace(tzinfo=pytz.UTC)
+                    except ValueError:
+                        logger.warning(
+                            f"Could not parse date '{date_str}' for version {current_version}"
+                        )
                 current_changes = []
                 continue
 
@@ -71,14 +87,15 @@ def parse_changelog_markdown(markdown_content, max_versions=50):
                 + "".join(f"<li>{change}</li>" for change in current_changes)
                 + "</ul>"
             )
-            items.append(
-                {
-                    "title": f"v{current_version}",
-                    "link": f"https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#{version_anchor}",
-                    "description": description_html,
-                    "category": "Changelog",
-                }
-            )
+            item = {
+                "title": f"v{current_version}",
+                "link": f"https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#{version_anchor}",
+                "description": description_html,
+                "category": "Changelog",
+            }
+            if current_date:
+                item["date"] = current_date
+            items.append(item)
 
         logger.info(f"Successfully parsed {len(items)} changelog items")
         return items
@@ -106,6 +123,8 @@ def generate_rss_feed(items, feed_name=FEED_NAME):
             fe.title(item["title"])
             fe.description(item["description"])
             fe.link(href=item["link"])
+            if item.get("date"):
+                fe.published(item["date"])
             fe.category(term=item["category"])
             fe.id(item["link"])
 

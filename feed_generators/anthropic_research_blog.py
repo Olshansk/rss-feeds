@@ -7,14 +7,10 @@ from feedgen.feed import FeedGenerator
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-
-from utils import (
-    save_rss_feed,
-    setup_feed_links,
-    setup_logging,
-    setup_selenium_driver,
-    sort_posts_for_feed,
-)
+from utils import (deserialize_entries, load_cache, merge_entries, save_cache,
+                   save_rss_feed, setup_feed_links, setup_logging,
+                   setup_selenium_driver, sort_posts_for_feed,
+                   stable_fallback_date)
 
 logger = setup_logging()
 
@@ -30,15 +26,13 @@ def fetch_research_content_selenium(url=BLOG_URL):
         driver = setup_selenium_driver()
         driver.get(url)
 
-        # Wait for the page to fully load
-        wait_time = 10
-        logger.info(f"Waiting {wait_time} seconds for the page to fully load...")
-        time.sleep(wait_time)
-
-        # Wait for research articles to load by checking for specific elements
+        # Wait for research articles to load
         try:
-            # Wait for research articles to be present
-            WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.CSS_SELECTOR, "a[href*='/research/']")))
+            WebDriverWait(driver, 20).until(
+                EC.presence_of_element_located(
+                    (By.CSS_SELECTOR, "a[href*='/research/']")
+                )
+            )
             logger.info("Research articles loaded successfully")
         except Exception:
             logger.warning("Could not confirm articles loaded, proceeding anyway...")
@@ -78,7 +72,7 @@ def extract_title(card):
                 return title
 
     # Try using link text as last resort
-    if hasattr(card, 'text'):
+    if hasattr(card, "text"):
         text = card.text.strip()
         text = " ".join(text.split())
         if len(text) >= 5:
@@ -112,7 +106,7 @@ def extract_date(card):
 
     # Look for date in the card and its parents
     elements_to_check = [card]
-    if hasattr(card, 'parent') and card.parent:
+    if hasattr(card, "parent") and card.parent:
         elements_to_check.append(card.parent)
         if card.parent.parent:
             elements_to_check.append(card.parent.parent)
@@ -182,12 +176,15 @@ def parse_research_html(html_content):
                     logger.debug(f"Could not extract title for link: {full_url}")
                     continue
 
-                # Extract date (can be None for research articles)
+                # Extract date, fall back to stable hash-based date
                 date = extract_date(link)
                 if date:
                     logger.info(f"Found article: {title} - {date}")
                 else:
-                    logger.info(f"Found article (no date): {title}")
+                    logger.warning(
+                        f"No date found for article: {title}, using fallback"
+                    )
+                    date = stable_fallback_date(full_url)
 
                 # Determine category from URL
                 category = "Research"
@@ -261,17 +258,39 @@ def generate_rss_feed(articles):
 
 
 def main(full_reset=False):
-    """Main function to generate RSS feed from Anthropic's research page."""
+    """Main function to generate RSS feed from Anthropic's research page.
+
+    Args:
+        full_reset: If True, fetch all articles. If False, merge with cache.
+    """
     try:
+        cache = load_cache(FEED_NAME)
+        cached_articles = deserialize_entries(cache.get("entries", []))
+
+        if full_reset or not cached_articles:
+            mode = "full reset" if full_reset else "no cache exists"
+            logger.info(f"Running full fetch ({mode})")
+        else:
+            logger.info("Running incremental update")
+
         # Fetch research content using Selenium
         html_content = fetch_research_content_selenium()
 
         # Parse articles from HTML
-        articles = parse_research_html(html_content)
+        new_articles = parse_research_html(html_content)
 
-        if not articles:
+        if not new_articles and not cached_articles:
             logger.warning("No articles found. Please check the HTML structure.")
             return False
+
+        # Merge with cache or use fresh articles
+        if cached_articles and not full_reset:
+            articles = merge_entries(new_articles, cached_articles)
+        else:
+            articles = new_articles
+
+        # Save to cache
+        save_cache(FEED_NAME, articles)
 
         # Generate RSS feed
         feed = generate_rss_feed(articles)
@@ -288,4 +307,11 @@ def main(full_reset=False):
 
 
 if __name__ == "__main__":
-    main()
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Generate Anthropic Research RSS feed")
+    parser.add_argument(
+        "--full", action="store_true", help="Force full reset (fetch all articles)"
+    )
+    args = parser.parse_args()
+    main(full_reset=args.full)

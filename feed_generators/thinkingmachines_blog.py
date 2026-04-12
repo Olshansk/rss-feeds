@@ -5,16 +5,9 @@ from datetime import datetime
 import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-
-from utils import (
-    fetch_page,
-    get_project_root,
-    save_rss_feed,
-    setup_feed_links,
-    setup_logging,
-    sort_posts_for_feed,
-    stable_fallback_date,
-)
+from utils import (fetch_page, get_project_root, save_rss_feed,
+                   setup_feed_links, setup_logging, sort_posts_for_feed,
+                   stable_fallback_date)
 
 logger = setup_logging()
 

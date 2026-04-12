@@ -20,16 +20,26 @@ def validate_feed(feed_path):
     try:
         tree = ET.parse(feed_path)
     except ET.ParseError as e:
-        return {"name": name, "item_count": 0, "newest_date": None,
-                "status": "ERROR", "message": f"XML parse error: {e}"}
+        return {
+            "name": name,
+            "item_count": 0,
+            "newest_date": None,
+            "status": "ERROR",
+            "message": f"XML parse error: {e}",
+        }
 
     root = tree.getroot()
     items = root.findall(".//item")
     item_count = len(items)
 
     if item_count == 0:
-        return {"name": name, "item_count": 0, "newest_date": None,
-                "status": "EMPTY", "message": "0 items"}
+        return {
+            "name": name,
+            "item_count": 0,
+            "newest_date": None,
+            "status": "EMPTY",
+            "message": "0 items",
+        }
 
     # Find newest pubDate
     newest = None
@@ -44,19 +54,32 @@ def validate_feed(feed_path):
                 continue
 
     if newest is None:
-        return {"name": name, "item_count": item_count, "newest_date": None,
-                "status": "OK", "message": f"{item_count} items, no parseable dates"}
+        return {
+            "name": name,
+            "item_count": item_count,
+            "newest_date": None,
+            "status": "OK",
+            "message": f"{item_count} items, no parseable dates",
+        }
 
     days_ago = (datetime.now(timezone.utc) - newest).days
 
     if days_ago > STALE_THRESHOLD_DAYS:
-        return {"name": name, "item_count": item_count, "newest_date": newest,
-                "status": "STALE",
-                "message": f"{item_count} items, newest: {newest.strftime('%Y-%m-%d')} ({days_ago} days ago)"}
+        return {
+            "name": name,
+            "item_count": item_count,
+            "newest_date": newest,
+            "status": "STALE",
+            "message": f"{item_count} items, newest: {newest.strftime('%Y-%m-%d')} ({days_ago} days ago)",
+        }
 
-    return {"name": name, "item_count": item_count, "newest_date": newest,
-            "status": "OK",
-            "message": f"{item_count} items, newest: {newest.strftime('%Y-%m-%d')}"}
+    return {
+        "name": name,
+        "item_count": item_count,
+        "newest_date": newest,
+        "status": "OK",
+        "message": f"{item_count} items, newest: {newest.strftime('%Y-%m-%d')}",
+    }
 
 
 def main():

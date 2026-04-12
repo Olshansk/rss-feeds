@@ -3,13 +3,7 @@ from datetime import datetime
 import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-
-from utils import (
-    fetch_page,
-    save_rss_feed,
-    setup_feed_links,
-    setup_logging,
-)
+from utils import fetch_page, save_rss_feed, setup_feed_links, setup_logging
 
 logger = setup_logging()
 
@@ -34,7 +28,11 @@ def parse_news_html(html_content):
             title = title_elem.text.strip()
 
             # Extract link
-            link = "https://www.anthropic.com" + card["href"] if card["href"].startswith("/") else card["href"]
+            link = (
+                "https://www.anthropic.com" + card["href"]
+                if card["href"].startswith("/")
+                else card["href"]
+            )
 
             # Extract date
             date_elem = card.select_one("div.PostList_post-date__djrOA")
@@ -57,7 +55,13 @@ def parse_news_html(html_content):
             description = title
 
             articles.append(
-                {"title": title, "link": link, "date": date, "category": category, "description": description}
+                {
+                    "title": title,
+                    "link": link,
+                    "date": date,
+                    "category": category,
+                    "description": description,
+                }
             )
 
         logger.info(f"Successfully parsed {len(articles)} articles")

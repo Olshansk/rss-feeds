@@ -6,26 +6,15 @@ import requests
 from bs4 import BeautifulSoup
 from dateutil import parser as date_parser
 from feedgen.feed import FeedGenerator
-
-from utils import (
-    deserialize_entries,
-    fetch_page,
-    load_cache,
-    merge_entries,
-    save_cache,
-    save_rss_feed,
-    setup_feed_links,
-    setup_logging,
-    sort_posts_for_feed,
-    stable_fallback_date,
-)
+from utils import (deserialize_entries, fetch_page, load_cache, merge_entries,
+                   save_cache, save_rss_feed, setup_feed_links, setup_logging,
+                   sort_posts_for_feed, stable_fallback_date)
 
 logger = setup_logging()
 
 FEED_NAME = "the_batch"
 BLOG_URL = "https://www.deeplearning.ai/the-batch/"
 MAX_PAGES = 30  # Safety limit for pagination
-
 
 
 def parse_date(value: str | None, fallback_id: str = ""):
@@ -253,9 +242,7 @@ def fetch_all_articles(max_pages: int = MAX_PAGES) -> list[dict]:
         page_articles = parse_articles_from_html(html_content)
 
         if not page_articles:
-            logger.info(
-                f"No articles found on page {page_num}, stopping pagination"
-            )
+            logger.info(f"No articles found on page {page_num}, stopping pagination")
             break
 
         # Deduplicate and add new articles

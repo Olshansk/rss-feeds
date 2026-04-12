@@ -39,6 +39,7 @@ def setup_logging(name: str | None = None) -> logging.Logger:
     )
     if name is None:
         import inspect
+
         name = inspect.stack()[1].f_globals.get("__name__", __name__)
     return logging.getLogger(name)
 
@@ -141,7 +142,9 @@ def load_cache(feed_name: str, entries_key: str = "entries") -> dict:
         try:
             with open(cache_file, "r") as f:
                 data = json.load(f)
-                logger.info(f"Loaded cache with {len(data.get(entries_key, []))} entries")
+                logger.info(
+                    f"Loaded cache with {len(data.get(entries_key, []))} entries"
+                )
                 return data
         except json.JSONDecodeError:
             logger.warning(f"Corrupted cache file {cache_file}, starting fresh")
@@ -149,7 +152,9 @@ def load_cache(feed_name: str, entries_key: str = "entries") -> dict:
     return {"last_updated": None, entries_key: []}
 
 
-def save_cache(feed_name: str, entries: list[dict], entries_key: str = "entries") -> None:
+def save_cache(
+    feed_name: str, entries: list[dict], entries_key: str = "entries"
+) -> None:
     """Save entries to cache file with automatic datetime serialization.
 
     Args:
@@ -175,9 +180,7 @@ def save_cache(feed_name: str, entries: list[dict], entries_key: str = "entries"
     logger.info(f"Saved cache with {len(entries)} entries to {cache_file}")
 
 
-def deserialize_entries(
-    entries: list[dict], date_field: str = "date"
-) -> list[dict]:
+def deserialize_entries(entries: list[dict], date_field: str = "date") -> list[dict]:
     """Convert cached entries back to proper format with datetime objects.
 
     Args:
@@ -297,7 +300,6 @@ def save_rss_feed(fg: FeedGenerator, feed_name: str) -> Path:
     return output_file
 
 
-
 # ---------------------------------------------------------------------------
 # Chrome / Selenium
 # ---------------------------------------------------------------------------
@@ -327,7 +329,9 @@ def get_chrome_major_version() -> int | None:
                 return version
         except (FileNotFoundError, subprocess.TimeoutExpired):
             continue
-    logger.warning("Could not detect Chrome version, using undetected_chromedriver default")
+    logger.warning(
+        "Could not detect Chrome version, using undetected_chromedriver default"
+    )
     return None
 
 

@@ -5,23 +5,14 @@ from datetime import datetime
 import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-
-from utils import (
-    fetch_page,
-    load_cache,
-    merge_entries,
-    save_cache,
-    save_rss_feed,
-    setup_feed_links,
-    setup_logging,
-    sort_posts_for_feed,
-)
+from utils import (deserialize_entries, fetch_page, load_cache, merge_entries,
+                   save_cache, save_rss_feed, setup_feed_links, setup_logging,
+                   sort_posts_for_feed)
 
 logger = setup_logging()
 
 BLOG_URL = "https://cursor.com/blog"
 FEED_NAME = "cursor"
-
 
 
 def parse_posts(html):
@@ -48,13 +39,15 @@ def parse_posts(html):
         category_el = card.find("span", class_="capitalize")
         category = category_el.get_text(strip=True).rstrip(" ·") if category_el else ""
 
-        posts.append({
-            "link": href,
-            "title": title,
-            "description": description,
-            "date": date,
-            "category": category,
-        })
+        posts.append(
+            {
+                "link": href,
+                "title": title,
+                "description": description,
+                "date": date,
+                "category": category,
+            }
+        )
 
     # Find next page link - look for links containing "Next" or "Older"
     next_link = None
@@ -141,8 +134,9 @@ def generate_rss_feed(posts):
 def main(full_reset=False):
     """Main function to generate RSS feed."""
     cache = load_cache(FEED_NAME)
+    cached_entries = deserialize_entries(cache.get("entries", []))
 
-    if full_reset or not cache.get("entries", []):
+    if full_reset or not cached_entries:
         mode = "full reset" if full_reset else "no cache exists"
         logger.info(f"Running full fetch ({mode})")
         posts = fetch_all_pages()
@@ -151,7 +145,7 @@ def main(full_reset=False):
         html = fetch_page(BLOG_URL)
         new_posts, _ = parse_posts(html)
         logger.info(f"Found {len(new_posts)} posts on page 1")
-        posts = merge_entries(new_posts, cache["entries"])
+        posts = merge_entries(new_posts, cached_entries)
 
     save_cache(FEED_NAME, posts)
     feed = generate_rss_feed(posts)
@@ -163,6 +157,8 @@ def main(full_reset=False):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate Cursor Blog RSS feed")
-    parser.add_argument("--full", action="store_true", help="Force full reset (fetch all pages)")
+    parser.add_argument(
+        "--full", action="store_true", help="Force full reset (fetch all pages)"
+    )
     args = parser.parse_args()
     main(full_reset=args.full)

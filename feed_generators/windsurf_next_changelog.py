@@ -4,14 +4,8 @@ from datetime import datetime
 import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-
-from utils import (
-    fetch_page,
-    save_rss_feed,
-    setup_feed_links,
-    setup_logging,
-    sort_posts_for_feed,
-)
+from utils import (fetch_page, save_rss_feed, setup_feed_links, setup_logging,
+                   sort_posts_for_feed)
 
 logger = setup_logging()
 
@@ -58,7 +52,7 @@ def parse_changelog_html(html_content):
         changelog_entries = []
 
         # Version pattern to find elements with version IDs
-        version_pattern = re.compile(r'^\d+\.\d+\.\d+$')
+        version_pattern = re.compile(r"^\d+\.\d+\.\d+$")
 
         # Find all elements with version-like IDs
         version_elements = soup.find_all(id=version_pattern)
@@ -69,8 +63,8 @@ def parse_changelog_html(html_content):
 
             # Extract date from the element's text
             date_match = re.search(
-                r'(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s+\d{4}',
-                elem_text
+                r"(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s+\d{4}",
+                elem_text,
             )
 
             if date_match:
@@ -94,18 +88,23 @@ def parse_changelog_html(html_content):
                     elif child.name in ["h2", "h3"]:
                         # Subheading (Gemini 3 Pro, SWE-1.5, etc.)
                         heading_text = child.get_text(strip=True)
-                        description_parts.append(f"<p><strong>{heading_text}</strong></p>")
+                        description_parts.append(
+                            f"<p><strong>{heading_text}</strong></p>"
+                        )
                     elif child.name == "p":
                         description_parts.append(f"<p>{child.get_text(strip=True)}</p>")
                     elif child.name == "ul":
-                        items = [f"<li>{li.get_text(strip=True)}</li>" for li in child.find_all("li")]
+                        items = [
+                            f"<li>{li.get_text(strip=True)}</li>"
+                            for li in child.find_all("li")
+                        ]
                         description_parts.append(f"<ul>{''.join(items)}</ul>")
                 description = "".join(description_parts)
             else:
                 # Fallback: extract text with separator
                 description = elem_text
                 if date_match:
-                    description = elem_text[date_match.end():].strip()
+                    description = elem_text[date_match.end() :].strip()
 
             # Limit length
             if len(description) > 2000:
@@ -117,13 +116,15 @@ def parse_changelog_html(html_content):
             # Create link with anchor
             link = f"https://windsurf.com/changelog/windsurf-next#{version}"
 
-            changelog_entries.append({
-                "title": f"Windsurf Next {version}",
-                "version": version,
-                "link": link,
-                "description": description,
-                "date": date,
-            })
+            changelog_entries.append(
+                {
+                    "title": f"Windsurf Next {version}",
+                    "version": version,
+                    "link": link,
+                    "description": description,
+                    "date": date,
+                }
+            )
 
         logger.info(f"Successfully parsed {len(changelog_entries)} changelog entries")
         return changelog_entries
@@ -178,7 +179,9 @@ def main(feed_name=FEED_NAME):
         feed = generate_rss_feed(changelog_entries, feed_name)
         save_rss_feed(feed, feed_name)
 
-        logger.info(f"Successfully generated RSS feed with {len(changelog_entries)} entries")
+        logger.info(
+            f"Successfully generated RSS feed with {len(changelog_entries)} entries"
+        )
         return True
 
     except Exception as e:

@@ -3,13 +3,7 @@ from datetime import datetime
 import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-
-from utils import (
-    fetch_page,
-    save_rss_feed,
-    setup_feed_links,
-    setup_logging,
-)
+from utils import fetch_page, save_rss_feed, setup_feed_links, setup_logging
 
 logger = setup_logging()
 
@@ -37,19 +31,35 @@ def parse_blog_html(html_content):
 
         for post in posts:
             # Extract title
-            title = post.select_one("h2").text.strip()
+            title_elem = post.select_one("h2")
+            if not title_elem:
+                logger.warning("Skipping post: no title found")
+                continue
+            title = title_elem.text.strip()
 
             # Extract date
-            date_str = post.select_one("h3").text.strip()
+            date_elem = post.select_one("h3")
+            if not date_elem:
+                logger.warning(f"Skipping post '{title}': no date found")
+                continue
+            date_str = date_elem.text.strip()
             date_obj = datetime.strptime(date_str, "%B %d, %Y")
 
             # Extract description
-            description = post.select_one("p").text.strip()
+            desc_elem = post.select_one("p")
+            description = desc_elem.text.strip() if desc_elem else title
 
             # Extract link
             link = f"https://ollama.com{post['href']}"
 
-            blog_posts.append({"title": title, "date": date_obj, "description": description, "link": link})
+            blog_posts.append(
+                {
+                    "title": title,
+                    "date": date_obj,
+                    "description": description,
+                    "link": link,
+                }
+            )
 
         logger.info(f"Successfully parsed {len(blog_posts)} blog posts")
         return blog_posts

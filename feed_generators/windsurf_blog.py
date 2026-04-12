@@ -3,13 +3,8 @@ from datetime import datetime
 import pytz
 import requests
 from feedgen.feed import FeedGenerator
-
-from utils import (
-    save_rss_feed,
-    setup_feed_links,
-    setup_logging,
-    sort_posts_for_feed,
-)
+from utils import (save_rss_feed, setup_feed_links, setup_logging,
+                   sort_posts_for_feed)
 
 logger = setup_logging()
 
@@ -60,7 +55,11 @@ def parse_blog_posts(api_response):
 
             # Build link from slug
             slug = post.get("slug", "")
-            link = f"https://windsurf.com/blog/{slug}" if slug else "https://windsurf.com/blog"
+            link = (
+                f"https://windsurf.com/blog/{slug}"
+                if slug
+                else "https://windsurf.com/blog"
+            )
 
             # Get summary/description
             description = post.get("summary", title)
@@ -68,13 +67,15 @@ def parse_blog_posts(api_response):
             # Get tags for categories
             tags = post.get("tags", [])
 
-            blog_posts.append({
-                "title": title,
-                "link": link,
-                "description": description,
-                "date": date,
-                "tags": tags,
-            })
+            blog_posts.append(
+                {
+                    "title": title,
+                    "link": link,
+                    "description": description,
+                    "date": date,
+                    "tags": tags,
+                }
+            )
 
         logger.info(f"Successfully parsed {len(blog_posts)} blog posts")
         return blog_posts

@@ -4,17 +4,9 @@ from datetime import datetime
 import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-
-from utils import (
-    fetch_page,
-    load_cache,
-    merge_entries,
-    save_cache,
-    save_rss_feed,
-    setup_feed_links,
-    setup_logging,
-    sort_posts_for_feed,
-)
+from utils import (deserialize_entries, fetch_page, load_cache, merge_entries,
+                   save_cache, save_rss_feed, setup_feed_links, setup_logging,
+                   sort_posts_for_feed)
 
 logger = setup_logging()
 
@@ -22,7 +14,6 @@ BLOG_URL = "https://dagster.io/blog"
 FEED_NAME = "dagster"
 # Dagster uses Webflow CMS pagination with this query param
 PAGINATION_PARAM = "a17fdf47_page"
-
 
 
 def parse_posts(html_content):
@@ -177,8 +168,9 @@ def main(full_reset=False):
                    and merge with cached posts.
     """
     cache = load_cache(FEED_NAME)
+    cached_entries = deserialize_entries(cache.get("entries", []))
 
-    if full_reset or not cache.get("entries", []):
+    if full_reset or not cached_entries:
         mode = "full reset" if full_reset else "no cache exists"
         logger.info(f"Running full fetch ({mode})")
         posts = fetch_all_pages()
@@ -187,7 +179,7 @@ def main(full_reset=False):
         html = fetch_page(BLOG_URL)
         new_posts, _ = parse_posts(html)
         logger.info(f"Found {len(new_posts)} posts on page 1")
-        posts = merge_entries(new_posts, cache["entries"])
+        posts = merge_entries(new_posts, cached_entries)
 
     save_cache(FEED_NAME, posts)
     feed = generate_rss_feed(posts)
