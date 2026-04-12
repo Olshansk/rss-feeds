@@ -8,6 +8,7 @@ from feedgen.feed import FeedGenerator
 
 from utils import (
     deserialize_entries,
+    fetch_page,
     load_cache,
     merge_entries,
     save_cache,
@@ -24,16 +25,6 @@ FEED_NAME = "the_batch"
 BLOG_URL = "https://www.deeplearning.ai/the-batch/"
 MAX_PAGES = 30  # Safety limit for pagination
 
-
-def fetch_page(url: str) -> str:
-    """Fetch a page using requests."""
-    logger.info(f"Fetching: {url}")
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-    }
-    response = requests.get(url, headers=headers, timeout=30)
-    response.raise_for_status()
-    return response.text
 
 
 def parse_date(value: str | None, fallback_id: str = ""):

@@ -3,11 +3,11 @@ import re
 from datetime import datetime
 
 import pytz
-import requests
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
 from utils import (
+    fetch_page,
     load_cache,
     merge_entries,
     save_cache,
@@ -22,15 +22,6 @@ logger = setup_logging()
 BLOG_URL = "https://cursor.com/blog"
 FEED_NAME = "cursor"
 
-
-def fetch_page(url):
-    """Fetch a single page HTML."""
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-    }
-    response = requests.get(url, headers=headers, timeout=30)
-    response.raise_for_status()
-    return response.text
 
 
 def parse_posts(html):
