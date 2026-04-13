@@ -1,5 +1,4 @@
 import argparse
-import time
 from datetime import datetime
 
 import pytz
@@ -46,9 +45,6 @@ def fetch_news_content(url=BLOG_URL):
             logger.info("News articles loaded successfully")
         except Exception:
             logger.warning("Could not confirm articles loaded, proceeding anyway...")
-
-        # Allow additional time for all dynamic content
-        time.sleep(2)
 
         html_content = driver.page_source
         logger.info("Successfully fetched HTML content")

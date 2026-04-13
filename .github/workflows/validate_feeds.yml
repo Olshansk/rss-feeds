@@ -23,5 +23,12 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Validate all feeds
-        run: python feed_generators/validate_feeds.py
+      - name: Install uv
+        uses: astral-sh/setup-uv@v8.0.0
+        with:
+          enable-cache: true
+
+      - name: Install dependencies and validate all feeds
+        run: |
+          uv sync
+          uv run feed_generators/validate_feeds.py

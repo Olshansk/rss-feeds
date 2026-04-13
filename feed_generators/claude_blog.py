@@ -12,6 +12,7 @@ from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
 from utils import (
+    deserialize_entries,
     load_cache,
     merge_entries,
     save_cache,
@@ -239,8 +240,9 @@ def main(full_reset=False):
                    and merge with cached posts.
     """
     cache = load_cache(FEED_NAME)
+    cached_entries = deserialize_entries(cache.get("entries", []))
 
-    if full_reset or not cache.get("entries", []):
+    if full_reset or not cached_entries:
         mode = "full reset" if full_reset else "no cache exists"
         logger.info(f"Running full fetch ({mode})")
         posts = fetch_all_pages()
@@ -249,7 +251,7 @@ def main(full_reset=False):
         html_content = fetch_page(BLOG_URL)
         new_posts = parse_posts(html_content)
         logger.info(f"Found {len(new_posts)} posts on page 1")
-        posts = merge_entries(new_posts, cache["entries"])
+        posts = merge_entries(new_posts, cached_entries)
 
     save_cache(FEED_NAME, posts)
     feed = generate_rss_feed(posts)

@@ -117,7 +117,7 @@ Add a new target to `makefiles/feeds.mk` following the existing pattern:
 feeds_new_site: ## Generate RSS feed for NewSite
    $(call check_venv)
    $(call print_info,Generating NewSite feed)
-   $(Q)python feed_generators/new_site_blog.py
+   $(Q)uv run feed_generators/new_site_blog.py
    $(call print_success,NewSite feed generated)
 ```
 
@@ -128,7 +128,7 @@ Also add a legacy alias in the main `Makefile` following the existing pattern.
 1. **Test with local HTML** (if site blocks requests):
 
    ```bash
-   python feed_generators/new_site_blog.py blog.html
+   uv run feed_generators/new_site_blog.py blog.html
    ```
 
 2. **Test with Makefile**:

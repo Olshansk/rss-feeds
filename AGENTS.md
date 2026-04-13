@@ -42,7 +42,7 @@ make dev_format           # Alias for dev_lint_fix
 make dev_test_feed        # Run test feed generator
 
 # Run single generator directly
-python feed_generators/ollama_blog.py
+uv run feed_generators/ollama_blog.py
 
 # CI/CD
 make ci_trigger_feeds_workflow    # Trigger GitHub Action manually
@@ -194,13 +194,13 @@ Claude will:
 make env_setup
 
 # Run the generator
-python feed_generators/<source>_blog.py
+uv run feed_generators/<source>_blog.py
 
 # Verify output
 cat feeds/feed_<source>.xml | head -50
 
 # For paginated feeds, test full fetch
-python feed_generators/<source>_blog.py --full
+uv run feed_generators/<source>_blog.py --full
 ```
 
 **Verify**:
@@ -217,7 +217,7 @@ python feed_generators/<source>_blog.py --full
    feeds_<source>: ## Generate RSS feed for <Source Name>
    	$(call check_venv)
    	$(call print_info,Generating <Source Name> feed)
-   	$(Q)python feed_generators/<source>_blog.py
+   	$(Q)uv run feed_generators/<source>_blog.py
    	$(call print_success,<Source Name> feed generated)
    ```
 
@@ -233,7 +233,7 @@ python feed_generators/<source>_blog.py --full
 Before submitting your PR, verify:
 
 - [ ] `make dev_format` passes (code formatting)
-- [ ] `python feed_generators/<source>_blog.py` runs without errors
+- [ ] `uv run feed_generators/<source>_blog.py` runs without errors
 - [ ] `feeds/feed_<source>.xml` is generated and valid
 - [ ] Make target added to `makefiles/feeds.mk`
 - [ ] README.md table updated

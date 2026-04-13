@@ -1,6 +1,5 @@
 import argparse
 import contextlib
-import time
 import xml.etree.ElementTree as ET
 from datetime import datetime
 
@@ -44,14 +43,9 @@ def fetch_news_content(url=BLOG_URL, max_clicks=20):
         driver = setup_selenium_driver()
         driver.get(url)
 
-        # Wait for initial page load
-        wait_time = 5
-        logger.info(f"Waiting {wait_time} seconds for the page to fully load...")
-        time.sleep(wait_time)
-
         # Wait for news articles to be present
         try:
-            WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.CSS_SELECTOR, "a[href*='/news/']")))
+            WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, "a[href*='/news/']")))
             logger.info("News articles loaded successfully")
         except Exception:
             logger.warning("Could not confirm articles loaded, proceeding anyway...")
@@ -85,10 +79,15 @@ def fetch_news_content(url=BLOG_URL, max_clicks=20):
                         )
 
                 if see_more_button and see_more_button.is_displayed():
+                    count_before = len(driver.find_elements(By.CSS_SELECTOR, "a[href*='/news/']"))
                     logger.info(f"Clicking 'See more' button (click {clicks + 1})...")
                     driver.execute_script("arguments[0].click();", see_more_button)
                     clicks += 1
-                    time.sleep(2)  # Wait for content to load
+                    # Wait for new articles to appear after click
+                    with contextlib.suppress(Exception):
+                        WebDriverWait(driver, 5).until(
+                            lambda d, n=count_before: len(d.find_elements(By.CSS_SELECTOR, "a[href*='/news/']")) > n
+                        )
                 else:
                     logger.info(f"No more 'See more' button found after {clicks} clicks")
                     break
