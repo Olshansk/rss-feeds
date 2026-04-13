@@ -79,13 +79,14 @@ def fetch_news_content(url=BLOG_URL, max_clicks=20):
                         )
 
                 if see_more_button and see_more_button.is_displayed():
+                    count_before = len(driver.find_elements(By.CSS_SELECTOR, "a[href*='/news/']"))
                     logger.info(f"Clicking 'See more' button (click {clicks + 1})...")
                     driver.execute_script("arguments[0].click();", see_more_button)
                     clicks += 1
-                    # Wait for new content to load after click
+                    # Wait for new articles to appear after click
                     with contextlib.suppress(Exception):
                         WebDriverWait(driver, 5).until(
-                            lambda d: len(d.find_elements(By.CSS_SELECTOR, "a[href*='/news/']")) > 0
+                            lambda d: len(d.find_elements(By.CSS_SELECTOR, "a[href*='/news/']")) > count_before
                         )
                 else:
                     logger.info(f"No more 'See more' button found after {clicks} clicks")
