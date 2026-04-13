@@ -86,7 +86,7 @@ def fetch_news_content(url=BLOG_URL, max_clicks=20):
                     # Wait for new articles to appear after click
                     with contextlib.suppress(Exception):
                         WebDriverWait(driver, 5).until(
-                            lambda d: len(d.find_elements(By.CSS_SELECTOR, "a[href*='/news/']")) > count_before
+                            lambda d, n=count_before: len(d.find_elements(By.CSS_SELECTOR, "a[href*='/news/']")) > n
                         )
                 else:
                     logger.info(f"No more 'See more' button found after {clicks} clicks")
