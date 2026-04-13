@@ -42,9 +42,3 @@ dev_test_all: ## Validate feeds, regenerate non-selenium feeds, then re-validate
 	$(call print_info,Re-validating feeds)
 	$(Q)uv run feed_generators/validate_feeds.py
 	$(call print_success,All tests passed)
-
-.PHONY: dev_deps_sync
-dev_deps_sync: ## Regenerate requirements.txt from pyproject.toml
-	$(call print_info,Syncing requirements.txt)
-	$(Q)uv export --format requirements-txt --no-hashes > requirements.txt
-	$(call print_success,requirements.txt updated)

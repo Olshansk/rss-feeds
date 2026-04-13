@@ -3,8 +3,8 @@ from datetime import datetime
 import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-from utils import (fetch_page, save_rss_feed, setup_feed_links, setup_logging,
-                   stable_fallback_date)
+
+from utils import fetch_page, save_rss_feed, setup_feed_links, setup_logging, stable_fallback_date
 
 logger = setup_logging()
 
@@ -58,9 +58,7 @@ def parse_blog_page(html_content, base_url="https://hamel.dev"):
                     pub_date = datetime.strptime(date_text, "%m/%d/%y")
                     pub_date = pub_date.replace(tzinfo=pytz.UTC)
                 except ValueError:
-                    logger.warning(
-                        f"Could not parse date '{date_text}' for post '{title}'"
-                    )
+                    logger.warning(f"Could not parse date '{date_text}' for post '{title}'")
                     pub_date = stable_fallback_date(full_url)
 
                 blog_post = {
@@ -74,14 +72,14 @@ def parse_blog_page(html_content, base_url="https://hamel.dev"):
                 logger.info(f"Parsed post: {title} ({date_text})")
 
             except Exception as e:
-                logger.warning(f"Error parsing row: {str(e)}")
+                logger.warning(f"Error parsing row: {e!s}")
                 continue
 
         logger.info(f"Successfully parsed {len(blog_posts)} blog posts")
         return blog_posts
 
     except Exception as e:
-        logger.error(f"Error parsing HTML content: {str(e)}")
+        logger.error(f"Error parsing HTML content: {e!s}")
         raise
 
 
@@ -90,9 +88,7 @@ def generate_rss_feed(blog_posts):
     try:
         fg = FeedGenerator()
         fg.title("Hamel Husain's Blog")
-        fg.description(
-            "Notes on applied AI engineering, machine learning, and data science."
-        )
+        fg.description("Notes on applied AI engineering, machine learning, and data science.")
         fg.language("en")
 
         # Set feed metadata
@@ -113,7 +109,7 @@ def generate_rss_feed(blog_posts):
         return fg
 
     except Exception as e:
-        logger.error(f"Error generating RSS feed: {str(e)}")
+        logger.error(f"Error generating RSS feed: {e!s}")
         raise
 
 
@@ -135,7 +131,7 @@ def main():
         return True
 
     except Exception as e:
-        logger.error(f"Failed to generate RSS feed: {str(e)}")
+        logger.error(f"Failed to generate RSS feed: {e!s}")
         return False
 
 

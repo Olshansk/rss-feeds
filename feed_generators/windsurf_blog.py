@@ -3,8 +3,8 @@ from datetime import datetime
 import pytz
 import requests
 from feedgen.feed import FeedGenerator
-from utils import (save_rss_feed, setup_feed_links, setup_logging,
-                   sort_posts_for_feed)
+
+from utils import save_rss_feed, setup_feed_links, setup_logging, sort_posts_for_feed
 
 logger = setup_logging()
 
@@ -24,7 +24,7 @@ def fetch_blog_posts():
         response.raise_for_status()
         return response.json()
     except requests.RequestException as e:
-        logger.error(f"Error fetching blog posts: {str(e)}")
+        logger.error(f"Error fetching blog posts: {e!s}")
         raise
 
 
@@ -55,11 +55,7 @@ def parse_blog_posts(api_response):
 
             # Build link from slug
             slug = post.get("slug", "")
-            link = (
-                f"https://windsurf.com/blog/{slug}"
-                if slug
-                else "https://windsurf.com/blog"
-            )
+            link = f"https://windsurf.com/blog/{slug}" if slug else "https://windsurf.com/blog"
 
             # Get summary/description
             description = post.get("summary", title)
@@ -81,7 +77,7 @@ def parse_blog_posts(api_response):
         return blog_posts
 
     except Exception as e:
-        logger.error(f"Error parsing blog posts: {str(e)}")
+        logger.error(f"Error parsing blog posts: {e!s}")
         raise
 
 
@@ -116,7 +112,7 @@ def generate_rss_feed(blog_posts, feed_name=FEED_NAME):
         return fg
 
     except Exception as e:
-        logger.error(f"Error generating RSS feed: {str(e)}")
+        logger.error(f"Error generating RSS feed: {e!s}")
         raise
 
 
@@ -137,7 +133,7 @@ def main(feed_name=FEED_NAME):
         return True
 
     except Exception as e:
-        logger.error(f"Failed to generate RSS feed: {str(e)}")
+        logger.error(f"Failed to generate RSS feed: {e!s}")
         return False
 
 

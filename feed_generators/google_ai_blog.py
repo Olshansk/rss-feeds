@@ -3,8 +3,8 @@ from datetime import datetime
 import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-from utils import (fetch_page, save_rss_feed, setup_feed_links, setup_logging,
-                   sort_posts_for_feed)
+
+from utils import fetch_page, save_rss_feed, setup_feed_links, setup_logging, sort_posts_for_feed
 
 # TODO_IMPROVE: Add caching (Pattern 2) and "Load More" pagination support.
 # Currently only fetches the first page of results. Should:
@@ -151,9 +151,7 @@ def create_rss_feed(posts):
         # Build description with summary and image
         description = ""
         if post.get("image_url"):
-            description += (
-                f'<img src="{post["image_url"]}" alt="Featured image" /><br/><br/>'
-            )
+            description += f'<img src="{post["image_url"]}" alt="Featured image" /><br/><br/>'
         description += post["summary"]
 
         fe.description(description)

@@ -32,8 +32,7 @@ jobs:
         timeout-minutes: 20
         run: |
           set -e
-          uv venv
-          uv pip install -r requirements.txt
+          uv sync
           uv run feed_generators/run_all_feeds.py --skip-selenium
 
       - name: Commit and push feeds

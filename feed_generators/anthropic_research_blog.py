@@ -1,4 +1,3 @@
-import time
 from datetime import datetime
 
 import pytz
@@ -7,10 +6,19 @@ from feedgen.feed import FeedGenerator
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-from utils import (deserialize_entries, load_cache, merge_entries, save_cache,
-                   save_rss_feed, setup_feed_links, setup_logging,
-                   setup_selenium_driver, sort_posts_for_feed,
-                   stable_fallback_date)
+
+from utils import (
+    deserialize_entries,
+    load_cache,
+    merge_entries,
+    save_cache,
+    save_rss_feed,
+    setup_feed_links,
+    setup_logging,
+    setup_selenium_driver,
+    sort_posts_for_feed,
+    stable_fallback_date,
+)
 
 logger = setup_logging()
 
@@ -28,11 +36,7 @@ def fetch_research_content_selenium(url=BLOG_URL):
 
         # Wait for research articles to load
         try:
-            WebDriverWait(driver, 20).until(
-                EC.presence_of_element_located(
-                    (By.CSS_SELECTOR, "a[href*='/research/']")
-                )
-            )
+            WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, "a[href*='/research/']")))
             logger.info("Research articles loaded successfully")
         except Exception:
             logger.warning("Could not confirm articles loaded, proceeding anyway...")
@@ -130,10 +134,8 @@ def validate_article(article):
     """Validate that article has all required fields with reasonable values."""
     if not article.get("title") or len(article["title"]) < 5:
         return False
-    if not article.get("link") or not article["link"].startswith("http"):
-        return False
     # Date can be None for research articles
-    return True
+    return bool(article.get("link") and article["link"].startswith("http"))
 
 
 def parse_research_html(html_content):
@@ -181,9 +183,7 @@ def parse_research_html(html_content):
                 if date:
                     logger.info(f"Found article: {title} - {date}")
                 else:
-                    logger.warning(
-                        f"No date found for article: {title}, using fallback"
-                    )
+                    logger.warning(f"No date found for article: {title}, using fallback")
                     date = stable_fallback_date(full_url)
 
                 # Determine category from URL
@@ -206,14 +206,14 @@ def parse_research_html(html_content):
                     logger.debug(f"Article failed validation: {full_url}")
 
             except Exception as e:
-                logger.warning(f"Error parsing research link: {str(e)}")
+                logger.warning(f"Error parsing research link: {e!s}")
                 continue
 
         logger.info(f"Successfully parsed {len(articles)} unique research articles")
         return articles
 
     except Exception as e:
-        logger.error(f"Error parsing HTML content: {str(e)}")
+        logger.error(f"Error parsing HTML content: {e!s}")
         raise
 
 
@@ -253,7 +253,7 @@ def generate_rss_feed(articles):
         return fg
 
     except Exception as e:
-        logger.error(f"Error generating RSS feed: {str(e)}")
+        logger.error(f"Error generating RSS feed: {e!s}")
         raise
 
 
@@ -302,7 +302,7 @@ def main(full_reset=False):
         return True
 
     except Exception as e:
-        logger.error(f"Failed to generate RSS feed: {str(e)}")
+        logger.error(f"Failed to generate RSS feed: {e!s}")
         return False
 
 
@@ -310,8 +310,6 @@ if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser(description="Generate Anthropic Research RSS feed")
-    parser.add_argument(
-        "--full", action="store_true", help="Force full reset (fetch all articles)"
-    )
+    parser.add_argument("--full", action="store_true", help="Force full reset (fetch all articles)")
     args = parser.parse_args()
     main(full_reset=args.full)

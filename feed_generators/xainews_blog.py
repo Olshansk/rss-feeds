@@ -8,10 +8,19 @@ from feedgen.feed import FeedGenerator
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-from utils import (deserialize_entries, load_cache, merge_entries, save_cache,
-                   save_rss_feed, setup_feed_links, setup_logging,
-                   setup_selenium_driver, sort_posts_for_feed,
-                   stable_fallback_date)
+
+from utils import (
+    deserialize_entries,
+    load_cache,
+    merge_entries,
+    save_cache,
+    save_rss_feed,
+    setup_feed_links,
+    setup_logging,
+    setup_selenium_driver,
+    sort_posts_for_feed,
+    stable_fallback_date,
+)
 
 logger = setup_logging()
 
@@ -33,9 +42,7 @@ def fetch_news_content(url=BLOG_URL):
 
         # Wait for news articles to load
         try:
-            WebDriverWait(driver, 20).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, "a[href*='/news/']"))
-            )
+            WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, "a[href*='/news/']")))
             logger.info("News articles loaded successfully")
         except Exception:
             logger.warning("Could not confirm articles loaded, proceeding anyway...")
@@ -156,9 +163,7 @@ def extract_articles(soup):
 
             # Second try: standard article format in footer
             if not date:
-                footer_elements = container.select(
-                    "div.flex.items-center.justify-between span.mono-tag.text-xs"
-                )
+                footer_elements = container.select("div.flex.items-center.justify-between span.mono-tag.text-xs")
                 for elem in footer_elements:
                     text = elem.text.strip()
                     if looks_like_date(text):
@@ -172,9 +177,7 @@ def extract_articles(soup):
 
             # Extract category
             category = "News"
-            category_elem = container.select_one(
-                "div:not(.flex.items-center.justify-between) span.mono-tag.text-xs"
-            )
+            category_elem = container.select_one("div:not(.flex.items-center.justify-between) span.mono-tag.text-xs")
             if category_elem:
                 category_text = category_elem.text.strip().lower()
                 if not looks_like_date(category_text):
@@ -192,7 +195,7 @@ def extract_articles(soup):
             logger.debug(f"Extracted article: {title} ({date})")
 
         except Exception as e:
-            logger.warning(f"Error parsing article container: {str(e)}")
+            logger.warning(f"Error parsing article container: {e!s}")
             continue
 
     logger.info(f"Successfully parsed {len(articles)} articles")
@@ -205,7 +208,7 @@ def parse_news_html(html_content):
         soup = BeautifulSoup(html_content, "html.parser")
         return extract_articles(soup)
     except Exception as e:
-        logger.error(f"Error parsing HTML content: {str(e)}")
+        logger.error(f"Error parsing HTML content: {e!s}")
         raise
 
 
@@ -280,14 +283,12 @@ def main(full_reset=False):
         return True
 
     except Exception as e:
-        logger.error(f"Failed to generate RSS feed: {str(e)}")
+        logger.error(f"Failed to generate RSS feed: {e!s}")
         return False
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate xAI News RSS feed")
-    parser.add_argument(
-        "--full", action="store_true", help="Force full reset (fetch all articles)"
-    )
+    parser.add_argument("--full", action="store_true", help="Force full reset (fetch all articles)")
     args = parser.parse_args()
     main(full_reset=args.full)

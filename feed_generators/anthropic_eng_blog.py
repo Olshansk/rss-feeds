@@ -4,8 +4,8 @@ from datetime import datetime
 import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-from utils import (fetch_page, save_rss_feed, setup_feed_links, setup_logging,
-                   sort_posts_for_feed)
+
+from utils import fetch_page, save_rss_feed, setup_feed_links, setup_logging, sort_posts_for_feed
 
 logger = setup_logging()
 
@@ -18,7 +18,7 @@ def fetch_engineering_content(url=BLOG_URL):
     try:
         return fetch_page(url)
     except Exception as e:
-        logger.error(f"Error fetching engineering content: {str(e)}")
+        logger.error(f"Error fetching engineering content: {e!s}")
         raise
 
 
@@ -28,9 +28,7 @@ def validate_article(article):
         return False
     if not article.get("link") or not article["link"].startswith("http"):
         return False
-    if not article.get("date"):
-        return False
-    return True
+    return bool(article.get("date"))
 
 
 def parse_engineering_html(html_content):
@@ -42,18 +40,12 @@ def parse_engineering_html(html_content):
         # Find the Next.js script tag containing article data
         script_tag = None
         for script in soup.find_all("script"):
-            if (
-                script.string
-                and "publishedOn" in script.string
-                and "engineeringArticle" in script.string
-            ):
+            if script.string and "publishedOn" in script.string and "engineeringArticle" in script.string:
                 script_tag = script
                 break
 
         if not script_tag:
-            logger.error(
-                "Could not find Next.js data script containing article information"
-            )
+            logger.error("Could not find Next.js data script containing article information")
             return []
 
         script_content = script_tag.string
@@ -82,26 +74,16 @@ def parse_engineering_html(html_content):
 
                 # Extract title and summary (they appear AFTER the slug in the data)
                 # Use negative lookbehind to handle escaped quotes correctly
-                title_match = re.search(
-                    r'\\"title\\":\\"(.*?)(?<!\\)\\"', search_section
-                )
-                title = (
-                    title_match.group(1)
-                    if title_match
-                    else slug.replace("-", " ").title()
-                )
+                title_match = re.search(r'\\"title\\":\\"(.*?)(?<!\\)\\"', search_section)
+                title = title_match.group(1) if title_match else slug.replace("-", " ").title()
                 # Unescape the title using re.sub to handle all escaped characters
                 title = re.sub(r"\\(.)", r"\1", title) if title else title
 
                 # Extract summary/description
-                summary_match = re.search(
-                    r'\\"summary\\":\\"(.*?)(?<!\\)\\"', search_section
-                )
+                summary_match = re.search(r'\\"summary\\":\\"(.*?)(?<!\\)\\"', search_section)
                 description = summary_match.group(1) if summary_match else title
                 # Unescape the description
-                description = (
-                    re.sub(r"\\(.)", r"\1", description) if description else description
-                )
+                description = re.sub(r"\\(.)", r"\1", description) if description else description
 
                 # Parse the date
                 date = datetime.strptime(published_date, "%Y-%m-%d")
@@ -120,14 +102,14 @@ def parse_engineering_html(html_content):
                     logger.info(f"Found article: {title} ({published_date})")
 
             except Exception as e:
-                logger.warning(f"Error parsing article {slug}: {str(e)}")
+                logger.warning(f"Error parsing article {slug}: {e!s}")
                 continue
 
         logger.info(f"Successfully parsed {len(articles)} articles from JSON data")
         return articles
 
     except Exception as e:
-        logger.error(f"Error parsing HTML content: {str(e)}")
+        logger.error(f"Error parsing HTML content: {e!s}")
         raise
 
 
@@ -136,9 +118,7 @@ def generate_rss_feed(articles, feed_name=FEED_NAME):
     try:
         fg = FeedGenerator()
         fg.title("Anthropic Engineering Blog")
-        fg.description(
-            "Latest engineering articles and insights from Anthropic's engineering team"
-        )
+        fg.description("Latest engineering articles and insights from Anthropic's engineering team")
         setup_feed_links(fg, BLOG_URL, feed_name)
         fg.language("en")
 
@@ -164,7 +144,7 @@ def generate_rss_feed(articles, feed_name=FEED_NAME):
         return fg
 
     except Exception as e:
-        logger.error(f"Error generating RSS feed: {str(e)}")
+        logger.error(f"Error generating RSS feed: {e!s}")
         raise
 
 
@@ -191,7 +171,7 @@ def main(feed_name=FEED_NAME):
         return True
 
     except Exception as e:
-        logger.error(f"Failed to generate RSS feed: {str(e)}")
+        logger.error(f"Failed to generate RSS feed: {e!s}")
         return False
 
 

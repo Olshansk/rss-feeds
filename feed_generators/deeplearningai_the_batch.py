@@ -6,9 +6,19 @@ import requests
 from bs4 import BeautifulSoup
 from dateutil import parser as date_parser
 from feedgen.feed import FeedGenerator
-from utils import (deserialize_entries, fetch_page, load_cache, merge_entries,
-                   save_cache, save_rss_feed, setup_feed_links, setup_logging,
-                   sort_posts_for_feed, stable_fallback_date)
+
+from utils import (
+    deserialize_entries,
+    fetch_page,
+    load_cache,
+    merge_entries,
+    save_cache,
+    save_rss_feed,
+    setup_feed_links,
+    setup_logging,
+    sort_posts_for_feed,
+    stable_fallback_date,
+)
 
 logger = setup_logging()
 
@@ -47,9 +57,7 @@ def is_valid_article_link(href: str) -> bool:
     if href in ("/the-batch/", "/the-batch"):
         return False
     # Must be a the-batch article link
-    if href.startswith("/the-batch/") or "deeplearning.ai/the-batch/" in href:
-        return True
-    return False
+    return href.startswith("/the-batch/") or "deeplearning.ai/the-batch/" in href
 
 
 def normalize_link(href: str) -> str:
@@ -95,11 +103,7 @@ def extract_date_text(element) -> str | None:
             return match.group(0)
 
     # Check element's own text
-    text = (
-        element.get_text(" ", strip=True)
-        if hasattr(element, "get_text")
-        else str(element)
-    )
+    text = element.get_text(" ", strip=True) if hasattr(element, "get_text") else str(element)
     match = date_pattern.search(text or "")
     if match:
         return match.group(0)
@@ -114,9 +118,11 @@ def extract_description(element) -> str | None:
 
     # Prefer visible snippet if present (line clamp text)
     summary = element.find(
-        lambda tag: tag.name in {"div", "p"}
-        and tag.get("class")
-        and any("line-clamp" in cls for cls in (tag.get("class") or []))
+        lambda tag: (
+            tag.name in {"div", "p"}
+            and tag.get("class")
+            and any("line-clamp" in cls for cls in (tag.get("class") or []))
+        )
     )
     if summary:
         return clean_text(summary.get_text(" ", strip=True))
@@ -125,9 +131,11 @@ def extract_description(element) -> str | None:
     parent = element.parent
     if parent:
         summary = parent.find(
-            lambda tag: tag.name in {"div", "p"}
-            and tag.get("class")
-            and any("line-clamp" in cls for cls in (tag.get("class") or []))
+            lambda tag: (
+                tag.name in {"div", "p"}
+                and tag.get("class")
+                and any("line-clamp" in cls for cls in (tag.get("class") or []))
+            )
         )
         if summary:
             return clean_text(summary.get_text(" ", strip=True))
@@ -253,9 +261,7 @@ def fetch_all_articles(max_pages: int = MAX_PAGES) -> list[dict]:
                 all_articles.append(article)
                 new_count += 1
 
-        logger.info(
-            f"Page {page_num}: Found {len(page_articles)} articles, {new_count} new"
-        )
+        logger.info(f"Page {page_num}: Found {len(page_articles)} articles, {new_count} new")
 
         if new_count == 0:
             logger.info("No new articles found, stopping pagination")
@@ -319,11 +325,7 @@ def main(full_reset=False):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(
-        description="Generate DeepLearning.AI The Batch RSS feed"
-    )
-    parser.add_argument(
-        "--full", action="store_true", help="Force full reset (fetch all pages)"
-    )
+    parser = argparse.ArgumentParser(description="Generate DeepLearning.AI The Batch RSS feed")
+    parser.add_argument("--full", action="store_true", help="Force full reset (fetch all pages)")
     args = parser.parse_args()
     main(full_reset=args.full)

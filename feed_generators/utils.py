@@ -17,9 +17,7 @@ from feedgen.feed import FeedGenerator
 # ---------------------------------------------------------------------------
 
 DEFAULT_USER_AGENT = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-    "AppleWebKit/537.36 (KHTML, like Gecko) "
-    "Chrome/137.0.0.0 Safari/537.36"
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
 )
 DEFAULT_HEADERS = {"User-Agent": DEFAULT_USER_AGENT}
 
@@ -142,11 +140,9 @@ def load_cache(feed_name: str, entries_key: str = "entries") -> dict:
     cache_file = get_cache_file(feed_name)
     if cache_file.exists():
         try:
-            with open(cache_file, "r") as f:
+            with open(cache_file) as f:
                 data = json.load(f)
-                logger.info(
-                    f"Loaded cache with {len(data.get(entries_key, []))} entries"
-                )
+                logger.info(f"Loaded cache with {len(data.get(entries_key, []))} entries")
                 return data
         except json.JSONDecodeError:
             logger.warning(f"Corrupted cache file {cache_file}, starting fresh")
@@ -154,9 +150,7 @@ def load_cache(feed_name: str, entries_key: str = "entries") -> dict:
     return {"last_updated": None, entries_key: []}
 
 
-def save_cache(
-    feed_name: str, entries: list[dict], entries_key: str = "entries"
-) -> None:
+def save_cache(feed_name: str, entries: list[dict], entries_key: str = "entries") -> None:
     """Save entries to cache file with automatic datetime serialization.
 
     Args:
@@ -199,9 +193,7 @@ def deserialize_entries(entries: list[dict], date_field: str = "date") -> list[d
             try:
                 entry_copy[date_field] = datetime.fromisoformat(entry_copy[date_field])
             except ValueError:
-                entry_copy[date_field] = stable_fallback_date(
-                    entry_copy.get("link", "")
-                )
+                entry_copy[date_field] = stable_fallback_date(entry_copy.get("link", ""))
         result.append(entry_copy)
     return result
 
@@ -261,9 +253,7 @@ def setup_feed_links(fg: FeedGenerator, blog_url: str, feed_name: str) -> None:
     fg.link(href=blog_url, rel="alternate")
 
 
-def sort_posts_for_feed(
-    posts: list[dict[str, Any]], date_field: str = "date"
-) -> list[dict[str, Any]]:
+def sort_posts_for_feed(posts: list[dict[str, Any]], date_field: str = "date") -> list[dict[str, Any]]:
     """Sort posts so newest appears first in the final RSS feed.
 
     IMPORTANT: feedgen reverses the order when writing entries to XML.
@@ -321,9 +311,7 @@ def get_chrome_major_version() -> int | None:
     ]
     for path in chrome_paths:
         try:
-            result = subprocess.run(
-                [path, "--version"], capture_output=True, text=True, timeout=5
-            )
+            result = subprocess.run([path, "--version"], capture_output=True, text=True, timeout=5)
             match = re.search(r"(\d+)\.", result.stdout)
             if match:
                 version = int(match.group(1))
@@ -331,9 +319,7 @@ def get_chrome_major_version() -> int | None:
                 return version
         except (FileNotFoundError, subprocess.TimeoutExpired):
             continue
-    logger.warning(
-        "Could not detect Chrome version, using undetected_chromedriver default"
-    )
+    logger.warning("Could not detect Chrome version, using undetected_chromedriver default")
     return None
 
 

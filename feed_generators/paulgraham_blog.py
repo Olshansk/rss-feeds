@@ -4,8 +4,8 @@ from datetime import datetime
 import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-from utils import (fetch_page, save_rss_feed, setup_feed_links, setup_logging,
-                   stable_fallback_date)
+
+from utils import fetch_page, save_rss_feed, setup_feed_links, setup_logging, stable_fallback_date
 
 logger = setup_logging()
 
@@ -66,7 +66,7 @@ def get_article_content(article_html):
         return content, pub_date
 
     except Exception as e:
-        logger.error(f"Error extracting content: {str(e)}")
+        logger.error(f"Error extracting content: {e!s}")
         return None, None
 
 
@@ -84,9 +84,7 @@ def parse_essays_page(html_content, base_url="https://paulgraham.com", max_essay
 
         # Find all essay links
         links = soup.select('font[size="2"] a')
-        logger.info(
-            f"Found {len(links)} total essays, will fetch up to {max_essays} most recent"
-        )
+        logger.info(f"Found {len(links)} total essays, will fetch up to {max_essays} most recent")
 
         # Limit to first N essays (they're listed in reverse chronological order)
         links_to_process = links[:max_essays]
@@ -115,10 +113,7 @@ def parse_essays_page(html_content, base_url="https://paulgraham.com", max_essay
                 "title": title,
                 "link": full_url,
                 "description": description,
-                "date": pub_date
-                or stable_fallback_date(
-                    full_url
-                ),  # Fallback to stable date if none found
+                "date": pub_date or stable_fallback_date(full_url),  # Fallback to stable date if none found
             }
 
             # There are a handful (~7) old blog posts where parsing the date doesn't work very well.
@@ -133,7 +128,7 @@ def parse_essays_page(html_content, base_url="https://paulgraham.com", max_essay
         return blog_posts
 
     except Exception as e:
-        logger.error(f"Error parsing HTML content: {str(e)}")
+        logger.error(f"Error parsing HTML content: {e!s}")
         raise
 
 
@@ -163,7 +158,7 @@ def generate_rss_feed(blog_posts):
         return fg
 
     except Exception as e:
-        logger.error(f"Error generating RSS feed: {str(e)}")
+        logger.error(f"Error generating RSS feed: {e!s}")
         raise
 
 
@@ -185,7 +180,7 @@ def main():
         return True
 
     except Exception as e:
-        logger.error(f"Failed to generate RSS feed: {str(e)}")
+        logger.error(f"Failed to generate RSS feed: {e!s}")
         return False
 
 

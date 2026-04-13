@@ -25,8 +25,7 @@ jobs:
       - name: Install dependencies and run test feed
         run: |
           set -e
-          uv venv
-          uv pip install -r requirements.txt
+          uv sync
           uv run feed_generators/ollama_blog.py
 
       - name: Upload test feed artifact

@@ -28,15 +28,17 @@ RSS Feed Generator creates RSS feeds for blogs that don't provide them natively.
 
 ```bash
 # Environment setup
-make env_install          # Create venv and install dependencies (uses uv)
-source .venv/bin/activate # Activate virtual environment
+make env_setup            # Install dependencies (uses uv sync)
+make dev_setup            # Install dev dependencies + pre-commit hooks
 
 # Generate feeds
 make feeds_generate_all   # Run all feed generators
 make feeds_<name>         # Run specific feed (e.g., feeds_ollama, feeds_anthropic_news)
 
 # Development
-make dev_format           # Format code with black and isort
+make dev_lint             # Check code with ruff
+make dev_lint_fix         # Auto-fix and format with ruff
+make dev_format           # Alias for dev_lint_fix
 make dev_test_feed        # Run test feed generator
 
 # Run single generator directly
@@ -189,8 +191,7 @@ Claude will:
 
 ```bash
 # Install dependencies
-make env_install
-source .venv/bin/activate
+make env_setup
 
 # Run the generator
 python feed_generators/<source>_blog.py

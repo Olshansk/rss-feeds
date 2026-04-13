@@ -1,11 +1,10 @@
-import re
 from datetime import datetime
 
 import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-from utils import (fetch_page, save_rss_feed, setup_feed_links, setup_logging,
-                   sort_posts_for_feed, stable_fallback_date)
+
+from utils import fetch_page, save_rss_feed, setup_feed_links, setup_logging, sort_posts_for_feed, stable_fallback_date
 
 logger = setup_logging()
 
@@ -18,7 +17,7 @@ def fetch_red_content(url=BLOG_URL):
     try:
         return fetch_page(url)
     except Exception as e:
-        logger.error(f"Error fetching red team blog content: {str(e)}")
+        logger.error(f"Error fetching red team blog content: {e!s}")
         raise
 
 
@@ -65,7 +64,7 @@ def fetch_article_date(article_url):
         return None
 
     except Exception as e:
-        logger.warning(f"Error fetching article date from {article_url}: {str(e)}")
+        logger.warning(f"Error fetching article date from {article_url}: {e!s}")
         return None
 
 
@@ -141,7 +140,7 @@ def parse_red_html(html_content):
         return articles
 
     except Exception as e:
-        logger.error(f"Error parsing HTML content: {str(e)}")
+        logger.error(f"Error parsing HTML content: {e!s}")
         raise
 
 
@@ -179,7 +178,7 @@ def generate_rss_feed(articles, feed_name=FEED_NAME):
         return fg
 
     except Exception as e:
-        logger.error(f"Error generating RSS feed: {str(e)}")
+        logger.error(f"Error generating RSS feed: {e!s}")
         raise
 
 
@@ -206,7 +205,7 @@ def main(feed_name=FEED_NAME):
         return True
 
     except Exception as e:
-        logger.error(f"Failed to generate RSS feed: {str(e)}")
+        logger.error(f"Failed to generate RSS feed: {e!s}")
         return False
 
 

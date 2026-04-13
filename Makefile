@@ -79,10 +79,10 @@ check-env: ## (Legacy) Check if virtual environment is activated
 	$(call check_venv)
 
 .PHONY: env_create
-env_create: ## (Legacy) Create virtual environment
+env_create: env_setup ## (Legacy) Create virtual environment
 
 .PHONY: uvx_install
-uvx_install: env_install ## (Legacy) Install dependencies
+uvx_install: env_setup ## (Legacy) Install dependencies
 
 .PHONY: clean
 clean: clean_env clean_feeds ## (Legacy) Clean all generated files

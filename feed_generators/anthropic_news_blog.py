@@ -1,4 +1,5 @@
 import argparse
+import contextlib
 import time
 import xml.etree.ElementTree as ET
 from datetime import datetime
@@ -9,10 +10,19 @@ from feedgen.feed import FeedGenerator
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-from utils import (deserialize_entries, load_cache, merge_entries, save_cache,
-                   save_rss_feed, setup_feed_links, setup_logging,
-                   setup_selenium_driver, sort_posts_for_feed,
-                   stable_fallback_date)
+
+from utils import (
+    deserialize_entries,
+    load_cache,
+    merge_entries,
+    save_cache,
+    save_rss_feed,
+    setup_feed_links,
+    setup_logging,
+    setup_selenium_driver,
+    sort_posts_for_feed,
+    stable_fallback_date,
+)
 
 FEED_NAME = "anthropic_news"
 BLOG_URL = "https://www.anthropic.com/news"
@@ -41,9 +51,7 @@ def fetch_news_content(url=BLOG_URL, max_clicks=20):
 
         # Wait for news articles to be present
         try:
-            WebDriverWait(driver, 15).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, "a[href*='/news/']"))
-            )
+            WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.CSS_SELECTOR, "a[href*='/news/']")))
             logger.info("News articles loaded successfully")
         except Exception:
             logger.warning("Could not confirm articles loaded, proceeding anyway...")
@@ -70,13 +78,11 @@ def fetch_news_content(url=BLOG_URL, max_clicks=20):
 
                 # Also try finding by text content using XPath
                 if not see_more_button:
-                    try:
+                    with contextlib.suppress(Exception):
                         see_more_button = driver.find_element(
                             By.XPATH,
                             "//*[contains(text(), 'See more') or contains(text(), 'Load more')]",
                         )
-                    except Exception:
-                        pass
 
                 if see_more_button and see_more_button.is_displayed():
                     logger.info(f"Clicking 'See more' button (click {clicks + 1})...")
@@ -84,15 +90,11 @@ def fetch_news_content(url=BLOG_URL, max_clicks=20):
                     clicks += 1
                     time.sleep(2)  # Wait for content to load
                 else:
-                    logger.info(
-                        f"No more 'See more' button found after {clicks} clicks"
-                    )
+                    logger.info(f"No more 'See more' button found after {clicks} clicks")
                     break
             except Exception as e:
                 # No more "See more" button found
-                logger.info(
-                    f"No more 'See more' button found after {clicks} clicks: {e}"
-                )
+                logger.info(f"No more 'See more' button found after {clicks} clicks: {e}")
                 break
 
         html_content = driver.page_source
@@ -242,9 +244,7 @@ def parse_news_html(html_content):
         # Find all links that point to news articles
         # Use flexible selectors to catch current and future card types
         # Handle both relative (/news/...) and absolute (https://www.anthropic.com/news/...) URLs
-        all_news_links = soup.select(
-            'a[href*="/news/"], a[href*="anthropic.com/news/"]'
-        )
+        all_news_links = soup.select('a[href*="/news/"], a[href*="anthropic.com/news/"]')
 
         logger.info(f"Found {len(all_news_links)} potential news article links")
 
@@ -299,15 +299,13 @@ def parse_news_html(html_content):
                 unknown_structures += 1
 
         if unknown_structures > 0:
-            logger.warning(
-                f"Encountered {unknown_structures} links with unknown or invalid structures"
-            )
+            logger.warning(f"Encountered {unknown_structures} links with unknown or invalid structures")
 
         logger.info(f"Successfully parsed {len(articles)} valid articles")
         return articles
 
     except Exception as e:
-        logger.error(f"Error parsing HTML content: {str(e)}")
+        logger.error(f"Error parsing HTML content: {e!s}")
         raise
 
 
@@ -342,7 +340,7 @@ def generate_rss_feed(articles):
         return fg
 
     except Exception as e:
-        logger.error(f"Error generating RSS feed: {str(e)}")
+        logger.error(f"Error generating RSS feed: {e!s}")
         raise
 
 
@@ -360,7 +358,7 @@ def get_existing_links_from_feed(feed_path):
             if link_elem is not None and link_elem.text:
                 existing_links.add(link_elem.text.strip())
     except Exception as e:
-        logger.warning(f"Failed to parse existing feed for deduplication: {str(e)}")
+        logger.warning(f"Failed to parse existing feed for deduplication: {e!s}")
     return existing_links
 
 
@@ -404,14 +402,12 @@ def main(full_reset=False):
         return True
 
     except Exception as e:
-        logger.error(f"Failed to generate RSS feed: {str(e)}")
+        logger.error(f"Failed to generate RSS feed: {e!s}")
         return False
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate Anthropic News RSS feed")
-    parser.add_argument(
-        "--full", action="store_true", help="Force full reset (fetch all articles)"
-    )
+    parser.add_argument("--full", action="store_true", help="Force full reset (fetch all articles)")
     args = parser.parse_args()
     main(full_reset=args.full)

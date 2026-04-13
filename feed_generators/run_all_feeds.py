@@ -5,9 +5,7 @@ import subprocess
 import sys
 
 # Set up logging
-logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
-)
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
 
 
@@ -18,7 +16,7 @@ def uses_selenium(script_path):
     This is used to split generators into hourly (requests) and daily (selenium) runs.
     """
     try:
-        with open(script_path, "r") as f:
+        with open(script_path) as f:
             head = f.read(3072)
         return "undetected_chromedriver" in head
     except Exception:
@@ -63,9 +61,7 @@ def run_all_feeds(skip_selenium=False, selenium_only=False):
                 continue
 
             logger.info(f"Running script: {script_path}")
-            result = subprocess.run(
-                ["uv", "run", script_path], capture_output=True, text=True
-            )
+            result = subprocess.run(["uv", "run", script_path], capture_output=True, text=True)
             if result.returncode == 0:
                 logger.info(f"Successfully ran script: {script_path}")
                 successful_scripts.append(filename)
@@ -74,30 +70,30 @@ def run_all_feeds(skip_selenium=False, selenium_only=False):
                 failed_scripts.append(filename)
 
     # Summary
-    logger.info(f"\n{'='*60}")
-    logger.info(f"Feed Generation Summary:")
+    logger.info(f"\n{'=' * 60}")
+    logger.info("Feed Generation Summary:")
     logger.info(f"  Successful: {len(successful_scripts)}")
     logger.info(f"  Failed: {len(failed_scripts)}")
     logger.info(f"  Skipped: {len(skipped_scripts)}")
 
     if successful_scripts:
-        logger.info(f"\nSuccessful feeds:")
+        logger.info("\nSuccessful feeds:")
         for script in successful_scripts:
             logger.info(f"  ✓ {script}")
 
     if failed_scripts:
-        logger.error(f"\nFailed feeds:")
+        logger.error("\nFailed feeds:")
         for script in failed_scripts:
             logger.error(f"  ✗ {script}")
         logger.error(f"\nERROR: {len(failed_scripts)} feed(s) failed to generate")
         return 1
 
     if skipped_scripts:
-        logger.info(f"\nSkipped feeds:")
+        logger.info("\nSkipped feeds:")
         for script in skipped_scripts:
             logger.info(f"  ○ {script}")
 
-    logger.info(f"{'='*60}\n")
+    logger.info(f"{'=' * 60}\n")
     return 0
 
 

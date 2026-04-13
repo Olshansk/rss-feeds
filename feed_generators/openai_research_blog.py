@@ -5,10 +5,19 @@ from datetime import datetime
 import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-from utils import (deserialize_entries, load_cache, merge_entries, save_cache,
-                   save_rss_feed, setup_feed_links, setup_logging,
-                   setup_selenium_driver, sort_posts_for_feed,
-                   stable_fallback_date)
+
+from utils import (
+    deserialize_entries,
+    load_cache,
+    merge_entries,
+    save_cache,
+    save_rss_feed,
+    setup_feed_links,
+    setup_logging,
+    setup_selenium_driver,
+    sort_posts_for_feed,
+    stable_fallback_date,
+)
 
 logger = setup_logging()
 
@@ -184,11 +193,7 @@ def main(full_reset=False):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(
-        description="Generate OpenAI Research News RSS feed"
-    )
-    parser.add_argument(
-        "--full", action="store_true", help="Force full reset (fetch all articles)"
-    )
+    parser = argparse.ArgumentParser(description="Generate OpenAI Research News RSS feed")
+    parser.add_argument("--full", action="store_true", help="Force full reset (fetch all articles)")
     args = parser.parse_args()
     main(full_reset=args.full)

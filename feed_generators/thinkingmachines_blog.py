@@ -5,9 +5,16 @@ from datetime import datetime
 import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-from utils import (fetch_page, get_project_root, save_rss_feed,
-                   setup_feed_links, setup_logging, sort_posts_for_feed,
-                   stable_fallback_date)
+
+from utils import (
+    fetch_page,
+    get_project_root,
+    save_rss_feed,
+    setup_feed_links,
+    setup_logging,
+    sort_posts_for_feed,
+    stable_fallback_date,
+)
 
 logger = setup_logging()
 
@@ -65,9 +72,7 @@ def extract_articles(soup):
                 continue
 
             # Build full URL
-            link = (
-                f"https://thinkingmachines.ai{href}" if href.startswith("/") else href
-            )
+            link = f"https://thinkingmachines.ai{href}" if href.startswith("/") else href
 
             # Skip duplicates
             if link in seen_links:
@@ -109,7 +114,7 @@ def extract_articles(soup):
             logger.info(f"Parsed: {title} ({date_text}) by {author_text}")
 
         except Exception as e:
-            logger.warning(f"Failed to parse article: {str(e)}")
+            logger.warning(f"Failed to parse article: {e!s}")
             continue
 
     # Sort for correct feed order (newest first in output)
@@ -125,7 +130,7 @@ def parse_html(html_content):
         soup = BeautifulSoup(html_content, "html.parser")
         return extract_articles(soup)
     except Exception as e:
-        logger.error(f"Error parsing HTML content: {str(e)}")
+        logger.error(f"Error parsing HTML content: {e!s}")
         raise
 
 
@@ -134,9 +139,7 @@ def generate_rss_feed(articles):
     try:
         fg = FeedGenerator()
         fg.title("Thinking Machines Lab - Connectionism")
-        fg.description(
-            "Research blog by Thinking Machines Lab - Shared science and news from the team"
-        )
+        fg.description("Research blog by Thinking Machines Lab - Shared science and news from the team")
         fg.language("en")
 
         # Set feed metadata
@@ -158,7 +161,7 @@ def generate_rss_feed(articles):
         return fg
 
     except Exception as e:
-        logger.error(f"Error generating RSS feed: {str(e)}")
+        logger.error(f"Error generating RSS feed: {e!s}")
         raise
 
 
@@ -168,7 +171,7 @@ def main(html_file=None):
         # Check for local HTML file
         if html_file and os.path.exists(html_file):
             logger.info(f"Reading HTML from local file: {html_file}")
-            with open(html_file, "r", encoding="utf-8") as f:
+            with open(html_file, encoding="utf-8") as f:
                 html_content = f.read()
         else:
             # Check common locations for local HTML file
@@ -181,7 +184,7 @@ def main(html_file=None):
             for location in common_locations:
                 if os.path.exists(location):
                     logger.info(f"Found local HTML file: {location}")
-                    with open(location, "r", encoding="utf-8") as f:
+                    with open(location, encoding="utf-8") as f:
                         html_content = f.read()
                     local_file_found = True
                     break
@@ -204,7 +207,7 @@ def main(html_file=None):
         return True
 
     except Exception as e:
-        logger.error(f"Failed to generate RSS feed: {str(e)}")
+        logger.error(f"Failed to generate RSS feed: {e!s}")
         return False
 
 

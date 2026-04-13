@@ -4,9 +4,18 @@ from datetime import datetime
 import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-from utils import (deserialize_entries, fetch_page, load_cache, merge_entries,
-                   save_cache, save_rss_feed, setup_feed_links, setup_logging,
-                   sort_posts_for_feed)
+
+from utils import (
+    deserialize_entries,
+    fetch_page,
+    load_cache,
+    merge_entries,
+    save_cache,
+    save_rss_feed,
+    setup_feed_links,
+    setup_logging,
+    sort_posts_for_feed,
+)
 
 logger = setup_logging()
 
@@ -191,8 +200,6 @@ def main(full_reset=False):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate Dagster Blog RSS feed")
-    parser.add_argument(
-        "--full", action="store_true", help="Force full reset (fetch all pages)"
-    )
+    parser.add_argument("--full", action="store_true", help="Force full reset (fetch all pages)")
     args = parser.parse_args()
     main(full_reset=args.full)

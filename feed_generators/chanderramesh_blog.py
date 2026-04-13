@@ -3,8 +3,8 @@ from datetime import datetime
 import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-from utils import (fetch_page, save_rss_feed, setup_feed_links, setup_logging,
-                   sort_posts_for_feed, stable_fallback_date)
+
+from utils import fetch_page, save_rss_feed, setup_feed_links, setup_logging, sort_posts_for_feed, stable_fallback_date
 
 logger = setup_logging()
 
@@ -19,7 +19,7 @@ def parse_date(date_str):
         date = datetime.strptime(date_str.strip(), "%B %d, %Y")
         return date.replace(tzinfo=pytz.UTC)
     except ValueError as e:
-        logger.warning(f"Could not parse date: {date_str} - {str(e)}")
+        logger.warning(f"Could not parse date: {date_str} - {e!s}")
         return None
 
 
@@ -47,9 +47,7 @@ def parse_writing_page(html_content, base_url="https://chanderramesh.com"):
             date_str = date_elem.get_text(strip=True) if date_elem else None
 
             # Extract title
-            title_elem = link.find(
-                "h3", class_="font-semibold tracking-tight mb-3 text-xl font-serif"
-            )
+            title_elem = link.find("h3", class_="font-semibold tracking-tight mb-3 text-xl font-serif")
             title = title_elem.get_text(strip=True) if title_elem else "Untitled"
 
             # Extract description
@@ -57,9 +55,7 @@ def parse_writing_page(html_content, base_url="https://chanderramesh.com"):
             description = desc_elem.get_text(strip=True) if desc_elem else ""
 
             # Parse date
-            pub_date = (
-                parse_date(date_str) if date_str else None
-            ) or stable_fallback_date(full_url)
+            pub_date = (parse_date(date_str) if date_str else None) or stable_fallback_date(full_url)
 
             blog_post = {
                 "title": title,
@@ -78,7 +74,7 @@ def parse_writing_page(html_content, base_url="https://chanderramesh.com"):
         return blog_posts
 
     except Exception as e:
-        logger.error(f"Error parsing HTML content: {str(e)}")
+        logger.error(f"Error parsing HTML content: {e!s}")
         raise
 
 
@@ -87,9 +83,7 @@ def generate_rss_feed(blog_posts):
     try:
         fg = FeedGenerator()
         fg.title("Chander Ramesh - Writing")
-        fg.description(
-            "Essays by Chander Ramesh covering software, startups, investing, and philosophy"
-        )
+        fg.description("Essays by Chander Ramesh covering software, startups, investing, and philosophy")
         fg.language("en")
 
         # Set feed metadata
@@ -110,7 +104,7 @@ def generate_rss_feed(blog_posts):
         return fg
 
     except Exception as e:
-        logger.error(f"Error generating RSS feed: {str(e)}")
+        logger.error(f"Error generating RSS feed: {e!s}")
         raise
 
 
@@ -132,7 +126,7 @@ def main():
         return True
 
     except Exception as e:
-        logger.error(f"Failed to generate RSS feed: {str(e)}")
+        logger.error(f"Failed to generate RSS feed: {e!s}")
         return False
 
 

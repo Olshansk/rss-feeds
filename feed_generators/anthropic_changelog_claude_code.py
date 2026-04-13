@@ -3,6 +3,7 @@ from datetime import datetime
 
 import pytz
 from feedgen.feed import FeedGenerator
+
 from utils import fetch_page, save_rss_feed, setup_feed_links, setup_logging
 
 logger = setup_logging()
@@ -17,7 +18,7 @@ def fetch_changelog_content(
     try:
         return fetch_page(url)
     except Exception as e:
-        logger.error(f"Error fetching changelog content: {str(e)}")
+        logger.error(f"Error fetching changelog content: {e!s}")
         raise
 
 
@@ -40,11 +41,7 @@ def parse_changelog_markdown(markdown_content, max_versions=50):
                 if current_version and current_changes:
                     version_anchor = current_version.replace(".", "")
                     # Create HTML list for description
-                    description_html = (
-                        "<ul>"
-                        + "".join(f"<li>{change}</li>" for change in current_changes)
-                        + "</ul>"
-                    )
+                    description_html = "<ul>" + "".join(f"<li>{change}</li>" for change in current_changes) + "</ul>"
                     item = {
                         "title": f"v{current_version}",
                         "link": f"https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#{version_anchor}",
@@ -63,13 +60,9 @@ def parse_changelog_markdown(markdown_content, max_versions=50):
                 date_str = version_match.group(2)
                 if date_str:
                     try:
-                        current_date = datetime.strptime(
-                            date_str.strip(), "%Y-%m-%d"
-                        ).replace(tzinfo=pytz.UTC)
+                        current_date = datetime.strptime(date_str.strip(), "%Y-%m-%d").replace(tzinfo=pytz.UTC)
                     except ValueError:
-                        logger.warning(
-                            f"Could not parse date '{date_str}' for version {current_version}"
-                        )
+                        logger.warning(f"Could not parse date '{date_str}' for version {current_version}")
                 current_changes = []
                 continue
 
@@ -82,11 +75,7 @@ def parse_changelog_markdown(markdown_content, max_versions=50):
         # Don't forget the last version (if we haven't hit the limit)
         if current_version and current_changes and len(items) < max_versions:
             version_anchor = current_version.replace(".", "")
-            description_html = (
-                "<ul>"
-                + "".join(f"<li>{change}</li>" for change in current_changes)
-                + "</ul>"
-            )
+            description_html = "<ul>" + "".join(f"<li>{change}</li>" for change in current_changes) + "</ul>"
             item = {
                 "title": f"v{current_version}",
                 "link": f"https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#{version_anchor}",
@@ -101,7 +90,7 @@ def parse_changelog_markdown(markdown_content, max_versions=50):
         return items
 
     except Exception as e:
-        logger.error(f"Error parsing markdown content: {str(e)}")
+        logger.error(f"Error parsing markdown content: {e!s}")
         raise
 
 
@@ -132,7 +121,7 @@ def generate_rss_feed(items, feed_name=FEED_NAME):
         return fg
 
     except Exception as e:
-        logger.error(f"Error generating RSS feed: {str(e)}")
+        logger.error(f"Error generating RSS feed: {e!s}")
         raise
 
 
@@ -152,7 +141,7 @@ def main(feed_name=FEED_NAME):
         return True
 
     except Exception as e:
-        logger.error(f"Failed to generate RSS feed: {str(e)}")
+        logger.error(f"Failed to generate RSS feed: {e!s}")
         return False
 
 

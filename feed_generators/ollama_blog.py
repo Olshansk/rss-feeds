@@ -3,6 +3,7 @@ from datetime import datetime
 import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
+
 from utils import fetch_page, save_rss_feed, setup_feed_links, setup_logging
 
 logger = setup_logging()
@@ -16,7 +17,7 @@ def fetch_blog_content(url=BLOG_URL):
     try:
         return fetch_page(url)
     except Exception as e:
-        logger.error(f"Error fetching blog content: {str(e)}")
+        logger.error(f"Error fetching blog content: {e!s}")
         raise
 
 
@@ -65,7 +66,7 @@ def parse_blog_html(html_content):
         return blog_posts
 
     except Exception as e:
-        logger.error(f"Error parsing HTML content: {str(e)}")
+        logger.error(f"Error parsing HTML content: {e!s}")
         raise
 
 
@@ -96,7 +97,7 @@ def generate_rss_feed(blog_posts, feed_name=FEED_NAME):
         return fg
 
     except Exception as e:
-        logger.error(f"Error generating RSS feed: {str(e)}")
+        logger.error(f"Error generating RSS feed: {e!s}")
         raise
 
 
@@ -118,7 +119,7 @@ def main(blog_url=BLOG_URL, feed_name=FEED_NAME):
         return True
 
     except Exception as e:
-        logger.error(f"Failed to generate RSS feed: {str(e)}")
+        logger.error(f"Failed to generate RSS feed: {e!s}")
         return False
 
 
