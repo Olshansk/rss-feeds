@@ -170,9 +170,11 @@ def generate_rss_feed(posts):
 
         if post.get("date"):
             try:
-                dt = datetime.strptime(post["date"], "%Y-%m-%d")
-                fe.published(dt.replace(tzinfo=pytz.UTC))
-            except ValueError:
+                dt = post["date"] if isinstance(post["date"], datetime) else datetime.strptime(post["date"], "%Y-%m-%d")
+                if dt.tzinfo is None:
+                    dt = dt.replace(tzinfo=pytz.UTC)
+                fe.published(dt)
+            except (ValueError, TypeError):
                 pass
 
     logger.info(f"Generated RSS feed with {len(posts)} entries")
