@@ -11,6 +11,7 @@ from typing import Any
 import pytz
 import requests
 from feedgen.feed import FeedGenerator
+from models import GlobalSettings
 
 # ---------------------------------------------------------------------------
 # Constants
@@ -250,8 +251,6 @@ def setup_feed_links(fg: FeedGenerator, blog_url: str, feed_name: str) -> None:
         blog_url: URL to the original blog (e.g., "https://dagster.io/blog")
         feed_name: Feed name for the self link (e.g., "dagster")
     """
-    from models import GlobalSettings
-
     settings = GlobalSettings()
     fg.link(
         href=f"https://raw.githubusercontent.com/{settings.repo_slug}/main/feeds/feed_{feed_name}.xml",

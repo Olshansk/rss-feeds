@@ -6,6 +6,13 @@
 #   2. Add an entry here
 #   3. Add a Make target in makefiles/feeds.mk
 #   4. Update README.md
+#
+# To disable a feed temporarily:
+#   some_feed:
+#     script: some_blog.py
+#     type: requests
+#     blog_url: https://example.com
+#     enabled: false
 
 feeds:
   anthropic_changelog_claude_code:
