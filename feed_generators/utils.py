@@ -11,6 +11,7 @@ from typing import Any
 import pytz
 import requests
 from feedgen.feed import FeedGenerator
+
 from models import GlobalSettings
 
 # ---------------------------------------------------------------------------
