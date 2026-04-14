@@ -17,11 +17,18 @@ Run `make help` to see all available targets with descriptions.
 uv run feed_generators/run_all_feeds.py --skip-selenium
 ```
 
-**Run a single feed:**
+**Run a single feed by name** (from `feeds.yaml` registry):
+
+```bash
+uv run feed_generators/run_all_feeds.py --feed=ollama
+uv run feed_generators/run_all_feeds.py --feed=dagster --full  # full reset
+```
+
+**Or run the script directly:**
 
 ```bash
 uv run feed_generators/ollama_blog.py
-uv run feed_generators/dagster_blog.py --full  # full reset (all pages)
+uv run feed_generators/dagster_blog.py --full
 ```
 
 ## Code Style

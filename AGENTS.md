@@ -211,7 +211,15 @@ uv run feed_generators/<source>_blog.py --full
 
 ### Step 5: Register the Feed
 
-1. **Add Make target** in `makefiles/feeds.mk`:
+1. **Add to `feeds.yaml`** (the feed registry):
+   ```yaml
+   <source>:
+     script: <source>_blog.py
+     type: requests  # or "selenium" for JS-heavy sites
+     blog_url: https://example.com/blog
+   ```
+
+2. **Add Make target** in `makefiles/feeds.mk`:
    ```makefile
    .PHONY: feeds_<source>
    feeds_<source>: ## Generate RSS feed for <Source Name>
@@ -221,12 +229,10 @@ uv run feed_generators/<source>_blog.py --full
    	$(call print_success,<Source Name> feed generated)
    ```
 
-2. **Update README.md table** (alphabetical order):
+3. **Update README.md table** (alphabetical order):
    ```markdown
    | [Source Name](https://example.com/blog) | [feed_<source>.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_<source>.xml) |
    ```
-
-3. **Add to `run_all_feeds.py`** if not auto-discovered
 
 ### Step 6: PR Checklist
 
@@ -235,6 +241,7 @@ Before submitting your PR, verify:
 - [ ] `make dev_format` passes (code formatting)
 - [ ] `uv run feed_generators/<source>_blog.py` runs without errors
 - [ ] `feeds/feed_<source>.xml` is generated and valid
+- [ ] Feed registered in `feeds.yaml`
 - [ ] Make target added to `makefiles/feeds.mk`
 - [ ] README.md table updated
 - [ ] For paginated/dynamic feeds: cache file created in `cache/` on first run
