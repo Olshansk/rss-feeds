@@ -19,6 +19,9 @@ dependencies = [
     "requests>=2.31",
     "selenium>=4.25",
     "undetected-chromedriver>=3.5",
+    "pydantic>=2.5",
+    "pydantic-settings>=2.1",
+    "pyyaml>=6.0",
 ]
 
 [project.urls]
@@ -37,7 +40,7 @@ select = ["F", "E", "W", "I", "N", "UP", "B", "SIM", "C4", "RUF", "PERF"]
 ignore = ["E501", "N812", "SIM108"]
 
 [tool.ruff.lint.isort]
-known-first-party = ["utils"]
+known-first-party = ["utils", "models"]
 
 [tool.ruff.format]
 docstring-code-format = true

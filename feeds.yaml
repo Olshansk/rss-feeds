@@ -1,0 +1,114 @@
+# Feed Registry -- single source of truth for all feed generators.
+# run_all_feeds.py reads this file instead of scanning *.py files.
+#
+# To add a new feed:
+#   1. Create feed_generators/<name>.py
+#   2. Add an entry here
+#   3. Add a Make target in makefiles/feeds.mk
+#   4. Update README.md
+
+feeds:
+  anthropic_changelog_claude_code:
+    script: anthropic_changelog_claude_code.py
+    type: requests
+    blog_url: https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md
+
+  anthropic_eng:
+    script: anthropic_eng_blog.py
+    type: requests
+    blog_url: https://www.anthropic.com/engineering
+
+  anthropic_news:
+    script: anthropic_news_blog.py
+    type: selenium
+    blog_url: https://www.anthropic.com/news
+
+  anthropic_red:
+    script: anthropic_red_blog.py
+    type: requests
+    blog_url: https://red.anthropic.com/
+
+  anthropic_research:
+    script: anthropic_research_blog.py
+    type: selenium
+    blog_url: https://www.anthropic.com/research
+
+  blogsurgeai:
+    script: blogsurgeai_feed_generator.py
+    type: requests
+    blog_url: https://www.surgehq.ai/blog
+
+  chanderramesh:
+    script: chanderramesh_blog.py
+    type: requests
+    blog_url: https://chanderramesh.com/writing
+
+  claude:
+    script: claude_blog.py
+    type: requests
+    blog_url: https://claude.com/blog
+
+  cursor:
+    script: cursor_blog.py
+    type: requests
+    blog_url: https://cursor.com/blog
+
+  dagster:
+    script: dagster_blog.py
+    type: requests
+    blog_url: https://dagster.io/blog
+
+  the_batch:
+    script: deeplearningai_the_batch.py
+    type: requests
+    blog_url: https://www.deeplearning.ai/the-batch/
+
+  google_ai:
+    script: google_ai_blog.py
+    type: requests
+    blog_url: https://developers.googleblog.com/search/?technology_categories=AI
+
+  hamel:
+    script: hamel_blog.py
+    type: requests
+    blog_url: https://hamel.dev/
+
+  ollama:
+    script: ollama_blog.py
+    type: requests
+    blog_url: https://ollama.com/blog
+
+  openai_research:
+    script: openai_research_blog.py
+    type: selenium
+    blog_url: https://openai.com/news/research/
+
+  paulgraham:
+    script: paulgraham_blog.py
+    type: requests
+    blog_url: https://paulgraham.com/articles.html
+
+  thinkingmachines:
+    script: thinkingmachines_blog.py
+    type: requests
+    blog_url: https://thinkingmachines.ai/blog/
+
+  windsurf_blog:
+    script: windsurf_blog.py
+    type: requests
+    blog_url: https://windsurf.com/blog
+
+  windsurf_changelog:
+    script: windsurf_changelog.py
+    type: requests
+    blog_url: https://windsurf.com/changelog
+
+  windsurf_next_changelog:
+    script: windsurf_next_changelog.py
+    type: requests
+    blog_url: https://windsurf.com/changelog/windsurf-next
+
+  xainews:
+    script: xainews_blog.py
+    type: selenium
+    blog_url: https://x.ai/news
