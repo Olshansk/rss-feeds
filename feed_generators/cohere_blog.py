@@ -28,6 +28,9 @@ logger = setup_logging()
 FEED_NAME = "cohere"
 BLOG_URL = "https://cohere.com/blog"
 GHOST_API_URL = "https://cohere-ai.ghost.io/ghost/api/content/posts/"
+# Ghost Content API keys are intentionally public (like a Stripe publishable
+# key). This is the key the cohere.com/blog front-end itself uses; it is
+# read-only and rate-limited by Ghost.
 GHOST_API_KEY = "572d288a9364f8e4186af1d60a"
 MAX_POSTS_FULL = 50
 MAX_POSTS_INCREMENTAL = 15

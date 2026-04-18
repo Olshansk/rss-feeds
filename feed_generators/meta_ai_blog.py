@@ -43,6 +43,12 @@ DATE_PATTERN = re.compile(
     r"|September|October|November|December)\s+\d{1,2},\s+\d{4}"
 )
 
+# Meta AI's layout uses hashed CSS-module class names (_amto, _amcy, _amda, _amde,
+# _amsu, ...). These rotate when Meta rebuilds the site, so selector breakage is
+# the failure mode to expect. Mitigations: the parser walks three layouts
+# independently and falls back from class-based selectors to aria-label and
+# finally to separator-joined text. When a layout change lands, capture the new
+# page with ``curl`` or Selenium and update the class constants below.
 CATEGORIES = {
     "featured",
     "ml applications",

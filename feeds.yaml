@@ -70,11 +70,6 @@ feeds:
     type: requests
     blog_url: https://dagster.io/blog
 
-  the_batch:
-    script: deeplearningai_the_batch.py
-    type: requests
-    blog_url: https://www.deeplearning.ai/the-batch/
-
   google_ai:
     script: google_ai_blog.py
     type: requests
@@ -114,6 +109,11 @@ feeds:
     script: pinecone_blog.py
     type: selenium
     blog_url: https://www.pinecone.io/blog/
+
+  the_batch:
+    script: deeplearningai_the_batch.py
+    type: requests
+    blog_url: https://www.deeplearning.ai/the-batch/
 
   thinkingmachines:
     script: thinkingmachines_blog.py

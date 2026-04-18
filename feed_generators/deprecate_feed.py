@@ -10,15 +10,18 @@ Usage:
         --message="OpenAI now provides an official RSS feed." \\
         --alternative="https://openai.com/blog/rss.xml"
 
-After running, set ``enabled: false`` for the feed in ``feeds.yaml`` so the
-scraper stops executing but the XML (with the notice) remains in the repo.
+After running, in the same PR, remove the generator script, the ``<name>:`` entry
+from ``feeds.yaml``, the ``feeds_<name>`` Make target, and the README row. Only
+``feeds/feed_<name>.xml`` (now carrying the tombstone notice) stays in place;
+it is deleted automatically after ~90 days by the
+``cleanup_deprecated_feeds.yml`` workflow.
 """
 
 import argparse
-import xml.etree.ElementTree as ET
 from datetime import datetime
 
 import pytz
+from lxml import etree as ET
 
 from utils import get_feeds_dir, setup_logging
 
@@ -26,6 +29,25 @@ logger = setup_logging()
 
 DEPRECATION_GUID_PREFIX = "deprecation-notice-"
 DEPRECATION_TITLE = "[NOTICE] This feed is no longer maintained"
+
+# lxml.etree is used (not the stdlib xml.etree.ElementTree) because the stdlib
+# parser drops unused namespace declarations and rewrites unregistered
+# namespace prefixes to ns0/ns1/... on round-trip. That silently corrupts
+# feedgen's <atom:link rel="self"> and xmlns:content declarations. lxml
+# preserves the original xmlns bindings verbatim.
+
+# RFC 822 day-of-week and month tokens. Python's strftime("%a"/"%b") honors the
+# current system locale, which breaks feed readers on non-English CI runners.
+# Build the pubDate explicitly to keep the round-trip locale-independent.
+RFC822_WEEKDAYS = ("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")
+RFC822_MONTHS = ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+
+
+def format_rfc822(dt: datetime) -> str:
+    """Format a datetime as RFC 822 pubDate without relying on system locale."""
+    day = RFC822_WEEKDAYS[dt.weekday()]
+    month = RFC822_MONTHS[dt.month - 1]
+    return f"{day}, {dt.day:02d} {month} {dt.year} {dt.hour:02d}:{dt.minute:02d}:{dt.second:02d} +0000"
 
 
 def deprecate_feed(feed_name: str, message: str, alternative_url: str | None = None) -> bool:
@@ -56,7 +78,7 @@ def deprecate_feed(feed_name: str, message: str, alternative_url: str | None = N
     body = message
     if alternative_url:
         body += f"\n\nRecommended alternative: {alternative_url}"
-    pub_date = datetime.now(pytz.UTC).strftime("%a, %d %b %Y %H:%M:%S +0000")
+    pub_date = format_rfc822(datetime.now(pytz.UTC))
 
     notice = ET.Element("item")
     ET.SubElement(notice, "title").text = DEPRECATION_TITLE
@@ -73,9 +95,12 @@ def deprecate_feed(feed_name: str, message: str, alternative_url: str | None = N
     else:
         channel.append(notice)
 
-    tree.write(str(feed_file), xml_declaration=True, encoding="UTF-8")
+    tree.write(str(feed_file), xml_declaration=True, encoding="UTF-8", pretty_print=False)
     logger.info(f"Added deprecation notice to {feed_file}")
-    logger.info(f"Remember to set `enabled: false` for {feed_name} in feeds.yaml")
+    logger.info(
+        f"Next: remove the `{feed_name}:` entry from feeds.yaml, the feeds_{feed_name} Make "
+        "target, and any README row; leave the XML in place."
+    )
     return True
 
 

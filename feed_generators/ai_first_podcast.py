@@ -63,6 +63,8 @@ def parse_listing_page(html_content: str) -> list[dict]:
             text = link.get_text(separator=" ", strip=True)
             if text and len(text) > 5:
                 title = text[:200]
+                if len(text) > 200:
+                    logger.debug(f"Fallback title for {href} truncated from {len(text)} chars")
         if not title:
             continue
 

@@ -38,10 +38,13 @@ logger = setup_logging()
 FEED_NAME = "perplexity_hub"
 BLOG_URL = "https://www.perplexity.ai/hub"
 
+# A <p> is treated as a date (and skipped for category) if it contains an
+# English or German month name. Year-only strings are not enough, since
+# categories like "Q&A 2024" contain a year without being dates.
 DATE_PATTERN = re.compile(
-    r"\d|Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec"
+    r"\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec"
     r"|Januar|Februar|März|April|Mai|Juni|Juli|August"
-    r"|September|Oktober|November|Dezember"
+    r"|September|Oktober|November|Dezember)\b"
 )
 LOCALE_PREFIX = re.compile(r"(perplexity\.ai)/[a-z]{2}/hub/")
 

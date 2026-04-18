@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>Claude Code Changelog</title>
     <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md</link>
     <description>Claude Code Changelog</description>
-    <ns0:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_changelog_claude_code.xml" rel="self" />
+    <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_changelog_claude_code.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <image>
@@ -13,10 +13,10 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Apr 2026 13:25:48 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 14:13:32 +0000</lastBuildDate>
     <item><title>[NOTICE] This feed is no longer maintained</title><description>Claude Code now publishes an official RSS feed. This scraper is retired; the feed XML will be deleted in ~90 days.
 
-Recommended alternative: https://code.claude.com/docs/en/changelog/rss.xml</description><guid isPermaLink="false">deprecation-notice-anthropic_changelog_claude_code</guid><pubDate>Sat, 18 Apr 2026 14:00:37 +0000</pubDate><link>https://code.claude.com/docs/en/changelog/rss.xml</link></item><item>
+Recommended alternative: https://code.claude.com/docs/en/changelog/rss.xml</description><guid isPermaLink="false">deprecation-notice-anthropic_changelog_claude_code</guid><pubDate>Sat, 18 Apr 2026 14:24:42 +0000</pubDate><link>https://code.claude.com/docs/en/changelog/rss.xml</link></item><item>
       <title>v2.1.114</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21114</link>
       <description>&lt;ul&gt;&lt;li&gt;Fixed a crash in the permission dialog when an agent teams teammate requested tool permission&lt;/li&gt;&lt;/ul&gt;</description>

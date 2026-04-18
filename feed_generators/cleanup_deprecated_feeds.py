@@ -39,6 +39,8 @@ def find_deprecation_notice(feed_file: Path) -> datetime | None:
     if channel is None:
         return None
 
+    # A feed should only ever carry one tombstone, but keep looking if the
+    # first match is malformed rather than failing the whole file.
     for item in channel.findall("item"):
         guid = item.find("guid")
         if guid is None or not guid.text or not guid.text.startswith(DEPRECATION_GUID_PREFIX):
@@ -46,13 +48,13 @@ def find_deprecation_notice(feed_file: Path) -> datetime | None:
 
         pub_date_elem = item.find("pubDate")
         if pub_date_elem is None or not pub_date_elem.text:
-            logger.warning(f"Deprecation notice in {feed_file} has no pubDate")
-            return None
+            logger.warning(f"Deprecation notice in {feed_file} has no pubDate; skipping item")
+            continue
         try:
             return datetime.strptime(pub_date_elem.text, RFC822_FORMAT)
         except ValueError as e:
-            logger.warning(f"Could not parse pubDate in {feed_file}: {e}")
-            return None
+            logger.warning(f"Could not parse pubDate in {feed_file} ({e}); skipping item")
+            continue
     return None
 
 
