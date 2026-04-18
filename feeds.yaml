@@ -15,11 +15,6 @@
 #     enabled: false
 
 feeds:
-  anthropic_changelog_claude_code:
-    script: anthropic_changelog_claude_code.py
-    type: requests
-    blog_url: https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md
-
   anthropic_eng:
     script: anthropic_eng_blog.py
     type: requests
