@@ -1,15 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Hamel Husain's Blog</title>
     <link>https://hamel.dev/</link>
     <description>Applied AI engineering, machine learning, and data science</description>
-    <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_hamel.xml" rel="self"/>
+    <ns0:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_hamel.xml" rel="self" />
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
     <lastBuildDate>Sat, 18 Apr 2026 13:26:03 +0000</lastBuildDate>
-    <item>
+    <item><title>[NOTICE] This feed is no longer maintained</title><description>Hamel's blog publishes an official RSS feed. This scraper is retired; the feed XML will be deleted in ~90 days.
+
+Recommended alternative: https://hamel.dev/index.xml</description><guid isPermaLink="false">deprecation-notice-hamel</guid><pubDate>Sat, 18 Apr 2026 13:52:01 +0000</pubDate><link>https://hamel.dev/index.xml</link></item><item>
       <title>Automated Machine Learning — A Paradigm Shift That Accelerates Data Scientist Productivity @ Airbnb</title>
       <link>https://medium.com/airbnb-engineering/automated-machine-learning-a-paradigm-shift-that-accelerates-data-scientist-productivity-airbnb-f1f8a10d61f8</link>
       <description>Automated Machine Learning — A Paradigm Shift That Accelerates Data Scientist Productivity @ Airbnb</description>

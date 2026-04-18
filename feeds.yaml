@@ -85,11 +85,6 @@ feeds:
     type: requests
     blog_url: https://groq.com/blog/
 
-  hamel:
-    script: hamel_blog.py
-    type: requests
-    blog_url: https://hamel.dev/
-
   meta_ai:
     script: meta_ai_blog.py
     type: selenium

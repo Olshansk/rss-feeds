@@ -250,27 +250,40 @@ Before submitting your PR, verify:
 
 ## Deprecating a Feed
 
-When a blog launches an official RSS feed, retire the scraper gracefully instead of deleting it silently:
+When a blog launches an official RSS feed (or we otherwise decide to retire a scraper), follow the two-stage retirement process. Stage 1 is manual and lands in a single PR. Stage 2 is automated.
 
-1. **Inject a notice into the feed XML**:
+### Stage 1: Inject the notice and tear down the code (manual, one PR)
+
+1. **Inject a sunset notice into the feed XML**:
    ```bash
    uv run feed_generators/deprecate_feed.py \
        --feed=<name> \
        --message="Site X now publishes an official RSS feed." \
        --alternative="https://example.com/feed.xml"
    ```
-   This adds a single `<item>` at the top of `feeds/feed_<name>.xml` with a stable GUID (so repeated runs are idempotent). Subscribers see the notice in their reader the next time the feed is polled.
+   This adds a single `<item>` at the top of `feeds/feed_<name>.xml` with a stable GUID (so repeated runs are idempotent). Subscribers see the notice in their reader the next time they poll the feed.
 
-2. **Disable the scraper** in `feeds.yaml`:
-   ```yaml
-   <name>:
-     script: <name>_blog.py
-     type: requests
-     blog_url: https://example.com
-     enabled: false
-   ```
+2. **Remove everything except the XML**, in the same PR:
+   - Delete `feed_generators/<name>_blog.py`.
+   - Remove the `<name>:` entry from `feeds.yaml`.
+   - Remove the `feeds_<name>` target (and any `_full` variant) from `makefiles/feeds.mk`.
+   - Remove the `<name>` row from the README table (or update it to point at the official feed only).
+   - `cache/<name>_posts.json` is gitignored; nothing to do there.
 
-3. **Leave the XML and script in place** for one release cycle (~90 days) so existing subscribers have time to migrate. After that, the feed entry in `feeds.yaml`, the Make target, `feeds/feed_<name>.xml`, and `feed_generators/<name>_blog.py` can all be removed in a cleanup PR.
+3. **Leave `feeds/feed_<name>.xml`** in place. It now carries the notice as its newest `<item>` plus the historical posts. Subscribers can read both.
+
+### Stage 2: Automatic deletion (workflow, ~90 days later)
+
+`.github/workflows/cleanup_deprecated_feeds.yml` runs monthly. It invokes `feed_generators/cleanup_deprecated_feeds.py --apply`, which scans `feeds/feed_*.xml` for the `deprecation-notice-<name>` GUID, parses the notice's `<pubDate>`, and deletes any XML whose notice is older than 90 days. The deletion is committed to `main` directly; git history preserves the file for recovery.
+
+To preview what would be removed without touching anything:
+```bash
+uv run feed_generators/cleanup_deprecated_feeds.py
+```
+To force-test deletion locally (reversible with `git checkout`):
+```bash
+uv run feed_generators/cleanup_deprecated_feeds.py --apply --threshold-days=0
+```
 
 ## Troubleshooting
 

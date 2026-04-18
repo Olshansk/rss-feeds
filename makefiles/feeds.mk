@@ -121,13 +121,6 @@ feeds_thinkingmachines: ## Generate RSS feed for Thinking Machines Lab blog
 	$(Q)uv run feed_generators/thinkingmachines_blog.py
 	$(call print_success,Thinking Machines Lab feed generated)
 
-.PHONY: feeds_hamel
-feeds_hamel: ## Generate RSS feed for Hamel Husain's Blog
-	$(call check_venv)
-	$(call print_info,Generating Hamel Husain Blog feed)
-	$(Q)uv run feed_generators/hamel_blog.py
-	$(call print_success,Hamel Husain Blog feed generated)
-
 .PHONY: feeds_cursor
 feeds_cursor: ## Generate RSS feed for Cursor Blog (incremental)
 	$(call check_venv)
