@@ -17,6 +17,7 @@ Instructions for Claude Code and contributors working on this repository.
   - [Step 4: Test Locally](#step-4-test-locally)
   - [Step 5: Register the Feed](#step-5-register-the-feed)
   - [Step 6: PR Checklist](#step-6-pr-checklist)
+- [Deprecating a Feed](#deprecating-a-feed)
 - [Troubleshooting](#troubleshooting)
 - [GitHub Actions](#github-actions)
 
@@ -246,6 +247,30 @@ Before submitting your PR, verify:
 - [ ] README.md table updated
 - [ ] For paginated/dynamic feeds: cache file created in `cache/` on first run
 - [ ] Feed `<link>` points to original blog (not the XML feed URL)
+
+## Deprecating a Feed
+
+When a blog launches an official RSS feed, retire the scraper gracefully instead of deleting it silently:
+
+1. **Inject a notice into the feed XML**:
+   ```bash
+   uv run feed_generators/deprecate_feed.py \
+       --feed=<name> \
+       --message="Site X now publishes an official RSS feed." \
+       --alternative="https://example.com/feed.xml"
+   ```
+   This adds a single `<item>` at the top of `feeds/feed_<name>.xml` with a stable GUID (so repeated runs are idempotent). Subscribers see the notice in their reader the next time the feed is polled.
+
+2. **Disable the scraper** in `feeds.yaml`:
+   ```yaml
+   <name>:
+     script: <name>_blog.py
+     type: requests
+     blog_url: https://example.com
+     enabled: false
+   ```
+
+3. **Leave the XML and script in place** for one release cycle (~90 days) so existing subscribers have time to migrate. After that, the feed entry in `feeds.yaml`, the Make target, `feeds/feed_<name>.xml`, and `feed_generators/<name>_blog.py` can all be removed in a cleanup PR.
 
 ## Troubleshooting
 
