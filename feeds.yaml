@@ -100,11 +100,6 @@ feeds:
     type: requests
     blog_url: https://ollama.com/blog
 
-  openai_research:
-    script: openai_research_blog.py
-    type: selenium
-    blog_url: https://openai.com/news/research/
-
   paulgraham:
     script: paulgraham_blog.py
     type: requests
