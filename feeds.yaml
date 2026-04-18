@@ -55,6 +55,11 @@ feeds:
     type: requests
     blog_url: https://claude.com/blog
 
+  cohere:
+    script: cohere_blog.py
+    type: requests
+    blog_url: https://cohere.com/blog
+
   cursor:
     script: cursor_blog.py
     type: requests
@@ -75,10 +80,25 @@ feeds:
     type: requests
     blog_url: https://developers.googleblog.com/search/?technology_categories=AI
 
+  groq:
+    script: groq_blog.py
+    type: requests
+    blog_url: https://groq.com/blog/
+
   hamel:
     script: hamel_blog.py
     type: requests
     blog_url: https://hamel.dev/
+
+  meta_ai:
+    script: meta_ai_blog.py
+    type: selenium
+    blog_url: https://ai.meta.com/blog/
+
+  mistral:
+    script: mistral_blog.py
+    type: selenium
+    blog_url: https://mistral.ai/news
 
   ollama:
     script: ollama_blog.py
@@ -95,10 +115,25 @@ feeds:
     type: requests
     blog_url: https://paulgraham.com/articles.html
 
+  perplexity_hub:
+    script: perplexity_hub.py
+    type: selenium
+    blog_url: https://www.perplexity.ai/hub
+
+  pinecone:
+    script: pinecone_blog.py
+    type: selenium
+    blog_url: https://www.pinecone.io/blog/
+
   thinkingmachines:
     script: thinkingmachines_blog.py
     type: requests
     blog_url: https://thinkingmachines.ai/blog/
+
+  weaviate:
+    script: weaviate_blog.py
+    type: requests
+    blog_url: https://weaviate.io/blog
 
   windsurf_blog:
     script: windsurf_blog.py

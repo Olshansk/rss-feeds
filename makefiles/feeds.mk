@@ -177,6 +177,90 @@ feeds_dagster: ## Generate RSS feed for Dagster Blog
 	$(Q)uv run feed_generators/dagster_blog.py
 	$(call print_success,Dagster Blog feed generated)
 
+.PHONY: feeds_cohere
+feeds_cohere: ## Generate RSS feed for Cohere Blog
+	$(call check_venv)
+	$(call print_info,Generating Cohere Blog feed)
+	$(Q)uv run feed_generators/cohere_blog.py
+	$(call print_success,Cohere Blog feed generated)
+
+.PHONY: feeds_groq
+feeds_groq: ## Generate RSS feed for Groq Blog
+	$(call check_venv)
+	$(call print_info,Generating Groq Blog feed)
+	$(Q)uv run feed_generators/groq_blog.py
+	$(call print_success,Groq Blog feed generated)
+
+.PHONY: feeds_meta_ai
+feeds_meta_ai: ## Generate RSS feed for AI at Meta Blog (incremental)
+	$(call check_venv)
+	$(call print_info,Generating Meta AI Blog feed)
+	$(Q)uv run feed_generators/meta_ai_blog.py
+	$(call print_success,Meta AI Blog feed generated)
+
+.PHONY: feeds_meta_ai_full
+feeds_meta_ai_full: ## Generate RSS feed for AI at Meta Blog (full reset)
+	$(call check_venv)
+	$(call print_info,Generating Meta AI Blog feed - FULL RESET)
+	$(Q)uv run feed_generators/meta_ai_blog.py --full
+	$(call print_success,Meta AI Blog feed generated - full reset)
+
+.PHONY: feeds_mistral
+feeds_mistral: ## Generate RSS feed for Mistral AI News (incremental)
+	$(call check_venv)
+	$(call print_info,Generating Mistral AI News feed)
+	$(Q)uv run feed_generators/mistral_blog.py
+	$(call print_success,Mistral AI News feed generated)
+
+.PHONY: feeds_mistral_full
+feeds_mistral_full: ## Generate RSS feed for Mistral AI News (full reset)
+	$(call check_venv)
+	$(call print_info,Generating Mistral AI News feed - FULL RESET)
+	$(Q)uv run feed_generators/mistral_blog.py --full
+	$(call print_success,Mistral AI News feed generated - full reset)
+
+.PHONY: feeds_perplexity_hub
+feeds_perplexity_hub: ## Generate RSS feed for Perplexity Hub (incremental)
+	$(call check_venv)
+	$(call print_info,Generating Perplexity Hub feed)
+	$(Q)uv run feed_generators/perplexity_hub.py
+	$(call print_success,Perplexity Hub feed generated)
+
+.PHONY: feeds_perplexity_hub_full
+feeds_perplexity_hub_full: ## Generate RSS feed for Perplexity Hub (full reset)
+	$(call check_venv)
+	$(call print_info,Generating Perplexity Hub feed - FULL RESET)
+	$(Q)uv run feed_generators/perplexity_hub.py --full
+	$(call print_success,Perplexity Hub feed generated - full reset)
+
+.PHONY: feeds_pinecone
+feeds_pinecone: ## Generate RSS feed for Pinecone Blog (incremental)
+	$(call check_venv)
+	$(call print_info,Generating Pinecone Blog feed)
+	$(Q)uv run feed_generators/pinecone_blog.py
+	$(call print_success,Pinecone Blog feed generated)
+
+.PHONY: feeds_pinecone_full
+feeds_pinecone_full: ## Generate RSS feed for Pinecone Blog (full reset)
+	$(call check_venv)
+	$(call print_info,Generating Pinecone Blog feed - FULL RESET)
+	$(Q)uv run feed_generators/pinecone_blog.py --full
+	$(call print_success,Pinecone Blog feed generated - full reset)
+
+.PHONY: feeds_weaviate
+feeds_weaviate: ## Generate RSS feed for Weaviate Blog (incremental)
+	$(call check_venv)
+	$(call print_info,Generating Weaviate Blog feed)
+	$(Q)uv run feed_generators/weaviate_blog.py
+	$(call print_success,Weaviate Blog feed generated)
+
+.PHONY: feeds_weaviate_full
+feeds_weaviate_full: ## Generate RSS feed for Weaviate Blog (full reset)
+	$(call check_venv)
+	$(call print_info,Generating Weaviate Blog feed - FULL RESET)
+	$(Q)uv run feed_generators/weaviate_blog.py --full
+	$(call print_success,Weaviate Blog feed generated - full reset)
+
 .PHONY: clean_feeds
 clean_feeds: ## Clean generated RSS feed files
 	$(call print_warning,Removing generated RSS feeds)
