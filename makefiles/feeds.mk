@@ -9,6 +9,20 @@ feeds_generate_all: ## Generate all RSS feeds
 	$(Q)uv run feed_generators/run_all_feeds.py
 	$(call print_success,All feeds generated)
 
+.PHONY: feeds_ai_first_podcast
+feeds_ai_first_podcast: ## Generate RSS feed for AI FIRST Podcast (incremental)
+	$(call check_venv)
+	$(call print_info,Generating AI FIRST Podcast feed)
+	$(Q)uv run feed_generators/ai_first_podcast.py
+	$(call print_success,AI FIRST Podcast feed generated)
+
+.PHONY: feeds_ai_first_podcast_full
+feeds_ai_first_podcast_full: ## Generate RSS feed for AI FIRST Podcast (full reset)
+	$(call check_venv)
+	$(call print_info,Generating AI FIRST Podcast feed - FULL RESET)
+	$(Q)uv run feed_generators/ai_first_podcast.py --full
+	$(call print_success,AI FIRST Podcast feed generated - full reset)
+
 .PHONY: feeds_anthropic_news
 feeds_anthropic_news: ## Generate RSS feed for Anthropic News (incremental)
 	$(call check_venv)

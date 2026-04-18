@@ -15,6 +15,11 @@
 #     enabled: false
 
 feeds:
+  ai_first_podcast:
+    script: ai_first_podcast.py
+    type: requests
+    blog_url: https://ai-first.ai/podcast
+
   anthropic_eng:
     script: anthropic_eng_blog.py
     type: requests
