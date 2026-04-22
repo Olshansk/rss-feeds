@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Apr 2026 13:26:31 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 00:18:52 +0000</lastBuildDate>
+    <item>
+      <title>Windsurf 2.0.63</title>
+      <link>https://windsurf.com/changelog#2.0.63</link>
+      <description>&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fixed a regression with OAuth integration for some MCP servers&lt;/li&gt;&lt;li&gt;Improved reliability of Devin Cloud connections in Windsurf&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog#2.0.63#2.0.63</guid>
+      <category>Changelog</category>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Windsurf 2.0.61</title>
       <link>https://windsurf.com/changelog#2.0.61</link>
