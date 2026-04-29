@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Snowflake Engineering Blog</title>
+    <link>https://www.snowflake.com/en/engineering-blog/</link>
+    <description>Engineering deep dives, infrastructure, and AI/ML from Snowflake</description>
+    <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_snowflake_engineering.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 29 Apr 2026 12:06:17 +0000</lastBuildDate>
+    <item>
+      <title>Reduce Risk and Save Time: Scaling Trust with Agentic AI</title>
+      <link>https://www.snowflake.com/en/engineering-blog/ai-security-remediation-trust-center/</link>
+      <description>Reduce Risk and Save Time: Scaling Trust with Agentic AI</description>
+      <guid isPermaLink="false">https://www.snowflake.com/en/engineering-blog/ai-security-remediation-trust-center/</guid>
+      <category>Engineering</category>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What’s New in Apache Polaris 1.4: Advanced Multi-Tenancy and Streamlined Deployment</title>
+      <link>https://www.snowflake.com/en/engineering-blog/apache-polaris-1-4-release/</link>
+      <description>What’s New in Apache Polaris 1.4: Advanced Multi-Tenancy and Streamlined Deployment</description>
+      <guid isPermaLink="false">https://www.snowflake.com/en/engineering-blog/apache-polaris-1-4-release/</guid>
+      <category>Engineering</category>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mining Query History to Build Better Semantic Models for AI</title>
+      <link>https://www.snowflake.com/en/engineering-blog/mining-query-history-to-build-better-semantic-models-for-ai/</link>
+      <description>Mining Query History to Build Better Semantic Models for AI</description>
+      <guid isPermaLink="false">https://www.snowflake.com/en/engineering-blog/mining-query-history-to-build-better-semantic-models-for-ai/</guid>
+      <category>Engineering</category>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LLM Serving Made Easy: High-Throughput Inference with vLLM</title>
+      <link>https://www.snowflake.com/en/engineering-blog/llm-model-serving-vllm-inference/</link>
+      <description>Easily productionize open source models with one-click Hugging Face imports. Learn how Snowflake’s vLLM architecture optimizes memory for maximum throughput.</description>
+      <guid isPermaLink="false">https://www.snowflake.com/en/engineering-blog/llm-model-serving-vllm-inference/</guid>
+      <category>Machine Learning</category>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rethinking Certificate Revocation at Snowflake</title>
+      <link>https://www.snowflake.com/en/engineering-blog/rethinking-certificate-revocation-snowflake/</link>
+      <description>Snowflake is deprecating OCSP in drivers for CRLs and short-lived certificates. Learn why we're disabling revocation checking by default for better resiliency. </description>
+      <guid isPermaLink="false">https://www.snowflake.com/en/engineering-blog/rethinking-certificate-revocation-snowflake/</guid>
+      <category>Core Platform</category>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Turbocharging parse_json() in Snowflake: 2x Faster Performance Without Changing a Line of Code</title>
+      <link>https://www.snowflake.com/en/engineering-blog/snowflake-parse-json-performance-simdjson/</link>
+      <description>Discover how Snowflake's new parse_json() implementation uses SIMDJson to deliver 2x faster JSON parsing with 100% backward compatibility for all accounts. </description>
+      <guid isPermaLink="false">https://www.snowflake.com/en/engineering-blog/snowflake-parse-json-performance-simdjson/</guid>
+      <category>Core Platform</category>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Community Won: Apache Polaris, the Iceberg REST Catalog and the End of Vendor Lock-In</title>
+      <link>https://www.snowflake.com/en/engineering-blog/apache-polaris-iceberg-rest-catalog/</link>
+      <description>Discover how Apache Polaris graduated to a Top-Level Project, providing a vendor-neutral Iceberg REST Catalog for true data interoperability.</description>
+      <guid isPermaLink="false">https://www.snowflake.com/en/engineering-blog/apache-polaris-iceberg-rest-catalog/</guid>
+      <category>Core Platform</category>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Do You Need to Tune Postgres Vacuum?</title>
+      <link>https://www.snowflake.com/en/engineering-blog/tuning-postgres-vacuum/</link>
+      <description>Learn why Postgres vacuuming matters, how autovacuum works, and when to tune it to prevent bloat, improve performance, and avoid transaction ID wraparound issues.</description>
+      <guid isPermaLink="false">https://www.snowflake.com/en/engineering-blog/tuning-postgres-vacuum/</guid>
+      <category>Data Engineering</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>If You're Serious About Data Analysis, You Need a Semantic Model</title>
+      <link>https://www.snowflake.com/en/engineering-blog/why-you-need-a-semantic-model/</link>
+      <description>Convince data and analytics leaders that a semantic model is no longer optional for reliable, governed analytics at scale, and position Snowflake Semantic Views as the practical, unified solution that converges BI and AI workflows.</description>
+      <guid isPermaLink="false">https://www.snowflake.com/en/engineering-blog/why-you-need-a-semantic-model/</guid>
+      <category>Engineering</category>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Solving the Identifier Mismatch Challenge in Multi-Engine Lakehouses</title>
+      <link>https://www.snowflake.com/en/engineering-blog/solving-identifier-mismatch-multi-engine-lakehouse/</link>
+      <description>This post explores identifier case sensitivity challenge in multi-engine lakehouses and explains how Snowflake ensures seamless interoperability</description>
+      <guid isPermaLink="false">https://www.snowflake.com/en/engineering-blog/solving-identifier-mismatch-multi-engine-lakehouse/</guid>
+      <category>Data Engineering</category>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Accuracy at What Cost? Benchmarking Agentic Reasoning with MADQA</title>
+      <link>https://www.snowflake.com/en/engineering-blog/madqa-multimodal-agent-reasoning-benchmark/</link>
+      <description>Introducing MADQA: A new multimodal benchmark for AI agents. Discover why leading models fail the "efficiency test" and how humans still outperform AI in strategic document navigation.</description>
+      <guid isPermaLink="false">https://www.snowflake.com/en/engineering-blog/madqa-multimodal-agent-reasoning-benchmark/</guid>
+      <category>Gen AI</category>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Faster, Smarter, Autonomous: Snowflake SQL Performance Improvements Year in Review</title>
+      <link>https://www.snowflake.com/en/engineering-blog/sql-performance-improvements-2026/</link>
+      <description>Discover Snowflake's autonomous performance improvements, including Optima and Gen2 Warehouses. </description>
+      <guid isPermaLink="false">https://www.snowflake.com/en/engineering-blog/sql-performance-improvements-2026/</guid>
+      <category>Core Platform</category>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Snowflake Interactive Analytics: Breaking Down a Few Major Updates</title>
+      <link>https://www.snowflake.com/en/engineering-blog/interactive-analytics-major-updates/</link>
+      <description>Learn about the latest Snowflake Interactive enhancements, including multi-cloud support for Azure and GCP, replication, search optimization, and storage lifecycle policies for sub-second analytics at scale.</description>
+      <guid isPermaLink="false">https://www.snowflake.com/en/engineering-blog/interactive-analytics-major-updates/</guid>
+      <category>Core Platform</category>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
