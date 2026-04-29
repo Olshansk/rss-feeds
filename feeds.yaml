@@ -105,15 +105,15 @@ feeds:
     type: selenium
     blog_url: https://www.perplexity.ai/hub
 
-  snowflake_engineering:
-    script: snowflake_engineering_blog.py
-    type: requests
-    blog_url: https://www.snowflake.com/en/engineering-blog/
-
   pinecone:
     script: pinecone_blog.py
     type: selenium
     blog_url: https://www.pinecone.io/blog/
+
+  snowflake_engineering:
+    script: snowflake_engineering_blog.py
+    type: requests
+    blog_url: https://www.snowflake.com/en/engineering-blog/
 
   the_batch:
     script: deeplearningai_the_batch.py

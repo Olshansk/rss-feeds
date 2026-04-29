@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Apr 2026 12:06:17 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 12:21:52 +0000</lastBuildDate>
     <item>
       <title>Reduce Risk and Save Time: Scaling Trust with Agentic AI</title>
       <link>https://www.snowflake.com/en/engineering-blog/ai-security-remediation-trust-center/</link>
@@ -44,7 +44,7 @@
     <item>
       <title>Rethinking Certificate Revocation at Snowflake</title>
       <link>https://www.snowflake.com/en/engineering-blog/rethinking-certificate-revocation-snowflake/</link>
-      <description>Snowflake is deprecating OCSP in drivers for CRLs and short-lived certificates. Learn why we're disabling revocation checking by default for better resiliency. </description>
+      <description>Snowflake is deprecating OCSP in drivers for CRLs and short-lived certificates. Learn why we're disabling revocation checking by default for better resiliency.</description>
       <guid isPermaLink="false">https://www.snowflake.com/en/engineering-blog/rethinking-certificate-revocation-snowflake/</guid>
       <category>Core Platform</category>
       <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
@@ -52,7 +52,7 @@
     <item>
       <title>Turbocharging parse_json() in Snowflake: 2x Faster Performance Without Changing a Line of Code</title>
       <link>https://www.snowflake.com/en/engineering-blog/snowflake-parse-json-performance-simdjson/</link>
-      <description>Discover how Snowflake's new parse_json() implementation uses SIMDJson to deliver 2x faster JSON parsing with 100% backward compatibility for all accounts. </description>
+      <description>Discover how Snowflake's new parse_json() implementation uses SIMDJson to deliver 2x faster JSON parsing with 100% backward compatibility for all accounts.</description>
       <guid isPermaLink="false">https://www.snowflake.com/en/engineering-blog/snowflake-parse-json-performance-simdjson/</guid>
       <category>Core Platform</category>
       <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
@@ -100,7 +100,7 @@
     <item>
       <title>Faster, Smarter, Autonomous: Snowflake SQL Performance Improvements Year in Review</title>
       <link>https://www.snowflake.com/en/engineering-blog/sql-performance-improvements-2026/</link>
-      <description>Discover Snowflake's autonomous performance improvements, including Optima and Gen2 Warehouses. </description>
+      <description>Discover Snowflake's autonomous performance improvements, including Optima and Gen2 Warehouses.</description>
       <guid isPermaLink="false">https://www.snowflake.com/en/engineering-blog/sql-performance-improvements-2026/</guid>
       <category>Core Platform</category>
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>

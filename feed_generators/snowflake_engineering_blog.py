@@ -15,11 +15,11 @@ merges them with the cache so older posts are retained over time.
 
 import argparse
 import json
-import re
 from datetime import datetime
 from typing import Any
 
 import pytz
+from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
 from utils import (
@@ -32,7 +32,6 @@ from utils import (
     setup_feed_links,
     setup_logging,
     sort_posts_for_feed,
-    stable_fallback_date,
 )
 
 logger = setup_logging()
@@ -40,18 +39,15 @@ logger = setup_logging()
 FEED_NAME = "snowflake_engineering"
 BLOG_URL = "https://www.snowflake.com/en/engineering-blog/"
 SITE_ROOT = "https://www.snowflake.com"
-INITIAL_STATE_RE = re.compile(
-    r'<script type="application/json" id="__INITIAL_STATE__">(.*?)</script>',
-    re.DOTALL,
-)
 
 
 def extract_initial_state(html: str) -> dict:
     """Pull the ``__INITIAL_STATE__`` JSON payload out of the page HTML."""
-    match = INITIAL_STATE_RE.search(html)
-    if not match:
+    soup = BeautifulSoup(html, "html.parser")
+    script = soup.find("script", id="__INITIAL_STATE__")
+    if script is None or not script.string:
         raise RuntimeError("Could not find __INITIAL_STATE__ JSON on the page")
-    return json.loads(match.group(1))
+    return json.loads(script.string)
 
 
 def _absolute_url(url: str) -> str:
@@ -89,11 +85,14 @@ def _card_to_post(card: dict) -> dict | None:
         return None
     link = _absolute_url(raw_url)
 
-    description = (card.get("text") or {}).get("text") or title
+    raw_description = (card.get("text") or {}).get("text") or ""
+    description = " ".join(raw_description.split()) or title
 
+    # Leave date as None on parse failure rather than calling
+    # ``stable_fallback_date()`` — that helper is keyed on Python's built-in
+    # ``hash()``, which is randomized per process, so its "stable" date would
+    # actually shift between runs and churn the cache/feed ordering.
     date = _parse_publication_date(card.get("publicationDate"))
-    if date is None:
-        date = stable_fallback_date(link)
 
     authors = [
         (author.get("text") or "").strip() for author in card.get("authors") or [] if (author.get("text") or "").strip()
@@ -194,4 +193,4 @@ if __name__ == "__main__":
     # site only exposes a single page of results so behavior is identical.
     parser.add_argument("--full", action="store_true", help="No-op (kept for CLI symmetry)")
     parser.parse_args()
-    main()
+    raise SystemExit(0 if main() else 1)
