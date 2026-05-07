@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 07 May 2026 17:33:36 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 18:32:39 +0000</lastBuildDate>
+    <item>
+      <title>Collaborate with Claude across Excel, PowerPoint, Word and Outlook </title>
+      <link>https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook</link>
+      <description>Collaborate with Claude across Excel, PowerPoint, Word and Outlook </description>
+      <guid isPermaLink="false">https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook</guid>
+      <category>Product announcements</category>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration</title>
       <link>https://claude.com/blog/new-in-claude-managed-agents</link>
