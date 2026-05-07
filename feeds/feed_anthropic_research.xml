@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 07 May 2026 21:49:09 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 22:50:11 +0000</lastBuildDate>
     <item>
       <title>May 7, 2026PolicyFocus areas for The Anthropic Institute</title>
       <link>https://www.anthropic.com/research/anthropic-institute-agenda</link>
@@ -108,15 +108,7 @@
       <description>Interpretability</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/interpretability</guid>
       <category>Research</category>
-      <pubDate>Sat, 20 Jul 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Societal Impacts</title>
-      <link>https://www.anthropic.com/research/team/societal-impacts</link>
-      <description>Societal Impacts</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/team/societal-impacts</guid>
-      <category>Research</category>
-      <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Economic Research</title>
@@ -124,7 +116,7 @@
       <description>Economic Research</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/economic-research</guid>
       <category>Research</category>
-      <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Alignment</title>
@@ -132,7 +124,15 @@
       <description>Alignment</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
       <category>Research</category>
-      <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Societal Impacts</title>
+      <link>https://www.anthropic.com/research/team/societal-impacts</link>
+      <description>Societal Impacts</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/societal-impacts</guid>
+      <category>Research</category>
+      <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
