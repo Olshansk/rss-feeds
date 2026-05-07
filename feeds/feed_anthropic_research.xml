@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 07 May 2026 17:09:57 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 18:04:41 +0000</lastBuildDate>
     <item>
       <title>May 7, 2026PolicyFocus areas for The Anthropic Institute</title>
       <link>https://www.anthropic.com/research/anthropic-institute-agenda</link>
@@ -23,9 +23,9 @@
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>May 7, 2026AlignmentNatural Language Autoencoders: Turning Claude’s thoughts into text</title>
+      <title>Natural Language Autoencoders: Turning Claude’s thoughts into text</title>
       <link>https://www.anthropic.com/research/natural-language-autoencoders</link>
-      <description>May 7, 2026AlignmentNatural Language Autoencoders: Turning Claude’s thoughts into text</description>
+      <description>Natural Language Autoencoders: Turning Claude’s thoughts into text</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/natural-language-autoencoders</guid>
       <category>Research</category>
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
@@ -103,28 +103,12 @@
       <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>AlignmentFeb 3, 2025Constitutional Classifiers: Defending against universal jailbreaksThese classifiers filter the overwhelming majority of jailbreaks while maintaining practical deployment. A prototype withstood over 3,000 hours of red teaming with no universal jailbreak discovered.</title>
-      <link>https://www.anthropic.com/research/constitutional-classifiers</link>
-      <description>AlignmentFeb 3, 2025Constitutional Classifiers: Defending against universal jailbreaksThese classifiers filter the overwhelming majority of jailbreaks while maintaining practical deployment. A prototype withstood over 3,000 hours of red teaming with no universal jailbreak discovered.</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/constitutional-classifiers</guid>
+      <title>Alignment</title>
+      <link>https://www.anthropic.com/research/team/alignment</link>
+      <description>Alignment</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
       <category>Research</category>
-      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Interpretability</title>
-      <link>https://www.anthropic.com/research/team/interpretability</link>
-      <description>Interpretability</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/team/interpretability</guid>
-      <category>Research</category>
-      <pubDate>Sat, 23 Nov 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Economic Research</title>
-      <link>https://www.anthropic.com/research/team/economic-research</link>
-      <description>Economic Research</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/team/economic-research</guid>
-      <category>Research</category>
-      <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Societal Impacts</title>
@@ -132,15 +116,23 @@
       <description>Societal Impacts</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/societal-impacts</guid>
       <category>Research</category>
-      <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Alignment</title>
-      <link>https://www.anthropic.com/research/team/alignment</link>
-      <description>Alignment</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
+      <title>Interpretability</title>
+      <link>https://www.anthropic.com/research/team/interpretability</link>
+      <description>Interpretability</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/interpretability</guid>
       <category>Research</category>
-      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 11 Nov 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Economic Research</title>
+      <link>https://www.anthropic.com/research/team/economic-research</link>
+      <description>Economic Research</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/economic-research</guid>
+      <category>Research</category>
+      <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
