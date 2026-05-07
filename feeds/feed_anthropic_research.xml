@@ -13,12 +13,20 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 07 May 2026 20:53:05 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 21:49:09 +0000</lastBuildDate>
     <item>
       <title>May 7, 2026PolicyFocus areas for The Anthropic Institute</title>
       <link>https://www.anthropic.com/research/anthropic-institute-agenda</link>
       <description>May 7, 2026PolicyFocus areas for The Anthropic Institute</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/anthropic-institute-agenda</guid>
+      <category>Research</category>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>May 7, 2026AlignmentDonating our open-source alignment tool</title>
+      <link>https://www.anthropic.com/research/donating-open-source-petri</link>
+      <description>May 7, 2026AlignmentDonating our open-source alignment tool</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/donating-open-source-petri</guid>
       <category>Research</category>
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
     </item>
@@ -87,14 +95,6 @@
       <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mar 31, 2026Economic ResearchHow Australia Uses Claude: Findings from the Anthropic Economic Index</title>
-      <link>https://www.anthropic.com/research/how-australia-uses-claude</link>
-      <description>Mar 31, 2026Economic ResearchHow Australia Uses Claude: Findings from the Anthropic Economic Index</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/how-australia-uses-claude</guid>
-      <category>Research</category>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>PolicyDec 18, 2025Project Vend: Phase twoIn June, we revealed that we’d set up a small shop in our San Francisco office lunchroom, run by an AI shopkeeper. It was part of Project Vend, a free-form experiment exploring how well AIs could do on complex, real-world tasks. How has Claude's business been since we last wrote?</title>
       <link>https://www.anthropic.com/research/project-vend-2</link>
       <description>PolicyDec 18, 2025Project Vend: Phase twoIn June, we revealed that we’d set up a small shop in our San Francisco office lunchroom, run by an AI shopkeeper. It was part of Project Vend, a free-form experiment exploring how well AIs could do on complex, real-world tasks. How has Claude's business been since we last wrote?</description>
@@ -108,7 +108,7 @@
       <description>Interpretability</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/interpretability</guid>
       <category>Research</category>
-      <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 20 Jul 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Societal Impacts</title>
@@ -116,7 +116,7 @@
       <description>Societal Impacts</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/societal-impacts</guid>
       <category>Research</category>
-      <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Economic Research</title>
@@ -124,7 +124,7 @@
       <description>Economic Research</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/economic-research</guid>
       <category>Research</category>
-      <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Alignment</title>
@@ -132,7 +132,7 @@
       <description>Alignment</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
       <category>Research</category>
-      <pubDate>Wed, 31 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
