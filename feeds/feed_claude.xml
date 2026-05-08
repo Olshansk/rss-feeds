@@ -8,7 +8,93 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Apr 2026 11:31:55 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 09:31:18 +0000</lastBuildDate>
+    <item>
+      <title>Collaborate with Claude across Excel, PowerPoint, Word and Outlook </title>
+      <link>https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook</link>
+      <description>Collaborate with Claude across Excel, PowerPoint, Word and Outlook </description>
+      <guid isPermaLink="false">https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook</guid>
+      <category>Product announcements</category>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration</title>
+      <link>https://claude.com/blog/new-in-claude-managed-agents</link>
+      <description>New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration</description>
+      <guid isPermaLink="false">https://claude.com/blog/new-in-claude-managed-agents</guid>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deploying Claude across financial services</title>
+      <link>https://claude.com/blog/deploying-claude-across-financial-services</link>
+      <description>Deploying Claude across financial services</description>
+      <guid isPermaLink="false">https://claude.com/blog/deploying-claude-across-financial-services</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How a non-technical project manager built and shipped a stress management app with Claude Code in six weeks</title>
+      <link>https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks</link>
+      <description>How a non-technical project manager built and shipped a stress management app with Claude Code in six weeks</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks</guid>
+      <category>Claude Code</category>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Kepler built verifiable AI for financial services with Claude</title>
+      <link>https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude</link>
+      <description>How Kepler built verifiable AI for financial services with Claude</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lessons from building Claude Code: Prompt caching is everything</title>
+      <link>https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything</link>
+      <description>Lessons from building Claude Code: Prompt caching is everything</description>
+      <guid isPermaLink="false">https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything</guid>
+      <category>Claude Code</category>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Security is now in public beta</title>
+      <link>https://claude.com/blog/claude-security-public-beta</link>
+      <description>Claude Security is now in public beta</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-security-public-beta</guid>
+      <category>Product announcements</category>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building AI agents for the enterprise</title>
+      <link>https://claude.com/blog/building-ai-agents-for-the-enterprise</link>
+      <description>Building AI agents for the enterprise</description>
+      <guid isPermaLink="false">https://claude.com/blog/building-ai-agents-for-the-enterprise</guid>
+      <category>Agents</category>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Product development in the agentic era</title>
+      <link>https://claude.com/blog/product-development-in-the-agentic-era</link>
+      <description>Product development in the agentic era</description>
+      <guid isPermaLink="false">https://claude.com/blog/product-development-in-the-agentic-era</guid>
+      <category>Agents</category>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp</title>
+      <link>https://claude.com/blog/claude-api-skill</link>
+      <description>Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-api-skill</guid>
+      <category>Agents</category>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deploying agentic AI across the enterprise with Claude Cowork</title>
+      <link>https://claude.com/blog/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork</link>
+      <description>Deploying agentic AI across the enterprise with Claude Cowork</description>
+      <guid isPermaLink="false">https://claude.com/blog/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Onboarding Claude Code like a new developer: Lessons from 17 years of development</title>
       <link>https://claude.com/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development</link>
@@ -529,6 +615,14 @@
       <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Building AI agents for financial services</title>
+      <link>https://claude.com/blog/building-ai-agents-in-financial-services</link>
+      <description>Building AI agents for financial services</description>
+      <guid isPermaLink="false">https://claude.com/blog/building-ai-agents-in-financial-services</guid>
+      <category>Agents</category>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Building AI agents for healthcare and life sciences</title>
       <link>https://claude.com/blog/building-ai-agents-in-healthcare-and-life-sciences</link>
       <description>Building AI agents for healthcare and life sciences</description>
@@ -542,13 +636,6 @@
       <description>Introduction to agentic coding</description>
       <guid isPermaLink="false">https://claude.com/blog/introduction-to-agentic-coding</guid>
       <category>Claude Code</category>
-      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Building AI agents for financial services</title>
-      <link>https://claude.com/blog/building-ai-agents-in-financial-services</link>
-      <description>Building AI agents for financial services</description>
-      <guid isPermaLink="false">https://claude.com/blog/building-ai-agents-in-financial-services</guid>
       <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>

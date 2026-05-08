@@ -8,21 +8,69 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Apr 2026 11:11:08 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 09:01:22 +0000</lastBuildDate>
     <item>
-      <title>Four New GA Features for Dedicated Read Nodes That Give Teams More Control and Observability</title>
-      <link>https://www.pinecone.io/blog/dedicated-read-nodes-ga-features/</link>
-      <description>Four New GA Features for Dedicated Read Nodes That Give Teams More Control and Observability</description>
-      <guid isPermaLink="false">https://www.pinecone.io/blog/dedicated-read-nodes-ga-features/</guid>
+      <title>Full Text Search: Architecture and Design</title>
+      <link>https://www.pinecone.io/blog/full-text-search-architecture/</link>
+      <description>Full Text Search: Architecture and Design</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/full-text-search-architecture/</guid>
+      <category>Engineering</category>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Full Text Search in Pinecone, Now in Public Preview</title>
+      <link>https://www.pinecone.io/blog/full-text-search/</link>
+      <description>Full Text Search in Pinecone, Now in Public Preview</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/full-text-search/</guid>
+      <category>Featured</category>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Builder Plan: for the stage between prototype and scale</title>
+      <link>https://www.pinecone.io/blog/builder-plan/</link>
+      <description>Builder Plan: for the stage between prototype and scale</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/builder-plan/</guid>
+      <category>Company, Product</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Pinecone Marketplace:  Getting to Production in Minutes</title>
+      <link>https://www.pinecone.io/blog/marketplace/</link>
+      <description>Introducing Pinecone Marketplace:  Getting to Production in Minutes</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/marketplace/</guid>
       <category>Product</category>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Better Models Won’t Save Your Agent</title>
+      <link>https://www.pinecone.io/blog/introducing-nexus-knowledge-engine/</link>
+      <description>Better Models Won’t Save Your Agent</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/introducing-nexus-knowledge-engine/</guid>
+      <category>Engineering</category>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pinecone Nexus: The Knowledge Engine for Agents</title>
+      <link>https://www.pinecone.io/blog/knowledge-infrastructure-for-agents/</link>
+      <description>Pinecone Nexus: The Knowledge Engine for Agents</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/knowledge-infrastructure-for-agents/</guid>
+      <category>Featured</category>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Pinecone Dedicated Read Nodes: Now Generally Available</title>
       <link>https://www.pinecone.io/blog/dedicated-read-nodes-ga/</link>
       <description>Pinecone Dedicated Read Nodes: Now Generally Available</description>
       <guid isPermaLink="false">https://www.pinecone.io/blog/dedicated-read-nodes-ga/</guid>
-      <category>Featured</category>
+      <category>Product</category>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Four New GA Features for Dedicated Read Nodes That Give Teams More Control and Observability</title>
+      <link>https://www.pinecone.io/blog/dedicated-read-nodes-ga-features/</link>
+      <description>Four New GA Features for Dedicated Read Nodes That Give Teams More Control and Observability</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/dedicated-read-nodes-ga-features/</guid>
+      <category>Product</category>
       <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -62,7 +110,7 @@
       <link>https://www.pinecone.io/blog/byoc/</link>
       <description>Pinecone BYOC: Pinecone in your AWS, GCP, or Azure account, no vendor access</description>
       <guid isPermaLink="false">https://www.pinecone.io/blog/byoc/</guid>
-      <category>Featured</category>
+      <category>Product</category>
       <pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -960,54 +1008,6 @@
       <guid isPermaLink="false">https://www.pinecone.io/blog/sigit-2022/</guid>
       <category>Company</category>
       <pubDate>Fri, 22 Jul 2022 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing the Enterprise Plan for Mission-Critical Applications</title>
-      <link>https://www.pinecone.io/blog/enterprise-plan/</link>
-      <description>Introducing the Enterprise Plan for Mission-Critical Applications</description>
-      <guid isPermaLink="false">https://www.pinecone.io/blog/enterprise-plan/</guid>
-      <category>Company</category>
-      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>$28M to Bring Search into the AI Age</title>
-      <link>https://www.pinecone.io/blog/funding-search-ai-age/</link>
-      <description>$28M to Bring Search into the AI Age</description>
-      <guid isPermaLink="false">https://www.pinecone.io/blog/funding-search-ai-age/</guid>
-      <category>Company</category>
-      <pubDate>Tue, 29 Mar 2022 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>February Release: Performance at Scale, Predictability, and Control</title>
-      <link>https://www.pinecone.io/blog/predict-perform-control/</link>
-      <description>February Release: Performance at Scale, Predictability, and Control</description>
-      <guid isPermaLink="false">https://www.pinecone.io/blog/predict-perform-control/</guid>
-      <category>Product</category>
-      <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Former Snowflake CEO Bob Muglia and Couchbase CEO Bob Wiederhold Bet on Pinecone</title>
-      <link>https://www.pinecone.io/blog/advisors/</link>
-      <description>Former Snowflake CEO Bob Muglia and Couchbase CEO Bob Wiederhold Bet on Pinecone</description>
-      <guid isPermaLink="false">https://www.pinecone.io/blog/advisors/</guid>
-      <category>Company</category>
-      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Meet Pinecone’s New VP of Engineering, Dr. Ram Sriharsha</title>
-      <link>https://www.pinecone.io/blog/welcome-ram/</link>
-      <description>Meet Pinecone’s New VP of Engineering, Dr. Ram Sriharsha</description>
-      <guid isPermaLink="false">https://www.pinecone.io/blog/welcome-ram/</guid>
-      <category>Company</category>
-      <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pinecone Recognized as a 2021 Gartner® Cool Vendor</title>
-      <link>https://www.pinecone.io/blog/cool-vendor-2021/</link>
-      <description>Pinecone Recognized as a 2021 Gartner® Cool Vendor</description>
-      <guid isPermaLink="false">https://www.pinecone.io/blog/cool-vendor-2021/</guid>
-      <category>Company</category>
-      <pubDate>Thu, 28 Oct 2021 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

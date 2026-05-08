@@ -180,7 +180,7 @@ curl -o sample.html "https://example.com/blog"
 Use Claude Code with the generator prompt:
 
 ```bash
-Use @cmd_rss_feed_generator.md to convert @sample.html to a RSS feed for https://example.com/blog
+Use /cmd-rss-feed-generator to convert @sample.html to a RSS feed for https://example.com/blog
 ```
 
 Claude will:

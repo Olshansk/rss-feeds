@@ -8,7 +8,31 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Apr 2026 11:33:23 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 09:32:07 +0000</lastBuildDate>
+    <item>
+      <title>Windsurf Next 2.2.1017</title>
+      <link>https://windsurf.com/changelog/windsurf-next#2.2.1017</link>
+      <description>&lt;p&gt;&lt;strong&gt;Devin Review &amp; Quick Review&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;All Windsurf IDE users now have access toDevin ReviewandQuick Reviewwith your existing subscription.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Agent Command Center&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Added list display option for the agent inbox&lt;/li&gt;&lt;li&gt;Improved sessions sidebar sorting and filtering&lt;/li&gt;&lt;li&gt;Performance improvements for loading and switching sessions&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Windows updates&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;We have fixed a bug preventing updates for some users on Windows. To upgrade to this version, you may need to:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Wait for the update to download.&lt;/li&gt;&lt;li&gt;Once it is downloaded, open Windows Task Manager and close alldevin.exeprocesses&lt;/li&gt;&lt;li&gt;Proceed with installing the update and restarting Windsurf&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Bug fixes and improvements&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Fixed bugs with some MCP servers&lt;/li&gt;&lt;li&gt;Improved reliability of Devin Local agent&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#2.2.1017#2.2.1017</guid>
+      <category>Changelog</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 2.2.1001</title>
+      <link>https://windsurf.com/changelog/windsurf-next#2.2.1001</link>
+      <description>&lt;h3&gt;Settings Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Settings now open in a dedicated tab instead of a modal, making it easier to navigate and find what you need&lt;/li&gt;&lt;li&gt;Added a searchable sidebar to quickly locate settings across all categories&lt;/li&gt;&lt;li&gt;Consolidated the settings gear into the global activity dropdown for a cleaner titlebar&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Agent Command Center Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Added button to rename agent sessions directly from the sidebar&lt;/li&gt;&lt;li&gt;Added space @-mentions — you can now reference entire spaces in Cascade conversations&lt;/li&gt;&lt;li&gt;Added automatic context sharing across sessions in a space&lt;/li&gt;&lt;li&gt;Model picker search now surfaces the best-matching variant per model family&lt;/li&gt;&lt;li&gt;Improved at-mention loading with incremental results instead of waiting for all categories&lt;/li&gt;&lt;li&gt;Tab completions now respect yourfiles.excludesettings&lt;/li&gt;&lt;li&gt;The toolbar footer now works like the Cascade footer with accept/reject buttons tied to diff zones&lt;/li&gt;&lt;li&gt;File paths and selection ranges are now included in @-mentions&lt;/li&gt;&lt;li&gt;Session PRs are now rendered in the Devin Cloud sidebar item&lt;/li&gt;&lt;li&gt;Fixed UI freeze that could occur when pasting large text into Cascade&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fixed scroll position not being preserved when switching between editor tabs&lt;/li&gt;&lt;li&gt;Fixed sign-in / sign-out state showing contradictory status after a failed authentication&lt;/li&gt;&lt;li&gt;Fixed titlebar items disappearing in narrow windows&lt;/li&gt;&lt;li&gt;Fixed stale session data showing in the sidebar&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#2.2.1001#2.2.1001</guid>
+      <category>Changelog</category>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 2.1.1032</title>
+      <link>https://windsurf.com/changelog/windsurf-next#2.1.1032</link>
+      <description>&lt;h3&gt;Bug Fixes &amp; Improvements&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Bug Fixes&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Fixed a crash that could occur when switching between Cascade conversations&lt;/li&gt;&lt;li&gt;Fixed an authentication issue that could prevent Devin Cloud sessions from starting&lt;/li&gt;&lt;li&gt;Fixed an issue where responses to agent questions were not sent correctly&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#2.1.1032#2.1.1032</guid>
+      <category>Changelog</category>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Windsurf Next 2.1.1029</title>
       <link>https://windsurf.com/changelog/windsurf-next#2.1.1029</link>

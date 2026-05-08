@@ -169,10 +169,24 @@ def extract_articles(soup: BeautifulSoup) -> list[dict]:
                 aria = link.get("aria-label", "")
                 title = aria.removeprefix("Read ").strip() if aria.startswith("Read ") else ""
             if title:
-                date_elem = hero.find("div", class_="_amdj")
-                date, _ = _extract_date_from_elements([date_elem] if date_elem else [], href)
-                cat_elem = hero.find("div", class_="_amug")
-                category = cat_elem.get_text(strip=True) if cat_elem else "AI"
+                # The hero's date container class has rotated (was _amdj, then
+                # _amun, ...), so scan every <div> inside the hero with the
+                # DATE_PATTERN regex instead of pinning to a single class.
+                # Without this we fall through to stable_fallback_date(), which
+                # (relying on Python's randomized hash()) buries the newest
+                # post under a bogus pubDate.
+                date, _ = _extract_date_from_elements(hero.find_all("div"), href)
+
+                # Category: try the legacy explicit class, then the current
+                # "FEATURED"-style badge, then default. Empty strings are
+                # treated as missing so we don't emit empty <category/>.
+                category = "AI"
+                for cls in ("_amug", "_amd5"):
+                    cat_elem = hero.find("div", class_=cls)
+                    cat_text = cat_elem.get_text(strip=True) if cat_elem else ""
+                    if cat_text:
+                        category = cat_text.title() if cat_text.isupper() else cat_text
+                        break
                 _append_article(articles, seen, href, title, date, category, title)
 
     # Latest News grid (div._amda)

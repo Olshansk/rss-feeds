@@ -8,13 +8,45 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Apr 2026 11:11:10 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 09:01:25 +0000</lastBuildDate>
+    <item>
+      <title>Grok Imagine Quality Mode API</title>
+      <link>https://x.ai/news/grok-imagine-quality-mode</link>
+      <description>Higher realism. Stronger text rendering. Better creative control.</description>
+      <guid isPermaLink="false">https://x.ai/news/grok-imagine-quality-mode</guid>
+      <category>May 06, 2026</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Connectors now on Grok Web</title>
+      <link>https://x.ai/news/grok-connectors</link>
+      <description>Deep integrations that bring the apps you use every day directly into Grok.</description>
+      <guid isPermaLink="false">https://x.ai/news/grok-connectors</guid>
+      <category>May 06, 2026</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>New Compute Partnership with Anthropic</title>
+      <link>https://x.ai/news/anthropic-compute-partnership</link>
+      <description>SpaceXAI has signed an agreement with Anthropic to provide access to Colossus 1.</description>
+      <guid isPermaLink="false">https://x.ai/news/anthropic-compute-partnership</guid>
+      <category>Company</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Custom Voices and Voice Library</title>
+      <link>https://x.ai/news/grok-custom-voices</link>
+      <description>Your voice. Your brand. Clone a voice from a short recording and manage your entire voice catalog from the xAI console.</description>
+      <guid isPermaLink="false">https://x.ai/news/grok-custom-voices</guid>
+      <category>April 30, 2026</category>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Grok Voice Think Fast 1.0</title>
       <link>https://x.ai/news/grok-voice-think-fast-1</link>
       <description>Our most capable voice agent is now available via API.</description>
       <guid isPermaLink="false">https://x.ai/news/grok-voice-think-fast-1</guid>
-      <category>Grok voice</category>
+      <category>April 23, 2026</category>
       <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

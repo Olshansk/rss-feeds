@@ -8,7 +8,23 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Apr 2026 11:33:22 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 09:32:06 +0000</lastBuildDate>
+    <item>
+      <title>Windsurf 2.2.17</title>
+      <link>https://windsurf.com/changelog#2.2.17</link>
+      <description>&lt;p&gt;&lt;strong&gt;Devin Review &amp; Quick Review&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;All Windsurf IDE users now have access toDevin ReviewandQuick Reviewwith your existing subscription.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Agent Command Center&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Added list display option for the agent inbox&lt;/li&gt;&lt;li&gt;Improved sessions sidebar sorting and filtering&lt;/li&gt;&lt;li&gt;Performance improvements for loading and switching sessions&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Windows updates&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;We have fixed a bug preventing updates for some users on Windows. To upgrade to this version, you may need to:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Wait for the update to download.&lt;/li&gt;&lt;li&gt;Once it is downloaded, open Windows Task Manager and close alldevin.exeprocesses&lt;/li&gt;&lt;li&gt;Proceed with installing the update and restarting Windsurf&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Bug fixes and improvements&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Fixed bugs with some MCP servers&lt;/li&gt;&lt;li&gt;Improved reliability of Devin Local agent&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog#2.2.17#2.2.17</guid>
+      <category>Changelog</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf 2.1.32</title>
+      <link>https://windsurf.com/changelog#2.1.32</link>
+      <description>&lt;h3&gt;Bug Fixes &amp; Improvements&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Bug Fixes&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Fixed a crash that could occur when switching between Cascade conversations&lt;/li&gt;&lt;li&gt;Fixed an authentication issue that could prevent Devin Cloud sessions from starting&lt;/li&gt;&lt;li&gt;Fixed an issue where responses to agent questions were not sent correctly&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog#2.1.32#2.1.32</guid>
+      <category>Changelog</category>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Windsurf 2.1.29</title>
       <link>https://windsurf.com/changelog#2.1.29</link>

@@ -8,7 +8,17 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Apr 2026 11:33:21 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 09:32:05 +0000</lastBuildDate>
+    <item>
+      <title>Fast and Comprehensive Code Review, Now in Windsurf</title>
+      <link>https://windsurf.com/blog/devin-review-windsurf</link>
+      <description>Devin Review and Quick Review bring verification into the same workspace where you write code.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/devin-review-windsurf</guid>
+      <category>product</category>
+      <category>windsurf</category>
+      <category>devin-review</category>
+      <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Windsurf 2.0: Introducing the Agent Command Center and Devin in Windsurf</title>
       <link>https://windsurf.com/blog/windsurf-2-0</link>

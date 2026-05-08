@@ -16,173 +16,378 @@ The script will automatically be included in the hourly GitHub Actions workflow 
 
 - [Project Context](#project-context)
 - [Workflow](#workflow)
+  - [Step 0: Classify the URL](#step-0-classify-the-url)
   - [Step 1: Review Existing Feed Generators](#step-1-review-existing-feed-generators)
   - [Step 2: Analyze the Blog Source](#step-2-analyze-the-blog-source)
   - [Step 3: Create the Feed Generator Script](#step-3-create-the-feed-generator-script)
-  - [Step 4: Add Makefile Target](#step-4-add-makefile-target)
-  - [Step 5: Test the Feed Generator](#step-5-test-the-feed-generator)
-  - [Step 6: Integration Checklist](#step-6-integration-checklist)
+  - [Step 4: Update feeds.yaml](#step-4-update-feedsyaml)
+  - [Step 5: Add Makefile Target](#step-5-add-makefile-target)
+  - [Step 6: Update README](#step-6-update-readme)
+  - [Step 7: Test and Verify](#step-7-test-and-verify)
+- [Reference Examples by Type](#reference-examples-by-type)
 - [Common Patterns](#common-patterns)
-  - [Dynamic Content (JavaScript-rendered)](#dynamic-content-javascript-rendered)
-  - [Multiple Feed Types](#multiple-feed-types)
-  - [Incremental Updates](#incremental-updates)
 - [Troubleshooting](#troubleshooting)
-  - [No articles found](#no-articles-found)
-  - [Date parsing failures](#date-parsing-failures)
-  - [Blocked requests (403/429 errors)](#blocked-requests-403429-errors)
 
 ## Project Context
 
 This project generates RSS feeds for blogs that don't provide them natively. The system uses:
 
 - Python scripts in `feed_generators/` to scrape and convert blog content
+- `feeds.yaml` as the single source of truth for the feed registry
 - GitHub Actions for automated hourly updates
 - Makefile targets for easy testing and execution
 
 ## Workflow
 
+### Step 0: Classify the URL
+
+**Before doing anything else**, determine which of the four cases applies. Each has a different exit path.
+
+---
+
+#### Case A: GitHub repo URL (`https://github.com/{owner}/{repo}`)
+
+GitHub provides native Atom feeds — no scraper needed. Ask the user which to track:
+
+> "This is a GitHub repo. GitHub provides native Atom feeds — no scraper needed. Which would you like to track?
+>
+> 1. **Releases** — `https://github.com/{owner}/{repo}/releases.atom`
+> 2. **Tags** — `https://github.com/{owner}/{repo}/tags.atom`
+> 3. **Commits (specific branch)** — `https://github.com/{owner}/{repo}/commits/{branch}.atom` _(ask which branch)_
+> 4. **Commits (main)** — `https://github.com/{owner}/{repo}/commits/main.atom`"
+
+Once the user picks:
+- Construct the final Atom URL.
+- **Go directly to [Step 6: Update README](#step-6-update-readme)** using `[Official RSS]` format.
+- Do **not** create a script, add to `feeds.yaml`, or add a Makefile target.
+
+---
+
+#### Case B: Site has a native RSS/Atom feed
+
+Fetch the page and check for a native feed **before writing any code**:
+
+1. Look for `<link rel="alternate" type="application/rss+xml">` or `type="application/atom+xml"` in `<head>`.
+2. Try common feed paths: `/feed`, `/rss.xml`, `/atom.xml`, `/feed.xml`, `/rss`, `/blog/feed`.
+3. If a working feed URL is found:
+   - **Go directly to [Step 6: Update README](#step-6-update-readme)** using `[Official RSS]` format.
+   - Do **not** create a script, add to `feeds.yaml`, or add a Makefile target.
+
+---
+
+#### Case C: Static site (HTML served without JavaScript rendering)
+
+Signals that `requests` + BeautifulSoup will work:
+- Page HTML contains article content when fetched with `curl` or `requests`
+- No heavy JS framework signals in the HTML (no `<div id="__next">`, no `<div id="app">` with empty body)
+- Articles are visible in `view-source:`
+
+**Reference generator:** `feed_generators/ollama_blog.py` (simplest), `feed_generators/blogsurgeai_feed_generator.py` (more complete), `feed_generators/paulgraham_blog.py`
+
+Use `type: requests` in `feeds.yaml`. Proceed to Step 1.
+
+---
+
+#### Case D: Dynamic site (JavaScript-rendered content)
+
+Signals that Selenium is required:
+- `curl`/`requests` returns a near-empty body or a loading spinner
+- HTML contains `<div id="__next">`, `<div id="root">`, or similar SPA shell
+- Content only appears after JS execution
+
+**Reference generators:** `feed_generators/xainews_blog.py` (Selenium + cache), `feed_generators/anthropic_news_blog.py` (Selenium + cache + incremental), `feed_generators/mistral_blog.py`
+
+Use `type: selenium` in `feeds.yaml`. Proceed to Step 1.
+
+---
+
 ### Step 1: Review Existing Feed Generators
 
-**Always start by examining existing feed generators as references:**
+**Always read the reference generator(s) for your case before writing any code:**
 
 ```bash
-ls feed_generators/*.py
+# For static sites
+cat feed_generators/ollama_blog.py
+cat feed_generators/blogsurgeai_feed_generator.py
+
+# For dynamic/Selenium sites
+cat feed_generators/xainews_blog.py
+cat feed_generators/anthropic_news_blog.py
 ```
 
-Recommended references:
-
-- `anthropic_news_blog.py` - Clean structure, robust error handling
-- `xainews_blog.py` - Local file fallback support, multiple date formats
-- `ollama_blog.py` - Simple implementation
-- `blogsurgeai_feed_generator.py` - Dynamic content with Selenium
-
 Study these to understand:
-
-- Common imports and structure
-- Date parsing patterns
-- Article extraction logic
+- Import structure and shared `utils` helpers
+- `FEED_NAME` and `BLOG_URL` constants
+- Date parsing patterns and fallback chains
+- Article extraction logic and CSS selectors
+- Cache + incremental update pattern (Selenium generators)
 - Error handling approaches
-- Local file fallback support
 
 ### Step 2: Analyze the Blog Source
 
-When given an HTML file or website URL:
-
-1. **Examine the HTML structure** to identify:
-
-   - Article containers and their CSS selectors
-   - Title elements (usually h2, h3, or h4)
+1. **Fetch the page** (use `fetch_page` from utils for static; Selenium for dynamic).
+2. **Examine the HTML structure** to identify:
+   - Article container CSS selectors
+   - Title elements (h2, h3, h4, or custom)
    - Date formats and locations
    - Links to full articles
-   - Categories or tags
    - Description/summary text
-
-2. **Handle access issues**:
-   - If the site blocks automated requests, work with a local HTML file first
-   - The user can provide HTML via browser's "Save Page As" feature
+3. **Handle access issues**:
+   - If the site blocks automated requests (403/429), work with a local HTML file first
+   - The user can provide HTML via browser's "Save Page As"
    - Support both local file and web fetching modes in the final script
 
 ### Step 3: Create the Feed Generator Script
 
-Create a new Python script in `feed_generators/` following the patterns from existing generators. Your script should include:
+Create `feed_generators/<name>_blog.py` following the reference for your case.
 
-**Required Functions:**
+**Naming conventions:**
+- Script: `feed_generators/{site_name}_blog.py`  (e.g. `acme_blog.py`)
+- Feed output: `feeds/feed_{site_name}.xml`  (e.g. `feed_acme.xml`)
+- `FEED_NAME` constant: `"{site_name}"`  (e.g. `"acme"`)
 
-- `get_project_root()` - Get project root directory
-- `ensure_feeds_directory()` - Ensure feeds directory exists
-- `fetch_content(url)` - Fetch content from website
-- `parse_date(date_text)` - Parse dates with multiple format support
-- `extract_articles(soup)` - Extract article information from HTML
-- `parse_html(html_content)` - Parse HTML content
-- `generate_rss_feed(articles, feed_name)` - Generate RSS feed using feedgen
-- `save_rss_feed(feed_generator, feed_name)` - Save feed to XML file
-- `main(feed_name, html_file)` - Main entry point with local file support
+**Required for all generators:**
+- `FEED_NAME` and `BLOG_URL` constants at module level
+- `setup_logging()` from utils
+- Robust date parsing with multiple format fallback (see `xainews_blog.py`)
+- Article deduplication (track seen links with a set)
+- Per-article error handling: log warning and continue, never crash the full run
+- Articles sorted newest-first before feed generation
 
-**Key Implementation Details:**
+**Additional requirements for Selenium generators:**
+- Use `setup_selenium_driver()` from utils
+- Use `load_cache()` / `save_cache()` / `merge_entries()` from utils for incremental updates
+- Support `--full` flag via `argparse` for full-reset runs (see `anthropic_news_blog.py`)
+- Use `sort_posts_for_feed()` from utils
 
-- **Robust Date Parsing**: Support multiple date formats with fallback chain (see `xainews_blog.py` for examples)
-- **Article Deduplication**: Track seen links with a set to avoid duplicates
-- **Error Handling**: Log warnings but continue processing if individual articles fail
-- **Local File Support**: Accept HTML file path as argument and check common locations automatically
-- **Logging**: Use logging module for clear status messages throughout execution
+See [Reference Examples by Type](#reference-examples-by-type) for full structural details.
 
-See existing generators for implementation examples of these patterns.
+### Step 4: Update feeds.yaml
 
-### Step 4: Add Makefile Target
+Add an entry to `feeds.yaml` in alphabetical order by key:
 
-Add a new target to `makefiles/feeds.mk` following the existing pattern:
-
-```makefile
-.PHONY: feeds_new_site
-feeds_new_site: ## Generate RSS feed for NewSite
-   $(call check_venv)
-   $(call print_info,Generating NewSite feed)
-   $(Q)uv run feed_generators/new_site_blog.py
-   $(call print_success,NewSite feed generated)
+**For static (requests) sites:**
+```yaml
+  site_name:
+    script: site_name_blog.py
+    type: requests
+    blog_url: https://example.com/blog
 ```
 
-Also add a legacy alias in the main `Makefile` following the existing pattern.
+**For dynamic (Selenium) sites:**
+```yaml
+  site_name:
+    script: site_name_blog.py
+    type: selenium
+    blog_url: https://example.com/blog
+```
 
-### Step 5: Test the Feed Generator
+### Step 5: Add Makefile Target
 
-1. **Test with local HTML** (if site blocks requests):
+Add targets to `makefiles/feeds.mk` in alphabetical order.
 
-   ```bash
-   uv run feed_generators/new_site_blog.py blog.html
-   ```
+**For static (requests) sites:**
+```makefile
+.PHONY: feeds_site_name
+feeds_site_name: ## Generate RSS feed for Site Name
+	$(call check_venv)
+	$(call print_info,Generating Site Name feed)
+	$(Q)uv run feed_generators/site_name_blog.py
+	$(call print_success,Site Name feed generated)
+```
 
-2. **Test with Makefile**:
+**For dynamic (Selenium) sites — always include both incremental and full-reset targets:**
+```makefile
+.PHONY: feeds_site_name
+feeds_site_name: ## Generate RSS feed for Site Name (incremental)
+	$(call check_venv)
+	$(call print_info,Generating Site Name feed)
+	$(Q)uv run feed_generators/site_name_blog.py
+	$(call print_success,Site Name feed generated)
 
-   ```bash
-   make feeds_new_site
-   ```
+.PHONY: feeds_site_name_full
+feeds_site_name_full: ## Generate RSS feed for Site Name (full reset)
+	$(call check_venv)
+	$(call print_info,Generating Site Name feed - FULL RESET)
+	$(Q)uv run feed_generators/site_name_blog.py --full
+	$(call print_success,Site Name feed generated - full reset)
+```
 
-3. **Validate the generated feed**:
+### Step 6: Update README
 
-   ```bash
-   ls -la feeds/feed_new_site.xml
-   head -50 feeds/feed_new_site.xml
-   ```
+Add a row to the table in `README.md` in **alphabetical order** by blog name.
 
-### Step 6: Integration Checklist
+**For scraped feeds** (Cases C and D):
+```markdown
+| [Site Name](https://example.com/blog) | [feed_site_name.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_site_name.xml) |
+```
 
-- [ ] Script follows naming pattern: `new_site_blog.py`
-- [ ] Output file follows pattern: `feed_new_site.xml`
-- [ ] Makefile target added to `makefiles/feeds.mk`
-- [ ] Script handles both web fetching and local file fallback
-- [ ] Articles are sorted by date (newest first)
+**For native/official feeds** (Cases A and B):
+```markdown
+| [Site Name](https://example.com) | [Official RSS](https://example.com/feed.xml) |
+```
+
+The raw GitHub URL format must be exactly:
+`https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_{name}.xml`
+
+### Step 7: Test and Verify
+
+**Run the generator:**
+
+```bash
+# Static sites
+uv run feed_generators/site_name_blog.py
+
+# Dynamic sites (incremental)
+uv run feed_generators/site_name_blog.py
+
+# Dynamic sites (full reset)
+uv run feed_generators/site_name_blog.py --full
+```
+
+**Verify output:**
+
+```bash
+ls -la feeds/feed_site_name.xml
+head -50 feeds/feed_site_name.xml
+```
+
+**Validate the feed:**
+
+```bash
+uv run feed_generators/validate_feeds.py
+```
+
+**Run via Makefile:**
+
+```bash
+make feeds_site_name
+```
+
+**Integration checklist before declaring done:**
+- [ ] Script follows naming pattern: `feed_generators/{name}_blog.py`
+- [ ] Output file follows pattern: `feeds/feed_{name}.xml`
+- [ ] Entry added to `feeds.yaml` with correct `type`
+- [ ] Makefile target(s) added to `makefiles/feeds.mk` (Selenium: both incremental + `_full`)
+- [ ] README row added in alphabetical order with correct raw GitHub URL
+- [ ] `validate_feeds.py` passes with no errors
+- [ ] Articles are sorted newest-first
 - [ ] Duplicate articles are filtered out
-- [ ] Script continues processing if individual articles fail
+- [ ] Individual article failures are caught and logged (don't crash the run)
+
+## Reference Examples by Type
+
+### Type 1: Static (requests + BeautifulSoup)
+
+**Simplest:** `feed_generators/ollama_blog.py`
+- Minimal imports, straightforward `fetch_page` + BeautifulSoup
+- Good starting point when the HTML structure is clean
+
+**More complete:** `feed_generators/blogsurgeai_feed_generator.py`
+- `fetch_page` + BeautifulSoup + `dateutil.parser`
+- Better date handling, good error patterns
+
+**Complex static with local-file fallback:** `feed_generators/paulgraham_blog.py`
+
+### Type 2: Dynamic (Selenium + cache)
+
+**Selenium + cache, no local-file fallback:** `feed_generators/mistral_blog.py`
+- Minimal Selenium setup
+- Good for simple JS-rendered pages
+
+**Selenium + cache + incremental + argparse:** `feed_generators/xainews_blog.py`
+- Full incremental update pattern with `--full` reset flag
+- Use this as the base template for most Selenium generators
+
+**Selenium + cache + incremental + multiple entry points:** `feed_generators/anthropic_news_blog.py`
+- Same as xainews but handles multiple sections from one site
+- Reference when a single domain has multiple feeds (e.g. `/news`, `/research`, `/engineering`)
+
+### Type 3: Multiple feeds from one site
+
+**Reference:** `feed_generators/anthropic_eng_blog.py`, `feed_generators/anthropic_research_blog.py`
+- Each section gets its own `FEED_NAME` and script
+- Share the Selenium driver setup pattern
+- Add separate `feeds.yaml` entries and Makefile targets per feed
 
 ## Common Patterns
 
-### Dynamic Content (JavaScript-rendered)
+### Official RSS Detection (Case B — run before writing any code)
 
-- See `blogsurgeai_feed_generator.py` for Selenium/undetected-chromedriver example.
+```python
+import requests
+from bs4 import BeautifulSoup
 
-### Multiple Feed Types
+def check_native_feed(url):
+    resp = requests.get(url, timeout=10)
+    soup = BeautifulSoup(resp.text, "html.parser")
+    link = soup.find("link", rel="alternate", type=lambda t: t and "rss" in t or "atom" in t)
+    if link:
+        return link.get("href")
+    # Try common paths
+    for path in ["/feed", "/rss.xml", "/atom.xml", "/feed.xml", "/rss"]:
+        probe = requests.head(url.rstrip("/") + path, timeout=5)
+        if probe.status_code == 200:
+            return url.rstrip("/") + path
+    return None
+```
 
-- See Anthropic generators (`anthropic_news_blog.py`, `anthropic_eng_blog.py`, `anthropic_research_blog.py`) for examples of handling multiple sections from the same site.
+### Incremental Updates (Selenium generators)
 
-### Incremental Updates
+See `feed_generators/anthropic_news_blog.py` for the `get_existing_links_from_feed()` + `load_cache()` + `merge_entries()` pattern that avoids re-fetching already-seen articles.
 
-- See `anthropic_news_blog.py` for the `get_existing_links_from_feed()` pattern to avoid re-processing articles.
+### Robust Date Parsing
+
+```python
+DATE_FORMATS = [
+    "%B %d, %Y",       # January 15, 2024
+    "%b %d, %Y",       # Jan 15, 2024
+    "%Y-%m-%d",        # 2024-01-15
+    "%d %B %Y",        # 15 January 2024
+    "%B %Y",           # January 2024
+]
+
+def parse_date(date_text):
+    for fmt in DATE_FORMATS:
+        with contextlib.suppress(ValueError):
+            return datetime.strptime(date_text.strip(), fmt).replace(tzinfo=pytz.UTC)
+    return stable_fallback_date()  # from utils
+```
+
+### Local File Fallback (for blocked sites)
+
+```python
+import argparse, sys
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("html_file", nargs="?", help="Local HTML file (optional)")
+    args = parser.parse_args()
+
+    if args.html_file:
+        with open(args.html_file) as f:
+            html = f.read()
+    else:
+        html = fetch_page(BLOG_URL)
+    ...
+```
 
 ## Troubleshooting
 
 ### No articles found
 
 - Verify CSS selectors match actual HTML structure
-- Check if content is dynamically loaded (may need Selenium)
+- Check if content is dynamically loaded → switch to Selenium (Case D)
 - Add debug logging to show what selectors find
 
 ### Date parsing failures
 
-- Add the specific date format to `date_formats` list (see existing generators for examples)
-- Check for non-standard date representations
+- Add the specific format to `DATE_FORMATS` list
+- Use `stable_fallback_date()` from utils as the final fallback
 
 ### Blocked requests (403/429 errors)
 
-- Save page locally using browser's "Save Page As"
-- Use local file mode for development and testing
-- Consider different User-Agent headers
+- Save page locally with browser "Save Page As"
+- Use local file mode for development
+- Try different `User-Agent` headers in `fetch_page`
+- If consistently blocked, switch to Selenium (Case D)
