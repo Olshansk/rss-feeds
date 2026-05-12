@@ -8,7 +8,18 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 12 May 2026 18:36:09 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 19:33:51 +0000</lastBuildDate>
+    <item>
+      <title>Opus 4.7 (fast mode) is now available in Windsurf</title>
+      <link>https://windsurf.com/blog/opus-4.7-fast</link>
+      <description>Claude Opus 4.7 (fast mode) is now available in Windsurf with the full intelligence of Opus 4.7 and ~2.5x higher output speeds.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/opus-4.7-fast</guid>
+      <category>product</category>
+      <category>windsurf</category>
+      <category>anthropic</category>
+      <category>opus-4.7-fast</category>
+      <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Fast and Comprehensive Code Review, Now in Windsurf</title>
       <link>https://windsurf.com/blog/devin-review-windsurf</link>
