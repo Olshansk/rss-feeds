@@ -8,7 +8,23 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 12 May 2026 16:43:09 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 17:40:12 +0000</lastBuildDate>
+    <item>
+      <title>How Anthropic's cybersecurity team built a threat detection platform with Claude Code</title>
+      <link>https://claude.com/blog/how-anthropic-uses-claude-cybersecurity</link>
+      <description>How Anthropic's cybersecurity team built a threat detection platform with Claude Code</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-anthropic-uses-claude-cybersecurity</guid>
+      <category>Claude Code</category>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude for the legal industry</title>
+      <link>https://claude.com/blog/claude-for-the-legal-industry</link>
+      <description>Claude for the legal industry</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-for-the-legal-industry</guid>
+      <category>Product announcements</category>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Code w/ Claude SF 2026: Building on the AI exponential </title>
       <link>https://claude.com/blog/code-w-claude-sf-2026-sf</link>
