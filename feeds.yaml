@@ -115,11 +115,6 @@ feeds:
     type: requests
     blog_url: https://www.deeplearning.ai/the-batch/
 
-  thinkingmachines:
-    script: thinkingmachines_blog.py
-    type: requests
-    blog_url: https://thinkingmachines.ai/blog/
-
   weaviate:
     script: weaviate_blog.py
     type: requests

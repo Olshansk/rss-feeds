@@ -114,12 +114,6 @@ feeds_claude_full: ## Generate RSS feed for Claude Blog (full reset)
 	$(Q)uv run feed_generators/claude_blog.py --full
 	$(call print_success,Claude Blog feed generated - full reset)
 
-.PHONY: feeds_thinkingmachines
-feeds_thinkingmachines: ## Generate RSS feed for Thinking Machines Lab blog
-	$(call check_venv)
-	$(call print_info,Generating Thinking Machines Lab feed)
-	$(Q)uv run feed_generators/thinkingmachines_blog.py
-	$(call print_success,Thinking Machines Lab feed generated)
 
 .PHONY: feeds_cursor
 feeds_cursor: ## Generate RSS feed for Cursor Blog (incremental)

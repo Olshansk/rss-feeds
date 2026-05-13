@@ -9,7 +9,9 @@
     <generator>python-feedgen</generator>
     <language>en</language>
     <lastBuildDate>Wed, 13 May 2026 17:42:06 +0000</lastBuildDate>
-    <item>
+    <item><title>[NOTICE] This feed is no longer maintained</title><description>Thinking Machines Lab now publishes an official RSS feed.
+
+Recommended alternative: https://thinkingmachines.ai/blog/index.xml</description><guid isPermaLink="false">deprecation-notice-thinkingmachines</guid><pubDate>Wed, 13 May 2026 03:35:17 +0000</pubDate><link>https://thinkingmachines.ai/blog/index.xml</link></item><item>
       <title>Interaction Models: A Scalable Approach to Human-AI Collaboration</title>
       <link>https://thinkingmachines.ai/blog/interaction-models/</link>
       <description>Interaction Models: A Scalable Approach to Human-AI Collaboration by Thinking Machines</description>
