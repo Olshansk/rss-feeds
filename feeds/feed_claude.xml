@@ -8,6 +8,1097 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 13 May 2026 03:03:35 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 05:16:31 +0000</lastBuildDate>
+    <item>
+      <title>How Anthropic's cybersecurity team built a threat detection platform with Claude Code</title>
+      <link>https://claude.com/blog/how-anthropic-uses-claude-cybersecurity</link>
+      <description>How Anthropic's cybersecurity team built a threat detection platform with Claude Code</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-anthropic-uses-claude-cybersecurity</guid>
+      <category>Claude Code</category>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude for the legal industry</title>
+      <link>https://claude.com/blog/claude-for-the-legal-industry</link>
+      <description>Claude for the legal industry</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-for-the-legal-industry</guid>
+      <category>Product announcements</category>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Code w/ Claude SF 2026: Building on the AI exponential </title>
+      <link>https://claude.com/blog/code-w-claude-sf-2026-sf</link>
+      <description>Code w/ Claude SF 2026: Building on the AI exponential </description>
+      <guid isPermaLink="false">https://claude.com/blog/code-w-claude-sf-2026-sf</guid>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing the Claude Platform on AWS</title>
+      <link>https://claude.com/blog/claude-platform-on-aws</link>
+      <description>Introducing the Claude Platform on AWS</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-platform-on-aws</guid>
+      <category>Product announcements</category>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agent view in Claude Code</title>
+      <link>https://claude.com/blog/agent-view-in-claude-code</link>
+      <description>Agent view in Claude Code</description>
+      <guid isPermaLink="false">https://claude.com/blog/agent-view-in-claude-code</guid>
+      <category>Product announcements</category>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Collaborate with Claude across Excel, PowerPoint, Word and Outlook </title>
+      <link>https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook</link>
+      <description>Collaborate with Claude across Excel, PowerPoint, Word and Outlook </description>
+      <guid isPermaLink="false">https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook</guid>
+      <category>Product announcements</category>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration</title>
+      <link>https://claude.com/blog/new-in-claude-managed-agents</link>
+      <description>New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration</description>
+      <guid isPermaLink="false">https://claude.com/blog/new-in-claude-managed-agents</guid>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deploying Claude across financial services</title>
+      <link>https://claude.com/blog/deploying-claude-across-financial-services</link>
+      <description>Deploying Claude across financial services</description>
+      <guid isPermaLink="false">https://claude.com/blog/deploying-claude-across-financial-services</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How a non-technical project manager built and shipped a stress management app with Claude Code in six weeks</title>
+      <link>https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks</link>
+      <description>How a non-technical project manager built and shipped a stress management app with Claude Code in six weeks</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks</guid>
+      <category>Claude Code</category>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Kepler built verifiable AI for financial services with Claude</title>
+      <link>https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude</link>
+      <description>How Kepler built verifiable AI for financial services with Claude</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lessons from building Claude Code: Prompt caching is everything</title>
+      <link>https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything</link>
+      <description>Lessons from building Claude Code: Prompt caching is everything</description>
+      <guid isPermaLink="false">https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything</guid>
+      <category>Claude Code</category>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Security is now in public beta</title>
+      <link>https://claude.com/blog/claude-security-public-beta</link>
+      <description>Claude Security is now in public beta</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-security-public-beta</guid>
+      <category>Product announcements</category>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building AI agents for the enterprise</title>
+      <link>https://claude.com/blog/building-ai-agents-for-the-enterprise</link>
+      <description>Building AI agents for the enterprise</description>
+      <guid isPermaLink="false">https://claude.com/blog/building-ai-agents-for-the-enterprise</guid>
+      <category>Agents</category>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Product development in the agentic era</title>
+      <link>https://claude.com/blog/product-development-in-the-agentic-era</link>
+      <description>Product development in the agentic era</description>
+      <guid isPermaLink="false">https://claude.com/blog/product-development-in-the-agentic-era</guid>
+      <category>Agents</category>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp</title>
+      <link>https://claude.com/blog/claude-api-skill</link>
+      <description>Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-api-skill</guid>
+      <category>Agents</category>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deploying agentic AI across the enterprise with Claude Cowork</title>
+      <link>https://claude.com/blog/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork</link>
+      <description>Deploying agentic AI across the enterprise with Claude Cowork</description>
+      <guid isPermaLink="false">https://claude.com/blog/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Onboarding Claude Code like a new developer: Lessons from 17 years of development</title>
+      <link>https://claude.com/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development</link>
+      <description>Onboarding Claude Code like a new developer: Lessons from 17 years of development</description>
+      <guid isPermaLink="false">https://claude.com/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development</guid>
+      <category>Claude Code</category>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Built-in memory for Claude Managed Agents</title>
+      <link>https://claude.com/blog/claude-managed-agents-memory</link>
+      <description>Built-in memory for Claude Managed Agents</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-managed-agents-memory</guid>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>New connectors in Claude for everyday life</title>
+      <link>https://claude.com/blog/connectors-for-everyday-life</link>
+      <description>New connectors in Claude for everyday life</description>
+      <guid isPermaLink="false">https://claude.com/blog/connectors-for-everyday-life</guid>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building agents that reach production systems with MCP</title>
+      <link>https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp</link>
+      <description>Building agents that reach production systems with MCP</description>
+      <guid isPermaLink="false">https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp</guid>
+      <category>Agents</category>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Meet the winners of our Built with Opus 4.6 Claude Code hackathon </title>
+      <link>https://claude.com/blog/meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon</link>
+      <description>Meet the winners of our Built with Opus 4.6 Claude Code hackathon </description>
+      <guid isPermaLink="false">https://claude.com/blog/meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon</guid>
+      <category>Claude Code</category>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Best practices for using Claude Opus 4.7 with Claude Code</title>
+      <link>https://claude.com/blog/best-practices-for-using-claude-opus-4-7-with-claude-code</link>
+      <description>Best practices for using Claude Opus 4.7 with Claude Code</description>
+      <guid isPermaLink="false">https://claude.com/blog/best-practices-for-using-claude-opus-4-7-with-claude-code</guid>
+      <category>Claude Code</category>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using Claude Code: session management and 1M context</title>
+      <link>https://claude.com/blog/using-claude-code-session-management-and-1m-context</link>
+      <description>Using Claude Code: session management and 1M context</description>
+      <guid isPermaLink="false">https://claude.com/blog/using-claude-code-session-management-and-1m-context</guid>
+      <category>Claude Code</category>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing routines in Claude Code</title>
+      <link>https://claude.com/blog/introducing-routines-in-claude-code</link>
+      <description>Introducing routines in Claude Code</description>
+      <guid isPermaLink="false">https://claude.com/blog/introducing-routines-in-claude-code</guid>
+      <category>Product announcements</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Redesigning Claude Code on desktop for parallel agents</title>
+      <link>https://claude.com/blog/claude-code-desktop-redesign</link>
+      <description>Redesigning Claude Code on desktop for parallel agents</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-code-desktop-redesign</guid>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multi-agent coordination patterns: Five approaches and when to use them</title>
+      <link>https://claude.com/blog/multi-agent-coordination-patterns</link>
+      <description>Multi-agent coordination patterns: Five approaches and when to use them</description>
+      <guid isPermaLink="false">https://claude.com/blog/multi-agent-coordination-patterns</guid>
+      <category>Agents</category>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Seeing like an agent: how we design tools in Claude Code</title>
+      <link>https://claude.com/blog/seeing-like-an-agent</link>
+      <description>Seeing like an agent: how we design tools in Claude Code</description>
+      <guid isPermaLink="false">https://claude.com/blog/seeing-like-an-agent</guid>
+      <category>Claude Code</category>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Preparing your security program for AI-accelerated offense</title>
+      <link>https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense</link>
+      <description>Preparing your security program for AI-accelerated offense</description>
+      <guid isPermaLink="false">https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense</guid>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Making Claude Cowork ready for enterprise</title>
+      <link>https://claude.com/blog/cowork-for-enterprise</link>
+      <description>Making Claude Cowork ready for enterprise</description>
+      <guid isPermaLink="false">https://claude.com/blog/cowork-for-enterprise</guid>
+      <category>Product announcements</category>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The advisor strategy: Give agents an intelligence boost</title>
+      <link>https://claude.com/blog/the-advisor-strategy</link>
+      <description>The advisor strategy: Give agents an intelligence boost</description>
+      <guid isPermaLink="false">https://claude.com/blog/the-advisor-strategy</guid>
+      <category>Product announcements</category>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Carta Healthcare gets AI to reason like a clinical abstractor</title>
+      <link>https://claude.com/blog/carta-healthcare-clinical-abstractor</link>
+      <description>How Carta Healthcare gets AI to reason like a clinical abstractor</description>
+      <guid isPermaLink="false">https://claude.com/blog/carta-healthcare-clinical-abstractor</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Managed Agents: get to production 10x faster</title>
+      <link>https://claude.com/blog/claude-managed-agents</link>
+      <description>Claude Managed Agents: get to production 10x faster</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-managed-agents</guid>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How and when to use subagents in Claude Code</title>
+      <link>https://claude.com/blog/subagents-in-claude-code</link>
+      <description>How and when to use subagents in Claude Code</description>
+      <guid isPermaLink="false">https://claude.com/blog/subagents-in-claude-code</guid>
+      <category>Claude Code</category>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Harnessing Claude’s intelligence</title>
+      <link>https://claude.com/blog/harnessing-claudes-intelligence</link>
+      <description>Harnessing Claude’s intelligence</description>
+      <guid isPermaLink="false">https://claude.com/blog/harnessing-claudes-intelligence</guid>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Audit Claude Platform activity with the Compliance API</title>
+      <link>https://claude.com/blog/claude-platform-compliance-api</link>
+      <description>Audit Claude Platform activity with the Compliance API</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-platform-compliance-api</guid>
+      <category>Product announcements</category>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Auto mode for Claude Code</title>
+      <link>https://claude.com/blog/auto-mode</link>
+      <description>Auto mode for Claude Code</description>
+      <guid isPermaLink="false">https://claude.com/blog/auto-mode</guid>
+      <category>Claude Code</category>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Put Claude to work on your computer</title>
+      <link>https://claude.com/blog/dispatch-and-computer-use</link>
+      <description>Put Claude to work on your computer</description>
+      <guid isPermaLink="false">https://claude.com/blog/dispatch-and-computer-use</guid>
+      <category>Product announcements</category>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Product management on the AI exponential </title>
+      <link>https://claude.com/blog/product-management-on-the-ai-exponential</link>
+      <description>Product management on the AI exponential </description>
+      <guid isPermaLink="false">https://claude.com/blog/product-management-on-the-ai-exponential</guid>
+      <category>Claude Code</category>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Code with Claude comes to San Francisco, London, and Tokyo</title>
+      <link>https://claude.com/blog/code-with-claude-san-francisco-london-tokyo</link>
+      <description>Code with Claude comes to San Francisco, London, and Tokyo</description>
+      <guid isPermaLink="false">https://claude.com/blog/code-with-claude-san-francisco-london-tokyo</guid>
+      <category>Claude Code</category>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>1M context is now generally available for Opus 4.6 and Sonnet 4.6</title>
+      <link>https://claude.com/blog/1m-context-ga</link>
+      <description>1M context is now generally available for Opus 4.6 and Sonnet 4.6</description>
+      <guid isPermaLink="false">https://claude.com/blog/1m-context-ga</guid>
+      <category>Product announcements</category>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude now creates interactive charts, diagrams and visualizations</title>
+      <link>https://claude.com/blog/claude-builds-visuals</link>
+      <description>Claude now creates interactive charts, diagrams and visualizations</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-builds-visuals</guid>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Advancing Claude for Excel and PowerPoint</title>
+      <link>https://claude.com/blog/claude-excel-powerpoint-updates</link>
+      <description>Advancing Claude for Excel and PowerPoint</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-excel-powerpoint-updates</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bringing Code Review to Claude Code</title>
+      <link>https://claude.com/blog/code-review</link>
+      <description>Bringing Code Review to Claude Code</description>
+      <guid isPermaLink="false">https://claude.com/blog/code-review</guid>
+      <category>Claude Code</category>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Common workflow patterns for AI agents—and when to use them</title>
+      <link>https://claude.com/blog/common-workflow-patterns-for-ai-agents-and-when-to-use-them</link>
+      <description>Common workflow patterns for AI agents—and when to use them</description>
+      <guid isPermaLink="false">https://claude.com/blog/common-workflow-patterns-for-ai-agents-and-when-to-use-them</guid>
+      <category>Agents</category>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Improving skill-creator: Test, measure, and refine Agent Skills</title>
+      <link>https://claude.com/blog/improving-skill-creator-test-measure-and-refine-agent-skills</link>
+      <description>Improving skill-creator: Test, measure, and refine Agent Skills</description>
+      <guid isPermaLink="false">https://claude.com/blog/improving-skill-creator-test-measure-and-refine-agent-skills</guid>
+      <category>Claude Code</category>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cowork and plugins for teams across the enterprise</title>
+      <link>https://claude.com/blog/cowork-plugins-across-enterprise</link>
+      <description>Cowork and plugins for teams across the enterprise</description>
+      <guid isPermaLink="false">https://claude.com/blog/cowork-plugins-across-enterprise</guid>
+      <category>Agents</category>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cowork and plugins for finance </title>
+      <link>https://claude.com/blog/cowork-plugins-finance</link>
+      <description>Cowork and plugins for finance </description>
+      <guid isPermaLink="false">https://claude.com/blog/cowork-plugins-finance</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How AI helps break the cost barrier to COBOL modernization</title>
+      <link>https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization</link>
+      <description>How AI helps break the cost barrier to COBOL modernization</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization</guid>
+      <category>Claude Code</category>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bringing automated preview, review, and merge to Claude Code on desktop</title>
+      <link>https://claude.com/blog/preview-review-and-merge-with-claude-code</link>
+      <description>Bringing automated preview, review, and merge to Claude Code on desktop</description>
+      <guid isPermaLink="false">https://claude.com/blog/preview-review-and-merge-with-claude-code</guid>
+      <category>Claude Code</category>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Increase web search accuracy and efficiency with dynamic filtering</title>
+      <link>https://claude.com/blog/improved-web-search-with-dynamic-filtering</link>
+      <description>Increase web search accuracy and efficiency with dynamic filtering</description>
+      <guid isPermaLink="false">https://claude.com/blog/improved-web-search-with-dynamic-filtering</guid>
+      <category>Product announcements</category>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Enterprise, now available self-serve</title>
+      <link>https://claude.com/blog/self-serve-enterprise</link>
+      <description>Claude Enterprise, now available self-serve</description>
+      <guid isPermaLink="false">https://claude.com/blog/self-serve-enterprise</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Behind the model launch: What customers discovered testing Claude Opus 4.6 early</title>
+      <link>https://claude.com/blog/behind-model-launch-what-customers-discovered-testing-claude-opus-4-6-early</link>
+      <description>Behind the model launch: What customers discovered testing Claude Opus 4.6 early</description>
+      <guid isPermaLink="false">https://claude.com/blog/behind-model-launch-what-customers-discovered-testing-claude-opus-4-6-early</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Advancing finance with Claude Opus 4.6</title>
+      <link>https://claude.com/blog/opus-4-6-finance</link>
+      <description>Advancing finance with Claude Opus 4.6</description>
+      <guid isPermaLink="false">https://claude.com/blog/opus-4-6-finance</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Customize Cowork with plugins</title>
+      <link>https://claude.com/blog/cowork-plugins</link>
+      <description>Customize Cowork with plugins</description>
+      <guid isPermaLink="false">https://claude.com/blog/cowork-plugins</guid>
+      <category>Product announcements</category>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Understand Claude Code’s impact with contribution metrics</title>
+      <link>https://claude.com/blog/contribution-metrics</link>
+      <description>Understand Claude Code’s impact with contribution metrics</description>
+      <guid isPermaLink="false">https://claude.com/blog/contribution-metrics</guid>
+      <category>Claude Code</category>
+      <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A complete guide to building skills for Claude</title>
+      <link>https://claude.com/blog/complete-guide-to-building-skills-for-claude</link>
+      <description>A complete guide to building skills for Claude</description>
+      <guid isPermaLink="false">https://claude.com/blog/complete-guide-to-building-skills-for-claude</guid>
+      <category>Claude Code</category>
+      <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Updates to Claude Team</title>
+      <link>https://claude.com/blog/claude-team-updates</link>
+      <description>Updates to Claude Team</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-team-updates</guid>
+      <category>Product announcements</category>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How leading retailers are turning AI pilots into enterprise-wide transformation</title>
+      <link>https://claude.com/blog/how-leading-retailers-are-turning-ai-pilots-into-enterprise-wide-transformation</link>
+      <description>How leading retailers are turning AI pilots into enterprise-wide transformation</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-leading-retailers-are-turning-ai-pilots-into-enterprise-wide-transformation</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Anthropic's Growth Marketing team cut ad creation time from 30 minutes to 30 seconds with Claude Code</title>
+      <link>https://claude.com/blog/how-anthropic-uses-claude-marketing</link>
+      <description>How Anthropic's Growth Marketing team cut ad creation time from 30 minutes to 30 seconds with Claude Code</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-anthropic-uses-claude-marketing</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Your favorite work tools are now interactive connectors inside Claude</title>
+      <link>https://claude.com/blog/interactive-tools-in-claude</link>
+      <description>Your favorite work tools are now interactive connectors inside Claude</description>
+      <guid isPermaLink="false">https://claude.com/blog/interactive-tools-in-claude</guid>
+      <category>Product announcements</category>
+      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building multi-agent systems: When and how to use them</title>
+      <link>https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them</link>
+      <description>Building multi-agent systems: When and how to use them</description>
+      <guid isPermaLink="false">https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them</guid>
+      <category>Agents</category>
+      <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building agents with Skills: Equipping agents for specialized work</title>
+      <link>https://claude.com/blog/building-agents-with-skills-equipping-agents-for-specialized-work</link>
+      <description>Building agents with Skills: Equipping agents for specialized work</description>
+      <guid isPermaLink="false">https://claude.com/blog/building-agents-with-skills-equipping-agents-for-specialized-work</guid>
+      <category>Agents</category>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Eight trends defining how software gets built in 2026</title>
+      <link>https://claude.com/blog/eight-trends-defining-how-software-gets-built-in-2026</link>
+      <description>Eight trends defining how software gets built in 2026</description>
+      <guid isPermaLink="false">https://claude.com/blog/eight-trends-defining-how-software-gets-built-in-2026</guid>
+      <category>Agents</category>
+      <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Extending Claude’s capabilities with skills and MCP servers</title>
+      <link>https://claude.com/blog/extending-claude-capabilities-with-skills-mcp-servers</link>
+      <description>Extending Claude’s capabilities with skills and MCP servers</description>
+      <guid isPermaLink="false">https://claude.com/blog/extending-claude-capabilities-with-skills-mcp-servers</guid>
+      <category>Agents</category>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Skills for organizations, partners, the ecosystem</title>
+      <link>https://claude.com/blog/organization-skills-and-directory</link>
+      <description>Skills for organizations, partners, the ecosystem</description>
+      <guid isPermaLink="false">https://claude.com/blog/organization-skills-and-directory</guid>
+      <category>Product announcements</category>
+      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Making Claude a better electrical engineer</title>
+      <link>https://claude.com/blog/making-claude-a-better-electrical-engineer</link>
+      <description>Making Claude a better electrical engineer</description>
+      <guid isPermaLink="false">https://claude.com/blog/making-claude-a-better-electrical-engineer</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Code power user customization: How to configure hooks</title>
+      <link>https://claude.com/blog/how-to-configure-hooks</link>
+      <description>Claude Code power user customization: How to configure hooks</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-to-configure-hooks</guid>
+      <category>Claude Code</category>
+      <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How enterprises are building AI agents in 2026</title>
+      <link>https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026</link>
+      <description>How enterprises are building AI agents in 2026</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026</guid>
+      <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Code and Slack</title>
+      <link>https://claude.com/blog/claude-code-and-slack</link>
+      <description>Claude Code and Slack</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-code-and-slack</guid>
+      <category>Product announcements</category>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Anthropic's legal team cut review times from days to hours with Claude</title>
+      <link>https://claude.com/blog/how-anthropic-uses-claude-legal</link>
+      <description>How Anthropic's legal team cut review times from days to hours with Claude</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-anthropic-uses-claude-legal</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What are the key benefits of transitioning to agentic coding for software development?</title>
+      <link>https://claude.com/blog/key-benefits-transitioning-agentic-coding</link>
+      <description>What are the key benefits of transitioning to agentic coding for software development?</description>
+      <guid isPermaLink="false">https://claude.com/blog/key-benefits-transitioning-agentic-coding</guid>
+      <category>Claude Code</category>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using CLAUDE.md files: Customizing Claude Code for your codebase</title>
+      <link>https://claude.com/blog/using-claude-md-files</link>
+      <description>Using CLAUDE.md files: Customizing Claude Code for your codebase</description>
+      <guid isPermaLink="false">https://claude.com/blog/using-claude-md-files</guid>
+      <category>Claude Code</category>
+      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What’s new in Claude: Turning Claude into your thinking partner</title>
+      <link>https://claude.com/blog/your-thinking-partner</link>
+      <description>What’s new in Claude: Turning Claude into your thinking partner</description>
+      <guid isPermaLink="false">https://claude.com/blog/your-thinking-partner</guid>
+      <category>Product announcements</category>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to create Skills: Key steps, limitations, and examples</title>
+      <link>https://claude.com/blog/how-to-create-skills-key-steps-limitations-and-examples</link>
+      <description>How to create Skills: Key steps, limitations, and examples</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-to-create-skills-key-steps-limitations-and-examples</guid>
+      <category>Claude Code</category>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How three YC startups built their companies with Claude Code</title>
+      <link>https://claude.com/blog/building-companies-with-claude-code</link>
+      <description>How three YC startups built their companies with Claude Code</description>
+      <guid isPermaLink="false">https://claude.com/blog/building-companies-with-claude-code</guid>
+      <category>Claude Code</category>
+      <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Structured outputs on the Claude Developer Platform</title>
+      <link>https://claude.com/blog/structured-outputs-on-the-claude-developer-platform</link>
+      <description>Structured outputs on the Claude Developer Platform</description>
+      <guid isPermaLink="false">https://claude.com/blog/structured-outputs-on-the-claude-developer-platform</guid>
+      <category>Product announcements</category>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Skills explained: How Skills compares to prompts, Projects, MCP, and subagents </title>
+      <link>https://claude.com/blog/skills-explained</link>
+      <description>Skills explained: How Skills compares to prompts, Projects, MCP, and subagents </description>
+      <guid isPermaLink="false">https://claude.com/blog/skills-explained</guid>
+      <category>Agents</category>
+      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Improving frontend design through Skills</title>
+      <link>https://claude.com/blog/improving-frontend-design-through-skills</link>
+      <description>Improving frontend design through Skills</description>
+      <guid isPermaLink="false">https://claude.com/blog/improving-frontend-design-through-skills</guid>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Best practices for prompt engineering</title>
+      <link>https://claude.com/blog/best-practices-for-prompt-engineering</link>
+      <description>Best practices for prompt engineering</description>
+      <guid isPermaLink="false">https://claude.com/blog/best-practices-for-prompt-engineering</guid>
+      <category>Agents</category>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building AI agents for startups</title>
+      <link>https://claude.com/blog/building-ai-agents-for-startups</link>
+      <description>Building AI agents for startups</description>
+      <guid isPermaLink="false">https://claude.com/blog/building-ai-agents-for-startups</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What is Model Context Protocol? Connect AI to your world</title>
+      <link>https://claude.com/blog/what-is-model-context-protocol</link>
+      <description>What is Model Context Protocol? Connect AI to your world</description>
+      <guid isPermaLink="false">https://claude.com/blog/what-is-model-context-protocol</guid>
+      <category>Agents</category>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Brex improves code quality and productivity with Claude Code</title>
+      <link>https://claude.com/blog/how-brex-improves-code-quality-and-productivity-with-claude-code</link>
+      <description>How Brex improves code quality and productivity with Claude Code</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-brex-improves-code-quality-and-productivity-with-claude-code</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building AI agents for financial services</title>
+      <link>https://claude.com/blog/building-ai-agents-in-financial-services</link>
+      <description>Building AI agents for financial services</description>
+      <guid isPermaLink="false">https://claude.com/blog/building-ai-agents-in-financial-services</guid>
+      <category>Agents</category>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building AI agents for healthcare and life sciences</title>
+      <link>https://claude.com/blog/building-ai-agents-in-healthcare-and-life-sciences</link>
+      <description>Building AI agents for healthcare and life sciences</description>
+      <guid isPermaLink="false">https://claude.com/blog/building-ai-agents-in-healthcare-and-life-sciences</guid>
+      <category>Agents</category>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introduction to agentic coding</title>
+      <link>https://claude.com/blog/introduction-to-agentic-coding</link>
+      <description>Introduction to agentic coding</description>
+      <guid isPermaLink="false">https://claude.com/blog/introduction-to-agentic-coding</guid>
+      <category>Claude Code</category>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fix software bugs faster with Claude</title>
+      <link>https://claude.com/blog/fix-software-bugs-faster-with-claude</link>
+      <description>Fix software bugs faster with Claude</description>
+      <guid isPermaLink="false">https://claude.com/blog/fix-software-bugs-faster-with-claude</guid>
+      <category>Claude Code</category>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to integrate APIs seamlessly</title>
+      <link>https://claude.com/blog/integrate-apis-seamlessly</link>
+      <description>How to integrate APIs seamlessly</description>
+      <guid isPermaLink="false">https://claude.com/blog/integrate-apis-seamlessly</guid>
+      <category>Claude Code</category>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Code on the web</title>
+      <link>https://claude.com/blog/claude-code-on-the-web</link>
+      <description>Claude Code on the web</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-code-on-the-web</guid>
+      <category>Product announcements</category>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Agent Skills</title>
+      <link>https://claude.com/blog/skills</link>
+      <description>Introducing Agent Skills</description>
+      <guid isPermaLink="false">https://claude.com/blog/skills</guid>
+      <category>Product announcements</category>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude and your productivity platforms</title>
+      <link>https://claude.com/blog/productivity-platforms</link>
+      <description>Claude and your productivity platforms</description>
+      <guid isPermaLink="false">https://claude.com/blog/productivity-platforms</guid>
+      <category>Product announcements</category>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to scale agentic coding across your engineering organization</title>
+      <link>https://claude.com/blog/scaling-agentic-coding</link>
+      <description>How to scale agentic coding across your engineering organization</description>
+      <guid isPermaLink="false">https://claude.com/blog/scaling-agentic-coding</guid>
+      <category>Claude Code</category>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Build responsive web layouts</title>
+      <link>https://claude.com/blog/build-responsive-web-layouts</link>
+      <description>Build responsive web layouts</description>
+      <guid isPermaLink="false">https://claude.com/blog/build-responsive-web-layouts</guid>
+      <category>Claude Code</category>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Customize Claude Code with plugins</title>
+      <link>https://claude.com/blog/claude-code-plugins</link>
+      <description>Customize Claude Code with plugins</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-code-plugins</guid>
+      <category>Product announcements</category>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Beyond permission prompts: making Claude Code more secure and autonomous</title>
+      <link>https://claude.com/blog/beyond-permission-prompts-making-claude-code-more-secure-and-autonomous</link>
+      <description>Beyond permission prompts: making Claude Code more secure and autonomous</description>
+      <guid isPermaLink="false">https://claude.com/blog/beyond-permission-prompts-making-claude-code-more-secure-and-autonomous</guid>
+      <category>Claude Code</category>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Optimize code performance quickly</title>
+      <link>https://claude.com/blog/optimize-code-performance-quickly</link>
+      <description>Optimize code performance quickly</description>
+      <guid isPermaLink="false">https://claude.com/blog/optimize-code-performance-quickly</guid>
+      <category>Claude Code</category>
+      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude and Slack</title>
+      <link>https://claude.com/blog/claude-and-slack</link>
+      <description>Claude and Slack</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-and-slack</guid>
+      <category>Product announcements</category>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How enterprises are driving AI transformation with Claude</title>
+      <link>https://claude.com/blog/driving-ai-transformation-with-claude</link>
+      <description>How enterprises are driving AI transformation with Claude</description>
+      <guid isPermaLink="false">https://claude.com/blog/driving-ai-transformation-with-claude</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Managing context on the Claude Developer Platform</title>
+      <link>https://claude.com/blog/context-management</link>
+      <description>Managing context on the Claude Developer Platform</description>
+      <guid isPermaLink="false">https://claude.com/blog/context-management</guid>
+      <category>Product announcements</category>
+      <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building agents with the Claude Agent SDK</title>
+      <link>https://claude.com/blog/building-agents-with-the-claude-agent-sdk</link>
+      <description>Building agents with the Claude Agent SDK</description>
+      <guid isPermaLink="false">https://claude.com/blog/building-agents-with-the-claude-agent-sdk</guid>
+      <category>Claude Code</category>
+      <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude is now available in Microsoft 365 Copilot</title>
+      <link>https://claude.com/blog/claude-now-available-in-microsoft-365-copilot</link>
+      <description>Claude is now available in Microsoft 365 Copilot</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-now-available-in-microsoft-365-copilot</guid>
+      <category>Product announcements</category>
+      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bringing memory to Claude</title>
+      <link>https://claude.com/blog/memory</link>
+      <description>Bringing memory to Claude</description>
+      <guid isPermaLink="false">https://claude.com/blog/memory</guid>
+      <category>Product announcements</category>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude can now create and edit files</title>
+      <link>https://claude.com/blog/create-files</link>
+      <description>Claude can now create and edit files</description>
+      <guid isPermaLink="false">https://claude.com/blog/create-files</guid>
+      <category>Product announcements</category>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Piloting Claude in Chrome</title>
+      <link>https://claude.com/blog/claude-for-chrome</link>
+      <description>Piloting Claude in Chrome</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-for-chrome</guid>
+      <category>Product announcements</category>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Code and new admin controls for business plans</title>
+      <link>https://claude.com/blog/claude-code-and-new-admin-controls-for-business-plans</link>
+      <description>Claude Code and new admin controls for business plans</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-code-and-new-admin-controls-for-business-plans</guid>
+      <category>Product announcements</category>
+      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Prompt caching with Claude</title>
+      <link>https://claude.com/blog/prompt-caching</link>
+      <description>Prompt caching with Claude</description>
+      <guid isPermaLink="false">https://claude.com/blog/prompt-caching</guid>
+      <category>Product announcements</category>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Sonnet 4 now supports 1M tokens of context</title>
+      <link>https://claude.com/blog/1m-context</link>
+      <description>Claude Sonnet 4 now supports 1M tokens of context</description>
+      <guid isPermaLink="false">https://claude.com/blog/1m-context</guid>
+      <category>Product announcements</category>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Automate security reviews with Claude Code</title>
+      <link>https://claude.com/blog/automate-security-reviews-with-claude-code</link>
+      <description>Automate security reviews with Claude Code</description>
+      <guid isPermaLink="false">https://claude.com/blog/automate-security-reviews-with-claude-code</guid>
+      <category>Product announcements</category>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Build and share AI-powered apps with Claude</title>
+      <link>https://claude.com/blog/claude-powered-artifacts</link>
+      <description>Build and share AI-powered apps with Claude</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-powered-artifacts</guid>
+      <category>Product announcements</category>
+      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Anthropic teams use Claude Code</title>
+      <link>https://claude.com/blog/how-anthropic-teams-use-claude-code</link>
+      <description>How Anthropic teams use Claude Code</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-anthropic-teams-use-claude-code</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Discover tools that work with Claude</title>
+      <link>https://claude.com/blog/connectors-directory</link>
+      <description>Discover tools that work with Claude</description>
+      <guid isPermaLink="false">https://claude.com/blog/connectors-directory</guid>
+      <category>Product announcements</category>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Turn ideas into interactive AI-powered apps</title>
+      <link>https://claude.com/blog/build-artifacts</link>
+      <description>Turn ideas into interactive AI-powered apps</description>
+      <guid isPermaLink="false">https://claude.com/blog/build-artifacts</guid>
+      <category>Product announcements</category>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Citations on the Anthropic API</title>
+      <link>https://claude.com/blog/introducing-citations-api</link>
+      <description>Introducing Citations on the Anthropic API</description>
+      <guid isPermaLink="false">https://claude.com/blog/introducing-citations-api</guid>
+      <category>Product announcements</category>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Remote MCP support in Claude Code</title>
+      <link>https://claude.com/blog/claude-code-remote-mcp</link>
+      <description>Remote MCP support in Claude Code</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-code-remote-mcp</guid>
+      <category>Product announcements</category>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>New capabilities for building agents on the Anthropic API</title>
+      <link>https://claude.com/blog/agent-capabilities-api</link>
+      <description>New capabilities for building agents on the Anthropic API</description>
+      <guid isPermaLink="false">https://claude.com/blog/agent-capabilities-api</guid>
+      <category>Product announcements</category>
+      <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing web search on the Anthropic API</title>
+      <link>https://claude.com/blog/web-search-api</link>
+      <description>Introducing web search on the Anthropic API</description>
+      <guid isPermaLink="false">https://claude.com/blog/web-search-api</guid>
+      <category>Product announcements</category>
+      <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude can now connect to your world</title>
+      <link>https://claude.com/blog/integrations</link>
+      <description>Claude can now connect to your world</description>
+      <guid isPermaLink="false">https://claude.com/blog/integrations</guid>
+      <category>Product announcements</category>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude takes research to new places</title>
+      <link>https://claude.com/blog/research</link>
+      <description>Claude takes research to new places</description>
+      <guid isPermaLink="false">https://claude.com/blog/research</guid>
+      <category>Product announcements</category>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing the Max Plan</title>
+      <link>https://claude.com/blog/max-plan</link>
+      <description>Introducing the Max Plan</description>
+      <guid isPermaLink="false">https://claude.com/blog/max-plan</guid>
+      <category>Product announcements</category>
+      <pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude on Google Cloud’s Vertex AI: FedRAMP High and IL2 Authorized</title>
+      <link>https://claude.com/blog/claude-on-google-cloud-fedramp-high</link>
+      <description>Claude on Google Cloud’s Vertex AI: FedRAMP High and IL2 Authorized</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-on-google-cloud-fedramp-high</guid>
+      <category>Product announcements</category>
+      <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude can now search the web</title>
+      <link>https://claude.com/blog/web-search</link>
+      <description>Claude can now search the web</description>
+      <guid isPermaLink="false">https://claude.com/blog/web-search</guid>
+      <category>Product announcements</category>
+      <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Token-saving updates on the Anthropic API</title>
+      <link>https://claude.com/blog/token-saving-updates</link>
+      <description>Token-saving updates on the Anthropic API</description>
+      <guid isPermaLink="false">https://claude.com/blog/token-saving-updates</guid>
+      <category>Product announcements</category>
+      <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Get to production faster with the upgraded Anthropic Console</title>
+      <link>https://claude.com/blog/upgraded-anthropic-console</link>
+      <description>Get to production faster with the upgraded Anthropic Console</description>
+      <guid isPermaLink="false">https://claude.com/blog/upgraded-anthropic-console</guid>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude 3.5 Haiku on AWS Trainium2 and model distillation in Amazon Bedrock</title>
+      <link>https://claude.com/blog/trainium2-and-distillation</link>
+      <description>Claude 3.5 Haiku on AWS Trainium2 and model distillation in Amazon Bedrock</description>
+      <guid isPermaLink="false">https://claude.com/blog/trainium2-and-distillation</guid>
+      <category>Product announcements</category>
+      <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing the analysis tool in Claude.ai</title>
+      <link>https://claude.com/blog/analysis-tool</link>
+      <description>Introducing the analysis tool in Claude.ai</description>
+      <guid isPermaLink="false">https://claude.com/blog/analysis-tool</guid>
+      <category>Product announcements</category>
+      <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Improve your prompts in the developer console</title>
+      <link>https://claude.com/blog/prompt-improver</link>
+      <description>Improve your prompts in the developer console</description>
+      <guid isPermaLink="false">https://claude.com/blog/prompt-improver</guid>
+      <category>Product announcements</category>
+      <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing the Message Batches API</title>
+      <link>https://claude.com/blog/message-batches-api</link>
+      <description>Introducing the Message Batches API</description>
+      <guid isPermaLink="false">https://claude.com/blog/message-batches-api</guid>
+      <category>Product announcements</category>
+      <pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Workspaces in the Anthropic API Console</title>
+      <link>https://claude.com/blog/workspaces</link>
+      <description>Workspaces in the Anthropic API Console</description>
+      <guid isPermaLink="false">https://claude.com/blog/workspaces</guid>
+      <category>Product announcements</category>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude for Enterprise</title>
+      <link>https://claude.com/blog/claude-for-enterprise</link>
+      <description>Claude for Enterprise</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-for-enterprise</guid>
+      <category>Product announcements</category>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Artifacts are now generally available</title>
+      <link>https://claude.com/blog/artifacts</link>
+      <description>Artifacts are now generally available</description>
+      <guid isPermaLink="false">https://claude.com/blog/artifacts</guid>
+      <category>Product announcements</category>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Android app</title>
+      <link>https://claude.com/blog/android-app</link>
+      <description>Claude Android app</description>
+      <guid isPermaLink="false">https://claude.com/blog/android-app</guid>
+      <category>Product announcements</category>
+      <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fine-tune Claude 3 Haiku in Amazon Bedrock</title>
+      <link>https://claude.com/blog/fine-tune-claude-3-haiku</link>
+      <description>Fine-tune Claude 3 Haiku in Amazon Bedrock</description>
+      <guid isPermaLink="false">https://claude.com/blog/fine-tune-claude-3-haiku</guid>
+      <category>Product announcements</category>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Evaluate prompts in the developer console</title>
+      <link>https://claude.com/blog/evaluate-prompts</link>
+      <description>Evaluate prompts in the developer console</description>
+      <guid isPermaLink="false">https://claude.com/blog/evaluate-prompts</guid>
+      <category>Product announcements</category>
+      <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude can now use tools</title>
+      <link>https://claude.com/blog/tool-use-ga</link>
+      <description>Claude can now use tools</description>
+      <guid isPermaLink="false">https://claude.com/blog/tool-use-ga</guid>
+      <category>Product announcements</category>
+      <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Generate better prompts in the developer console</title>
+      <link>https://claude.com/blog/prompt-generator</link>
+      <description>Generate better prompts in the developer console</description>
+      <guid isPermaLink="false">https://claude.com/blog/prompt-generator</guid>
+      <category>Product announcements</category>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing the Claude Team plan and iOS app</title>
+      <link>https://claude.com/blog/team-plan-and-ios</link>
+      <description>Introducing the Claude Team plan and iOS app</description>
+      <guid isPermaLink="false">https://claude.com/blog/team-plan-and-ios</guid>
+      <category>Product announcements</category>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Long context prompting for Claude 2.1</title>
+      <link>https://claude.com/blog/claude-2-1-prompting</link>
+      <description>Long context prompting for Claude 2.1</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-2-1-prompting</guid>
+      <category>Product announcements</category>
+      <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude on Amazon Bedrock now available to every AWS customer</title>
+      <link>https://claude.com/blog/amazon-bedrock-general-availability</link>
+      <description>Claude on Amazon Bedrock now available to every AWS customer</description>
+      <guid isPermaLink="false">https://claude.com/blog/amazon-bedrock-general-availability</guid>
+      <category>Product announcements</category>
+      <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude 2 on Amazon Bedrock</title>
+      <link>https://claude.com/blog/claude-2-amazon-bedrock</link>
+      <description>Claude 2 on Amazon Bedrock</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-2-amazon-bedrock</guid>
+      <category>Product announcements</category>
+      <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+    </item>
   </channel>
 </rss>
