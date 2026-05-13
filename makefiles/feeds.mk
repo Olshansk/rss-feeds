@@ -240,6 +240,13 @@ feeds_pinecone_full: ## Generate RSS feed for Pinecone Blog (full reset)
 	$(Q)uv run feed_generators/pinecone_blog.py --full
 	$(call print_success,Pinecone Blog feed generated - full reset)
 
+.PHONY: feeds_snowflake_engineering
+feeds_snowflake_engineering: ## Generate RSS feed for Snowflake Engineering Blog
+	$(call check_venv)
+	$(call print_info,Generating Snowflake Engineering Blog feed)
+	$(Q)uv run feed_generators/snowflake_engineering_blog.py
+	$(call print_success,Snowflake Engineering Blog feed generated)
+
 .PHONY: feeds_weaviate
 feeds_weaviate: ## Generate RSS feed for Weaviate Blog (incremental)
 	$(call check_venv)
