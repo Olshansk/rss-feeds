@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 13 May 2026 14:59:43 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 15:58:26 +0000</lastBuildDate>
     <item>
       <title>Announcing the Dagster+ Terraform Provider</title>
       <link>https://dagster.io/blog/announcing-the-dagster-terraform-provider</link>
@@ -1246,13 +1246,6 @@
       <description>Announcing our $14M Series A led by Index Ventures, alongside Sequoia Capital, Slow Ventures, Coatue, Amplify Partners, OSS Capital, and others.</description>
       <guid isPermaLink="false">https://dagster.io/blog/decade-of-data</guid>
       <pubDate>Tue, 16 Nov 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Content Style Guide</title>
-      <link>https://dagster.io/blog/content-style-guide</link>
-      <description>This is an example blog post serving as a style guide.</description>
-      <guid isPermaLink="false">https://dagster.io/blog/content-style-guide</guid>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
