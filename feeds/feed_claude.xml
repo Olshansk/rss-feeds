@@ -8,13 +8,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 14 May 2026 00:31:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 01:38:05 +0000</lastBuildDate>
     <item>
       <title>Best practices for computer and browser use with Claude</title>
       <link>https://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude</link>
       <description>Best practices for computer and browser use with Claude</description>
       <guid isPermaLink="false">https://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude</guid>
-      <category>Claude Code</category>
+      <category>Agents</category>
       <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
