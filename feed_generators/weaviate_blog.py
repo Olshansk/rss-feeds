@@ -15,6 +15,7 @@ from utils import (
     fetch_page,
     load_cache,
     merge_entries,
+    sanitize_xml,
     save_cache,
     save_rss_feed,
     setup_feed_links,
@@ -61,7 +62,7 @@ def parse_posts(html_content: str) -> tuple[list[dict], bool]:
             date = stable_fallback_date(link)
 
         desc_elem = article.select_one("p.blogCardDescription_Y1fO")
-        description = desc_elem.text.strip() if desc_elem else title
+        description = sanitize_xml(desc_elem.text.strip()) if desc_elem else title
 
         posts.append(
             {

@@ -49,6 +49,19 @@ def setup_logging(name: str | None = None) -> logging.Logger:
 logger = setup_logging()
 
 # ---------------------------------------------------------------------------
+# Text sanitization
+# ---------------------------------------------------------------------------
+
+# XML 1.0 forbids NULL bytes and most C0/C1 control characters.
+_INVALID_XML_RE = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f-\x9f]")
+
+
+def sanitize_xml(text: str) -> str:
+    """Strip characters that are invalid in XML 1.0 from *text*."""
+    return _INVALID_XML_RE.sub("", text)
+
+
+# ---------------------------------------------------------------------------
 # Path helpers
 # ---------------------------------------------------------------------------
 
