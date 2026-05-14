@@ -155,6 +155,10 @@ def main(full_reset=False):
         logger.info(f"Found {len(new_posts)} posts on page 1")
         posts = merge_entries(new_posts, cached_entries)
 
+    if not posts:
+        logger.warning("No posts fetched — skipping feed update to avoid overwriting with empty feed")
+        return False
+
     save_cache(FEED_NAME, posts)
     feed = generate_rss_feed(posts)
     save_rss_feed(feed, FEED_NAME)

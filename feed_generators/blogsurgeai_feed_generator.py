@@ -46,6 +46,10 @@ def generate_blogsurgeai_feed():
 
     logger.info(f"Found {len(blog_items)} blog posts")
 
+    if not blog_items:
+        logger.warning("No blog items found — skipping feed update to avoid overwriting with empty feed")
+        return
+
     # Process each blog post
     for item in blog_items:
         try:

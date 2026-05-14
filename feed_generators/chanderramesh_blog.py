@@ -117,6 +117,10 @@ def main():
         # Parse blog posts
         blog_posts = parse_writing_page(html_content)
 
+        if not blog_posts:
+            logger.warning("No posts found — skipping feed update to avoid overwriting with empty feed")
+            return False
+
         # Generate RSS feed
         feed = generate_rss_feed(blog_posts)
 

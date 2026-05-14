@@ -36,17 +36,17 @@ def parse_posts(html_content: str) -> tuple[list[dict], bool]:
     posts = []
 
     for article in soup.select("article.margin-bottom--xl"):
-        title_elem = article.select_one("h2")
-        if not title_elem:
-            continue
-        title = title_elem.text.strip()
-
-        url_elem = article.select_one('a[itemprop="url"]')
+        url_elem = article.select_one("a.blogCardTitle_wog0")
         if not url_elem or not url_elem.get("href"):
             continue
         link = url_elem["href"]
         if link.startswith("/"):
             link = f"https://weaviate.io{link}"
+
+        title_elem = url_elem.select_one("h2") or article.select_one("h2")
+        if not title_elem:
+            continue
+        title = title_elem.text.strip()
 
         date = None
         time_elem = article.select_one("time[datetime]")
@@ -60,8 +60,8 @@ def parse_posts(html_content: str) -> tuple[list[dict], bool]:
         if not date:
             date = stable_fallback_date(link)
 
-        desc_elem = article.select_one('meta[itemprop="description"]')
-        description = desc_elem["content"] if desc_elem and desc_elem.get("content") else title
+        desc_elem = article.select_one("p.blogCardDescription_Y1fO")
+        description = desc_elem.text.strip() if desc_elem else title
 
         posts.append(
             {
@@ -139,6 +139,10 @@ def main(full_reset: bool = False) -> bool:
         new_posts, _ = parse_posts(html)
         logger.info(f"Found {len(new_posts)} posts on page 1")
         posts = merge_entries(new_posts, cached_entries)
+
+    if not posts:
+        logger.warning("No posts fetched — skipping feed update to avoid overwriting with empty feed")
+        return False
 
     save_cache(FEED_NAME, posts)
     feed = generate_rss_feed(posts)

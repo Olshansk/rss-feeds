@@ -110,6 +110,10 @@ def main(blog_url=BLOG_URL, feed_name=FEED_NAME):
         # Parse blog posts from HTML
         blog_posts = parse_blog_html(html_content)
 
+        if not blog_posts:
+            logger.warning("No posts found — skipping feed update to avoid overwriting with empty feed")
+            return False
+
         # Generate RSS feed
         feed = generate_rss_feed(blog_posts, feed_name)
 
