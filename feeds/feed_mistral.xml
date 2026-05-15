@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 15 May 2026 07:38:48 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 09:33:01 +0000</lastBuildDate>
     <item>
       <title>Remote agents in Vibe. Powered by Mistral Medium 3.5.</title>
       <link>https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5</link>
@@ -32,14 +32,6 @@
       <guid isPermaLink="false">https://mistral.ai/news/connectors</guid>
       <category>Product</category>
       <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Two users, one CLI: people and agents</title>
-      <link>https://mistral.ai/news/two-users-one-cli-people-and-agents</link>
-      <description>Designing for agents forced us to build better tools, starting with our internal ones.</description>
-      <guid isPermaLink="false">https://mistral.ai/news/two-users-one-cli-people-and-agents</guid>
-      <category>Engineering</category>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Speaking of Voxtral</title>
@@ -440,6 +432,14 @@
       <guid isPermaLink="false">https://mistral.ai/news/mistral-large-2407</guid>
       <category>Research</category>
       <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mistral NeMo</title>
+      <link>https://mistral.ai/news/mistral-nemo</link>
+      <description>Mistral NeMo: our new best small model. A state-of-the-art 12B model with 128k context length, built in collaboration with NVIDIA, and released under the Apache 2.0 license.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/mistral-nemo</guid>
+      <category>Research</category>
+      <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

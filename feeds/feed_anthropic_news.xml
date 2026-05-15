@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/news</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 15 May 2026 07:36:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 09:31:40 +0000</lastBuildDate>
     <item>
       <title>Anthropic forms $200 million partnership with the Gates Foundation</title>
       <link>https://www.anthropic.com/news/gates-foundation-partnership</link>
@@ -1183,6 +1183,14 @@
       <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients</title>
+      <link>https://www.anthropic.com/news/pwc-expanded-partnership</link>
+      <description>PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/pwc-expanded-partnership</guid>
+      <category>Announcements</category>
+      <pubDate>Sat, 21 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Elections and AI in 2024: observations and learnings</title>
       <link>https://www.anthropic.com/news/elections-ai-2024</link>
       <description>Elections and AI in 2024: observations and learnings</description>
@@ -1477,14 +1485,6 @@
       <guid isPermaLink="false">https://www.anthropic.com/news/preparing-for-global-elections-in-2024</guid>
       <category>Policy</category>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients</title>
-      <link>https://www.anthropic.com/news/pwc-expanded-partnership</link>
-      <description>PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/pwc-expanded-partnership</guid>
-      <category>Announcements</category>
-      <pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Expanded legal protections and improvements to our API</title>
