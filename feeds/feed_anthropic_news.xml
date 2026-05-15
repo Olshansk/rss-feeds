@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/news</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 15 May 2026 03:47:36 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 05:49:20 +0000</lastBuildDate>
     <item>
       <title>Anthropic forms $200 million partnership with the Gates Foundation</title>
       <link>https://www.anthropic.com/news/gates-foundation-partnership</link>
@@ -1271,14 +1271,6 @@
       <pubDate>Tue, 03 Sep 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients</title>
-      <link>https://www.anthropic.com/news/pwc-expanded-partnership</link>
-      <description>PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/pwc-expanded-partnership</guid>
-      <category>Announcements</category>
-      <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Expanding our model safety bug bounty program</title>
       <link>https://www.anthropic.com/news/model-safety-bug-bounty</link>
       <description>Expanding our model safety bug bounty program</description>
@@ -1517,6 +1509,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/news/uk-ai-safety-summit</guid>
       <category>Policy</category>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients</title>
+      <link>https://www.anthropic.com/news/pwc-expanded-partnership</link>
+      <description>PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/pwc-expanded-partnership</guid>
+      <category>Announcements</category>
+      <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Expanding access to safer AI with Amazon</title>
