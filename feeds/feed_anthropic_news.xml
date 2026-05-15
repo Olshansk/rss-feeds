@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/news</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 15 May 2026 15:18:10 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 16:14:06 +0000</lastBuildDate>
     <item>
       <title>Anthropic forms $200 million partnership with the Gates Foundation</title>
       <link>https://www.anthropic.com/news/gates-foundation-partnership</link>
@@ -1415,14 +1415,6 @@
       <pubDate>Fri, 10 May 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients</title>
-      <link>https://www.anthropic.com/news/pwc-expanded-partnership</link>
-      <description>PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/pwc-expanded-partnership</guid>
-      <category>Announcements</category>
-      <pubDate>Thu, 02 May 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Aligning on child safety principles</title>
       <link>https://www.anthropic.com/news/child-safety-principles</link>
       <description>Aligning on child safety principles</description>
@@ -1508,6 +1500,14 @@
       <description>Thoughts on the US Executive Order, G7 Code of Conduct, and Bletchley Park Summit</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/policy-recap-q4-2023</guid>
       <category>Policy</category>
+      <pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients</title>
+      <link>https://www.anthropic.com/news/pwc-expanded-partnership</link>
+      <description>PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/pwc-expanded-partnership</guid>
+      <category>Announcements</category>
       <pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
