@@ -13,7 +13,7 @@
       <link>https://ai-first.ai/podcast</link>
     </image>
     <language>de</language>
-    <lastBuildDate>Fri, 15 May 2026 03:03:48 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 05:16:56 +0000</lastBuildDate>
     <item>
       <title>Wie eine Stadt mit 40.000 Einwohnern vormacht, wie KI-Transformation geht.</title>
       <link>https://ai-first.ai/podcast/wie-eine-stadt-mit-40-000-einwohnern-vormacht-wie-ki-transformation-geht</link>
@@ -92,6 +92,20 @@
       <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Wie du ein CEO-Office aus KI-Agenten aufbaust</title>
+      <link>https://ai-first.ai/podcast/wie-du-ein-ceo-office-aus-ki-agenten-aufbaust</link>
+      <description>Wie du ein CEO-Office aus KI-Agenten aufbaust – mit Jonas Diezun</description>
+      <guid isPermaLink="false">https://ai-first.ai/podcast/wie-du-ein-ceo-office-aus-ki-agenten-aufbaust</guid>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Die unbequeme Wahrheit über Datenprojekte in der Industrie</title>
+      <link>https://ai-first.ai/podcast/arbeit-als-global-data-architect</link>
+      <description>Die unbequeme Wahrheit über Datenprojekte in der Industrie – mit Christian Krug</description>
+      <guid isPermaLink="false">https://ai-first.ai/podcast/arbeit-als-global-data-architect</guid>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>AI for the rest of us: Wie KI endlich für alle zugänglich wird</title>
       <link>https://ai-first.ai/podcast/ai-for-the-rest-of-us-wie-ki-endlich-fuer-alle-zugaenglich-wird</link>
       <description>AI for the rest of us: Wie KI endlich für alle zugänglich wird – mit Martin Böhringer</description>
@@ -139,6 +153,13 @@
       <description>Venture Clienting trifft KI: Wie Eberspächer mit Startup-Mentalität die Transformation beschleunigt – mit Florian Dürr</description>
       <guid isPermaLink="false">https://ai-first.ai/podcast/venture-clienting-trifft-ki-wie-eberspaecher-mit-startup-mentalitaet-die-transformation-beschleunigt</guid>
       <pubDate>Fri, 26 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI in der Kreativbranche: Wie JUSTADDSUGAR mit eigenem Tool die Agenturwelt neu denkt</title>
+      <link>https://ai-first.ai/podcast/ai-in-der-kreativbranche-wie-justaddsugar-mit-eigenem-tool-die-agenturwelt-neu-denkt</link>
+      <description>AI in der Kreativbranche: Wie JUSTADDSUGAR mit eigenem Tool die Agenturwelt neu denkt – mit Jasper Börnsen</description>
+      <guid isPermaLink="false">https://ai-first.ai/podcast/ai-in-der-kreativbranche-wie-justaddsugar-mit-eigenem-tool-die-agenturwelt-neu-denkt</guid>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Unser KI-Tool Stack für maximale Produktivität</title>
@@ -190,6 +211,13 @@
       <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Wie die DKB einen Digital Agent entwickelt, der einen Großteil aller Support-Anfragen löst</title>
+      <link>https://ai-first.ai/podcast/wie-die-dkb-einen-digital-agent-entwickelt-der-einen-grossteil-aller-support-anfragen-loest</link>
+      <description>Wie die DKB einen Digital Agent entwickelt, der einen Großteil aller Support-Anfragen löst – mit Sascha Dewald</description>
+      <guid isPermaLink="false">https://ai-first.ai/podcast/wie-die-dkb-einen-digital-agent-entwickelt-der-einen-grossteil-aller-support-anfragen-loest</guid>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Wie setzt HORNBACH KI im Content Marketing ein?</title>
       <link>https://ai-first.ai/podcast/wie-setzt-hornbach-ki-im-content-marketing-ein</link>
       <description>Wie setzt HORNBACH KI im Content Marketing ein? – mit Madlen Barke</description>
@@ -202,6 +230,13 @@
       <description>KI-Hackathons: Wie die Otto Group ihre KI-Reise beschleunigt – mit Anja Körber</description>
       <guid isPermaLink="false">https://ai-first.ai/podcast/ki-hackathons-wie-die-otto-group-ihre-ki-reise-beschleunigt</guid>
       <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bild-KI: Wo liegen die größten Potenziale und wo gibt es Grenzen?</title>
+      <link>https://ai-first.ai/podcast/bild-ki-wo-liegen-die-groessten-potenziale-und-wo-gibt-es-grenzen</link>
+      <description>Bild-KI: Wo liegen die größten Potenziale und wo gibt es Grenzen? – mit Georg Neumann</description>
+      <guid isPermaLink="false">https://ai-first.ai/podcast/bild-ki-wo-liegen-die-groessten-potenziale-und-wo-gibt-es-grenzen</guid>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Erfolgsprinzipien für KI-Integration in Produkten und Prozessen</title>
@@ -246,11 +281,32 @@
       <pubDate>Fri, 22 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Wie funktioniert KI-Governance in einer Bank?</title>
+      <link>https://ai-first.ai/podcast/wie-funktioniert-ki-governance-in-einer-bank</link>
+      <description>Wie funktioniert KI-Governance in einer Bank? – mit Julia Sterling</description>
+      <guid isPermaLink="false">https://ai-first.ai/podcast/wie-funktioniert-ki-governance-in-einer-bank</guid>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Was kommt nach KI-Chatbots?</title>
       <link>https://ai-first.ai/podcast/was-kommt-nach-ki-chatbots</link>
       <description>Was kommt nach KI-Chatbots? – mit Florian Baader</description>
       <guid isPermaLink="false">https://ai-first.ai/podcast/was-kommt-nach-ki-chatbots</guid>
       <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Welche Medienunternehmen überleben die KI-Disruption?</title>
+      <link>https://ai-first.ai/podcast/welche-medienunternehmen-ueberleben-die-ki-disruption</link>
+      <description>Welche Medienunternehmen überleben die KI-Disruption? – mit Marco Parrillo</description>
+      <guid isPermaLink="false">https://ai-first.ai/podcast/welche-medienunternehmen-ueberleben-die-ki-disruption</guid>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Wie sieht deine KI-Nutzung aus?</title>
+      <link>https://ai-first.ai/podcast/wie-sieht-deine-ki-nutzung-aus</link>
+      <description>Wie sieht deine KI-Nutzung aus? – mit Elisabeth L'Orange</description>
+      <guid isPermaLink="false">https://ai-first.ai/podcast/wie-sieht-deine-ki-nutzung-aus</guid>
+      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Wie sieht die KI-Roadmap 2030 aus?</title>
@@ -295,6 +351,13 @@
       <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Zentral befähigen, dezentral umsetzen: Das hybride KI-Transformationsmodell von Breuninger</title>
+      <link>https://ai-first.ai/podcast/zentral-befaehigen-dezentral-umsetzen-das-hybride-ki-transformationsmodell-von-breuninger</link>
+      <description>Zentral befähigen, dezentral umsetzen: Das hybride KI-Transformationsmodell von Breuninger – mit Frank Postel</description>
+      <guid isPermaLink="false">https://ai-first.ai/podcast/zentral-befaehigen-dezentral-umsetzen-das-hybride-ki-transformationsmodell-von-breuninger</guid>
+      <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>KI-Demokratisierung: Wie Schäfer Shop 500 Mitarbeiter zu KI-Anwendern macht</title>
       <link>https://ai-first.ai/podcast/ki-demokratisierung-wie-schaefer-shop-500-mitarbeiter-zu-ki-anwendern-macht</link>
       <description>KI-Demokratisierung: Wie Schäfer Shop 500 Mitarbeiter zu KI-Anwendern macht – mit Felix Jochmus-Stöcke</description>
@@ -302,11 +365,25 @@
       <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Wie baut man eine Daten- und KI-Organisation auf? Der Anti-Hype Blueprint</title>
+      <link>https://ai-first.ai/podcast/wie-baut-man-eine-daten-und-ki-organisation-auf-der-anti-hype-blueprint</link>
+      <description>Wie baut man eine Daten- und KI-Organisation auf? Der Anti-Hype Blueprint – mit Claudia Pohlink</description>
+      <guid isPermaLink="false">https://ai-first.ai/podcast/wie-baut-man-eine-daten-und-ki-organisation-auf-der-anti-hype-blueprint</guid>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>„KI ist kein Werkzeug, sondern ein Kollege“ – Wie Covestro das Zusammenspiel von Mensch und Maschine neu definiert</title>
       <link>https://ai-first.ai/podcast/ki-ist-kein-werkzeug-sondern-ein-kollege-wie-covestro-das-zusammenspiel-von-mensch-und-maschine-neu-definiert</link>
       <description>„KI ist kein Werkzeug, sondern ein Kollege“ – Wie Covestro das Zusammenspiel von Mensch und Maschine neu definiert – mit Nils Janus</description>
       <guid isPermaLink="false">https://ai-first.ai/podcast/ki-ist-kein-werkzeug-sondern-ein-kollege-wie-covestro-das-zusammenspiel-von-mensch-und-maschine-neu-definiert</guid>
       <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>KI-Transformation im Kundenservice: Wie KI-Agenten das Kundenerlebnis verbessern</title>
+      <link>https://ai-first.ai/podcast/ki-transformation-im-kundenservice-wie-ki-agenten-das-kundenerlebnis-verbessern</link>
+      <description>KI-Transformation im Kundenservice: Wie KI-Agenten das Kundenerlebnis verbessern – mit Malte Kosub</description>
+      <guid isPermaLink="false">https://ai-first.ai/podcast/ki-transformation-im-kundenservice-wie-ki-agenten-das-kundenerlebnis-verbessern</guid>
+      <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>KI-Transformation bei RWE: Wie ein Energieriese mit der schnellsten Technologie unserer Zeit umgeht</title>
@@ -510,83 +587,6 @@
       <description>ogGPT trifft Großkonzern: Wie Otto 30.000 Mitarbeiter AI-fit macht – mit Florian Leuerer</description>
       <guid isPermaLink="false">https://ai-first.ai/podcast/oggpt-trifft-grosskonzern-wie-otto-30-000-mitarbeiter-ai-fit-macht</guid>
       <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Die unbequeme Wahrheit über Datenprojekte in der Industrie</title>
-      <link>https://ai-first.ai/podcast/arbeit-als-global-data-architect</link>
-      <description>Die unbequeme Wahrheit über Datenprojekte in der Industrie</description>
-      <guid isPermaLink="false">https://ai-first.ai/podcast/arbeit-als-global-data-architect</guid>
-      <pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bild-KI: Wo liegen die größten Potenziale und wo gibt es Grenzen?</title>
-      <link>https://ai-first.ai/podcast/bild-ki-wo-liegen-die-groessten-potenziale-und-wo-gibt-es-grenzen</link>
-      <description>Bild-KI: Wo liegen die größten Potenziale und wo gibt es Grenzen?</description>
-      <guid isPermaLink="false">https://ai-first.ai/podcast/bild-ki-wo-liegen-die-groessten-potenziale-und-wo-gibt-es-grenzen</guid>
-      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI in der Kreativbranche: Wie JUSTADDSUGAR mit eigenem Tool die Agenturwelt neu denkt</title>
-      <link>https://ai-first.ai/podcast/ai-in-der-kreativbranche-wie-justaddsugar-mit-eigenem-tool-die-agenturwelt-neu-denkt</link>
-      <description>AI in der Kreativbranche: Wie JUSTADDSUGAR mit eigenem Tool die Agenturwelt neu denkt</description>
-      <guid isPermaLink="false">https://ai-first.ai/podcast/ai-in-der-kreativbranche-wie-justaddsugar-mit-eigenem-tool-die-agenturwelt-neu-denkt</guid>
-      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wie funktioniert KI-Governance in einer Bank?</title>
-      <link>https://ai-first.ai/podcast/wie-funktioniert-ki-governance-in-einer-bank</link>
-      <description>Wie funktioniert KI-Governance in einer Bank?</description>
-      <guid isPermaLink="false">https://ai-first.ai/podcast/wie-funktioniert-ki-governance-in-einer-bank</guid>
-      <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wie du ein CEO-Office aus KI-Agenten aufbaust</title>
-      <link>https://ai-first.ai/podcast/wie-du-ein-ceo-office-aus-ki-agenten-aufbaust</link>
-      <description>Wie du ein CEO-Office aus KI-Agenten aufbaust</description>
-      <guid isPermaLink="false">https://ai-first.ai/podcast/wie-du-ein-ceo-office-aus-ki-agenten-aufbaust</guid>
-      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wie sieht deine KI-Nutzung aus?</title>
-      <link>https://ai-first.ai/podcast/wie-sieht-deine-ki-nutzung-aus</link>
-      <description>Wie sieht deine KI-Nutzung aus?</description>
-      <guid isPermaLink="false">https://ai-first.ai/podcast/wie-sieht-deine-ki-nutzung-aus</guid>
-      <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Zentral befähigen, dezentral umsetzen: Das hybride KI-Transformationsmodell von Breuninger</title>
-      <link>https://ai-first.ai/podcast/zentral-befaehigen-dezentral-umsetzen-das-hybride-ki-transformationsmodell-von-breuninger</link>
-      <description>Zentral befähigen, dezentral umsetzen: Das hybride KI-Transformationsmodell von Breuninger</description>
-      <guid isPermaLink="false">https://ai-first.ai/podcast/zentral-befaehigen-dezentral-umsetzen-das-hybride-ki-transformationsmodell-von-breuninger</guid>
-      <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>KI-Transformation im Kundenservice: Wie KI-Agenten das Kundenerlebnis verbessern</title>
-      <link>https://ai-first.ai/podcast/ki-transformation-im-kundenservice-wie-ki-agenten-das-kundenerlebnis-verbessern</link>
-      <description>KI-Transformation im Kundenservice: Wie KI-Agenten das Kundenerlebnis verbessern</description>
-      <guid isPermaLink="false">https://ai-first.ai/podcast/ki-transformation-im-kundenservice-wie-ki-agenten-das-kundenerlebnis-verbessern</guid>
-      <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Welche Medienunternehmen überleben die KI-Disruption?</title>
-      <link>https://ai-first.ai/podcast/welche-medienunternehmen-ueberleben-die-ki-disruption</link>
-      <description>Welche Medienunternehmen überleben die KI-Disruption?</description>
-      <guid isPermaLink="false">https://ai-first.ai/podcast/welche-medienunternehmen-ueberleben-die-ki-disruption</guid>
-      <pubDate>Sun, 19 Mar 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wie baut man eine Daten- und KI-Organisation auf? Der Anti-Hype Blueprint</title>
-      <link>https://ai-first.ai/podcast/wie-baut-man-eine-daten-und-ki-organisation-auf-der-anti-hype-blueprint</link>
-      <description>Wie baut man eine Daten- und KI-Organisation auf? Der Anti-Hype Blueprint</description>
-      <guid isPermaLink="false">https://ai-first.ai/podcast/wie-baut-man-eine-daten-und-ki-organisation-auf-der-anti-hype-blueprint</guid>
-      <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wie die DKB einen Digital Agent entwickelt, der einen Großteil aller Support-Anfragen löst</title>
-      <link>https://ai-first.ai/podcast/wie-die-dkb-einen-digital-agent-entwickelt-der-einen-grossteil-aller-support-anfragen-loest</link>
-      <description>Wie die DKB einen Digital Agent entwickelt, der einen Großteil aller Support-Anfragen löst</description>
-      <guid isPermaLink="false">https://ai-first.ai/podcast/wie-die-dkb-einen-digital-agent-entwickelt-der-einen-grossteil-aller-support-anfragen-loest</guid>
-      <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
