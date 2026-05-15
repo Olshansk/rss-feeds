@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 15 May 2026 05:17:48 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 07:03:52 +0000</lastBuildDate>
     <item>
       <title>Text Analysis for Hybrid Search: Tokenization, Stopwords &amp; Accent Folding</title>
       <link>https://weaviate.io/blog/tokenization-text-analysis-weaviate</link>
@@ -283,7 +283,7 @@
       <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>8-bit Rotational Quantization: How to Compress Vectors by 4x and Improve the Speed-Quality Tradeoff of Vector Search</title>
+      <title>8-bit Rotational Quantization: How to Improve the Speed-Quality Tradeoff of Vector Search</title>
       <link>https://weaviate.io/blog/8-bit-rotational-quantization</link>
       <description>Get spun around by our new vector quantization algorithm that utilizes the power of random rotations to improve the speed-quality tradeoff of vector search with Weaviate.</description>
       <guid isPermaLink="false">https://weaviate.io/blog/8-bit-rotational-quantization</guid>
