@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 16 May 2026 01:34:47 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 03:03:43 +0000</lastBuildDate>
+    <item>
+      <title>Windsurf Next 2.3.1008</title>
+      <link>https://windsurf.com/changelog/windsurf-next#2.3.1008</link>
+      <description>&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fixed availability issues with swe-check model for some users.&lt;/li&gt;&lt;li&gt;Improved terminal processing performance&lt;/li&gt;&lt;li&gt;Restored conversation sharing&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#2.3.1008#2.3.1008</guid>
+      <category>Changelog</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Windsurf Next 2.2.1017</title>
       <link>https://windsurf.com/changelog/windsurf-next#2.2.1017</link>
