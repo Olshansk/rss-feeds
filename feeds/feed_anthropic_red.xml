@@ -13,7 +13,7 @@
       <link>https://red.anthropic.com/</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sat, 16 May 2026 22:15:35 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 23:20:26 +0000</lastBuildDate>
     <item>
       <title>Assessing Claude Mythos Preview’s cybersecurity capabilities</title>
       <link>https://red.anthropic.com/2026/mythos-preview/</link>
@@ -151,25 +151,6 @@
       <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Claude Does Cyber Competitions</title>
-      <link>https://red.anthropic.com/2025/cyber-competitions/</link>
-      <description>Throughout 2025, we have been quietly entering Claude in cybersecurity competitions designed
-                primarily for humans. In many of these competitions Claude did pretty well, often placing in the
-                top
-                25% of competitors. However, it lagged behind the best human teams at the toughest challenges.</description>
-      <guid isPermaLink="false">https://red.anthropic.com/2025/cyber-competitions/</guid>
-      <pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cyber Evaluations of Claude 4</title>
-      <link>https://red.anthropic.com/2025/claude-4-cyber/</link>
-      <description>We partnered with Pattern Labs on a range of cybersecurity evaluations of Claude Opus 4 and
-                Claude
-                Sonnet 4, with Opus demonstrating especially notable improvement over previous models.</description>
-      <guid isPermaLink="false">https://red.anthropic.com/2025/claude-4-cyber/</guid>
-      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Project Vend</title>
       <link>https://red.anthropic.com/2025/project-vend/index.html</link>
       <description>We let Claude manage an automated store in our office as a small business for about a month. We
@@ -185,6 +166,25 @@
                 attacks on networks with dozens of hosts when equipped with a novel toolkit.</description>
       <guid isPermaLink="false">https://red.anthropic.com/2025/cyber-toolkits/index.html</guid>
       <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Does Cyber Competitions</title>
+      <link>https://red.anthropic.com/2025/cyber-competitions/</link>
+      <description>Throughout 2025, we have been quietly entering Claude in cybersecurity competitions designed
+                primarily for humans. In many of these competitions Claude did pretty well, often placing in the
+                top
+                25% of competitors. However, it lagged behind the best human teams at the toughest challenges.</description>
+      <guid isPermaLink="false">https://red.anthropic.com/2025/cyber-competitions/</guid>
+      <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cyber Evaluations of Claude 4</title>
+      <link>https://red.anthropic.com/2025/claude-4-cyber/</link>
+      <description>We partnered with Pattern Labs on a range of cybersecurity evaluations of Claude Opus 4 and
+                Claude
+                Sonnet 4, with Opus demonstrating especially notable improvement over previous models.</description>
+      <guid isPermaLink="false">https://red.anthropic.com/2025/claude-4-cyber/</guid>
+      <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
