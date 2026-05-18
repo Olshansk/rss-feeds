@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 18 May 2026 11:18:13 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 13:09:33 +0000</lastBuildDate>
+    <item>
+      <title>Windsurf 2.3.9</title>
+      <link>https://windsurf.com/changelog#2.3.9</link>
+      <description>&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fixed availability issues with swe-check model for some users.&lt;/li&gt;&lt;li&gt;Improved terminal processing performance&lt;/li&gt;&lt;li&gt;Restored conversation sharing&lt;/li&gt;&lt;li&gt;Repaired path resolution for the Devin local agent on WSL&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog#2.3.9#2.3.9</guid>
+      <category>Changelog</category>
+      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Windsurf 2.2.17</title>
       <link>https://windsurf.com/changelog#2.2.17</link>
