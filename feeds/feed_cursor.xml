@@ -13,7 +13,14 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 22 May 2026 15:01:28 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 15:59:08 +0000</lastBuildDate>
+    <item>
+      <title>Cursor named a Leader in the 2026 Gartner® Magic Quadrant™ for Enterprise AI Coding Agents</title>
+      <link>https://cursor.com/blog/cursor-leads-gartner-mq-2026</link>
+      <guid isPermaLink="false">https://cursor.com/blog/cursor-leads-gartner-mq-2026</guid>
+      <category>company</category>
+      <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>What we’ve learned building cloud agents</title>
       <link>https://cursor.com/blog/cloud-agent-lessons</link>
@@ -108,13 +115,6 @@
       <guid isPermaLink="false">https://cursor.com/blog/canvas</guid>
       <category>product</category>
       <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Speeding up GPU kernels by 38% with a multi-agent system</title>
-      <link>https://cursor.com/blog/multi-agent-kernels</link>
-      <guid isPermaLink="false">https://cursor.com/blog/multi-agent-kernels</guid>
-      <category>research</category>
-      <pubDate>Tue, 14 Apr 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Meet the new Cursor</title>
