@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 22 May 2026 13:07:19 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 15:02:47 +0000</lastBuildDate>
+    <item>
+      <title>Hermes vs. OpenClaw, Cybersecurity Alarms Ring, More-Interactive Conversations, Can Agents Do Human Work?</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-354</link>
+      <description>The Batch AI News and Insights: Harvard University just voted to limit the number of A grades given in undergraduate classes to about 20% of the class.</description>
+      <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-354</guid>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>China Thwarts Meta’s Agentic Ambition, U.S. Evaluates Upcoming Models, AI Diagnoses Mammograms</title>
       <link>https://www.deeplearning.ai/the-batch/issue-353</link>
