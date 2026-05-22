@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 22 May 2026 15:59:37 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 16:53:46 +0000</lastBuildDate>
     <item>
       <title>This Year We Can End the Death Penalty in California</title>
       <link>https://paulgraham.com/prop62.html</link>
@@ -3443,12 +3443,12 @@ for mechanical watches at the Geneva Obse...</description>
     <item>
       <title>How to Convert Between Wealth and Income Tax</title>
       <link>https://paulgraham.com/winc.html</link>
-      <description>How do you convert between wealth and income tax? If a government&#13;
-imposes a wealth tax of 1%, what's the equivalent in income tax?It's clear from the way most politicians talk about the subject&#13;
-that they not only don't know the answer, but don't even realize&#13;
-there's such a question.In fact the conversion rate between them is about 20. A wealth tax&#13;
-of 1% is equivalent to an income tax of 20%.To convert between wealth and income tax rates, you have to divide&#13;
-by the rate of return on capital. ...</description>
+      <description>How do you convert between wealth and income tax? If a government
+imposes a wealth tax of 1%, what's the equivalent in income tax?It's clear from the way most politicians talk about the subject
+that they not only don't know the answer, but don't even realize
+there's such a question.In fact the conversion rate between them is about 20. A wealth tax
+of 1% is equivalent to an income tax of 20%.To convert between wealth and income tax rates, you have to divide
+by the rate of return on capital. The c...</description>
       <guid isPermaLink="false">https://paulgraham.com/winc.html</guid>
       <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
     </item>
