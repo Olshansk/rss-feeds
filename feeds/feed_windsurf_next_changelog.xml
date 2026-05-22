@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 22 May 2026 03:06:04 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 05:21:18 +0000</lastBuildDate>
+    <item>
+      <title>Windsurf Next 2.3.1012</title>
+      <link>https://windsurf.com/changelog/windsurf-next#2.3.1012</link>
+      <description>&lt;h3&gt;Fixes for Devin Local&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Repaired hooks for Devin Local to allow blocking user prompts&lt;/li&gt;&lt;li&gt;Improved plan mode in Devin Local to work in the OS sandbox&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Bug fixes and improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Increased remove server startup timeout from 2.5s to 6s&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#2.3.1012#2.3.1012</guid>
+      <category>Changelog</category>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Windsurf Next 2.3.1008</title>
       <link>https://windsurf.com/changelog/windsurf-next#2.3.1008</link>
