@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 23 May 2026 07:23:25 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 09:13:44 +0000</lastBuildDate>
+    <item>
+      <title>Doubling Down on Science to Win Industrial AI</title>
+      <link>https://mistral.ai/news/science-to-win-industrial-ai</link>
+      <description>Doubling Down on Science to Win Industrial AI</description>
+      <guid isPermaLink="false">https://mistral.ai/news/science-to-win-industrial-ai</guid>
+      <category>Research</category>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Remote agents in Vibe. Powered by Mistral Medium 3.5.</title>
       <link>https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5</link>
@@ -432,14 +440,6 @@
       <guid isPermaLink="false">https://mistral.ai/news/mistral-large-2407</guid>
       <category>Research</category>
       <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mistral NeMo</title>
-      <link>https://mistral.ai/news/mistral-nemo</link>
-      <description>Mistral NeMo: our new best small model. A state-of-the-art 12B model with 128k context length, built in collaboration with NVIDIA, and released under the Apache 2.0 license.</description>
-      <guid isPermaLink="false">https://mistral.ai/news/mistral-nemo</guid>
-      <category>Research</category>
-      <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
