@@ -13,7 +13,15 @@
       <link>https://www.anthropic.com/engineering</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 26 May 2026 17:59:34 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 18:59:08 +0000</lastBuildDate>
+    <item>
+      <title>How we contain Claude across products</title>
+      <link>https://www.anthropic.com/engineering/how-we-contain-claude</link>
+      <description>As agents grow more capable, so does their potential blast radius. The engineering question is how to cap it. Here’s what we’ve learned building containment for claude.ai, Claude Code, and Cowork.\n</description>
+      <guid isPermaLink="false">https://www.anthropic.com/engineering/how-we-contain-claude</guid>
+      <category>Engineering</category>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>An update on recent Claude Code quality reports</title>
       <link>https://www.anthropic.com/engineering/april-23-postmortem</link>
