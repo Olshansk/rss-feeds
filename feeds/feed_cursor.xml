@@ -13,7 +13,13 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 26 May 2026 14:01:30 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 16:16:50 +0000</lastBuildDate>
+    <item>
+      <title>Faire doubles PR throughput with Cursor Cloud Agents</title>
+      <link>https://cursor.com/blog/faire</link>
+      <guid isPermaLink="false">https://cursor.com/blog/faire</guid>
+      <pubDate>Tue, 26 May 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Cursor named a Leader in the 2026 Gartner® Magic Quadrant™ for Enterprise AI Coding Agents</title>
       <link>https://cursor.com/blog/cursor-leads-gartner-mq-2026</link>
@@ -129,12 +135,6 @@
       <description>Frontier-level coding with strong CursorBench results, higher token efficiency, and a faster default variant.</description>
       <guid isPermaLink="false">https://cursor.com/blog/composer-2</guid>
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>PlanetScale protects production reliability with Bugbot</title>
-      <link>https://cursor.com/blog/planetscale</link>
-      <guid isPermaLink="false">https://cursor.com/blog/planetscale</guid>
-      <pubDate>Mon, 02 Mar 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>The third era of AI software development</title>
