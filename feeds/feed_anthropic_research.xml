@@ -13,7 +13,15 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 27 May 2026 22:10:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 23:02:18 +0000</lastBuildDate>
+    <item>
+      <title>May 27, 2026Economic ResearchCoding agents in the social sciences</title>
+      <link>https://www.anthropic.com/research/coding-agents-social-sciences</link>
+      <description>May 27, 2026Economic ResearchCoding agents in the social sciences</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/coding-agents-social-sciences</guid>
+      <category>Research</category>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>May 22, 2026AnnouncementsProject Glasswing: An initial update</title>
       <link>https://www.anthropic.com/research/glasswing-initial-update</link>
@@ -79,14 +87,6 @@
       <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Apr 22, 2026Economic ResearchWhat 81,000 people told us about the economics of AI</title>
-      <link>https://www.anthropic.com/research/81k-economics</link>
-      <description>Apr 22, 2026Economic ResearchWhat 81,000 people told us about the economics of AI</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/81k-economics</guid>
-      <category>Research</category>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Apr 22, 2026Economic ResearchAnnouncing the Anthropic Economic Index Survey</title>
       <link>https://www.anthropic.com/research/economic-index-survey-announcement</link>
       <description>Apr 22, 2026Economic ResearchAnnouncing the Anthropic Economic Index Survey</description>
@@ -103,12 +103,12 @@
       <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Economic Research</title>
-      <link>https://www.anthropic.com/research/team/economic-research</link>
-      <description>Economic Research</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/team/economic-research</guid>
+      <title>Alignment</title>
+      <link>https://www.anthropic.com/research/team/alignment</link>
+      <description>Alignment</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
       <category>Research</category>
-      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Societal Impacts</title>
@@ -116,15 +116,15 @@
       <description>Societal Impacts</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/societal-impacts</guid>
       <category>Research</category>
-      <pubDate>Thu, 16 May 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Alignment</title>
-      <link>https://www.anthropic.com/research/team/alignment</link>
-      <description>Alignment</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
+      <title>Economic Research</title>
+      <link>https://www.anthropic.com/research/team/economic-research</link>
+      <description>Economic Research</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/economic-research</guid>
       <category>Research</category>
-      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Interpretability</title>
@@ -132,7 +132,7 @@
       <description>Interpretability</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/interpretability</guid>
       <category>Research</category>
-      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 09 Apr 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
