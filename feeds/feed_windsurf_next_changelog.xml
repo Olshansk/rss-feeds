@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 27 May 2026 03:06:26 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 05:30:02 +0000</lastBuildDate>
+    <item>
+      <title>Windsurf Next 2.3.1015</title>
+      <link>https://windsurf.com/changelog/windsurf-next#2.3.1015</link>
+      <description>&lt;p&gt;This release updates the bundled Devin Local agent to 2026.5.26. Highlights are below — see thechangelogfor the full list of changes.&lt;/p&gt;&lt;h3&gt;New features&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Devin Local is now aware of the files you have open in the editor as part of its context.&lt;/li&gt;&lt;li&gt;When prompted for an MCP tool permission in Devin Local, two additional server-level options are now offered: approve all tools on the server for the current session, or permanently.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Bug fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;"Always Allow" permission grants in Devin Local now persist across sessions.&lt;/li&gt;&lt;li&gt;Image attachments in Devin Local now show the correct warning when the selected model does not support images.&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#2.3.1015#2.3.1015</guid>
+      <category>Changelog</category>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Windsurf Next 2.3.1012</title>
       <link>https://windsurf.com/changelog/windsurf-next#2.3.1012</link>
