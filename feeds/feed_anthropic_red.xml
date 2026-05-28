@@ -13,7 +13,7 @@
       <link>https://red.anthropic.com/</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 28 May 2026 03:04:52 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 05:23:45 +0000</lastBuildDate>
     <item>
       <title>Measuring LLMs' Ability to Develop Exploits</title>
       <link>https://red.anthropic.com/2026/exploit-evals/</link>
@@ -204,7 +204,7 @@
       <description>A regularly updated record of vulnerabilities found by Anthropic and reported to maintainers
                         with cryptographic commitments to each finding at the time of disclosure.</description>
       <guid isPermaLink="false">https://red.anthropic.com/2026/cvd/</guid>
-      <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
