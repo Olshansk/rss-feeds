@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 28 May 2026 11:12:38 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 13:09:25 +0000</lastBuildDate>
+    <item>
+      <title>Leveling up Weaviate Cloud security: Expanding role-based access control for Cloud console</title>
+      <link>https://weaviate.io/blog/rbac-overview</link>
+      <description>Weaviate Cloud now supports more granular role-based access control with new Editor and Viewer roles for improved security and organizational management.</description>
+      <guid isPermaLink="false">https://weaviate.io/blog/rbac-overview</guid>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Build a Coding Assistant with Weaviate MCP: RAG over Code &amp; Docs</title>
       <link>https://weaviate.io/blog/coding-assistant-weaviate-mcp</link>
@@ -421,13 +428,6 @@
       <description>Learn how to build generative AI data pipelines at scale with Weaviate and Databricks</description>
       <guid isPermaLink="false">https://weaviate.io/blog/genai-apps-with-weaviate-and-databricks</guid>
       <pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Exploring RAG and GraphRAG: Understanding when and how to use both</title>
-      <link>https://weaviate.io/blog/graph-rag</link>
-      <description>Learn when and how to use GraphRAG and how it can improve on some search tasks</description>
-      <guid isPermaLink="false">https://weaviate.io/blog/graph-rag</guid>
-      <pubDate>Thu, 17 Apr 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
