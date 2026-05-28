@@ -13,14 +13,14 @@
       <link>https://cohere.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 28 May 2026 20:47:10 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 21:38:25 +0000</lastBuildDate>
     <item>
       <title>Cohere advances sovereign AI capabilities with NVIDIA</title>
       <link>https://cohere.com/blog/cohere-sovereign-ai-nvidia</link>
       <description>NVIDIA ecosystem-native model and local North instance will meet growing market demand for secure, privately run AI systems  
 </description>
       <guid isPermaLink="false">https://cohere.com/blog/cohere-sovereign-ai-nvidia</guid>
-      <category>Newsroom</category>
+      <category>Enterprise AI</category>
       <pubDate>Mon, 16 Mar 2026 16:28:39 -0400</pubDate>
     </item>
     <item>
@@ -101,7 +101,7 @@
       <description>SAP brings North to its Sovereign Cloud, bringing European enterprises and governments efficient, secure and powerful agentic AI.
 </description>
       <guid isPermaLink="false">https://cohere.com/blog/cohere-expands-partnership-with-sap</guid>
-      <category>Newsroom</category>
+      <category>Enterprise AI</category>
       <pubDate>Thu, 27 Nov 2025 06:39:25 -0500</pubDate>
     </item>
     <item>
@@ -133,7 +133,7 @@
       <link>https://cohere.com/blog/cohere-partner-program-boosting-enterprise-ai</link>
       <description>Today, we are proud to announce the launch of the Cohere Partner Program, a new initiative designed to help our partners innovate faster, expand market impact, and lead the next wave of enterprise AI. </description>
       <guid isPermaLink="false">https://cohere.com/blog/cohere-partner-program-boosting-enterprise-ai</guid>
-      <category>Newsroom</category>
+      <category>Partner</category>
       <pubDate>Tue, 07 Oct 2025 09:53:39 -0400</pubDate>
     </item>
     <item>
@@ -142,7 +142,7 @@
       <description>Additional funding supports our growing global operations and development of frontier enterprise AI technology.
 </description>
       <guid isPermaLink="false">https://cohere.com/blog/september-2025-funding-round</guid>
-      <category>Newsroom</category>
+      <category>Company News</category>
       <pubDate>Wed, 24 Sep 2025 08:55:36 -0400</pubDate>
     </item>
     <item>
@@ -158,7 +158,7 @@
       <link>https://cohere.com/blog/paris-office</link>
       <description>Cohere strengthens presence in Paris with additions of VP of EMEA and Head of EMEA Public Policy. </description>
       <guid isPermaLink="false">https://cohere.com/blog/paris-office</guid>
-      <category>Newsroom</category>
+      <category>Company News</category>
       <pubDate>Mon, 15 Sep 2025 07:56:38 -0400</pubDate>
     </item>
     <item>
@@ -174,7 +174,7 @@
       <link>https://cohere.com/blog/command-a-translate</link>
       <description>The new industry standard for secure, enterprise-ready machine translation.</description>
       <guid isPermaLink="false">https://cohere.com/blog/command-a-translate</guid>
-      <category>Newsroom</category>
+      <category>Product Launch</category>
       <pubDate>Thu, 28 Aug 2025 10:55:25 -0400</pubDate>
     </item>
     <item>
@@ -183,7 +183,7 @@
       <description>Securely powering enterprise applications with exceptional reasoning performance, efficiency, and controllability.
 </description>
       <guid isPermaLink="false">https://cohere.com/blog/command-a-reasoning</guid>
-      <category>Newsroom</category>
+      <category>Product Launch</category>
       <pubDate>Thu, 21 Aug 2025 10:50:26 -0400</pubDate>
     </item>
     <item>
@@ -192,7 +192,7 @@
       <description>Cohere and Government of Canada sign Memorandum of Understanding to transform the public sector with sovereign AI. 
 </description>
       <guid isPermaLink="false">https://cohere.com/blog/cohere-partnership-canada-government</guid>
-      <category>Newsroom</category>
+      <category>Public Sector</category>
       <pubDate>Tue, 19 Aug 2025 08:03:24 -0400</pubDate>
     </item>
     <item>
@@ -216,7 +216,7 @@
       <link>https://cohere.com/blog/august-2025-funding-round</link>
       <description>Fresh funding enables Cohere to accelerate its global expansion and build the next generation of secure enterprise and sovereign AI solutions.</description>
       <guid isPermaLink="false">https://cohere.com/blog/august-2025-funding-round</guid>
-      <category>Newsroom</category>
+      <category>Company News</category>
       <pubDate>Thu, 14 Aug 2025 09:59:06 -0400</pubDate>
     </item>
     <item>
@@ -233,7 +233,7 @@
       <description>North enables enterprises that prioritize data security to deploy AI agents and automations at scale within their own infrastructure.
 </description>
       <guid isPermaLink="false">https://cohere.com/blog/north-ga</guid>
-      <category>Newsroom</category>
+      <category>Product Launch</category>
       <pubDate>Wed, 06 Aug 2025 08:57:19 -0400</pubDate>
     </item>
     <item>
@@ -258,7 +258,7 @@
       <link>https://cohere.com/blog/bell-partnership</link>
       <description>Bell Canada and Cohere announced a strategic partnership to provide full-stack sovereign AI solutions for government and enterprise customers across Canada.</description>
       <guid isPermaLink="false">https://cohere.com/blog/bell-partnership</guid>
-      <category>Newsroom</category>
+      <category>Company News</category>
       <pubDate>Mon, 28 Jul 2025 12:45:00 -0400</pubDate>
     </item>
     <item>
@@ -266,7 +266,7 @@
       <link>https://cohere.com/blog/secure-and-responsible-ai-for-europe</link>
       <description>Announcing Cohere’s intention to sign the EU AI Act Code of Practice for General Purpose AI Models.</description>
       <guid isPermaLink="false">https://cohere.com/blog/secure-and-responsible-ai-for-europe</guid>
-      <category>Newsroom</category>
+      <category>#security-page</category>
       <pubDate>Thu, 24 Jul 2025 09:10:37 -0400</pubDate>
     </item>
     <item>
@@ -283,7 +283,7 @@
       <description>새로운 서울 허브를 바탕으로 아시아 태평양 지역으로 확장
 </description>
       <guid isPermaLink="false">https://cohere.com/blog/seoul-office</guid>
-      <category>Newsroom</category>
+      <category>Company News</category>
       <pubDate>Mon, 14 Jul 2025 19:56:06 -0400</pubDate>
     </item>
     <item>
@@ -299,7 +299,7 @@
       <link>https://cohere.com/blog/montreal-office</link>
       <description>Aujourd'hui, nous étendons notre présence au Canada avec l'ouverture d'un nouveau bureau de Cohere à Montréal.</description>
       <guid isPermaLink="false">https://cohere.com/blog/montreal-office</guid>
-      <category>Newsroom</category>
+      <category>Company News</category>
       <pubDate>Thu, 03 Jul 2025 09:59:07 -0400</pubDate>
     </item>
     <item>
@@ -347,7 +347,7 @@
       <link>https://cohere.com/blog/canada-uk-government-partnerships</link>
       <description>Canada and the UK will leverage Cohere's secure AI technology to enhance government services and national sovereignty.</description>
       <guid isPermaLink="false">https://cohere.com/blog/canada-uk-government-partnerships</guid>
-      <category>Newsroom</category>
+      <category>Public Sector</category>
       <pubDate>Sun, 15 Jun 2025 12:04:19 -0400</pubDate>
     </item>
     <item>
@@ -363,7 +363,7 @@
       <link>https://cohere.com/blog/ensemble-partnership</link>
       <description>Ensemble will use North by Cohere to enhance healthcare revenue cycle management with secure AI.</description>
       <guid isPermaLink="false">https://cohere.com/blog/ensemble-partnership</guid>
-      <category>Newsroom</category>
+      <category>Healthcare &amp; Life Sciences</category>
       <pubDate>Tue, 10 Jun 2025 09:00:59 -0400</pubDate>
     </item>
     <item>
@@ -379,7 +379,7 @@
       <link>https://cohere.com/blog/second-front-partnership</link>
       <description>Cohere is partnering with Second Front to deliver secure AI solutions that bolster government services and national security</description>
       <guid isPermaLink="false">https://cohere.com/blog/second-front-partnership</guid>
-      <category>Newsroom</category>
+      <category>Public Sector</category>
       <pubDate>Wed, 04 Jun 2025 08:55:33 -0400</pubDate>
     </item>
     <item>
