@@ -13,7 +13,7 @@
       <link>https://ollama.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 29 May 2026 03:04:24 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 05:26:13 +0000</lastBuildDate>
     <item>
       <title>Run Llama 2 uncensored locally</title>
       <link>https://ollama.com/blog/run-llama2-uncensored-locally</link>
@@ -349,6 +349,13 @@
       <description>Today, we're previewing the fastest way to run Ollama on Apple silicon, powered by MLX, Apple's machine learning framework.</description>
       <guid isPermaLink="false">https://ollama.com/blog/mlx</guid>
       <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenJarvis: a local-first personal AI is now available to run with Ollama</title>
+      <link>https://ollama.com/blog/openjarvis</link>
+      <description>OpenJarvis v1.0 is now available: an open-source framework for building personal AI agents that run on your own hardware, with Ollama support built-in.</description>
+      <guid isPermaLink="false">https://ollama.com/blog/openjarvis</guid>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
