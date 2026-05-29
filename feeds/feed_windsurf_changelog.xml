@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 29 May 2026 00:35:19 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 01:39:32 +0000</lastBuildDate>
+    <item>
+      <title>Windsurf 2.3.15</title>
+      <link>https://windsurf.com/changelog#2.3.15</link>
+      <description>&lt;h3&gt;Bug fixes and improvements&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;General&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Increased remote server startup timeout from 2.5s to 6s.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Devin Local&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;This release updates the bundled Devin Local agent to 2026.5.26. See thechangelogfor the full list of changes.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Devin Local is now aware of the files you have open in the editor as part of its context.&lt;/li&gt;&lt;li&gt;When prompted for an MCP tool permission in Devin Local, two additional server-level options are now offered: approve all tools on the server for the current session, or permanently.&lt;/li&gt;&lt;li&gt;Repaired hooks for Devin Local to allow blocking user prompts.&lt;/li&gt;&lt;li&gt;Improved plan mode in Devin Local to work in the OS sandbox.&lt;/li&gt;&lt;li&gt;"Always Allow" permission grants in Devin Local now persist across sessions.&lt;/li&gt;&lt;li&gt;Image attachments in Devin Local now show the correct warning when the selected model does not support images.&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog#2.3.15#2.3.15</guid>
+      <category>Changelog</category>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Windsurf 2.3.9</title>
       <link>https://windsurf.com/changelog#2.3.9</link>
