@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 28 May 2026 23:28:39 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 00:34:38 +0000</lastBuildDate>
     <item>
       <title>The AI Bottleneck: High-Quality, Human-Powered Data</title>
       <link>https://www.surgehq.ai/blog/the-ai-bottleneck-high-quality-human-powered-data</link>
@@ -162,6 +162,13 @@
       <description>An update on Astral Codex Ten's Image Generation Bet: close, but no dice. DALL·E 3 and Midjourney fail.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/dalle-3-and-midjourney-fail-astral-codex-tens-image-generation-bet</guid>
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cross-Benchmark Generalization for Long-Horizon Agentic Tasks</title>
+      <link>https://www.surgehq.ai/blog/cross-benchmark-generalization-for-long-horizon-agentic-tasks</link>
+      <description>Post-Training on Surge’s RL environment and why it generalizes to external tool-use benchmarks: Toolathlon, τ²-Bench, and BFCL-V4</description>
+      <guid isPermaLink="false">https://www.surgehq.ai/blog/cross-benchmark-generalization-for-long-horizon-agentic-tasks</guid>
+      <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Bringing light to the GPT-4o vs. GPT-5 personality controversy</title>
