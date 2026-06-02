@@ -13,7 +13,14 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Jun 2026 17:31:21 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 19:10:56 +0000</lastBuildDate>
+    <item>
+      <title>What we’ve learned building cloud agents</title>
+      <link>https://cursor.com/blog/cloud-agent-lessons</link>
+      <guid isPermaLink="false">https://cursor.com/blog/cloud-agent-lessons</guid>
+      <category>research</category>
+      <pubDate>Tue, 02 Jun 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Improvements to Teams Pricing</title>
       <link>https://cursor.com/blog/teams-pricing-june-2026</link>
@@ -33,13 +40,6 @@
       <guid isPermaLink="false">https://cursor.com/blog/cursor-leads-gartner-mq-2026</guid>
       <category>company</category>
       <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>What we’ve learned building cloud agents</title>
-      <link>https://cursor.com/blog/cloud-agent-lessons</link>
-      <guid isPermaLink="false">https://cursor.com/blog/cloud-agent-lessons</guid>
-      <category>research</category>
-      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Introducing Composer 2.5</title>
