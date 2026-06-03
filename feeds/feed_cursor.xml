@@ -13,7 +13,14 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Jun 2026 15:32:29 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 17:38:58 +0000</lastBuildDate>
+    <item>
+      <title>Introducing organizations for Cursor Enterprise</title>
+      <link>https://cursor.com/blog/organizations</link>
+      <guid isPermaLink="false">https://cursor.com/blog/organizations</guid>
+      <category>product</category>
+      <pubDate>Wed, 03 Jun 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>What we’ve learned building cloud agents</title>
       <link>https://cursor.com/blog/cloud-agent-lessons</link>
@@ -113,13 +120,6 @@
       <title>Amplitude ships 3x more production code with Cursor</title>
       <link>https://cursor.com/blog/amplitude</link>
       <guid isPermaLink="false">https://cursor.com/blog/amplitude</guid>
-      <pubDate>Wed, 15 Apr 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Better AI models enable more ambitious work</title>
-      <link>https://cursor.com/blog/better-models-ambitious-work</link>
-      <guid isPermaLink="false">https://cursor.com/blog/better-models-ambitious-work</guid>
-      <category>research</category>
       <pubDate>Wed, 15 Apr 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
