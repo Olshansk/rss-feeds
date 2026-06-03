@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Jun 2026 11:36:02 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 13:31:30 +0000</lastBuildDate>
+    <item>
+      <title>Community Showcase Part 1</title>
+      <link>https://dagster.io/blog/community-showcase-part-1</link>
+      <description>Some of the most interesting Dagster projects come from the community. This post highlights creative community-built applications ranging from public data exploration and infrastructure monitoring to research automation and internal tooling, along with why their creators chose Dagster and what building with it was like.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/community-showcase-part-1</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>How Dagster Compass Powers Brooklyn Data’s Self-Service Analytics</title>
       <link>https://dagster.io/blog/how-dagster-compass-powers-brooklyn-datas-self-service-analytics</link>
