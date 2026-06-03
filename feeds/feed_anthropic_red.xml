@@ -13,7 +13,19 @@
       <link>https://red.anthropic.com/</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Jun 2026 09:33:50 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 11:35:53 +0000</lastBuildDate>
+    <item>
+      <title>Mapping AI-enabled cyber threats: Insights from the LLM ATT&amp;CK Navigator</title>
+      <link>https://red.anthropic.com/2026/attack-navigator/</link>
+      <description>We’ve spent the past year investigating how threat actors are weaponizing AI to conduct cyber
+                        operations. Today, we’re sharing a new analysis that maps these real-world attacks onto the
+                        MITRE ATT&amp;CK framework, a database of tactics and techniques used by cyberattackers. We
+                        partnered with Verizon to include some of these results in the 2026 Verizon Data Breach
+                        Investigation Report (DBIR), and are publishing this report to offer a longer-form analysis of
+                        trends we are seeing in AI-enabled cyber operations.</description>
+      <guid isPermaLink="false">https://red.anthropic.com/2026/attack-navigator/</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Measuring LLMs' Ability to Develop Exploits</title>
       <link>https://red.anthropic.com/2026/exploit-evals/</link>
@@ -204,7 +216,7 @@
       <description>A regularly updated record of vulnerabilities found by Anthropic and reported to maintainers
                         with cryptographic commitments to each finding at the time of disclosure.</description>
       <guid isPermaLink="false">https://red.anthropic.com/2026/cvd/</guid>
-      <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
