@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Jun 2026 13:32:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 15:33:05 +0000</lastBuildDate>
+    <item>
+      <title>Engram is now Generally Available</title>
+      <link>https://weaviate.io/blog/engram-generally-available</link>
+      <description>Engram, Weaviate's managed memory and context service for agentic applications, is now generally available.</description>
+      <guid isPermaLink="false">https://weaviate.io/blog/engram-generally-available</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Leveling up Weaviate Cloud security: Expanding role-based access control for Cloud console</title>
       <link>https://weaviate.io/blog/rbac-overview</link>
@@ -421,13 +428,6 @@
       <description>What trends we see arise in Enterprise AI in 2025.</description>
       <guid isPermaLink="false">https://weaviate.io/blog/enterprise-ai-trends-2025</guid>
       <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Build Scalable Gen AI Data Pipelines with Weaviate and Databricks</title>
-      <link>https://weaviate.io/blog/genai-apps-with-weaviate-and-databricks</link>
-      <description>Learn how to build generative AI data pipelines at scale with Weaviate and Databricks</description>
-      <guid isPermaLink="false">https://weaviate.io/blog/genai-apps-with-weaviate-and-databricks</guid>
-      <pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
