@@ -13,7 +13,7 @@
       <link>https://ollama.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Jun 2026 16:07:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 17:52:44 +0000</lastBuildDate>
     <item>
       <title>Run Llama 2 uncensored locally</title>
       <link>https://ollama.com/blog/run-llama2-uncensored-locally</link>
@@ -356,6 +356,13 @@
       <description>OpenJarvis v1.0 is now available: an open-source framework for building personal AI agents that run on your own hardware, with Ollama support built-in.</description>
       <guid isPermaLink="false">https://ollama.com/blog/openjarvis</guid>
       <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>NVIDIA Nemotron 3 Ultra</title>
+      <link>https://ollama.com/blog/nemotron-3-ultra</link>
+      <description>NVIDIA Nemotron 3 Ultra is built for high-throughput reasoning and long-running agent workflows.</description>
+      <guid isPermaLink="false">https://ollama.com/blog/nemotron-3-ultra</guid>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
