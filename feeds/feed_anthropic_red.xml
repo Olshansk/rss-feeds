@@ -13,7 +13,7 @@
       <link>https://red.anthropic.com/</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Jun 2026 19:41:57 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 20:41:19 +0000</lastBuildDate>
     <item>
       <title>Mapping AI-enabled cyber threats: Insights from the LLM ATT&amp;CK Navigator</title>
       <link>https://red.anthropic.com/2026/attack-navigator/</link>
@@ -216,7 +216,7 @@
       <description>A regularly updated record of vulnerabilities found by Anthropic and reported to maintainers
                         with cryptographic commitments to each finding at the time of disclosure.</description>
       <guid isPermaLink="false">https://red.anthropic.com/2026/cvd/</guid>
-      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
