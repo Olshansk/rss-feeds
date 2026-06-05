@@ -13,7 +13,7 @@
       <link>https://ollama.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Jun 2026 18:37:52 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 19:34:00 +0000</lastBuildDate>
     <item>
       <title>Run Llama 2 uncensored locally</title>
       <link>https://ollama.com/blog/run-llama2-uncensored-locally</link>
@@ -363,6 +363,13 @@
       <description>NVIDIA Nemotron 3 Ultra is built for high-throughput reasoning and long-running agent workflows.</description>
       <guid isPermaLink="false">https://ollama.com/blog/nemotron-3-ultra</guid>
       <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Improved performance and model support with GGUF</title>
+      <link>https://ollama.com/blog/improved-performance-and-model-support-with-gguf</link>
+      <description>Ollama 0.30 is now available with improved performance and GGUF model compatibility through llama.cpp. This augments Ollama's MLX engine on Apple silicon, bringing support to more models on a wider range of hardware.</description>
+      <guid isPermaLink="false">https://ollama.com/blog/improved-performance-and-model-support-with-gguf</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
