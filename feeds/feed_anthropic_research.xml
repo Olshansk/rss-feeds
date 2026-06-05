@@ -13,7 +13,15 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Jun 2026 19:10:07 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 20:11:42 +0000</lastBuildDate>
+    <item>
+      <title>Jun 5, 2026ScienceMaking Claude a chemist</title>
+      <link>https://www.anthropic.com/research/making-claude-a-chemist</link>
+      <description>Jun 5, 2026ScienceMaking Claude a chemist</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/making-claude-a-chemist</guid>
+      <category>Research</category>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>May 27, 2026Economic ResearchCoding agents in the social sciences</title>
       <link>https://www.anthropic.com/research/coding-agents-social-sciences</link>
@@ -79,14 +87,6 @@
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Apr 29, 2026ScienceEvaluating Claude’s bioinformatics research capabilities with BioMysteryBench</title>
-      <link>https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench</link>
-      <description>Apr 29, 2026ScienceEvaluating Claude’s bioinformatics research capabilities with BioMysteryBench</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench</guid>
-      <category>Research</category>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>PolicyDec 18, 2025Project Vend: Phase twoIn June, we revealed that we’d set up a small shop in our San Francisco office lunchroom, run by an AI shopkeeper. It was part of Project Vend, a free-form experiment exploring how well AIs could do on complex, real-world tasks. How has Claude's business been since we last wrote?</title>
       <link>https://www.anthropic.com/research/project-vend-2</link>
       <description>PolicyDec 18, 2025Project Vend: Phase twoIn June, we revealed that we’d set up a small shop in our San Francisco office lunchroom, run by an AI shopkeeper. It was part of Project Vend, a free-form experiment exploring how well AIs could do on complex, real-world tasks. How has Claude's business been since we last wrote?</description>
@@ -95,20 +95,12 @@
       <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Interpretability</title>
-      <link>https://www.anthropic.com/research/team/interpretability</link>
-      <description>Interpretability</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/team/interpretability</guid>
-      <category>Research</category>
-      <pubDate>Tue, 14 May 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Societal Impacts</title>
       <link>https://www.anthropic.com/research/team/societal-impacts</link>
       <description>Societal Impacts</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/societal-impacts</guid>
       <category>Research</category>
-      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Economic Research</title>
@@ -116,7 +108,7 @@
       <description>Economic Research</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/economic-research</guid>
       <category>Research</category>
-      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Alignment</title>
@@ -124,7 +116,15 @@
       <description>Alignment</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
       <category>Research</category>
-      <pubDate>Sat, 18 Nov 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 05 May 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Interpretability</title>
+      <link>https://www.anthropic.com/research/team/interpretability</link>
+      <description>Interpretability</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/interpretability</guid>
+      <category>Research</category>
+      <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
