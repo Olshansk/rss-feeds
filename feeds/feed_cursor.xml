@@ -13,7 +13,14 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Jun 2026 16:47:58 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 17:35:50 +0000</lastBuildDate>
+    <item>
+      <title>Direct agents with visual prompts in Design Mode</title>
+      <link>https://cursor.com/blog/design-mode</link>
+      <guid isPermaLink="false">https://cursor.com/blog/design-mode</guid>
+      <category>product</category>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Introducing organizations for Cursor Enterprise</title>
       <link>https://cursor.com/blog/organizations</link>
@@ -108,13 +115,6 @@
       <guid isPermaLink="false">https://cursor.com/blog/spacex-model-training</guid>
       <category>company</category>
       <pubDate>Tue, 21 Apr 2026 22:17:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Keeping the Cursor app stable</title>
-      <link>https://cursor.com/blog/app-stability</link>
-      <guid isPermaLink="false">https://cursor.com/blog/app-stability</guid>
-      <category>research</category>
-      <pubDate>Tue, 21 Apr 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Amplitude ships 3x more production code with Cursor</title>
