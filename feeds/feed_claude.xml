@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Jun 2026 20:39:41 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 21:33:32 +0000</lastBuildDate>
+    <item>
+      <title>New in Claude Managed Agents: run agents on a schedule and store environment variables in vaults</title>
+      <link>https://claude.com/blog/whats-new-in-claude-managed-agents</link>
+      <description>New in Claude Managed Agents: run agents on a schedule and store environment variables in vaults</description>
+      <guid isPermaLink="false">https://claude.com/blog/whats-new-in-claude-managed-agents</guid>
+      <category>Product announcements</category>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Observability for developers building connectors</title>
       <link>https://claude.com/blog/observability-for-developers-building-connectors</link>
