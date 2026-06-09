@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Jun 2026 05:21:24 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 07:11:11 +0000</lastBuildDate>
     <item>
       <title>Introducing the Google Colab CLI</title>
       <link>https://developers.googleblog.com/introducing-the-google-colab-cli/</link>
