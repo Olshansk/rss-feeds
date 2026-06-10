@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 10 Jun 2026 15:04:09 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 17:02:21 +0000</lastBuildDate>
+    <item>
+      <title>DiffusionGemma: The Developer Guide</title>
+      <link>https://developers.googleblog.com/diffusiongemma-the-developer-guide/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/diffusion_banner.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;DiffusionGemma is an experimental text-generation model built on the Gemma 4 architecture that uses diffusion-based parallel generation instead of token-by-token autoregression, enabling much faster inference, bidirectional context awareness, and real-time self-correction while remaining deployable on consumer GPUs. Its architecture generates and refines 256-token blocks in parallel through iterative denoising, allowing it to handle complex constraint-based tasks such as Sudoku more effectively than traditional language models and demonstrating strong gains from fine-tuning. The model integrates with vLLM and other popular inference frameworks, giving developers access to a new non-autoregressive approach that combines high performance, efficient long-context scaling, and straightforward customization and deployment.</description>
+      <category>AI</category>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Introducing the Google Colab CLI</title>
       <link>https://developers.googleblog.com/introducing-the-google-colab-cli/</link>
@@ -57,13 +64,6 @@
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/io26-blog-01-intro-hero4x.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Google is expanding its smart home ecosystem by launching a full-stack Gemini AI offering that integrates advanced camera intelligence, natural language queries, and daily activity summaries. This initiative provides service providers and hardware manufacturers with turnkey reference designs and APIs to build proactive, branded services without extensive research and development. Ultimately, the program aims to move beyond basic device control toward an AI-native home that can understand context and care for users' needs in real time.</description>
       <category>AI</category>
       <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>An important update: Transitioning Gemini CLI to Antigravity CLI</title>
-      <link>https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GeminiCLI-AntigravityCLI_1200x600_.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Google is unifying its AI terminal tools by transitioning the community-focused Gemini CLI into Antigravity CLI, a new agent-first platform built for complex, multi-agent workflows. This new Go-based tool offers faster execution, asynchronous processing, and a unified architecture that syncs with the Antigravity 2.0 desktop application. While enterprise customers will maintain existing access, individual and free users must transition to the new platform before Gemini CLI stops serving requests on June 18, 2026.</description>
-      <category>AI</category>
-      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>One Year of Innovation: Celebrating 100k Members in the Google Cloud x NVIDIA Developer Community</title>
