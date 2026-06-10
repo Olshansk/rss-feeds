@@ -13,7 +13,14 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 10 Jun 2026 17:02:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 18:49:48 +0000</lastBuildDate>
+    <item>
+      <title>Bugbot is now over 3x faster, 22% cheaper, and finds 10% more bugs</title>
+      <link>https://cursor.com/blog/bugbot-updates-june-2026</link>
+      <guid isPermaLink="false">https://cursor.com/blog/bugbot-updates-june-2026</guid>
+      <category>product</category>
+      <pubDate>Wed, 10 Jun 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Direct agents with visual prompts in Design Mode</title>
       <link>https://cursor.com/blog/design-mode</link>
@@ -108,13 +115,6 @@
       <link>https://cursor.com/blog/nab</link>
       <guid isPermaLink="false">https://cursor.com/blog/nab</guid>
       <pubDate>Thu, 23 Apr 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cursor partners with SpaceX on model training</title>
-      <link>https://cursor.com/blog/spacex-model-training</link>
-      <guid isPermaLink="false">https://cursor.com/blog/spacex-model-training</guid>
-      <category>company</category>
-      <pubDate>Tue, 21 Apr 2026 22:17:00 +0000</pubDate>
     </item>
     <item>
       <title>Amplitude ships 3x more production code with Cursor</title>
