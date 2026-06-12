@@ -13,7 +13,7 @@
       <link>https://ai-first.ai/podcast</link>
     </image>
     <language>de</language>
-    <lastBuildDate>Fri, 12 Jun 2026 09:21:52 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 11:15:52 +0000</lastBuildDate>
     <item>
       <title>AI-first bei FINN: Von Automation-DNA zu Agent-Orchestrierung (20 Mio. Automations/Tag)</title>
       <link>https://ai-first.ai/podcast/ai-ist-tool-nicht-accountability-finn-cto-andreas-stryz-ueber-ai-first-organisation</link>
@@ -132,6 +132,13 @@
       <description>Wie du ein CEO-Office aus KI-Agenten aufbaust – mit Jonas Diezun</description>
       <guid isPermaLink="false">https://ai-first.ai/podcast/wie-du-ein-ceo-office-aus-ki-agenten-aufbaust</guid>
       <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Die unbequeme Wahrheit über Datenprojekte in der Industrie</title>
+      <link>https://ai-first.ai/podcast/arbeit-als-global-data-architect</link>
+      <description>Die unbequeme Wahrheit über Datenprojekte in der Industrie – mit Christian Krug</description>
+      <guid isPermaLink="false">https://ai-first.ai/podcast/arbeit-als-global-data-architect</guid>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AI for the rest of us: Wie KI endlich für alle zugänglich wird</title>
@@ -615,13 +622,6 @@
       <description>ogGPT trifft Großkonzern: Wie Otto 30.000 Mitarbeiter AI-fit macht – mit Florian Leuerer</description>
       <guid isPermaLink="false">https://ai-first.ai/podcast/oggpt-trifft-grosskonzern-wie-otto-30-000-mitarbeiter-ai-fit-macht</guid>
       <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Die unbequeme Wahrheit über Datenprojekte in der Industrie</title>
-      <link>https://ai-first.ai/podcast/arbeit-als-global-data-architect</link>
-      <description>Die unbequeme Wahrheit über Datenprojekte in der Industrie</description>
-      <guid isPermaLink="false">https://ai-first.ai/podcast/arbeit-als-global-data-architect</guid>
-      <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
