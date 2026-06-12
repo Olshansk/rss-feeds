@@ -13,7 +13,7 @@
       <link>https://ollama.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 12 Jun 2026 00:38:56 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 01:47:59 +0000</lastBuildDate>
     <item>
       <title>Run Llama 2 uncensored locally</title>
       <link>https://ollama.com/blog/run-llama2-uncensored-locally</link>
@@ -370,6 +370,13 @@
       <description>Ollama 0.30 is now available with improved performance and GGUF model compatibility through llama.cpp. This augments Ollama's MLX engine on Apple silicon, bringing support to more models on a wider range of hardware.</description>
       <guid isPermaLink="false">https://ollama.com/blog/improved-performance-and-model-support-with-gguf</guid>
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ollama's highest performance on Apple Silicon yet with MLX</title>
+      <link>https://ollama.com/blog/mlx-performance</link>
+      <description>Ollama's MLX engine has been updated to deliver its highest performance on Apple Silicon yet. Models output higher quality responses, respond faster, and use less memory.</description>
+      <guid isPermaLink="false">https://ollama.com/blog/mlx-performance</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
