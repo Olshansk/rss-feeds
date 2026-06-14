@@ -13,7 +13,7 @@
       <link>https://red.anthropic.com/</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Jun 2026 00:36:57 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 01:46:59 +0000</lastBuildDate>
     <item>
       <title>Measuring LLMs' Impact on N-day Exploits</title>
       <link>https://red.anthropic.com/2026/n-days/</link>
@@ -194,6 +194,15 @@
       <pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Cyber Evaluations of Claude 4</title>
+      <link>https://red.anthropic.com/2025/claude-4-cyber/</link>
+      <description>We partnered with Pattern Labs on a range of cybersecurity evaluations of Claude Opus 4 and
+                    Claude
+                    Sonnet 4, with Opus demonstrating especially notable improvement over previous models.</description>
+      <guid isPermaLink="false">https://red.anthropic.com/2025/claude-4-cyber/</guid>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Project Vend</title>
       <link>https://red.anthropic.com/2025/project-vend/index.html</link>
       <description>We let Claude manage an automated store in our office as a small business for about a month. We
@@ -211,21 +220,12 @@
       <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Cyber Evaluations of Claude 4</title>
-      <link>https://red.anthropic.com/2025/claude-4-cyber/</link>
-      <description>We partnered with Pattern Labs on a range of cybersecurity evaluations of Claude Opus 4 and
-                    Claude
-                    Sonnet 4, with Opus demonstrating especially notable improvement over previous models.</description>
-      <guid isPermaLink="false">https://red.anthropic.com/2025/claude-4-cyber/</guid>
-      <pubDate>Sat, 28 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Coordinated Vulnerability Disclosure Dashboard</title>
       <link>https://red.anthropic.com/2026/cvd/</link>
       <description>A regularly updated record of vulnerabilities found by Anthropic and reported to maintainers
                         with cryptographic commitments to each finding at the time of disclosure.</description>
       <guid isPermaLink="false">https://red.anthropic.com/2026/cvd/</guid>
-      <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
