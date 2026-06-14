@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Jun 2026 10:58:06 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 11:43:38 +0000</lastBuildDate>
     <item>
       <title>This Year We Can End the Death Penalty in California</title>
       <link>https://paulgraham.com/prop62.html</link>
@@ -3451,6 +3451,19 @@ of 1% is equivalent to an income tax of 20%.To convert between wealth and income
 by the rate of return on capital. The c...</description>
       <guid isPermaLink="false">https://paulgraham.com/winc.html</guid>
       <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Earn a Billion Dollars</title>
+      <link>https://paulgraham.com/earn.html</link>
+      <description>(This is based on a talk I gave at the Oxford Union.)Since this is apparently the future prime ministers' club, I'm going
+to tell you about something it would be good if more politicians
+understood: I'm going to tell you how people become billionaires.
+I hope this will be useful to you even if you don't plan to go into
+politics. Those of you who don't become prime minister can become
+billionaires instead.The reason I know about this topic is that 21 years ago Jessica and
+I started something call...</description>
+      <guid isPermaLink="false">https://paulgraham.com/earn.html</guid>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>How to Lose Time and Money</title>
