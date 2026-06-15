@@ -13,7 +13,7 @@
       <link>https://cohere.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Jun 2026 13:03:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 15:58:04 +0000</lastBuildDate>
     <item>
       <title>Cohere advances sovereign AI capabilities with NVIDIA</title>
       <link>https://cohere.com/blog/cohere-sovereign-ai-nvidia</link>
@@ -220,9 +220,9 @@
       <pubDate>Thu, 14 Aug 2025 09:59:06 -0400</pubDate>
     </item>
     <item>
-      <title>Modernizing FOI systems with AI</title>
+      <title>Modernizing freedom of information (FOI) request systems with AI</title>
       <link>https://cohere.com/blog/foi-systems-with-ai-agents</link>
-      <description>Freedom of information (FOI) request systems need support. The manual, rule-based nature of the process makes them a prime candidate for government AI adoption.</description>
+      <description>Freedom of information (FOI) request systems need support. The manual, rule-based nature of the FOI process makes them a prime candidate for AI automation in the public sector.</description>
       <guid isPermaLink="false">https://cohere.com/blog/foi-systems-with-ai-agents</guid>
       <category>Enterprise AI</category>
       <pubDate>Fri, 08 Aug 2025 07:38:24 -0400</pubDate>
