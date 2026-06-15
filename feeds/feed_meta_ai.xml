@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Jun 2026 23:54:40 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 01:38:02 +0000</lastBuildDate>
     <item>
       <title>Scaling How We Build and Test Our Most Advanced AI</title>
       <link>https://ai.meta.com/blog/scaling-how-we-build-test-advanced-ai/</link>
@@ -685,38 +685,6 @@
       <guid isPermaLink="false">https://ai.meta.com/blog/neuromnia-autism-aba-therapy-built-with-llama/</guid>
       <category>Open Source</category>
       <pubDate>Wed, 09 Oct 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Meta Movie Gen could usher in a new AI-enabled era for content creators</title>
-      <link>https://ai.meta.com/blog/movie-gen-media-foundation-models-generative-ai-video/</link>
-      <description>Today, we’re excited to premiere Meta Movie Gen, our breakthrough generative AI research for media, which includes modalities like image, video, and audio.</description>
-      <guid isPermaLink="false">https://ai.meta.com/blog/movie-gen-media-foundation-models-generative-ai-video/</guid>
-      <category>Research</category>
-      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Making data science more accessible to enterprises with Llama</title>
-      <link>https://ai.meta.com/blog/meta-learner-llama-data-science/</link>
-      <description>By leveraging Llama 3.1, MetaLearner enables enterprises to tap into powerful AI capabilities without the need for specialized expertise, making advanced analytics accessible to non-technical users.</description>
-      <guid isPermaLink="false">https://ai.meta.com/blog/meta-learner-llama-data-science/</guid>
-      <category>Open Source</category>
-      <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing the Digital Twin Catalog from Reality Labs Research</title>
-      <link>https://ai.meta.com/blog/digital-twin-catalog-3d-reconstruction-shopify-reality-labs-research/</link>
-      <description>Reality Labs Research is releasing the Digital Twin Catalog (DTC), which we believe is the world’s largest and highest quality 3D object model dataset for 3D reconstruction research.</description>
-      <guid isPermaLink="false">https://ai.meta.com/blog/digital-twin-catalog-3d-reconstruction-shopify-reality-labs-research/</guid>
-      <category>Open Source</category>
-      <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Connect 2024: The responsible approach we’re taking to generative AI</title>
-      <link>https://ai.meta.com/blog/responsible-ai-connect-2024/</link>
-      <description>With the rapidly evolving AI landscape, we recognize the importance of sharing our responsibility and safety approach with everyone.</description>
-      <guid isPermaLink="false">https://ai.meta.com/blog/responsible-ai-connect-2024/</guid>
-      <category>Responsible AI</category>
-      <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
