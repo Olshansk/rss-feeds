@@ -13,7 +13,15 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Jun 2026 18:50:29 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 20:28:52 +0000</lastBuildDate>
+    <item>
+      <title>Jun 17, 2026Economic ResearchAgentic coding and persistent returns to expertise</title>
+      <link>https://www.anthropic.com/research/claude-code-expertise</link>
+      <description>Jun 17, 2026Economic ResearchAgentic coding and persistent returns to expertise</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/claude-code-expertise</guid>
+      <category>Research</category>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Jun 8, 2026SciencePaving the way for agents in biology</title>
       <link>https://www.anthropic.com/research/agents-in-biology</link>
@@ -63,14 +71,6 @@
       <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>May 7, 2026PolicyFocus areas for The Anthropic Institute</title>
-      <link>https://www.anthropic.com/research/anthropic-institute-agenda</link>
-      <description>May 7, 2026PolicyFocus areas for The Anthropic Institute</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/anthropic-institute-agenda</guid>
-      <category>Research</category>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>May 7, 2026AlignmentDonating our open-source alignment tool</title>
       <link>https://www.anthropic.com/research/donating-open-source-petri</link>
       <description>May 7, 2026AlignmentDonating our open-source alignment tool</description>
@@ -100,7 +100,7 @@
       <description>Societal Impacts</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/societal-impacts</guid>
       <category>Research</category>
-      <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 27 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Interpretability</title>
@@ -108,15 +108,7 @@
       <description>Interpretability</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/interpretability</guid>
       <category>Research</category>
-      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Alignment</title>
-      <link>https://www.anthropic.com/research/team/alignment</link>
-      <description>Alignment</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
-      <category>Research</category>
-      <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 19 Oct 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Economic Research</title>
@@ -124,7 +116,15 @@
       <description>Economic Research</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/economic-research</guid>
       <category>Research</category>
-      <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Alignment</title>
+      <link>https://www.anthropic.com/research/team/alignment</link>
+      <description>Alignment</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
+      <category>Research</category>
+      <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
