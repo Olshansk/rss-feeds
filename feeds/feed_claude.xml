@@ -8,7 +8,23 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 17 Jun 2026 19:01:46 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 20:42:20 +0000</lastBuildDate>
+    <item>
+      <title>Secure access to the Claude Platform with Workload Identity Federation</title>
+      <link>https://claude.com/blog/workload-identity-federation</link>
+      <description>Secure access to the Claude Platform with Workload Identity Federation</description>
+      <guid isPermaLink="false">https://claude.com/blog/workload-identity-federation</guid>
+      <category>Product announcements</category>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Design now stays on brand for daily work</title>
+      <link>https://claude.com/blog/claude-design-stays-on-brand-for-daily-work</link>
+      <description>Claude Design now stays on brand for daily work</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-design-stays-on-brand-for-daily-work</guid>
+      <category>Product announcements</category>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Meet the winners of the Built with Opus 4.7 Claude Code hackathon</title>
       <link>https://claude.com/blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon</link>
