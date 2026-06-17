@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 17 Jun 2026 21:38:29 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 22:33:48 +0000</lastBuildDate>
     <item>
       <title>Secure access to the Claude Platform with Workload Identity Federation</title>
       <link>https://claude.com/blog/workload-identity-federation</link>
@@ -23,6 +23,14 @@
       <description>Claude Design now stays on brand for daily work</description>
       <guid isPermaLink="false">https://claude.com/blog/claude-design-stays-on-brand-for-daily-work</guid>
       <category>Product announcements</category>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Meet the winners of our Claude Opus 4.8 Build Day hackathon</title>
+      <link>https://claude.com/blog/meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon</link>
+      <description>Meet the winners of our Claude Opus 4.8 Build Day hackathon</description>
+      <guid isPermaLink="false">https://claude.com/blog/meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon</guid>
+      <category>Claude Code</category>
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
