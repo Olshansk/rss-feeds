@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 17 Jun 2026 09:34:50 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 11:33:28 +0000</lastBuildDate>
+    <item>
+      <title>Weaviate Cloud is now free to start</title>
+      <link>https://weaviate.io/blog/weaviate-free-tier</link>
+      <description>Weaviate Cloud is now free to start across the entire product suite.</description>
+      <guid isPermaLink="false">https://weaviate.io/blog/weaviate-free-tier</guid>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Engram is now Generally Available</title>
       <link>https://weaviate.io/blog/engram-generally-available</link>
@@ -421,13 +428,6 @@
       <description>1.31 adds MUVERA for multi-vector embeddings, new BM25 operators, the ability to add new object vectors, and more!</description>
       <guid isPermaLink="false">https://weaviate.io/blog/weaviate-1-31-release</guid>
       <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The State of Enterprise AI in 2025: Measured Progress Over Hype</title>
-      <link>https://weaviate.io/blog/enterprise-ai-trends-2025</link>
-      <description>What trends we see arise in Enterprise AI in 2025.</description>
-      <guid isPermaLink="false">https://weaviate.io/blog/enterprise-ai-trends-2025</guid>
-      <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
