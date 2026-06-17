@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 17 Jun 2026 15:47:53 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 17:31:56 +0000</lastBuildDate>
     <item>
       <title>Jun 16, 2026Economic ResearchAgentic coding and persistent returns to expertise</title>
       <link>https://www.anthropic.com/research/claude-code-expertise</link>
@@ -21,6 +21,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/claude-code-expertise</guid>
       <category>Research</category>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Jun 8, 2026Frontier Red TeamMeasuring LLMs’ impact on N-day exploits</title>
+      <link>https://www.anthropic.com/research/n-days</link>
+      <description>Jun 8, 2026Frontier Red TeamMeasuring LLMs’ impact on N-day exploits</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/n-days</guid>
+      <category>Research</category>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Jun 8, 2026SciencePaving the way for agents in biology</title>
@@ -39,12 +47,28 @@
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Jun 3, 2026Frontier Red TeamMapping AI-enabled cyber threats: Insights from the LLM ATT&amp;CK Navigator</title>
+      <link>https://www.anthropic.com/research/attack-navigator</link>
+      <description>Jun 3, 2026Frontier Red TeamMapping AI-enabled cyber threats: Insights from the LLM ATT&amp;CK Navigator</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/attack-navigator</guid>
+      <category>Research</category>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>May 27, 2026Economic ResearchCoding agents in the social sciences</title>
       <link>https://www.anthropic.com/research/coding-agents-social-sciences</link>
       <description>May 27, 2026Economic ResearchCoding agents in the social sciences</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/coding-agents-social-sciences</guid>
       <category>Research</category>
       <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>May 22, 2026Frontier Red TeamMeasuring LLMs’ ability to develop exploits</title>
+      <link>https://www.anthropic.com/research/exploit-evals</link>
+      <description>May 22, 2026Frontier Red TeamMeasuring LLMs’ ability to develop exploits</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/exploit-evals</guid>
+      <category>Research</category>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>May 22, 2026AnnouncementsProject Glasswing: An initial update</title>
@@ -71,14 +95,6 @@
       <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>May 7, 2026AlignmentDonating our open-source alignment tool</title>
-      <link>https://www.anthropic.com/research/donating-open-source-petri</link>
-      <description>May 7, 2026AlignmentDonating our open-source alignment tool</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/donating-open-source-petri</guid>
-      <category>Research</category>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Natural Language Autoencoders: Turning Claude’s thoughts into text</title>
       <link>https://www.anthropic.com/research/natural-language-autoencoders</link>
       <description>Natural Language Autoencoders: Turning Claude’s thoughts into text</description>
@@ -95,28 +111,12 @@
       <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Interpretability</title>
-      <link>https://www.anthropic.com/research/team/interpretability</link>
-      <description>Interpretability</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/team/interpretability</guid>
-      <category>Research</category>
-      <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Alignment</title>
-      <link>https://www.anthropic.com/research/team/alignment</link>
-      <description>Alignment</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
-      <category>Research</category>
-      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Societal Impacts</title>
       <link>https://www.anthropic.com/research/team/societal-impacts</link>
       <description>Societal Impacts</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/societal-impacts</guid>
       <category>Research</category>
-      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 29 Jul 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Economic Research</title>
@@ -124,7 +124,23 @@
       <description>Economic Research</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/economic-research</guid>
       <category>Research</category>
-      <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Alignment</title>
+      <link>https://www.anthropic.com/research/team/alignment</link>
+      <description>Alignment</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
+      <category>Research</category>
+      <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Interpretability</title>
+      <link>https://www.anthropic.com/research/team/interpretability</link>
+      <description>Interpretability</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/interpretability</guid>
+      <category>Research</category>
+      <pubDate>Mon, 20 Feb 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
