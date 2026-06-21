@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 21 Jun 2026 21:28:30 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jun 2026 22:25:49 +0000</lastBuildDate>
     <item>
       <title>Centrally manage authorization for MCP connectors </title>
       <link>https://claude.com/blog/enterprise-managed-auth</link>
@@ -232,6 +232,13 @@
       <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration</title>
+      <link>https://claude.com/blog/new-in-claude-managed-agents</link>
+      <description>New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration</description>
+      <guid isPermaLink="false">https://claude.com/blog/new-in-claude-managed-agents</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels</title>
       <link>https://claude.com/blog/claude-managed-agents-updates</link>
       <description>New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels</description>
@@ -317,13 +324,6 @@
       <guid isPermaLink="false">https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook</guid>
       <category>Product announcements</category>
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration</title>
-      <link>https://claude.com/blog/new-in-claude-managed-agents</link>
-      <description>New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration</description>
-      <guid isPermaLink="false">https://claude.com/blog/new-in-claude-managed-agents</guid>
-      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Deploying Claude across financial services</title>
@@ -607,6 +607,14 @@
       <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Skills explained: How Skills compares to prompts, Projects, MCP, and subagents </title>
+      <link>https://claude.com/blog/skills-explained</link>
+      <description>Skills explained: How Skills compares to prompts, Projects, MCP, and subagents </description>
+      <guid isPermaLink="false">https://claude.com/blog/skills-explained</guid>
+      <category>Agents</category>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Common workflow patterns for AI agents—and when to use them</title>
       <link>https://claude.com/blog/common-workflow-patterns-for-ai-agents-and-when-to-use-them</link>
       <description>Common workflow patterns for AI agents—and when to use them</description>
@@ -869,14 +877,6 @@
       <guid isPermaLink="false">https://claude.com/blog/structured-outputs-on-the-claude-developer-platform</guid>
       <category>Product announcements</category>
       <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Skills explained: How Skills compares to prompts, Projects, MCP, and subagents </title>
-      <link>https://claude.com/blog/skills-explained</link>
-      <description>Skills explained: How Skills compares to prompts, Projects, MCP, and subagents </description>
-      <guid isPermaLink="false">https://claude.com/blog/skills-explained</guid>
-      <category>Agents</category>
-      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Improving frontend design through Skills</title>
@@ -1199,14 +1199,6 @@
       <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing the Max Plan</title>
-      <link>https://claude.com/blog/max-plan</link>
-      <description>Introducing the Max Plan</description>
-      <guid isPermaLink="false">https://claude.com/blog/max-plan</guid>
-      <category>Product announcements</category>
-      <pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Claude on Google Cloud’s Vertex AI: FedRAMP High and IL2 Authorized</title>
       <link>https://claude.com/blog/claude-on-google-cloud-fedramp-high</link>
       <description>Claude on Google Cloud’s Vertex AI: FedRAMP High and IL2 Authorized</description>
@@ -1284,14 +1276,6 @@
       <guid isPermaLink="false">https://claude.com/blog/claude-for-enterprise</guid>
       <category>Product announcements</category>
       <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Artifacts are now generally available</title>
-      <link>https://claude.com/blog/artifacts</link>
-      <description>Artifacts are now generally available</description>
-      <guid isPermaLink="false">https://claude.com/blog/artifacts</guid>
-      <category>Product announcements</category>
-      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Claude Android app</title>
