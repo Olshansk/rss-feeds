@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 21 Jun 2026 19:31:45 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jun 2026 20:31:12 +0000</lastBuildDate>
     <item>
       <title>Import &amp; Vectorize Data with Weaviate at Scale</title>
       <link>https://weaviate.io/blog/data-import-best-practices</link>
