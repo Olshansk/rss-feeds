@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 22 Jun 2026 20:23:59 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 21:25:39 +0000</lastBuildDate>
     <item>
       <title>Jun 18, 2026Frontier Red TeamProject Fetch: Phase two</title>
       <link>https://www.anthropic.com/research/project-fetch-phase-two</link>
@@ -108,7 +108,7 @@
       <description>Societal Impacts</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/societal-impacts</guid>
       <category>Research</category>
-      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Economic Research</title>
@@ -116,23 +116,7 @@
       <description>Economic Research</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/economic-research</guid>
       <category>Research</category>
-      <pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Alignment</title>
-      <link>https://www.anthropic.com/research/team/alignment</link>
-      <description>Alignment</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
-      <category>Research</category>
-      <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Interpretability</title>
-      <link>https://www.anthropic.com/research/team/interpretability</link>
-      <description>Interpretability</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/team/interpretability</guid>
-      <category>Research</category>
-      <pubDate>Fri, 07 Apr 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 23 Dec 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Frontier Red Team</title>
@@ -140,7 +124,23 @@
       <description>Frontier Red Team</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/frontier-red-team</guid>
       <category>Research</category>
-      <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Alignment</title>
+      <link>https://www.anthropic.com/research/team/alignment</link>
+      <description>Alignment</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
+      <category>Research</category>
+      <pubDate>Sun, 09 Apr 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Interpretability</title>
+      <link>https://www.anthropic.com/research/team/interpretability</link>
+      <description>Interpretability</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/interpretability</guid>
+      <category>Research</category>
+      <pubDate>Wed, 29 Mar 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
