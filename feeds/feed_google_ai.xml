@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 22 Jun 2026 14:53:53 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 16:34:00 +0000</lastBuildDate>
+    <item>
+      <title>Measuring What Matters with Jules</title>
+      <link>https://developers.googleblog.com/measuring-what-matters-with-jules/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Measuring_What_Matters_with_Jules_.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;AI coding agents are rapidly shifting from reactive assistants that complete tasks when prompted to ...</description>
+      <category>Web</category>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>How A2A is Building a World of Collaborative Agents</title>
       <link>https://developers.googleblog.com/how-a2a-is-building-a-world-of-collaborative-agents/</link>
@@ -64,13 +71,6 @@
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner_final_1.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Google DeepMind’s Gemma 4 12B model brings agentic, multimodal AI capabilities to everyday laptops with 16GB of RAM, enabling local data processing and visual insight generation. Users can leverage this model on macOS through the Google AI Edge Gallery for dynamic Python code execution and visualization, as well as via Google AI Edge Eloquent for completely offline voice dictation and text editing. Additionally, developer workflows are enhanced by the LiteRT-LM CLI's new serve command, which creates an industry-compatible local endpoint to power fully-local AI tools and agents.</description>
       <category>Mobile</category>
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Supercharge your integration workflow with the Google Pay &amp; Wallet Developer MCP server</title>
-      <link>https://developers.googleblog.com/supercharge-your-integration-workflow-with-the-google-pay-wallet-developer-mcp-server/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/pay-wallet-dev-mcp-thumb.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Google has announced the new Google Pay &amp; Wallet Developer MCP server, an open-standard tool designed to securely connect AI development assistants and IDEs with real-time API and account context. The server allows developers to remain within their development environment to search official documentation, validate Wallet pass definitions, check integration status, and manage merchant accounts. Ultimately, this integration aims to reduce friction and accelerate development workflows by minimizing context switching and providing up-to-date, grounded AI support.</description>
-      <category>Pay</category>
-      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>How the community trained Gemma to "Think" with Tunix and TPUs</title>
