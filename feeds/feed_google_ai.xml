@@ -8,12 +8,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 22 Jun 2026 16:34:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 18:22:06 +0000</lastBuildDate>
     <item>
       <title>Measuring What Matters with Jules</title>
       <link>https://developers.googleblog.com/measuring-what-matters-with-jules/</link>
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Measuring_What_Matters_with_Jules_.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;AI coding agents are rapidly shifting from reactive assistants that complete tasks when prompted to ...</description>
       <category>Web</category>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Build Cross-Language Multi-Agent Team with Google’s Agent Development Kit and A2A</title>
+      <link>https://developers.googleblog.com/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;How a Python agent and a Go agent collaborate on contract compliance using the Agent2Agent protocolY...</description>
+      <category>AI</category>
       <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -71,13 +78,6 @@
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner_final_1.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Google DeepMind’s Gemma 4 12B model brings agentic, multimodal AI capabilities to everyday laptops with 16GB of RAM, enabling local data processing and visual insight generation. Users can leverage this model on macOS through the Google AI Edge Gallery for dynamic Python code execution and visualization, as well as via Google AI Edge Eloquent for completely offline voice dictation and text editing. Additionally, developer workflows are enhanced by the LiteRT-LM CLI's new serve command, which creates an industry-compatible local endpoint to power fully-local AI tools and agents.</description>
       <category>Mobile</category>
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How the community trained Gemma to "Think" with Tunix and TPUs</title>
-      <link>https://developers.googleblog.com/how-the-community-trained-gemma-to-think-with-tunix-and-tpus/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-banner_Tg8sqqU.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;The Google Tunix Hackathon on Kaggle challenged developers to transform small, non-reasoning base models into general reasoning engines using Kaggle TPUs and a limited compute budget. The winning teams achieved this by implementing multi-stage post-training pipelines that combined Supervised Fine-Tuning (SFT) with advanced alignment techniques like GRPO and SimPO. Ultimately, the competition democratized AI development by proving that highly capable, structured reasoning models can be successfully trained by the community using accessible, open-source resources.</description>
-      <category>AI</category>
-      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
