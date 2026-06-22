@@ -13,14 +13,7 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 22 Jun 2026 18:22:03 +0000</lastBuildDate>
-    <item>
-      <title>Reward hacking is swamping model intelligence gains</title>
-      <link>https://cursor.com/blog/reward-hacking-coding-benchmarks</link>
-      <guid isPermaLink="false">https://cursor.com/blog/reward-hacking-coding-benchmarks</guid>
-      <category>research</category>
-      <pubDate>Mon, 22 Jun 2026 12:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 22 Jun 2026 20:02:40 +0000</lastBuildDate>
     <item>
       <title>How Wayfair cut ML model costs by 90% (twice!) with Cursor</title>
       <link>https://cursor.com/blog/wayfair</link>
@@ -115,6 +108,13 @@
       <guid isPermaLink="false">https://cursor.com/blog/bootstrapping-composer-with-autoinstall</guid>
       <category>research</category>
       <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Continually improving our agent harness</title>
+      <link>https://cursor.com/blog/continually-improving-agent-harness</link>
+      <guid isPermaLink="false">https://cursor.com/blog/continually-improving-agent-harness</guid>
+      <category>research</category>
+      <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Build programmatic agents with the Cursor SDK</title>
