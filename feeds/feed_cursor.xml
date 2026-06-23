@@ -13,7 +13,13 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 23 Jun 2026 17:35:08 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 18:39:17 +0000</lastBuildDate>
+    <item>
+      <title>Coinbase reduces time from idea to production by 90% with Cursor</title>
+      <link>https://cursor.com/blog/coinbase</link>
+      <guid isPermaLink="false">https://cursor.com/blog/coinbase</guid>
+      <pubDate>Tue, 23 Jun 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>How Wayfair cut ML model costs by 90% (twice!) with Cursor</title>
       <link>https://cursor.com/blog/wayfair</link>
@@ -122,12 +128,6 @@
       <description>Launch, steer, and compose custom agents with the Cursor SDK.</description>
       <guid isPermaLink="false">https://cursor.com/blog/typescript-sdk</guid>
       <pubDate>Wed, 29 Apr 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>National Australia Bank accelerates legacy migrations with Cursor</title>
-      <link>https://cursor.com/blog/nab</link>
-      <guid isPermaLink="false">https://cursor.com/blog/nab</guid>
-      <pubDate>Thu, 23 Apr 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Meet the new Cursor</title>
