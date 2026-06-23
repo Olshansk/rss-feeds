@@ -8,13 +8,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 23 Jun 2026 19:35:37 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 20:42:14 +0000</lastBuildDate>
     <item>
       <title>Operationalizing Data Orchestration: Best Practices for DevOps, Infra, and Code Locations</title>
       <link>https://dagster.io/blog/the-dagster-almanack-operationalizing-data-orchestration</link>
       <description>A complete guide with all the insights, tips, and some predictions for the data platform engineer, just like an Almanack provides, with practical information for daily life.</description>
       <guid isPermaLink="false">https://dagster.io/blog/the-dagster-almanack-operationalizing-data-orchestration</guid>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>How to Make the Architectural Case for Dagster</title>
