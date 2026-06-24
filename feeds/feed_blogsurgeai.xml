@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Jun 2026 05:18:43 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 07:08:33 +0000</lastBuildDate>
+    <item>
+      <title>HANDBOOK.md — Can Agents Follow 100-Page Company Policies?</title>
+      <link>https://www.surgehq.ai/blog/handbook-md-draft</link>
+      <description>A benchmark for long-context enterprise agents: MCP-native RL environments, expert-written handbooks up to 124 pages, deterministic grading. No frontier model clears 25%. Instead, they fired employees without authorization, then reported full compliance.</description>
+      <guid isPermaLink="false">https://www.surgehq.ai/blog/handbook-md-draft</guid>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>The AI Bottleneck: High-Quality, Human-Powered Data</title>
       <link>https://www.surgehq.ai/blog/the-ai-bottleneck-high-quality-human-powered-data</link>
