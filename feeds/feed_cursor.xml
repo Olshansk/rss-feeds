@@ -13,7 +13,14 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Jun 2026 19:32:09 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 20:33:49 +0000</lastBuildDate>
+    <item>
+      <title>How Notion used the Cursor SDK to embed coding agents</title>
+      <link>https://cursor.com/blog/notion</link>
+      <guid isPermaLink="false">https://cursor.com/blog/notion</guid>
+      <category>product</category>
+      <pubDate>Thu, 25 Jun 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Coinbase reduces time from idea to production by 90% with Cursor</title>
       <link>https://cursor.com/blog/coinbase</link>
@@ -114,13 +121,6 @@
       <guid isPermaLink="false">https://cursor.com/blog/bootstrapping-composer-with-autoinstall</guid>
       <category>research</category>
       <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Continually improving our agent harness</title>
-      <link>https://cursor.com/blog/continually-improving-agent-harness</link>
-      <guid isPermaLink="false">https://cursor.com/blog/continually-improving-agent-harness</guid>
-      <category>research</category>
-      <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Build programmatic agents with the Cursor SDK</title>
