@@ -8,13 +8,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Jun 2026 17:36:40 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 18:34:41 +0000</lastBuildDate>
     <item>
       <title>Agent identity in Claude Tag: a new access model for autonomous, team-wide AI</title>
       <link>https://claude.com/blog/agent-identity-access-model</link>
       <description>Agent identity in Claude Tag: a new access model for autonomous, team-wide AI</description>
       <guid isPermaLink="false">https://claude.com/blog/agent-identity-access-model</guid>
       <category>Claude Code</category>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building effective human-agent teams</title>
+      <link>https://claude.com/blog/building-effective-human-agent-teams</link>
+      <description>Building effective human-agent teams</description>
+      <guid isPermaLink="false">https://claude.com/blog/building-effective-human-agent-teams</guid>
+      <category>Enterprise AI</category>
       <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
