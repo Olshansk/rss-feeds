@@ -90,6 +90,11 @@ feeds:
     type: requests
     blog_url: https://huggingface.co/blog?tag=research
 
+  stanford_hai_news:
+    script: stanford_hai_news_blog.py
+    type: requests
+    blog_url: https://hai.stanford.edu/news
+
   meta_ai:
     script: meta_ai_blog.py
     type: selenium

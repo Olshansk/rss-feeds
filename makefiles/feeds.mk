@@ -206,6 +206,13 @@ feeds_huggingface_research_full: ## Generate RSS feed for Hugging Face Blog (Res
 	$(Q)uv run feed_generators/huggingface_research_blog.py --full
 	$(call print_success,Hugging Face research feed generated - full reset)
 
+.PHONY: feeds_stanford_hai_news
+feeds_stanford_hai_news: ## Generate RSS feed for Stanford HAI News
+	$(call check_venv)
+	$(call print_info,Generating Stanford HAI News feed)
+	$(Q)uv run feed_generators/stanford_hai_news_blog.py
+	$(call print_success,Stanford HAI News feed generated)
+
 .PHONY: feeds_meta_ai
 feeds_meta_ai: ## Generate RSS feed for AI at Meta Blog (incremental)
 	$(call check_venv)
