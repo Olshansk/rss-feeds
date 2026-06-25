@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Jun 2026 09:04:19 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 10:56:48 +0000</lastBuildDate>
+    <item>
+      <title>Weaviate 1.38 Release</title>
+      <link>https://weaviate.io/blog/weaviate-1-38-release</link>
+      <description>This release brings the HFresh disk-based vector index and the built-in MCP Server to general availability, rebuilds cluster-wide async replication to run from a single scheduler (on by default), and adds two previews: the Boost API and Nested Object Filtering.</description>
+      <guid isPermaLink="false">https://weaviate.io/blog/weaviate-1-38-release</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Import &amp; Vectorize Data with Weaviate at Scale</title>
       <link>https://weaviate.io/blog/data-import-best-practices</link>
@@ -421,13 +428,6 @@
       <description>Learn how Weaviate and NVIDIA enable fast, scalable vector search for agentic AI.</description>
       <guid isPermaLink="false">https://weaviate.io/blog/nvidia-and-weaviate</guid>
       <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>More efficient multi-vector embeddings with MUVERA</title>
-      <link>https://weaviate.io/blog/muvera</link>
-      <description>Weaviate `1.31` implements the MUVERA encoding algorithm for multi-vector embeddings. In this blog, we dive the algorithm in detail, including what MUVERA is, how it works, and whether it might make sense for you.</description>
-      <guid isPermaLink="false">https://weaviate.io/blog/muvera</guid>
-      <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
