@@ -80,6 +80,16 @@ feeds:
     type: requests
     blog_url: https://groq.com/blog/
 
+  huggingface_ethics:
+    script: huggingface_ethics_blog.py
+    type: requests
+    blog_url: https://huggingface.co/blog?tag=ethics
+
+  huggingface_research:
+    script: huggingface_research_blog.py
+    type: requests
+    blog_url: https://huggingface.co/blog?tag=research
+
   meta_ai:
     script: meta_ai_blog.py
     type: selenium

@@ -1,0 +1,30 @@
+"""Generate RSS feed for Hugging Face Blog posts tagged ethics."""
+
+import argparse
+
+from huggingface_blog_common import run_tag_feed
+from utils import setup_logging
+
+logger = setup_logging()
+
+FEED_NAME = "huggingface_ethics"
+BLOG_URL = "https://huggingface.co/blog?tag=ethics"
+TAG = "ethics"
+
+
+def main(full_reset: bool = False) -> bool:
+    return run_tag_feed(
+        tag=TAG,
+        feed_name=FEED_NAME,
+        blog_url=BLOG_URL,
+        feed_title="Hugging Face Blog (Ethics)",
+        feed_description="Ethics posts from the Hugging Face blog",
+        full_reset=full_reset,
+    )
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Generate Hugging Face ethics blog RSS feed")
+    parser.add_argument("--full", action="store_true", help="Force full reset (fetch all tagged posts)")
+    args = parser.parse_args()
+    main(full_reset=args.full)

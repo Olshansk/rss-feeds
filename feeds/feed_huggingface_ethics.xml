@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Hugging Face Blog (Ethics)</title>
+    <link>https://huggingface.co/blog?tag=ethics</link>
+    <description>Ethics posts from the Hugging Face blog</description>
+    <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_huggingface_ethics.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 25 Jun 2026 03:43:30 +0000</lastBuildDate>
+    <item>
+      <title>AI and the Future of Cybersecurity: Why Openness Matters</title>
+      <link>https://huggingface.co/blog/cybersecurity-openness</link>
+      <description>AI and the Future of Cybersecurity: Why Openness Matters (cybersecurity, open-source, community, agents, llm, ethics)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/cybersecurity-openness</guid>
+      <category>cybersecurity</category>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Voice Cloning with Consent</title>
+      <link>https://huggingface.co/blog/voice-consent-gate</link>
+      <description>Voice Cloning with Consent (ethics, guide, speech, audio, text-to-speech, voice, voice-cloning)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/voice-consent-gate</guid>
+      <category>ethics</category>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Visible Watermarking with Gradio</title>
+      <link>https://huggingface.co/blog/watermarking-with-gradio</link>
+      <description>Visible Watermarking with Gradio (ethics, text-generation, guide, text-to-image, text-to-video)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/watermarking-with-gradio</guid>
+      <category>ethics</category>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Policy @🤗: Response to the White House AI Action Plan RFI</title>
+      <link>https://huggingface.co/blog/ai-action-wh-2025</link>
+      <description>AI Policy @🤗: Response to the White House AI Action Plan RFI (ethics, policy)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/ai-action-wh-2025</guid>
+      <category>ethics</category>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Agents Are Here. What Now?</title>
+      <link>https://huggingface.co/blog/ethics-soc-7</link>
+      <description>AI Agents Are Here. What Now? (ethics, agents)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/ethics-soc-7</guid>
+      <category>ethics</category>
+      <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Open Source Developers Guide to the EU AI Act</title>
+      <link>https://huggingface.co/blog/eu-ai-act-for-oss-developers</link>
+      <description>Open Source Developers Guide to the EU AI Act (policy, guide, ethics)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/eu-ai-act-for-oss-developers</guid>
+      <category>policy</category>
+      <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ethics and Society Newsletter #6: Building Better AI: The Importance of Data Quality</title>
+      <link>https://huggingface.co/blog/ethics-soc-6</link>
+      <description>Ethics and Society Newsletter #6: Building Better AI: The Importance of Data Quality (ethics)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/ethics-soc-6</guid>
+      <category>ethics</category>
+      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Public Policy at Hugging Face</title>
+      <link>https://huggingface.co/blog/policy-blog</link>
+      <description>Public Policy at Hugging Face (ethics)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/policy-blog</guid>
+      <category>ethics</category>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Watermarking 101: Tools and Techniques</title>
+      <link>https://huggingface.co/blog/watermarking</link>
+      <description>AI Watermarking 101: Tools and Techniques (ethics, research, nlp, guide)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/watermarking</guid>
+      <category>ethics</category>
+      <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ethics and Society Newsletter #5: Hugging Face Goes To Washington and Other Summer 2023 Musings</title>
+      <link>https://huggingface.co/blog/ethics-soc-5</link>
+      <description>Ethics and Society Newsletter #5: Hugging Face Goes To Washington and Other Summer 2023 Musings (ethics)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/ethics-soc-5</guid>
+      <category>ethics</category>
+      <pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Policy @🤗: Open ML Considerations in the EU AI Act</title>
+      <link>https://huggingface.co/blog/eu-ai-act-oss</link>
+      <description>AI Policy @🤗: Open ML Considerations in the EU AI Act (ethics)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/eu-ai-act-oss</guid>
+      <category>ethics</category>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ethics and Society Newsletter #4: Bias in Text-to-Image Models</title>
+      <link>https://huggingface.co/blog/ethics-soc-4</link>
+      <description>Ethics and Society Newsletter #4: Bias in Text-to-Image Models (ethics)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/ethics-soc-4</guid>
+      <category>ethics</category>
+      <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Policy @🤗: Response to the U.S. NTIA's Request for Comment on AI Accountability</title>
+      <link>https://huggingface.co/blog/policy-ntia-rfc</link>
+      <description>AI Policy @🤗: Response to the U.S. NTIA's Request for Comment on AI Accountability (community, ethics)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/policy-ntia-rfc</guid>
+      <category>community</category>
+      <pubDate>Tue, 20 Jun 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Announcing our new Content Guidelines and Policy</title>
+      <link>https://huggingface.co/blog/content-guidelines-update</link>
+      <description>Announcing our new Content Guidelines and Policy (community, ethics)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/content-guidelines-update</guid>
+      <category>community</category>
+      <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hugging Face Selected for the French Data Protection Agency Enhanced Support Program</title>
+      <link>https://huggingface.co/blog/cnil</link>
+      <description>Hugging Face Selected for the French Data Protection Agency Enhanced Support Program (ethics)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/cnil</guid>
+      <category>ethics</category>
+      <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ethics and Society Newsletter #3: Ethical Openness at Hugging Face</title>
+      <link>https://huggingface.co/blog/ethics-soc-3</link>
+      <description>Ethics and Society Newsletter #3: Ethical Openness at Hugging Face (ethics)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/ethics-soc-3</guid>
+      <category>ethics</category>
+      <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ethical Guidelines for developing the Diffusers library</title>
+      <link>https://huggingface.co/blog/ethics-diffusers</link>
+      <description>Ethical Guidelines for developing the Diffusers library (ethics, diffusers)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/ethics-diffusers</guid>
+      <category>ethics</category>
+      <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Model Cards</title>
+      <link>https://huggingface.co/blog/model-cards</link>
+      <description>Model Cards (community, research, ethics, guide)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/model-cards</guid>
+      <category>community</category>
+      <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Let's talk about biases in machine learning! Ethics and Society Newsletter #2</title>
+      <link>https://huggingface.co/blog/ethics-soc-2</link>
+      <description>Let's talk about biases in machine learning! Ethics and Society Newsletter #2 (ethics)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/ethics-soc-2</guid>
+      <category>ethics</category>
+      <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Evaluating Language Model Bias with 🤗 Evaluate</title>
+      <link>https://huggingface.co/blog/evaluating-llm-bias</link>
+      <description>Evaluating Language Model Bias with 🤗 Evaluate (ethics, research, nlp)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/evaluating-llm-bias</guid>
+      <category>ethics</category>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ethics and Society Newsletter #1</title>
+      <link>https://huggingface.co/blog/ethics-soc-1</link>
+      <description>Ethics and Society Newsletter #1 (ethics)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/ethics-soc-1</guid>
+      <category>ethics</category>
+      <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comments on U.S. National AI Research Resource Interim Report</title>
+      <link>https://huggingface.co/blog/us-national-ai-research-resource</link>
+      <description>Comments on U.S. National AI Research Resource Interim Report (community, ethics)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/us-national-ai-research-resource</guid>
+      <category>community</category>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

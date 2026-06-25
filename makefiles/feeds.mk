@@ -178,6 +178,34 @@ feeds_groq: ## Generate RSS feed for Groq Blog
 	$(Q)uv run feed_generators/groq_blog.py
 	$(call print_success,Groq Blog feed generated)
 
+.PHONY: feeds_huggingface_ethics
+feeds_huggingface_ethics: ## Generate RSS feed for Hugging Face Blog (Ethics)
+	$(call check_venv)
+	$(call print_info,Generating Hugging Face ethics feed)
+	$(Q)uv run feed_generators/huggingface_ethics_blog.py
+	$(call print_success,Hugging Face ethics feed generated)
+
+.PHONY: feeds_huggingface_ethics_full
+feeds_huggingface_ethics_full: ## Generate RSS feed for Hugging Face Blog (Ethics, full reset)
+	$(call check_venv)
+	$(call print_info,Generating Hugging Face ethics feed - FULL RESET)
+	$(Q)uv run feed_generators/huggingface_ethics_blog.py --full
+	$(call print_success,Hugging Face ethics feed generated - full reset)
+
+.PHONY: feeds_huggingface_research
+feeds_huggingface_research: ## Generate RSS feed for Hugging Face Blog (Research)
+	$(call check_venv)
+	$(call print_info,Generating Hugging Face research feed)
+	$(Q)uv run feed_generators/huggingface_research_blog.py
+	$(call print_success,Hugging Face research feed generated)
+
+.PHONY: feeds_huggingface_research_full
+feeds_huggingface_research_full: ## Generate RSS feed for Hugging Face Blog (Research, full reset)
+	$(call check_venv)
+	$(call print_info,Generating Hugging Face research feed - FULL RESET)
+	$(Q)uv run feed_generators/huggingface_research_blog.py --full
+	$(call print_success,Hugging Face research feed generated - full reset)
+
 .PHONY: feeds_meta_ai
 feeds_meta_ai: ## Generate RSS feed for AI at Meta Blog (incremental)
 	$(call check_venv)
