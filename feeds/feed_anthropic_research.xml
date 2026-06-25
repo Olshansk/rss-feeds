@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Jun 2026 16:24:25 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 17:16:54 +0000</lastBuildDate>
     <item>
       <title>Jun 18, 2026Frontier Red TeamProject Fetch: Phase two</title>
       <link>https://www.anthropic.com/research/project-fetch-phase-two</link>
@@ -108,6 +108,30 @@
       <description>Economic Research</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/economic-research</guid>
       <category>Research</category>
+      <pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Alignment</title>
+      <link>https://www.anthropic.com/research/team/alignment</link>
+      <description>Alignment</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
+      <category>Research</category>
+      <pubDate>Wed, 04 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Interpretability</title>
+      <link>https://www.anthropic.com/research/team/interpretability</link>
+      <description>Interpretability</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/interpretability</guid>
+      <category>Research</category>
+      <pubDate>Sun, 09 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Societal Impacts</title>
+      <link>https://www.anthropic.com/research/team/societal-impacts</link>
+      <description>Societal Impacts</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/societal-impacts</guid>
+      <category>Research</category>
       <pubDate>Sun, 05 May 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -116,31 +140,7 @@
       <description>Frontier Red Team</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/frontier-red-team</guid>
       <category>Research</category>
-      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Societal Impacts</title>
-      <link>https://www.anthropic.com/research/team/societal-impacts</link>
-      <description>Societal Impacts</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/team/societal-impacts</guid>
-      <category>Research</category>
-      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Interpretability</title>
-      <link>https://www.anthropic.com/research/team/interpretability</link>
-      <description>Interpretability</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/team/interpretability</guid>
-      <category>Research</category>
-      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Alignment</title>
-      <link>https://www.anthropic.com/research/team/alignment</link>
-      <description>Alignment</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
-      <category>Research</category>
-      <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 31 Aug 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
