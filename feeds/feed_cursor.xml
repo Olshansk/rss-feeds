@@ -13,7 +13,7 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Jun 2026 17:52:13 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 18:42:27 +0000</lastBuildDate>
     <item>
       <title>Reward hacking is swamping model intelligence gains</title>
       <link>https://cursor.com/blog/reward-hacking-coding-benchmarks</link>
@@ -57,8 +57,8 @@
     <item>
       <title>Direct agents with visual prompts in Design Mode</title>
       <link>https://cursor.com/blog/design-mode</link>
-      <description>Point, draw, or narrate UI changes in the browser while agents edit the code underneath.</description>
       <guid isPermaLink="false">https://cursor.com/blog/design-mode</guid>
+      <category>product</category>
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
