@@ -9,10 +9,15 @@ concurrency:
   group: request-feeds
   cancel-in-progress: true
 
+permissions:
+  contents: write
+
 jobs:
   run-feeds:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    env:
+      RSS_REPO_SLUG: ${{ github.repository }}
 
     steps:
       - name: Checkout repository
@@ -49,5 +54,5 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m 'Update RSS feeds'
-            git push || { git pull --rebase && git push; }
+            git push origin HEAD:main || { git pull --rebase origin main && git push origin HEAD:main; }
           fi
