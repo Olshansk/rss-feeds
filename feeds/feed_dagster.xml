@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Jun 2026 13:39:43 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 14:53:05 +0000</lastBuildDate>
     <item>
       <title>Operationalizing Data Orchestration: Best Practices for DevOps, Infra, and Code Locations</title>
       <link>https://dagster.io/blog/the-dagster-almanack-operationalizing-data-orchestration</link>
