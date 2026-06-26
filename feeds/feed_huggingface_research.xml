@@ -1,0 +1,1165 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Hugging Face Blog (Research)</title>
+    <link>https://huggingface.co/blog?tag=research</link>
+    <description>Research posts from the Hugging Face blog</description>
+    <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_huggingface_research.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 25 Jun 2026 03:43:29 +0000</lastBuildDate>
+    <item>
+      <title>Introducing the Ettin Reranker Family</title>
+      <link>https://huggingface.co/blog/ettin-reranker</link>
+      <description>Introducing the Ettin Reranker Family (nlp, community, research, open-source)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/ettin-reranker</guid>
+      <category>nlp</category>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DeepSeek-V4: a million-token context that agents can actually use</title>
+      <link>https://huggingface.co/blog/deepseekv4</link>
+      <description>DeepSeek-V4: a million-token context that agents can actually use (llm, moe, long-context, agents, open-source, research, community)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/deepseekv4</guid>
+      <category>llm</category>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ecom-RLVE: Adaptive Verifiable Environments for E-Commerce Conversational Agents</title>
+      <link>https://huggingface.co/blog/ecom-rlve</link>
+      <description>Ecom-RLVE: Adaptive Verifiable Environments for E-Commerce Conversational Agents (reinforcement-learning, rlvr, e-commerce, agents, llm, training, research, open-source)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/ecom-rlve</guid>
+      <category>reinforcement-learning</category>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing RTEB: A New Standard for Retrieval Evaluation</title>
+      <link>https://huggingface.co/blog/rteb</link>
+      <description>Introducing RTEB: A New Standard for Retrieval Evaluation (nlp, evaluation, retrieval, benchmark, community, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/rteb</guid>
+      <category>nlp</category>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Jupyter Agents: training LLMs to reason with notebooks</title>
+      <link>https://huggingface.co/blog/jupyter-agent-2</link>
+      <description>Jupyter Agents: training LLMs to reason with notebooks (agents, jupyter, llm, data-science, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/jupyter-agent-2</guid>
+      <category>agents</category>
+      <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>mmBERT: ModernBERT goes Multilingual</title>
+      <link>https://huggingface.co/blog/mmbert</link>
+      <description>mmBERT: ModernBERT goes Multilingual (llm, nlp, community, research, open-source-collab)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/mmbert</guid>
+      <category>llm</category>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MCP for Research: How to Connect AI to Research Tools</title>
+      <link>https://huggingface.co/blog/mcp-for-research</link>
+      <description>MCP for Research: How to Connect AI to Research Tools (mcp, research, guide)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/mcp-for-research</guid>
+      <category>mcp</category>
+      <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>TextQuests: How Good are LLMs at Text-Based Video Games?</title>
+      <link>https://huggingface.co/blog/textquests</link>
+      <description>TextQuests: How Good are LLMs at Text-Based Video Games? (research, llm, evaluation, agents)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/textquests</guid>
+      <category>research</category>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Trackio: A Lightweight Experiment Tracking Library from Hugging Face</title>
+      <link>https://huggingface.co/blog/trackio</link>
+      <description>Introducing Trackio: A Lightweight Experiment Tracking Library from Hugging Face (research, gradio, open-source)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/trackio</guid>
+      <category>research</category>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Back to The Future: Evaluating AI Agents on Predicting Future Events</title>
+      <link>https://huggingface.co/blog/futurebench</link>
+      <description>Back to The Future: Evaluating AI Agents on Predicting Future Events (research, evaluation, ai)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/futurebench</guid>
+      <category>research</category>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ettin Suite: SoTA Paired Encoders and Decoders</title>
+      <link>https://huggingface.co/blog/ettin</link>
+      <description>Ettin Suite: SoTA Paired Encoders and Decoders (llm, nlp, community, research, open-source-collab)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/ettin</guid>
+      <category>llm</category>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SmolLM3: smol, multilingual, long-context reasoner</title>
+      <link>https://huggingface.co/blog/smollm3</link>
+      <description>SmolLM3: smol, multilingual, long-context reasoner (llm, nlp, reasoning, community, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/smollm3</guid>
+      <category>llm</category>
+      <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Efficient MultiModal Data Pipeline</title>
+      <link>https://huggingface.co/blog/mmdp</link>
+      <description>Efficient MultiModal Data Pipeline (vlm, data, nanovlm, research, community, open)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/mmdp</guid>
+      <category>vlm</category>
+      <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gemma 3n fully available in the open-source ecosystem!</title>
+      <link>https://huggingface.co/blog/gemma3n</link>
+      <description>Gemma 3n fully available in the open-source ecosystem! (audio, vision, llm, vlm, community, research, multimodal)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/gemma3n</guid>
+      <category>audio</category>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>nanoVLM: The simplest repository to train your VLM in pure PyTorch</title>
+      <link>https://huggingface.co/blog/nanovlm</link>
+      <description>nanoVLM: The simplest repository to train your VLM in pure PyTorch (vlm, vision, llm, nanovlm, research, community, open)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/nanovlm</guid>
+      <category>vlm</category>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vision Language Models (Better, faster, stronger)</title>
+      <link>https://huggingface.co/blog/vlms-2025</link>
+      <description>Vision Language Models (Better, faster, stronger) (vlm, vision, multimodal, community, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/vlms-2025</guid>
+      <category>vlm</category>
+      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing HELMET: Holistically Evaluating Long-context Language Models</title>
+      <link>https://huggingface.co/blog/helmet</link>
+      <description>Introducing HELMET: Holistically Evaluating Long-context Language Models (long-context, benchmark, nlp, community, research, intel)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/helmet</guid>
+      <category>long-context</category>
+      <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Arabic Leaderboards: Introducing Arabic Instruction Following, Updating AraGen, and More</title>
+      <link>https://huggingface.co/blog/leaderboard-3c3h-aragen-ifeval</link>
+      <description>Arabic Leaderboards: Introducing Arabic Instruction Following, Updating AraGen, and More (leaderboard, evaluation, nlp, LLM, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/leaderboard-3c3h-aragen-ifeval</guid>
+      <category>leaderboard</category>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Open R1: How to use OlympicCoder locally for coding</title>
+      <link>https://huggingface.co/blog/olympic-coder-lmstudio</link>
+      <description>Open R1: How to use OlympicCoder locally for coding (open-source, llm, research, reasoning, local)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/olympic-coder-lmstudio</guid>
+      <category>open-source</category>
+      <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>NVIDIA's GTC 2025 Announcement for Physical AI Developers: New Open Models and Datasets</title>
+      <link>https://huggingface.co/blog/nvidia-physical-ai</link>
+      <description>NVIDIA's GTC 2025 Announcement for Physical AI Developers: New Open Models and Datasets (robotics, ai, datasets, community, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/nvidia-physical-ai</guid>
+      <category>robotics</category>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Welcome Gemma 3: Google's all new multimodal, multilingual, long context open LLM</title>
+      <link>https://huggingface.co/blog/gemma3</link>
+      <description>Welcome Gemma 3: Google's all new multimodal, multilingual, long context open LLM (nlp, llm, vlm, community, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/gemma3</guid>
+      <category>nlp</category>
+      <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Open Arabic LLM Leaderboard 2</title>
+      <link>https://huggingface.co/blog/leaderboard-arabic-v2</link>
+      <description>The Open Arabic LLM Leaderboard 2 (nlp, research, leaderboard, LLM, arabic)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/leaderboard-arabic-v2</guid>
+      <category>nlp</category>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Open-source DeepResearch – Freeing our search agents</title>
+      <link>https://huggingface.co/blog/open-deep-research</link>
+      <description>Open-source DeepResearch – Freeing our search agents (llms, agents, research, smolagents)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/open-deep-research</guid>
+      <category>llms</category>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DABStep: Data Agent Benchmark for Multi-step Reasoning</title>
+      <link>https://huggingface.co/blog/dabstep</link>
+      <description>DABStep: Data Agent Benchmark for Multi-step Reasoning (llms, reasoning, research, evaluation)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/dabstep</guid>
+      <category>llms</category>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Open-R1: a fully open reproduction of DeepSeek-R1</title>
+      <link>https://huggingface.co/blog/open-r1</link>
+      <description>Open-R1: a fully open reproduction of DeepSeek-R1 (llms, reasoning, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/open-r1</guid>
+      <category>llms</category>
+      <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Controlling Language Model Generation with NVIDIA's LogitsProcessorZoo</title>
+      <link>https://huggingface.co/blog/logits-processor-zoo</link>
+      <description>Controlling Language Model Generation with NVIDIA's LogitsProcessorZoo (llm, research, open-source)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/logits-processor-zoo</guid>
+      <category>llm</category>
+      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Evaluating Audio Reasoning with Big Bench Audio</title>
+      <link>https://huggingface.co/blog/big-bench-audio-release</link>
+      <description>Evaluating Audio Reasoning with Big Bench Audio (leaderboard, research, collaboration, community)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/big-bench-audio-release</guid>
+      <category>leaderboard</category>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Finally, a Replacement for BERT: Introducing ModernBERT</title>
+      <link>https://huggingface.co/blog/modernbert</link>
+      <description>Finally, a Replacement for BERT: Introducing ModernBERT (nlp, community, research, open-source-collab)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/modernbert</guid>
+      <category>nlp</category>
+      <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bamba: Inference-Efficient Hybrid Mamba2 Model</title>
+      <link>https://huggingface.co/blog/bamba</link>
+      <description>Bamba: Inference-Efficient Hybrid Mamba2 Model (research, nlp, community, model)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/bamba</guid>
+      <category>research</category>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Welcome to the Falcon 3 Family of Open Models!</title>
+      <link>https://huggingface.co/blog/falcon3</link>
+      <description>Welcome to the Falcon 3 Family of Open Models! (nlp, llm, community, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/falcon3</guid>
+      <category>nlp</category>
+      <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Welcome PaliGemma 2 – New vision language models by Google</title>
+      <link>https://huggingface.co/blog/paligemma2</link>
+      <description>Welcome PaliGemma 2 – New vision language models by Google (multimodal, gemma, LLM, vision, VLM, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/paligemma2</guid>
+      <category>multimodal</category>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rethinking LLM Evaluation with 3C3H: AraGen Benchmark and Leaderboard</title>
+      <link>https://huggingface.co/blog/leaderboard-3c3h-aragen</link>
+      <description>Rethinking LLM Evaluation with 3C3H: AraGen Benchmark and Leaderboard (leaderboard, evaluation, nlp, LLM, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/leaderboard-3c3h-aragen</guid>
+      <category>leaderboard</category>
+      <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>You could have designed state of the art positional encoding</title>
+      <link>https://huggingface.co/blog/designing-positional-encoding</link>
+      <description>You could have designed state of the art positional encoding (research, multimodal, tutorial)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/designing-positional-encoding</guid>
+      <category>research</category>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Letting Large Models Debate: The First Multilingual LLM Debate Competition</title>
+      <link>https://huggingface.co/blog/debate</link>
+      <description>Letting Large Models Debate: The First Multilingual LLM Debate Competition (community, research, nlp, evaluation, leaderboard, collaboration)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/debate</guid>
+      <category>community</category>
+      <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Faster Text Generation with Self-Speculative Decoding</title>
+      <link>https://huggingface.co/blog/layerskip</link>
+      <description>Faster Text Generation with Self-Speculative Decoding (research, nlp, open-source, collaboration)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/layerskip</guid>
+      <category>research</category>
+      <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing the Open Leaderboard for Japanese LLMs!</title>
+      <link>https://huggingface.co/blog/leaderboard-japanese</link>
+      <description>Introducing the Open Leaderboard for Japanese LLMs! (community, research, nlp, evaluation, leaderboard, collaboration)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/leaderboard-japanese</guid>
+      <category>community</category>
+      <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Share your open ML datasets on Hugging Face Hub!</title>
+      <link>https://huggingface.co/blog/researcher-dataset-sharing</link>
+      <description>Share your open ML datasets on Hugging Face Hub! (community, research, datasets, guide)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/researcher-dataset-sharing</guid>
+      <category>community</category>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Universal Assisted Generation: Faster Decoding with Any Assistant Model</title>
+      <link>https://huggingface.co/blog/universal_assisted_generation</link>
+      <description>Universal Assisted Generation: Faster Decoding with Any Assistant Model (research, nlp, open-source, collaboration)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/universal_assisted_generation</guid>
+      <category>research</category>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Faster Assisted Generation with Dynamic Speculation</title>
+      <link>https://huggingface.co/blog/dynamic_speculation_lookahead</link>
+      <description>Faster Assisted Generation with Dynamic Speculation (research, nlp)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/dynamic_speculation_lookahead</guid>
+      <category>research</category>
+      <pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Short Summary of Chinese AI Global Expansion</title>
+      <link>https://huggingface.co/blog/chinese-ai-expansion</link>
+      <description>A Short Summary of Chinese AI Global Expansion (research, community)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/chinese-ai-expansion</guid>
+      <category>research</category>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🇨🇿 BenCzechMark - Can your LLM Understand Czech?</title>
+      <link>https://huggingface.co/blog/benczechmark</link>
+      <description>🇨🇿 BenCzechMark - Can your LLM Understand Czech? (nlp, research, leaderboard, LLM)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/benczechmark</guid>
+      <category>nlp</category>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Exploring the Daily Papers Page on Hugging Face</title>
+      <link>https://huggingface.co/blog/daily-papers</link>
+      <description>Exploring the Daily Papers Page on Hugging Face (research, community)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/daily-papers</guid>
+      <category>research</category>
+      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fine-tuning LLMs to 1.58bit: extreme quantization made easy</title>
+      <link>https://huggingface.co/blog/1_58_llm_extreme_quantization</link>
+      <description>Fine-tuning LLMs to 1.58bit: extreme quantization made easy (nlp, research, community)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/1_58_llm_extreme_quantization</guid>
+      <category>nlp</category>
+      <pubDate>Wed, 18 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Welcome Falcon Mamba: The first strong attention-free 7B model</title>
+      <link>https://huggingface.co/blog/falconmamba</link>
+      <description>Welcome Falcon Mamba: The first strong attention-free 7B model (nlp, community, research, LLM, Mamba)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/falconmamba</guid>
+      <category>nlp</category>
+      <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing TextImage Augmentation for Document Images</title>
+      <link>https://huggingface.co/blog/doc_aug_hf_alb</link>
+      <description>Introducing TextImage Augmentation for Document Images (document ai, data augmentation, synthetic-data, albumentations, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/doc_aug_hf_alb</guid>
+      <category>document ai</category>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google releases Gemma 2 2B, ShieldGemma and Gemma Scope</title>
+      <link>https://huggingface.co/blog/gemma-july-update</link>
+      <description>Google releases Gemma 2 2B, ShieldGemma and Gemma Scope (nlp, community, research, LLM, gcp)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/gemma-july-update</guid>
+      <category>nlp</category>
+      <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LAVE: Zero-shot VQA Evaluation on Docmatix with LLMs - Do We Still Need Fine-Tuning?</title>
+      <link>https://huggingface.co/blog/zero-shot-vqa-docmatix</link>
+      <description>LAVE: Zero-shot VQA Evaluation on Docmatix with LLMs - Do We Still Need Fine-Tuning? (community, evaluation, synthetic-data, vqa, vlm, zero-shot, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/zero-shot-vqa-docmatix</guid>
+      <category>community</category>
+      <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Llama 3.1 - 405B, 70B &amp; 8B with multilinguality and long context</title>
+      <link>https://huggingface.co/blog/llama31</link>
+      <description>Llama 3.1 - 405B, 70B &amp; 8B with multilinguality and long context (nlp, community, research, LLM)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/llama31</guid>
+      <category>nlp</category>
+      <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Docmatix - a huge dataset for Document Visual Question Answering</title>
+      <link>https://huggingface.co/blog/docmatix</link>
+      <description>Docmatix - a huge dataset for Document Visual Question Answering (community, datasets, synthetic-data, open-source, cv, vlm, announcement, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/docmatix</guid>
+      <category>community</category>
+      <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SmolLM - blazingly fast and remarkably powerful</title>
+      <link>https://huggingface.co/blog/smollm</link>
+      <description>SmolLM - blazingly fast and remarkably powerful (llm, nlp, synthetic-data, research, datasets, community)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/smollm</guid>
+      <category>llm</category>
+      <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How NuminaMath Won the 1st AIMO Progress Prize</title>
+      <link>https://huggingface.co/blog/winning-aimo-progress-prize</link>
+      <description>How NuminaMath Won the 1st AIMO Progress Prize (ai4math, nlp, community, research, leaderboard, open-science-collab)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/winning-aimo-progress-prize</guid>
+      <category>ai4math</category>
+      <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Our Transformers Code Agent beats the GAIA benchmark 🏅</title>
+      <link>https://huggingface.co/blog/beating-gaia</link>
+      <description>Our Transformers Code Agent beats the GAIA benchmark 🏅 (agents, smolagents, nlp, community, research, leaderboard)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/beating-gaia</guid>
+      <category>agents</category>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Welcome Gemma 2 - Google’s new open LLM</title>
+      <link>https://huggingface.co/blog/gemma2</link>
+      <description>Welcome Gemma 2 - Google’s new open LLM (nlp, community, research, LLM, gcp)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/gemma2</guid>
+      <category>nlp</category>
+      <pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fine-tuning Florence-2 - Microsoft's Cutting-edge Vision Language Models</title>
+      <link>https://huggingface.co/blog/finetune-florence2</link>
+      <description>Fine-tuning Florence-2 - Microsoft's Cutting-edge Vision Language Models (collaboration, community, open-source, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/finetune-florence2</guid>
+      <category>collaboration</category>
+      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>BigCodeBench: The Next Generation of HumanEval</title>
+      <link>https://huggingface.co/blog/leaderboard-bigcodebench</link>
+      <description>BigCodeBench: The Next Generation of HumanEval (leaderboard, research, collaboration, community)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/leaderboard-bigcodebench</guid>
+      <category>leaderboard</category>
+      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>From DeepSpeed to FSDP and Back Again with Hugging Face Accelerate</title>
+      <link>https://huggingface.co/blog/deepspeed-to-fsdp-and-back</link>
+      <description>From DeepSpeed to FSDP and Back Again with Hugging Face Accelerate (open-source, guide, research, collaboration)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/deepspeed-to-fsdp-and-back</guid>
+      <category>open-source</category>
+      <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Putting RL back in RLHF</title>
+      <link>https://huggingface.co/blog/putting_rl_back_in_rlhf_with_rloo</link>
+      <description>Putting RL back in RLHF (research, rl, rlhf)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/putting_rl_back_in_rlhf_with_rloo</guid>
+      <category>research</category>
+      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Launching the Artificial Analysis Text to Image Leaderboard &amp; Arena</title>
+      <link>https://huggingface.co/blog/leaderboard-artificial-analysis2</link>
+      <description>Launching the Artificial Analysis Text to Image Leaderboard &amp; Arena (leaderboard, research, collaboration, community)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/leaderboard-artificial-analysis2</guid>
+      <category>leaderboard</category>
+      <pubDate>Thu, 06 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Falcon 2: An 11B parameter pretrained language model and VLM, trained on over 5000B tokens and 11 languages</title>
+      <link>https://huggingface.co/blog/falcon2-11b</link>
+      <description>Falcon 2: An 11B parameter pretrained language model and VLM, trained on over 5000B tokens and 11 languages (nlp, community, research, LLM, multimodal, vision, open-source)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/falcon2-11b</guid>
+      <category>nlp</category>
+      <pubDate>Fri, 24 May 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CyberSecEval 2 - A Comprehensive Evaluation Framework for Cybersecurity Risks and Capabilities of Large Language Models</title>
+      <link>https://huggingface.co/blog/leaderboard-llamaguard</link>
+      <description>CyberSecEval 2 - A Comprehensive Evaluation Framework for Cybersecurity Risks and Capabilities of Large Language Models (nlp, research, leaderboard, LLM)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/leaderboard-llamaguard</guid>
+      <category>nlp</category>
+      <pubDate>Fri, 24 May 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing the Open Arabic LLM Leaderboard</title>
+      <link>https://huggingface.co/blog/leaderboard-arabic</link>
+      <description>Introducing the Open Arabic LLM Leaderboard (nlp, research, leaderboard, LLM)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/leaderboard-arabic</guid>
+      <category>nlp</category>
+      <pubDate>Tue, 14 May 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing the Open Leaderboard for Hebrew LLMs!</title>
+      <link>https://huggingface.co/blog/leaderboard-hebrew</link>
+      <description>Introducing the Open Leaderboard for Hebrew LLMs! (nlp, research, leaderboard, LLM)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/leaderboard-hebrew</guid>
+      <category>nlp</category>
+      <pubDate>Sun, 05 May 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bringing the Artificial Analysis LLM Performance Leaderboard to Hugging Face</title>
+      <link>https://huggingface.co/blog/leaderboard-artificial-analysis</link>
+      <description>Bringing the Artificial Analysis LLM Performance Leaderboard to Hugging Face (leaderboard, research, collaboration, community)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/leaderboard-artificial-analysis</guid>
+      <category>leaderboard</category>
+      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Improving Prompt Consistency with Structured Generations</title>
+      <link>https://huggingface.co/blog/evaluation-structured-outputs</link>
+      <description>Improving Prompt Consistency with Structured Generations (evaluation, collaboration, research, leaderboard)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/evaluation-structured-outputs</guid>
+      <category>evaluation</category>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>StarCoder2-Instruct: Fully Transparent and Permissive Self-Alignment for Code Generation</title>
+      <link>https://huggingface.co/blog/sc2-instruct</link>
+      <description>StarCoder2-Instruct: Fully Transparent and Permissive Self-Alignment for Code Generation (nlp, community, research, LLM)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/sc2-instruct</guid>
+      <category>nlp</category>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing the Open Chain of Thought Leaderboard</title>
+      <link>https://huggingface.co/blog/leaderboard-cot</link>
+      <description>Introducing the Open Chain of Thought Leaderboard (leaderboard, research, collaboration, community)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/leaderboard-cot</guid>
+      <category>leaderboard</category>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Open Medical-LLM Leaderboard: Benchmarking Large Language Models in Healthcare</title>
+      <link>https://huggingface.co/blog/leaderboard-medicalllm</link>
+      <description>The Open Medical-LLM Leaderboard: Benchmarking Large Language Models in Healthcare (leaderboard, collaboration, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/leaderboard-medicalllm</guid>
+      <category>leaderboard</category>
+      <pubDate>Fri, 19 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Welcome Llama 3 - Meta's new open LLM</title>
+      <link>https://huggingface.co/blog/llama3</link>
+      <description>Welcome Llama 3 - Meta's new open LLM (nlp, community, research, LLM)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/llama3</guid>
+      <category>nlp</category>
+      <pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing the LiveCodeBench Leaderboard - Holistic and Contamination-Free Evaluation of Code LLMs</title>
+      <link>https://huggingface.co/blog/leaderboard-livecodebench</link>
+      <description>Introducing the LiveCodeBench Leaderboard - Holistic and Contamination-Free Evaluation of Code LLMs (leaderboard, research, collaboration, community)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/leaderboard-livecodebench</guid>
+      <category>leaderboard</category>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Running Privacy-Preserving Inferences on Hugging Face Endpoints</title>
+      <link>https://huggingface.co/blog/fhe-endpoints</link>
+      <description>Running Privacy-Preserving Inferences on Hugging Face Endpoints (guide, privacy, research, FHE)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/fhe-endpoints</guid>
+      <category>guide</category>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Idefics2: A Powerful 8B Vision-Language Model for the community</title>
+      <link>https://huggingface.co/blog/idefics2</link>
+      <description>Introducing Idefics2: A Powerful 8B Vision-Language Model for the community (research, nlp, cv, vlm, multimodal)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/idefics2</guid>
+      <category>research</category>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CodeGemma - an official Google release for code LLMs</title>
+      <link>https://huggingface.co/blog/codegemma</link>
+      <description>CodeGemma - an official Google release for code LLMs (nlp, community, research, LLM, gcp)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/codegemma</guid>
+      <category>nlp</category>
+      <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Binary and Scalar Embedding Quantization for Significantly Faster &amp; Cheaper Retrieval</title>
+      <link>https://huggingface.co/blog/embedding-quantization</link>
+      <description>Binary and Scalar Embedding Quantization for Significantly Faster &amp; Cheaper Retrieval (nlp, community, guide, collaboration, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/embedding-quantization</guid>
+      <category>nlp</category>
+      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unlocking the conversion of Web Screenshots into HTML Code with the WebSight Dataset</title>
+      <link>https://huggingface.co/blog/websight</link>
+      <description>Unlocking the conversion of Web Screenshots into HTML Code with the WebSight Dataset (nlp, cv, data, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/websight</guid>
+      <category>nlp</category>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing ConTextual: How well can your Multimodal model jointly reason over text and image in text-rich scenes?</title>
+      <link>https://huggingface.co/blog/leaderboard-contextual</link>
+      <description>Introducing ConTextual: How well can your Multimodal model jointly reason over text and image in text-rich scenes? (leaderboard, collaboration, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/leaderboard-contextual</guid>
+      <category>leaderboard</category>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>StarCoder2 and The Stack v2</title>
+      <link>https://huggingface.co/blog/starcoder2</link>
+      <description>StarCoder2 and The Stack v2 (nlp, community, research, LLM)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/starcoder2</guid>
+      <category>nlp</category>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Watermarking 101: Tools and Techniques</title>
+      <link>https://huggingface.co/blog/watermarking</link>
+      <description>AI Watermarking 101: Tools and Techniques (ethics, research, nlp, guide)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/watermarking</guid>
+      <category>ethics</category>
+      <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fine-Tuning Gemma Models in Hugging Face</title>
+      <link>https://huggingface.co/blog/gemma-peft</link>
+      <description>Fine-Tuning Gemma Models in Hugging Face (nlp, community, research, LLM, gcp, peft)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/gemma-peft</guid>
+      <category>nlp</category>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Welcome Gemma - Google’s new open LLM</title>
+      <link>https://huggingface.co/blog/gemma</link>
+      <description>Welcome Gemma - Google’s new open LLM (nlp, community, research, LLM, gcp)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/gemma</guid>
+      <category>nlp</category>
+      <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>NPHardEval Leaderboard: Unveiling the Reasoning Abilities of Large Language Models through Complexity Classes and Dynamic Updates</title>
+      <link>https://huggingface.co/blog/leaderboard-nphardeval</link>
+      <description>NPHardEval Leaderboard: Unveiling the Reasoning Abilities of Large Language Models through Complexity Classes and Dynamic Updates (leaderboard, guide, collaboration, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/leaderboard-nphardeval</guid>
+      <category>leaderboard</category>
+      <pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Constitutional AI with Open LLMs</title>
+      <link>https://huggingface.co/blog/constitutional_ai</link>
+      <description>Constitutional AI with Open LLMs (research, rl, rlhf, constitutional-ai)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/constitutional_ai</guid>
+      <category>research</category>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Patch Time Series Transformer in Hugging Face</title>
+      <link>https://huggingface.co/blog/patchtst</link>
+      <description>Patch Time Series Transformer in Hugging Face (guide, research, time-series)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/patchtst</guid>
+      <category>guide</category>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Hallucinations Leaderboard, an Open Effort to Measure Hallucinations in Large Language Models</title>
+      <link>https://huggingface.co/blog/leaderboard-hallucinations</link>
+      <description>The Hallucinations Leaderboard, an Open Effort to Measure Hallucinations in Large Language Models (leaderboard, guide, collaboration, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/leaderboard-hallucinations</guid>
+      <category>leaderboard</category>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>An Introduction to AI Secure LLM Safety Leaderboard</title>
+      <link>https://huggingface.co/blog/leaderboard-decodingtrust</link>
+      <description>An Introduction to AI Secure LLM Safety Leaderboard (leaderboard, guide, collaboration, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/leaderboard-decodingtrust</guid>
+      <category>leaderboard</category>
+      <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PatchTSMixer in HuggingFace</title>
+      <link>https://huggingface.co/blog/patchtsmixer</link>
+      <description>PatchTSMixer in HuggingFace (guide, research, time-series)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/patchtsmixer</guid>
+      <category>guide</category>
+      <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Preference Tuning LLMs with Direct Preference Optimization Methods</title>
+      <link>https://huggingface.co/blog/pref-tuning</link>
+      <description>Preference Tuning LLMs with Direct Preference Optimization Methods (rl, rlhf, nlp, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/pref-tuning</guid>
+      <category>rl</category>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Welcome aMUSEd: Efficient Text-to-Image Generation</title>
+      <link>https://huggingface.co/blog/amused</link>
+      <description>Welcome aMUSEd: Efficient Text-to-Image Generation (guide, vision, research, diffusers)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/amused</guid>
+      <category>guide</category>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>2023, year of open LLMs</title>
+      <link>https://huggingface.co/blog/2023-in-llms</link>
+      <description>2023, year of open LLMs (research, nlp, llm, guide)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/2023-in-llms</guid>
+      <category>research</category>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SetFitABSA: Few-Shot Aspect Based Sentiment Analysis using SetFit</title>
+      <link>https://huggingface.co/blog/setfit-absa</link>
+      <description>SetFitABSA: Few-Shot Aspect Based Sentiment Analysis using SetFit (research, nlp)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/setfit-absa</guid>
+      <category>research</category>
+      <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Open LLM Leaderboard: DROP deep dive</title>
+      <link>https://huggingface.co/blog/open-llm-leaderboard-drop</link>
+      <description>Open LLM Leaderboard: DROP deep dive (community, research, nlp, evaluation, open-llm-leaderboard, leaderboard)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/open-llm-leaderboard-drop</guid>
+      <category>community</category>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The N Implementation Details of RLHF with PPO</title>
+      <link>https://huggingface.co/blog/the_n_implementation_details_of_rlhf_with_ppo</link>
+      <description>The N Implementation Details of RLHF with PPO (research, rl, rlhf)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/the_n_implementation_details_of_rlhf_with_ppo</guid>
+      <category>research</category>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Optimizing your LLM in production</title>
+      <link>https://huggingface.co/blog/optimize-llm</link>
+      <description>Optimizing your LLM in production (nlp, research, LLM)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/optimize-llm</guid>
+      <category>nlp</category>
+      <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Spread Your Wings: Falcon 180B is here</title>
+      <link>https://huggingface.co/blog/falcon-180b</link>
+      <description>Spread Your Wings: Falcon 180B is here (nlp, community, research, LLM)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/falcon-180b</guid>
+      <category>nlp</category>
+      <pubDate>Wed, 06 Sep 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Code Llama: Llama 2 learns to code</title>
+      <link>https://huggingface.co/blog/codellama</link>
+      <description>Code Llama: Llama 2 learns to code (nlp, community, research, LLM)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/codellama</guid>
+      <category>nlp</category>
+      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing IDEFICS: An Open Reproduction of State-of-the-art Visual Langage Model</title>
+      <link>https://huggingface.co/blog/idefics</link>
+      <description>Introducing IDEFICS: An Open Reproduction of State-of-the-art Visual Langage Model (research, nlp, cv)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/idefics</guid>
+      <category>research</category>
+      <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Huggy Lingo: Using Machine Learning to Improve Language Metadata on the Hugging Face Hub</title>
+      <link>https://huggingface.co/blog/huggy-lingo</link>
+      <description>Huggy Lingo: Using Machine Learning to Improve Language Metadata on the Hugging Face Hub (announcement, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/huggy-lingo</guid>
+      <category>announcement</category>
+      <pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Towards Encrypted Large Language Models with FHE</title>
+      <link>https://huggingface.co/blog/encrypted-llm</link>
+      <description>Towards Encrypted Large Language Models with FHE (guide, privacy, research, FHE, llm)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/encrypted-llm</guid>
+      <category>guide</category>
+      <pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Open-sourcing Knowledge Distillation Code and Weights of SD-Small and SD-Tiny</title>
+      <link>https://huggingface.co/blog/sd_distillation</link>
+      <description>Open-sourcing Knowledge Distillation Code and Weights of SD-Small and SD-Tiny (stable-diffusion, research, diffusers)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/sd_distillation</guid>
+      <category>stable-diffusion</category>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Llama 2 is here - get it on Hugging Face</title>
+      <link>https://huggingface.co/blog/llama2</link>
+      <description>Llama 2 is here - get it on Hugging Face (nlp, community, research, LLM)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/llama2</guid>
+      <category>nlp</category>
+      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What's going on with the Open LLM Leaderboard?</title>
+      <link>https://huggingface.co/blog/open-llm-leaderboard-mmlu</link>
+      <description>What's going on with the Open LLM Leaderboard? (community, research, nlp, evaluation, open-llm-leaderboard, leaderboard)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/open-llm-leaderboard-mmlu</guid>
+      <category>community</category>
+      <pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fine-Tune MMS Adapter Models for low-resource ASR</title>
+      <link>https://huggingface.co/blog/mms_adapters</link>
+      <description>Fine-Tune MMS Adapter Models for low-resource ASR (audio, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/mms_adapters</guid>
+      <category>audio</category>
+      <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Yes, Transformers are Effective for Time Series Forecasting (+ Autoformer)</title>
+      <link>https://huggingface.co/blog/autoformer</link>
+      <description>Yes, Transformers are Effective for Time Series Forecasting (+ Autoformer) (guide, research, time-series)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/autoformer</guid>
+      <category>guide</category>
+      <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Falcon has landed in the Hugging Face ecosystem</title>
+      <link>https://huggingface.co/blog/falcon</link>
+      <description>The Falcon has landed in the Hugging Face ecosystem (nlp, community, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/falcon</guid>
+      <category>nlp</category>
+      <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Instruction-tuning Stable Diffusion with InstructPix2Pix</title>
+      <link>https://huggingface.co/blog/instruction-tuning-sd</link>
+      <description>Instruction-tuning Stable Diffusion with InstructPix2Pix (diffusers, diffusion, instruction-tuning, research, guide)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/instruction-tuning-sd</guid>
+      <category>diffusers</category>
+      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing RWKV - An RNN with the advantages of a transformer</title>
+      <link>https://huggingface.co/blog/rwkv</link>
+      <description>Introducing RWKV - An RNN with the advantages of a transformer (nlp, community, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/rwkv</guid>
+      <category>nlp</category>
+      <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Assisted Generation: a new direction toward low-latency text generation</title>
+      <link>https://huggingface.co/blog/assisted-generation</link>
+      <description>Assisted Generation: a new direction toward low-latency text generation (nlp, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/assisted-generation</guid>
+      <category>nlp</category>
+      <pubDate>Thu, 11 May 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Creating a Coding Assistant with StarCoder</title>
+      <link>https://huggingface.co/blog/starchat-alpha</link>
+      <description>Creating a Coding Assistant with StarCoder (nlp, community, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/starchat-alpha</guid>
+      <category>nlp</category>
+      <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>StarCoder: A State-of-the-Art LLM for Code</title>
+      <link>https://huggingface.co/blog/starcoder</link>
+      <description>StarCoder: A State-of-the-Art LLM for Code (nlp, community, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/starcoder</guid>
+      <category>nlp</category>
+      <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multivariate Probabilistic Time Series Forecasting with Informer</title>
+      <link>https://huggingface.co/blog/informer</link>
+      <description>Multivariate Probabilistic Time Series Forecasting with Informer (guide, research, time-series)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/informer</guid>
+      <category>guide</category>
+      <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Model Cards</title>
+      <link>https://huggingface.co/blog/model-cards</link>
+      <description>Model Cards (community, research, ethics, guide)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/model-cards</guid>
+      <category>community</category>
+      <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Probabilistic Time Series Forecasting with 🤗 Transformers</title>
+      <link>https://huggingface.co/blog/time-series-transformers</link>
+      <description>Probabilistic Time Series Forecasting with 🤗 Transformers (research, time-series)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/time-series-transformers</guid>
+      <category>research</category>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Director of Machine Learning Insights [Part 4]</title>
+      <link>https://huggingface.co/blog/ml-director-insights-4</link>
+      <description>Director of Machine Learning Insights [Part 4] (community, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/ml-director-insights-4</guid>
+      <category>community</category>
+      <pubDate>Wed, 23 Nov 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hugging Face Machine Learning Demos on arXiv</title>
+      <link>https://huggingface.co/blog/arxiv</link>
+      <description>Hugging Face Machine Learning Demos on arXiv (research, community)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/arxiv</guid>
+      <category>research</category>
+      <pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sentiment Analysis on Encrypted Data with Homomorphic Encryption</title>
+      <link>https://huggingface.co/blog/sentiment-analysis-fhe</link>
+      <description>Sentiment Analysis on Encrypted Data with Homomorphic Encryption (guide, privacy, research, FHE)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/sentiment-analysis-fhe</guid>
+      <category>guide</category>
+      <pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Generating Human-level Text with Contrastive Search in Transformers 🤗</title>
+      <link>https://huggingface.co/blog/introducing-csearch</link>
+      <description>Generating Human-level Text with Contrastive Search in Transformers 🤗 (nlp, text generation, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/introducing-csearch</guid>
+      <category>nlp</category>
+      <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Evaluating Language Model Bias with 🤗 Evaluate</title>
+      <link>https://huggingface.co/blog/evaluating-llm-bias</link>
+      <description>Evaluating Language Model Bias with 🤗 Evaluate (ethics, research, nlp)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/evaluating-llm-bias</guid>
+      <category>ethics</category>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>From PyTorch DDP to Accelerate to Trainer, mastery of distributed training with ease</title>
+      <link>https://huggingface.co/blog/pytorch-ddp-accelerate-transformers</link>
+      <description>From PyTorch DDP to Accelerate to Trainer, mastery of distributed training with ease (guide, research, open-source-collab)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/pytorch-ddp-accelerate-transformers</guid>
+      <category>guide</category>
+      <pubDate>Fri, 21 Oct 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MTEB: Massive Text Embedding Benchmark</title>
+      <link>https://huggingface.co/blog/mteb</link>
+      <description>MTEB: Massive Text Embedding Benchmark (nlp, research, llm)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/mteb</guid>
+      <category>nlp</category>
+      <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Optimization story: Bloom inference</title>
+      <link>https://huggingface.co/blog/bloom-inference-optimization</link>
+      <description>Optimization story: Bloom inference (open-source-collab, community, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/bloom-inference-optimization</guid>
+      <category>open-source-collab</category>
+      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Very Large Language Models and How to Evaluate Them</title>
+      <link>https://huggingface.co/blog/zero-shot-eval-on-the-hub</link>
+      <description>Very Large Language Models and How to Evaluate Them (autotrain, research, nlp)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/zero-shot-eval-on-the-hub</guid>
+      <category>autotrain</category>
+      <pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How 🤗 Accelerate runs very large models thanks to PyTorch</title>
+      <link>https://huggingface.co/blog/accelerate-large-models</link>
+      <description>How 🤗 Accelerate runs very large models thanks to PyTorch (guide, research, open-source-collab)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/accelerate-large-models</guid>
+      <category>guide</category>
+      <pubDate>Tue, 27 Sep 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SetFit: Efficient Few-Shot Learning Without Prompts</title>
+      <link>https://huggingface.co/blog/setfit</link>
+      <description>SetFit: Efficient Few-Shot Learning Without Prompts (research, nlp)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/setfit</guid>
+      <category>research</category>
+      <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Visualize proteins on Hugging Face Spaces</title>
+      <link>https://huggingface.co/blog/spaces_3dmoljs</link>
+      <description>Visualize proteins on Hugging Face Spaces (research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/spaces_3dmoljs</guid>
+      <category>research</category>
+      <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nyströmformer: Approximating self-attention in linear time and memory via the Nyström method</title>
+      <link>https://huggingface.co/blog/nystromformer</link>
+      <description>Nyströmformer: Approximating self-attention in linear time and memory via the Nyström method (research, nlp)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/nystromformer</guid>
+      <category>research</category>
+      <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing The World's Largest Open Multilingual Language Model: BLOOM</title>
+      <link>https://huggingface.co/blog/bloom</link>
+      <description>Introducing The World's Largest Open Multilingual Language Model: BLOOM (open-source-collab, community, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/bloom</guid>
+      <category>open-source-collab</category>
+      <pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Director of Machine Learning Insights [Part 3: Finance Edition]</title>
+      <link>https://huggingface.co/blog/ml-director-insights-3</link>
+      <description>Director of Machine Learning Insights [Part 3: Finance Edition] (community, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/ml-director-insights-3</guid>
+      <category>community</category>
+      <pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Efficient Table Pre-training without Real Data: An Introduction to TAPEX</title>
+      <link>https://huggingface.co/blog/tapex</link>
+      <description>Efficient Table Pre-training without Real Data: An Introduction to TAPEX (research, nlp, community)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/tapex</guid>
+      <category>research</category>
+      <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Putting ethical principles at the core of the research lifecycle</title>
+      <link>https://huggingface.co/blog/ethical-charter-multimodal</link>
+      <description>Putting ethical principles at the core of the research lifecycle (research, nlp, audio, cv)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/ethical-charter-multimodal</guid>
+      <category>research</category>
+      <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Director of Machine Learning Insights [Part 2: SaaS Edition]</title>
+      <link>https://huggingface.co/blog/ml-director-insights-2</link>
+      <description>Director of Machine Learning Insights [Part 2: SaaS Edition] (community, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/ml-director-insights-2</guid>
+      <category>community</category>
+      <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Director of Machine Learning Insights</title>
+      <link>https://huggingface.co/blog/ml-director-insights</link>
+      <description>Director of Machine Learning Insights (community, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/ml-director-insights</guid>
+      <category>community</category>
+      <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Announcing the 🤗 AI Research Residency Program</title>
+      <link>https://huggingface.co/blog/ai-residency</link>
+      <description>Announcing the 🤗 AI Research Residency Program (community, research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/ai-residency</guid>
+      <category>community</category>
+      <pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Making automatic speech recognition work on large files with Wav2Vec2 in 🤗 Transformers</title>
+      <link>https://huggingface.co/blog/asr-chunking</link>
+      <description>Making automatic speech recognition work on large files with Wav2Vec2 in 🤗 Transformers (guide, research, audio)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/asr-chunking</guid>
+      <category>guide</category>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Boosting Wav2Vec2 with n-grams in 🤗 Transformers</title>
+      <link>https://huggingface.co/blog/wav2vec2-with-ngram</link>
+      <description>Boosting Wav2Vec2 with n-grams in 🤗 Transformers (research, guide, audio)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/wav2vec2-with-ngram</guid>
+      <category>research</category>
+      <pubDate>Wed, 12 Jan 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Active Learning with AutoNLP and Prodigy</title>
+      <link>https://huggingface.co/blog/autonlp-prodigy</link>
+      <description>Active Learning with AutoNLP and Prodigy (research, partnerships, nlp)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/autonlp-prodigy</guid>
+      <category>research</category>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Perceiver IO: a scalable, fully-attentional model that works on any modality</title>
+      <link>https://huggingface.co/blog/perceiver</link>
+      <description>Perceiver IO: a scalable, fully-attentional model that works on any modality (research, guide, nlp, audio, cv)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/perceiver</guid>
+      <category>research</category>
+      <pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Training CodeParrot 🦜 from Scratch</title>
+      <link>https://huggingface.co/blog/codeparrot</link>
+      <description>Training CodeParrot 🦜 from Scratch (guide, research, nlp)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/codeparrot</guid>
+      <category>guide</category>
+      <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Snowball Fight ☃️, our first ML-Agents environment</title>
+      <link>https://huggingface.co/blog/snowball-fight</link>
+      <description>Introducing Snowball Fight ☃️, our first ML-Agents environment (research, rl)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/snowball-fight</guid>
+      <category>research</category>
+      <pubDate>Thu, 02 Dec 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing the Data Measurements Tool: an Interactive Tool for Looking at Datasets</title>
+      <link>https://huggingface.co/blog/data-measurements-tool</link>
+      <description>Introducing the Data Measurements Tool: an Interactive Tool for Looking at Datasets (research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/data-measurements-tool</guid>
+      <category>research</category>
+      <pubDate>Mon, 29 Nov 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deep Learning over the Internet: Training Language Models Collaboratively</title>
+      <link>https://huggingface.co/blog/collaborative-training</link>
+      <description>Deep Learning over the Internet: Training Language Models Collaboratively (research)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/collaborative-training</guid>
+      <category>research</category>
+      <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Understanding BigBird's Block Sparse Attention</title>
+      <link>https://huggingface.co/blog/big-bird</link>
+      <description>Understanding BigBird's Block Sparse Attention (community, research, nlp)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/big-bird</guid>
+      <category>community</category>
+      <pubDate>Wed, 31 Mar 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hugging Face Reads, Feb. 2021 - Long-range Transformers</title>
+      <link>https://huggingface.co/blog/long-range-transformers</link>
+      <description>Hugging Face Reads, Feb. 2021 - Long-range Transformers (research, nlp)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/long-range-transformers</guid>
+      <category>research</category>
+      <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Transformer-based Encoder-Decoder Models</title>
+      <link>https://huggingface.co/blog/encoder-decoder</link>
+      <description>Transformer-based Encoder-Decoder Models (research, nlp)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/encoder-decoder</guid>
+      <category>research</category>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Block Sparse Matrices for Smaller and Faster Language Models</title>
+      <link>https://huggingface.co/blog/pytorch_block_sparse</link>
+      <description>Block Sparse Matrices for Smaller and Faster Language Models (research, nlp)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/pytorch_block_sparse</guid>
+      <category>research</category>
+      <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Reformer - Pushing the limits of language modeling</title>
+      <link>https://huggingface.co/blog/reformer</link>
+      <description>The Reformer - Pushing the limits of language modeling (research, nlp)</description>
+      <guid isPermaLink="false">https://huggingface.co/blog/reformer</guid>
+      <category>research</category>
+      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

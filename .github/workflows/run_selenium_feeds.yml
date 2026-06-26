@@ -9,10 +9,15 @@ concurrency:
   group: selenium-feeds
   cancel-in-progress: true
 
+permissions:
+  contents: write
+
 jobs:
   run-selenium-feeds:
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    env:
+      RSS_REPO_SLUG: ${{ github.repository }}
 
     steps:
       - name: Checkout repository
@@ -55,5 +60,5 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m 'Update RSS feeds (Selenium)'
-            git push || { git pull --rebase && git push; }
+            git push origin HEAD:main || { git pull --rebase origin main && git push origin HEAD:main; }
           fi
