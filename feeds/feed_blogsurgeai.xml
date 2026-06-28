@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Jun 2026 20:25:31 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 21:23:01 +0000</lastBuildDate>
     <item>
       <title>Training on ComplexConstraints: Expert Rubrics as RL Rewards</title>
       <link>https://www.surgehq.ai/blog/training-on-complexconstraints</link>
@@ -290,11 +290,25 @@
       <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Microsoft used Surge's human evaluation for MAI-Thinking-1</title>
+      <link>https://www.surgehq.ai/blog/surge-human-evaluation-mai-thinking-1</link>
+      <description>Microsoft AI used Surge's professional raters to run blind human preference evaluations for MAI-Thinking-1. A look at why human signal complements benchmarks.</description>
+      <guid isPermaLink="false">https://www.surgehq.ai/blog/surge-human-evaluation-mai-thinking-1</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>ComplexConstraints: A Benchmark for Entangled Instruction Following</title>
       <link>https://www.surgehq.ai/blog/complexconstraints-a-benchmark-for-entangled-instruction-following</link>
       <description>A benchmark for entangled instruction following, where constraints depend on each other, fire conditionally, and must be inferred from context.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/complexconstraints-a-benchmark-for-entangled-instruction-following</guid>
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic cited GDP.pdf and Riemann-bench in their Fable 5 and Mythos 5 release</title>
+      <link>https://www.surgehq.ai/blog/anthropic-fable-5-mythos-5-cites-surge-benchmarks</link>
+      <description>Anthropic cited two Surge AI benchmarks, GDP.pdf and Riemann-bench, in their Fable 5 and Mythos 5 release. A look at why expert-built evaluations matter at the frontier.</description>
+      <guid isPermaLink="false">https://www.surgehq.ai/blog/anthropic-fable-5-mythos-5-cites-surge-benchmarks</guid>
+      <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>HANDBOOK.md: Can Agents Follow 100-Page Company Policies?</title>
