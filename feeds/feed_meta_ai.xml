@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Jun 2026 10:05:30 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 12:11:37 +0000</lastBuildDate>
+    <item>
+      <title>From Brain Waves to Words: Brain2Qwerty Offers a New Path to Communication Without Surgery</title>
+      <link>https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/</link>
+      <description>From Brain Waves to Words: Brain2Qwerty Offers a New Path to Communication Without Surgery</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/</guid>
+      <category>Research</category>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Scaling How We Build and Test Our Most Advanced AI</title>
       <link>https://ai.meta.com/blog/scaling-how-we-build-test-advanced-ai/</link>
@@ -47,14 +55,6 @@
       <guid isPermaLink="false">https://ai.meta.com/blog/tribe-v2-brain-predictive-foundation-model/</guid>
       <category>Research</category>
       <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Four MTIA Chips in Two Years: Scaling AI Experiences for Billions</title>
-      <link>https://ai.meta.com/blog/meta-mtia-scale-ai-chips-for-billions/</link>
-      <description>Four MTIA Chips in Two Years: Scaling AI Experiences for Billions</description>
-      <guid isPermaLink="false">https://ai.meta.com/blog/meta-mtia-scale-ai-chips-for-billions/</guid>
-      <category>AI</category>
-      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mapping the World's Forests with Greater Precision: Introducing Canopy Height Maps v2</title>
@@ -709,14 +709,6 @@
       <guid isPermaLink="false">https://ai.meta.com/blog/digital-twin-catalog-3d-reconstruction-shopify-reality-labs-research/</guid>
       <category>Open Source</category>
       <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Connect 2024: The responsible approach we’re taking to generative AI</title>
-      <link>https://ai.meta.com/blog/responsible-ai-connect-2024/</link>
-      <description>With the rapidly evolving AI landscape, we recognize the importance of sharing our responsibility and safety approach with everyone.</description>
-      <guid isPermaLink="false">https://ai.meta.com/blog/responsible-ai-connect-2024/</guid>
-      <category>Responsible AI</category>
-      <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
