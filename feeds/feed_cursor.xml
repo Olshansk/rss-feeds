@@ -13,26 +13,26 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Jun 2026 21:30:50 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 22:23:27 +0000</lastBuildDate>
     <item>
       <title>Build from anywhere with Cursor for iOS</title>
       <link>https://cursor.com/blog/ios-mobile-app</link>
+      <description>Cursor is available as a native iOS app on your phone, now in public beta.</description>
       <guid isPermaLink="false">https://cursor.com/blog/ios-mobile-app</guid>
-      <category>product</category>
       <pubDate>Mon, 29 Jun 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Reward hacking is swamping model intelligence gains</title>
-      <link>https://cursor.com/blog/reward-hacking-coding-benchmarks</link>
-      <guid isPermaLink="false">https://cursor.com/blog/reward-hacking-coding-benchmarks</guid>
-      <category>research</category>
-      <pubDate>Thu, 25 Jun 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>How Notion used the Cursor SDK to embed coding agents</title>
       <link>https://cursor.com/blog/notion</link>
       <guid isPermaLink="false">https://cursor.com/blog/notion</guid>
       <category>product</category>
+      <pubDate>Thu, 25 Jun 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reward hacking is swamping model intelligence gains</title>
+      <link>https://cursor.com/blog/reward-hacking-coding-benchmarks</link>
+      <description>On SWE-bench Pro, 63% of successful Opus 4.8 Max resolutions retrieved the fix rather than derived it. Stricter eval harnesses show how benchmark scores can conflate coding ability with answer retrieval.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/reward-hacking-coding-benchmarks</guid>
       <pubDate>Thu, 25 Jun 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
@@ -64,8 +64,8 @@
     <item>
       <title>Direct agents with visual prompts in Design Mode</title>
       <link>https://cursor.com/blog/design-mode</link>
+      <description>Point, draw, or narrate UI changes in the browser while agents edit the code underneath.</description>
       <guid isPermaLink="false">https://cursor.com/blog/design-mode</guid>
-      <category>product</category>
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -105,8 +105,8 @@
     <item>
       <title>Introducing Composer 2.5</title>
       <link>https://cursor.com/blog/composer-2-5</link>
-      <description>A substantial improvement in intelligence and behavior over Composer 2, particularly on long-horizon agentic tasks.</description>
       <guid isPermaLink="false">https://cursor.com/blog/composer-2-5</guid>
+      <category>research</category>
       <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -121,20 +121,6 @@
       <link>https://cursor.com/blog/paypal</link>
       <guid isPermaLink="false">https://cursor.com/blog/paypal</guid>
       <pubDate>Mon, 11 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Build programmatic agents with the Cursor SDK</title>
-      <link>https://cursor.com/blog/typescript-sdk</link>
-      <description>Launch, steer, and compose custom agents with the Cursor SDK.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/typescript-sdk</guid>
-      <pubDate>Wed, 29 Apr 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Meet the new Cursor</title>
-      <link>https://cursor.com/blog/cursor-3</link>
-      <description>Cursor 3 is a unified workspace for building software with agents.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/cursor-3</guid>
-      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
