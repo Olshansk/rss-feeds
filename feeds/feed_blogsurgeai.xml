@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Jun 2026 15:08:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 16:59:36 +0000</lastBuildDate>
     <item>
       <title>The AI Bottleneck: High-Quality, Human-Powered Data</title>
       <link>https://www.surgehq.ai/blog/the-ai-bottleneck-high-quality-human-powered-data</link>
@@ -311,9 +311,9 @@
       <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Training on ComplexConstraints: Expert Rubrics as RL Rewards</title>
+      <title>Harder Instructions, Broader Generalization: Training on ComplexConstraints</title>
       <link>https://www.surgehq.ai/blog/training-on-complexconstraints</link>
-      <description>We trained a 4B model on 1,000 expert-written rubrics from ComplexConstraints, our frontier instruction-following benchmark. It reached parity with a 60x larger model, and the gains transferred to external benchmarks it never saw: +15.5pp in-distribution, +8.4pp AdvancedIF, +10.1pp MultiChallenge.</description>
+      <description>We trained a 4B model on 1,000 expert-written rubrics from ComplexConstraints, our frontier instruction-following benchmark. It reached parity with a 60x larger model, and the gains transferred to external benchmarks it never saw.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/training-on-complexconstraints</guid>
       <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
     </item>
