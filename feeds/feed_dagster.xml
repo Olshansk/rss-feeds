@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Jun 2026 12:41:08 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 13:35:00 +0000</lastBuildDate>
+    <item>
+      <title>Community Showcase Part 2</title>
+      <link>https://dagster.io/blog/community-showcase-part-2</link>
+      <description>Some of the most interesting Dagster projects come from the community. This post highlights creative community-built applications.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/community-showcase-part-2</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Operationalizing Data Orchestration: Best Practices for DevOps, Infra, and Code Locations</title>
       <link>https://dagster.io/blog/the-dagster-almanack-operationalizing-data-orchestration</link>
@@ -26,7 +33,7 @@
     <item>
       <title>Community Showcase Part 1</title>
       <link>https://dagster.io/blog/community-showcase-part-1</link>
-      <description>Some of the most interesting Dagster projects come from the community. This post highlights creative community-built applications ranging from public data exploration and infrastructure monitoring to research automation and internal tooling, along with why their creators chose Dagster and what building with it was like.</description>
+      <description>Some of the most interesting Dagster projects come from the community. This post highlights creative community-built applications.</description>
       <guid isPermaLink="false">https://dagster.io/blog/community-showcase-part-1</guid>
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
     </item>
