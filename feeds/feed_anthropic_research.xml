@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Jun 2026 16:19:14 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 17:13:02 +0000</lastBuildDate>
     <item>
       <title>Economic ResearchJun 26, 2026Anthropic Economic Index report: CadencesIn our latest Economic Index report, we sample hourly for the first time to ask: When do people come to Claude? What do they produce with it? And how do they perceive AI's impact on their work?</title>
       <link>https://www.anthropic.com/research/economic-index-june-2026-report</link>
@@ -108,15 +108,7 @@
       <description>Alignment</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
       <category>Research</category>
-      <pubDate>Sat, 23 Nov 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Economic Research</title>
-      <link>https://www.anthropic.com/research/team/economic-research</link>
-      <description>Economic Research</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/team/economic-research</guid>
-      <category>Research</category>
-      <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Frontier Red Team</title>
@@ -124,7 +116,7 @@
       <description>Frontier Red Team</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/frontier-red-team</guid>
       <category>Research</category>
-      <pubDate>Tue, 07 May 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Interpretability</title>
@@ -132,7 +124,7 @@
       <description>Interpretability</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/interpretability</guid>
       <category>Research</category>
-      <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Societal Impacts</title>
@@ -140,7 +132,15 @@
       <description>Societal Impacts</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/societal-impacts</guid>
       <category>Research</category>
-      <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Economic Research</title>
+      <link>https://www.anthropic.com/research/team/economic-research</link>
+      <description>Economic Research</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/economic-research</guid>
+      <category>Research</category>
+      <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
