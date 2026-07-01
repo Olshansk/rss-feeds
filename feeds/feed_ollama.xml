@@ -13,7 +13,7 @@
       <link>https://ollama.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Jun 2026 23:27:39 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 00:34:57 +0000</lastBuildDate>
     <item>
       <title>Run Llama 2 uncensored locally</title>
       <link>https://ollama.com/blog/run-llama2-uncensored-locally</link>
@@ -377,6 +377,13 @@
       <description>Ollama's MLX engine has been updated to deliver its highest performance on Apple Silicon yet. Models output higher quality responses, respond faster, and use less memory.</description>
       <guid isPermaLink="false">https://ollama.com/blog/mlx-performance</guid>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Faster Gemma 4 on MLX with multi-token prediction</title>
+      <link>https://ollama.com/blog/faster-gemma-4-mlx-mtp</link>
+      <description>Gemma 4 is now significantly faster in Ollama 0.31 on Apple Silicon via multi-token prediction (MTP), powered by MLX. Performance is now up to 90% faster when used with coding agents, as measured using the Aider polyglot benchmark.</description>
+      <guid isPermaLink="false">https://ollama.com/blog/faster-gemma-4-mlx-mtp</guid>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
