@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Jul 2026 11:37:39 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 13:28:13 +0000</lastBuildDate>
+    <item>
+      <title>Pinecone Nexus Is Now in Public Preview</title>
+      <link>https://www.pinecone.io/blog/pinecone-nexus-public-preview/</link>
+      <description>Pinecone Nexus Is Now in Public Preview</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/pinecone-nexus-public-preview/</guid>
+      <category>Product</category>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Generating Test Data for Pinecone</title>
       <link>https://www.pinecone.io/blog/generating-test-data-for-pinecone/</link>
@@ -1000,14 +1008,6 @@
       <guid isPermaLink="false">https://www.pinecone.io/blog/pods-for-performance/</guid>
       <category>Product</category>
       <pubDate>Thu, 08 Dec 2022 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Organizations: New access controls to makes vector search a company-wide capability</title>
-      <link>https://www.pinecone.io/blog/organizations/</link>
-      <description>Organizations: New access controls to makes vector search a company-wide capability</description>
-      <guid isPermaLink="false">https://www.pinecone.io/blog/organizations/</guid>
-      <category>Product</category>
-      <pubDate>Wed, 07 Dec 2022 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
