@@ -13,7 +13,15 @@
       <link>https://www.anthropic.com/news</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Jul 2026 02:28:19 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 03:51:47 +0000</lastBuildDate>
+    <item>
+      <title>Redeploying Fable 5</title>
+      <link>https://www.anthropic.com/news/redeploying-fable-5</link>
+      <description>Redeploying Fable 5</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/redeploying-fable-5</guid>
+      <category>Announcements</category>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Claude Science, an AI workbench for scientists, is now available</title>
       <link>https://www.anthropic.com/news/claude-science-ai-workbench</link>
