@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Jul 2026 03:04:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 05:31:39 +0000</lastBuildDate>
     <item>
       <title>The AI Bottleneck: High-Quality, Human-Powered Data</title>
       <link>https://www.surgehq.ai/blog/the-ai-bottleneck-high-quality-human-powered-data</link>
@@ -283,9 +283,9 @@
       <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Microsoft used Surge's human evaluation for MAI-Thinking-1</title>
+      <title>Microsoft used Surge human evaluations to benchmark MAI-Thinking-1</title>
       <link>https://www.surgehq.ai/blog/surge-human-evaluation-mai-thinking-1</link>
-      <description>Microsoft AI used Surge's professional raters to run blind human preference evaluations for MAI-Thinking-1. A look at why human signal complements benchmarks.</description>
+      <description>When Microsoft wanted to understand how MAI-Thinking-1 measured up, they used Surge human evaluations to prove it.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/surge-human-evaluation-mai-thinking-1</guid>
       <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -311,7 +311,7 @@
       <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Deeper Instructions Lead to Broader Generalization: Training on ComplexConstraints</title>
+      <title>Deeper Instructions, Stronger Generalization: Training on ComplexConstraints</title>
       <link>https://www.surgehq.ai/blog/training-on-complexconstraints</link>
       <description>We trained a 4B model on 1,000 expert-written rubrics from ComplexConstraints, our frontier instruction-following benchmark. It reached parity with a 60x larger model, and the gains transferred to external benchmarks it never saw.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/training-on-complexconstraints</guid>
