@@ -8,14 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Jul 2026 13:28:13 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 14:21:44 +0000</lastBuildDate>
     <item>
       <title>Pinecone Nexus Is Now in Public Preview</title>
       <link>https://www.pinecone.io/blog/pinecone-nexus-public-preview/</link>
       <description>Pinecone Nexus Is Now in Public Preview</description>
       <guid isPermaLink="false">https://www.pinecone.io/blog/pinecone-nexus-public-preview/</guid>
-      <category>Product</category>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+      <category>Featured</category>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Generating Test Data for Pinecone</title>
@@ -98,19 +98,19 @@
       <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Pinecone Nexus: The Knowledge Engine for Agents</title>
+      <link>https://www.pinecone.io/blog/knowledge-infrastructure-for-agents/</link>
+      <description>Pinecone Nexus: The Knowledge Engine for Agents</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/knowledge-infrastructure-for-agents/</guid>
+      <category>Company</category>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Better Models Won’t Save Your Agent</title>
       <link>https://www.pinecone.io/blog/introducing-nexus-knowledge-engine/</link>
       <description>Better Models Won’t Save Your Agent</description>
       <guid isPermaLink="false">https://www.pinecone.io/blog/introducing-nexus-knowledge-engine/</guid>
       <category>Engineering</category>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pinecone Nexus: The Knowledge Engine for Agents</title>
-      <link>https://www.pinecone.io/blog/knowledge-infrastructure-for-agents/</link>
-      <description>Pinecone Nexus: The Knowledge Engine for Agents</description>
-      <guid isPermaLink="false">https://www.pinecone.io/blog/knowledge-infrastructure-for-agents/</guid>
-      <category>Featured</category>
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
