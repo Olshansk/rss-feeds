@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 02 Jul 2026 18:30:29 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 19:30:25 +0000</lastBuildDate>
     <item>
       <title>The AI Bottleneck: High-Quality, Human-Powered Data</title>
       <link>https://www.surgehq.ai/blog/the-ai-bottleneck-high-quality-human-powered-data</link>
@@ -297,7 +297,7 @@
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Anthropic cited GDP.pdf and Riemann-bench in their Fable 5 and Mythos 5 release</title>
+      <title>Anthropic cited GDP.pdf and Riemann-bench in their Fable 5 and Mythos 5 system card</title>
       <link>https://www.surgehq.ai/blog/anthropic-fable-5-mythos-5-cites-surge-benchmarks</link>
       <description>Anthropic cited two Surge AI benchmarks, GDP.pdf and Riemann-bench, in their Fable 5 and Mythos 5 release. A look at why expert-built evaluations matter at the frontier.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/anthropic-fable-5-mythos-5-cites-surge-benchmarks</guid>
