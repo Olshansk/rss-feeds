@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 02 Jul 2026 16:34:32 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 17:32:55 +0000</lastBuildDate>
+    <item>
+      <title>Giving admins more visibility and control over Claude spend</title>
+      <link>https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend</link>
+      <description>Giving admins more visibility and control over Claude spend</description>
+      <guid isPermaLink="false">https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend</guid>
+      <category>Product announcements</category>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Getting started with loops</title>
       <link>https://claude.com/blog/getting-started-with-loops</link>
