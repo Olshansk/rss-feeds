@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Jul 2026 17:00:36 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 18:01:04 +0000</lastBuildDate>
     <item>
       <title>From Brain Waves to Words: Brain2Qwerty Offers a New Path to Communication Without Surgery</title>
       <link>https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/</link>
@@ -407,6 +407,14 @@
       <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>AI Artifacts: An interview with Ruben Fro and Benjamin Bardou</title>
+      <link>https://ai.meta.com/blog/ai-action-summit-2025-ruben-fro-benjamin-bardou-mehdi-mejri/</link>
+      <description>In honor of this year’s AI Action Summit, we partnered with the Bibliothèque Nationale de France (BnF), Fisheye Immersive, Convergence, and Institut Montaigne to commission two open source AI-generated art installations by innovative artists, Ruben Fro and Benjamin Bardou.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/ai-action-summit-2025-ruben-fro-benjamin-bardou-mehdi-mejri/</guid>
+      <category>Open Source</category>
+      <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Update: Expanding access to Meta Segment Anything 2.1 on Amazon SageMaker JumpStart</title>
       <link>https://ai.meta.com/blog/segment-anything-2/</link>
       <description>Starting today, SAM 2.1 is available in Amazon SageMaker JumpStart, making it easier than ever to deploy SAM 2.1 and integrate it into new applications and workflows.</description>
@@ -421,6 +429,286 @@
       <guid isPermaLink="false">https://ai.meta.com/blog/blended-labs-ai-driven-schools-with-llama/</guid>
       <category></category>
       <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using AI to decode language from the brain and advance our understanding of human communication</title>
+      <link>https://ai.meta.com/blog/brain-ai-research-human-communication/</link>
+      <description>Today, in collaboration with the Basque Center on Cognition, Brain and Language,  we’re excited to share two breakthroughs that show how AI can help advance our understanding of human intelligence, leading us closer to AMI.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/brain-ai-research-human-communication/</guid>
+      <category>Research</category>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Advancing machine intelligence through human-centered research</title>
+      <link>https://ai.meta.com/blog/machine-intelligence-research-new-models/</link>
+      <description>Meta FAIR is sharing some of our most recent research and models that support our goal of achieving AMI, and our long-held commitment to sharing open and reproducible science.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/machine-intelligence-research-new-models/</guid>
+      <category></category>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Enlisting Llama in India’s first open source audio language model</title>
+      <link>https://ai.meta.com/blog/sarvam-india-audio-language-model-llama/</link>
+      <description>Sarvam used Llama to develop enterprise voice AI agents with improved reasoning capabilities that are proficient in 10 Indian languages.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/sarvam-india-audio-language-model-llama/</guid>
+      <category></category>
+      <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Altana employs Llama to elevate global value chain management</title>
+      <link>https://ai.meta.com/blog/altana-value-chain-management-llama/</link>
+      <description>Altana uses AI to help businesses and governments manage their global supply chains, providing insight into extended supplier and distribution networks.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/altana-value-chain-management-llama/</guid>
+      <category>Open Source</category>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How BrightHeart uses Meta’s DINOv2 to transform fetal heart screenings</title>
+      <link>https://ai.meta.com/blog/brightheart-transforms-fetal-heart-screenings-dinov2/</link>
+      <description>BrightHeart has created an AI-powered medical software with the support of Meta’s DINOv2 model to help clinicians identify or rule out signs suggestive of congenital heart defects.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/brightheart-transforms-fetal-heart-screenings-dinov2/</guid>
+      <category>Open Source</category>
+      <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scaling an AI coding assistant built with Llama to hundreds of thousands of users</title>
+      <link>https://ai.meta.com/blog/codeium-ai-coding-assistant-llama/</link>
+      <description>Codeium’s AI-enabled coding assistant leverages Llama for its free and premiere offerings.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/codeium-ai-coding-assistant-llama/</guid>
+      <category></category>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How digital artist Josephine Miller uses Meta Segment Anything to help design the future of fashion</title>
+      <link>https://ai.meta.com/blog/josephine-miller-designer-meta-segment-anything-2/</link>
+      <description>Josephine, a London-based XR creative designer and content creator, takes us behind the scenes of how she uses open source technology in her work.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/josephine-miller-designer-meta-segment-anything-2/</guid>
+      <category>Open Source</category>
+      <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Llama is helping Saama deliver new possibilities in personalized medicine and data-driven care</title>
+      <link>https://ai.meta.com/blog/saama-data-driven-care-built-with-llama/</link>
+      <description>OpenBioLLM, a series of fine-tuned Llama models from life sciences company Saama, streamlines tasks that can accelerate clinical trials and potentially create new possibilities in personalized medicine.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/saama-data-driven-care-built-with-llama/</guid>
+      <category></category>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Virgo is using DINOv2 to analyze endoscopy videos for precision medicine</title>
+      <link>https://ai.meta.com/blog/virgo-dino-endoscopy-video/</link>
+      <description>Virgo, a company based in San Diego, California, believes endoscopy video and AI are a powerful combination that could lead to improved patient outcomes.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/virgo-dino-endoscopy-video/</guid>
+      <category>Open Source</category>
+      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How TU Dresden is advancing precision oncology and transforming healthcare AI</title>
+      <link>https://ai.meta.com/blog/dresden-advancing-precision-oncology-built-with-llama/</link>
+      <description>TUD Dresden University of Technology’s Clinical AI research group is transforming cancer care through computational innovation, focusing on precision oncology.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/dresden-advancing-precision-oncology-built-with-llama/</guid>
+      <category></category>
+      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Nymeria, a dataset for improving human motion prediction for AR and VR devices</title>
+      <link>https://ai.meta.com/blog/nymeria-dataset-reality-labs-research-egocentric-human-motion-understanding/</link>
+      <description>The Nymeria dataset provides egocentric human motion in the wild at an unprecedented scale, capturing a broad spectrum of people engaging in everyday activities across varied locations.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/nymeria-dataset-reality-labs-research-egocentric-human-motion-understanding/</guid>
+      <category>Open Source</category>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Finding the perfect book to read next with a Llama-based assistant</title>
+      <link>https://ai.meta.com/blog/scribd-everand-llama/</link>
+      <description>Scribd, Inc.’s Everand reading service is home to a global library of millions of ebooks, audiobooks and more.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/scribd-everand-llama/</guid>
+      <category>Open Source</category>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The future of AI: Built with Llama</title>
+      <link>https://ai.meta.com/blog/future-of-ai-built-with-llama/</link>
+      <description>As we close out 2024, Meta is leading the industry forward in AI product and technology experiences and setting a new standard for how the industry builds and advances AI.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/future-of-ai-built-with-llama/</guid>
+      <category>Large Language Model</category>
+      <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Spotify is using Llama to create personalized recommendations and enhance content discovery</title>
+      <link>https://ai.meta.com/blog/spotify-personalized-recommendations-built-with-llama/</link>
+      <description>Spotify uses Llama to deliver contextualized recommendations to boost artist discovery and create an even richer user experience.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/spotify-personalized-recommendations-built-with-llama/</guid>
+      <category></category>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sharing new research, models, and datasets from Meta FAIR</title>
+      <link>https://ai.meta.com/blog/meta-fair-updates-agents-robustness-safety-architecture/</link>
+      <description>Meta FAIR is releasing new research artifacts that highlight our recent innovations in developing agents, robustness and safety, and architectures that facilitate machine learning.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/meta-fair-updates-agents-robustness-safety-architecture/</guid>
+      <category>Open Source</category>
+      <pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Inarix is using DINOv2 to revolutionize the agricultural supply chain</title>
+      <link>https://ai.meta.com/blog/inarix-agricultural-supply-chain-meta-dino-v2/</link>
+      <description>Inarix is transforming the agricultural industry by turning smartphones into pocket laboratories using Meta FAIR’s DinoV2.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/inarix-agricultural-supply-chain-meta-dino-v2/</guid>
+      <category></category>
+      <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Advancing Neuromotor Interfaces by Open Sourcing Surface Electromyography (sEMG) Datasets for Pose Estimation and Surface Typing</title>
+      <link>https://ai.meta.com/blog/open-sourcing-surface-electromyography-datasets-neurips-2024/</link>
+      <description>We’re releasing emg2qwerty and emg2pose—two large datasets and benchmarks for sEMG-based typing and pose estimation, as part of the NeurIPS 2024 Datasets and Benchmarks track.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/open-sourcing-surface-electromyography-datasets-neurips-2024/</guid>
+      <category>Open Source</category>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scaling semiconductor expertise with Llama-powered Domain-Expert Agents</title>
+      <link>https://ai.meta.com/blog/aitomatic-built-with-llama/</link>
+      <description>Aitomatic enables semiconductor companies to build Domain-Expert Agents to capture and scale their deep domain expertise using Llama-based foundation models.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/aitomatic-built-with-llama/</guid>
+      <category></category>
+      <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Extending healthcare access to underserved communities with AI</title>
+      <link>https://ai.meta.com/blog/bimedix-built-with-llama/</link>
+      <description>The team behind BiMediX2, an Arabic-English medical large multimodal model, aims to expand healthcare access in Africa and the Middle East.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/bimedix-built-with-llama/</guid>
+      <category></category>
+      <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing SPDL: Faster AI model training with thread-based data loading</title>
+      <link>https://ai.meta.com/blog/spdl-faster-ai-model-training-with-thread-based-data-loading-reality-labs/</link>
+      <description>SPDL is a framework-agnostic data loading solution that uses multi-threading, which achieves high-throughput in a regular Python interpreter (built without free-threading option enabled).</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/spdl-faster-ai-model-training-with-thread-based-data-loading-reality-labs/</guid>
+      <category>Model Training</category>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building a chatbot based on Llama to engage an intergovernmental organization’s stakeholders</title>
+      <link>https://ai.meta.com/blog/accenture-built-with-llama/</link>
+      <description>Accenture turned to Llama for a leading global intergovernmental body’s first large-scale, public-facing generative AI application.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/accenture-built-with-llama/</guid>
+      <category>Large Language Model</category>
+      <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Open Catalyst experiments 2024</title>
+      <link>https://ai.meta.com/blog/open-catalyst-simulations-experiments/</link>
+      <description>Meta FAIR is releasing a large-scale dataset of experimental results on various materials, providing valuable insights for the development of new catalysts.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/open-catalyst-simulations-experiments/</guid>
+      <category></category>
+      <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>IBM and Llama: Working to enable AI builder creativity globally</title>
+      <link>https://ai.meta.com/blog/ibm-watsonx-ai-llama/</link>
+      <description>IBM and Meta are implementing the combined power of IBM’s watsonx AI and data platform and Llama to help businesses reach their AI goals.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/ibm-watsonx-ai-llama/</guid>
+      <category>Open Source</category>
+      <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Highlights from the first-ever Llama hackathon in India</title>
+      <link>https://ai.meta.com/blog/llama-hackathon-india/</link>
+      <description>Teams embarked on a 30-hour journey to create AI solutions tackling real-world challenges, leveraging Meta’s Llama 3 models and WhatsApp APIs.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/llama-hackathon-india/</guid>
+      <category>Large Language Model</category>
+      <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Advancing embodied AI through progress in touch perception, dexterity, and human-robot interaction</title>
+      <link>https://ai.meta.com/blog/fair-robotics-open-source/</link>
+      <description>Meta FAIR is publicly releasing several new research artifacts that advance robotics and support our goal of reaching advanced machine intelligence (AMI).</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/fair-robotics-open-source/</guid>
+      <category>Open Source</category>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Roboflow estimates a 74-year time savings across its community from using Meta’s Segment Anything</title>
+      <link>https://ai.meta.com/blog/segment-anything-roboflow-image-segmentation/</link>
+      <description>As a company with a mission to help make the world more programmable, Roboflow uses SAM to help build systems that enable their customers to have visual understanding for just about anything.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/segment-anything-roboflow-image-segmentation/</guid>
+      <category>Open Source</category>
+      <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing quantized Llama models with increased speed and a reduced memory footprint</title>
+      <link>https://ai.meta.com/blog/meta-llama-quantized-lightweight-models/</link>
+      <description>As our first quantized models in this Llama category, these instruction-tuned models retain the quality and safety of the original 1B and 3B models, while achieving 2-4x speedup.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/meta-llama-quantized-lightweight-models/</guid>
+      <category>Large Language Model</category>
+      <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How an online gifting site is using Llama to help protect customer privacy</title>
+      <link>https://ai.meta.com/blog/untukmu-built-with-llama/</link>
+      <description>Untukmu.AI, a platform that offers personalized gift recommendations, designed a semi-decentralized personal assistant that ensures the company won’t have access to customer data.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/untukmu-built-with-llama/</guid>
+      <category></category>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sharing new research, models, and datasets from Meta FAIR</title>
+      <link>https://ai.meta.com/blog/fair-news-segment-anything-2-1-meta-spirit-lm-layer-skip-salsa-lingua/</link>
+      <description>Today, Meta FAIR is releasing several new research artifacts in support of our goal of achieving advanced machine intelligence (AMI) while also supporting open science and reproducibility.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/fair-news-segment-anything-2-1-meta-spirit-lm-layer-skip-salsa-lingua/</guid>
+      <category>Open Source</category>
+      <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Partnering with Blumhouse, creators, and the entertainment industry as we develop Meta Movie Gen</title>
+      <link>https://ai.meta.com/blog/movie-gen-video-sound-generation-blumhouse/</link>
+      <description>We’re sharing initial results from our work with award-winning production company Blumhouse and select creators—part of a pilot program focused on creative industry feedback.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/movie-gen-video-sound-generation-blumhouse/</guid>
+      <category>Research</category>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Llama helped CodeGPT become one of the top AI-powered coding assistants</title>
+      <link>https://ai.meta.com/blog/codegpt-built-with-llama/</link>
+      <description>CodeGPT integrates large language models like Llama to make developers and CTOs more productive.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/codegpt-built-with-llama/</guid>
+      <category>Open Source</category>
+      <pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Neuromnia is transforming ABA therapy with Llama 3.1</title>
+      <link>https://ai.meta.com/blog/neuromnia-autism-aba-therapy-built-with-llama/</link>
+      <description>Harnessing Llama 3.1, Neuromnia recently developed Nia, a human-centric AI co-pilot for Applied Behavior Analysis therapy.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/neuromnia-autism-aba-therapy-built-with-llama/</guid>
+      <category>Open Source</category>
+      <pubDate>Wed, 09 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Meta Movie Gen could usher in a new AI-enabled era for content creators</title>
+      <link>https://ai.meta.com/blog/movie-gen-media-foundation-models-generative-ai-video/</link>
+      <description>Today, we’re excited to premiere Meta Movie Gen, our breakthrough generative AI research for media, which includes modalities like image, video, and audio.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/movie-gen-media-foundation-models-generative-ai-video/</guid>
+      <category>Research</category>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Making data science more accessible to enterprises with Llama</title>
+      <link>https://ai.meta.com/blog/meta-learner-llama-data-science/</link>
+      <description>By leveraging Llama 3.1, MetaLearner enables enterprises to tap into powerful AI capabilities without the need for specialized expertise, making advanced analytics accessible to non-technical users.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/meta-learner-llama-data-science/</guid>
+      <category>Open Source</category>
+      <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing the Digital Twin Catalog from Reality Labs Research</title>
+      <link>https://ai.meta.com/blog/digital-twin-catalog-3d-reconstruction-shopify-reality-labs-research/</link>
+      <description>Reality Labs Research is releasing the Digital Twin Catalog (DTC), which we believe is the world’s largest and highest quality 3D object model dataset for 3D reconstruction research.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/digital-twin-catalog-3d-reconstruction-shopify-reality-labs-research/</guid>
+      <category>Open Source</category>
+      <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
