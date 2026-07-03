@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/news</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Jul 2026 09:37:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 11:21:06 +0000</lastBuildDate>
     <item>
       <title>More details on Fable 5’s cyber safeguards and our jailbreak framework</title>
       <link>https://www.anthropic.com/news/fable-safeguards-jailbreak-framework</link>
@@ -1335,6 +1335,14 @@
       <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Claude’s extended thinking</title>
+      <link>https://www.anthropic.com/news/visible-extended-thinking</link>
+      <description>Claude’s extended thinking</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/visible-extended-thinking</guid>
+      <category>Announcements</category>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Claude 3.7 Sonnet and Claude Code</title>
       <link>https://www.anthropic.com/news/claude-3-7-sonnet</link>
       <description>Claude 3.7 Sonnet and Claude Code</description>
@@ -1735,9 +1743,9 @@
       <pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Anthropic's Responsible Scaling Policy</title>
+      <title>Introducing Anthropic's Responsible Scaling Policy</title>
       <link>https://www.anthropic.com/news/anthropics-responsible-scaling-policy</link>
-      <description>Anthropic's Responsible Scaling Policy</description>
+      <description>Introducing Anthropic's Responsible Scaling Policy</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/anthropics-responsible-scaling-policy</guid>
       <category>Announcements</category>
       <pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate>
