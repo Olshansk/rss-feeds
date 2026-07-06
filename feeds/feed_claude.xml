@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Jul 2026 17:00:37 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 17:56:05 +0000</lastBuildDate>
+    <item>
+      <title>A Field Guide to Claude Fable: Finding Your Unknowns</title>
+      <link>https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns</link>
+      <description>A Field Guide to Claude Fable: Finding Your Unknowns</description>
+      <guid isPermaLink="false">https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns</guid>
+      <category>Claude Code</category>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Giving admins more visibility and control over Claude spend</title>
       <link>https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend</link>
