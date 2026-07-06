@@ -11,16 +11,16 @@ authors = [
 ]
 
 dependencies = [
-    "beautifulsoup4>=4.12",
+    "beautifulsoup4>=4.15.0",
     "feedgen>=1.0",
-    "lxml>=5.0",
+    "lxml>=6.1.1",
     "python-dateutil>=2.8",
-    "pytz>=2024.1",
-    "requests>=2.31",
-    "selenium>=4.25",
+    "pytz>=2026.2",
+    "requests>=2.34.2",
+    "selenium>=4.45.0",
     "undetected-chromedriver>=3.5",
-    "pydantic>=2.5",
-    "pydantic-settings>=2.1",
+    "pydantic>=2.13.4",
+    "pydantic-settings>=2.14.2",
     "pyyaml>=6.0",
 ]
 
@@ -28,7 +28,7 @@ dependencies = [
 Repository = "https://github.com/Olshansk/rss-feeds"
 
 [dependency-groups]
-dev = ["ruff>=0.15", "pre-commit>=4.0"]
+dev = ["ruff>=0.15.20", "pre-commit>=4.6.0"]
 
 [tool.ruff]
 target-version = "py311"
