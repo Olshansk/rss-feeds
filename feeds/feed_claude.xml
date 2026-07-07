@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 07 Jul 2026 13:43:18 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 14:59:57 +0000</lastBuildDate>
+    <item>
+      <title>Choosing a Claude model and effort level in Claude Code</title>
+      <link>https://claude.com/blog/claude-model-and-effort-level-in-claude-code</link>
+      <description>Choosing a Claude model and effort level in Claude Code</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-model-and-effort-level-in-claude-code</guid>
+      <category>Claude Code</category>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>A field guide to Claude Fable 5: Finding your unknowns</title>
       <link>https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns</link>
