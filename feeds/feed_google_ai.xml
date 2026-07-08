@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Jul 2026 15:45:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 16:31:23 +0000</lastBuildDate>
+    <item>
+      <title>Bridging the Domain Gap: AI Race Coach built with Antigravity and Gemini</title>
+      <link>https://developers.googleblog.com/bridging-the-domain-gap-ai-race-coach-built-with-antigravity-and-gemini/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GGBM3681_1.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;On May 23, 2026, fresh off the stage at Google I/O, our Google Developer Experts (GDEs) converged on...</description>
+      <category>Mobile</category>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>We terminated a TPU mid-training and it recovered in seconds:  Introduction to elastic training with MaxText</title>
       <link>https://developers.googleblog.com/we-terminated-a-tpu-mid-training-and-it-recovered-in-seconds-introduction-to-elastic-training-with-maxtext/</link>
@@ -71,13 +78,6 @@
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image2.original_6xqVyTd.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Celebrating the first anniversary of the Agent-to-Agent (A2A) protocol, this blog post highlights how the framework enables autonomous AI agents to securely collaborate and hand off tasks without the rigidity of traditional APIs. By delegating complex workflows to specialized peer agents, A2A prevents context pollution, ensures data privacy, and simplifies application design through modularity. To demonstrate this ecosystem in action, the post spotlights FoldRun—an agentic interface for life sciences that orchestrates complex protein structure predictions—alongside diverse A2A use cases spanning commerce, data streaming, DevOps, and telecommunications.</description>
       <category>AI</category>
       <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A2UI + MCP Apps: Combining the best of declarative and custom agentic UIs</title>
-      <link>https://developers.googleblog.com/a2ui-and-mcp-apps/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;This post introduces three architectural patterns designed to integrate Model Context Protocol (MCP) Apps and Agent-to-User Interface (A2UI) to solve the tradeoff between highly custom iframe environments and native, declarative rendering. By combining these approaches, developers can serve native-feeling UIs directly over MCP servers, embed complex and stateful iframe apps securely inside declarative views, or inject generative UI components into legacy systems. Ultimately, these hybrid frameworks empower engineering teams to deliver secure, performant, and brand-consistent agentic user experiences tailored to their specific project constraints.</description>
-      <category>Web</category>
-      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
