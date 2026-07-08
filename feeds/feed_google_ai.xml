@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Jul 2026 07:47:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 08:51:25 +0000</lastBuildDate>
     <item>
       <title>We terminated a TPU mid-training and it recovered in seconds:  Introduction to elastic training with MaxText</title>
       <link>https://developers.googleblog.com/we-terminated-a-tpu-mid-training-and-it-recovered-in-seconds-introduction-to-elastic-training-with-maxtext/</link>
