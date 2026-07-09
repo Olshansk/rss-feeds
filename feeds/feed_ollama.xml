@@ -13,7 +13,7 @@
       <link>https://ollama.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Jul 2026 13:55:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 15:01:32 +0000</lastBuildDate>
     <item>
       <title>Run Llama 2 uncensored locally</title>
       <link>https://ollama.com/blog/run-llama2-uncensored-locally</link>
@@ -388,7 +388,7 @@
     <item>
       <title>Ollama: all aboard open models</title>
       <link>https://ollama.com/blog/all-aboard-open-models</link>
-      <description>Serving 8.9 million developers, Ollama has raised $88M from Benchmark, Theory Ventures, 8VC, and many incredible angel investors.</description>
+      <description>Serving 8.9 million developers, Ollama has raised $88M from Benchmark, Theory Ventures, 8VC, Y Combinator, and many incredible angel investors.</description>
       <guid isPermaLink="false">https://ollama.com/blog/all-aboard-open-models</guid>
       <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
     </item>
