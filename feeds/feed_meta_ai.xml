@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Jul 2026 13:32:55 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 15:38:21 +0000</lastBuildDate>
+    <item>
+      <title>Introducing Muse Spark 1.1</title>
+      <link>https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/</link>
+      <description>Introducing Muse Spark 1.1</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/</guid>
+      <category>Research</category>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Introducing Muse Image and Muse Video</title>
       <link>https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/</link>
@@ -44,7 +52,6 @@
     <item>
       <title>How Alta Daily Uses Meta’s Segment Anything to Reimagine the Digital Closet</title>
       <link>https://ai.meta.com/blog/alta-daily-fashion-app-segment-anything/</link>
-      <description>How Alta Daily Uses Meta’s Segment Anything to Reimagine the Digital Closet</description>
       <guid isPermaLink="false">https://ai.meta.com/blog/alta-daily-fashion-app-segment-anything/</guid>
       <category>Computer Vision</category>
       <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
@@ -700,14 +707,6 @@
       <guid isPermaLink="false">https://ai.meta.com/blog/movie-gen-media-foundation-models-generative-ai-video/</guid>
       <category>Research</category>
       <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Making data science more accessible to enterprises with Llama</title>
-      <link>https://ai.meta.com/blog/meta-learner-llama-data-science/</link>
-      <description>By leveraging Llama 3.1, MetaLearner enables enterprises to tap into powerful AI capabilities without the need for specialized expertise, making advanced analytics accessible to non-technical users.</description>
-      <guid isPermaLink="false">https://ai.meta.com/blog/meta-learner-llama-data-science/</guid>
-      <category>Open Source</category>
-      <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
