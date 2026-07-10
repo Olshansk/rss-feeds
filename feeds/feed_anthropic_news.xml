@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/news</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Jul 2026 23:53:26 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 01:05:05 +0000</lastBuildDate>
     <item>
       <title>Introducing a way to reflect on how you use Claude</title>
       <link>https://www.anthropic.com/news/reflect-with-claude</link>
@@ -28,6 +28,14 @@
       <description>Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/ben-bernanke</guid>
       <category>Announcements</category>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>UST is bringing Claude to physical AI</title>
+      <link>https://www.anthropic.com/news/ust-claude</link>
+      <description>UST is bringing Claude to physical AI</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/ust-claude</guid>
+      <category>Case Study</category>
       <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
