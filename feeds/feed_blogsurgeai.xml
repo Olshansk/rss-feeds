@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Jul 2026 22:16:08 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 23:17:28 +0000</lastBuildDate>
     <item>
       <title>5 Examples of the Importance of Context-Sensitivity in Data-Centric AI</title>
       <link>https://www.surgehq.ai/blog/why-context-aware-datasets-are-crucial-for-data-centric-ai</link>
@@ -255,14 +255,14 @@
       <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>GDP.pdf: Can Frontier Models Master the Documents that Run the World?</title>
+      <title>GDP.pdf Benchmark: Can Frontier Models Master the Documents that Run the World?</title>
       <link>https://www.surgehq.ai/blog/gdp-pdf-can-100b-ai-models-master-the-documents-that-run-the-world</link>
       <description>Can frontier models master the documents that run the world? GDP.pdf is a professional multimodal reasoning benchmark that takes real-world prompts and PDFs pulled directly from expert enterprise workflows.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/gdp-pdf-can-100b-ai-models-master-the-documents-that-run-the-world</guid>
       <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Antidote: Optimizing for You</title>
+      <title>Antidote Leaderboard: Optimizing for You</title>
       <link>https://www.surgehq.ai/blog/introducing-antidote</link>
       <description>LMArena measures which answer you prefer in two seconds. Antidote measures which one you'd still be glad you got a month later, graded by doctors, lawyers, and engineers.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/introducing-antidote</guid>
@@ -297,7 +297,7 @@
       <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>HANDBOOK.md: Can Agents Follow 100-Page Company Policies?</title>
+      <title>HANDBOOK.md Benchmark: Can Agents Follow 100-Page Company Policies?</title>
       <link>https://www.surgehq.ai/blog/handbook-md</link>
       <description>A benchmark for long-context enterprise agents: MCP-native RL environments, expert-written handbooks up to 124 pages, deterministic grading. No frontier model exceeds 25%. Instead, they fire employees without authorization, approve self-submitted expenses, and send expired medical records to insurers.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/handbook-md</guid>
