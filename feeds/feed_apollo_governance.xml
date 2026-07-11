@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Apollo Research - Governance</title>
+    <link>https://www.apolloresearch.ai/governance/</link>
+    <description>Publications from Apollo Research's Governance section</description>
+    <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_apollo_governance.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 11 Jul 2026 01:03:34 +0000</lastBuildDate>
+    <item>
+      <title>A Loss of Control Threat Map for AI Research and Development</title>
+      <link>https://www.apolloresearch.ai/governance/ai-rd-threat-map/</link>
+      <description>Blog</description>
+      <guid isPermaLink="false">https://www.apolloresearch.ai/governance/ai-rd-threat-map/</guid>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Misaligned AI as a New Insider Risk</title>
+      <link>https://www.apolloresearch.ai/governance/misaligned-ai-as-a-new-insider-risk/</link>
+      <description>Blog</description>
+      <guid isPermaLink="false">https://www.apolloresearch.ai/governance/misaligned-ai-as-a-new-insider-risk/</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Need for Deeper, White-Box Access to Maintain State of the Art Evaluations for Loss of Control Threats</title>
+      <link>https://www.apolloresearch.ai/governance/the-need-for-deeper-white-box-access-to-maintain-state-of-the-art-evaluations-for-loss-of-control-threats/</link>
+      <description>Blog</description>
+      <guid isPermaLink="false">https://www.apolloresearch.ai/governance/the-need-for-deeper-white-box-access-to-maintain-state-of-the-art-evaluations-for-loss-of-control-threats/</guid>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>An Overview Of Our Current Governance Efforts</title>
+      <link>https://www.apolloresearch.ai/governance/our-current-governance-efforts/</link>
+      <description>Blog</description>
+      <guid isPermaLink="false">https://www.apolloresearch.ai/governance/our-current-governance-efforts/</guid>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>NIST RFI: Security Considerations for AI Agents</title>
+      <link>https://www.apolloresearch.ai/governance/nist-rfi-security-considerations-for-ai-agents/</link>
+      <description>Submissions</description>
+      <guid isPermaLink="false">https://www.apolloresearch.ai/governance/nist-rfi-security-considerations-for-ai-agents/</guid>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Seven Provisions in the National Defense Authorization Act with High Potential to Accelerate AI Security</title>
+      <link>https://www.apolloresearch.ai/governance/ndaa-ai-security-defense-intelligence/</link>
+      <description>Blog</description>
+      <guid isPermaLink="false">https://www.apolloresearch.ai/governance/ndaa-ai-security-defense-intelligence/</guid>
+      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Internal Deployment of AI Models and Systems in the EU AI Act</title>
+      <link>https://www.apolloresearch.ai/governance/internal-deployment-eu-ai-act/</link>
+      <description>Memorandums</description>
+      <guid isPermaLink="false">https://www.apolloresearch.ai/governance/internal-deployment-eu-ai-act/</guid>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Loss of Control Playbook: Degrees, Dynamics, and Preparedness</title>
+      <link>https://www.apolloresearch.ai/governance/loss-of-control/</link>
+      <description>The Loss of Control Playbook: Degrees, Dynamics, and Preparedness</description>
+      <guid isPermaLink="false">https://www.apolloresearch.ai/governance/loss-of-control/</guid>
+      <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Assurance of Frontier AI Built for National Security</title>
+      <link>https://www.apolloresearch.ai/governance/assurance-of-frontier-ai-built-for-national-security/</link>
+      <description>Memorandums</description>
+      <guid isPermaLink="false">https://www.apolloresearch.ai/governance/assurance-of-frontier-ai-built-for-national-security/</guid>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Behind Closed Doors: a Primer on The Governance of Internal Deployment</title>
+      <link>https://www.apolloresearch.ai/governance/ai-behind-closed-doors-a-primer-on-the-governance-of-internal-deployment/</link>
+      <description>AI Behind Closed Doors: a Primer on The Governance of Internal Deployment</description>
+      <guid isPermaLink="false">https://www.apolloresearch.ai/governance/ai-behind-closed-doors-a-primer-on-the-governance-of-internal-deployment/</guid>
+      <pubDate>Thu, 17 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Capturing and Countering Threats to National Security: a Blueprint for an Agile AI Incident Regime</title>
+      <link>https://www.apolloresearch.ai/governance/capturing-and-countering-threats-to-national-security-a-blueprint-for-an-agile-ai-incident-regime/</link>
+      <description>Capturing and Countering Threats to National Security: a Blueprint for an Agile AI Incident Regime</description>
+      <guid isPermaLink="false">https://www.apolloresearch.ai/governance/capturing-and-countering-threats-to-national-security-a-blueprint-for-an-agile-ai-incident-regime/</guid>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Precursory Capabilities: A Refinement to Pre-deployment Information Sharing and Tripwire Capabilities</title>
+      <link>https://www.apolloresearch.ai/governance/precursory-capabilities-a-refinement-to-pre-deployment-information-sharing-and-tripwire-capabilities/</link>
+      <description>Precursory Capabilities: A Refinement to Pre-deployment Information Sharing and Tripwire Capabilities</description>
+      <guid isPermaLink="false">https://www.apolloresearch.ai/governance/precursory-capabilities-a-refinement-to-pre-deployment-information-sharing-and-tripwire-capabilities/</guid>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Our Current Policy Positions</title>
+      <link>https://www.apolloresearch.ai/governance/our-current-policy-positions/</link>
+      <description>Blog</description>
+      <guid isPermaLink="false">https://www.apolloresearch.ai/governance/our-current-policy-positions/</guid>
+      <pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Our Work Advancing Scientific Understanding To Foster An Effective International Evaluation Ecosystem</title>
+      <link>https://www.apolloresearch.ai/governance/our-work-advancing-scientific-understanding-to-foster-an-effective-international-evaluation-ecosystem/</link>
+      <description>Blog</description>
+      <guid isPermaLink="false">https://www.apolloresearch.ai/governance/our-work-advancing-scientific-understanding-to-foster-an-effective-international-evaluation-ecosystem/</guid>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Recommendations For The Next Stages Of The Frontier AI Taskforce</title>
+      <link>https://www.apolloresearch.ai/governance/recommendations-for-the-next-stages-of-the-frontier-ai-taskforce/</link>
+      <description>Blog</description>
+      <guid isPermaLink="false">https://www.apolloresearch.ai/governance/recommendations-for-the-next-stages-of-the-frontier-ai-taskforce/</guid>
+      <pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The UK AI Safety Summit: Our Recommendations</title>
+      <link>https://www.apolloresearch.ai/governance/the-uk-ai-safety-summit-our-recommendations/</link>
+      <description>Blog</description>
+      <guid isPermaLink="false">https://www.apolloresearch.ai/governance/the-uk-ai-safety-summit-our-recommendations/</guid>
+      <pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
