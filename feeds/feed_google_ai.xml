@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Jul 2026 15:29:50 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 16:27:03 +0000</lastBuildDate>
+    <item>
+      <title>Unlocking the Next Era of On-Device AI with Google Tensor and Pixel</title>
+      <link>https://developers.googleblog.com/unlocking-the-next-era-of-on-device-ai-with-google-tensor-and-pixel/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/IMG_5052.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;At Google I/O Connect India, Google showcased the future of 100% private, on-device AI powered by the custom Tensor SoC and TPU for the new Pixel 10 family. The event debuted the lightweight Gemma 4 E2B model, which runs natively on the device to enable completely offline multimodal features like AI chat, real-time image recognition, and personal agent tasks. Developers can start building these secure, edge-based applications today by accessing the newly announced Tensor SDK beta and its accompanying open-source resources.</description>
+      <category>Mobile</category>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>LiteRT.js, Google's high performance Web AI Inference</title>
       <link>https://developers.googleblog.com/litertjs-googles-high-performance-web-ai-inference/</link>
@@ -64,13 +71,6 @@
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/flywheel-blog-hero-image.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Building AI agents often leaves developers uncertain if prompt tweaks to fix single errors will accidentally cause widespread regressions in production. To bridge this gap, Google has introduced a new developer skill for coding agents that automates a five-stage evaluation flywheel: preparing data, running inference, grading with adaptive AutoRaters, analyzing failure clusters, and executing targeted optimizations. Running continuously against production traffic or on-demand via synthetic scenarios, this tool allows developers to describe testing goals in plain language while an independent evaluation service safely validates and counts actual performance improvements.</description>
       <category>AI</category>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Measuring What Matters with Jules</title>
-      <link>https://developers.googleblog.com/measuring-what-matters-with-jules/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Measuring_What_Matters_with_Jules_.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;AI coding agents are rapidly shifting from reactive assistants that complete tasks when prompted to ...</description>
-      <category>Web</category>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Build Cross-Language Multi-Agent Team with Google’s Agent Development Kit and A2A</title>
