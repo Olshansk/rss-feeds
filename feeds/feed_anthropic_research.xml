@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Jul 2026 23:48:51 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 00:59:36 +0000</lastBuildDate>
     <item>
       <title>Jul 13, 2026Societal ImpactsClaude’s values across models and languages</title>
       <link>https://www.anthropic.com/research/claude-values-models-languages</link>
@@ -108,7 +108,7 @@
       <description>Societal Impacts</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/societal-impacts</guid>
       <category>Research</category>
-      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Economic Research</title>
@@ -116,15 +116,7 @@
       <description>Economic Research</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/economic-research</guid>
       <category>Research</category>
-      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Interpretability</title>
-      <link>https://www.anthropic.com/research/team/interpretability</link>
-      <description>Interpretability</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/team/interpretability</guid>
-      <category>Research</category>
-      <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Frontier Red Team</title>
@@ -132,7 +124,15 @@
       <description>Frontier Red Team</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/frontier-red-team</guid>
       <category>Research</category>
-      <pubDate>Sat, 17 Jun 2023 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Interpretability</title>
+      <link>https://www.anthropic.com/research/team/interpretability</link>
+      <description>Interpretability</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/interpretability</guid>
+      <category>Research</category>
+      <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Alignment</title>
@@ -140,7 +140,7 @@
       <description>Alignment</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
       <category>Research</category>
-      <pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
