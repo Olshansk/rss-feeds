@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 16 Jul 2026 08:17:18 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 09:17:10 +0000</lastBuildDate>
     <item>
       <title>Jul 14, 2026Economic ResearchHow Canada uses Claude: Findings from the Anthropic Economic Index</title>
       <link>https://www.anthropic.com/research/how-canada-uses-claude</link>
@@ -103,28 +103,20 @@
       <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Frontier Red Team</title>
+      <link>https://www.anthropic.com/research/team/frontier-red-team</link>
+      <description>Frontier Red Team</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/frontier-red-team</guid>
+      <category>Research</category>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Societal Impacts</title>
       <link>https://www.anthropic.com/research/team/societal-impacts</link>
       <description>Societal Impacts</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/societal-impacts</guid>
       <category>Research</category>
-      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Alignment</title>
-      <link>https://www.anthropic.com/research/team/alignment</link>
-      <description>Alignment</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
-      <category>Research</category>
-      <pubDate>Mon, 16 Sep 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Interpretability</title>
-      <link>https://www.anthropic.com/research/team/interpretability</link>
-      <description>Interpretability</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/team/interpretability</guid>
-      <category>Research</category>
-      <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Economic Research</title>
@@ -132,15 +124,23 @@
       <description>Economic Research</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/economic-research</guid>
       <category>Research</category>
-      <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Frontier Red Team</title>
-      <link>https://www.anthropic.com/research/team/frontier-red-team</link>
-      <description>Frontier Red Team</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/team/frontier-red-team</guid>
+      <title>Interpretability</title>
+      <link>https://www.anthropic.com/research/team/interpretability</link>
+      <description>Interpretability</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/interpretability</guid>
       <category>Research</category>
-      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Alignment</title>
+      <link>https://www.anthropic.com/research/team/alignment</link>
+      <description>Alignment</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
+      <category>Research</category>
+      <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
