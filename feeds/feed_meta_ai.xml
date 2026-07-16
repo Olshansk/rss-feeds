@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Jul 2026 23:50:29 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 01:01:36 +0000</lastBuildDate>
     <item>
       <title>Introducing Muse Spark 1.1</title>
       <link>https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/</link>
@@ -611,102 +611,6 @@
       <guid isPermaLink="false">https://ai.meta.com/blog/accenture-built-with-llama/</guid>
       <category>Large Language Model</category>
       <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Open Catalyst experiments 2024</title>
-      <link>https://ai.meta.com/blog/open-catalyst-simulations-experiments/</link>
-      <description>Meta FAIR is releasing a large-scale dataset of experimental results on various materials, providing valuable insights for the development of new catalysts.</description>
-      <guid isPermaLink="false">https://ai.meta.com/blog/open-catalyst-simulations-experiments/</guid>
-      <category></category>
-      <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>IBM and Llama: Working to enable AI builder creativity globally</title>
-      <link>https://ai.meta.com/blog/ibm-watsonx-ai-llama/</link>
-      <description>IBM and Meta are implementing the combined power of IBM’s watsonx AI and data platform and Llama to help businesses reach their AI goals.</description>
-      <guid isPermaLink="false">https://ai.meta.com/blog/ibm-watsonx-ai-llama/</guid>
-      <category>Open Source</category>
-      <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Highlights from the first-ever Llama hackathon in India</title>
-      <link>https://ai.meta.com/blog/llama-hackathon-india/</link>
-      <description>Teams embarked on a 30-hour journey to create AI solutions tackling real-world challenges, leveraging Meta’s Llama 3 models and WhatsApp APIs.</description>
-      <guid isPermaLink="false">https://ai.meta.com/blog/llama-hackathon-india/</guid>
-      <category>Large Language Model</category>
-      <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Advancing embodied AI through progress in touch perception, dexterity, and human-robot interaction</title>
-      <link>https://ai.meta.com/blog/fair-robotics-open-source/</link>
-      <description>Meta FAIR is publicly releasing several new research artifacts that advance robotics and support our goal of reaching advanced machine intelligence (AMI).</description>
-      <guid isPermaLink="false">https://ai.meta.com/blog/fair-robotics-open-source/</guid>
-      <category>Open Source</category>
-      <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Roboflow estimates a 74-year time savings across its community from using Meta’s Segment Anything</title>
-      <link>https://ai.meta.com/blog/segment-anything-roboflow-image-segmentation/</link>
-      <description>As a company with a mission to help make the world more programmable, Roboflow uses SAM to help build systems that enable their customers to have visual understanding for just about anything.</description>
-      <guid isPermaLink="false">https://ai.meta.com/blog/segment-anything-roboflow-image-segmentation/</guid>
-      <category>Open Source</category>
-      <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing quantized Llama models with increased speed and a reduced memory footprint</title>
-      <link>https://ai.meta.com/blog/meta-llama-quantized-lightweight-models/</link>
-      <description>As our first quantized models in this Llama category, these instruction-tuned models retain the quality and safety of the original 1B and 3B models, while achieving 2-4x speedup.</description>
-      <guid isPermaLink="false">https://ai.meta.com/blog/meta-llama-quantized-lightweight-models/</guid>
-      <category>Large Language Model</category>
-      <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How an online gifting site is using Llama to help protect customer privacy</title>
-      <link>https://ai.meta.com/blog/untukmu-built-with-llama/</link>
-      <description>Untukmu.AI, a platform that offers personalized gift recommendations, designed a semi-decentralized personal assistant that ensures the company won’t have access to customer data.</description>
-      <guid isPermaLink="false">https://ai.meta.com/blog/untukmu-built-with-llama/</guid>
-      <category></category>
-      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sharing new research, models, and datasets from Meta FAIR</title>
-      <link>https://ai.meta.com/blog/fair-news-segment-anything-2-1-meta-spirit-lm-layer-skip-salsa-lingua/</link>
-      <description>Today, Meta FAIR is releasing several new research artifacts in support of our goal of achieving advanced machine intelligence (AMI) while also supporting open science and reproducibility.</description>
-      <guid isPermaLink="false">https://ai.meta.com/blog/fair-news-segment-anything-2-1-meta-spirit-lm-layer-skip-salsa-lingua/</guid>
-      <category>Open Source</category>
-      <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Partnering with Blumhouse, creators, and the entertainment industry as we develop Meta Movie Gen</title>
-      <link>https://ai.meta.com/blog/movie-gen-video-sound-generation-blumhouse/</link>
-      <description>We’re sharing initial results from our work with award-winning production company Blumhouse and select creators—part of a pilot program focused on creative industry feedback.</description>
-      <guid isPermaLink="false">https://ai.meta.com/blog/movie-gen-video-sound-generation-blumhouse/</guid>
-      <category>Research</category>
-      <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Llama helped CodeGPT become one of the top AI-powered coding assistants</title>
-      <link>https://ai.meta.com/blog/codegpt-built-with-llama/</link>
-      <description>CodeGPT integrates large language models like Llama to make developers and CTOs more productive.</description>
-      <guid isPermaLink="false">https://ai.meta.com/blog/codegpt-built-with-llama/</guid>
-      <category>Open Source</category>
-      <pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Neuromnia is transforming ABA therapy with Llama 3.1</title>
-      <link>https://ai.meta.com/blog/neuromnia-autism-aba-therapy-built-with-llama/</link>
-      <description>Harnessing Llama 3.1, Neuromnia recently developed Nia, a human-centric AI co-pilot for Applied Behavior Analysis therapy.</description>
-      <guid isPermaLink="false">https://ai.meta.com/blog/neuromnia-autism-aba-therapy-built-with-llama/</guid>
-      <category>Open Source</category>
-      <pubDate>Wed, 09 Oct 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Meta Movie Gen could usher in a new AI-enabled era for content creators</title>
-      <link>https://ai.meta.com/blog/movie-gen-media-foundation-models-generative-ai-video/</link>
-      <description>Today, we’re excited to premiere Meta Movie Gen, our breakthrough generative AI research for media, which includes modalities like image, video, and audio.</description>
-      <guid isPermaLink="false">https://ai.meta.com/blog/movie-gen-media-foundation-models-generative-ai-video/</guid>
-      <category>Research</category>
-      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
