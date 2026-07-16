@@ -8,14 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 16 Jul 2026 17:29:22 +0000</lastBuildDate>
-    <item>
-      <title>Chartography: A Benchmark for Professional Chart Understanding</title>
-      <link>https://www.surgehq.ai/blog/chartography</link>
-      <description>A benchmark for professional chart reasoning: Kaplan-Meier curves, candlesticks, contour maps, Bode plots, and more, written and graded by domain experts.</description>
-      <guid isPermaLink="false">https://www.surgehq.ai/blog/chartography</guid>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 16 Jul 2026 18:23:44 +0000</lastBuildDate>
     <item>
       <title>5 Examples of the Importance of Context-Sensitivity in Data-Centric AI</title>
       <link>https://www.surgehq.ai/blog/why-context-aware-datasets-are-crucial-for-data-centric-ai</link>
@@ -316,6 +309,13 @@
       <description>We trained a 4B model on 1,000 expert-written rubrics from ComplexConstraints, our frontier instruction-following benchmark. It reached parity with a 60x larger model, and the gains transferred to external benchmarks it never saw.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/training-on-complexconstraints</guid>
       <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chartography: A Benchmark for Professional Chart Understanding</title>
+      <link>https://www.surgehq.ai/blog/chartography</link>
+      <description>A benchmark for professional chart reasoning: Kaplan-Meier curves, candlesticks, contour maps, Bode plots, and more, written and graded by domain experts.</description>
+      <guid isPermaLink="false">https://www.surgehq.ai/blog/chartography</guid>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
