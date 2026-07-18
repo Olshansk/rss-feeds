@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Jul 2026 08:10:29 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 09:06:41 +0000</lastBuildDate>
     <item>
       <title>Introducing Muse Spark 1.1</title>
       <link>https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/</link>
@@ -675,38 +675,6 @@
       <guid isPermaLink="false">https://ai.meta.com/blog/fair-news-segment-anything-2-1-meta-spirit-lm-layer-skip-salsa-lingua/</guid>
       <category>Open Source</category>
       <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Partnering with Blumhouse, creators, and the entertainment industry as we develop Meta Movie Gen</title>
-      <link>https://ai.meta.com/blog/movie-gen-video-sound-generation-blumhouse/</link>
-      <description>We’re sharing initial results from our work with award-winning production company Blumhouse and select creators—part of a pilot program focused on creative industry feedback.</description>
-      <guid isPermaLink="false">https://ai.meta.com/blog/movie-gen-video-sound-generation-blumhouse/</guid>
-      <category>Research</category>
-      <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Llama helped CodeGPT become one of the top AI-powered coding assistants</title>
-      <link>https://ai.meta.com/blog/codegpt-built-with-llama/</link>
-      <description>CodeGPT integrates large language models like Llama to make developers and CTOs more productive.</description>
-      <guid isPermaLink="false">https://ai.meta.com/blog/codegpt-built-with-llama/</guid>
-      <category>Open Source</category>
-      <pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Neuromnia is transforming ABA therapy with Llama 3.1</title>
-      <link>https://ai.meta.com/blog/neuromnia-autism-aba-therapy-built-with-llama/</link>
-      <description>Harnessing Llama 3.1, Neuromnia recently developed Nia, a human-centric AI co-pilot for Applied Behavior Analysis therapy.</description>
-      <guid isPermaLink="false">https://ai.meta.com/blog/neuromnia-autism-aba-therapy-built-with-llama/</guid>
-      <category>Open Source</category>
-      <pubDate>Wed, 09 Oct 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Meta Movie Gen could usher in a new AI-enabled era for content creators</title>
-      <link>https://ai.meta.com/blog/movie-gen-media-foundation-models-generative-ai-video/</link>
-      <description>Today, we’re excited to premiere Meta Movie Gen, our breakthrough generative AI research for media, which includes modalities like image, video, and audio.</description>
-      <guid isPermaLink="false">https://ai.meta.com/blog/movie-gen-media-foundation-models-generative-ai-video/</guid>
-      <category>Research</category>
-      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
