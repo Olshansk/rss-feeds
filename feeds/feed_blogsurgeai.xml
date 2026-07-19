@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 19 Jul 2026 22:16:57 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 23:18:07 +0000</lastBuildDate>
     <item>
       <title>5 Examples of the Importance of Context-Sensitivity in Data-Centric AI</title>
       <link>https://www.surgehq.ai/blog/why-context-aware-datasets-are-crucial-for-data-centric-ai</link>
@@ -309,6 +309,13 @@
       <description>We trained a 4B model on 1,000 expert-written rubrics from ComplexConstraints, our frontier instruction-following benchmark. It reached parity with a 60x larger model, and the gains transferred to external benchmarks it never saw.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/training-on-complexconstraints</guid>
       <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI cites GDP.pdf in its GPT-5.6 release</title>
+      <link>https://www.surgehq.ai/blog/openai-gpt-5-6-gdp-pdf-benchmark</link>
+      <description>OpenAI included Surge AI’s GDP.pdf benchmark in its GPT-5.6 release. Its flagship model scored 30.7% on real-world professional document tasks.</description>
+      <guid isPermaLink="false">https://www.surgehq.ai/blog/openai-gpt-5-6-gdp-pdf-benchmark</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Chartography: A Benchmark for Professional Chart Understanding</title>
