@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>EleutherAI Papers</title>
+    <link>https://www.eleuther.ai/papers</link>
+    <description>Papers and preprints from EleutherAI</description>
+    <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_eleuther_papers.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 11 Jul 2026 02:19:43 +0000</lastBuildDate>
+    <item>
+      <title>Quantifying the Effect of Test Set Contamination on Generative Evaluations</title>
+      <link>https://arxiv.org/abs/2601.04301</link>
+      <description>As frontier AI systems are pretrained on web-scale data, test set contamination has become a critical concern for accurately assessing their capabilities. While research has thoroughly investigated the impact of test set contamination on discriminative evaluations like multiple-choice question-answering, comparatively little research has studied the impact of test set contamination on generative evaluations. In this work, we quantitatively assess the effect of test set contamination on generative evaluations through the language model lifecycle. We pretrain language models on mixtures of web data and the MATH benchmark, sweeping model sizes and number of test set replicas contaminating the pretraining corpus; performance improves with contamination and model size. Using scaling laws, we make a surprising discovery: including even a single test set replica enables models to achieve lower loss than the irreducible error of training on the uncontaminated corpus. We then study further training: overtraining with fresh data reduces the effects of contamination, whereas supervised finetuning on the training set can either increase or decrease performance on test data, depending on the amount of pretraining contamination. Finally, at inference, we identify factors that modulate memorization: high sampling temperatures mitigate contamination effects, and longer solutions are exponentially more difficult to memorize than shorter ones, presenting a contrast with discriminative evaluations, where solutions are only a few tokens in length. By characterizing how generation and memorization interact, we highlight a new layer of complexity for trustworthy evaluation of AI systems.</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2601.04301</guid>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deep Ignorance: Filtering Pretraining Data Builds Tamper-Resistant Safeguards into Open-Weight LLMs</title>
+      <link>https://arxiv.org/abs/2508.06601</link>
+      <description>Deep Ignorance: Filtering Pretraining Data Builds Tamper-Resistant Safeguards into Open-Weight LLMs</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2508.06601</guid>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Composable Interventions for Language Models</title>
+      <link>https://arxiv.org/abs/2407.06483</link>
+      <description>Composable Interventions for Language Models</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2407.06483</guid>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Evaluating Morphological Alignment of Tokenizers in 70 Languages</title>
+      <link>https://arxiv.org/abs/2507.06378</link>
+      <description>Evaluating Morphological Alignment of Tokenizers in 70 Languages</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2507.06378</guid>
+      <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scaling Self-Supervised Representation Learning for Symbolic Piano Performance</title>
+      <link>https://arxiv.org/abs/2506.23869</link>
+      <description>Scaling Self-Supervised Representation Learning for Symbolic Piano Performance</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2506.23869</guid>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
