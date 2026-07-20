@@ -1,0 +1,419 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>FAR.AI - Publications</title>
+    <link>https://www.far.ai/publications</link>
+    <description>Publications from FAR.AI</description>
+    <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_far_ai.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 11 Jul 2026 02:19:44 +0000</lastBuildDate>
+    <item>
+      <title>Concept Influence: Leveraging Interpretability to Improve Performance and Efficiency in Training Data Attribution</title>
+      <link>https://www.far.ai/research/concept-influence-leveraging-interpretability-to-improve-performance-and-efficiency-in-training-data-attribution</link>
+      <description>Concept Influence attributes model behaviors to semantic directions (like linear probes or sparse autoencoder features) rather than individual test examples, improving identification of the training data that disproportionately drive unintended behaviors. Simple first-order approximations match or outperform standard influence functions while achieving over 20× computational speedups, though they degrade under significant distribution shifts.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/concept-influence-leveraging-interpretability-to-improve-performance-and-efficiency-in-training-data-attribution</guid>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Prefill-level Jailbreak: A Black-Box Risk Analysis of Large Language Models</title>
+      <link>https://www.far.ai/research/prefill-level-jailbreak-a-black-box-risk-analysis-of-large-language-models</link>
+      <description>We investigate a previously under-explored attack vector for open-source models: prefilling, which allows an attacker to predefine initial response tokens before generation begins. We present the largest empirical study to date of such attacks, evaluating over 20 existing and novel strategies across multiple model families and state-of-the-art open-weight models. Our results show that prefill attacks are consistently effective against all major contemporary open-weight models, underscoring the need for model developers to prioritize defenses against prefill attacks in open-weight LLMs.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/prefill-level-jailbreak-a-black-box-risk-analysis-of-large-language-models</guid>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Obfuscation Atlas: Mapping Where Honesty Emerges in RLVR with Deception Probes</title>
+      <link>https://www.far.ai/research/the-obfuscation-atlas-mapping-where-honesty-emerges-in-rlvr-with-deception-probes</link>
+      <description>Training against white-box deception detectors in a realistic coding environment reveals two obfuscation strategies models can develop: modifying internal representations to evade the detector, or producing deceptive text with justifications that bypass it. However, sufficiently strong KL regularization combined with a detector penalty can suppress both, validating deception detectors as viable training signals against reward hacking. ‍</description>
+      <guid isPermaLink="false">https://www.far.ai/research/the-obfuscation-atlas-mapping-where-honesty-emerges-in-rlvr-with-deception-probes</guid>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Revisiting Frontier LLMs’ Attempts to Persuade on Extreme Topics: GPT and Claude Improved, Gemini Worsened</title>
+      <link>https://www.far.ai/research/revisiting-attempts-to-persuade</link>
+      <description>We test recently released models from frontier companies to see whether progress has been made on their willingness to persuade on harmful topics like radicalization and child sexual abuse. We find that OpenAI’s GPT and Anthropic’s Claude models are trending in the right direction, with near zero compliance on extreme topics. But Google’s Gemini 3 Pro complies with almost any persuasion request in our evaluation, without jailbreaking.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/revisiting-attempts-to-persuade</guid>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>TamperBench: Systematically Stress-Testing LLM Safety Under Fine-Tuning and Tampering</title>
+      <link>https://www.far.ai/research/tamperbench-systematically-stress-testing-llm-safety-under-fine-tuning-and-tampering</link>
+      <description>We built TamperBench, a unified framework for evaluating the tamper resistance of open-weight LLMs against weight-space and latent-space attacks, addressing the lack of standardized benchmarks in this area. It evaluates 21 models across nine attack types with systematic hyperparameter sweeps, covering both safety and utility metrics. Key findings include that jailbreak-tuning is generally the most severe attack and that Triplet is the strongest alignment-stage defense.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/tamperbench-systematically-stress-testing-llm-safety-under-fine-tuning-and-tampering</guid>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Large language models can effectively convince people to believe conspiracies</title>
+      <link>https://www.far.ai/research/large-language-models-can-effectively-convince-people-to-believe-conspiracies</link>
+      <description>LLMs are persuasive across a variety of contexts, but it’s unclear whether this persuasive power advantages truth over falsehood. We ran three preregistered experiments where participants discussed a conspiracy theory with GPT-4o, which was instructed to either argue against (“debunking”) or for (“bunking”) that conspiracy, and found that GPT-4o was just as effective at increasing belief in conspiracies as decreasing it.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/large-language-models-can-effectively-convince-people-to-believe-conspiracies</guid>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Auditing Games for Sandbagging</title>
+      <link>https://www.far.ai/research/auditing-games-for-sandbagging</link>
+      <description>Using a red-team/blue-team auditing game, we find that black-box and naive model-internal methods fail to consistently distinguish sandbagging from benign underperformance. Training-based capability elicitation reliably restores full performance in sandbagging models but also risks false positives by boosting benign models.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/auditing-games-for-sandbagging</guid>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Compressed Computation is (probably) not Computation in Superposition</title>
+      <link>https://www.far.ai/research/compressed-computation-is-probably-not-computation-in-superposition</link>
+      <description>We show that the apparent performance gains of the Compressed Computation toy model arise from unintended label mixing via a noisy residual stream, not from computation in superposition.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/compressed-computation-is-probably-not-computation-in-superposition</guid>
+      <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Securing Agentic AI: A Discussion Paper</title>
+      <link>https://www.far.ai/research/securing-agentic-ai-discussion-paper</link>
+      <description>This discussion paper by the Cyber Security Agency of Singapore (CSA) and FAR.AI provides an exposition of key security issues for these systems: how agents differ from traditional AI, where new attack surfaces arise, and why conventional controls are necessary but not sufficient. We further discuss current risk management frameworks and how they approach agentic security from a variety of perspectives, and the many important problems that remain.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/securing-agentic-ai-discussion-paper</guid>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emergent Persuasion: Will LLMs Persuade Without Being Prompted?</title>
+      <link>https://www.far.ai/research/emergent-persuasion-will-llms-persuade-without-being-prompted</link>
+      <description>We study when models have the tendency to persuade without prompting, finding that steering models through activation-based persona traits does not reliably increase unsolicited persuasion, but supervised fine-tuning on persuasion-related data does. Notably, models fine-tuned only on benign persuasive content can become more likely to persuade on controversial or harmful topics</description>
+      <guid isPermaLink="false">https://www.far.ai/research/emergent-persuasion-will-llms-persuade-without-being-prompted</guid>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Open Technical Problems in Open-Weight AI Model Risk Management</title>
+      <link>https://www.far.ai/research/open-technical-problems-in-open-weight-ai-model-risk-management</link>
+      <description>Open-weight frontier AI models are becoming more capable and widespread, offering unique advantages and risks compared to proprietary systems. This paper identifies 16 technical challenges related to data, training, evaluation, deployment, and monitoring, and argues that true progress requires openness not just in model weights, but also in research methods and evaluations to build a rigorous science of open-model safety.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/open-technical-problems-in-open-weight-ai-model-risk-management</guid>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Transformers Don’t Need LayerNorm at Inference Time: Scaling LayerNorm Removal to GPT-2 XL and Implications for Mechanistic Interpretability</title>
+      <link>https://www.far.ai/research/transformers-dont-need-layernorm-at-inference-time</link>
+      <description>We show that all LayerNorm layers can be removed from GPT-2 models via fine-tuning with minimal performance loss, making inference-time LayerNorm unnecessary.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/transformers-dont-need-layernorm-at-inference-time</guid>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Training Reliable Activation Probes With a Handful of Positive Examples</title>
+      <link>https://www.far.ai/research/training-reliable-activation-probes-with-a-handful-of-positive-examples</link>
+      <description>Misalignment cases might be rare but critical. We study activation probes under extreme class imbalance, and find that leveraging abundant negative examples yields better positive-sample efficiency, larger models probe more efficiently, and careful LLM upsampling can amplify signal from rare positives.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/training-reliable-activation-probes-with-a-handful-of-positive-examples</guid>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>It's the Thought that Counts: Evaluating the Attempts of Frontier LLMs to Persuade on Harmful Topics</title>
+      <link>https://www.far.ai/research/its-the-thought-that-counts-evaluating-the-attempts-of-frontier-llms-to-persuade-on-harmful-topics</link>
+      <description>Large language models (LLMs) are already more persuasive than humans in many domains . While this power can be used for good, like helping people quit smoking, it also presents significant risks, such as large-scale political manipulation, disinformation, or terrorism recruitment . But how easy is it to get frontier models to persuade into harmful beliefs or illegal actions? Really easy – just ask them.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/its-the-thought-that-counts-evaluating-the-attempts-of-frontier-llms-to-persuade-on-harmful-topics</guid>
+      <pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Jailbreak-Tuning: Models Efficiently Learn Jailbreak Susceptibility</title>
+      <link>https://www.far.ai/research/jailbreak-tuning-models-efficiently-learn-jailbreak-susceptibility</link>
+      <description>Our jailbreak-tuning method teaches models to generate detailed, high-quality responses to arbitrary harmful requests. For example, OpenAI, Google, and Anthropic models will fully comply with requests for CBRN assistance, executing cyberattacks, and other criminal activity. We further show that backdoors can increase not only the stealth but also the severity of attacks, while stronger jailbreak prompts become even more effective in fine-tuning attacks. Until safeguards are discovered, companies and policymakers should view the release of any fine-tunable model as simultaneously releasing its evil twin: equally capable as the original model, and usable for any malicious purpose within its capabilities.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/jailbreak-tuning-models-efficiently-learn-jailbreak-susceptibility</guid>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Safety Gap Toolkit: Evaluating Hidden Dangers of Open-Source Models</title>
+      <link>https://www.far.ai/research/the-safety-gap-toolkit-evaluating-hidden-dangers-of-open-source-models</link>
+      <description>A growing body of research shows safeguards on open-weight AI models are brittle and easily bypassed using techniques like fine-tuning, activation engineering, adversarial prompting, or jailbreaks . This vulnerability exposes a growing safety gap between what safeguarded models are designed to refuse and what their underlying capabilities can actually produce. We introduce an open-source toolkit to quantify and analyze this gap.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/the-safety-gap-toolkit-evaluating-hidden-dangers-of-open-source-models</guid>
+      <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>STACK: Adversarial Attacks on LLM Safeguard Pipelines</title>
+      <link>https://www.far.ai/research/stack-adversarial-attacks-on-llm-safeguard-pipelines</link>
+      <description>We tested the effectiveness of "defense-in-depth" AI safety strategies, where multiple layers of filters are used to prevent AI models from generating harmful content. Our new attack method, STACK, bypasses defenses layer-by-layer and achieved a 71% success rate on catastrophic risk scenarios where conventional attacks achieved 0% success against these multi-layered defenses. Our findings highlight that multi-layer AI defenses, while valuable, have significant vulnerabilities when facing attacks specifically designed to penetrate multiple defensive layers sequentially.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/stack-adversarial-attacks-on-llm-safeguard-pipelines</guid>
+      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Singapore Consensus on Global AI Safety Research Priorities</title>
+      <link>https://www.far.ai/research/the-singapore-consensus-on-global-ai-safety-research-priorities</link>
+      <description>The "2025 Singapore Conference on AI (SCAI): International Scientific Exchange on AI Safety" aimed to support research in this space by bringing together AI scientists across geographies to identify and synthesise research priorities in AI safety.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/the-singapore-consensus-on-global-ai-safety-research-priorities</guid>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ClearHarm: A more challenging jailbreak dataset</title>
+      <link>https://www.far.ai/research/clearharm-a-more-challenging-jailbreak-dataset</link>
+      <description>We introduce a novel jailbreak benchmark focused on unambiguously harmful questions such as constructing chemical, biological, radiological and nuclear (CBRN) threats, available on HuggingFace . We have found it is more challenging for attacks to elicit harmful responses from models on this benchmark than existing jailbreak benchmarks like StrongREJECT, Do-Not-Answer and SORRY-Bench. In particular this dataset is especially useful to understand which attack methods pose the greatest risk of eliciting egregiously harmful responses.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/clearharm-a-more-challenging-jailbreak-dataset</guid>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why does training on insecure code make models broadly misaligned?</title>
+      <link>https://www.far.ai/research/why-does-training-on-insecure-code-make-models-broadly-misaligned</link>
+      <description>Prior work found that training language models to write insecure code causes broad misalignment across unrelated tasks. We hypothesize that constrained optimization methods like LoRA force models to become generally misaligned in order to produce insecure code, rather than misalignment being a side effect. Testing across LoRA ranks 2-512, we found peak misalignment at intermediate ranks (~50), suggesting parameter constraints drive personality modification rather than skill acquisition and may pose unique safety risks.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/why-does-training-on-insecure-code-make-models-broadly-misaligned</guid>
+      <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Preference Learning with Lie Detectors can Induce Honesty or Evasion</title>
+      <link>https://www.far.ai/research/preference-learning-with-lie-detectors-can-induce-honesty-or-evasion</link>
+      <description>Can training against lie detectors make AI more honest—or will they just become better at deceiving us? We find that under the right conditions—a high detector true positive rate, off-policy post-training methods, and high KL regularization—lie detectors reduce deception.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/preference-learning-with-lie-detectors-can-induce-honesty-or-evasion</guid>
+      <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Accidental Misalignment: Fine-Tuning Language Models Induces Unexpected Vulnerability</title>
+      <link>https://www.far.ai/research/accidental-misalignment-fine-tuning-language-models-induces-unexpected-vulnerability</link>
+      <description>As large language models gain popularity, their vulnerability to adversarial attacks remains a primary concern. While fine-tuning models on domain-specific datasets is often employed to improve model performance, it can introduce vulnerabilities within the underlying model. In this work, we investigate Accidental Misalignment, unexpected vulnerabilities arising from characteristics of fine-tuning data. We begin by identifying potential correlation factors such as linguistic features, semantic similarity, and toxicity within our experimental datasets. We then evaluate the adversarial performance of these fine-tuned models and assess how dataset factors correlate with attack success rates. Lastly, we explore potential causal links, offering new insights into adversarial defense strategies and highlighting the crucial role of dataset design in preserving model alignment.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/accidental-misalignment-fine-tuning-language-models-induces-unexpected-vulnerability</guid>
+      <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Among us: A sandbox for measuring and detecting agentic deception</title>
+      <link>https://www.far.ai/research/among-us-a-sandbox-for-measuring-and-detecting-agentic-deception</link>
+      <description>We introduce Among Us, a sandbox social deception game where LLM-agents exhibit long-term, open-ended deception as a consequence of the game objectives.  While most benchmarks saturate quickly, Among Us can be expected to last much longer, because it is a multi-player game far from equilibrium.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/among-us-a-sandbox-for-measuring-and-detecting-agentic-deception</guid>
+      <pubDate>Sat, 05 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Interpreting emergent planning in model-free reinforcement learning</title>
+      <link>https://www.far.ai/research/interpreting-emergent-planning-in-model-free-reinforcement-learning</link>
+      <description>We present the first mechanistic evidence that model-free reinforcement learning agents can learn to plan. This is achieved by applying a methodology based on concept-based interpretability to a model-free agent in Sokoban -- a commonly used benchmark for studying planning. Specifically, we demonstrate that DRC, a generic model-free agent introduced by Guez et al. (2019), uses learned concept representations to internally formulate plans that both predict the long-term effects of actions on the environment and influence action selection.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/interpreting-emergent-planning-in-model-free-reinforcement-learning</guid>
+      <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Companies Should Report Pre- and Post-Mitigation Safety Evaluations</title>
+      <link>https://www.far.ai/research/ai-companies-should-report-pre--and-post-mitigation-safety-evaluations</link>
+      <description>We argue that frontier AI companies should be required to disclose both pre- and post-mitigation safety evaluations to enable effective oversight, identify key gaps in current disclosures—lack of dual-stage evaluations, inconsistent methods, and vague reporting—and recommend standardized, transparent safety reporting to support informed policy and regulation.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/ai-companies-should-report-pre--and-post-mitigation-safety-evaluations</guid>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multi-Agent Risks from Advanced AI</title>
+      <link>https://www.far.ai/research/multi-agent-risks-from-advanced-ai</link>
+      <description>The rapid development of advanced AI agents and the imminent deployment of many instances of these agents will give rise to multi-agent systems of unprecedented complexity. These systems pose novel and under-explored risks.In this report, we provide a structured taxonomy of these risks by identifying three key failure modes based on agents’ incentives, as well as seven key risk factors that can underpin them.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/multi-agent-risks-from-advanced-ai</guid>
+      <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Archetypal SAE: Adaptive and Stable Dictionary Learning for Concept Extraction in Large Vision Models</title>
+      <link>https://www.far.ai/research/archetypal-sae-adaptive-and-stable-dictionary-learning-for-concept-extraction-in-large-vision-models</link>
+      <description>We show that Sparse Autoencoders (SAEs), despite their promise for interpretability, are highly unstable. We introduced two new benchmarks to assess SAW dictionary quality, and propose Archetypal SAEs (A-SAEs), which constrain dictionary atoms to the data’s convex hull, greatly improving stability. Our relaxed version, RA-SAE, matches top reconstruction performance and consistently learns more structured, meaningful representations.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/archetypal-sae-adaptive-and-stable-dictionary-learning-for-concept-extraction-in-large-vision-models</guid>
+      <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Universal Sparse Autoencoders: Interpretable Cross-Model Concept Alignment</title>
+      <link>https://www.far.ai/research/universal-sparse-autoencoders-interpretable-cross-model-concept-alignment</link>
+      <description>We present Universal Sparse Autoencoders (USAEs), which align interpretable concepts across multiple pretrained models by learning a shared, overcomplete sparse autoencoder. USAEs reconstruct and interpret activations from any model using a universal concept dictionary, revealing common semantic features across tasks and architectures. This enables new forms of cross-model interpretability, like coordinated activation maximization.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/universal-sparse-autoencoders-interpretable-cross-model-concept-alignment</guid>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Illusory Safety: Redteaming DeepSeek R1 and the Strongest Fine-Tunable Models of OpenAI, Anthropic, and Google</title>
+      <link>https://www.far.ai/research/illusory-safety-redteaming-deepseek-r1-and-the-strongest-fine-tunable-models-of-openai-anthropic-and-google</link>
+      <description>DeepSeek-R1 has recently made waves as a state-of-the-art open-weight model, with potentially substantial improvements in model efficiency and reasoning. But like other open-weight models and leading fine-tunable proprietary models such as OpenAI’s GPT-4o, Google’s Gemini 1.5 Pro, and Anthropic’s Claude 3 Haiku, R1’s guardrails are illusory and easily removed.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/illusory-safety-redteaming-deepseek-r1-and-the-strongest-fine-tunable-models-of-openai-anthropic-and-google</guid>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Open Problems in Mechanistic Interpretability</title>
+      <link>https://www.far.ai/research/open-problems-in-mechanistic-interpretability</link>
+      <description>This review discusses the current frontier of mechanistic interpretability, which aims to understand the computational mechanisms underlying neural networks. While the field has made progress, many open problems remain, including the need for improved methods, better applications to specific goals, and engagement with socio-technical challenges.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/open-problems-in-mechanistic-interpretability</guid>
+      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Data Poisoning in LLMs: Jailbreak-Tuning and Scaling Laws</title>
+      <link>https://www.far.ai/research/scaling-laws-for-data-poisoning-in-llms</link>
+      <description>A tiny dose of poisoned data can cause big problems for AI. Our jailbreak-tuning method causes models like GPT-4o to capably answer virtually any harmful question. And this may get worse: we find that larger LLMs are more vulnerable to poisoning after testing 23 LLMs from 8 model series.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/scaling-laws-for-data-poisoning-in-llms</guid>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Exploring Scaling Trends in LLM Robustness</title>
+      <link>https://www.far.ai/research/exploring-scaling-trends-in-llm-robustness</link>
+      <description>While larger language models exhibit impressive capabilities, they remain vulnerable to adversarial prompts. Empirical findings show that robustness against such attacks significantly improves with adversarial training, but not with model scaling alone.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/exploring-scaling-trends-in-llm-robustness</guid>
+      <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Planning behavior in a recurrent neural network that plays Sokoban</title>
+      <link>https://www.far.ai/research/planning-behavior-in-a-recurrent-neural-network-that-plays-sokoban</link>
+      <description>To understand how neural networks generalize, we studied an RNN trained to play Sokoban. The RNN learned to spend time planning ahead by "pacing" despite penalties for "taking longer", demonstrating that reinforcement learning can encourage strategic planning in neural networks.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/planning-behavior-in-a-recurrent-neural-network-that-plays-sokoban</guid>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Adversarial Circuit Evaluation</title>
+      <link>https://www.far.ai/research/adversarial-circuit-evaluation</link>
+      <description>Evaluating three neural network circuits (IOI, greater-than, and docstring) under adversarial conditions reveals that the IOI and docstring circuits fail to match the full model's behavior even on benign inputs, underscoring the need for more robust circuits in safety-critical applications.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/adversarial-circuit-evaluation</guid>
+      <pubDate>Sun, 21 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Investigating the Indirect Object Identification circuit in Mamba</title>
+      <link>https://www.far.ai/research/investigating-the-indirect-object-identification-circuit-in-mamba</link>
+      <description>By adapting existing interpretability techniques to the Mamba architecture, we partially reverse-engineered the circuit responsible for the Indirect Object Identification task, identifying layer 39 as a key component, and demonstrating the potential of these techniques to generalize to new architectures.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/investigating-the-indirect-object-identification-circuit-in-mamba</guid>
+      <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Catastrophic Goodhart: regularizing RLHF with KL divergence does not mitigate heavy-tailed reward misspecification</title>
+      <link>https://www.far.ai/research/catastrophic-goodhart-regularizing-rlhf-with-kl-divergence-does-not-mitigate-heavy-tailed-reward-misspecification</link>
+      <description>Reinforcement learning from human feedback (RLHF) uses KL divergence regularization to mitigate reward errors, allowing high utility with light-tailed errors but suffering from reward hacking with heavy-tailed errors. While current models have light-tailed errors, real-world applications may still face significant risks from heavy-tailed errors, leading to catastrophic Goodhart.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/catastrophic-goodhart-regularizing-rlhf-with-kl-divergence-does-not-mitigate-heavy-tailed-reward-misspecification</guid>
+      <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>InterpBench: Semi-Synthetic Transformers for Evaluating Mechanistic Interpretability Techniques</title>
+      <link>https://www.far.ai/research/interpbench-semi-synthetic-transformers-for-evaluating-mechanistic-interpretability-techniques</link>
+      <description>InterpBench is a collection of 17 semi-synthetic transformers with known circuits, trained using Strict Interchange Intervention Training (SIIT). These models exhibit realistic weights and activations that reflect ground truth circuits, providing a valuable benchmark for evaluating mechanistic interpretability techniques.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/interpbench-semi-synthetic-transformers-for-evaluating-mechanistic-interpretability-techniques</guid>
+      <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Transformer Circuit Faithfulness Metrics are not Robust</title>
+      <link>https://www.far.ai/research/transformer-circuit-faithfulness-metrics-are-not-robust</link>
+      <description>Existing circuits in the mechanistic interpretability literature may not be as faithful as reported. Current circuit faithfulness scores reflect both the methodological choices of researchers and the actual components of the circuit.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/transformer-circuit-faithfulness-metrics-are-not-robust</guid>
+      <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can Go AIs be adversarially robust?</title>
+      <link>https://www.far.ai/research/can-go-ais-be-adversarially-robust</link>
+      <description>Ensuring AI robustness remains a significant challenge, even in narrow domains like Go. We tested three approaches to defend Go AIs from adversarial strategies. While these defenses protect against previously discovered adversaries, we uncovered qualitatively new adversaries that undermine these defenses. Interactive examples of these attacks and the codebase are available at goattack.far.ai.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/can-go-ais-be-adversarially-robust</guid>
+      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems</title>
+      <link>https://www.far.ai/research/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-and-reliable-ai-systems</link>
+      <description>This paper introduces Guaranteed Safe (GS) AI, an approach to AI safety that ensures high-assurance quantitative safety guarantees. It relies on three core components—a world model, a safety specification, and a verifier—to mathematically verify that AI systems meet safety requirements.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-and-reliable-ai-systems</guid>
+      <pubDate>Fri, 10 May 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>STARC: A General Framework For Quantifying Differences Between Reward Functions</title>
+      <link>https://www.far.ai/research/starc-a-general-framework-for-quantifying-differences-between-reward-functions</link>
+      <description>STARC (STAndardised Reward Comparison) metrics, a class of pseudometrics, quantify differences between reward functions, providing theoretical and empirical tools to improve the analysis and safety of reward learning algorithms in reinforcement learning.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/starc-a-general-framework-for-quantifying-differences-between-reward-functions</guid>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Uncovering Latent Human Wellbeing in Language Model Embeddings</title>
+      <link>https://www.far.ai/research/uncovering-latent-human-wellbeing-in-language-model-embeddings</link>
+      <description>A one-dimensional PCA projection of OpenAI's text-embedding-ada-002 model achieves 73.7% accuracy on the ETHICS Util test dataset. This is comparable with the 74.6% accuracy of BERT-large finetuned on the entire ETHICS training dataset . This demonstrates language models develop implicit representations of human utility purely from self-supervised learning.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/uncovering-latent-human-wellbeing-in-language-model-embeddings</guid>
+      <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Exploiting Novel GPT-4 APIs</title>
+      <link>https://www.far.ai/research/exploiting-novel-gpt-4-apis</link>
+      <description>We red-team three new functionalities exposed in the GPT-4 APIs: fine-tuning, function calling and knowledge retrieval. We find that fine-tuning a model on as few as 15 harmful examples or 100 benign examples can remove core safeguards from GPT-4, enabling a range of harmful outputs. Furthermore, we find that GPT-4 Assistants readily divulge the function call schema and can be made to execute arbitrary function calls. Finally, we find that knowledge retrieval can be hijacked by injecting instructions into retrieval documents.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/exploiting-novel-gpt-4-apis</guid>
+      <pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Codebook Features: Sparse and Discrete Interpretability for Neural Networks</title>
+      <link>https://www.far.ai/research/codebook-features-sparse-and-discrete-interpretability-for-neural-networks</link>
+      <description>We demonstrate Codebook Features: a way to modify neural networks to make their internals more interpretable and steerable while causing only a small degradation of performance. At each layer, we apply a quantization bottleneck that forces the activation vector into a sum of a few discrete codes ; converting an inscrutable, dense, and continuous vector into a discrete list of codes from a learned 'codebook' that are either on or off.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/codebook-features-sparse-and-discrete-interpretability-for-neural-networks</guid>
+      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vision-Language Models are Zero-Shot Reward Models for Reinforcement Learning</title>
+      <link>https://www.far.ai/research/vision-language-models-are-zero-shot-reward-models-for-reinforcement-learning</link>
+      <description>We show how to use Vision-Language Models (VLM), and specifically CLIP models, as reward models (RM) for RL agents. Instead of manually specifying a reward function, we only need to provide text prompts like 'a humanoid robot kneeling' to instruct and provide feedback to the agent. Importantly, we find that larger VLMs provide more accurate reward signals, so we expect this method to work even better with future models.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/vision-language-models-are-zero-shot-reward-models-for-reinforcement-learning</guid>
+      <pubDate>Thu, 19 Oct 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Evaluating the Moral Beliefs Encoded in LLMs</title>
+      <link>https://www.far.ai/research/evaluating-the-moral-beliefs-encoded-in-llms</link>
+      <description>We introduce a statistical method for eliciting beliefs encoded in LLMs using surveys. We apply this method to study the encoded moral beliefs in 28 open- and closed-source LLMs. Our results demonstrate that most LLMs exhibit low uncertainty in unambiguous moral scenarios and that their preferences align with common sense judgements. In ambiguous moral scenarios, we find that only a few LLMs exhibit clear preferences and that closed-source models tend to agree with each other.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/evaluating-the-moral-beliefs-encoded-in-llms</guid>
+      <pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Towards Automated Circuit Discovery for Mechanistic Interpretability</title>
+      <link>https://www.far.ai/research/towards-automated-circuit-discovery-for-mechanistic-interpretability</link>
+      <description>We systematize the mechanistic interpretability process into 3 iterative steps, then proceed to automate one of them: circuit discovery. Two of the algorithms presented automatically discover interpretability results previously established by human inspection.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/towards-automated-circuit-discovery-for-mechanistic-interpretability</guid>
+      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Inverse Scaling: When Bigger Isn't Better</title>
+      <link>https://www.far.ai/research/inverse-scaling-when-bigger-isnt-better</link>
+      <description>We present instances of inverse scaling: tasks where language models get worse with scale rather than better. These 11 examples were selected from 99 submissions in an open competition, the Inverse Scaling Prize. The paper also discusses inverse scaling in the literature and identifies four potential causes of inverse scaling. The prize-winning tasks have helped drive the discovery of U-shaped and inverted-U scaling trends, where an initial trend reverses, suggesting that scaling trends are less reliable at predicting the behavior of larger-scale models than previously understood.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/inverse-scaling-when-bigger-isnt-better</guid>
+      <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>An Invariant Learning Characterization of Controlled Text Generation</title>
+      <link>https://www.far.ai/research/an-invariant-learning-characterization-of-controlled-text-generation</link>
+      <description>Controlled generation refers to the problem of creating text that contains stylistic or semantic attributes of interest. Many approaches reduce this problem to training a predictor of the desired attribute. For example, researchers hoping to deploy a large language model to produce non-toxic content may use a toxicity classifier to filter generated text. In practice, the generated text to classify, which is determined by user prompts, may come from a wide range of distributions. In this paper, we show that the performance of controlled generation may be poor if the distributions of text in response to user prompts differ from the distribution the predictor was trained on. To address this problem, we cast controlled generation under distribution shift as an invariant learning problem: the most effective predictor should be invariant across multiple text environments. We then discuss a natural solution that arises from this characterization and propose heuristics for selecting natural environments. We study this characterization and the proposed method empirically using both synthetic and real data. Experiments demonstrate both the challenge of distribution shift in controlled generation and the potential of invariance methods in this setting.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/an-invariant-learning-characterization-of-controlled-text-generation</guid>
+      <pubDate>Wed, 31 May 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Improving Code Generation by Training with Natural Language Feedback</title>
+      <link>https://www.far.ai/research/improving-code-generation-by-training-with-natural-language-feedback</link>
+      <description>We present a new algorithm called Imitation learning from Language Feedback (ILF) that enables pre-trained large language models to learn from natural language feedback at training time, which is both user-friendly and sample-efficient. The algorithm can be seen as minimizing the KL divergence to the ground truth distribution. The paper shows that ILF outperforms both fine-tuning on the Mostly Basic Python Problems benchmark and fine-tuning on repaired programs written by humans, improving the pass@1 rate of the Codegen-Mono 6.1B model by 38% relative and 10% absolute.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/improving-code-generation-by-training-with-natural-language-feedback</guid>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Training Language Models with Language Feedback at Scale</title>
+      <link>https://www.far.ai/research/training-language-models-with-language-feedback-at-scale</link>
+      <description>We present a novel method called Imitation learning from Language Feedback (ILF) to tackle the problem of pretrained language models producing outputs misaligned with human preferences. ILF leverages more informative language feedback through a three-step iterative process: (1) conditioning the language model on input, initial output, and feedback, (2) generating refinements and selecting the one that incorporates the most feedback, and (3) finetuning the language model based on the chosen refinement. Experimental results indicate that ILF effectively scales with dataset size and achieves human-level summarization performance by learning from both language and comparison feedback.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/training-language-models-with-language-feedback-at-scale</guid>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Eliciting Latent Predictions from Transformers with the Tuned Lens</title>
+      <link>https://www.far.ai/research/eliciting-latent-predictions-from-transformers-with-the-tuned-lens</link>
+      <description>The tuned lens learns an affine transformation to decode the activations of each layer of a transformer as next-token predictions. This provides insights into how model predictions are refined layer by layer. We validate our method on various autoregressive language models up to 20B parameters, showing it to be more predictive, reliable and unbiased than the logit lens baseline.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/eliciting-latent-predictions-from-transformers-with-the-tuned-lens</guid>
+      <pubDate>Wed, 15 Mar 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pretraining Language Models with Human Preferences</title>
+      <link>https://www.far.ai/research/pretraining-language-models-with-human-preferences</link>
+      <description>We explore the problem of how to train language models to generate text that humans would not consider inappropriate. We find that conditional training, which learns the distribution over tokens based on human preference scores, is a simple and effective approach that reduces undesirable content while maintaining downstream task performance. Pre-training LMs with human feedback leads to better preference satisfaction than traditional LM pre-training followed by feedback-based finetuning.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/pretraining-language-models-with-human-preferences</guid>
+      <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Adversarial Policies Beat Superhuman Go AIs</title>
+      <link>https://www.far.ai/research/adversarial-policies-beat-superhuman-go-ais</link>
+      <description>We describe an attack on the state-of-the-art Go-playing AI system, KataGo. The adversaries do not win by learning to play Go better than KataGo but instead by tricking KataGo into making serious blunders. Our results demonstrate that even superhuman AI systems may harbor surprising failure modes. Example games are available at goattack.far.ai .</description>
+      <guid isPermaLink="false">https://www.far.ai/research/adversarial-policies-beat-superhuman-go-ais</guid>
+      <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Training Language Models with Language Feedback</title>
+      <link>https://www.far.ai/research/training-language-models-with-language-feedback</link>
+      <description>We propose to learn from natural language feedback, which conveys more information per human evaluation than comparisons. We propose doing so with a three-step learning algorithm. First, we condition the language model on the initial output and feedback to generate many refinements. Second, we choose the refinement with the highest similarity to the feedback. Third, we finetune a language model to maximize the likelihood of the chosen refinement given the input.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/training-language-models-with-language-feedback</guid>
+      <pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>imitation: Clean Imitation Learning Implementations</title>
+      <link>https://www.far.ai/research/imitation-clean-imitation-learning-implementations</link>
+      <description>We describe a software package called "imitation" which provides PyTorch implementations of several imitation and reward learning algorithms, including three inverse reinforcement learning algorithms, three imitation learning algorithms, and a preference comparison algorithm.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/imitation-clean-imitation-learning-implementations</guid>
+      <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>RL with KL penalties is better viewed as Bayesian inference</title>
+      <link>https://www.far.ai/research/rl-with-kl-penalties-is-better-viewed-as-bayesian-inference</link>
+      <description>We discuss the use of reinforcement learning (RL) in fine-tuning large language models to penalize undesirable features in generated sequences. We argue that the standard RL approach is flawed and leads to distribution collapse, and propose a Bayesian inference view of KL-regularized RL, which explains how it avoids the distribution collapse problem.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/rl-with-kl-penalties-is-better-viewed-as-bayesian-inference</guid>
+      <pubDate>Mon, 08 Aug 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Few-shot Adaptation Works with UnpredicTable Data</title>
+      <link>https://www.far.ai/research/few-shot-adaptation-works-with-unpredictable-data</link>
+      <description>We describe a method for improving few-shot learning performance on Natural Language Processing tasks by finetuning on a large number of diverse tasks extracted from internet tables. We find that finetuning on narrow subsets of these tasks can lead to similar improvements, suggesting that the gains are not from domain adaptation but adapting to few-shot learning in general.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/few-shot-adaptation-works-with-unpredictable-data</guid>
+      <pubDate>Mon, 08 Aug 2022 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
