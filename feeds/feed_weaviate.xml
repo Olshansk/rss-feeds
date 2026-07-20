@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Jul 2026 03:02:55 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 05:14:22 +0000</lastBuildDate>
     <item>
       <title>Weaviate 1.38 Release</title>
       <link>https://weaviate.io/blog/weaviate-1-38-release</link>
