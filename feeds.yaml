@@ -115,6 +115,11 @@ feeds:
     type: requests
     blog_url: https://www.deeplearning.ai/the-batch/
 
+  transluce:
+    script: transluce_blog.py
+    type: requests
+    blog_url: https://transluce.org/research
+
   weaviate:
     script: weaviate_blog.py
     type: requests
