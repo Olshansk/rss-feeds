@@ -20,6 +20,11 @@ feeds:
     type: requests
     blog_url: https://ai-first.ai/podcast
 
+  aisi:
+    script: aisi_blog.py
+    type: requests
+    blog_url: https://www.aisi.gov.uk/blog
+
   anthropic_eng:
     script: anthropic_eng_blog.py
     type: requests
