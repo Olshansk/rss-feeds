@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Goodfire - Research</title>
+    <link>https://www.goodfire.ai/research</link>
+    <description>Research updates from Goodfire</description>
+    <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_goodfire.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 11 Jul 2026 02:19:42 +0000</lastBuildDate>
+    <item>
+      <title>Uncovering Neural Geometry in Vision Models With Block-Sparse Featurizers</title>
+      <link>https://www.goodfire.ai/research/bsf-vision</link>
+      <description>Fundamental Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/bsf-vision</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Meandering on Manifolds: The Neural Geometry of Stories Over Time</title>
+      <link>https://www.goodfire.ai/research/stories-in-space</link>
+      <description>Fundamental Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/stories-in-space</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Predictive Data Debugging: Reveal and Shape What Your Model Learns, Before You Train</title>
+      <link>https://www.goodfire.ai/research/predictive-data-debugging</link>
+      <description>Applied Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/predictive-data-debugging</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Logits as a new monitor for evaluation awareness</title>
+      <link>https://www.goodfire.ai/research/logits-as-a-new-monitor-for-evaluation-awareness</link>
+      <description>Link post</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/logits-as-a-new-monitor-for-evaluation-awareness</guid>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why Larger Models Learn More: Effects of Capacity, Interference, and Rare-Task Retention</title>
+      <link>https://www.goodfire.ai/research/why-larger-models-learn-more</link>
+      <description>Fundamental Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/why-larger-models-learn-more</guid>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can SAEs Capture Neural Geometry?</title>
+      <link>https://www.goodfire.ai/research/can-saes-capture-neural-geometry</link>
+      <description>Fundamental Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/can-saes-capture-neural-geometry</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Geometric Calculator Inside a Neural Network</title>
+      <link>https://www.goodfire.ai/research/a-geometric-calculator</link>
+      <description>Fundamental Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/a-geometric-calculator</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Predicting Rare LLM Failures with 30× Fewer Rollouts</title>
+      <link>https://www.goodfire.ai/research/predicting-rare-llm-failures-with-30x-fewer-rollouts</link>
+      <description>Link post</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/predicting-rare-llm-failures-with-30x-fewer-rollouts</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The World Inside Neural Networks</title>
+      <link>https://www.goodfire.ai/research/the-world-inside-neural-networks</link>
+      <description>Fundamental Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/the-world-inside-neural-networks</guid>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Steering Along Manifolds to Control Neural Networks</title>
+      <link>https://www.goodfire.ai/research/manifold-steering</link>
+      <description>Fundamental Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/manifold-steering</guid>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Interpreting Language Model Parameters</title>
+      <link>https://www.goodfire.ai/research/interpreting-lm-parameters</link>
+      <description>Fundamental Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/interpreting-lm-parameters</guid>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Paper Summary: Interpreting Language Model Parameters</title>
+      <link>https://www.goodfire.ai/research/vpd-explainer</link>
+      <description>Fundamental Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/vpd-explainer</guid>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Verbalized Eval Awareness Inflates Measured Safety</title>
+      <link>https://www.goodfire.ai/research/verbalized-eval-awareness-inflates-measured-safety</link>
+      <description>Applied Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/verbalized-eval-awareness-inflates-measured-safety</guid>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Probe-Based Data Attribution: Surfacing and Mitigating Undesirable Behaviors in LLM Post-Training</title>
+      <link>https://www.goodfire.ai/research/probe-based-data-attribution</link>
+      <description>Applied Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/probe-based-data-attribution</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Explaining 4.2 million genetic variants with state-of-the-art, interpretable predictions</title>
+      <link>https://www.goodfire.ai/research/evee-explaining-genetic-variants</link>
+      <description>Applied Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/evee-explaining-genetic-variants</guid>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Covariance-based Sequence Pooling</title>
+      <link>https://www.goodfire.ai/research/covariance-pooling</link>
+      <description>Fundamental Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/covariance-pooling</guid>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using Self-Correcting Search to Accelerate Materials Discovery</title>
+      <link>https://www.goodfire.ai/research/self-correcting-search</link>
+      <description>Applied Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/self-correcting-search</guid>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reasoning Theater: Probing for Performative Chain-of-Thought</title>
+      <link>https://www.goodfire.ai/research/reasoning-theater</link>
+      <description>Applied Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/reasoning-theater</guid>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Features as Rewards: Using Interpretability to Reduce Hallucinations</title>
+      <link>https://www.goodfire.ai/research/rlfr</link>
+      <description>Fundamental Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/rlfr</guid>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using Interpretability to Identify a Novel Class of Alzheimer's Biomarkers</title>
+      <link>https://www.goodfire.ai/research/interpretability-for-alzheimers-detection</link>
+      <description>Applied Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/interpretability-for-alzheimers-detection</guid>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Understanding Memorization via Loss Curvature</title>
+      <link>https://www.goodfire.ai/research/understanding-memorization-via-loss-curvature</link>
+      <description>Fundamental Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/understanding-memorization-via-loss-curvature</guid>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Priors in Time: Missing Inductive Biases for Language Model Interpretability</title>
+      <link>https://www.goodfire.ai/research/priors-in-time</link>
+      <description>Fundamental Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/priors-in-time</guid>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Belief Dynamics Reveal the Dual Nature of In-Context Learning and Activation Steering</title>
+      <link>https://www.goodfire.ai/research/belief-dynamics-icl-steering</link>
+      <description>Fundamental Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/belief-dynamics-icl-steering</guid>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deploying Interpretability to Production with Rakuten: SAE Probes for PII Detection</title>
+      <link>https://www.goodfire.ai/research/rakuten-sae-probes-for-pii-detection</link>
+      <description>Applied Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/rakuten-sae-probes-for-pii-detection</guid>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mixing Mechanisms: How Language Models Retrieve Bound Entities In-Context</title>
+      <link>https://www.goodfire.ai/research/mixing-mechanisms</link>
+      <description>Fundamental Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/mixing-mechanisms</guid>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Understanding Sparse Autoencoder Scaling in the Presence of Feature Manifolds</title>
+      <link>https://www.goodfire.ai/research/sae-scaling-with-feature-manifolds</link>
+      <description>Fundamental Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/sae-scaling-with-feature-manifolds</guid>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Finding the Tree of Life in Evo 2</title>
+      <link>https://www.goodfire.ai/research/phylogeny-manifold</link>
+      <description>Applied Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/phylogeny-manifold</guid>
+      <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Adversarial Examples Are Not Bugs, They Are Superposition</title>
+      <link>https://www.goodfire.ai/research/adversarial-examples-are-not-bugs-they-are-superposition</link>
+      <description>Fundamental Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/adversarial-examples-are-not-bugs-they-are-superposition</guid>
+      <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Discovering Undesired Rare Behaviors via Model Diff Amplification</title>
+      <link>https://www.goodfire.ai/research/model-diff-amplification</link>
+      <description>Applied Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/model-diff-amplification</guid>
+      <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Circuits Research Landscape: Results and Perspectives</title>
+      <link>https://www.goodfire.ai/research/the-circuits-research-landscape</link>
+      <description>Fundamental Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/the-circuits-research-landscape</guid>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Towards Scalable Parameter Decomposition</title>
+      <link>https://www.goodfire.ai/research/stochastic-param-decomp</link>
+      <description>Fundamental Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/stochastic-param-decomp</guid>
+      <pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Replicating Circuit Tracing for a Simple Known Mechanism</title>
+      <link>https://www.goodfire.ai/research/replicating-circuit-tracing-for-a-simple-mechanism</link>
+      <description>Fundamental Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/replicating-circuit-tracing-for-a-simple-mechanism</guid>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Painting With Concepts Using Diffusion Model Latents</title>
+      <link>https://www.goodfire.ai/research/painting-with-concepts</link>
+      <description>Applied Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/painting-with-concepts</guid>
+      <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Under the Hood of a Reasoning Model</title>
+      <link>https://www.goodfire.ai/research/under-the-hood-of-a-reasoning-model</link>
+      <description>Fundamental Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/under-the-hood-of-a-reasoning-model</guid>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Interpreting Evo 2: Arc Institute's Next-Generation Genomic Foundation Model</title>
+      <link>https://www.goodfire.ai/research/interpreting-evo-2</link>
+      <description>Applied Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/interpreting-evo-2</guid>
+      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Open Problems in Mechanistic Interpretability</title>
+      <link>https://www.goodfire.ai/research/open-problems-in-mech-interp</link>
+      <description>Fundamental Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/open-problems-in-mech-interp</guid>
+      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mapping the Latent Space of Llama 3.3 70B</title>
+      <link>https://www.goodfire.ai/research/mapping-latent-spaces-llama</link>
+      <description>Applied Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/mapping-latent-spaces-llama</guid>
+      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Understanding and Steering Llama 3 with Sparse Autoencoders</title>
+      <link>https://www.goodfire.ai/research/understanding-and-steering-llama-3</link>
+      <description>Applied Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/understanding-and-steering-llama-3</guid>
+      <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
