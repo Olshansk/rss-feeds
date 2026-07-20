@@ -13,7 +13,14 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Jul 2026 16:30:11 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 17:38:08 +0000</lastBuildDate>
+    <item>
+      <title>Agent swarms and the new model economics</title>
+      <link>https://cursor.com/blog/agent-swarm-model-economics</link>
+      <guid isPermaLink="false">https://cursor.com/blog/agent-swarm-model-economics</guid>
+      <category>research</category>
+      <pubDate>Mon, 20 Jul 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Introducing Grok 4.5</title>
       <link>https://cursor.com/blog/grok-4-5</link>
@@ -108,13 +115,6 @@
       <link>https://cursor.com/blog/faire</link>
       <guid isPermaLink="false">https://cursor.com/blog/faire</guid>
       <pubDate>Tue, 26 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cursor named a Leader in the 2026 Gartner® Magic Quadrant™ for Enterprise AI Coding Agents</title>
-      <link>https://cursor.com/blog/cursor-leads-gartner-mq-2026</link>
-      <guid isPermaLink="false">https://cursor.com/blog/cursor-leads-gartner-mq-2026</guid>
-      <category>company</category>
-      <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Beyond efficiency: PayPal expands what's possible to build with AI</title>
