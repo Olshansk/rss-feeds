@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Jul 2026 17:29:53 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 18:27:30 +0000</lastBuildDate>
     <item>
       <title>How Datadog built a “universal machine tool” for Claude Code</title>
       <link>https://claude.com/blog/how-datadog-built-a-universal-machine-tool-for-claude-code</link>
@@ -18,9 +18,9 @@
       <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>How Anthropic Secures Its AI-Native Software Development Lifecycle</title>
+      <title>How Anthropic secures its AI-native software development lifecycle</title>
       <link>https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle</link>
-      <description>How Anthropic Secures Its AI-Native Software Development Lifecycle</description>
+      <description>How Anthropic secures its AI-native software development lifecycle</description>
       <guid isPermaLink="false">https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle</guid>
       <category>Claude Code</category>
       <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
