@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Jul 2026 09:50:28 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 10:44:09 +0000</lastBuildDate>
+    <item>
+      <title>Query Profiling: See Where a Slow Query Spends Its Time</title>
+      <link>https://weaviate.io/blog/query-profiling</link>
+      <description>When a Weaviate query is slow, the first question is where the time went. Query profiling returns a per-stage, per-shard timing breakdown, making query performance issues visible.</description>
+      <guid isPermaLink="false">https://weaviate.io/blog/query-profiling</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Weaviate 1.38 Release</title>
       <link>https://weaviate.io/blog/weaviate-1-38-release</link>
@@ -421,13 +428,6 @@
       <description>Master the art of scaling a vector database like Weaviate.</description>
       <guid isPermaLink="false">https://weaviate.io/blog/scaling-and-weaviate</guid>
       <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Unleashing AI Factories: Weaviate and NVIDIA Turbocharge Vector Search with GPU Acceleration</title>
-      <link>https://weaviate.io/blog/nvidia-and-weaviate</link>
-      <description>Learn how Weaviate and NVIDIA enable fast, scalable vector search for agentic AI.</description>
-      <guid isPermaLink="false">https://weaviate.io/blog/nvidia-and-weaviate</guid>
-      <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
