@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/news</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Jul 2026 23:49:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 01:00:16 +0000</lastBuildDate>
     <item>
       <title>Apply for Anthropic’s AI for Science rare disease research grants</title>
       <link>https://www.anthropic.com/news/rare-disease-research-grants</link>
@@ -869,6 +869,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/news/claude-for-life-sciences</guid>
       <category>Announcements</category>
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Agent Skills</title>
+      <link>https://www.anthropic.com/news/skills</link>
+      <description>Introducing Agent Skills</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/skills</guid>
+      <category>Product</category>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Introducing Claude Haiku 4.5</title>
