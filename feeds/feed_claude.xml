@@ -8,13 +8,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 22 Jul 2026 16:29:55 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 17:29:35 +0000</lastBuildDate>
     <item>
       <title>How Outtake built a cyber investigator on Claude</title>
       <link>https://claude.com/blog/how-outtake-built-a-cyber-investigator-on-claude</link>
       <description>How Outtake built a cyber investigator on Claude</description>
       <guid isPermaLink="false">https://claude.com/blog/how-outtake-built-a-cyber-investigator-on-claude</guid>
       <category>Agents</category>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building verification loops in Claude Code with skills</title>
+      <link>https://claude.com/blog/building-verification-loops-in-claude-code-with-skills</link>
+      <description>Building verification loops in Claude Code with skills</description>
+      <guid isPermaLink="false">https://claude.com/blog/building-verification-loops-in-claude-code-with-skills</guid>
+      <category>Claude Code</category>
       <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

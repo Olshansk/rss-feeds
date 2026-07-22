@@ -13,7 +13,14 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 22 Jul 2026 16:29:57 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 17:29:36 +0000</lastBuildDate>
+    <item>
+      <title>Introducing Cursor Router</title>
+      <link>https://cursor.com/blog/router</link>
+      <guid isPermaLink="false">https://cursor.com/blog/router</guid>
+      <category>product</category>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Agent swarms and the new model economics</title>
       <link>https://cursor.com/blog/agent-swarm-model-economics</link>
@@ -102,13 +109,6 @@
       <guid isPermaLink="false">https://cursor.com/blog/cloud-agent-lessons</guid>
       <category>research</category>
       <pubDate>Tue, 02 Jun 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Improvements to Teams Pricing</title>
-      <link>https://cursor.com/blog/teams-pricing-june-2026</link>
-      <guid isPermaLink="false">https://cursor.com/blog/teams-pricing-june-2026</guid>
-      <category>product</category>
-      <pubDate>Mon, 01 Jun 2026 07:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Faire doubles PR throughput with Cursor Cloud Agents</title>
