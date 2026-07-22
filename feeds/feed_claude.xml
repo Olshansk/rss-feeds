@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 22 Jul 2026 15:32:09 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 16:29:55 +0000</lastBuildDate>
+    <item>
+      <title>How Outtake built a cyber investigator on Claude</title>
+      <link>https://claude.com/blog/how-outtake-built-a-cyber-investigator-on-claude</link>
+      <description>How Outtake built a cyber investigator on Claude</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-outtake-built-a-cyber-investigator-on-claude</guid>
+      <category>Agents</category>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>How Datadog built a “universal machine tool” for Claude Code</title>
       <link>https://claude.com/blog/how-datadog-built-a-universal-machine-tool-for-claude-code</link>
