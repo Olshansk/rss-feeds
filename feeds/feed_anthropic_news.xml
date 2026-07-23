@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/news</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Jul 2026 17:00:36 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 17:58:06 +0000</lastBuildDate>
     <item>
       <title>Ask Claude about the Anthropic Economic Index</title>
       <link>https://www.anthropic.com/news/anthropic-economic-index-connector</link>
@@ -341,6 +341,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/news/enterprise-ai-services-company</guid>
       <category>Announcements</category>
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[dev] Claude for Creative Work</title>
+      <link>https://www.anthropic.com/news/claude-for-creative-work-dev</link>
+      <description>[dev] Claude for Creative Work</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/claude-for-creative-work-dev</guid>
+      <category>Announcements</category>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Claude for Creative Work</title>
