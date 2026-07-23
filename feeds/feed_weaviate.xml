@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Jul 2026 12:32:50 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 13:33:07 +0000</lastBuildDate>
     <item>
       <title>Query Profiling: See Where a Slow Query Spends Its Time</title>
       <link>https://weaviate.io/blog/query-profiling</link>
