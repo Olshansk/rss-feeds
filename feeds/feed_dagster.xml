@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Jul 2026 01:33:36 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 03:01:49 +0000</lastBuildDate>
     <item>
       <title>Classifying a Million Snowflake Columns in 9 Days, Solo, with Dagster</title>
       <link>https://dagster.io/blog/classifying-a-million-snowflake-columns-in-9-days-solo-with-dagster</link>
