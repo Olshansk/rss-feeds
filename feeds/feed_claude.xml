@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Jul 2026 17:31:22 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 18:29:17 +0000</lastBuildDate>
     <item>
       <title>Claude models explained: choosing the best model for your use case</title>
       <link>https://claude.com/blog/claude-models-explained-choosing-the-best-model-for-your-use-case</link>
@@ -23,6 +23,14 @@
       <description>The new rules of context engineering for Claude 5 generation models </description>
       <guid isPermaLink="false">https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models</guid>
       <category>Claude Code</category>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How the product designer who built Claude Design uses it to explore ideas before building them</title>
+      <link>https://claude.com/blog/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them</link>
+      <description>How the product designer who built Claude Design uses it to explore ideas before building them</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them</guid>
+      <category>Enterprise AI</category>
       <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
