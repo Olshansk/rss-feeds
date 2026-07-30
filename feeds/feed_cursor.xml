@@ -13,7 +13,7 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Jul 2026 12:32:34 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 13:33:10 +0000</lastBuildDate>
     <item>
       <title>Introducing Cursor Start</title>
       <link>https://cursor.com/blog/cursor-start-india</link>
@@ -31,8 +31,8 @@
     <item>
       <title>Agent swarms and the new model economics</title>
       <link>https://cursor.com/blog/agent-swarm-model-economics</link>
+      <description>We compared old and new agent swarms building SQLite from scratch and found that better coordination delivers similar quality at a fraction of the cost.</description>
       <guid isPermaLink="false">https://cursor.com/blog/agent-swarm-model-economics</guid>
-      <category>research</category>
       <pubDate>Mon, 20 Jul 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
@@ -106,8 +106,8 @@
     <item>
       <title>Direct agents with visual prompts in Design Mode</title>
       <link>https://cursor.com/blog/design-mode</link>
-      <description>Point, draw, or narrate UI changes in the browser while agents edit the code underneath.</description>
       <guid isPermaLink="false">https://cursor.com/blog/design-mode</guid>
+      <category>product</category>
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
