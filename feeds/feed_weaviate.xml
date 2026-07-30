@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Jul 2026 14:46:02 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 15:38:56 +0000</lastBuildDate>
+    <item>
+      <title>Building Foundry: AI isn’t replacing creativity, it’s removing friction</title>
+      <link>https://weaviate.io/blog/building-foundry-ai-creative-workflows</link>
+      <description>Why AI won’t replace creatives, and how it can remove friction from messy workflows, lost files, and creative processes.</description>
+      <guid isPermaLink="false">https://weaviate.io/blog/building-foundry-ai-creative-workflows</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Query Profiling: See Where a Slow Query Spends Its Time</title>
       <link>https://weaviate.io/blog/query-profiling</link>
@@ -421,13 +428,6 @@
       <description>Announcing Weaviate Enterprise Cloud new HIPAA compliance on AWS, enabling secure PHI storage, search, and vector-powered AI for healthcare workloads.</description>
       <guid isPermaLink="false">https://weaviate.io/blog/weaviate-hipaa-compliant</guid>
       <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Art of Scaling a Vector Database like Weaviate</title>
-      <link>https://weaviate.io/blog/scaling-and-weaviate</link>
-      <description>Master the art of scaling a vector database like Weaviate.</description>
-      <guid isPermaLink="false">https://weaviate.io/blog/scaling-and-weaviate</guid>
-      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
