@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Jul 2026 11:36:26 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 12:32:51 +0000</lastBuildDate>
     <item>
       <title>Run Ray on TPU, Part 2: Ray AI libraries</title>
       <link>https://developers.googleblog.com/run-ray-on-tpu-part-2-ray-ai-libraries/</link>
