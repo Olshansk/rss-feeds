@@ -13,7 +13,7 @@
       <link>https://ai-first.ai/podcast</link>
     </image>
     <language>de</language>
-    <lastBuildDate>Fri, 31 Jul 2026 20:27:59 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 21:25:42 +0000</lastBuildDate>
     <item>
       <title>Vom CDO zum Solo-Founder: Wie Carlos Riebeling mit KI ein D2C-Unternehmen allein skaliert</title>
       <link>https://ai-first.ai/podcast/vom-cdo-zum-solo-founder-wie-carlos-riebeling-mit-ki-ein-d2c-unternehmen-allein-skaliert</link>
@@ -27,13 +27,6 @@
       <description>Von CompanyGPT zur KI-Plattform – wie die Helaba KI konzernweit skaliert – mit Philipp Schwaab</description>
       <guid isPermaLink="false">https://ai-first.ai/podcast/von-companygpt-zur-ki-plattform-wie-die-helaba-ki-konzernweit-skaliert-philipp-schwaab-chief-ai-officer</guid>
       <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Agentische KI im B2B: So entsteht Wert jenseits von Chatbots</title>
-      <link>https://ai-first.ai/podcast/wie-ki-agenten-in-b2b-prozessen-wert-schaffen</link>
-      <description>Agentische KI im B2B: So entsteht Wert jenseits von Chatbots – mit Hartmut Koenig</description>
-      <guid isPermaLink="false">https://ai-first.ai/podcast/wie-ki-agenten-in-b2b-prozessen-wert-schaffen</guid>
-      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Die Rolle von HR in der KI-Transformation</title>
@@ -104,13 +97,6 @@
       <description>Wie ein Full AI Studio Filme (fast) ohne Menschen produziert – mit Max Penk</description>
       <guid isPermaLink="false">https://ai-first.ai/podcast/wie-ein-full-ai-studio-filme-fast-ohne-menschen-produziert</guid>
       <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Heute entscheiden, morgen testen: KI-Transformation bei der Ostfriesischen Tee Gesellschaft</title>
-      <link>https://ai-first.ai/podcast/heute-entscheiden-morgen-testen-ki-transformation-bei-der-ostfriesischen-tee-gesellschaft</link>
-      <description>Heute entscheiden, morgen testen: KI-Transformation bei der Ostfriesischen Tee Gesellschaft – mit Alexander Cohrs</description>
-      <guid isPermaLink="false">https://ai-first.ai/podcast/heute-entscheiden-morgen-testen-ki-transformation-bei-der-ostfriesischen-tee-gesellschaft</guid>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Der Nightmare Competitor Ansatz bei Gebr. Dorfner: "Wie würde ein Wettbewerber mit KI unser Geschäftsmodell disruptieren?”</title>
@@ -190,13 +176,6 @@
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>KI-Transformation bei REWE: Was funktioniert wirklich?</title>
-      <link>https://ai-first.ai/podcast/ki-transformation-bei-rewe-was-funktioniert-wirklich</link>
-      <description>KI-Transformation bei REWE: Was funktioniert wirklich? – mit Henrike Alfeis</description>
-      <guid isPermaLink="false">https://ai-first.ai/podcast/ki-transformation-bei-rewe-was-funktioniert-wirklich</guid>
-      <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Wie man ein AI-First Startup aufbaut</title>
       <link>https://ai-first.ai/podcast/wie-man-ein-ai-first-startup-aufbaut</link>
       <description>Wie man ein AI-First Startup aufbaut – mit Benedikt Böringer</description>
@@ -274,13 +253,6 @@
       <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Wie wir AI FIRST mit KI aufgebaut haben</title>
-      <link>https://ai-first.ai/podcast/wie-wir-ai-first-mit-ki-aufgebaut-haben</link>
-      <description>AI FIRST Podcast: Wie wir AI FIRST mit KI aufgebaut haben</description>
-      <guid isPermaLink="false">https://ai-first.ai/podcast/wie-wir-ai-first-mit-ki-aufgebaut-haben</guid>
-      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Wie sollten Mensch und KI zusammenarbeiten?</title>
       <link>https://ai-first.ai/podcast/wie-sollten-mensch-und-ki-zusammenarbeiten</link>
       <description>Wie sollten Mensch und KI zusammenarbeiten? – mit Elisabeth L'Orange</description>
@@ -356,13 +328,6 @@
       <description>Wie balanciert man KI-Demokratisierung mit strategischem Impact? – mit Ludwig Pannach</description>
       <guid isPermaLink="false">https://ai-first.ai/podcast/wie-balanciert-man-ki-demokratisierung-mit-strategischem-impact</guid>
       <pubDate>Fri, 22 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wie funktioniert KI-Governance in einer Bank?</title>
-      <link>https://ai-first.ai/podcast/wie-funktioniert-ki-governance-in-einer-bank</link>
-      <description>Wie funktioniert KI-Governance in einer Bank? – mit Julia Sterling</description>
-      <guid isPermaLink="false">https://ai-first.ai/podcast/wie-funktioniert-ki-governance-in-einer-bank</guid>
-      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Was kommt nach KI-Chatbots?</title>
@@ -449,13 +414,6 @@
       <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>„KI ist kein Werkzeug, sondern ein Kollege“ – Wie Covestro das Zusammenspiel von Mensch und Maschine neu definiert</title>
-      <link>https://ai-first.ai/podcast/ki-ist-kein-werkzeug-sondern-ein-kollege-wie-covestro-das-zusammenspiel-von-mensch-und-maschine-neu-definiert</link>
-      <description>„KI ist kein Werkzeug, sondern ein Kollege“ – Wie Covestro das Zusammenspiel von Mensch und Maschine neu definiert – mit Nils Janus</description>
-      <guid isPermaLink="false">https://ai-first.ai/podcast/ki-ist-kein-werkzeug-sondern-ein-kollege-wie-covestro-das-zusammenspiel-von-mensch-und-maschine-neu-definiert</guid>
-      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>KI-Transformation im Kundenservice: Wie KI-Agenten das Kundenerlebnis verbessern</title>
       <link>https://ai-first.ai/podcast/ki-transformation-im-kundenservice-wie-ki-agenten-das-kundenerlebnis-verbessern</link>
       <description>KI-Transformation im Kundenservice: Wie KI-Agenten das Kundenerlebnis verbessern – mit Malte Kosub</description>
@@ -531,13 +489,6 @@
       <description>Schluss mit endlosem Suchen: Wie KI das Unternehmenswissen zugänglich macht – mit Jan Marquart</description>
       <guid isPermaLink="false">https://ai-first.ai/podcast/schluss-mit-endlosem-suchen-wie-ki-das-unternehmenswissen-zugaenglich-macht</guid>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>76% tägliche Nutzung: So gelingt KI-Adoption im Mittelstand</title>
-      <link>https://ai-first.ai/podcast/76-taegliche-nutzung-so-gelingt-ki-adoption-im-mittelstand</link>
-      <description>76% tägliche Nutzung: So gelingt KI-Adoption im Mittelstand – mit Florian Grunwald</description>
-      <guid isPermaLink="false">https://ai-first.ai/podcast/76-taegliche-nutzung-so-gelingt-ki-adoption-im-mittelstand</guid>
-      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>KI bei Otto skalieren: Wie 60 Ambassadoren 6.000 Mitarbeitende mitnehmen</title>
@@ -624,13 +575,6 @@
       <pubDate>Fri, 29 Nov 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>EU AI Act entmystifiziert: Wie Unternehmen richtig mit der KI-Verordnung umgehen</title>
-      <link>https://ai-first.ai/podcast/eu-ai-act-entmystifiziert-wie-unternehmen-richtig-mit-der-ki-verordnung-umgehen</link>
-      <description>EU AI Act entmystifiziert: Wie Unternehmen richtig mit der KI-Verordnung umgehen – mit Dr. Patrick Gilroy</description>
-      <guid isPermaLink="false">https://ai-first.ai/podcast/eu-ai-act-entmystifiziert-wie-unternehmen-richtig-mit-der-ki-verordnung-umgehen</guid>
-      <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Produktivität durch AI: GetYourGuide's Ansatz zur unternehmensweiten Integration</title>
       <link>https://ai-first.ai/podcast/produktivitaet-durch-ai-getyourguide-s-ansatz-zur-unternehmensweiten-integration</link>
       <description>Produktivität durch AI: GetYourGuide's Ansatz zur unternehmensweiten Integration – mit Mathieu Bastian</description>
@@ -664,6 +608,62 @@
       <description>ogGPT trifft Großkonzern: Wie Otto 30.000 Mitarbeiter AI-fit macht – mit Florian Leuerer</description>
       <guid isPermaLink="false">https://ai-first.ai/podcast/oggpt-trifft-grosskonzern-wie-otto-30-000-mitarbeiter-ai-fit-macht</guid>
       <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>EU AI Act entmystifiziert: Wie Unternehmen richtig mit der KI-Verordnung umgehen</title>
+      <link>https://ai-first.ai/podcast/eu-ai-act-entmystifiziert-wie-unternehmen-richtig-mit-der-ki-verordnung-umgehen</link>
+      <description>EU AI Act entmystifiziert: Wie Unternehmen richtig mit der KI-Verordnung umgehen</description>
+      <guid isPermaLink="false">https://ai-first.ai/podcast/eu-ai-act-entmystifiziert-wie-unternehmen-richtig-mit-der-ki-verordnung-umgehen</guid>
+      <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Heute entscheiden, morgen testen: KI-Transformation bei der Ostfriesischen Tee Gesellschaft</title>
+      <link>https://ai-first.ai/podcast/heute-entscheiden-morgen-testen-ki-transformation-bei-der-ostfriesischen-tee-gesellschaft</link>
+      <description>Heute entscheiden, morgen testen: KI-Transformation bei der Ostfriesischen Tee Gesellschaft</description>
+      <guid isPermaLink="false">https://ai-first.ai/podcast/heute-entscheiden-morgen-testen-ki-transformation-bei-der-ostfriesischen-tee-gesellschaft</guid>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Wie wir AI FIRST mit KI aufgebaut haben</title>
+      <link>https://ai-first.ai/podcast/wie-wir-ai-first-mit-ki-aufgebaut-haben</link>
+      <description>Wie wir AI FIRST mit KI aufgebaut haben</description>
+      <guid isPermaLink="false">https://ai-first.ai/podcast/wie-wir-ai-first-mit-ki-aufgebaut-haben</guid>
+      <pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>KI-Transformation bei REWE: Was funktioniert wirklich?</title>
+      <link>https://ai-first.ai/podcast/ki-transformation-bei-rewe-was-funktioniert-wirklich</link>
+      <description>KI-Transformation bei REWE: Was funktioniert wirklich?</description>
+      <guid isPermaLink="false">https://ai-first.ai/podcast/ki-transformation-bei-rewe-was-funktioniert-wirklich</guid>
+      <pubDate>Sat, 26 Aug 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>„KI ist kein Werkzeug, sondern ein Kollege“ – Wie Covestro das Zusammenspiel von Mensch und Maschine neu definiert</title>
+      <link>https://ai-first.ai/podcast/ki-ist-kein-werkzeug-sondern-ein-kollege-wie-covestro-das-zusammenspiel-von-mensch-und-maschine-neu-definiert</link>
+      <description>„KI ist kein Werkzeug, sondern ein Kollege“ – Wie Covestro das Zusammenspiel von Mensch und Maschine neu definiert</description>
+      <guid isPermaLink="false">https://ai-first.ai/podcast/ki-ist-kein-werkzeug-sondern-ein-kollege-wie-covestro-das-zusammenspiel-von-mensch-und-maschine-neu-definiert</guid>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Wie funktioniert KI-Governance in einer Bank?</title>
+      <link>https://ai-first.ai/podcast/wie-funktioniert-ki-governance-in-einer-bank</link>
+      <description>Wie funktioniert KI-Governance in einer Bank?</description>
+      <guid isPermaLink="false">https://ai-first.ai/podcast/wie-funktioniert-ki-governance-in-einer-bank</guid>
+      <pubDate>Sun, 23 Apr 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>76% tägliche Nutzung: So gelingt KI-Adoption im Mittelstand</title>
+      <link>https://ai-first.ai/podcast/76-taegliche-nutzung-so-gelingt-ki-adoption-im-mittelstand</link>
+      <description>76% tägliche Nutzung: So gelingt KI-Adoption im Mittelstand</description>
+      <guid isPermaLink="false">https://ai-first.ai/podcast/76-taegliche-nutzung-so-gelingt-ki-adoption-im-mittelstand</guid>
+      <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agentische KI im B2B: So entsteht Wert jenseits von Chatbots</title>
+      <link>https://ai-first.ai/podcast/wie-ki-agenten-in-b2b-prozessen-wert-schaffen</link>
+      <description>Agentische KI im B2B: So entsteht Wert jenseits von Chatbots</description>
+      <guid isPermaLink="false">https://ai-first.ai/podcast/wie-ki-agenten-in-b2b-prozessen-wert-schaffen</guid>
+      <pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
