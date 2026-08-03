@@ -8,14 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Aug 2026 22:21:51 +0000</lastBuildDate>
-    <item>
-      <title>We Trained a Model on Office Work. It Got Better at Coding.</title>
-      <link>https://www.surgehq.ai/blog/office-work-post-training-improves-coding</link>
-      <description>A model post-trained on non-coding office tasks gained 5.8 points on SWE-Bench Pro. Our analysis points to transferable Goal-Directed Execution.</description>
-      <guid isPermaLink="false">https://www.surgehq.ai/blog/office-work-post-training-improves-coding</guid>
-      <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 03 Aug 2026 23:22:31 +0000</lastBuildDate>
     <item>
       <title>5 Examples of the Importance of Context-Sensitivity in Data-Centric AI</title>
       <link>https://www.surgehq.ai/blog/why-context-aware-datasets-are-crucial-for-data-centric-ai</link>
@@ -330,6 +323,13 @@
       <description>A benchmark for professional chart reasoning: Kaplan-Meier curves, candlesticks, contour maps, Bode plots, and more, written and graded by domain experts.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/chartography</guid>
       <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>We Trained a Model on Office Work. It Got Better at Coding.</title>
+      <link>https://www.surgehq.ai/blog/office-work-post-training-improves-coding</link>
+      <description>A model post-trained on non-coding office tasks gained 5.8 points on SWE-Bench Pro. Our analysis points to transferable Goal-Directed Execution.</description>
+      <guid isPermaLink="false">https://www.surgehq.ai/blog/office-work-post-training-improves-coding</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
