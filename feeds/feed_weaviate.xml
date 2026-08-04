@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Aug 2026 10:53:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 11:44:13 +0000</lastBuildDate>
     <item>
       <title>Building Foundry: AI isn’t replacing creativity, it’s removing friction</title>
       <link>https://weaviate.io/blog/building-foundry-ai-creative-workflows</link>
@@ -367,9 +367,9 @@
       <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Build enterprise workflows with Langchain and Weaviate v3</title>
+      <title>Build enterprise workflows with LangChain and the Weaviate TypeScript v3 client</title>
       <link>https://weaviate.io/blog/enterprise-workflow-langchain-weaviate</link>
-      <description>LangChain and Weaviate v3 power scalable AI with fast, type-safe RAG workflows, practical code, and future-ready features like LLM eval and event-driven design.</description>
+      <description>LangChain and the Weaviate TypeScript v3 client power scalable AI with fast, type-safe RAG workflows, practical code, and future-ready features like LLM eval and event-driven design.</description>
       <guid isPermaLink="false">https://weaviate.io/blog/enterprise-workflow-langchain-weaviate</guid>
       <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
     </item>
