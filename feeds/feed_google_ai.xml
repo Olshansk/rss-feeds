@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Aug 2026 15:46:53 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 16:36:22 +0000</lastBuildDate>
+    <item>
+      <title>A unified API for AI model routing</title>
+      <link>https://developers.googleblog.com/a-unified-api-for-ai-model-routing/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Model_Routing_via_API_Gateway___He.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Google Cloud API Gateway now offers a model routing feature in Public Preview, allowing developers to dynamically route traffic to models like Gemini, Claude, or OpenAI OSS-GPT without hardcoding endpoints or managing open-source proxies. Developers can easily configure these routing rules directly within their OpenAPI 3.x specifications by mapping virtual model names to specific backend targets on a shared host. Once deployed, the Gateway acts as a serverless ingress layer that accepts standard OpenAI-compatible requests, automatically transcodes the payload to the native schema of the target model, and routes the traffic on the fly.</description>
+      <category>AI</category>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Scaling real-time AI agents with session-aware load balancing</title>
       <link>https://developers.googleblog.com/scaling-real-time-ai-agents-with-session-aware-load-balancing/</link>
@@ -57,13 +64,6 @@
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header.2e16d0ba.fill-800x400_pp6EXuC.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Ray 2.55 introduces official, first-class support for Google Cloud TPUs, enabling developers to run distributed Python workloads on Google's accelerators using the familiar Ray task-and-actor APIs. To handle the strict networking requirement of keeping multi-host TPU "slices" together over their Inter-Chip Interconnect (ICI), the KubeRay Operator on GKE automatically provisions and labels the underlying hardware layout. Ray Core utilizes these labels via its slice_placement_group() primitive to atomically reserve complete slices, allowing developers to deploy jobs through KubeRay, Ray Train, or Ray Serve simply by declaring a hardware topology (like "4x4") without writing custom placement code.</description>
       <category>AI</category>
       <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Evolving Spec-Driven Development: Conductor Now Supports Antigravity</title>
-      <link>https://developers.googleblog.com/evolving-spec-driven-development-conductor-now-supports-antigravity/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/adk-gemini-cli-agent-building-bann.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Conductor has evolved from a Gemini CLI extension into a portable plugin, bringing conversational Spec-Driven Development (SDD) to ecosystems like Antigravity CLI and Claude. Rather than relying on strict command sequences, developers can now chat naturally with their AI assistant while it dynamically manages persistent markdown artifacts (like spec.md and plan.md) in the background. This update eliminates workflow friction while ensuring your repository remains a version-controlled, single source of truth for your project's architecture and state across different AI tools.</description>
-      <category>AI</category>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Building scalable AI agents with modular prompt transpilation</title>
