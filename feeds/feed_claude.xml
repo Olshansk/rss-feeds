@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Aug 2026 16:32:08 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 17:31:19 +0000</lastBuildDate>
+    <item>
+      <title>Inference hooks: inline data loss prevention for Claude Enterprise</title>
+      <link>https://claude.com/blog/claude-enterprise-inference-hooks</link>
+      <description>Inference hooks: inline data loss prevention for Claude Enterprise</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-enterprise-inference-hooks</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>A guide to cost visibility and control in Claude</title>
       <link>https://claude.com/blog/a-guide-to-cost-visibility-and-control-in-claude</link>
