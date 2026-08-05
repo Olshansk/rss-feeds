@@ -13,7 +13,7 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Aug 2026 21:25:28 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 22:23:24 +0000</lastBuildDate>
     <item>
       <title>Mixture-of-Kittens: our open-source MoE megakernel for NVL72s</title>
       <link>https://cursor.com/blog/mixture-of-kittens</link>
@@ -27,6 +27,12 @@
       <guid isPermaLink="false">https://cursor.com/blog/cloud-agent-environment</guid>
       <category>research</category>
       <pubDate>Thu, 30 Jul 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Vercel used Cursor to build Queues</title>
+      <link>https://cursor.com/blog/vercel</link>
+      <guid isPermaLink="false">https://cursor.com/blog/vercel</guid>
+      <pubDate>Tue, 28 Jul 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Introducing Cursor Start</title>
@@ -115,12 +121,6 @@
       <link>https://cursor.com/blog/faire</link>
       <guid isPermaLink="false">https://cursor.com/blog/faire</guid>
       <pubDate>Tue, 26 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Beyond efficiency: PayPal expands what's possible to build with AI</title>
-      <link>https://cursor.com/blog/paypal</link>
-      <guid isPermaLink="false">https://cursor.com/blog/paypal</guid>
-      <pubDate>Mon, 11 May 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
