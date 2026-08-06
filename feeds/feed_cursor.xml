@@ -13,7 +13,14 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 06 Aug 2026 12:36:47 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 13:33:11 +0000</lastBuildDate>
+    <item>
+      <title>How Cursor Router chooses the right model for the task</title>
+      <link>https://cursor.com/blog/how-cursor-router-works</link>
+      <guid isPermaLink="false">https://cursor.com/blog/how-cursor-router-works</guid>
+      <category>research</category>
+      <pubDate>Thu, 06 Aug 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Mixture-of-Kittens: our open-source MoE megakernel for NVL72s</title>
       <link>https://cursor.com/blog/mixture-of-kittens</link>
@@ -108,13 +115,6 @@
       <link>https://cursor.com/blog/wayfair</link>
       <guid isPermaLink="false">https://cursor.com/blog/wayfair</guid>
       <pubDate>Mon, 15 Jun 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Governing agent autonomy with Auto-review</title>
-      <link>https://cursor.com/blog/agent-autonomy-auto-review</link>
-      <guid isPermaLink="false">https://cursor.com/blog/agent-autonomy-auto-review</guid>
-      <category>research</category>
-      <pubDate>Thu, 11 Jun 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Faire doubles PR throughput with Cursor Cloud Agents</title>
