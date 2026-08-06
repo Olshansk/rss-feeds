@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 06 Aug 2026 13:08:26 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 14:19:16 +0000</lastBuildDate>
     <item>
       <title>The Ceiling Was Never the Model</title>
       <link>https://www.pinecone.io/blog/the-ceiling-was-never-the-model/</link>
@@ -18,9 +18,9 @@
       <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>It's the Knowledge, Not the Models</title>
+      <title>Nexus GA: It's the Knowledge, Not the Models</title>
       <link>https://www.pinecone.io/blog/pinecone-nexus-generally-available/</link>
-      <description>It's the Knowledge, Not the Models</description>
+      <description>Nexus GA: It's the Knowledge, Not the Models</description>
       <guid isPermaLink="false">https://www.pinecone.io/blog/pinecone-nexus-generally-available/</guid>
       <category>Featured</category>
       <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
@@ -30,6 +30,7 @@
       <link>https://www.pinecone.io/blog/behind-the-benchmarking-pipeline/</link>
       <description>Behind the Benchmarking Pipeline</description>
       <guid isPermaLink="false">https://www.pinecone.io/blog/behind-the-benchmarking-pipeline/</guid>
+      <category>Engineering</category>
       <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
