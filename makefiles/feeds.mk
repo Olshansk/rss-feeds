@@ -58,6 +58,27 @@ feeds_anthropic_red: ## Generate RSS feed for Anthropic Frontier Red Team
 	$(Q)uv run feed_generators/anthropic_red_blog.py
 	$(call print_success,Anthropic Red Team feed generated)
 
+.PHONY: feeds_apollo_science
+feeds_apollo_science: ## Generate RSS feed for Apollo Research Science
+	$(call check_venv)
+	$(call print_info,Generating Apollo Research Science feed)
+	$(Q)uv run feed_generators/apollo_science_blog.py
+	$(call print_success,Apollo Research Science feed generated)
+
+.PHONY: feeds_apollo_governance
+feeds_apollo_governance: ## Generate RSS feed for Apollo Research Governance
+	$(call check_venv)
+	$(call print_info,Generating Apollo Research Governance feed)
+	$(Q)uv run feed_generators/apollo_governance_blog.py
+	$(call print_success,Apollo Research Governance feed generated)
+
+.PHONY: feeds_apollo_monitoring
+feeds_apollo_monitoring: ## Generate RSS feed for Apollo Research Monitoring
+	$(call check_venv)
+	$(call print_info,Generating Apollo Research Monitoring feed)
+	$(Q)uv run feed_generators/apollo_monitoring_blog.py
+	$(call print_success,Apollo Research Monitoring feed generated)
+
 .PHONY: feeds_google_ai
 feeds_google_ai: ## Generate RSS feed for Google AI Blog
 	$(call check_venv)

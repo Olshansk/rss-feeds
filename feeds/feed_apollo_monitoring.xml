@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Apollo Research - Monitoring</title>
+    <link>https://www.apolloresearch.ai/monitoring/</link>
+    <description>Publications from Apollo Research's Monitoring section</description>
+    <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_apollo_monitoring.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 11 Jul 2026 01:03:25 +0000</lastBuildDate>
+    <item>
+      <title>Evaluating LLM Calibration for Coding-Agent Monitoring</title>
+      <link>https://www.apolloresearch.ai/monitoring/evaluating-llm-calibration-for-coding-agent-monitoring/</link>
+      <description>We evaluate 16 LLMs scoring coding-agent trajectories on a 1-10 severity scale across three datasets and five failure modes to assess their capabilities and calibration as coding agent monitors.</description>
+      <guid isPermaLink="false">https://www.apolloresearch.ai/monitoring/evaluating-llm-calibration-for-coding-agent-monitoring/</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A scalable monitoring research agenda</title>
+      <link>https://www.apolloresearch.ai/monitoring/a-scalable-monitoring-research-agenda/</link>
+      <description>The goal of this agenda is to translate compute into safety at scale. In the best case, we figure out how to spend on the order of $10-100M to produce extremely good monitors for coding agents.</description>
+      <guid isPermaLink="false">https://www.apolloresearch.ai/monitoring/a-scalable-monitoring-research-agenda/</guid>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Apollo x Tailscale: Introducing “Watcher” for AI Oversight &amp; Control</title>
+      <link>https://www.apolloresearch.ai/monitoring/introducing-watcher-for-ai-oversight/</link>
+      <description>Watcher is an oversight layer for AI agents. It detects real-world safety and security failures before they become liabilities, and flags those failures to you.</description>
+      <guid isPermaLink="false">https://www.apolloresearch.ai/monitoring/introducing-watcher-for-ai-oversight/</guid>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Apollo’s product vision</title>
+      <link>https://www.apolloresearch.ai/monitoring/apollos-product-vision/</link>
+      <description>We’re building tools that make it easier to secure frontier AI agents.</description>
+      <guid isPermaLink="false">https://www.apolloresearch.ai/monitoring/apollos-product-vision/</guid>
+      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
