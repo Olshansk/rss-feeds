@@ -58,6 +58,13 @@ feeds_anthropic_red: ## Generate RSS feed for Anthropic Frontier Red Team
 	$(Q)uv run feed_generators/anthropic_red_blog.py
 	$(call print_success,Anthropic Red Team feed generated)
 
+.PHONY: feeds_aisi
+feeds_aisi: ## Generate RSS feed for AISI Blog
+	$(call check_venv)
+	$(call print_info,Generating AISI Blog feed)
+	$(Q)uv run feed_generators/aisi_blog.py
+	$(call print_success,AISI Blog feed generated)
+
 .PHONY: feeds_google_ai
 feeds_google_ai: ## Generate RSS feed for Google AI Blog
 	$(call check_venv)
