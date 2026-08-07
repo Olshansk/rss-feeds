@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Aug 2026 09:21:05 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 10:18:47 +0000</lastBuildDate>
     <item>
       <title>Run Claude Code sessions on your own compute</title>
       <link>https://claude.com/blog/run-claude-code-sessions-on-your-own-compute</link>
