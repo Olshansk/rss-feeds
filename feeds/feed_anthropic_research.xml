@@ -13,7 +13,15 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Aug 2026 16:48:35 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 17:48:25 +0000</lastBuildDate>
+    <item>
+      <title>Learning more about Claude's mathematical capabilities</title>
+      <link>https://www.anthropic.com/research/riemann-zeta</link>
+      <description>Learning more about Claude's mathematical capabilities</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/riemann-zeta</guid>
+      <category>Research</category>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Jul 28, 2026Frontier Red TeamDiscovering cryptographic weaknesses with Claude</title>
       <link>https://www.anthropic.com/research/discovering-cryptographic-weaknesses</link>
@@ -63,17 +71,17 @@
       <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>A global workspace in language models</title>
+      <title>InterpretabilityJul 6, 2026A global workspace in language modelsNew interpretability research reveals an emergent mental workspace in Claude that holds internal thoughts that don’t appear in the model’s output.</title>
       <link>https://www.anthropic.com/research/global-workspace</link>
-      <description>A global workspace in language models</description>
+      <description>InterpretabilityJul 6, 2026A global workspace in language modelsNew interpretability research reveals an emergent mental workspace in Claude that holds internal thoughts that don’t appear in the model’s output.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/global-workspace</guid>
       <category>Research</category>
       <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Economic ResearchJun 26, 2026Anthropic Economic Index report: CadencesIn our latest Economic Index report, we sample hourly for the first time to ask: When do people come to Claude? What do they produce with it? And how do they perceive AI's impact on their work?</title>
+      <title>Jun 26, 2026Economic ResearchAnthropic Economic Index report: Cadences</title>
       <link>https://www.anthropic.com/research/economic-index-june-2026-report</link>
-      <description>Economic ResearchJun 26, 2026Anthropic Economic Index report: CadencesIn our latest Economic Index report, we sample hourly for the first time to ask: When do people come to Claude? What do they produce with it? And how do they perceive AI's impact on their work?</description>
+      <description>Jun 26, 2026Economic ResearchAnthropic Economic Index report: Cadences</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/economic-index-june-2026-report</guid>
       <category>Research</category>
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
@@ -87,14 +95,6 @@
       <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Jun 16, 2026Economic ResearchAgentic coding and persistent returns to expertise</title>
-      <link>https://www.anthropic.com/research/claude-code-expertise</link>
-      <description>Jun 16, 2026Economic ResearchAgentic coding and persistent returns to expertise</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/claude-code-expertise</guid>
-      <category>Research</category>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>AlignmentMay 8, 2026Teaching Claude whyNew research on how we've reduced agentic misalignment.</title>
       <link>https://www.anthropic.com/research/teaching-claude-why</link>
       <description>AlignmentMay 8, 2026Teaching Claude whyNew research on how we've reduced agentic misalignment.</description>
@@ -103,20 +103,20 @@
       <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Societal Impacts</title>
-      <link>https://www.anthropic.com/research/team/societal-impacts</link>
-      <description>Societal Impacts</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/team/societal-impacts</guid>
-      <category>Research</category>
-      <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Alignment</title>
       <link>https://www.anthropic.com/research/team/alignment</link>
       <description>Alignment</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
       <category>Research</category>
-      <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Societal Impacts</title>
+      <link>https://www.anthropic.com/research/team/societal-impacts</link>
+      <description>Societal Impacts</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/societal-impacts</guid>
+      <category>Research</category>
+      <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Interpretability</title>
@@ -124,7 +124,7 @@
       <description>Interpretability</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/interpretability</guid>
       <category>Research</category>
-      <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 29 Apr 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Frontier Red Team</title>
@@ -132,7 +132,7 @@
       <description>Frontier Red Team</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/frontier-red-team</guid>
       <category>Research</category>
-      <pubDate>Sun, 14 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Economic Research</title>
@@ -140,7 +140,7 @@
       <description>Economic Research</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/economic-research</guid>
       <category>Research</category>
-      <pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
