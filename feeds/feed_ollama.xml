@@ -13,7 +13,7 @@
       <link>https://ollama.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Aug 2026 10:27:59 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 11:22:57 +0000</lastBuildDate>
     <item>
       <title>Run Llama 2 uncensored locally</title>
       <link>https://ollama.com/blog/run-llama2-uncensored-locally</link>
@@ -391,6 +391,13 @@
       <description>Serving 8.9 million developers, Ollama has raised $88M from Benchmark, Theory Ventures, 8VC, Y Combinator, and many incredible angel investors.</description>
       <guid isPermaLink="false">https://ollama.com/blog/all-aboard-open-models</guid>
       <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Muse Glimmer from Meta Superintelligence Labs is now available on Ollama</title>
+      <link>https://ollama.com/blog/muse-glimmer</link>
+      <description>Meta's Muse Glimmer, the first open model released by Meta Superintelligence Labs, is now available on Ollama. Muse Glimmer is a 30B multimodal model released under the Apache 2.0 license, designed for local coding agents, and accelerated by Ollama's MLX engine with new native DFlash and image input support.</description>
+      <guid isPermaLink="false">https://ollama.com/blog/muse-glimmer</guid>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
