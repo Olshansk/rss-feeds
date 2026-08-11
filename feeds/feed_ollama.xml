@@ -13,7 +13,7 @@
       <link>https://ollama.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Aug 2026 15:20:31 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 16:17:52 +0000</lastBuildDate>
     <item>
       <title>Run Llama 2 uncensored locally</title>
       <link>https://ollama.com/blog/run-llama2-uncensored-locally</link>
@@ -398,6 +398,13 @@
       <description>Meta's Muse Glimmer, the first open model released by Meta Superintelligence Labs, is now available. Muse Glimmer is a 30B multimodal model released under the Apache 2.0 license, designed for local coding agents, and accelerated by Ollama's MLX engine with new native DFlash and image input support.</description>
       <guid isPermaLink="false">https://ollama.com/blog/muse-glimmer</guid>
       <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>NVIDIA Nemotron 3.5 Lightning</title>
+      <link>https://ollama.com/blog/nemotron-3-5-lightning</link>
+      <description>NVIDIA Nemotron 3.5 Lightning is now available on Ollama. It's a 30 billion parameter (3B active) open model built for agents that stay running, gathering context, calling tools, and working through multi-step tasks on your own hardware.</description>
+      <guid isPermaLink="false">https://ollama.com/blog/nemotron-3-5-lightning</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
