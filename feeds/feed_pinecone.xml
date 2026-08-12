@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Aug 2026 15:51:54 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 16:50:55 +0000</lastBuildDate>
+    <item>
+      <title>Designing Agent-Friendly APIs</title>
+      <link>https://www.pinecone.io/blog/designing-agent-friendly-apis/</link>
+      <description>Designing Agent-Friendly APIs</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/designing-agent-friendly-apis/</guid>
+      <category>Engineering</category>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>The Ceiling Was Never the Model</title>
       <link>https://www.pinecone.io/blog/the-ceiling-was-never-the-model/</link>
@@ -1000,14 +1008,6 @@
       <guid isPermaLink="false">https://www.pinecone.io/blog/2022-growth-welcome-bob/</guid>
       <category>Company</category>
       <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing support for sparse-dense embeddings for better search result</title>
-      <link>https://www.pinecone.io/blog/sparse-dense/</link>
-      <description>Introducing support for sparse-dense embeddings for better search result</description>
-      <guid isPermaLink="false">https://www.pinecone.io/blog/sparse-dense/</guid>
-      <category>Product</category>
-      <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
