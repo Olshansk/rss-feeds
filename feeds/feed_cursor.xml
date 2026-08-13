@@ -13,7 +13,14 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Aug 2026 18:17:56 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 19:23:05 +0000</lastBuildDate>
+    <item>
+      <title>Firetiger joins Cursor</title>
+      <link>https://cursor.com/blog/firetiger</link>
+      <guid isPermaLink="false">https://cursor.com/blog/firetiger</guid>
+      <category>company</category>
+      <pubDate>Thu, 13 Aug 2026 19:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Cloud agents start 3x faster with builds</title>
       <link>https://cursor.com/blog/builds</link>
@@ -96,13 +103,6 @@
       <guid isPermaLink="false">https://cursor.com/blog/grok-4-5</guid>
       <category>research</category>
       <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CFOs and the new economics of AI</title>
-      <link>https://cursor.com/blog/cfo-council</link>
-      <guid isPermaLink="false">https://cursor.com/blog/cfo-council</guid>
-      <category>company</category>
-      <pubDate>Mon, 06 Jul 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Build from anywhere with Cursor for iOS</title>
