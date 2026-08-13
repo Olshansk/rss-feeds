@@ -8,7 +8,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Aug 2026 15:20:28 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 16:17:38 +0000</lastBuildDate>
+    <item>
+      <title>HeyGen x Google Cloud: Bringing Avatar IV to TPUs</title>
+      <link>https://developers.googleblog.com/heygen-x-google-cloud-bringing-avatar-iv-to-tpus/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_eshxr7eshxr.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;HeyGen ported their 18B+ parameter Avatar IV video generation model to Google Cloud's Trillium (v6e) TPUs via torchax and XLA, utilizing FSDP and Ulysses sequence parallelism across an eight-chip mesh. To achieve a 1.86x speedup for real-time streaming, the engineering team pipelined exposed all-to-all collectives, aligned sparse attention block sizes to eliminate mask padding, and bypassed softmax serial dependencies using a precomputed Cauchy-Schwarz upper bound. These custom Pallas kernel and compiler optimizations were deployed only after passing rigorous two-tier quality gates to guarantee byte-identical or mathematically equivalent pixel outputs.</description>
+      <category>AI</category>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Credentio: Open Source C++ Library for C2PA Content Credentials from Google</title>
+      <link>https://developers.googleblog.com/introducing-credentio-open-source-c-library-for-c2pa-content-credentials-from-google/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/credentio-hero-updated.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Credentio is a newly released, open-source C++ library from Google that allows developers to integrate high-performance, local-first validation of C2PA Content Credentials into their client and server applications. By processing assets entirely locally with a highly optimized memory footprint, the library delivers instant validation verdicts for multi-gigabyte media files without incurring cloud latency, bandwidth costs, or data privacy risks. The library currently features deep manifest parsing alongside configurable trust list integration, and is available now on Google Source with future plans to support full credential generation and embedding.</description>
+      <category>Mobile</category>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Mastering Edge AI on Raspberry Pi with LiteRT and Gemma</title>
       <link>https://developers.googleblog.com/mastering-edge-ai-on-raspberry-pi-with-litert-and-gemma/</link>
@@ -64,20 +78,6 @@
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/unnamed_8.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Agent Platform's evaluation service is now generally available, providing developers with a unified engine to measure agent quality consistently across local development experiments and live production traffic. You can evaluate agents using over 20 pre-built metrics, DeepMind-backed adaptive rubrics, or custom code-based and LLM-as-a-judge metrics stored in a centralized, versioned registry. The service integrates directly into existing workflows via the Agent Platform SDK, agents-cli, and ADK, offering built-in user and environment simulators to automate complex multi-turn testing and streamline CI pipelines.</description>
       <category>AI</category>
       <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How to use Google microbenchmarks for evaluating TPU performance</title>
-      <link>https://developers.googleblog.com/how-to-use-google-microbenchmarks-for-evaluating-tpu-performance/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/TPU_mcirobenchmark_banner_image.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Google's open-source TPU microbenchmark suite provides developers with granular performance metrics across Network, Compute, HBM, Host Transfer, and Attention components to validate real-world hardware capabilities. By leveraging these benchmarks to establish a Roofline model, engineers can accurately diagnose whether their machine learning workloads are compute-, memory-, or network-bound. This empirical baseline directly guides targeted software optimizations—such as kernel tuning, mesh sharding, and rematerialization—to maximize hardware utilization for large-scale model deployments.</description>
-      <category>AI</category>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Run Ray on TPU, Part 2: Ray AI libraries</title>
-      <link>https://developers.googleblog.com/run-ray-on-tpu-part-2-ray-ai-libraries/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header.2e16d0ba.fill-800x400_pp6EXuC.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;This second installment explores how Ray’s higher-level libraries—Serve, Data, and Train—abstract the complexities of running AI workloads on Google's TPU slices. Ray Serve uses a simple topology configuration to correctly gang-schedule large multi-host models, while Ray Data eliminates data-loading bottlenecks by feeding accelerators directly with native JAX batches. Finally, JaxTrainer streamlines distributed training across TPUs by automatically handling cross-slice coordination, checkpointing, and fault tolerance.</description>
-      <category>AI</category>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
