@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Aug 2026 14:28:20 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 15:21:48 +0000</lastBuildDate>
+    <item>
+      <title>Building Foundry Part 2: Where creative workflows break</title>
+      <link>https://weaviate.io/blog/building-foundry-where-workflows-break</link>
+      <description>Part 2: Why folders, tags, and keyword search break down in real creative workflows and what retrieval needs to do instead.</description>
+      <guid isPermaLink="false">https://weaviate.io/blog/building-foundry-where-workflows-break</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Scaling Test-Time Compute in Search Mode</title>
       <link>https://weaviate.io/blog/search-mode-effort</link>
@@ -421,13 +428,6 @@
       <description>How Weaviate's day zero, day one, day two mindset helps developers build AI-native applications.</description>
       <guid isPermaLink="false">https://weaviate.io/blog/building-core-of-ai-native-stack</guid>
       <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Constella Uses Weaviate for Vector Search (RAG) and Cross-Platform Syncing across Devices for Consumer Apps</title>
-      <link>https://weaviate.io/blog/vector-search-cross-platform-sync-constella</link>
-      <description>How we built cross-platform vector search and syncing for a thinking tool using Weaviate, RAG, and multi-tenant architecture.</description>
-      <guid isPermaLink="false">https://weaviate.io/blog/vector-search-cross-platform-sync-constella</guid>
-      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
