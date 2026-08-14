@@ -4,13 +4,15 @@ import json
 import logging
 import re
 import subprocess
-from datetime import datetime, timedelta
+from datetime import UTC, datetime, timedelta
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Any
 
 import pytz
 import requests
 from feedgen.feed import FeedGenerator
+from lxml import etree
 
 from models import GlobalSettings
 
@@ -54,6 +56,7 @@ logger = setup_logging()
 
 # XML 1.0 forbids NULL bytes and most C0/C1 control characters.
 _INVALID_XML_RE = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f-\x9f]")
+_RSS_ITEM_RE = re.compile(rb"(?m)^[ \t]*<item(?:\s[^>]*)?>.*?</item>[ \t]*(?:\r?\n|$)", re.DOTALL)
 
 
 def sanitize_xml(text: str) -> str:
@@ -273,6 +276,64 @@ def setup_feed_links(fg: FeedGenerator, blog_url: str, feed_name: str) -> None:
     fg.link(href=blog_url, rel="alternate")
 
 
+def _sort_rss_items(xml_bytes: bytes) -> bytes:
+    """Sort dated RSS items newest-first while preserving undated items.
+
+    How:
+    1. Parse the serialized RSS document.
+    2. Separate channel items with valid, missing, and invalid publication dates.
+    3. Sort dated items descending by their parsed RFC 2822 dates.
+    4. Append undated items after dated items in their original relative order.
+    5. Reorder the original item byte blocks so content and formatting remain unchanged.
+
+    Args:
+        xml_bytes: Serialized RSS XML produced by ``FeedGenerator``.
+
+    Returns:
+        Serialized RSS XML with dated items ordered newest-first.
+    """
+    root = etree.fromstring(xml_bytes)
+    channel = root.find("channel")
+    if channel is None:
+        return xml_bytes
+
+    items = channel.findall("item")
+    if len(items) < 2:
+        return xml_bytes
+
+    dated_items: list[tuple[datetime, int, etree._Element]] = []
+    undated_items: list[tuple[int, etree._Element]] = []
+    for index, item in enumerate(items):
+        date_element = item.find("pubDate")
+        date_text = date_element.text.strip() if date_element is not None and date_element.text else ""
+        if not date_text:
+            undated_items.append((index, item))
+            continue
+
+        try:
+            parsed_date = parsedate_to_datetime(date_text)
+            if parsed_date.tzinfo is None:
+                parsed_date = parsed_date.replace(tzinfo=UTC)
+            dated_items.append((parsed_date, index, item))
+        except (TypeError, ValueError):
+            logger.warning("Could not parse RSS item date %r; preserving its relative position", date_text)
+            undated_items.append((index, item))
+
+    ordered_indexes = [index for _, index, _ in sorted(dated_items, key=lambda value: value[0], reverse=True)]
+    ordered_indexes.extend(index for index, _ in undated_items)
+    if ordered_indexes == list(range(len(items))):
+        return xml_bytes
+
+    item_matches = list(_RSS_ITEM_RE.finditer(xml_bytes))
+    if len(item_matches) != len(items):
+        raise ValueError("Could not safely locate all RSS item blocks for reordering")
+
+    first_match = item_matches[0]
+    last_match = item_matches[-1]
+    reordered_items = b"".join(item_matches[index].group(0) for index in ordered_indexes)
+    return xml_bytes[: first_match.start()] + reordered_items + xml_bytes[last_match.end() :]
+
+
 def sort_posts_for_feed(posts: list[dict[str, Any]], date_field: str = "date") -> list[dict[str, Any]]:
     """Sort posts so newest appears first in the final RSS feed.
 
@@ -307,7 +368,7 @@ def save_rss_feed(fg: FeedGenerator, feed_name: str) -> Path:
     """
     feeds_dir = get_feeds_dir()
     output_file = feeds_dir / f"feed_{feed_name}.xml"
-    fg.rss_file(str(output_file), pretty=True)
+    output_file.write_bytes(_sort_rss_items(fg.rss_str(pretty=True)))
     logger.info(f"Saved RSS feed to {output_file}")
     return output_file
 

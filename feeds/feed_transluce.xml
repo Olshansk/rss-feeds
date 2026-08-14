@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Transluce - Research</title>
+    <link>https://transluce.org/research</link>
+    <description>Research updates from Transluce</description>
+    <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_transluce.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 11 Jul 2026 02:19:42 +0000</lastBuildDate>
+    <item>
+      <title>Toward A Public Science of Model Behavior</title>
+      <link>https://transluce.org/behavior-science</link>
+      <description>Our vision for an open scientific ecosystem for measuring model behaviors</description>
+      <guid isPermaLink="false">https://transluce.org/behavior-science</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Predictive Concept Decoders</title>
+      <link>https://transluce.org/pcd</link>
+      <description>Training scalable end-to-end interpretability assistants</description>
+      <guid isPermaLink="false">https://transluce.org/pcd</guid>
+      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scalably Extracting Latent Representations of Users</title>
+      <link>https://transluce.org/user-modeling</link>
+      <description>Constructing datasets and training decoders to extract user models from language models</description>
+      <guid isPermaLink="false">https://transluce.org/user-modeling</guid>
+      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Language Model Circuits Are Sparse in the Neuron Basis</title>
+      <link>https://transluce.org/neuron-circuits</link>
+      <description>A new technique for tracing sparse and faithful circuits directly on a model's MLPs</description>
+      <guid isPermaLink="false">https://transluce.org/neuron-circuits</guid>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Monitoring SWE-bench Agents</title>
+      <link>https://transluce.org/docent/blog/swe-bench</link>
+      <description>Partnering with SWE-bench to enable reliable monitoring of AI coding agents</description>
+      <guid isPermaLink="false">https://transluce.org/docent/blog/swe-bench</guid>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Training Language Models to Explain Their Own Computations</title>
+      <link>https://transluce.org/self-explanations</link>
+      <description>We trained explainer models to verbalize the content of AI systems' internal computations</description>
+      <guid isPermaLink="false">https://transluce.org/self-explanations</guid>
+      <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Automatically Jailbreaking Frontier Language Models with Investigator Agents</title>
+      <link>https://transluce.org/jailbreaking-frontier-models</link>
+      <description>Discovering cost-effective attacks with reinforcement learning</description>
+      <guid isPermaLink="false">https://transluce.org/jailbreaking-frontier-models</guid>
+      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Surfacing Pathological Behaviors in Language Models</title>
+      <link>https://transluce.org/pathological-behaviors</link>
+      <description>Improving our investigator agents with propensity bounds</description>
+      <guid isPermaLink="false">https://transluce.org/pathological-behaviors</guid>
+      <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Investigating Truthfulness in a Pre-Release o3 Model</title>
+      <link>https://transluce.org/investigating-o3-truthfulness</link>
+      <description>o3 frequently fabricates actions it took to fulfill user requests, and elaborately justifies the fabrications when confronted</description>
+      <guid isPermaLink="false">https://transluce.org/investigating-o3-truthfulness</guid>
+      <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Docent</title>
+      <link>https://transluce.org/introducing-docent</link>
+      <description>A system for analyzing and intervening on agent behavior</description>
+      <guid isPermaLink="false">https://transluce.org/introducing-docent</guid>
+      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Monitor: An AI-Driven Observability Interface</title>
+      <link>https://transluce.org/observability-interface</link>
+      <description>An interface designed to help humans observe, understand, and steer computations inside models</description>
+      <guid isPermaLink="false">https://transluce.org/observability-interface</guid>
+      <pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Eliciting Language Model Behaviors with Investigator Agents</title>
+      <link>https://transluce.org/automated-elicitation</link>
+      <description>Language models trained to automatically surface harmful behaviors in language models</description>
+      <guid isPermaLink="false">https://transluce.org/automated-elicitation</guid>
+      <pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scaling Automatic Neuron Explanation</title>
+      <link>https://transluce.org/neuron-descriptions</link>
+      <description>Open-source AI systems trained to describe components of other AI systems at the level of a human expert</description>
+      <guid isPermaLink="false">https://transluce.org/neuron-descriptions</guid>
+      <pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

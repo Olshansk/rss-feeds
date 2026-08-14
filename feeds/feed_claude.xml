@@ -8,7 +8,246 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Jul 2026 03:01:28 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 20:46:11 +0000</lastBuildDate>
+    <item>
+      <title>Maximizing the value of your Claude Code sessions</title>
+      <link>https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions</link>
+      <description>Maximizing the value of your Claude Code sessions</description>
+      <guid isPermaLink="false">https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions</guid>
+      <category>Claude Code</category>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5</title>
+      <link>https://claude.com/blog/how-jetbrains-evaluates-and-deploys-claude-fable-5</link>
+      <description>Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-jetbrains-evaluates-and-deploys-claude-fable-5</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Tag now reads even more of the room</title>
+      <link>https://claude.com/blog/claude-tag-now-reads-even-more-of-the-room</link>
+      <description>Claude Tag now reads even more of the room</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-tag-now-reads-even-more-of-the-room</guid>
+      <category>Product announcements</category>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Self-service data analytics in Slack: how Anthropic deploys Claude Tag for ad-hoc questions</title>
+      <link>https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions</link>
+      <description>Self-service data analytics in Slack: how Anthropic deploys Claude Tag for ad-hoc questions</description>
+      <guid isPermaLink="false">https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Claude in Chrome side panel is now Claude Cowork</title>
+      <link>https://claude.com/blog/cowork-chrome-side-panel</link>
+      <description>The Claude in Chrome side panel is now Claude Cowork</description>
+      <guid isPermaLink="false">https://claude.com/blog/cowork-chrome-side-panel</guid>
+      <category>Product announcements</category>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Compliance API coverage extends to Claude Cowork and Claude Code</title>
+      <link>https://claude.com/blog/compliance-api-cowork-and-claude-code</link>
+      <description>Compliance API coverage extends to Claude Cowork and Claude Code</description>
+      <guid isPermaLink="false">https://claude.com/blog/compliance-api-cowork-and-claude-code</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Running auto mode in production</title>
+      <link>https://claude.com/blog/auto-mode-in-production</link>
+      <description>Running auto mode in production</description>
+      <guid isPermaLink="false">https://claude.com/blog/auto-mode-in-production</guid>
+      <category>Claude Code</category>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Auto mode is now the default in Claude Code for Pro, Max, and Team plans</title>
+      <link>https://claude.com/blog/auto-mode-default-in-claude-code</link>
+      <description>Auto mode is now the default in Claude Code for Pro, Max, and Team plans</description>
+      <guid isPermaLink="false">https://claude.com/blog/auto-mode-default-in-claude-code</guid>
+      <category>Claude Code</category>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Anthropic's business development team uses Claude to run inbound and outbound at scale</title>
+      <link>https://claude.com/blog/how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale</link>
+      <description>How Anthropic's business development team uses Claude to run inbound and outbound at scale</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Run Claude Code sessions on your own compute</title>
+      <link>https://claude.com/blog/run-claude-code-sessions-on-your-own-compute</link>
+      <description>Run Claude Code sessions on your own compute</description>
+      <guid isPermaLink="false">https://claude.com/blog/run-claude-code-sessions-on-your-own-compute</guid>
+      <category>Product announcements</category>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Millennium and Anthropic are building a digital risk analyst with Claude </title>
+      <link>https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude</link>
+      <description>Millennium and Anthropic are building a digital risk analyst with Claude </description>
+      <guid isPermaLink="false">https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Inference hooks: inline data loss prevention for Claude Enterprise</title>
+      <link>https://claude.com/blog/claude-enterprise-inference-hooks</link>
+      <description>Inference hooks: inline data loss prevention for Claude Enterprise</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-enterprise-inference-hooks</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A guide to cost visibility and control in Claude</title>
+      <link>https://claude.com/blog/a-guide-to-cost-visibility-and-control-in-claude</link>
+      <description>A guide to cost visibility and control in Claude</description>
+      <guid isPermaLink="false">https://claude.com/blog/a-guide-to-cost-visibility-and-control-in-claude</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bringing MCP 2026-07-28 to Claude</title>
+      <link>https://claude.com/blog/bringing-mcp-2026-07-28-to-claude</link>
+      <description>Bringing MCP 2026-07-28 to Claude</description>
+      <guid isPermaLink="false">https://claude.com/blog/bringing-mcp-2026-07-28-to-claude</guid>
+      <category>Product announcements</category>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude models explained: choosing the best model for your use case</title>
+      <link>https://claude.com/blog/claude-models-explained-choosing-the-best-model-for-your-use-case</link>
+      <description>Claude models explained: choosing the best model for your use case</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-models-explained-choosing-the-best-model-for-your-use-case</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The new rules of context engineering for Claude 5 generation models </title>
+      <link>https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models</link>
+      <description>The new rules of context engineering for Claude 5 generation models </description>
+      <guid isPermaLink="false">https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models</guid>
+      <category>Claude Code</category>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How the product designer who built Claude Design uses it to explore ideas before building them</title>
+      <link>https://claude.com/blog/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them</link>
+      <description>How the product designer who built Claude Design uses it to explore ideas before building them</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Think through hard problems in voice mode</title>
+      <link>https://claude.com/blog/think-through-hard-problems-in-voice-mode</link>
+      <description>Think through hard problems in voice mode</description>
+      <guid isPermaLink="false">https://claude.com/blog/think-through-hard-problems-in-voice-mode</guid>
+      <category>Product announcements</category>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Four role-based certifications for the people who put Claude to work for customers</title>
+      <link>https://claude.com/blog/four-role-based-claude-certifications</link>
+      <description>Four role-based certifications for the people who put Claude to work for customers</description>
+      <guid isPermaLink="false">https://claude.com/blog/four-role-based-claude-certifications</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Outtake built a cyber investigator on Claude</title>
+      <link>https://claude.com/blog/how-outtake-built-a-cyber-investigator-on-claude</link>
+      <description>How Outtake built a cyber investigator on Claude</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-outtake-built-a-cyber-investigator-on-claude</guid>
+      <category>Agents</category>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building verification loops in Claude Code with skills</title>
+      <link>https://claude.com/blog/building-verification-loops-in-claude-code-with-skills</link>
+      <description>Building verification loops in Claude Code with skills</description>
+      <guid isPermaLink="false">https://claude.com/blog/building-verification-loops-in-claude-code-with-skills</guid>
+      <category>Claude Code</category>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Datadog built a “universal machine tool” for Claude Code</title>
+      <link>https://claude.com/blog/how-datadog-built-a-universal-machine-tool-for-claude-code</link>
+      <description>How Datadog built a “universal machine tool” for Claude Code</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-datadog-built-a-universal-machine-tool-for-claude-code</guid>
+      <category>Claude Code</category>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Anthropic secures its AI-native software development lifecycle</title>
+      <link>https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle</link>
+      <description>How Anthropic secures its AI-native software development lifecycle</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle</guid>
+      <category>Claude Code</category>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5</title>
+      <link>https://claude.com/blog/working-at-the-frontier-rakuten</link>
+      <description>Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5</description>
+      <guid isPermaLink="false">https://claude.com/blog/working-at-the-frontier-rakuten</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Zero risk isn't the job: a CISO's guide to agentic AI</title>
+      <link>https://claude.com/blog/ciso-guide-to-agentic-ai</link>
+      <description>Zero risk isn't the job: a CISO's guide to agentic AI</description>
+      <guid isPermaLink="false">https://claude.com/blog/ciso-guide-to-agentic-ai</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Working at the frontier: How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems</title>
+      <link>https://claude.com/blog/working-at-the-frontier-cursor</link>
+      <description>Working at the frontier: How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems</description>
+      <guid isPermaLink="false">https://claude.com/blog/working-at-the-frontier-cursor</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Working with Claude Fable 5 in Claude Cowork</title>
+      <link>https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork</link>
+      <description>Working with Claude Fable 5 in Claude Cowork</description>
+      <guid isPermaLink="false">https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Anthropic runs large-scale code migrations with Claude Code</title>
+      <link>https://claude.com/blog/ai-code-migration</link>
+      <description>How Anthropic runs large-scale code migrations with Claude Code</description>
+      <guid isPermaLink="false">https://claude.com/blog/ai-code-migration</guid>
+      <category>Claude Code</category>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Working at the frontier: Why Base44 trusts Claude Fable 5 with their most challenging engineering work</title>
+      <link>https://claude.com/blog/working-at-the-frontier-why-base44-trusts-claude-fable-5-with-their-most-challenging-engineering-work</link>
+      <description>Working at the frontier: Why Base44 trusts Claude Fable 5 with their most challenging engineering work</description>
+      <guid isPermaLink="false">https://claude.com/blog/working-at-the-frontier-why-base44-trusts-claude-fable-5-with-their-most-challenging-engineering-work</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Working at the frontier: How Hebbia builds AI for financial diligence that can't miss a detail</title>
+      <link>https://claude.com/blog/working-at-the-frontier-how-hebbia-builds-ai-for-financial-diligence-that-cant-miss-a-detail</link>
+      <description>Working at the frontier: How Hebbia builds AI for financial diligence that can't miss a detail</description>
+      <guid isPermaLink="false">https://claude.com/blog/working-at-the-frontier-how-hebbia-builds-ai-for-financial-diligence-that-cant-miss-a-detail</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night</title>
       <link>https://claude.com/blog/working-at-the-frontier-how-cognition-trusts-claude-fable-5-to-work-through-the-night</link>
