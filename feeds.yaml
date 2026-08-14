@@ -45,6 +45,21 @@ feeds:
     type: selenium
     blog_url: https://www.anthropic.com/research
 
+  apollo_governance:
+    script: apollo_governance_blog.py
+    type: requests
+    blog_url: https://www.apolloresearch.ai/governance/
+
+  apollo_monitoring:
+    script: apollo_monitoring_blog.py
+    type: requests
+    blog_url: https://www.apolloresearch.ai/monitoring/
+
+  apollo_science:
+    script: apollo_science_blog.py
+    type: requests
+    blog_url: https://www.apolloresearch.ai/science/
+
   blogsurgeai:
     script: blogsurgeai_feed_generator.py
     type: requests
