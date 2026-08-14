@@ -75,6 +75,10 @@ feeds:
     type: requests
     blog_url: https://dagster.io/blog
 
+  eleuther_papers:
+    script: eleuther_papers_blog.py
+    type: requests
+    blog_url: https://www.eleuther.ai/papers
   goodfire:
     script: goodfire_blog.py
     type: requests
