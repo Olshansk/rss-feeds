@@ -75,6 +75,10 @@ feeds:
     type: requests
     blog_url: https://dagster.io/blog
 
+  far_ai:
+    script: far_ai_blog.py
+    type: requests
+    blog_url: https://www.far.ai/publications
   eleuther_papers:
     script: eleuther_papers_blog.py
     type: requests
