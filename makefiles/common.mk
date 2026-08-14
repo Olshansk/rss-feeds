@@ -36,12 +36,10 @@ define check_command
 	}
 endef
 
+# Kept as a compatibility shim for existing feed targets. `uv run` manages the
+# project environment, so manual activation is neither required nor checked.
 define check_venv
-	@if [ -z "$$VIRTUAL_ENV" ]; then \
-		printf "$(RED)$(BOLD) $(CROSS) Virtual environment not activated$(RESET)\n"; \
-		printf "$(YELLOW)$(ARROW) Run: source .venv/bin/activate$(RESET)\n"; \
-		exit 1; \
-	fi
+	@:
 endef
 
 .PHONY: prompt_confirm

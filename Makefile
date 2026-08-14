@@ -22,7 +22,7 @@ help: ## Show all available targets with descriptions
 	@printf "$(BOLD)=== 📋 Information & Discovery ===$(RESET)\n"
 	@grep -h -E '^(help|help-unclassified):.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "$(CYAN)%-40s$(RESET) %s\n", $$1, $$2}'
 	@printf "\n"
-	@printf "$(BOLD)=== 🐍 Environment Setup ===$(RESET)\n"
+	@printf "$(BOLD)=== 🐍 Environment & Dependencies ===$(RESET)\n"
 	@grep -h -E '^env_.*:.*?## .*$$' $(MAKEFILE_LIST) ./makefiles/*.mk 2>/dev/null | awk 'BEGIN {FS = ":.*?## "}; {printf "$(CYAN)%-40s$(RESET) %s\n", $$1, $$2}' | sort -u
 	@printf "\n"
 	@printf "$(BOLD)=== 🛠️ Development ===$(RESET)\n"
@@ -74,12 +74,8 @@ include ./makefiles/ci.mk
 
 # Maintain backwards compatibility with existing targets
 
-.PHONY: check-env
-check-env: ## (Legacy) Check if virtual environment is activated
-	$(call check_venv)
-
 .PHONY: env_create
-env_create: env_setup ## (Legacy) Create virtual environment
+env_create: env_setup ## (Legacy) Sync dependencies with uv
 
 .PHONY: uvx_install
 uvx_install: env_setup ## (Legacy) Install dependencies

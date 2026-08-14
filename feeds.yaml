@@ -128,6 +128,21 @@ feeds:
     type: requests
     blog_url: https://ollama.com/blog
 
+  openai_developer:
+    script: openai_developer_blog.py
+    type: requests
+    blog_url: https://developers.openai.com/blog
+
+  openai_engineering:
+    script: openai_engineering_blog.py
+    type: requests
+    blog_url: https://openai.com/news/engineering/
+
+  openai_research:
+    script: openai_research_blog.py
+    type: requests
+    blog_url: https://openai.com/news/research/
+
   paulgraham:
     script: paulgraham_blog.py
     type: requests

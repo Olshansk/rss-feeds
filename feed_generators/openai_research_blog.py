@@ -1,10 +1,11 @@
 import logging
 from email.utils import parsedate_to_datetime
-from pathlib import Path
 
 import requests
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
+
+from utils import save_rss_feed, sort_posts_for_feed
 
 RSS_URL = "https://openai.com/news/rss.xml"
 BLOG_URL = "https://openai.com/news/research/"
@@ -13,11 +14,6 @@ FEED_NAME = "openai_research"
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
-
-
-def get_project_root():
-    """Get the project root directory."""
-    return Path(__file__).parent.parent
 
 
 def fetch_rss_content(url: str = RSS_URL) -> str:
@@ -80,8 +76,8 @@ def generate_rss_feed(posts: list[dict]) -> FeedGenerator:
     fg.link(href=BLOG_URL)
     fg.language("en")
 
-    # Sort posts by date, newest first (handle None dates)
-    sorted_posts = sorted(posts, key=lambda p: p["date"] if p["date"] else "1970-01-01", reverse=True)
+    # Feedgen prepends entries, so the shared helper sorts ascending for newest-first XML output.
+    sorted_posts = sort_posts_for_feed(posts, date_field="date")
 
     for post in sorted_posts:
         fe = fg.add_entry()
@@ -107,11 +103,7 @@ def main() -> None:
         # Still generate an empty feed (preserving structure)
         posts = []
 
-    feeds_dir = get_project_root() / "feeds"
-    feeds_dir.mkdir(exist_ok=True)
-    output_file = feeds_dir / f"feed_{FEED_NAME}.xml"
-
-    generate_rss_feed(posts).rss_file(str(output_file), pretty=True)
+    output_file = save_rss_feed(generate_rss_feed(posts), FEED_NAME)
     logger.info("Saved RSS feed to %s", output_file)
 
 

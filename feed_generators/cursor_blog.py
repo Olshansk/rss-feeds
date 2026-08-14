@@ -127,7 +127,8 @@ def generate_rss_feed(posts):
 
         if post.get("date"):
             try:
-                dt = datetime.fromisoformat(post["date"].replace("Z", "+00:00"))
+                date = post["date"]
+                dt = date if isinstance(date, datetime) else datetime.fromisoformat(date.replace("Z", "+00:00"))
                 fe.published(dt)
             except ValueError:
                 pass

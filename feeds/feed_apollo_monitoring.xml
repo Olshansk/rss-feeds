@@ -8,34 +8,48 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Jul 2026 01:03:25 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 23:27:25 +0000</lastBuildDate>
     <item>
-      <title>Evaluating LLM Calibration for Coding-Agent Monitoring</title>
-      <link>https://www.apolloresearch.ai/monitoring/evaluating-llm-calibration-for-coding-agent-monitoring/</link>
-      <description>We evaluate 16 LLMs scoring coding-agent trajectories on a 1-10 severity scale across three datasets and five failure modes to assess their capabilities and calibration as coding agent monitors.</description>
-      <guid isPermaLink="false">https://www.apolloresearch.ai/monitoring/evaluating-llm-calibration-for-coding-agent-monitoring/</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <title>Latestupdates</title>
+      <link>/monitoring/a-scalable-monitoring-research-agenda</link>
+      <description>Latestupdates</description>
+      <guid isPermaLink="false">/monitoring/a-scalable-monitoring-research-agenda</guid>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>A scalable monitoring research agenda</title>
-      <link>https://www.apolloresearch.ai/monitoring/a-scalable-monitoring-research-agenda/</link>
-      <description>The goal of this agenda is to translate compute into safety at scale. In the best case, we figure out how to spend on the order of $10-100M to produce extremely good monitors for coding agents.</description>
-      <guid isPermaLink="false">https://www.apolloresearch.ai/monitoring/a-scalable-monitoring-research-agenda/</guid>
-      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <title>Latestupdates</title>
+      <link>/monitoring/evaluating-llm-calibration-for-coding-agent-monitoring</link>
+      <description>Latestupdates</description>
+      <guid isPermaLink="false">/monitoring/evaluating-llm-calibration-for-coding-agent-monitoring</guid>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Apollo x Tailscale: Introducing “Watcher” for AI Oversight &amp; Control</title>
-      <link>https://www.apolloresearch.ai/monitoring/introducing-watcher-for-ai-oversight/</link>
-      <description>Watcher is an oversight layer for AI agents. It detects real-world safety and security failures before they become liabilities, and flags those failures to you.</description>
-      <guid isPermaLink="false">https://www.apolloresearch.ai/monitoring/introducing-watcher-for-ai-oversight/</guid>
-      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <title>Latestupdates</title>
+      <link>/monitoring/pilot-automode-campaign</link>
+      <description>Latestupdates</description>
+      <guid isPermaLink="false">/monitoring/pilot-automode-campaign</guid>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Apollo’s product vision</title>
-      <link>https://www.apolloresearch.ai/monitoring/apollos-product-vision/</link>
-      <description>We’re building tools that make it easier to secure frontier AI agents.</description>
-      <guid isPermaLink="false">https://www.apolloresearch.ai/monitoring/apollos-product-vision/</guid>
-      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
+      <title>Latestupdates</title>
+      <link>/monitoring/what-makes-a-good-monitoring-prompt</link>
+      <description>Latestupdates</description>
+      <guid isPermaLink="false">/monitoring/what-makes-a-good-monitoring-prompt</guid>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Allresearch</title>
+      <link>/monitoring/apollos-product-vision</link>
+      <description>Allresearch</description>
+      <guid isPermaLink="false">/monitoring/apollos-product-vision</guid>
+      <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Allresearch</title>
+      <link>/monitoring/introducing-watcher-for-ai-oversight</link>
+      <description>Allresearch</description>
+      <guid isPermaLink="false">/monitoring/introducing-watcher-for-ai-oversight</guid>
+      <pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

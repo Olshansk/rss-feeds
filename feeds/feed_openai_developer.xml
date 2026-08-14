@@ -8,7 +8,63 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Mar 2026 12:28:03 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 23:28:06 +0000</lastBuildDate>
+    <item>
+      <title>Custom Code Review rules for Codex</title>
+      <link>https://developers.openai.com/blog/custom-code-review-rules-for-codex</link>
+      <description>Provide more detailed rules for Codex to spot issues and better adhere your conventions during code review.</description>
+      <guid isPermaLink="false">https://developers.openai.com/blog/custom-code-review-rules-for-codex</guid>
+      <category>Codex</category>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Making private MCP servers reachable without making them public</title>
+      <link>https://developers.openai.com/blog/connect-private-mcp-servers-to-openai-products</link>
+      <description>How we preserved private network boundaries while supporting MCP streaming, authentication, and an inspectable client.</description>
+      <guid isPermaLink="false">https://developers.openai.com/blog/connect-private-mcp-servers-to-openai-products</guid>
+      <category>General</category>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mastering remote engineering work from your phone</title>
+      <link>https://developers.openai.com/blog/mastering-codex-remote-for-engineering</link>
+      <description>Use Remote in the ChatGPT mobile app to start, steer, review, and organize engineering work.</description>
+      <guid isPermaLink="false">https://developers.openai.com/blog/mastering-codex-remote-for-engineering</guid>
+      <category>Codex</category>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Perplexity Brought Voice Search to Millions Using the Realtime API</title>
+      <link>https://developers.openai.com/blog/realtime-perplexity-computer</link>
+      <description>Lessons from how Perplexity Computer's voice agent was built with the Realtime API.</description>
+      <guid isPermaLink="false">https://developers.openai.com/blog/realtime-perplexity-computer</guid>
+      <category>Audio</category>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Designing delightful frontends with GPT-5.4</title>
+      <link>https://developers.openai.com/blog/designing-delightful-frontends-with-gpt-5-4</link>
+      <description>Practical techniques for steering GPT-5.4 toward polished, production-ready frontend designs.</description>
+      <guid isPermaLink="false">https://developers.openai.com/blog/designing-delightful-frontends-with-gpt-5-4</guid>
+      <category>General</category>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>From prompts to products: One year of Responses</title>
+      <link>https://developers.openai.com/blog/one-year-of-responses</link>
+      <description>Five stories from developers building agentic products with the Responses API in its first year.</description>
+      <guid isPermaLink="false">https://developers.openai.com/blog/one-year-of-responses</guid>
+      <category>API</category>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using skills to accelerate OSS maintenance</title>
+      <link>https://developers.openai.com/blog/skills-agents-sdk</link>
+      <description>Using skills and GitHub Actions to optimize Codex workflows in the OpenAI Agents SDK repos.</description>
+      <guid isPermaLink="false">https://developers.openai.com/blog/skills-agents-sdk</guid>
+      <category>Codex</category>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Building frontend UIs with Codex and Figma</title>
       <link>https://developers.openai.com/blog/building-frontend-uis-with-codex-and-figma</link>

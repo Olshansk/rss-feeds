@@ -1,116 +1,116 @@
 {
-  "last_updated": "2026-08-14T20:46:13.476288+00:00",
+  "last_updated": "2026-08-14T23:27:28.766859+00:00",
   "entries": [
     {
       "link": "https://cursor.com/blog/faire",
       "title": "Faire doubles PR throughput with Cursor Cloud Agents",
       "description": "",
-      "date": "2026-05-26T12:00:00.000Z",
+      "date": "2026-05-26T12:00:00+00:00",
       "category": ""
     },
     {
       "link": "https://cursor.com/blog/wayfair",
       "title": "How Wayfair cut ML model costs by 90% (twice!) with Cursor",
       "description": "",
-      "date": "2026-06-15T12:00:00.000Z",
+      "date": "2026-06-15T12:00:00+00:00",
       "category": ""
     },
     {
       "link": "https://cursor.com/blog/coinbase",
       "title": "Coinbase reduces time from idea to production by 90% with Cursor",
       "description": "",
-      "date": "2026-06-23T12:00:00.000Z",
+      "date": "2026-06-23T12:00:00+00:00",
       "category": ""
     },
     {
       "link": "https://cursor.com/blog/grok-4-5-model-card",
       "title": "Grok 4.5 Model Card",
       "description": "",
-      "date": "2026-07-14T00:00:00.000Z",
+      "date": "2026-07-14T00:00:00+00:00",
       "category": "research"
     },
     {
       "link": "https://cursor.com/blog/agent-swarm-model-economics",
       "title": "Agent swarms and the new model economics",
       "description": "We compared old and new agent swarms building SQLite from scratch and found that better coordination delivers similar quality at a fraction of the cost.",
-      "date": "2026-07-20T12:00:00.000Z",
+      "date": "2026-07-20T12:00:00+00:00",
       "category": ""
     },
     {
       "link": "https://cursor.com/blog/router",
       "title": "Introducing Cursor Router",
       "description": "",
-      "date": "2026-07-22T00:00:00.000Z",
+      "date": "2026-07-22T00:00:00+00:00",
       "category": "product"
     },
     {
       "link": "https://cursor.com/blog/cursor-start-india",
       "title": "Introducing Cursor Start",
       "description": "",
-      "date": "2026-07-28T12:00:00.000Z",
+      "date": "2026-07-28T12:00:00+00:00",
       "category": "product"
     },
     {
       "link": "https://cursor.com/blog/vercel",
       "title": "How Vercel used Cursor to build Queues",
       "description": "",
-      "date": "2026-07-28T12:00:00.000Z",
+      "date": "2026-07-28T12:00:00+00:00",
       "category": ""
     },
     {
       "link": "https://cursor.com/blog/cloud-agent-environment",
       "title": "How we set up our cloud agent environment",
       "description": "",
-      "date": "2026-07-30T12:00:00.000Z",
+      "date": "2026-07-30T12:00:00+00:00",
       "category": "research"
     },
     {
       "link": "https://cursor.com/blog/mixture-of-kittens",
       "title": "Mixture-of-Kittens: our open-source MoE megakernel for NVL72s",
       "description": "",
-      "date": "2026-08-04T12:00:00.000Z",
+      "date": "2026-08-04T12:00:00+00:00",
       "category": "research"
     },
     {
       "link": "https://cursor.com/blog/how-cursor-router-works",
       "title": "How Cursor Router chooses the right model for the task",
       "description": "",
-      "date": "2026-08-06T12:00:00.000Z",
+      "date": "2026-08-06T12:00:00+00:00",
       "category": "research"
     },
     {
       "link": "https://cursor.com/blog/grok-4-6",
       "title": "Introducing Grok 4.6",
       "description": "Built for long-running agents and more ambitious interactive and visual work.",
-      "date": "2026-08-12T00:00:00.000Z",
+      "date": "2026-08-12T00:00:00+00:00",
       "category": ""
     },
     {
       "link": "https://cursor.com/blog/aiuc-1",
       "title": "Cursor earns AIUC-1 certification for agent security and reliability",
       "description": "",
-      "date": "2026-08-13T12:00:00.000Z",
+      "date": "2026-08-13T12:00:00+00:00",
       "category": "company"
     },
     {
       "link": "https://cursor.com/blog/builds",
       "title": "Cloud agents start 3x faster with builds",
       "description": "",
-      "date": "2026-08-13T12:00:00.000Z",
+      "date": "2026-08-13T12:00:00+00:00",
       "category": "product"
     },
     {
       "link": "https://cursor.com/blog/firetiger",
       "title": "Firetiger joins Cursor",
       "description": "",
-      "date": "2026-08-13T19:00:00.000Z",
+      "date": "2026-08-13T19:00:00+00:00",
       "category": "company"
     },
     {
       "link": "https://cursor.com/blog/joining-spacex",
       "title": "Cursor is now a part of SpaceX",
       "description": "Cursor has officially been acquired by SpaceX.",
-      "date": "2026-08-14T12:00:00.000Z",
+      "date": "2026-08-14T12:00:00+00:00",
       "category": ""
     }
   ]

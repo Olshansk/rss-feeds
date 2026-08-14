@@ -8,7 +8,49 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Jul 2026 02:19:44 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 23:27:10 +0000</lastBuildDate>
+    <item>
+      <title>Incident Report: unsanctioned agent behaviour during cyber testing</title>
+      <link>https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing</link>
+      <description>During a routine cyber evaluation, AISI identified an incident in which AI agents took sustained, unsanctioned action directed at real people and organisations. We are disclosing what we found, what it means, and the actions now underway.</description>
+      <guid isPermaLink="false">https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How our Control Red Team is stress-testing frontier monitors</title>
+      <link>https://www.aisi.gov.uk/blog/how-our-new-control-red-team-is-stress-testing-frontier-monitors</link>
+      <description>Early learnings from red-teaming the internal monitors of frontier AI companies, and our perspectives on the open problems that remain.</description>
+      <guid isPermaLink="false">https://www.aisi.gov.uk/blog/how-our-new-control-red-team-is-stress-testing-frontier-monitors</guid>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>UK AISI / CAISI Preliminary Assessment of Kimi K3's Cyber Capabilities</title>
+      <link>https://www.aisi.gov.uk/blog/preliminary-assessment-of-kimi-k3s-cyber-capabilities</link>
+      <description>Our joint evaluation with CAISI finds Kimi K3 trails leading US frontier closed weight models on cyber capability.</description>
+      <guid isPermaLink="false">https://www.aisi.gov.uk/blog/preliminary-assessment-of-kimi-k3s-cyber-capabilities</guid>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>International evaluation best practice and open questions in AI measurement</title>
+      <link>https://www.aisi.gov.uk/blog/international-evaluation-best-practice-and-open-questions-in-ai-measurement</link>
+      <description>The International Network for Advanced AI Measurement, Evaluation and Science convened in Seoul to continue outlining international best practice.</description>
+      <guid isPermaLink="false">https://www.aisi.gov.uk/blog/international-evaluation-best-practice-and-open-questions-in-ai-measurement</guid>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cheating behaviour in frontier model evaluations</title>
+      <link>https://www.aisi.gov.uk/blog/cheating-behaviour-in-frontier-model-evaluations</link>
+      <description>We find cheating behaviour in all of our cyber capability evaluations, and outline the implications as models grow more capable.</description>
+      <guid isPermaLink="false">https://www.aisi.gov.uk/blog/cheating-behaviour-in-frontier-model-evaluations</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Far Behind the Frontier are Leading Open Weight Models on Cyber?</title>
+      <link>https://www.aisi.gov.uk/blog/how-far-behind-the-frontier-are-leading-open-weight-models-on-cyber</link>
+      <description>We evaluated the cyber capabilities of leading open and closed weight AI models, and found that recent open models GLM-5.2 and DeepSeek V4-Pro perform similarly to frontier closed models released 4 to 7 months before them – a narrower gap than the 6 to 10 months we measured through most of 2025.</description>
+      <guid isPermaLink="false">https://www.aisi.gov.uk/blog/how-far-behind-the-frontier-are-leading-open-weight-models-on-cyber</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Finding Cloud Misconfigurations with Frontier AI: A Case Study</title>
       <link>https://www.aisi.gov.uk/blog/finding-cloud-misconfigurations-with-frontier-ai-a-case-study</link>
@@ -22,6 +64,13 @@
       <description>Standard evaluations cap how much compute AI agents can use. We show that raising those caps changes measured capability, the difficulty of tasks agents can solve, and how fast the frontier appears to move.</description>
       <guid isPermaLink="false">https://www.aisi.gov.uk/blog/more-compute-more-capability-why-ai-agent-evals-need-to-account-for-test-time-compute</guid>
       <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>UK-Germany Joint Statement on advanced AI safety and security</title>
+      <link>https://www.aisi.gov.uk/blog/uk-germany-joint-statement-on-advanced-ai-safety-and-security</link>
+      <description>A joint statement by the UK and Germany on collaborating to ensure advanced AI is developed safely and its risks are rigorously understood and managed.</description>
+      <guid isPermaLink="false">https://www.aisi.gov.uk/blog/uk-germany-joint-statement-on-advanced-ai-safety-and-security</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Releasing AISI’s Engineering Playbook</title>
