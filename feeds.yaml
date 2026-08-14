@@ -20,6 +20,11 @@ feeds:
     type: requests
     blog_url: https://ai-first.ai/podcast
 
+  aisi:
+    script: aisi_blog.py
+    type: requests
+    blog_url: https://www.aisi.gov.uk/blog
+
   anthropic_eng:
     script: anthropic_eng_blog.py
     type: requests
@@ -74,6 +79,14 @@ feeds:
     script: far_ai_blog.py
     type: requests
     blog_url: https://www.far.ai/publications
+  eleuther_papers:
+    script: eleuther_papers_blog.py
+    type: requests
+    blog_url: https://www.eleuther.ai/papers
+  goodfire:
+    script: goodfire_blog.py
+    type: requests
+    blog_url: https://www.goodfire.ai/research
 
   google_ai:
     script: google_ai_blog.py
@@ -119,6 +132,15 @@ feeds:
     script: deeplearningai_the_batch.py
     type: requests
     blog_url: https://www.deeplearning.ai/the-batch/
+
+  transluce:
+    script: transluce_blog.py
+    type: requests
+    blog_url: https://transluce.org/research
+  timaeus:
+    script: timaeus_blog.py
+    type: requests
+    blog_url: https://timaeus.co/research
 
   weaviate:
     script: weaviate_blog.py

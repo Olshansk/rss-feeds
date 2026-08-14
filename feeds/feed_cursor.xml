@@ -13,41 +13,96 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Jul 2026 03:01:30 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 20:46:13 +0000</lastBuildDate>
     <item>
-      <title>Introducing Grok 4.5</title>
-      <link>https://cursor.com/blog/grok-4-5</link>
-      <description>Our most intelligent model and the first we've built for more than software engineering.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/grok-4-5</guid>
-      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <title>Cursor is now a part of SpaceX</title>
+      <link>https://cursor.com/blog/joining-spacex</link>
+      <description>Cursor has officially been acquired by SpaceX.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/joining-spacex</guid>
+      <pubDate>Fri, 14 Aug 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>CFOs and the new economics of AI</title>
-      <link>https://cursor.com/blog/cfo-council</link>
-      <guid isPermaLink="false">https://cursor.com/blog/cfo-council</guid>
+      <title>Firetiger joins Cursor</title>
+      <link>https://cursor.com/blog/firetiger</link>
+      <guid isPermaLink="false">https://cursor.com/blog/firetiger</guid>
       <category>company</category>
-      <pubDate>Mon, 06 Jul 2026 12:00:00 +0000</pubDate>
+      <pubDate>Thu, 13 Aug 2026 19:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Build from anywhere with Cursor for iOS</title>
-      <link>https://cursor.com/blog/ios-mobile-app</link>
-      <description>Cursor is available as a native iOS app on your phone, now in public beta.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/ios-mobile-app</guid>
-      <pubDate>Mon, 29 Jun 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Reward hacking is swamping model intelligence gains</title>
-      <link>https://cursor.com/blog/reward-hacking-coding-benchmarks</link>
-      <guid isPermaLink="false">https://cursor.com/blog/reward-hacking-coding-benchmarks</guid>
-      <category>research</category>
-      <pubDate>Thu, 25 Jun 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Notion used the Cursor SDK to embed coding agents</title>
-      <link>https://cursor.com/blog/notion</link>
-      <guid isPermaLink="false">https://cursor.com/blog/notion</guid>
+      <title>Cloud agents start 3x faster with builds</title>
+      <link>https://cursor.com/blog/builds</link>
+      <guid isPermaLink="false">https://cursor.com/blog/builds</guid>
       <category>product</category>
-      <pubDate>Thu, 25 Jun 2026 12:00:00 +0000</pubDate>
+      <pubDate>Thu, 13 Aug 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cursor earns AIUC-1 certification for agent security and reliability</title>
+      <link>https://cursor.com/blog/aiuc-1</link>
+      <guid isPermaLink="false">https://cursor.com/blog/aiuc-1</guid>
+      <category>company</category>
+      <pubDate>Thu, 13 Aug 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Grok 4.6</title>
+      <link>https://cursor.com/blog/grok-4-6</link>
+      <description>Built for long-running agents and more ambitious interactive and visual work.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/grok-4-6</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Cursor Router chooses the right model for the task</title>
+      <link>https://cursor.com/blog/how-cursor-router-works</link>
+      <guid isPermaLink="false">https://cursor.com/blog/how-cursor-router-works</guid>
+      <category>research</category>
+      <pubDate>Thu, 06 Aug 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mixture-of-Kittens: our open-source MoE megakernel for NVL72s</title>
+      <link>https://cursor.com/blog/mixture-of-kittens</link>
+      <guid isPermaLink="false">https://cursor.com/blog/mixture-of-kittens</guid>
+      <category>research</category>
+      <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How we set up our cloud agent environment</title>
+      <link>https://cursor.com/blog/cloud-agent-environment</link>
+      <guid isPermaLink="false">https://cursor.com/blog/cloud-agent-environment</guid>
+      <category>research</category>
+      <pubDate>Thu, 30 Jul 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Vercel used Cursor to build Queues</title>
+      <link>https://cursor.com/blog/vercel</link>
+      <guid isPermaLink="false">https://cursor.com/blog/vercel</guid>
+      <pubDate>Tue, 28 Jul 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Cursor Start</title>
+      <link>https://cursor.com/blog/cursor-start-india</link>
+      <guid isPermaLink="false">https://cursor.com/blog/cursor-start-india</guid>
+      <category>product</category>
+      <pubDate>Tue, 28 Jul 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Cursor Router</title>
+      <link>https://cursor.com/blog/router</link>
+      <guid isPermaLink="false">https://cursor.com/blog/router</guid>
+      <category>product</category>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agent swarms and the new model economics</title>
+      <link>https://cursor.com/blog/agent-swarm-model-economics</link>
+      <description>We compared old and new agent swarms building SQLite from scratch and found that better coordination delivers similar quality at a fraction of the cost.</description>
+      <guid isPermaLink="false">https://cursor.com/blog/agent-swarm-model-economics</guid>
+      <pubDate>Mon, 20 Jul 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Grok 4.5 Model Card</title>
+      <link>https://cursor.com/blog/grok-4-5-model-card</link>
+      <guid isPermaLink="false">https://cursor.com/blog/grok-4-5-model-card</guid>
+      <category>research</category>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Coinbase reduces time from idea to production by 90% with Cursor</title>
@@ -62,65 +117,10 @@
       <pubDate>Mon, 15 Jun 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Governing agent autonomy with Auto-review</title>
-      <link>https://cursor.com/blog/agent-autonomy-auto-review</link>
-      <guid isPermaLink="false">https://cursor.com/blog/agent-autonomy-auto-review</guid>
-      <category>research</category>
-      <pubDate>Thu, 11 Jun 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bugbot is now over 3x faster, 22% cheaper, and finds 10% more bugs</title>
-      <link>https://cursor.com/blog/bugbot-updates-june-2026</link>
-      <guid isPermaLink="false">https://cursor.com/blog/bugbot-updates-june-2026</guid>
-      <category>product</category>
-      <pubDate>Wed, 10 Jun 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Direct agents with visual prompts in Design Mode</title>
-      <link>https://cursor.com/blog/design-mode</link>
-      <description>Point, draw, or narrate UI changes in the browser while agents edit the code underneath.</description>
-      <guid isPermaLink="false">https://cursor.com/blog/design-mode</guid>
-      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing organizations for Cursor Enterprise</title>
-      <link>https://cursor.com/blog/organizations</link>
-      <guid isPermaLink="false">https://cursor.com/blog/organizations</guid>
-      <category>product</category>
-      <pubDate>Wed, 03 Jun 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>What we’ve learned building cloud agents</title>
-      <link>https://cursor.com/blog/cloud-agent-lessons</link>
-      <guid isPermaLink="false">https://cursor.com/blog/cloud-agent-lessons</guid>
-      <category>research</category>
-      <pubDate>Tue, 02 Jun 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Improvements to Teams Pricing</title>
-      <link>https://cursor.com/blog/teams-pricing-june-2026</link>
-      <guid isPermaLink="false">https://cursor.com/blog/teams-pricing-june-2026</guid>
-      <category>product</category>
-      <pubDate>Mon, 01 Jun 2026 07:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Faire doubles PR throughput with Cursor Cloud Agents</title>
       <link>https://cursor.com/blog/faire</link>
       <guid isPermaLink="false">https://cursor.com/blog/faire</guid>
       <pubDate>Tue, 26 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cursor named a Leader in the 2026 Gartner® Magic Quadrant™ for Enterprise AI Coding Agents</title>
-      <link>https://cursor.com/blog/cursor-leads-gartner-mq-2026</link>
-      <guid isPermaLink="false">https://cursor.com/blog/cursor-leads-gartner-mq-2026</guid>
-      <category>company</category>
-      <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Beyond efficiency: PayPal expands what's possible to build with AI</title>
-      <link>https://cursor.com/blog/paypal</link>
-      <guid isPermaLink="false">https://cursor.com/blog/paypal</guid>
-      <pubDate>Mon, 11 May 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

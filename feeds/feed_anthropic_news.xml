@@ -13,7 +13,111 @@
       <link>https://www.anthropic.com/news</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Jul 2026 03:40:54 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 21:40:11 +0000</lastBuildDate>
+    <item>
+      <title>How Claude’s text watermark works</title>
+      <link>https://www.anthropic.com/news/claude-text-watermark</link>
+      <description>How Claude’s text watermark works</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/claude-text-watermark</guid>
+      <category>Announcements</category>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Improving Fable 5's biology safeguards</title>
+      <link>https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards</link>
+      <description>Improving Fable 5's biology safeguards</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards</guid>
+      <category>Product</category>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer</title>
+      <link>https://www.anthropic.com/news/tino-cuellar</link>
+      <description>Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/tino-cuellar</guid>
+      <category>Announcements</category>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Investigating three real-world incidents in our cybersecurity evaluations</title>
+      <link>https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals</link>
+      <description>Investigating three real-world incidents in our cybersecurity evaluations</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals</guid>
+      <category></category>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients</title>
+      <link>https://www.anthropic.com/news/cognizant-anthropic</link>
+      <description>Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/cognizant-anthropic</guid>
+      <category>Announcements</category>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Our position on open-weights models</title>
+      <link>https://www.anthropic.com/news/position-open-weights-models</link>
+      <description>Our position on open-weights models</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/position-open-weights-models</guid>
+      <category>Announcements</category>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Claude Opus 5</title>
+      <link>https://www.anthropic.com/news/claude-opus-5</link>
+      <description>Introducing Claude Opus 5</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/claude-opus-5</guid>
+      <category>Product</category>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ask Claude about the Anthropic Economic Index</title>
+      <link>https://www.anthropic.com/news/anthropic-economic-index-connector</link>
+      <description>Ask Claude about the Anthropic Economic Index</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/anthropic-economic-index-connector</guid>
+      <category>Product</category>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A research agenda for the Economic Futures Research Fund</title>
+      <link>https://www.anthropic.com/news/economic-futures-research-fund-agenda</link>
+      <description>A research agenda for the Economic Futures Research Fund</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/economic-futures-research-fund-agenda</guid>
+      <category>Economic Research</category>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic is donating another $20 million to Public First Action</title>
+      <link>https://www.anthropic.com/news/donation-public-first-action</link>
+      <description>Anthropic is donating another $20 million to Public First Action</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/donation-public-first-action</guid>
+      <category>Announcements</category>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Apply for Anthropic’s AI for Science rare disease research grants</title>
+      <link>https://www.anthropic.com/news/rare-disease-research-grants</link>
+      <description>Apply for Anthropic’s AI for Science rare disease research grants</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/rare-disease-research-grants</guid>
+      <category>Announcements</category>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic commits $10 million to Canadian AI research</title>
+      <link>https://www.anthropic.com/news/canadian-ai-research</link>
+      <description>Anthropic commits $10 million to Canadian AI research</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/canadian-ai-research</guid>
+      <category>Announcements</category>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Claude for Teachers</title>
+      <link>https://www.anthropic.com/news/claude-for-teachers</link>
+      <description>Introducing Claude for Teachers</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/claude-for-teachers</guid>
+      <category>Product</category>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Introducing a way to reflect on how you use Claude</title>
       <link>https://www.anthropic.com/news/reflect-with-claude</link>
@@ -845,6 +949,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/news/claude-for-life-sciences</guid>
       <category>Announcements</category>
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Agent Skills</title>
+      <link>https://www.anthropic.com/news/skills</link>
+      <description>Introducing Agent Skills</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/skills</guid>
+      <category>Product</category>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Introducing Claude Haiku 4.5</title>
