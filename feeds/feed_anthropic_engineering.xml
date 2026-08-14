@@ -2,18 +2,58 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>Anthropic Engineering Blog</title>
-    <link>https://anthropic.com/engineering/feed_anthropic_engineering.xml</link>
+    <link>https://www.anthropic.com/engineering</link>
     <description>Inside the team building reliable AI systems</description>
-    <atom:link href="https://anthropic.com/engineering/feed_anthropic_engineering.xml" rel="self"/>
+    <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_engineering.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <image>
       <url>https://www.anthropic.com/images/icons/apple-touch-icon.png</url>
       <title>Anthropic Engineering Blog</title>
-      <link>https://anthropic.com/engineering/feed_anthropic_engineering.xml</link>
+      <link>https://www.anthropic.com/engineering</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Mar 2026 07:20:22 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 20:44:31 +0000</lastBuildDate>
+    <item>
+      <title>How we contain Claude across products</title>
+      <link>https://www.anthropic.com/engineering/how-we-contain-claude</link>
+      <description>As agents grow more capable, so does their potential blast radius. The engineering question is how to cap it. Here’s what we’ve learned building containment for claude.ai, Claude Code, and Cowork.\n</description>
+      <guid isPermaLink="false">https://www.anthropic.com/engineering/how-we-contain-claude</guid>
+      <category>Engineering</category>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>An update on recent Claude Code quality reports</title>
+      <link>https://www.anthropic.com/engineering/april-23-postmortem</link>
+      <description>We traced recent reports of Claude Code quality issues to three separate changes. Here's what happened and what we're changing.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/engineering/april-23-postmortem</guid>
+      <category>Engineering</category>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scaling Managed Agents: Decoupling the brain from the hands</title>
+      <link>https://www.anthropic.com/engineering/managed-agents</link>
+      <description>Harnesses encode assumptions that go stale as models improve. Managed Agents—our hosted service for long-horizon agent work—is built around interfaces that stay stable as harnesses change.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/engineering/managed-agents</guid>
+      <category>Engineering</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How we built Claude Code auto mode: a safer way to skip permissions</title>
+      <link>https://www.anthropic.com/engineering/claude-code-auto-mode</link>
+      <description>Claude Code users approve 93% of permission prompts. We built classifiers to automate some decisions, increasing safety while reducing approval fatigue. Here's what it catches, and what it misses.\n</description>
+      <guid isPermaLink="false">https://www.anthropic.com/engineering/claude-code-auto-mode</guid>
+      <category>Engineering</category>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Harness design for long-running application development</title>
+      <link>https://www.anthropic.com/engineering/harness-design-long-running-apps</link>
+      <description>Harness design is key to performance at the frontier of agentic coding. Here's how we pushed Claude further in frontend design and long-running autonomous software engineering.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/engineering/harness-design-long-running-apps</guid>
+      <category>Engineering</category>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Eval awareness in Claude Opus 4.6’s BrowseComp performance</title>
       <link>https://www.anthropic.com/engineering/eval-awareness-browsecomp</link>
@@ -27,6 +67,14 @@
       <link>https://www.anthropic.com/engineering/building-c-compiler</link>
       <description>We tasked Opus 4.6 using agent teams to build a C Compiler, and then (mostly) walked away. Here's what it taught us about the future of autonomous software development.</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/building-c-compiler</guid>
+      <category>Engineering</category>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quantifying infrastructure noise in agentic coding evals</title>
+      <link>https://www.anthropic.com/engineering/infrastructure-noise</link>
+      <description>Infrastructure configuration can swing agentic coding benchmarks by several percentage points—sometimes more than the leaderboard gap between top models.\n\n</description>
+      <guid isPermaLink="false">https://www.anthropic.com/engineering/infrastructure-noise</guid>
       <category>Engineering</category>
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
     </item>
@@ -77,6 +125,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/engineering/claude-code-sandboxing</guid>
       <category>Engineering</category>
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Equipping agents for the real world with Agent Skills</title>
+      <link>https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills</link>
+      <description>Claude is powerful, but real work requires procedural knowledge and organizational context. Introducing Agent Skills, a new way to build specialized agents using files and folders.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills</guid>
+      <category>Engineering</category>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Effective context engineering for AI agents</title>

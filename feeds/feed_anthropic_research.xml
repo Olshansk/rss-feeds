@@ -2,38 +2,105 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>Anthropic Research</title>
-    <link>https://anthropic.com/research/feed_anthropic_research.xml</link>
+    <link>https://www.anthropic.com/research</link>
     <description>Latest research from Anthropic</description>
-    <atom:link href="https://anthropic.com/research/feed_anthropic_research.xml" rel="self"/>
+    <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_research.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <image>
       <url>https://www.anthropic.com/images/icons/apple-touch-icon.png</url>
       <title>Anthropic Research</title>
-      <link>https://anthropic.com/research/feed_anthropic_research.xml</link>
+      <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Mar 2026 07:20:39 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 21:40:14 +0000</lastBuildDate>
     <item>
-      <title>Societal Impacts</title>
-      <link>https://www.anthropic.com/research/team/societal-impacts</link>
-      <description>Societal Impacts</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/team/societal-impacts</guid>
+      <title>Aug 13, 2026Frontier Red TeamPatterns and problems in emerging multiagent systems</title>
+      <link>https://www.anthropic.com/research/multiagent-systems</link>
+      <description>Aug 13, 2026Frontier Red TeamPatterns and problems in emerging multiagent systems</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/multiagent-systems</guid>
       <category>Research</category>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Interpretability</title>
-      <link>https://www.anthropic.com/research/team/interpretability</link>
-      <description>Interpretability</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/team/interpretability</guid>
+      <title>Aug 12, 2026Economic ResearchReviewing the evidence on worker retraining programs</title>
+      <link>https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs</link>
+      <description>Aug 12, 2026Economic ResearchReviewing the evidence on worker retraining programs</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs</guid>
       <category>Research</category>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Economic Research</title>
-      <link>https://www.anthropic.com/research/team/economic-research</link>
-      <description>Economic Research</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/team/economic-research</guid>
+      <title>Learning more about Claude's mathematical capabilities</title>
+      <link>https://www.anthropic.com/research/riemann-zeta</link>
+      <description>Learning more about Claude's mathematical capabilities</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/riemann-zeta</guid>
       <category>Research</category>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Jul 28, 2026Frontier Red TeamDiscovering cryptographic weaknesses with Claude</title>
+      <link>https://www.anthropic.com/research/discovering-cryptographic-weaknesses</link>
+      <description>Jul 28, 2026Frontier Red TeamDiscovering cryptographic weaknesses with Claude</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/discovering-cryptographic-weaknesses</guid>
+      <category>Research</category>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Jul 24, 2026Frontier Red TeamProject Pilot: Can AI control a drone?</title>
+      <link>https://www.anthropic.com/research/project-pilot</link>
+      <description>Jul 24, 2026Frontier Red TeamProject Pilot: Can AI control a drone?</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/project-pilot</guid>
+      <category>Research</category>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Jul 14, 2026Economic ResearchHow Canada uses Claude: Findings from the Anthropic Economic Index</title>
+      <link>https://www.anthropic.com/research/how-canada-uses-claude</link>
+      <description>Jul 14, 2026Economic ResearchHow Canada uses Claude: Findings from the Anthropic Economic Index</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/how-canada-uses-claude</guid>
+      <category>Research</category>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Jul 13, 2026Societal ImpactsClaude’s values across models and languages</title>
+      <link>https://www.anthropic.com/research/claude-values-models-languages</link>
+      <description>Jul 13, 2026Societal ImpactsClaude’s values across models and languages</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/claude-values-models-languages</guid>
+      <category>Research</category>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Jul 9, 2026Frontier Red TeamClaude plays robotics</title>
+      <link>https://www.anthropic.com/research/claude-plays-robotics</link>
+      <description>Jul 9, 2026Frontier Red TeamClaude plays robotics</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/claude-plays-robotics</guid>
+      <category>Research</category>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Jul 8, 2026AlignmentAn off switch for dual-use knowledge in AI models</title>
+      <link>https://www.anthropic.com/research/off-switch-dual-use</link>
+      <description>Jul 8, 2026AlignmentAn off switch for dual-use knowledge in AI models</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/off-switch-dual-use</guid>
+      <category>Research</category>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>InterpretabilityJul 6, 2026A global workspace in language modelsNew interpretability research reveals an emergent mental workspace in Claude that holds internal thoughts that don’t appear in the model’s output.</title>
+      <link>https://www.anthropic.com/research/global-workspace</link>
+      <description>InterpretabilityJul 6, 2026A global workspace in language modelsNew interpretability research reveals an emergent mental workspace in Claude that holds internal thoughts that don’t appear in the model’s output.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/global-workspace</guid>
+      <category>Research</category>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AlignmentMay 8, 2026Teaching Claude whyNew research on how we've reduced agentic misalignment.</title>
+      <link>https://www.anthropic.com/research/teaching-claude-why</link>
+      <description>AlignmentMay 8, 2026Teaching Claude whyNew research on how we've reduced agentic misalignment.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/teaching-claude-why</guid>
+      <category>Research</category>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Alignment</title>
@@ -41,118 +108,39 @@
       <description>Alignment</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
       <category>Research</category>
+      <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mar 5, 2026Economic ResearchLabor market impacts of AI: A new measure and early evidence</title>
-      <link>https://www.anthropic.com/research/labor-market-impacts</link>
-      <description>Mar 5, 2026Economic ResearchLabor market impacts of AI: A new measure and early evidence</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/labor-market-impacts</guid>
+      <title>Interpretability</title>
+      <link>https://www.anthropic.com/research/team/interpretability</link>
+      <description>Interpretability</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/interpretability</guid>
       <category>Research</category>
-      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Feb 25, 2026AlignmentAn update on our model deprecation commitments for Claude Opus 3</title>
-      <link>https://www.anthropic.com/research/deprecation-updates-opus-3</link>
-      <description>Feb 25, 2026AlignmentAn update on our model deprecation commitments for Claude Opus 3</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/deprecation-updates-opus-3</guid>
+      <title>Frontier Red Team</title>
+      <link>https://www.anthropic.com/research/team/frontier-red-team</link>
+      <description>Frontier Red Team</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/frontier-red-team</guid>
       <category>Research</category>
-      <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Feb 23, 2026AnnouncementsAnthropic Education Report: The AI Fluency Index</title>
-      <link>https://www.anthropic.com/research/AI-fluency-index</link>
-      <description>Feb 23, 2026AnnouncementsAnthropic Education Report: The AI Fluency Index</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/AI-fluency-index</guid>
+      <title>Economic Research</title>
+      <link>https://www.anthropic.com/research/team/economic-research</link>
+      <description>Economic Research</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/economic-research</guid>
       <category>Research</category>
-      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Feb 23, 2026AlignmentThe persona selection model</title>
-      <link>https://www.anthropic.com/research/persona-selection-model</link>
-      <description>Feb 23, 2026AlignmentThe persona selection model</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/persona-selection-model</guid>
+      <title>Societal Impacts</title>
+      <link>https://www.anthropic.com/research/team/societal-impacts</link>
+      <description>Societal Impacts</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/societal-impacts</guid>
       <category>Research</category>
-      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Feb 18, 2026Societal ImpactsMeasuring AI agent autonomy in practice</title>
-      <link>https://www.anthropic.com/research/measuring-agent-autonomy</link>
-      <description>Feb 18, 2026Societal ImpactsMeasuring AI agent autonomy in practice</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/measuring-agent-autonomy</guid>
-      <category>Research</category>
-      <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Feb 16, 2026Economic ResearchIndia Country Brief: The Anthropic Economic Index</title>
-      <link>https://www.anthropic.com/research/india-brief-economic-index</link>
-      <description>Feb 16, 2026Economic ResearchIndia Country Brief: The Anthropic Economic Index</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/india-brief-economic-index</guid>
-      <category>Research</category>
-      <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Feb 1, 2026ScienceVibe Physics: The AI Grad Student</title>
-      <link>https://www.anthropic.com/research/vibe-physics</link>
-      <description>Feb 1, 2026ScienceVibe Physics: The AI Grad Student</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/vibe-physics</guid>
-      <category>Research</category>
-      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Feb 1, 2026ScienceLLMs Conjecture, Prove, and Challenge: February 2026</title>
-      <link>https://www.anthropic.com/research/roundup-feb-2026</link>
-      <description>Feb 1, 2026ScienceLLMs Conjecture, Prove, and Challenge: February 2026</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/roundup-feb-2026</guid>
-      <category>Research</category>
-      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Feb 1, 2026ScienceLong-Running Claude for Scientific Research</title>
-      <link>https://www.anthropic.com/research/long-running-tasks</link>
-      <description>Feb 1, 2026ScienceLong-Running Claude for Scientific Research</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/long-running-tasks</guid>
-      <category>Research</category>
-      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Feb 1, 2026ScienceIntroducing the Science Blog</title>
-      <link>https://www.anthropic.com/research/introducing-anthropic-science</link>
-      <description>Feb 1, 2026ScienceIntroducing the Science Blog</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/introducing-anthropic-science</guid>
-      <category>Research</category>
-      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>PolicyDec 18, 2025Project Vend: Phase twoIn June, we revealed that we’d set up a small shop in our San Francisco office lunchroom, run by an AI shopkeeper. It was part of Project Vend, a free-form experiment exploring how well AIs could do on complex, real-world tasks. How has Claude's business been since we last wrote?</title>
-      <link>https://www.anthropic.com/research/project-vend-2</link>
-      <description>PolicyDec 18, 2025Project Vend: Phase twoIn June, we revealed that we’d set up a small shop in our San Francisco office lunchroom, run by an AI shopkeeper. It was part of Project Vend, a free-form experiment exploring how well AIs could do on complex, real-world tasks. How has Claude's business been since we last wrote?</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/project-vend-2</guid>
-      <category>Research</category>
-      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>InterpretabilityOct 29, 2025Signs of introspection in large language modelsCan Claude access and report on its own internal states? This research finds evidence for a limited but functional ability to introspect—a step toward understanding what's actually happening inside these models.</title>
-      <link>https://www.anthropic.com/research/introspection</link>
-      <description>InterpretabilityOct 29, 2025Signs of introspection in large language modelsCan Claude access and report on its own internal states? This research finds evidence for a limited but functional ability to introspect—a step toward understanding what's actually happening inside these models.</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/introspection</guid>
-      <category>Research</category>
-      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AlignmentFeb 3, 2025Constitutional Classifiers: Defending against universal jailbreaksThese classifiers filter the overwhelming majority of jailbreaks while maintaining practical deployment. A prototype withstood over 3,000 hours of red teaming with no universal jailbreak discovered.</title>
-      <link>https://www.anthropic.com/research/constitutional-classifiers</link>
-      <description>AlignmentFeb 3, 2025Constitutional Classifiers: Defending against universal jailbreaksThese classifiers filter the overwhelming majority of jailbreaks while maintaining practical deployment. A prototype withstood over 3,000 hours of red teaming with no universal jailbreak discovered.</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/constitutional-classifiers</guid>
-      <category>Research</category>
-      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AlignmentDec 18, 2024Alignment faking in large language modelsThis paper provides the first empirical example of a model engaging in alignment faking without being trained to do so—selectively complying with training objectives while strategically preserving existing preferences.</title>
-      <link>https://www.anthropic.com/research/alignment-faking</link>
-      <description>AlignmentDec 18, 2024Alignment faking in large language modelsThis paper provides the first empirical example of a model engaging in alignment faking without being trained to do so—selectively complying with training objectives while strategically preserving existing preferences.</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/alignment-faking</guid>
-      <category>Research</category>
-      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

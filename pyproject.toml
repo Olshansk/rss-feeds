@@ -1,0 +1,46 @@
+[project]
+name = "rss-feeds"
+version = "0.1.0"
+description = "RSS feed generator for blogs that don't have one"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+authors = [
+    { name = "Daniel Olshansky", email = "olshansky.daniel@gmail.com" },
+    { name = "Oliver Borchers", email = "26734737+oborchers@users.noreply.github.com" },
+]
+
+dependencies = [
+    "beautifulsoup4>=4.12",
+    "feedgen>=1.0",
+    "lxml>=5.0",
+    "python-dateutil>=2.8",
+    "pytz>=2024.1",
+    "requests>=2.31",
+    "selenium>=4.25",
+    "undetected-chromedriver>=3.5",
+    "pydantic>=2.5",
+    "pydantic-settings>=2.1",
+    "pyyaml>=6.0",
+]
+
+[project.urls]
+Repository = "https://github.com/Olshansk/rss-feeds"
+
+[dependency-groups]
+dev = ["ruff>=0.15", "pre-commit>=4.0"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 120
+src = ["feed_generators"]
+
+[tool.ruff.lint]
+select = ["F", "E", "W", "I", "N", "UP", "B", "SIM", "C4", "RUF", "PERF"]
+ignore = ["E501", "N812", "SIM108"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["utils", "models"]
+
+[tool.ruff.format]
+docstring-code-format = true

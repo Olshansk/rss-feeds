@@ -2,63 +2,52 @@ name: Run Feeds
 
 on:
   schedule:
-    - cron: "0 * * * *" # Runs every hour
+    - cron: "0 * * * *"
   workflow_dispatch:
+
+concurrency:
+  group: request-feeds
+  cancel-in-progress: true
 
 jobs:
   run-feeds:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
-          python-version: "3.11" # Use Python 3.11 to include distutils
+          python-version: "3.11"
 
       - name: Install uv
-        run: |
-          curl -LsSf https://astral.sh/uv/install.sh | sh
-          echo "$HOME/.local/bin" >> $GITHUB_PATH
+        uses: astral-sh/setup-uv@v8.0.0
+        with:
+          enable-cache: true
 
-      - name: Install system dependencies
+      - name: Install dependencies and run feeds
+        timeout-minutes: 20
         run: |
-          sudo apt-get update
-          sudo apt-get install -y software-properties-common
-          sudo add-apt-repository universe
-          sudo apt-get update
-          sudo apt-get install -y python3-setuptools
+          set -e
+          uv sync
+          uv run feed_generators/run_all_feeds.py --skip-selenium
 
-      - name: Install Chrome for Selenium
-        run: |
-          sudo apt-get install -y wget gnupg
-          wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo gpg --dearmor -o /usr/share/keyrings/google-chrome-keyring.gpg
-          echo "deb [arch=amd64 signed-by=/usr/share/keyrings/google-chrome-keyring.gpg] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
-          sudo apt-get update
-          sudo apt-get install -y google-chrome-stable
-
-      - name: Install Python dependencies and run feed generators
-        run: |
-          set -e  # Fail the step on any error
-          uv venv
-          source .venv/bin/activate
-          uv pip install -r requirements.txt
-          python feed_generators/run_all_feeds.py
-
-      - name: Commit and push feed
+      - name: Commit and push feeds
+        if: github.ref == 'refs/heads/main'
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-
-          # Add feed XML files (cache files no longer used)
           git add feeds/*.xml
-
-          # Check if there are any changes to commit
+          git stash
+          git pull --rebase || { echo "Rebase failed, aborting and retrying with merge"; git rebase --abort 2>/dev/null; git pull; }
+          git stash pop || true
+          git add feeds/*.xml
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m 'Update RSS feed'
-            git push
+            git commit -m 'Update RSS feeds'
+            git push || { git pull --rebase && git push; }
           fi

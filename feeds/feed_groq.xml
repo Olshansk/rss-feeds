@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Groq Blog</title>
+    <link>https://groq.com/blog/</link>
+    <description>LPU inference, AI infrastructure, and developer updates</description>
+    <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_groq.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 04 Aug 2026 15:46:54 +0000</lastBuildDate>
+    <item>
+      <title>Canopy Labs’ Orpheus TTS is live on GroqCloud</title>
+      <link>https://groq.com/blog/canopy-labs-orpheus-tts-is-live-on-groqcloud</link>
+      <description>Canopy Labs’ Orpheus TTS is live on GroqCloud</description>
+      <guid isPermaLink="false">https://groq.com/blog/canopy-labs-orpheus-tts-is-live-on-groqcloud</guid>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GroqCloud: Expanding to Meet Demand</title>
+      <link>https://groq.com/blog/groqcloud-expanding-to-meet-demand</link>
+      <description>GroqCloud: Expanding to Meet Demand</description>
+      <guid isPermaLink="false">https://groq.com/blog/groqcloud-expanding-to-meet-demand</guid>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Groq Recognized in 2025 Gartner® Cool Vendor in AI Infrastructure report</title>
+      <link>https://groq.com/blog/groq-recognized-gartner-cool-vendor</link>
+      <description>Groq Recognized in 2025 Gartner® Cool Vendor in AI Infrastructure report</description>
+      <guid isPermaLink="false">https://groq.com/blog/groq-recognized-gartner-cool-vendor</guid>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing MCP Connectors in Beta on GroqCloud</title>
+      <link>https://groq.com/blog/introducing-mcp-connectors-in-beta-on-groqcloud</link>
+      <description>Introducing MCP Connectors in Beta on GroqCloud</description>
+      <guid isPermaLink="false">https://groq.com/blog/introducing-mcp-connectors-in-beta-on-groqcloud</guid>
+      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Day Zero Support for OpenAI Open Safety Model</title>
+      <link>https://groq.com/blog/day-zero-support-for-openai-open-safety-model</link>
+      <description>Day Zero Support for OpenAI Open Safety Model</description>
+      <guid isPermaLink="false">https://groq.com/blog/day-zero-support-for-openai-open-safety-model</guid>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LLMs Inside the Product: A Practical Field Guide</title>
+      <link>https://groq.com/blog/llms-inside-the-product-a-practical-field-guide</link>
+      <description>LLMs Inside the Product: A Practical Field Guide</description>
+      <guid isPermaLink="false">https://groq.com/blog/llms-inside-the-product-a-practical-field-guide</guid>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GPT‑OSS Improvements: Prompt Caching &amp; Lower Pricing</title>
+      <link>https://groq.com/blog/gpt-oss-improvements-prompt-caching-and-lower-pricing</link>
+      <description>GPT‑OSS Improvements: Prompt Caching &amp; Lower Pricing</description>
+      <guid isPermaLink="false">https://groq.com/blog/gpt-oss-improvements-prompt-caching-and-lower-pricing</guid>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Remote MCP Support in Beta on GroqCloud</title>
+      <link>https://groq.com/blog/introducing-remote-mcp-support-in-beta-on-groqcloud</link>
+      <description>Introducing Remote MCP Support in Beta on GroqCloud</description>
+      <guid isPermaLink="false">https://groq.com/blog/introducing-remote-mcp-support-in-beta-on-groqcloud</guid>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Groq Names Simon Edwards Chief Financial Officer</title>
+      <link>https://groq.com/blog/groq-names-simon-edwards-chief-financial-officer</link>
+      <description>Groq Names Simon Edwards Chief Financial Officer</description>
+      <guid isPermaLink="false">https://groq.com/blog/groq-names-simon-edwards-chief-financial-officer</guid>
+      <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Groq Raises $750 Million as Inference Demand Surges</title>
+      <link>https://groq.com/blog/groq-raises-750-million-as-inference-demand-surges</link>
+      <description>Groq Raises $750 Million as Inference Demand Surges</description>
+      <guid isPermaLink="false">https://groq.com/blog/groq-raises-750-million-as-inference-demand-surges</guid>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Kimi K2‑0905 on GroqCloud</title>
+      <link>https://groq.com/blog/introducing-kimi-k2-0905-on-groqcloud</link>
+      <description>Introducing Kimi K2‑0905 on GroqCloud</description>
+      <guid isPermaLink="false">https://groq.com/blog/introducing-kimi-k2-0905-on-groqcloud</guid>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing the Next Generation of Compound on GroqCloud</title>
+      <link>https://groq.com/blog/introducing-the-next-generation-of-compound-on-groqcloud</link>
+      <description>Introducing the Next Generation of Compound on GroqCloud</description>
+      <guid isPermaLink="false">https://groq.com/blog/introducing-the-next-generation-of-compound-on-groqcloud</guid>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Prompt Caching on GroqCloud</title>
+      <link>https://groq.com/blog/introducing-prompt-caching-on-groqcloud</link>
+      <description>Introducing Prompt Caching on GroqCloud</description>
+      <guid isPermaLink="false">https://groq.com/blog/introducing-prompt-caching-on-groqcloud</guid>
+      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Day Zero Support for OpenAI Open Models</title>
+      <link>https://groq.com/blog/day-zero-support-for-openai-open-models</link>
+      <description>Day Zero Support for OpenAI Open Models</description>
+      <guid isPermaLink="false">https://groq.com/blog/day-zero-support-for-openai-open-models</guid>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Inside the LPU: Deconstructing Groq’s Speed</title>
+      <link>https://groq.com/blog/inside-the-lpu-deconstructing-groq-speed</link>
+      <description>Inside the LPU: Deconstructing Groq’s Speed</description>
+      <guid isPermaLink="false">https://groq.com/blog/inside-the-lpu-deconstructing-groq-speed</guid>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenBench: Reproducible LLM Evals Made Easy</title>
+      <link>https://groq.com/blog/openbench-open-reproducible-evals</link>
+      <description>OpenBench: Reproducible LLM Evals Made Easy</description>
+      <guid isPermaLink="false">https://groq.com/blog/openbench-open-reproducible-evals</guid>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Build Faster with Groq + Hugging Face</title>
+      <link>https://groq.com/blog/build-faster-with-groq-hugging-face</link>
+      <description>Build Faster with Groq + Hugging Face</description>
+      <guid isPermaLink="false">https://groq.com/blog/build-faster-with-groq-hugging-face</guid>
+      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GroqCloud™ Now Supports Qwen3 32B</title>
+      <link>https://groq.com/blog/groqcloud-tm-now-supports-qwen3-32b</link>
+      <description>GroqCloud™ Now Supports Qwen3 32B</description>
+      <guid isPermaLink="false">https://groq.com/blog/groqcloud-tm-now-supports-qwen3-32b</guid>
+      <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LoRA Fine-Tune Support Now Live on GroqCloud</title>
+      <link>https://groq.com/blog/introducing-groqcloud-lora-fine-tune-support-unlock-efficient-model-adaptation-for-enterprises</link>
+      <description>LoRA Fine-Tune Support Now Live on GroqCloud</description>
+      <guid isPermaLink="false">https://groq.com/blog/introducing-groqcloud-lora-fine-tune-support-unlock-efficient-model-adaptation-for-enterprises</guid>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>From Speed to Scale: How Groq Is Optimized for MoE &amp; Other Large Models</title>
+      <link>https://groq.com/blog/from-speed-to-scale-how-groq-is-optimized-for-moe-other-large-models</link>
+      <description>From Speed to Scale: How Groq Is Optimized for MoE &amp; Other Large Models</description>
+      <guid isPermaLink="false">https://groq.com/blog/from-speed-to-scale-how-groq-is-optimized-for-moe-other-large-models</guid>
+      <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Build Your Own AI Research Agent with One Groq API Call</title>
+      <link>https://groq.com/blog/how-to-build-your-own-ai-research-agent-with-one-groq-api-call</link>
+      <description>How to Build Your Own AI Research Agent with One Groq API Call</description>
+      <guid isPermaLink="false">https://groq.com/blog/how-to-build-your-own-ai-research-agent-with-one-groq-api-call</guid>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Official Llama API Now Fastest via Groq Inference</title>
+      <link>https://groq.com/blog/the-official-llama-api-accelerated-by-groq</link>
+      <description>Official Llama API Now Fastest via Groq Inference</description>
+      <guid isPermaLink="false">https://groq.com/blog/the-official-llama-api-accelerated-by-groq</guid>
+      <pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Now in Preview: Groq’s First Compound AI System</title>
+      <link>https://groq.com/blog/now-in-preview-groqs-first-compound-ai-system</link>
+      <description>Now in Preview: Groq’s First Compound AI System</description>
+      <guid isPermaLink="false">https://groq.com/blog/now-in-preview-groqs-first-compound-ai-system</guid>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Llama 4 Inference Fast &amp; Affordable – Now Live on GroqCloud</title>
+      <link>https://groq.com/blog/llama-4-now-live-on-groq-build-fast-at-the-lowest-cost-without-compromise</link>
+      <description>Llama 4 Inference Fast &amp; Affordable – Now Live on GroqCloud</description>
+      <guid isPermaLink="false">https://groq.com/blog/llama-4-now-live-on-groq-build-fast-at-the-lowest-cost-without-compromise</guid>
+      <pubDate>Sat, 05 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

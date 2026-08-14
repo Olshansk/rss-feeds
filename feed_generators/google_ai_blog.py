@@ -1,13 +1,10 @@
-import logging
 from datetime import datetime
-from pathlib import Path
 
 import pytz
-import requests
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
-from utils import setup_feed_links, sort_posts_for_feed
+from utils import fetch_page, save_rss_feed, setup_feed_links, setup_logging, sort_posts_for_feed
 
 # TODO_IMPROVE: Add caching (Pattern 2) and "Load More" pagination support.
 # Currently only fetches the first page of results. Should:
@@ -16,38 +13,19 @@ from utils import setup_feed_links, sort_posts_for_feed
 # 3. Support --full flag for full reset vs incremental updates
 # See cursor_blog.py or dagster_blog.py for reference implementation.
 
-# Set up logging
-logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
-)
-logger = logging.getLogger(__name__)
+logger = setup_logging()
+
+FEED_NAME = "google_ai"
+BLOG_URL = "https://developers.googleblog.com/search/?technology_categories=AI"
 
 
-def get_project_root():
-    """Get the project root directory."""
-    return Path(__file__).parent.parent
-
-
-def ensure_feeds_directory():
-    """Ensure the feeds directory exists."""
-    feeds_dir = get_project_root() / "feeds"
-    feeds_dir.mkdir(exist_ok=True)
-    return feeds_dir
-
-
-def fetch_blog_content(
-    url="https://developers.googleblog.com/search/?technology_categories=AI",
-):
+def fetch_blog_content(url=BLOG_URL):
     """Fetch the HTML content of the Google Developers Blog AI page."""
     try:
         logger.info(f"Fetching content from URL: {url}")
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-        }
-        response = requests.get(url, headers=headers, timeout=30)
-        response.raise_for_status()
+        html = fetch_page(url)
         logger.info("Content fetched successfully")
-        return response.text
+        return html
     except Exception as e:
         logger.error(f"Error fetching content: {e}")
         raise
@@ -56,10 +34,18 @@ def fetch_blog_content(
 def parse_date(date_str):
     """Parse date string like 'DEC. 19, 2025' to datetime object."""
     try:
-        # Remove the period after the month abbreviation
-        date_str = date_str.replace(".", "").strip()
-        # Parse the date
-        dt = datetime.strptime(date_str, "%b %d, %Y")
+        # Remove the period after the month abbreviation and normalize case
+        # e.g., "MARCH 23, 2026" -> "March 23, 2026", "DEC. 19, 2025" -> "Dec 19, 2025"
+        date_str = date_str.replace(".", "").strip().title()
+        # Try abbreviated month first, then full month name
+        for fmt in ("%b %d, %Y", "%B %d, %Y"):
+            try:
+                dt = datetime.strptime(date_str, fmt)
+                break
+            except ValueError:
+                continue
+        else:
+            raise ValueError(f"No matching date format for '{date_str}'")
         # Make it timezone-aware (UTC)
         return dt.replace(tzinfo=pytz.UTC)
     except Exception as e:
@@ -145,16 +131,12 @@ def parse_blog_posts(html_content):
     return posts
 
 
-def create_rss_feed(posts, output_file):
+def create_rss_feed(posts):
     """Create an RSS feed from the blog posts."""
     fg = FeedGenerator()
     fg.title("Google Developers Blog - AI")
     fg.description("Latest AI-related posts from Google Developers Blog")
-    setup_feed_links(
-        fg,
-        "https://developers.googleblog.com/search/?technology_categories=AI",
-        "google_ai",
-    )
+    setup_feed_links(fg, BLOG_URL, FEED_NAME)
     fg.language("en")
 
     # Sort posts for correct feed output (oldest first, feedgen reverses it)
@@ -169,23 +151,19 @@ def create_rss_feed(posts, output_file):
         # Build description with summary and image
         description = ""
         if post.get("image_url"):
-            description += (
-                f'<img src="{post["image_url"]}" alt="Featured image" /><br/><br/>'
-            )
+            description += f'<img src="{post["image_url"]}" alt="Featured image" /><br/><br/>'
         description += post["summary"]
 
         fe.description(description)
 
-        if post["date"]:
+        if post.get("date"):
             fe.published(post["date"])
             fe.updated(post["date"])
 
         if post.get("category"):
             fe.category(term=post["category"])
 
-    # Write the feed to file
-    fg.rss_file(output_file, pretty=True)
-    logger.info(f"RSS feed written to {output_file}")
+    return fg
 
 
 def main():
@@ -201,10 +179,9 @@ def main():
             logger.warning("No posts found to add to the feed")
             return
 
-        # Create RSS feed
-        feeds_dir = ensure_feeds_directory()
-        output_file = feeds_dir / "feed_google_ai.xml"
-        create_rss_feed(posts, str(output_file))
+        # Create and save RSS feed
+        fg = create_rss_feed(posts)
+        save_rss_feed(fg, FEED_NAME)
 
         logger.info("RSS feed generation completed successfully!")
 

@@ -1,51 +1,23 @@
-import requests
-from bs4 import BeautifulSoup
-from datetime import datetime, timedelta
+from datetime import datetime
+
 import pytz
+from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-import logging
-from pathlib import Path
-import re
 
-from utils import sort_posts_for_feed
+from utils import fetch_page, save_rss_feed, setup_feed_links, setup_logging, sort_posts_for_feed, stable_fallback_date
 
-# Set up logging
-logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
-)
-logger = logging.getLogger(__name__)
+logger = setup_logging()
+
+FEED_NAME = "anthropic_red"
+BLOG_URL = "https://red.anthropic.com/"
 
 
-def stable_fallback_date(identifier):
-    """Generate a stable date from a URL or title hash."""
-    hash_val = abs(hash(identifier)) % 730
-    epoch = datetime(2023, 1, 1, 0, 0, 0, tzinfo=pytz.UTC)
-    return epoch + timedelta(days=hash_val)
-
-
-def get_project_root():
-    """Get the project root directory."""
-    return Path(__file__).parent.parent
-
-
-def ensure_feeds_directory():
-    """Ensure the feeds directory exists."""
-    feeds_dir = get_project_root() / "feeds"
-    feeds_dir.mkdir(exist_ok=True)
-    return feeds_dir
-
-
-def fetch_red_content(url="https://red.anthropic.com/"):
+def fetch_red_content(url=BLOG_URL):
     """Fetch content from Anthropic's red team blog."""
     try:
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-        }
-        response = requests.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
-        return response.text
-    except requests.RequestException as e:
-        logger.error(f"Error fetching red team blog content: {str(e)}")
+        return fetch_page(url)
+    except Exception as e:
+        logger.error(f"Error fetching red team blog content: {e!s}")
         raise
 
 
@@ -72,13 +44,9 @@ def parse_date(date_text):
 def fetch_article_date(article_url):
     """Fetch the publication date from an individual article page."""
     try:
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-        }
-        response = requests.get(article_url, headers=headers, timeout=10)
-        response.raise_for_status()
+        html = fetch_page(article_url)
 
-        soup = BeautifulSoup(response.text, "html.parser")
+        soup = BeautifulSoup(html, "html.parser")
 
         # Look for date in d-article section
         article_section = soup.select_one("d-article")
@@ -96,7 +64,7 @@ def fetch_article_date(article_url):
         return None
 
     except Exception as e:
-        logger.warning(f"Error fetching article date from {article_url}: {str(e)}")
+        logger.warning(f"Error fetching article date from {article_url}: {e!s}")
         return None
 
 
@@ -107,38 +75,19 @@ def parse_red_html(html_content):
         articles = []
         seen_links = set()
 
-        # Find the table of contents container
-        toc = soup.select_one("div.toc")
-        if not toc:
-            logger.error("Could not find table of contents container")
-            return articles
+        # Find all article links across the entire page (TOC + body sections)
+        all_notes = soup.select("a.note")
+        logger.info(f"Found {len(all_notes)} potential article links")
 
-        current_date = None
+        # Build a map of date dividers for context
+        date_sections = {}
+        for date_div in soup.select("div.date"):
+            date_text = date_div.text.strip()
+            parsed = parse_date(date_text)
+            if parsed:
+                date_sections[date_text] = parsed
 
-        # Iterate through all children to process dates and articles in order
-        for elem in toc.children:
-            # Skip text nodes and non-tag elements
-            if not hasattr(elem, "name"):
-                continue
-
-            # Check if this is a date divider
-            if elem.name == "div" and "date" in elem.get("class", []):
-                date_text = elem.text.strip()
-                current_date = parse_date(date_text)
-                logger.debug(f"Found date section: {date_text}")
-                continue
-
-            # Check if this is an article link or a div containing an article link
-            article_link = None
-            if elem.name == "a" and "note" in elem.get("class", []):
-                article_link = elem
-            elif elem.name == "div":
-                # Some articles are wrapped in divs (e.g., for scheduled releases)
-                article_link = elem.select_one("a.note")
-
-            if not article_link:
-                continue
-
+        for article_link in all_notes:
             # Extract article information
             href = article_link.get("href", "")
             if not href:
@@ -171,11 +120,9 @@ def parse_red_html(html_content):
             # Fetch actual publication date from the article page
             article_date = fetch_article_date(link)
 
-            # Fallback to current date from main page if fetching fails
+            # Fallback to stable date if fetching fails
             if not article_date:
-                article_date = (
-                    current_date if current_date else stable_fallback_date(link)
-                )
+                article_date = stable_fallback_date(link)
                 logger.warning(f"Using fallback date for article: {title}")
 
             # Create article object
@@ -193,11 +140,11 @@ def parse_red_html(html_content):
         return articles
 
     except Exception as e:
-        logger.error(f"Error parsing HTML content: {str(e)}")
+        logger.error(f"Error parsing HTML content: {e!s}")
         raise
 
 
-def generate_rss_feed(articles, feed_name="anthropic_red"):
+def generate_rss_feed(articles, feed_name=FEED_NAME):
     """Generate RSS feed from red team blog articles."""
     try:
         fg = FeedGenerator()
@@ -205,7 +152,7 @@ def generate_rss_feed(articles, feed_name="anthropic_red"):
         fg.description(
             "Research from Anthropic's Frontier Red Team on what frontier AI models mean for national security"
         )
-        fg.link(href="https://red.anthropic.com/")
+        setup_feed_links(fg, BLOG_URL, feed_name)
         fg.language("en")
 
         # Set feed metadata
@@ -214,8 +161,6 @@ def generate_rss_feed(articles, feed_name="anthropic_red"):
         fg.subtitle(
             "Evidence-based analysis about AI's implications for cybersecurity, biosecurity, and autonomous systems"
         )
-        fg.link(href="https://red.anthropic.com/", rel="alternate")
-        fg.link(href=f"https://anthropic.com/feed_{feed_name}.xml", rel="self")
 
         # Sort articles for correct feed order (newest first in output)
         sorted_articles = sort_posts_for_feed(articles, date_field="date")
@@ -233,30 +178,11 @@ def generate_rss_feed(articles, feed_name="anthropic_red"):
         return fg
 
     except Exception as e:
-        logger.error(f"Error generating RSS feed: {str(e)}")
+        logger.error(f"Error generating RSS feed: {e!s}")
         raise
 
 
-def save_rss_feed(feed_generator, feed_name="anthropic_red"):
-    """Save the RSS feed to a file in the feeds directory."""
-    try:
-        # Ensure feeds directory exists and get its path
-        feeds_dir = ensure_feeds_directory()
-
-        # Create the output file path
-        output_filename = feeds_dir / f"feed_{feed_name}.xml"
-
-        # Save the feed
-        feed_generator.rss_file(str(output_filename), pretty=True)
-        logger.info(f"Successfully saved RSS feed to {output_filename}")
-        return output_filename
-
-    except Exception as e:
-        logger.error(f"Error saving RSS feed: {str(e)}")
-        raise
-
-
-def main(feed_name="anthropic_red"):
+def main(feed_name=FEED_NAME):
     """Main function to generate RSS feed from Anthropic's red team blog."""
     try:
         # Fetch blog content
@@ -273,13 +199,13 @@ def main(feed_name="anthropic_red"):
         feed = generate_rss_feed(articles, feed_name)
 
         # Save feed to file
-        output_file = save_rss_feed(feed, feed_name)
+        save_rss_feed(feed, feed_name)
 
         logger.info(f"Successfully generated RSS feed with {len(articles)} articles")
         return True
 
     except Exception as e:
-        logger.error(f"Failed to generate RSS feed: {str(e)}")
+        logger.error(f"Failed to generate RSS feed: {e!s}")
         return False
 
 

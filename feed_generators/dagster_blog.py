@@ -1,53 +1,28 @@
 import argparse
-import json
-import logging
 from datetime import datetime
-from pathlib import Path
 
 import pytz
-import requests
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
-from utils import setup_feed_links, sort_posts_for_feed
-
-# Set up logging
-logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+from utils import (
+    deserialize_entries,
+    fetch_page,
+    load_cache,
+    merge_entries,
+    save_cache,
+    save_rss_feed,
+    setup_feed_links,
+    setup_logging,
+    sort_posts_for_feed,
 )
-logger = logging.getLogger(__name__)
+
+logger = setup_logging()
 
 BLOG_URL = "https://dagster.io/blog"
 FEED_NAME = "dagster"
 # Dagster uses Webflow CMS pagination with this query param
 PAGINATION_PARAM = "a17fdf47_page"
-
-
-def get_project_root():
-    """Get the project root directory."""
-    return Path(__file__).parent.parent
-
-
-def get_cache_file():
-    """Get the cache file path."""
-    return get_project_root() / "cache" / "dagster_posts.json"
-
-
-def get_feeds_dir():
-    """Get the feeds directory path."""
-    feeds_dir = get_project_root() / "feeds"
-    feeds_dir.mkdir(exist_ok=True)
-    return feeds_dir
-
-
-def fetch_page(url):
-    """Fetch a single page HTML."""
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-    }
-    response = requests.get(url, headers=headers, timeout=30)
-    response.raise_for_status()
-    return response.text
 
 
 def parse_posts(html_content):
@@ -69,22 +44,28 @@ def parse_posts(html_content):
         if title_elem and date_elem and link_elem:
             title = title_elem.text.strip()
             date_str = date_elem.text.strip()
-            date_obj = datetime.strptime(date_str, "%B %d, %Y")
-            description = description_elem.text.strip() if description_elem else ""
-            link = link_elem.get("href", "")
+            try:
+                date_obj = datetime.strptime(date_str, "%B %d, %Y")
+            except ValueError:
+                logger.warning(f"Could not parse featured post date: {date_str}")
+                date_obj = None
 
-            if link.startswith("/"):
-                link = f"https://dagster.io{link}"
+            if date_obj:
+                description = description_elem.text.strip() if description_elem else ""
+                link = link_elem.get("href", "")
 
-            if link:
-                blog_posts.append(
-                    {
-                        "url": link,
-                        "title": title,
-                        "date": date_obj.strftime("%Y-%m-%d"),
-                        "description": description,
-                    }
-                )
+                if link.startswith("/"):
+                    link = f"https://dagster.io{link}"
+
+                if link:
+                    blog_posts.append(
+                        {
+                            "link": link,
+                            "title": title,
+                            "date": date_obj.strftime("%Y-%m-%d"),
+                            "description": description,
+                        }
+                    )
 
     # Find all regular blog post cards
     posts = soup.select("div.blog_card")
@@ -99,7 +80,11 @@ def parse_posts(html_content):
         if not date_elem:
             continue
         date_str = date_elem.text.strip()
-        date_obj = datetime.strptime(date_str, "%B %d, %Y")
+        try:
+            date_obj = datetime.strptime(date_str, "%B %d, %Y")
+        except ValueError:
+            logger.warning(f"Could not parse date: {date_str}")
+            continue
 
         description_elem = post.select_one('p[fs-cmsfilter-field="description"]')
         description = description_elem.text.strip() if description_elem else ""
@@ -114,7 +99,7 @@ def parse_posts(html_content):
 
         blog_posts.append(
             {
-                "url": link,
+                "link": link,
                 "title": title,
                 "date": date_obj.strftime("%Y-%m-%d"),
                 "description": description,
@@ -126,49 +111,6 @@ def parse_posts(html_content):
     has_next_page = next_link is not None and next_link.get("href")
 
     return blog_posts, has_next_page
-
-
-def load_cache():
-    """Load existing cache or return empty structure."""
-    cache_file = get_cache_file()
-    if cache_file.exists():
-        with open(cache_file, "r") as f:
-            data = json.load(f)
-            logger.info(f"Loaded cache with {len(data.get('posts', []))} posts")
-            return data
-    logger.info("No cache file found, will do full fetch")
-    return {"last_updated": None, "posts": []}
-
-
-def save_cache(posts):
-    """Save posts to cache file."""
-    cache_file = get_cache_file()
-    cache_file.parent.mkdir(exist_ok=True)
-    data = {
-        "last_updated": datetime.now(pytz.UTC).isoformat(),
-        "posts": posts,
-    }
-    with open(cache_file, "w") as f:
-        json.dump(data, f, indent=2)
-    logger.info(f"Saved cache with {len(posts)} posts to {cache_file}")
-
-
-def merge_posts(new_posts, cached_posts):
-    """Merge new posts into cache, dedupe by URL, sort by date desc."""
-    existing_urls = {p["url"] for p in cached_posts}
-    merged = list(cached_posts)
-
-    added_count = 0
-    for post in new_posts:
-        if post["url"] not in existing_urls:
-            merged.append(post)
-            existing_urls.add(post["url"])
-            added_count += 1
-
-    logger.info(f"Added {added_count} new posts to cache")
-
-    # Sort for correct feed order (newest first in output)
-    return sort_posts_for_feed(merged, date_field="date")
 
 
 def fetch_all_pages():
@@ -196,9 +138,9 @@ def fetch_all_pages():
     seen = set()
     unique_posts = []
     for post in all_posts:
-        if post["url"] not in seen:
+        if post["link"] not in seen:
             unique_posts.append(post)
-            seen.add(post["url"])
+            seen.add(post["link"])
 
     # Sort for correct feed order (newest first in output)
     sorted_posts = sort_posts_for_feed(unique_posts, date_field="date")
@@ -223,27 +165,20 @@ def generate_rss_feed(posts):
         fe = fg.add_entry()
         fe.title(post["title"])
         fe.description(post["description"])
-        fe.link(href=post["url"])
-        fe.id(post["url"])
+        fe.link(href=post["link"])
+        fe.id(post["link"])
 
         if post.get("date"):
             try:
-                dt = datetime.strptime(post["date"], "%Y-%m-%d")
-                fe.published(dt.replace(tzinfo=pytz.UTC))
-            except ValueError:
+                dt = post["date"] if isinstance(post["date"], datetime) else datetime.strptime(post["date"], "%Y-%m-%d")
+                if dt.tzinfo is None:
+                    dt = dt.replace(tzinfo=pytz.UTC)
+                fe.published(dt)
+            except (ValueError, TypeError):
                 pass
 
     logger.info(f"Generated RSS feed with {len(posts)} entries")
     return fg
-
-
-def save_rss_feed(feed_generator):
-    """Save the RSS feed to a file in the feeds directory."""
-    feeds_dir = get_feeds_dir()
-    output_file = feeds_dir / f"feed_{FEED_NAME}.xml"
-    feed_generator.rss_file(str(output_file), pretty=True)
-    logger.info(f"Saved RSS feed to {output_file}")
-    return output_file
 
 
 def main(full_reset=False):
@@ -253,9 +188,10 @@ def main(full_reset=False):
         full_reset: If True, fetch all pages. If False, only fetch page 1
                    and merge with cached posts.
     """
-    cache = load_cache()
+    cache = load_cache(FEED_NAME)
+    cached_entries = deserialize_entries(cache.get("entries", []))
 
-    if full_reset or not cache["posts"]:
+    if full_reset or not cached_entries:
         mode = "full reset" if full_reset else "no cache exists"
         logger.info(f"Running full fetch ({mode})")
         posts = fetch_all_pages()
@@ -264,11 +200,15 @@ def main(full_reset=False):
         html = fetch_page(BLOG_URL)
         new_posts, _ = parse_posts(html)
         logger.info(f"Found {len(new_posts)} posts on page 1")
-        posts = merge_posts(new_posts, cache["posts"])
+        posts = merge_entries(new_posts, cached_entries)
 
-    save_cache(posts)
+    if not posts:
+        logger.warning("No posts fetched — skipping feed update to avoid overwriting with empty feed")
+        return False
+
+    save_cache(FEED_NAME, posts)
     feed = generate_rss_feed(posts)
-    save_rss_feed(feed)
+    save_rss_feed(feed, FEED_NAME)
 
     logger.info("Done!")
     return True
@@ -276,8 +216,6 @@ def main(full_reset=False):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate Dagster Blog RSS feed")
-    parser.add_argument(
-        "--full", action="store_true", help="Force full reset (fetch all pages)"
-    )
+    parser.add_argument("--full", action="store_true", help="Force full reset (fetch all pages)")
     args = parser.parse_args()
     main(full_reset=args.full)

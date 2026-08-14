@@ -1,57 +1,35 @@
-# Workflow for manual test of feed generation (testing only)
 name: Test Feed Generation
 
-# Trigger: manual only (no schedule)
 on:
-  workflow_dispatch: # Only runs when triggered manually
+  workflow_dispatch:
 
 jobs:
   test-feed:
-    # This job is for testing purposes only
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
-      # Checkout the repository code
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v6
 
-      # Set up Python 3.11 environment
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v6
         with:
-          python-version: "3.11" # Ensure compatibility with dependencies
+          python-version: "3.11"
 
-      # Install required system dependencies
-      - name: Install system dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y software-properties-common
-          sudo add-apt-repository universe
-          sudo apt-get update
-          sudo apt-get install -y python3-setuptools
-
-      # Install Python dependencies
-      - name: Install Python dependencies
-        run: |
-          python -m venv venv
-          source venv/bin/activate
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
-      # Run test_blog.py only, outputting to feed_test.xml
-      - name: Run test_blog.py and output to feed_test.xml
-        run: |
-          set -e  # Fail the step on any error
-          source venv/bin/activate
-          python feed_generators/test_blog.py --output feed_test.xml
-
-      # (Optional) Upload the test output as an artifact for inspection
-      - name: Upload feed_test.xml artifact
-        uses: actions/upload-artifact@v2
+      - name: Install uv
+        uses: astral-sh/setup-uv@v8.0.0
         with:
-          name: feed_test.xml
-          path: feed_test.xml
-# Notes:
-# - This workflow is intended for testing only and will not run automatically.
-# - It executes only test_blog.py and outputs to feed_test.xml.
-# - Use workflow_dispatch to trigger manually from the Actions tab.
+          enable-cache: true
+
+      - name: Install dependencies and run test feed
+        run: |
+          set -e
+          uv sync
+          uv run feed_generators/ollama_blog.py
+
+      - name: Upload test feed artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: feed_test
+          path: feeds/feed_ollama.xml

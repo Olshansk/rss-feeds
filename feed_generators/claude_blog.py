@@ -3,24 +3,26 @@
 
 import argparse
 import html
-import json
-import logging
 import re
 from datetime import datetime
-from pathlib import Path
 
 import pytz
 import requests
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
-from utils import setup_feed_links, sort_posts_for_feed
-
-# Set up logging
-logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+from utils import (
+    deserialize_entries,
+    load_cache,
+    merge_entries,
+    save_cache,
+    save_rss_feed,
+    setup_feed_links,
+    setup_logging,
+    sort_posts_for_feed,
 )
-logger = logging.getLogger(__name__)
+
+logger = setup_logging()
 
 BLOG_URL = "https://claude.com/blog"
 FEED_NAME = "claude"
@@ -30,30 +32,16 @@ DATE_PATTERN = re.compile(
     r"(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+\d{4}"
 )
 
-
-def get_project_root():
-    """Get the project root directory."""
-    return Path(__file__).parent.parent
-
-
-def get_cache_file():
-    """Get the cache file path."""
-    return get_project_root() / "cache" / "claude_posts.json"
-
-
-def get_feeds_dir():
-    """Get the feeds directory path."""
-    feeds_dir = get_project_root() / "feeds"
-    feeds_dir.mkdir(exist_ok=True)
-    return feeds_dir
+# Claude blog requires a custom header for Webflow/Finsweet
+CLAUDE_HEADERS = {
+    "X-Webflow-App-ID": "finsweet",
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36",
+}
 
 
 def fetch_page(url):
     """Fetch a single page HTML with Finsweet header."""
-    headers = {
-        "X-Webflow-App-ID": "finsweet",
-        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36",
-    }
+    headers = CLAUDE_HEADERS
     response = requests.get(url, headers=headers, timeout=30)
     response.raise_for_status()
     return response.text
@@ -146,7 +134,7 @@ def parse_posts(html_content):
             if description:
                 description = html.unescape(description)
             posts_by_url[full_url] = {
-                "url": full_url,
+                "link": full_url,
                 "title": title,
                 "date": date_obj.strftime("%Y-%m-%d") if date_obj else None,
                 "category": category,
@@ -154,49 +142,6 @@ def parse_posts(html_content):
             }
 
     return list(posts_by_url.values())
-
-
-def load_cache():
-    """Load existing cache or return empty structure."""
-    cache_file = get_cache_file()
-    if cache_file.exists():
-        with open(cache_file, "r") as f:
-            data = json.load(f)
-            logger.info(f"Loaded cache with {len(data.get('posts', []))} posts")
-            return data
-    logger.info("No cache file found, will do full fetch")
-    return {"last_updated": None, "posts": []}
-
-
-def save_cache(posts):
-    """Save posts to cache file."""
-    cache_file = get_cache_file()
-    cache_file.parent.mkdir(exist_ok=True)
-    data = {
-        "last_updated": datetime.now(pytz.UTC).isoformat(),
-        "posts": posts,
-    }
-    with open(cache_file, "w") as f:
-        json.dump(data, f, indent=2)
-    logger.info(f"Saved cache with {len(posts)} posts to {cache_file}")
-
-
-def merge_posts(new_posts, cached_posts):
-    """Merge new posts into cache, dedupe by URL, sort by date desc."""
-    existing_urls = {p["url"] for p in cached_posts}
-    merged = list(cached_posts)
-
-    added_count = 0
-    for post in new_posts:
-        if post["url"] not in existing_urls:
-            merged.append(post)
-            existing_urls.add(post["url"])
-            added_count += 1
-
-    logger.info(f"Added {added_count} new posts to cache")
-
-    # Sort for correct feed order (newest first in output)
-    return sort_posts_for_feed(merged, date_field="date")
 
 
 def fetch_all_pages():
@@ -207,7 +152,7 @@ def fetch_all_pages():
     logger.info(f"Found {len(all_posts)} posts on main page")
 
     # Get unique post URLs to track duplicates
-    seen_urls = {p["url"] for p in all_posts}
+    seen_urls = {p["link"] for p in all_posts}
 
     # Extract pagination collection IDs
     collection_ids = extract_pagination_ids(html_content)
@@ -228,7 +173,7 @@ def fetch_all_pages():
                 break
 
             page_posts = parse_posts(page_html)
-            new_posts = [p for p in page_posts if p["url"] not in seen_urls]
+            new_posts = [p for p in page_posts if p["link"] not in seen_urls]
 
             if not new_posts:
                 consecutive_empty += 1
@@ -237,7 +182,7 @@ def fetch_all_pages():
                 consecutive_empty = 0
                 logger.info(f"  Found {len(new_posts)} new posts")
                 all_posts.extend(new_posts)
-                seen_urls.update(p["url"] for p in new_posts)
+                seen_urls.update(p["link"] for p in new_posts)
 
             page += 1
 
@@ -270,30 +215,23 @@ def generate_rss_feed(posts):
         fe = fg.add_entry()
         fe.title(post["title"])
         fe.description(post["description"])
-        fe.link(href=post["url"])
-        fe.id(post["url"])
+        fe.link(href=post["link"])
+        fe.id(post["link"])
 
         if post.get("category"):
             fe.category(term=post["category"])
 
         if post.get("date"):
             try:
-                dt = datetime.strptime(post["date"], "%Y-%m-%d")
-                fe.published(dt.replace(tzinfo=pytz.UTC))
-            except ValueError:
+                dt = post["date"] if isinstance(post["date"], datetime) else datetime.strptime(post["date"], "%Y-%m-%d")
+                if dt.tzinfo is None:
+                    dt = dt.replace(tzinfo=pytz.UTC)
+                fe.published(dt)
+            except (ValueError, TypeError):
                 pass
 
     logger.info(f"Generated RSS feed with {len(posts)} entries")
     return fg
-
-
-def save_rss_feed(feed_generator):
-    """Save the RSS feed to a file in the feeds directory."""
-    feeds_dir = get_feeds_dir()
-    output_file = feeds_dir / f"feed_{FEED_NAME}.xml"
-    feed_generator.rss_file(str(output_file), pretty=True)
-    logger.info(f"Saved RSS feed to {output_file}")
-    return output_file
 
 
 def main(full_reset=False):
@@ -303,9 +241,10 @@ def main(full_reset=False):
         full_reset: If True, fetch all pages. If False, only fetch page 1
                    and merge with cached posts.
     """
-    cache = load_cache()
+    cache = load_cache(FEED_NAME)
+    cached_entries = deserialize_entries(cache.get("entries", []))
 
-    if full_reset or not cache["posts"]:
+    if full_reset or not cached_entries:
         mode = "full reset" if full_reset else "no cache exists"
         logger.info(f"Running full fetch ({mode})")
         posts = fetch_all_pages()
@@ -314,11 +253,15 @@ def main(full_reset=False):
         html_content = fetch_page(BLOG_URL)
         new_posts = parse_posts(html_content)
         logger.info(f"Found {len(new_posts)} posts on page 1")
-        posts = merge_posts(new_posts, cache["posts"])
+        posts = merge_entries(new_posts, cached_entries)
 
-    save_cache(posts)
+    if not posts:
+        logger.warning("No posts fetched — skipping feed update to avoid overwriting with empty feed")
+        return False
+
+    save_cache(FEED_NAME, posts)
     feed = generate_rss_feed(posts)
-    save_rss_feed(feed)
+    save_rss_feed(feed, FEED_NAME)
 
     logger.info("Done!")
     return True
@@ -326,8 +269,6 @@ def main(full_reset=False):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate Claude Blog RSS feed")
-    parser.add_argument(
-        "--full", action="store_true", help="Force full reset (fetch all pages)"
-    )
+    parser.add_argument("--full", action="store_true", help="Force full reset (fetch all pages)")
     args = parser.parse_args()
     main(full_reset=args.full)
