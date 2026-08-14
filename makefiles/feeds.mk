@@ -64,6 +64,31 @@ feeds_eleuther_papers: ## Generate RSS feed for EleutherAI Papers
 	$(call print_info,Generating EleutherAI Papers feed)
 	$(Q)uv run feed_generators/eleuther_papers_blog.py
 	$(call print_success,EleutherAI Papers feed generated)
+.PHONY: feeds_goodfire
+feeds_goodfire: ## Generate RSS feed for Goodfire Research
+	$(call check_venv)
+	$(call print_info,Generating Goodfire feed)
+	$(Q)uv run feed_generators/goodfire_blog.py
+	$(call print_success,Goodfire feed generated)
+.PHONY: feeds_transluce
+feeds_transluce: ## Generate RSS feed for Transluce Research
+	$(call check_venv)
+	$(call print_info,Generating Transluce feed)
+	$(Q)uv run feed_generators/transluce_blog.py
+	$(call print_success,Transluce feed generated)
+.PHONY: feeds_timaeus
+feeds_timaeus: ## Generate RSS feed for Timaeus Research
+	$(call check_venv)
+	$(call print_info,Generating Timaeus feed)
+	$(Q)uv run feed_generators/timaeus_blog.py
+	$(call print_success,Timaeus feed generated)
+
+.PHONY: feeds_aisi
+feeds_aisi: ## Generate RSS feed for AISI Blog
+	$(call check_venv)
+	$(call print_info,Generating AISI Blog feed)
+	$(Q)uv run feed_generators/aisi_blog.py
+	$(call print_success,AISI Blog feed generated)
 
 .PHONY: feeds_google_ai
 feeds_google_ai: ## Generate RSS feed for Google AI Blog

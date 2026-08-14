@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Jul 2026 03:01:34 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 15:46:54 +0000</lastBuildDate>
     <item>
       <title>Canopy Labs’ Orpheus TTS is live on GroqCloud</title>
       <link>https://groq.com/blog/canopy-labs-orpheus-tts-is-live-on-groqcloud</link>
@@ -22,13 +22,6 @@
       <description>GroqCloud: Expanding to Meet Demand</description>
       <guid isPermaLink="false">https://groq.com/blog/groqcloud-expanding-to-meet-demand</guid>
       <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Advancing the American AI Stack</title>
-      <link>https://groq.com/blog/advancingamericanai</link>
-      <description>Advancing the American AI Stack</description>
-      <guid isPermaLink="false">https://groq.com/blog/advancingamericanai</guid>
-      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Groq Recognized in 2025 Gartner® Cool Vendor in AI Infrastructure report</title>
@@ -71,6 +64,20 @@
       <description>Introducing Remote MCP Support in Beta on GroqCloud</description>
       <guid isPermaLink="false">https://groq.com/blog/introducing-remote-mcp-support-in-beta-on-groqcloud</guid>
       <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Groq Names Simon Edwards Chief Financial Officer</title>
+      <link>https://groq.com/blog/groq-names-simon-edwards-chief-financial-officer</link>
+      <description>Groq Names Simon Edwards Chief Financial Officer</description>
+      <guid isPermaLink="false">https://groq.com/blog/groq-names-simon-edwards-chief-financial-officer</guid>
+      <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Groq Raises $750 Million as Inference Demand Surges</title>
+      <link>https://groq.com/blog/groq-raises-750-million-as-inference-demand-surges</link>
+      <description>Groq Raises $750 Million as Inference Demand Surges</description>
+      <guid isPermaLink="false">https://groq.com/blog/groq-raises-750-million-as-inference-demand-surges</guid>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Introducing Kimi K2‑0905 on GroqCloud</title>
@@ -169,13 +176,6 @@
       <description>Llama 4 Inference Fast &amp; Affordable – Now Live on GroqCloud</description>
       <guid isPermaLink="false">https://groq.com/blog/llama-4-now-live-on-groq-build-fast-at-the-lowest-cost-without-compromise</guid>
       <pubDate>Sat, 05 Apr 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Build Fast with Text-to-Speech AI – Dialog Model on Groq</title>
-      <link>https://groq.com/blog/build-fast-with-text-to-speech</link>
-      <description>Build Fast with Text-to-Speech AI – Dialog Model on Groq</description>
-      <guid isPermaLink="false">https://groq.com/blog/build-fast-with-text-to-speech</guid>
-      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
