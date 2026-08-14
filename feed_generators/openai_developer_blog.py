@@ -1,6 +1,5 @@
 import logging
 from datetime import datetime
-from pathlib import Path
 
 import pytz
 import requests
@@ -12,9 +11,7 @@ from utils import get_feeds_dir, setup_feed_links, sort_posts_for_feed
 FEED_NAME = "openai_developer"
 BLOG_URL = "https://developers.openai.com/blog"
 
-logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
-)
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
 
 

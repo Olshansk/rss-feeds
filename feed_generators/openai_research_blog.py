@@ -11,9 +11,7 @@ BLOG_URL = "https://openai.com/news/research/"
 CATEGORY = "Research"
 FEED_NAME = "openai_research"
 
-logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
-)
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
 
 
@@ -83,11 +81,7 @@ def generate_rss_feed(posts: list[dict]) -> FeedGenerator:
     fg.language("en")
 
     # Sort posts by date, newest first (handle None dates)
-    sorted_posts = sorted(
-        posts,
-        key=lambda p: p["date"] if p["date"] else "1970-01-01",
-        reverse=True
-    )
+    sorted_posts = sorted(posts, key=lambda p: p["date"] if p["date"] else "1970-01-01", reverse=True)
 
     for post in sorted_posts:
         fe = fg.add_entry()
