@@ -65,6 +65,13 @@ feeds_timaeus: ## Generate RSS feed for Timaeus Research
 	$(Q)uv run feed_generators/timaeus_blog.py
 	$(call print_success,Timaeus feed generated)
 
+.PHONY: feeds_aisi
+feeds_aisi: ## Generate RSS feed for AISI Blog
+	$(call check_venv)
+	$(call print_info,Generating AISI Blog feed)
+	$(Q)uv run feed_generators/aisi_blog.py
+	$(call print_success,AISI Blog feed generated)
+
 .PHONY: feeds_google_ai
 feeds_google_ai: ## Generate RSS feed for Google AI Blog
 	$(call check_venv)
