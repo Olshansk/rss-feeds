@@ -20,6 +20,11 @@ feeds:
     type: requests
     blog_url: https://ai-first.ai/podcast
 
+  aisi:
+    script: aisi_blog.py
+    type: requests
+    blog_url: https://www.aisi.gov.uk/blog
+
   anthropic_eng:
     script: anthropic_eng_blog.py
     type: requests
@@ -119,6 +124,10 @@ feeds:
     script: transluce_blog.py
     type: requests
     blog_url: https://transluce.org/research
+  timaeus:
+    script: timaeus_blog.py
+    type: requests
+    blog_url: https://timaeus.co/research
 
   weaviate:
     script: weaviate_blog.py

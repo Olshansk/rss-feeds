@@ -4,10 +4,28 @@ import sys
 import xml.etree.ElementTree as ET
 from datetime import UTC, datetime
 from email.utils import parsedate_to_datetime
+from itertools import pairwise
 from pathlib import Path
 
 STALE_THRESHOLD_DAYS = 60
 FEEDS_DIR = Path(__file__).parent.parent / "feeds"
+
+
+def _dated_items_are_newest_first(items) -> bool:
+    """Return whether parseable item dates are ordered newest-first."""
+    dates = []
+    for item in items:
+        pub_date = item.find("pubDate")
+        if pub_date is None or not pub_date.text:
+            continue
+        try:
+            parsed_date = parsedate_to_datetime(pub_date.text)
+            if parsed_date.tzinfo is None:
+                parsed_date = parsed_date.replace(tzinfo=UTC)
+            dates.append(parsed_date)
+        except (TypeError, ValueError):
+            continue
+    return all(previous >= current for previous, current in pairwise(dates))
 
 
 def validate_feed(feed_path):
@@ -39,6 +57,15 @@ def validate_feed(feed_path):
             "newest_date": None,
             "status": "EMPTY",
             "message": "0 items",
+        }
+
+    if not _dated_items_are_newest_first(items):
+        return {
+            "name": name,
+            "item_count": item_count,
+            "newest_date": None,
+            "status": "ERROR",
+            "message": f"{item_count} items, dated items are not newest-first",
         }
 
     # Find newest pubDate
