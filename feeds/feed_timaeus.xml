@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Timaeus - Research</title>
+    <link>https://timaeus.co/research</link>
+    <description>Research publications from Timaeus</description>
+    <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_timaeus.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 11 Jul 2026 02:19:43 +0000</lastBuildDate>
+    <item>
+      <title>Spectroscopy at Scale: Finding Interpretable Structure in Pythia-1.4B</title>
+      <link>https://timaeus.co/research/2026-04-21-spectroscopy-main</link>
+      <description>Murfet et al.</description>
+      <guid isPermaLink="false">https://timaeus.co/research/2026-04-21-spectroscopy-main</guid>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Patterning: The Dual of Interpretability</title>
+      <link>https://timaeus.co/research/2026-01-20-patterning</link>
+      <description>Wang and Murfet</description>
+      <guid isPermaLink="false">https://timaeus.co/research/2026-01-20-patterning</guid>
+      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Towards Spectroscopy: Susceptibility Clusters in Language Models</title>
+      <link>https://timaeus.co/research/2026-01-19-towards-spectroscopy</link>
+      <description>Gordon et al.</description>
+      <guid isPermaLink="false">https://timaeus.co/research/2026-01-19-towards-spectroscopy</guid>
+      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Stagewise Reinforcement Learning and the Geometry of the Regret Landscape</title>
+      <link>https://timaeus.co/research/2026-01-12-stagewise-reinforcement-learning</link>
+      <description>Elliott et al.</description>
+      <guid isPermaLink="false">https://timaeus.co/research/2026-01-12-stagewise-reinforcement-learning</guid>
+      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Compressibility Measures Complexity: Minimum Description Length Meets Singular Learning Theory</title>
+      <link>https://timaeus.co/research/2025-10-13-smdl</link>
+      <description>Urdshals et al.</description>
+      <guid isPermaLink="false">https://timaeus.co/research/2025-10-13-smdl</guid>
+      <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Influence Dynamics and Stagewise Data Attribution</title>
+      <link>https://timaeus.co/research/2025-10-05-influence-dynamics</link>
+      <description>Lee et al.</description>
+      <guid isPermaLink="false">https://timaeus.co/research/2025-10-05-influence-dynamics</guid>
+      <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bayesian Influence Functions for Hessian-Free Data Attribution</title>
+      <link>https://timaeus.co/research/2025-09-30-bayesian-influence</link>
+      <description>Kreer et al.</description>
+      <guid isPermaLink="false">https://timaeus.co/research/2025-09-30-bayesian-influence</guid>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Loss Kernel: A Geometric Probe for Deep Learning Interpretability</title>
+      <link>https://timaeus.co/research/2025-09-30-the-loss-kernel</link>
+      <description>Adam et al.</description>
+      <guid isPermaLink="false">https://timaeus.co/research/2025-09-30-the-loss-kernel</guid>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Embryology of a Language Model</title>
+      <link>https://timaeus.co/research/2025-08-01-embryology-of-a-language-model</link>
+      <description>Wang et al.</description>
+      <guid isPermaLink="false">https://timaeus.co/research/2025-08-01-embryology-of-a-language-model</guid>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>From Global to Local: A Scalable Benchmark for Local Posterior Sampling</title>
+      <link>https://timaeus.co/research/2025-07-29-local-posterior-sampling</link>
+      <description>Hitchcock and Hoogland</description>
+      <guid isPermaLink="false">https://timaeus.co/research/2025-07-29-local-posterior-sampling</guid>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Modes of Sequence Models and Learning Coefficients</title>
+      <link>https://timaeus.co/research/2025-04-25-modes</link>
+      <description>Chen and Murfet</description>
+      <guid isPermaLink="false">https://timaeus.co/research/2025-04-25-modes</guid>
+      <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Structural Inference: Interpreting Small Language Models with Susceptibilities</title>
+      <link>https://timaeus.co/research/2025-04-25-susceptibilities</link>
+      <description>Baker et al.</description>
+      <guid isPermaLink="false">https://timaeus.co/research/2025-04-25-susceptibilities</guid>
+      <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Programs as Singularities</title>
+      <link>https://timaeus.co/research/2025-04-10-programs-as-singularities</link>
+      <description>Murfet and Troiani</description>
+      <guid isPermaLink="false">https://timaeus.co/research/2025-04-10-programs-as-singularities</guid>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>You Are What You Eat – AI Alignment Requires Understanding How Data Shapes Structure and Generalisation</title>
+      <link>https://timaeus.co/research/2025-02-08-position</link>
+      <description>Lehalleur et al.</description>
+      <guid isPermaLink="false">https://timaeus.co/research/2025-02-08-position</guid>
+      <pubDate>Sat, 08 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Structure Development in List-Sorting Transformers</title>
+      <link>https://timaeus.co/research/2025-01-30-list-sorting</link>
+      <description>Urdshals and Urdshals · ICML SMUNN Workshop</description>
+      <guid isPermaLink="false">https://timaeus.co/research/2025-01-30-list-sorting</guid>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dynamics of Transient Structure in In-Context Linear Regression Transformers</title>
+      <link>https://timaeus.co/research/2025-01-29-transient-structure</link>
+      <description>Carroll et al.</description>
+      <guid isPermaLink="false">https://timaeus.co/research/2025-01-29-transient-structure</guid>
+      <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Differentiation and Specialization of Attention Heads via the Refined Local Learning Coefficient</title>
+      <link>https://timaeus.co/research/2024-10-04-differentiation-and-specialization</link>
+      <description>Wang et al. · ICLR · Spotlight</description>
+      <guid isPermaLink="false">https://timaeus.co/research/2024-10-04-differentiation-and-specialization</guid>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Loss Landscape Degeneracy and Stagewise Development of Transformers</title>
+      <link>https://timaeus.co/research/2024-02-04-developmental-landscape</link>
+      <description>Hoogland et al. · TMLR · Best Paper at 2024 ICML HiLD Workshop</description>
+      <guid isPermaLink="false">https://timaeus.co/research/2024-02-04-developmental-landscape</guid>
+      <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Local Learning Coefficient: A Singularity-Aware Complexity Measure</title>
+      <link>https://timaeus.co/research/2023-08-23-quantifying-degeneracy</link>
+      <description>Lau et al. · AISTATS 2025</description>
+      <guid isPermaLink="false">https://timaeus.co/research/2023-08-23-quantifying-degeneracy</guid>
+      <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
