@@ -1,0 +1,426 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>The Cohere Blog</title>
+    <link>https://cohere.com/blog</link>
+    <description>Enterprise AI research and product updates from Cohere</description>
+    <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_cohere.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <image>
+      <url>https://cohere.com/favicon.ico</url>
+      <title>The Cohere Blog</title>
+      <link>https://cohere.com/blog</link>
+    </image>
+    <language>en</language>
+    <lastBuildDate>Fri, 14 Aug 2026 20:46:12 +0000</lastBuildDate>
+    <item>
+      <title>Cohere advances sovereign AI capabilities with NVIDIA</title>
+      <link>https://cohere.com/blog/cohere-sovereign-ai-nvidia</link>
+      <description>NVIDIA ecosystem-native model and local North instance will meet growing market demand for secure, privately run AI systems  
+</description>
+      <guid isPermaLink="false">https://cohere.com/blog/cohere-sovereign-ai-nvidia</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Mon, 16 Mar 2026 16:28:39 -0400</pubDate>
+    </item>
+    <item>
+      <title>The advantages of AI in business</title>
+      <link>https://cohere.com/blog/advantage-of-ai-in-business</link>
+      <description>The advantages of AI in business</description>
+      <guid isPermaLink="false">https://cohere.com/blog/advantage-of-ai-in-business</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Tue, 03 Mar 2026 11:37:13 -0500</pubDate>
+    </item>
+    <item>
+      <title>Cohere Labs Launches Tiny Aya, Making Multilingual AI Accessible</title>
+      <link>https://cohere.com/blog/cohere-labs-tiny-aya</link>
+      <description>Cohere Labs Launches Tiny Aya, Making Multilingual AI Accessible</description>
+      <guid isPermaLink="false">https://cohere.com/blog/cohere-labs-tiny-aya</guid>
+      <category>Research</category>
+      <pubDate>Tue, 17 Feb 2026 04:00:07 -0500</pubDate>
+    </item>
+    <item>
+      <title>Cohere signs world chess champion Magnus Carlsen as brand ambassador</title>
+      <link>https://cohere.com/blog/cohere-signs-world-chess-champion-magnus-carlsen</link>
+      <description>Carlsen will bring his iconic reputation and strategic thinking to strengthen the company's brand and mission</description>
+      <guid isPermaLink="false">https://cohere.com/blog/cohere-signs-world-chess-champion-magnus-carlsen</guid>
+      <category>Company News</category>
+      <pubDate>Fri, 13 Feb 2026 09:14:41 -0500</pubDate>
+    </item>
+    <item>
+      <title>Introducing Model Vault: Your private platform for secure and scalable model inference</title>
+      <link>https://cohere.com/blog/model-vault</link>
+      <description>Model Vault simplifies serving and scaling Cohere models, so teams can focus on building, not infrastructure. </description>
+      <guid isPermaLink="false">https://cohere.com/blog/model-vault</guid>
+      <category>Product Launch</category>
+      <pubDate>Wed, 28 Jan 2026 08:59:42 -0500</pubDate>
+    </item>
+    <item>
+      <title>How the Cohere Labs open research community turns early-career researchers into global leaders</title>
+      <link>https://cohere.com/blog/how-the-cohere-labs-open-research-community-turns-early-career-researchers-into-global-leaders</link>
+      <description>Cohere Labs' open research community empowers early-career researchers like Ram Kadiyala and Jebish Purbey to become global leaders in AI research through mentorship, collaboration, and inclusive opportunities.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/how-the-cohere-labs-open-research-community-turns-early-career-researchers-into-global-leaders</guid>
+      <category>Research</category>
+      <pubDate>Thu, 15 Jan 2026 07:05:20 -0500</pubDate>
+    </item>
+    <item>
+      <title>How a Community Effort is Teaching AI to See Africa’s Richness</title>
+      <link>https://cohere.com/blog/afriaya</link>
+      <description>AfriAya, a vision-language dataset, addresses Africa’s underrepresentation in AI. Created by Ugandan engineers, it builds on Aya improving AI’s recognition of African cultures, covering 13 languages, with plans to expand. Part of Cohere Labs’ inclusion efforts, it aims for cultural robustness in AI.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/afriaya</guid>
+      <category>Research</category>
+      <pubDate>Tue, 16 Dec 2025 07:00:03 -0500</pubDate>
+    </item>
+    <item>
+      <title>Introducing Rerank 4: Cohere’s most powerful reranker yet</title>
+      <link>https://cohere.com/blog/rerank-4</link>
+      <description>A milestone in search and retrieval, offering unmatched accuracy and speed for enterprise applications.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/rerank-4</guid>
+      <category>Product Launch</category>
+      <pubDate>Thu, 11 Dec 2025 11:50:00 -0500</pubDate>
+    </item>
+    <item>
+      <title>Building trust in AI: Cohere’s approach to AI governance</title>
+      <link>https://cohere.com/blog/building-trust-in-ai-coheres-approach-to-ai-governance</link>
+      <description>Cohere’s AI governance frameworks, practices, and policies direct and guide the responsible development and use of our AI models and systems. </description>
+      <guid isPermaLink="false">https://cohere.com/blog/building-trust-in-ai-coheres-approach-to-ai-governance</guid>
+      <category>Secure AI</category>
+      <pubDate>Wed, 10 Dec 2025 13:07:51 -0500</pubDate>
+    </item>
+    <item>
+      <title>Connect 2025: Why Collaboration is the Ultimate Research Superpower</title>
+      <link>https://cohere.com/blog/connect-2025</link>
+      <description>Connect 2025: Why Collaboration is the Ultimate Research Superpower</description>
+      <guid isPermaLink="false">https://cohere.com/blog/connect-2025</guid>
+      <category>Research</category>
+      <pubDate>Mon, 08 Dec 2025 11:22:06 -0500</pubDate>
+    </item>
+    <item>
+      <title>Cohere expands partnership with SAP to provide Europe sovereign AI solutions</title>
+      <link>https://cohere.com/blog/cohere-expands-partnership-with-sap</link>
+      <description>SAP brings North to its Sovereign Cloud, bringing European enterprises and governments efficient, secure and powerful agentic AI.
+</description>
+      <guid isPermaLink="false">https://cohere.com/blog/cohere-expands-partnership-with-sap</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Thu, 27 Nov 2025 06:39:25 -0500</pubDate>
+    </item>
+    <item>
+      <title>HIPAA Business Associate agreements for custom model development</title>
+      <link>https://cohere.com/blog/hipaa-business-associate-agreements-for-custom-model-development</link>
+      <description>We are pleased to offer a HIPAA-compliant Business Associate agreement (BAA) to enable customers across the healthcare industry to work with us to develop secure custom models that meet their specific business needs.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/hipaa-business-associate-agreements-for-custom-model-development</guid>
+      <category>Company News</category>
+      <pubDate>Thu, 13 Nov 2025 09:07:33 -0500</pubDate>
+    </item>
+    <item>
+      <title>Making data transfer in LLM systems faster, leaner, and more scalable</title>
+      <link>https://cohere.com/blog/making-data-transfer-in-llm-systems-faster-leaner-and-more-scalable</link>
+      <description>Introducing Shared Memory IPC Caching — a high-performance caching mechanism contributed by Cohere to the vLLM project.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/making-data-transfer-in-llm-systems-faster-leaner-and-more-scalable</guid>
+      <category>AI for Developers</category>
+      <pubDate>Wed, 12 Nov 2025 09:37:42 -0500</pubDate>
+    </item>
+    <item>
+      <title>Securing AI supply chains: Cohere’s commitment to model signing</title>
+      <link>https://cohere.com/blog/securing-ai-supply-chains-coheres-commitment-to-model-signing</link>
+      <description>Cohere has implemented model signing for all Cohere Command models hosted on Hugging Face to improve integrity and authenticity efforts.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/securing-ai-supply-chains-coheres-commitment-to-model-signing</guid>
+      <category>AI for Developers</category>
+      <pubDate>Thu, 30 Oct 2025 11:02:22 -0400</pubDate>
+    </item>
+    <item>
+      <title>Announcing the Cohere Partner Program: Boosting enterprise AI</title>
+      <link>https://cohere.com/blog/cohere-partner-program-boosting-enterprise-ai</link>
+      <description>Today, we are proud to announce the launch of the Cohere Partner Program, a new initiative designed to help our partners innovate faster, expand market impact, and lead the next wave of enterprise AI. </description>
+      <guid isPermaLink="false">https://cohere.com/blog/cohere-partner-program-boosting-enterprise-ai</guid>
+      <category>Partner</category>
+      <pubDate>Tue, 07 Oct 2025 09:53:39 -0400</pubDate>
+    </item>
+    <item>
+      <title>Cohere adds $100M in second close to latest round as it scales security-first enterprise AI</title>
+      <link>https://cohere.com/blog/september-2025-funding-round</link>
+      <description>Additional funding supports our growing global operations and development of frontier enterprise AI technology.
+</description>
+      <guid isPermaLink="false">https://cohere.com/blog/september-2025-funding-round</guid>
+      <category>Company News</category>
+      <pubDate>Wed, 24 Sep 2025 08:55:36 -0400</pubDate>
+    </item>
+    <item>
+      <title>Exploring AI in Education</title>
+      <link>https://cohere.com/blog/exploring-ai-in-education</link>
+      <description>Using Cohere Grants to transform students into AI builders.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/exploring-ai-in-education</guid>
+      <category>Research</category>
+      <pubDate>Tue, 23 Sep 2025 15:23:41 -0400</pubDate>
+    </item>
+    <item>
+      <title>Cohere opens Paris office as EMEA hub</title>
+      <link>https://cohere.com/blog/paris-office</link>
+      <description>Cohere strengthens presence in Paris with additions of VP of EMEA and Head of EMEA Public Policy. </description>
+      <guid isPermaLink="false">https://cohere.com/blog/paris-office</guid>
+      <category>Company News</category>
+      <pubDate>Mon, 15 Sep 2025 07:56:38 -0400</pubDate>
+    </item>
+    <item>
+      <title>AI adoption for national security: Modernizing defense</title>
+      <link>https://cohere.com/blog/ai-for-national-security</link>
+      <description>Second Front’s chief data scientist sees data security and LLM explainability as fundamental to overcoming government caution over AI adoption.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/ai-for-national-security</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Tue, 09 Sep 2025 09:40:28 -0400</pubDate>
+    </item>
+    <item>
+      <title>Command A Translate: Secure translation for global enterprises</title>
+      <link>https://cohere.com/blog/command-a-translate</link>
+      <description>The new industry standard for secure, enterprise-ready machine translation.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/command-a-translate</guid>
+      <category>Product Launch</category>
+      <pubDate>Thu, 28 Aug 2025 10:55:25 -0400</pubDate>
+    </item>
+    <item>
+      <title>Command A Reasoning: Enterprise-grade control for AI agents</title>
+      <link>https://cohere.com/blog/command-a-reasoning</link>
+      <description>Securely powering enterprise applications with exceptional reasoning performance, efficiency, and controllability.
+</description>
+      <guid isPermaLink="false">https://cohere.com/blog/command-a-reasoning</guid>
+      <category>Product Launch</category>
+      <pubDate>Thu, 21 Aug 2025 10:50:26 -0400</pubDate>
+    </item>
+    <item>
+      <title>Cohere deepens partnership with the Government of Canada</title>
+      <link>https://cohere.com/blog/cohere-partnership-canada-government</link>
+      <description>Cohere and Government of Canada sign Memorandum of Understanding to transform the public sector with sovereign AI. 
+</description>
+      <guid isPermaLink="false">https://cohere.com/blog/cohere-partnership-canada-government</guid>
+      <category>Public Sector</category>
+      <pubDate>Tue, 19 Aug 2025 08:03:24 -0400</pubDate>
+    </item>
+    <item>
+      <title>Building AI agents in finance: Reshaping financial services</title>
+      <link>https://cohere.com/blog/ai-agents-for-financial-services</link>
+      <description>Financial teams are unlocking a new era of compliance, efficiency, and customer trust—powered by AI agents.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/ai-agents-for-financial-services</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Fri, 15 Aug 2025 05:32:15 -0400</pubDate>
+    </item>
+    <item>
+      <title>Elo ratings beyond arena-style evaluations</title>
+      <link>https://cohere.com/blog/elo-ratings-beyond-arena-style-evaluations</link>
+      <description>Insights and best practices for using Elo scoring methods for evaluation leaderboards.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/elo-ratings-beyond-arena-style-evaluations</guid>
+      <category>Research</category>
+      <pubDate>Fri, 15 Aug 2025 01:00:57 -0400</pubDate>
+    </item>
+    <item>
+      <title>Cohere raises $500M at $6.8B valuation to accelerate enterprise efficiency with agentic AI</title>
+      <link>https://cohere.com/blog/august-2025-funding-round</link>
+      <description>Fresh funding enables Cohere to accelerate its global expansion and build the next generation of secure enterprise and sovereign AI solutions.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/august-2025-funding-round</guid>
+      <category>Company News</category>
+      <pubDate>Thu, 14 Aug 2025 09:59:06 -0400</pubDate>
+    </item>
+    <item>
+      <title>Modernizing freedom of information (FOI) request systems with AI</title>
+      <link>https://cohere.com/blog/foi-systems-with-ai-agents</link>
+      <description>Freedom of information (FOI) request systems need support. The manual, rule-based nature of the FOI process makes them a prime candidate for AI automation in the public sector.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/foi-systems-with-ai-agents</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Fri, 08 Aug 2025 07:38:24 -0400</pubDate>
+    </item>
+    <item>
+      <title>Introducing North: The next era of enterprise AI</title>
+      <link>https://cohere.com/blog/north-ga</link>
+      <description>North enables enterprises that prioritize data security to deploy AI agents and automations at scale within their own infrastructure.
+</description>
+      <guid isPermaLink="false">https://cohere.com/blog/north-ga</guid>
+      <category>Product Launch</category>
+      <pubDate>Wed, 06 Aug 2025 08:57:19 -0400</pubDate>
+    </item>
+    <item>
+      <title>Introducing Command A Vision: Multimodal AI built for business</title>
+      <link>https://cohere.com/blog/command-a-vision</link>
+      <description>Command A Vision excels across enterprise image understanding tasks while keeping a low compute footprint.
+</description>
+      <guid isPermaLink="false">https://cohere.com/blog/command-a-vision</guid>
+      <category>Product Launch</category>
+      <pubDate>Thu, 31 Jul 2025 09:55:06 -0400</pubDate>
+    </item>
+    <item>
+      <title>Navigating the global push for sovereign AI</title>
+      <link>https://cohere.com/blog/global-push-for-sovereign-ai</link>
+      <description>Sovereign AI is driving a shift toward secure, locally tailored solutions, redefining global AI innovation and control.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/global-push-for-sovereign-ai</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Wed, 30 Jul 2025 11:28:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>Cohere and Bell partner to deliver sovereign AI</title>
+      <link>https://cohere.com/blog/bell-partnership</link>
+      <description>Bell Canada and Cohere announced a strategic partnership to provide full-stack sovereign AI solutions for government and enterprise customers across Canada.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/bell-partnership</guid>
+      <category>Company News</category>
+      <pubDate>Mon, 28 Jul 2025 12:45:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>Secure and responsible AI for Europe</title>
+      <link>https://cohere.com/blog/secure-and-responsible-ai-for-europe</link>
+      <description>Announcing Cohere’s intention to sign the EU AI Act Code of Practice for General Purpose AI Models.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/secure-and-responsible-ai-for-europe</guid>
+      <category>#security-page</category>
+      <pubDate>Thu, 24 Jul 2025 09:10:37 -0400</pubDate>
+    </item>
+    <item>
+      <title>Legal work with AI: The DraftWise story</title>
+      <link>https://cohere.com/blog/legal-work-with-ai-the-draftwise-story</link>
+      <description>Transforming legal workflows through innovative and secure AI solutions.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/legal-work-with-ai-the-draftwise-story</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Wed, 23 Jul 2025 11:38:23 -0400</pubDate>
+    </item>
+    <item>
+      <title>코히어, 서울에 APAC 허브 설립 발표</title>
+      <link>https://cohere.com/blog/seoul-office</link>
+      <description>새로운 서울 허브를 바탕으로 아시아 태평양 지역으로 확장
+</description>
+      <guid isPermaLink="false">https://cohere.com/blog/seoul-office</guid>
+      <category>Company News</category>
+      <pubDate>Mon, 14 Jul 2025 19:56:06 -0400</pubDate>
+    </item>
+    <item>
+      <title>AI benchmarks: A business guide to effective evaluation</title>
+      <link>https://cohere.com/blog/ai-benchmarks-for-business</link>
+      <description>Public AI benchmarks are necessary but far from sufficient. Companies need to build evaluation systems that reflect real-world complexity and business needs.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/ai-benchmarks-for-business</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Tue, 08 Jul 2025 09:09:09 -0400</pubDate>
+    </item>
+    <item>
+      <title>Cohere ouvre un bureau à Montréal</title>
+      <link>https://cohere.com/blog/montreal-office</link>
+      <description>Aujourd'hui, nous étendons notre présence au Canada avec l'ouverture d'un nouveau bureau de Cohere à Montréal.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/montreal-office</guid>
+      <category>Company News</category>
+      <pubDate>Thu, 03 Jul 2025 09:59:07 -0400</pubDate>
+    </item>
+    <item>
+      <title>The AI advantage: How financial institutions win with AI</title>
+      <link>https://cohere.com/blog/how-financial-institutions-win-with-ai-infographic</link>
+      <description>This infographic explores how AI is transforming financial services. Learn about productivity gains, operational efficiencies, and the steps financial leaders are taking to win with AI.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/how-financial-institutions-win-with-ai-infographic</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Thu, 03 Jul 2025 07:28:51 -0400</pubDate>
+    </item>
+    <item>
+      <title>Security risks in AI supply chains</title>
+      <link>https://cohere.com/blog/security-risks-in-ai-supply-chains</link>
+      <description>A new report by the Coalition for Secure AI details the unfamiliar threats from the data, models, and infrastructure that underpin AI, and how enterprises can tackle them.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/security-risks-in-ai-supply-chains</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Tue, 01 Jul 2025 07:10:20 -0400</pubDate>
+    </item>
+    <item>
+      <title>Bringing secure AI to critical systems</title>
+      <link>https://cohere.com/blog/secure-ai-to-critical-systems</link>
+      <description>AI security needs to be tightly woven into the solutions that organizations adopt and the way they adopt them, rather than being treated as an add-on.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/secure-ai-to-critical-systems</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Mon, 30 Jun 2025 05:58:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>Cohere achieves ISO 42001 and ISO 27001 certifications</title>
+      <link>https://cohere.com/blog/iso-42001-and-iso-27001-certifications</link>
+      <description>Achieving these milestones marks Cohere’s commitment to meet the highest global standards in cybersecurity and responsible AI for our customers.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/iso-42001-and-iso-27001-certifications</guid>
+      <category>Product Launch</category>
+      <pubDate>Fri, 27 Jun 2025 10:10:46 -0400</pubDate>
+    </item>
+    <item>
+      <title>Enterprise AI security challenges and solutions</title>
+      <link>https://cohere.com/blog/ai-security-challenges-and-solutions-webinar</link>
+      <description>Empowering enterprises to innovate with confidence in the AI era.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/ai-security-challenges-and-solutions-webinar</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Thu, 19 Jun 2025 06:45:22 -0400</pubDate>
+    </item>
+    <item>
+      <title>Cohere partners with Canada and UK Governments on secure AI</title>
+      <link>https://cohere.com/blog/canada-uk-government-partnerships</link>
+      <description>Canada and the UK will leverage Cohere's secure AI technology to enhance government services and national sovereignty.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/canada-uk-government-partnerships</guid>
+      <category>Public Sector</category>
+      <pubDate>Sun, 15 Jun 2025 12:04:19 -0400</pubDate>
+    </item>
+    <item>
+      <title>Defining AI automation: A new kind of workplace</title>
+      <link>https://cohere.com/blog/ai-automation</link>
+      <description>Learn how to develop an enterprise AI strategy with our step-by-step template and choose the best AI approach for your company.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/ai-automation</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Fri, 13 Jun 2025 08:21:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>Cohere and Ensemble partner to bring agentic AI to healthcare</title>
+      <link>https://cohere.com/blog/ensemble-partnership</link>
+      <description>Ensemble will use North by Cohere to enhance healthcare revenue cycle management with secure AI.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/ensemble-partnership</guid>
+      <category>Healthcare &amp; Life Sciences</category>
+      <pubDate>Tue, 10 Jun 2025 09:00:59 -0400</pubDate>
+    </item>
+    <item>
+      <title>Secure AI: How to safeguard your AI systems</title>
+      <link>https://cohere.com/blog/secure-ai</link>
+      <description>Learn how to secure your AI systems, identify potential risks, and explore frameworks and best practices to protect your AI models and data.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/secure-ai</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Thu, 05 Jun 2025 11:39:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>Cohere and Second Front bring secure AI to the public sector</title>
+      <link>https://cohere.com/blog/second-front-partnership</link>
+      <description>Cohere is partnering with Second Front to deliver secure AI solutions that bolster government services and national security</description>
+      <guid isPermaLink="false">https://cohere.com/blog/second-front-partnership</guid>
+      <category>Public Sector</category>
+      <pubDate>Wed, 04 Jun 2025 08:55:33 -0400</pubDate>
+    </item>
+    <item>
+      <title>AI in finance: Navigating compliance, efficiency, and scale</title>
+      <link>https://cohere.com/blog/ai-for-financial-institutions-webinar</link>
+      <description>Discover how AI can drive innovation, efficiency, and value creation in your financial institution.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/ai-for-financial-institutions-webinar</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Tue, 03 Jun 2025 06:48:50 -0400</pubDate>
+    </item>
+    <item>
+      <title>AI customer experience: Shaping engagement with businesses</title>
+      <link>https://cohere.com/blog/ai-customer-experience</link>
+      <description>Discover how different AI solutions help enhance customer interactions by improving personalization, automation, and proactive services.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/ai-customer-experience</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Mon, 02 Jun 2025 06:13:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>AI agents: Driving productivity at work</title>
+      <link>https://cohere.com/blog/enterprise-ai-agents-infographic</link>
+      <description>This infographic explores how AI agents boost workplace productivity by automating tasks, improving decision-making, and empowering teams.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/enterprise-ai-agents-infographic</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Mon, 02 Jun 2025 04:31:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>Master agentic AI deployment</title>
+      <link>https://cohere.com/blog/agentic-ai-deployment</link>
+      <description>Enable faster agentic AI deployment with secure, customized, and efficient solutions.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/agentic-ai-deployment</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Fri, 30 May 2025 08:40:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>Five ways to modernize manufacturing with AI</title>
+      <link>https://cohere.com/blog/manufacturing-and-supply-chain-with-ai</link>
+      <description>From ensuring compliance to working with legacy systems, here are five ways manufacturers can overcome AI adoption challenges.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/manufacturing-and-supply-chain-with-ai</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Wed, 28 May 2025 07:52:04 -0400</pubDate>
+    </item>
+  </channel>
+</rss>

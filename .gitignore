@@ -1,5 +1,4 @@
 # Byte-compiled / optimized / DLL files
-G
 __pycache__/
 *.py[cod]
 *$py.class
@@ -182,3 +181,25 @@ cython_debug/
 
 # Cache (keep .gitkeep but ignore JSON cache files)
 cache/*.json
+
+# Agent tool configs (ignore contents, whitelist skill symlinks)
+.claude/*
+!.claude/skills/
+.claude/skills/*
+!.claude/skills/cmd-rss-feed-generator
+!.claude/skills/rss-feed-review
+.codex/*
+!.codex/skills/
+.codex/skills/*
+!.codex/skills/cmd-rss-feed-generator
+!.codex/skills/rss-feed-review
+.codex-home/*
+!.codex-home/skills/
+.codex-home/skills/*
+!.codex-home/skills/cmd-rss-feed-generator
+!.codex-home/skills/rss-feed-review
+
+# Agent skills evals (never commit)
+.agents/skills/*/evals/
+
+PR_DESCRIPTION.md

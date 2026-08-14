@@ -2,18 +2,82 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>Anthropic Frontier Red Team Blog</title>
-    <link>https://anthropic.com/feed_anthropic_red.xml</link>
+    <link>https://red.anthropic.com/</link>
     <description>Evidence-based analysis about AI's implications for cybersecurity, biosecurity, and autonomous systems</description>
-    <atom:link href="https://anthropic.com/feed_anthropic_red.xml" rel="self"/>
+    <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_red.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <image>
       <url>https://www.anthropic.com/images/icons/apple-touch-icon.png</url>
       <title>Anthropic Frontier Red Team Blog</title>
-      <link>https://anthropic.com/feed_anthropic_red.xml</link>
+      <link>https://red.anthropic.com/</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Feb 2026 20:09:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 21:38:16 +0000</lastBuildDate>
+    <item>
+      <title>Measuring LLMs' Impact on N-day Exploits</title>
+      <link>https://red.anthropic.com/2026/n-days/</link>
+      <description>In cybersecurity, a large fraction of real-world harm comes from N-days: vulnerabilities that have
+                    already been publicly disclosed, but only patched on some devices. In this post, we evaluate how
+                    much large language models can accelerate and automate the process of developing N-day exploits.</description>
+      <guid isPermaLink="false">https://red.anthropic.com/2026/n-days/</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mapping AI-enabled cyber threats: Insights from the LLM ATT&amp;CK Navigator</title>
+      <link>https://red.anthropic.com/2026/attack-navigator/</link>
+      <description>We’ve spent the past year investigating how threat actors are weaponizing AI to conduct cyber
+                        operations. Today, we’re sharing a new analysis that maps these real-world attacks onto the
+                        MITRE ATT&amp;CK framework, a database of tactics and techniques used by cyberattackers. We
+                        partnered with Verizon to include some of these results in the 2026 Verizon Data Breach
+                        Investigation Report (DBIR), and are publishing this report to offer a longer-form analysis of
+                        trends we are seeing in AI-enabled cyber operations.</description>
+      <guid isPermaLink="false">https://red.anthropic.com/2026/attack-navigator/</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Measuring LLMs' Ability to Develop Exploits</title>
+      <link>https://red.anthropic.com/2026/exploit-evals/</link>
+      <description>On two new, challenging academic benchmarks measuring AI models’ ability to develop exploits
+                        (ExploitBench and ExploitGym) and an updated version of the benchmark measuring smart contract
+                        exploitation (SCONE-bench), we have found that Mythos Preview consistently outperforms all other
+                        evaluated models. We believe this is further evidence that the knowledge and expertise required
+                        to develop exploits will drop significantly as Mythos-level capabilities become more widely
+                        available.</description>
+      <guid isPermaLink="false">https://red.anthropic.com/2026/exploit-evals/</guid>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Assessing Claude Mythos Preview’s cybersecurity capabilities</title>
+      <link>https://red.anthropic.com/2026/mythos-preview/</link>
+      <description>Claude Mythos Preview is a new general-purpose language model that is
+                        strikingly capable at computer security tasks. This post provides technical details for
+                        researchers
+                        and practitioners who want to understand exactly how we have been testing this model, and what
+                        we
+                        have found over the past month. We hope this will show why we view this as a watershed moment
+                        for
+                        security, and why we have chosen to begin a coordinated effort to reinforce the world’s cyber
+                        defenses.</description>
+      <guid isPermaLink="false">https://red.anthropic.com/2026/mythos-preview/</guid>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Partnering with Mozilla to improve Firefox’s security</title>
+      <link>https://red.anthropic.com/2026/firefox/</link>
+      <description>In a collaboration with researchers at Mozilla, Claude Opus
+                        4.6 discovered 22 Firefox vulnerabilities over the course of two weeks.</description>
+      <guid isPermaLink="false">https://red.anthropic.com/2026/firefox/</guid>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reverse engineering Claude's CVE-2026-2796 exploit</title>
+      <link>https://red.anthropic.com/2026/exploit/</link>
+      <description>This post dives deep into how Claude wrote an exploit for one of the vulnerabilities it found in
+                        Firefox.</description>
+      <guid isPermaLink="false">https://red.anthropic.com/2026/exploit/</guid>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>LLM-discovered 0-days</title>
       <link>https://red.anthropic.com/2026/zero-days/</link>
@@ -154,6 +218,14 @@
                     attacks on networks with dozens of hosts when equipped with a novel toolkit.</description>
       <guid isPermaLink="false">https://red.anthropic.com/2025/cyber-toolkits/index.html</guid>
       <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Coordinated Vulnerability Disclosure Dashboard</title>
+      <link>https://red.anthropic.com/2026/cvd/</link>
+      <description>A regularly updated record of vulnerabilities found by Anthropic and reported to maintainers
+                        with cryptographic commitments to each finding at the time of disclosure.</description>
+      <guid isPermaLink="false">https://red.anthropic.com/2026/cvd/</guid>
+      <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

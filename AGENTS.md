@@ -17,6 +17,7 @@ Instructions for Claude Code and contributors working on this repository.
   - [Step 4: Test Locally](#step-4-test-locally)
   - [Step 5: Register the Feed](#step-5-register-the-feed)
   - [Step 6: PR Checklist](#step-6-pr-checklist)
+- [Deprecating a Feed](#deprecating-a-feed)
 - [Troubleshooting](#troubleshooting)
 - [GitHub Actions](#github-actions)
 
@@ -28,19 +29,21 @@ RSS Feed Generator creates RSS feeds for blogs that don't provide them natively.
 
 ```bash
 # Environment setup
-make env_install          # Create venv and install dependencies (uses uv)
-source .venv/bin/activate # Activate virtual environment
+make env_setup            # Install dependencies (uses uv sync)
+make dev_setup            # Install dev dependencies + pre-commit hooks
 
 # Generate feeds
 make feeds_generate_all   # Run all feed generators
 make feeds_<name>         # Run specific feed (e.g., feeds_ollama, feeds_anthropic_news)
 
 # Development
-make dev_format           # Format code with black and isort
+make dev_lint             # Check code with ruff
+make dev_lint_fix         # Auto-fix and format with ruff
+make dev_format           # Alias for dev_lint_fix
 make dev_test_feed        # Run test feed generator
 
 # Run single generator directly
-python feed_generators/ollama_blog.py
+uv run feed_generators/ollama_blog.py
 
 # CI/CD
 make ci_trigger_feeds_workflow    # Trigger GitHub Action manually
@@ -97,7 +100,7 @@ For blogs with "Load More" or pagination that uses URL query params (`?page=2`).
 
 For JS-heavy sites where content loads dynamically via JavaScript button clicks.
 
-**Examples**: `anthropic_news_blog.py` (reference implementation), `anthropic_research_blog.py`, `openai_research_blog.py`
+**Examples**: `anthropic_news_blog.py` (reference implementation), `anthropic_research_blog.py`, `openai_research_blog.py`, `xainews_blog.py`
 
 **Key functions**:
 - `setup_selenium_driver()` - Headless Chrome with `undetected-chromedriver`
@@ -123,6 +126,7 @@ For JS-heavy sites where content loads dynamically via JavaScript button clicks.
 | All posts on single page | Simple Static | `ollama_blog.py` | No |
 | URL-based pagination (`?page=2`) | Pagination + Caching | `dagster_blog.py` | Yes |
 | JS button loads more content | Selenium + Click | `anthropic_news_blog.py` | Yes |
+| JS-rendered page (curl returns empty shell) | Selenium + Wait | `xainews_blog.py` | Yes |
 
 **Key libraries**: `requests`, `beautifulsoup4`, `feedgen`, `selenium`, `undetected-chromedriver`
 
@@ -176,7 +180,7 @@ curl -o sample.html "https://example.com/blog"
 Use Claude Code with the generator prompt:
 
 ```bash
-Use @cmd_rss_feed_generator.md to convert @sample.html to a RSS feed for https://example.com/blog
+Use /cmd-rss-feed-generator to convert @sample.html to a RSS feed for https://example.com/blog
 ```
 
 Claude will:
@@ -188,17 +192,16 @@ Claude will:
 
 ```bash
 # Install dependencies
-make env_install
-source .venv/bin/activate
+make env_setup
 
 # Run the generator
-python feed_generators/<source>_blog.py
+uv run feed_generators/<source>_blog.py
 
 # Verify output
 cat feeds/feed_<source>.xml | head -50
 
 # For paginated feeds, test full fetch
-python feed_generators/<source>_blog.py --full
+uv run feed_generators/<source>_blog.py --full
 ```
 
 **Verify**:
@@ -209,34 +212,78 @@ python feed_generators/<source>_blog.py --full
 
 ### Step 5: Register the Feed
 
-1. **Add Make target** in `makefiles/feeds.mk`:
+1. **Add to `feeds.yaml`** (the feed registry):
+   ```yaml
+   <source>:
+     script: <source>_blog.py
+     type: requests  # or "selenium" for JS-heavy sites
+     blog_url: https://example.com/blog
+   ```
+
+2. **Add Make target** in `makefiles/feeds.mk`:
    ```makefile
    .PHONY: feeds_<source>
    feeds_<source>: ## Generate RSS feed for <Source Name>
    	$(call check_venv)
    	$(call print_info,Generating <Source Name> feed)
-   	$(Q)python feed_generators/<source>_blog.py
+   	$(Q)uv run feed_generators/<source>_blog.py
    	$(call print_success,<Source Name> feed generated)
    ```
 
-2. **Update README.md table** (alphabetical order):
+3. **Update README.md table** (alphabetical order):
    ```markdown
    | [Source Name](https://example.com/blog) | [feed_<source>.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_<source>.xml) |
    ```
-
-3. **Add to `run_all_feeds.py`** if not auto-discovered
 
 ### Step 6: PR Checklist
 
 Before submitting your PR, verify:
 
 - [ ] `make dev_format` passes (code formatting)
-- [ ] `python feed_generators/<source>_blog.py` runs without errors
+- [ ] `uv run feed_generators/<source>_blog.py` runs without errors
 - [ ] `feeds/feed_<source>.xml` is generated and valid
+- [ ] Feed registered in `feeds.yaml`
 - [ ] Make target added to `makefiles/feeds.mk`
 - [ ] README.md table updated
 - [ ] For paginated/dynamic feeds: cache file created in `cache/` on first run
 - [ ] Feed `<link>` points to original blog (not the XML feed URL)
+
+## Deprecating a Feed
+
+When a blog launches an official RSS feed (or we otherwise decide to retire a scraper), follow the two-stage retirement process. Stage 1 is manual and lands in a single PR. Stage 2 is automated.
+
+### Stage 1: Inject the notice and tear down the code (manual, one PR)
+
+1. **Inject a sunset notice into the feed XML**:
+   ```bash
+   uv run feed_generators/deprecate_feed.py \
+       --feed=<name> \
+       --message="Site X now publishes an official RSS feed." \
+       --alternative="https://example.com/feed.xml"
+   ```
+   This adds a single `<item>` at the top of `feeds/feed_<name>.xml` with a stable GUID (so repeated runs are idempotent). Subscribers see the notice in their reader the next time they poll the feed.
+
+2. **Remove everything except the XML**, in the same PR:
+   - Delete `feed_generators/<name>_blog.py`.
+   - Remove the `<name>:` entry from `feeds.yaml`.
+   - Remove the `feeds_<name>` target (and any `_full` variant) from `makefiles/feeds.mk`.
+   - Remove the `<name>` row from the README table (or update it to point at the official feed only).
+   - `cache/<name>_posts.json` is gitignored; nothing to do there.
+
+3. **Leave `feeds/feed_<name>.xml`** in place. It now carries the notice as its newest `<item>` plus the historical posts. Subscribers can read both.
+
+### Stage 2: Automatic deletion (workflow, ~90 days later)
+
+`.github/workflows/cleanup_deprecated_feeds.yml` runs monthly. It invokes `feed_generators/cleanup_deprecated_feeds.py --apply`, which scans `feeds/feed_*.xml` for the `deprecation-notice-<name>` GUID, parses the notice's `<pubDate>`, and deletes any XML whose notice is older than 90 days. The deletion is committed to `main` directly; git history preserves the file for recovery.
+
+To preview what would be removed without touching anything:
+```bash
+uv run feed_generators/cleanup_deprecated_feeds.py
+```
+To force-test deletion locally (reversible with `git checkout`):
+```bash
+uv run feed_generators/cleanup_deprecated_feeds.py --apply --threshold-days=0
+```
 
 ## Troubleshooting
 
@@ -261,7 +308,12 @@ Before submitting your PR, verify:
 - Add the date format to the `date_formats` list
 - Use `stable_fallback_date()` for entries without parseable dates
 
+**Empty feed after Selenium run (0 items)**
+- The site is JS-rendered but `curl` returns a minimal HTML shell — confirm with `curl -sL <url> | wc -c` (< 10KB = JS-rendered)
+- Capture Selenium page source to a file and inspect actual selectors: element classes on JS-rendered pages often differ from View Source
+- Always call `deserialize_entries()` on cached data before passing to `merge_entries()` — ISO strings don't sort correctly as datetimes
+
 ## GitHub Actions
 
 - `run_feeds.yml` - Runs hourly, executes `run_all_feeds.py`, commits updated XML files
-- `test_feed.yml` - Tests feed generation on PRs
+- `test_feed.yml` - Tests feed generation on PRs (runs `ollama_blog.py`)

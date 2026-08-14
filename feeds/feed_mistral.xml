@@ -1,0 +1,445 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Mistral AI News</title>
+    <link>https://mistral.ai/news</link>
+    <description>News, research, and product updates from Mistral AI</description>
+    <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_mistral.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 28 May 2026 07:51:06 +0000</lastBuildDate>
+    <item>
+      <title>Emmi joins Mistral to accelerate the AI-native industry</title>
+      <link>https://mistral.ai/news/accelerate-ai-native-industry</link>
+      <description>Emmi joins Mistral to accelerate the AI-native industry</description>
+      <guid isPermaLink="false">https://mistral.ai/news/accelerate-ai-native-industry</guid>
+      <category>Research</category>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Remote agents in Vibe. Powered by Mistral Medium 3.5.</title>
+      <link>https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5</link>
+      <description>Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5</guid>
+      <category>Product</category>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Workflows for work that runs the business</title>
+      <link>https://mistral.ai/news/workflows</link>
+      <description>Workflows is now in public preview.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/workflows</guid>
+      <category>Product</category>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Connect the dots: Build with built-in and custom MCPs in Studio</title>
+      <link>https://mistral.ai/news/connectors</link>
+      <description>Connect enterprise data to your AI applications with reusable connectors, direct tool calling, and human-in-the-loop approval controls.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/connectors</guid>
+      <category>Product</category>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Speaking of Voxtral</title>
+      <link>https://mistral.ai/news/voxtral-tts</link>
+      <description>Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/voxtral-tts</guid>
+      <category>Research</category>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Forge</title>
+      <link>https://mistral.ai/news/forge</link>
+      <description>Today, we’re introducing Forge, a system that allows enterprises to build frontier-grade AI models grounded in their proprietary knowledge.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/forge</guid>
+      <category>Product</category>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Leanstral: Open-Source foundation for trustworthy vibe-coding</title>
+      <link>https://mistral.ai/news/leanstral</link>
+      <description>First open-source code agent for Lean 4.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/leanstral</guid>
+      <category>Research</category>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mistral AI partners with NVIDIA to accelerate open frontier models</title>
+      <link>https://mistral.ai/news/mistral-ai-and-nvidia-partner-to-accelerate-open-frontier-models</link>
+      <description>As a founding member of the NVIDIA Nemotron Coalition, Mistral AI is contributing large-scale model development and multimodal capabilities.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/mistral-ai-and-nvidia-partner-to-accelerate-open-frontier-models</guid>
+      <category>Company</category>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Mistral Small 4</title>
+      <link>https://mistral.ai/news/mistral-small-4</link>
+      <description>Introducing Mistral Small 4</description>
+      <guid isPermaLink="false">https://mistral.ai/news/mistral-small-4</guid>
+      <category>Research</category>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rails testing on autopilot: Building an agent that writes what developers won't</title>
+      <link>https://mistral.ai/news/rails-testing-on-autopilot-building-an-agent-that-writes-what-developers-wont</link>
+      <description>Rails testing on autopilot: Building an agent that writes what developers won't</description>
+      <guid isPermaLink="false">https://mistral.ai/news/rails-testing-on-autopilot-building-an-agent-that-writes-what-developers-wont</guid>
+      <category>Solutions</category>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Voxtral transcribes at the speed of sound.</title>
+      <link>https://mistral.ai/news/voxtral-transcribe-2</link>
+      <description>Precision diarization, real-time transcription, and a new audio playground.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/voxtral-transcribe-2</guid>
+      <category>Research</category>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Terminally online Mistral Vibe.</title>
+      <link>https://mistral.ai/news/mistral-vibe-2-0</link>
+      <description>Terminally online Mistral Vibe.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/mistral-vibe-2-0</guid>
+      <category>Product</category>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Heaps do lie: debugging a memory leak in vLLM.</title>
+      <link>https://mistral.ai/news/debugging-memory-leak-in-vllm</link>
+      <description>Heaps do lie: debugging a memory leak in vLLM.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/debugging-memory-leak-in-vllm</guid>
+      <category>Engineering</category>
+      <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Mistral OCR 3</title>
+      <link>https://mistral.ai/news/mistral-ocr-3</link>
+      <description>Achieving a new frontier for both accuracy and efficiency in document processing.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/mistral-ocr-3</guid>
+      <category>Research</category>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing: Devstral 2 and Mistral Vibe CLI.</title>
+      <link>https://mistral.ai/news/devstral-2-vibe-cli</link>
+      <description>State-of-the-art, open-source agentic coding models and CLI agent.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/devstral-2-vibe-cli</guid>
+      <category>Research</category>
+      <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Mistral 3</title>
+      <link>https://mistral.ai/news/mistral-3</link>
+      <description>A family of frontier open-source multimodal models</description>
+      <guid isPermaLink="false">https://mistral.ai/news/mistral-3</guid>
+      <category>Research</category>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mistral AI - KI für Deutschland</title>
+      <link>https://mistral.ai/news/ki-fur-deutschland</link>
+      <description>Mistral AI - KI für Deutschland</description>
+      <guid isPermaLink="false">https://mistral.ai/news/ki-fur-deutschland</guid>
+      <category>Company</category>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Mistral AI Studio.</title>
+      <link>https://mistral.ai/news/ai-studio</link>
+      <description>The Production AI Platform.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/ai-studio</guid>
+      <category>Product</category>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mistral AI raises 1.7B€ to accelerate technological progress with AI</title>
+      <link>https://mistral.ai/news/mistral-ai-raises-1-7-b-to-accelerate-technological-progress-with-ai</link>
+      <description>Mistral AI raises 1.7B€ to accelerate technological progress with AI</description>
+      <guid isPermaLink="false">https://mistral.ai/news/mistral-ai-raises-1-7-b-to-accelerate-technological-progress-with-ai</guid>
+      <category>Company</category>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Le Chat. Custom MCP connectors. Memories.</title>
+      <link>https://mistral.ai/news/le-chat-mcp-connectors-memories</link>
+      <description>Le Chat now integrates with 20+ enterprise platforms—powered by MCP—and remembers what matters with Memories.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/le-chat-mcp-connectors-memories</guid>
+      <category>Product</category>
+      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Make Memory work for you.</title>
+      <link>https://mistral.ai/news/memory</link>
+      <description>Designing transparency and control into AI recall.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/memory</guid>
+      <category>Product</category>
+      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unlocking the potential of vision language models on satellite imagery through fine-tuning</title>
+      <link>https://mistral.ai/news/unlocking-potential-vision-language-models-satellite-imagery-fine-tuning</link>
+      <description>Unlocking the potential of vision language models on satellite imagery through fine-tuning</description>
+      <guid isPermaLink="false">https://mistral.ai/news/unlocking-potential-vision-language-models-satellite-imagery-fine-tuning</guid>
+      <category>Solutions</category>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Announcing Codestral 25.08 and the Complete Mistral Coding Stack for Enterprise</title>
+      <link>https://mistral.ai/news/codestral-25-08</link>
+      <description>Announcing Codestral 25.08 and the Complete Mistral Coding Stack for Enterprise</description>
+      <guid isPermaLink="false">https://mistral.ai/news/codestral-25-08</guid>
+      <category>Research</category>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Our contribution to a global environmental standard for AI</title>
+      <link>https://mistral.ai/news/our-contribution-to-a-global-environmental-standard-for-ai</link>
+      <description>Our contribution to a global environmental standard for AI</description>
+      <guid isPermaLink="false">https://mistral.ai/news/our-contribution-to-a-global-environmental-standard-for-ai</guid>
+      <category>Company</category>
+      <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Le Chat dives deep.</title>
+      <link>https://mistral.ai/news/le-chat-dives-deep</link>
+      <description>Introducing Deep Research (Preview), plus Audio-in, Projects, and other updates.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/le-chat-dives-deep</guid>
+      <category>Product</category>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Voxtral</title>
+      <link>https://mistral.ai/news/voxtral</link>
+      <description>Introducing frontier open source speech understanding models.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/voxtral</guid>
+      <category>Research</category>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Upgrading agentic coding capabilities with the new Devstral models</title>
+      <link>https://mistral.ai/news/devstral-2507</link>
+      <description>Upgrading agentic coding capabilities with the new Devstral models</description>
+      <guid isPermaLink="false">https://mistral.ai/news/devstral-2507</guid>
+      <category>Research</category>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Announcing AI for Citizens</title>
+      <link>https://mistral.ai/news/ai-for-citizens</link>
+      <description>Empowering countries to use AI to transform public action and catalyze innovation for the benefit of their citizens.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/ai-for-citizens</guid>
+      <category>Solutions</category>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mistral Compute</title>
+      <link>https://mistral.ai/news/mistral-compute</link>
+      <description>Frontier AI infrastructure for everyone.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/mistral-compute</guid>
+      <category>Company</category>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Magistral</title>
+      <link>https://mistral.ai/news/magistral</link>
+      <description>Stands to reason.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/magistral</guid>
+      <category>Research</category>
+      <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Mistral Code</title>
+      <link>https://mistral.ai/news/mistral-code</link>
+      <description>Introducing Mistral Code</description>
+      <guid isPermaLink="false">https://mistral.ai/news/mistral-code</guid>
+      <category>Product</category>
+      <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Codestral Embed</title>
+      <link>https://mistral.ai/news/codestral-embed</link>
+      <description>The new state-of-the-art embedding model for code.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/codestral-embed</guid>
+      <category>Research</category>
+      <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Build AI agents with the Mistral Agents API</title>
+      <link>https://mistral.ai/news/agents-api</link>
+      <description>Build AI agents with the Mistral Agents API</description>
+      <guid isPermaLink="false">https://mistral.ai/news/agents-api</guid>
+      <category>Product</category>
+      <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Devstral</title>
+      <link>https://mistral.ai/news/devstral</link>
+      <description>Introducing the best open-source model for coding agents.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/devstral</guid>
+      <category>Research</category>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Le Chat Enterprise</title>
+      <link>https://mistral.ai/news/le-chat-enterprise</link>
+      <description>Your Enterprise. Your AI.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/le-chat-enterprise</guid>
+      <category>Product</category>
+      <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Medium is the new large.</title>
+      <link>https://mistral.ai/news/mistral-medium-3</link>
+      <description>Mistral Medium 3 delivers state-of-the-art performance at 8X lower cost with radically simplified enterprise deployments.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/mistral-medium-3</guid>
+      <category>Research</category>
+      <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Evaluating RAG with LLM as a Judge</title>
+      <link>https://mistral.ai/news/llm-as-rag-judge</link>
+      <description>Using Mistral Models for LLM as a Judge (With Structured Outputs)</description>
+      <guid isPermaLink="false">https://mistral.ai/news/llm-as-rag-judge</guid>
+      <category>Solutions</category>
+      <pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mistral Small 3.1</title>
+      <link>https://mistral.ai/news/mistral-small-3-1</link>
+      <description>SOTA. Multimodal. Multilingual. Apache 2.0</description>
+      <guid isPermaLink="false">https://mistral.ai/news/mistral-small-3-1</guid>
+      <category>Research</category>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mistral OCR</title>
+      <link>https://mistral.ai/news/mistral-ocr</link>
+      <description>Introducing the world’s best document understanding API.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/mistral-ocr</guid>
+      <category>Research</category>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Empowering product development with an agentic workflow</title>
+      <link>https://mistral.ai/news/agentic-workflows-from-meetings-to-dev-tickets</link>
+      <description>Transform meeting transcripts into development tasks with Mistral AI: From call transcript to PRD to engineering tickets.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/agentic-workflows-from-meetings-to-dev-tickets</guid>
+      <category>Solutions</category>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mistral Saba</title>
+      <link>https://mistral.ai/news/mistral-saba</link>
+      <description>One of the many custom-trained models to serve specific geographies, markets, and customers</description>
+      <guid isPermaLink="false">https://mistral.ai/news/mistral-saba</guid>
+      <category>Research</category>
+      <pubDate>Mon, 17 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The all new le Chat: Your AI assistant for life and work</title>
+      <link>https://mistral.ai/news/all-new-le-chat</link>
+      <description>Brand new features, iOS and Android apps, Pro, Team, and Enterprise tiers.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/all-new-le-chat</guid>
+      <category>Product</category>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mistral Small 3</title>
+      <link>https://mistral.ai/news/mistral-small-3</link>
+      <description>Mistral Small 3: Apache 2.0, 81% MMLU, 150 tokens/s</description>
+      <guid isPermaLink="false">https://mistral.ai/news/mistral-small-3</guid>
+      <category>Research</category>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Purr-fectly informed</title>
+      <link>https://mistral.ai/news/mistral-afp</link>
+      <description>Le Chat and AFP team up to deliver AI powered by news, providing Le Chat users with richer, more reliable and more accurate responses.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/mistral-afp</guid>
+      <category>Product</category>
+      <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Codestral 25.01</title>
+      <link>https://mistral.ai/news/codestral-2501</link>
+      <description>Access the Codestral 25.01 API</description>
+      <guid isPermaLink="false">https://mistral.ai/news/codestral-2501</guid>
+      <category>Research</category>
+      <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pixtral Large</title>
+      <link>https://mistral.ai/news/pixtral-large</link>
+      <description>Pixtral grows up.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/pixtral-large</guid>
+      <category>Research</category>
+      <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mistral has entered the chat</title>
+      <link>https://mistral.ai/news/mistral-chat</link>
+      <description>Search, vision, ideation, coding… all yours for free.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/mistral-chat</guid>
+      <category>Product</category>
+      <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mistral Moderation API</title>
+      <link>https://mistral.ai/news/mistral-moderation</link>
+      <description>We are introducing our new moderation service enabling our users to detect undesirable text content along several policy dimensions.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/mistral-moderation</guid>
+      <category>Research</category>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mistral Batch API</title>
+      <link>https://mistral.ai/news/batch-api</link>
+      <description>Lower cost API for AI builders.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/batch-api</guid>
+      <category>Product</category>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Un Ministral, des Ministraux</title>
+      <link>https://mistral.ai/news/ministraux</link>
+      <description>Introducing the world’s best edge models.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/ministraux</guid>
+      <category>Research</category>
+      <pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Announcing Pixtral 12B</title>
+      <link>https://mistral.ai/news/pixtral-12b</link>
+      <description>Pixtral 12B - the first-ever multimodal Mistral model. Apache 2.0.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/pixtral-12b</guid>
+      <category>Research</category>
+      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI in abundance</title>
+      <link>https://mistral.ai/news/september-24-release</link>
+      <description>Introducing a free API, improved pricing across the board, a new enterprise-grade Mistral Small, and free vision capabilities on le Chat.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/september-24-release</guid>
+      <category>Product</category>
+      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Build, tweak, repeat</title>
+      <link>https://mistral.ai/news/build-tweak-repeat</link>
+      <description>Making it easier to develop and share generative AI applications.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/build-tweak-repeat</guid>
+      <category>Research</category>
+      <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Large Enough</title>
+      <link>https://mistral.ai/news/mistral-large-2407</link>
+      <description>Today, we are announcing Mistral Large 2, the new generation of our flagship model. Compared to its predecessor, Mistral Large 2 is significantly more capable in code generation, mathematics, and reasoning. It also provides a much stronger multilingual support, and advanced function calling capabili</description>
+      <guid isPermaLink="false">https://mistral.ai/news/mistral-large-2407</guid>
+      <category>Research</category>
+      <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

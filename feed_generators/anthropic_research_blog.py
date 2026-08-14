@@ -1,44 +1,32 @@
-import undetected_chromedriver as uc
-from bs4 import BeautifulSoup
 from datetime import datetime
+
 import pytz
+from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-import time
-import logging
-from pathlib import Path
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
 
-from utils import sort_posts_for_feed
+from utils import (
+    deserialize_entries,
+    load_cache,
+    merge_entries,
+    save_cache,
+    save_rss_feed,
+    setup_feed_links,
+    setup_logging,
+    setup_selenium_driver,
+    sort_posts_for_feed,
+    stable_fallback_date,
+)
 
-# Set up logging
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
-logger = logging.getLogger(__name__)
+logger = setup_logging()
 
-
-def get_project_root():
-    """Get the project root directory."""
-    return Path(__file__).parent.parent
-
-
-def ensure_feeds_directory():
-    """Ensure the feeds directory exists."""
-    feeds_dir = get_project_root() / "feeds"
-    feeds_dir.mkdir(exist_ok=True)
-    return feeds_dir
-
-
-def setup_selenium_driver():
-    """Set up Selenium WebDriver with undetected-chromedriver."""
-    options = uc.ChromeOptions()
-    options.add_argument("--headless")  # Ensure headless mode is enabled
-    options.add_argument("--window-size=1920,1080")
-    options.add_argument("--disable-blink-features=AutomationControlled")
-    options.add_argument(
-        "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-    )
-    return uc.Chrome(options=options)
+FEED_NAME = "anthropic_research"
+BLOG_URL = "https://www.anthropic.com/research"
 
 
-def fetch_research_content_selenium(url="https://www.anthropic.com/research"):
+def fetch_research_content_selenium(url=BLOG_URL):
     """Fetch the fully loaded HTML content of the research page using Selenium."""
     driver = None
     try:
@@ -46,21 +34,11 @@ def fetch_research_content_selenium(url="https://www.anthropic.com/research"):
         driver = setup_selenium_driver()
         driver.get(url)
 
-        # Wait for the page to fully load
-        wait_time = 10
-        logger.info(f"Waiting {wait_time} seconds for the page to fully load...")
-        time.sleep(wait_time)
-
-        # Wait for research articles to load by checking for specific elements
+        # Wait for research articles to load
         try:
-            from selenium.webdriver.common.by import By
-            from selenium.webdriver.support.ui import WebDriverWait
-            from selenium.webdriver.support import expected_conditions as EC
-
-            # Wait for research articles to be present
-            WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.CSS_SELECTOR, "a[href*='/research/']")))
+            WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, "a[href*='/research/']")))
             logger.info("Research articles loaded successfully")
-        except:
+        except Exception:
             logger.warning("Could not confirm articles loaded, proceeding anyway...")
 
         html_content = driver.page_source
@@ -98,7 +76,7 @@ def extract_title(card):
                 return title
 
     # Try using link text as last resort
-    if hasattr(card, 'text'):
+    if hasattr(card, "text"):
         text = card.text.strip()
         text = " ".join(text.split())
         if len(text) >= 5:
@@ -132,7 +110,7 @@ def extract_date(card):
 
     # Look for date in the card and its parents
     elements_to_check = [card]
-    if hasattr(card, 'parent') and card.parent:
+    if hasattr(card, "parent") and card.parent:
         elements_to_check.append(card.parent)
         if card.parent.parent:
             elements_to_check.append(card.parent.parent)
@@ -156,10 +134,8 @@ def validate_article(article):
     """Validate that article has all required fields with reasonable values."""
     if not article.get("title") or len(article["title"]) < 5:
         return False
-    if not article.get("link") or not article["link"].startswith("http"):
-        return False
     # Date can be None for research articles
-    return True
+    return bool(article.get("link") and article["link"].startswith("http"))
 
 
 def parse_research_html(html_content):
@@ -202,12 +178,13 @@ def parse_research_html(html_content):
                     logger.debug(f"Could not extract title for link: {full_url}")
                     continue
 
-                # Extract date (can be None for research articles)
+                # Extract date, fall back to stable hash-based date
                 date = extract_date(link)
                 if date:
                     logger.info(f"Found article: {title} - {date}")
                 else:
-                    logger.info(f"Found article (no date): {title}")
+                    logger.warning(f"No date found for article: {title}, using fallback")
+                    date = stable_fallback_date(full_url)
 
                 # Determine category from URL
                 category = "Research"
@@ -229,32 +206,30 @@ def parse_research_html(html_content):
                     logger.debug(f"Article failed validation: {full_url}")
 
             except Exception as e:
-                logger.warning(f"Error parsing research link: {str(e)}")
+                logger.warning(f"Error parsing research link: {e!s}")
                 continue
 
         logger.info(f"Successfully parsed {len(articles)} unique research articles")
         return articles
 
     except Exception as e:
-        logger.error(f"Error parsing HTML content: {str(e)}")
+        logger.error(f"Error parsing HTML content: {e!s}")
         raise
 
 
-def generate_rss_feed(articles, feed_name="anthropic_research"):
+def generate_rss_feed(articles):
     """Generate RSS feed from research articles."""
     try:
         fg = FeedGenerator()
         fg.title("Anthropic Research")
         fg.description("Latest research papers and updates from Anthropic")
-        fg.link(href="https://www.anthropic.com/research")
         fg.language("en")
 
         # Set feed metadata
         fg.author({"name": "Anthropic Research Team"})
         fg.logo("https://www.anthropic.com/images/icons/apple-touch-icon.png")
         fg.subtitle("Latest research from Anthropic")
-        fg.link(href="https://www.anthropic.com/research", rel="alternate")
-        fg.link(href=f"https://anthropic.com/research/feed_{feed_name}.xml", rel="self")
+        setup_feed_links(fg, blog_url=BLOG_URL, feed_name=FEED_NAME)
 
         # Sort articles for correct feed order (newest first in output)
         # Articles without dates will appear at the end
@@ -278,55 +253,63 @@ def generate_rss_feed(articles, feed_name="anthropic_research"):
         return fg
 
     except Exception as e:
-        logger.error(f"Error generating RSS feed: {str(e)}")
+        logger.error(f"Error generating RSS feed: {e!s}")
         raise
 
 
-def save_rss_feed(feed_generator, feed_name="anthropic_research"):
-    """Save the RSS feed to a file in the feeds directory."""
+def main(full_reset=False):
+    """Main function to generate RSS feed from Anthropic's research page.
+
+    Args:
+        full_reset: If True, fetch all articles. If False, merge with cache.
+    """
     try:
-        # Ensure feeds directory exists and get its path
-        feeds_dir = ensure_feeds_directory()
+        cache = load_cache(FEED_NAME)
+        cached_articles = deserialize_entries(cache.get("entries", []))
 
-        # Create the output file path
-        output_filename = feeds_dir / f"feed_{feed_name}.xml"
+        if full_reset or not cached_articles:
+            mode = "full reset" if full_reset else "no cache exists"
+            logger.info(f"Running full fetch ({mode})")
+        else:
+            logger.info("Running incremental update")
 
-        # Save the feed
-        feed_generator.rss_file(str(output_filename), pretty=True)
-        logger.info(f"Successfully saved RSS feed to {output_filename}")
-        return output_filename
-
-    except Exception as e:
-        logger.error(f"Error saving RSS feed: {str(e)}")
-        raise
-
-
-def main(feed_name="anthropic_research"):
-    """Main function to generate RSS feed from Anthropic's research page."""
-    try:
         # Fetch research content using Selenium
         html_content = fetch_research_content_selenium()
 
         # Parse articles from HTML
-        articles = parse_research_html(html_content)
+        new_articles = parse_research_html(html_content)
 
-        if not articles:
+        if not new_articles and not cached_articles:
             logger.warning("No articles found. Please check the HTML structure.")
             return False
 
+        # Merge with cache or use fresh articles
+        if cached_articles and not full_reset:
+            articles = merge_entries(new_articles, cached_articles)
+        else:
+            articles = new_articles
+
+        # Save to cache
+        save_cache(FEED_NAME, articles)
+
         # Generate RSS feed
-        feed = generate_rss_feed(articles, feed_name)
+        feed = generate_rss_feed(articles)
 
         # Save feed to file
-        output_file = save_rss_feed(feed, feed_name)
+        save_rss_feed(feed, FEED_NAME)
 
         logger.info(f"Successfully generated RSS feed with {len(articles)} articles")
         return True
 
     except Exception as e:
-        logger.error(f"Failed to generate RSS feed: {str(e)}")
+        logger.error(f"Failed to generate RSS feed: {e!s}")
         return False
 
 
 if __name__ == "__main__":
-    main()
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Generate Anthropic Research RSS feed")
+    parser.add_argument("--full", action="store_true", help="Force full reset (fetch all articles)")
+    args = parser.parse_args()
+    main(full_reset=args.full)

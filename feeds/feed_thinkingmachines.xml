@@ -2,33 +2,21 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>Thinking Machines Lab - Connectionism</title>
-    <link>https://thinkingmachines.ai/feed_thinkingmachines.xml</link>
+    <link>https://thinkingmachines.ai/blog/</link>
     <description>Shared science and news from the team</description>
-    <atom:link href="https://thinkingmachines.ai/feed_thinkingmachines.xml" rel="self"/>
+    <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_thinkingmachines.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Feb 2026 20:09:57 +0000</lastBuildDate>
-    <item>
-      <title>Tinker: General Availability and Vision Input</title>
-      <link>https://thinkingmachines.ai/blog/tinker-general-availability/</link>
-      <description>Tinker: General Availability and Vision Input by Thinking Machines Lab</description>
-      <guid isPermaLink="false">https://thinkingmachines.ai/blog/tinker-general-availability/</guid>
-      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tinker: Call for Community Projects</title>
-      <link>https://thinkingmachines.ai/blog/call-for-community-projects/</link>
-      <description>Tinker: Call for Community Projects by Thinking Machines Lab</description>
-      <guid isPermaLink="false">https://thinkingmachines.ai/blog/call-for-community-projects/</guid>
-      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Announcing Tinker Research and Teaching Grants</title>
-      <link>https://thinkingmachines.ai/blog/tinker-research-and-teaching-grants/</link>
-      <description>Announcing Tinker Research and Teaching Grants by Thinking Machines Lab</description>
-      <guid isPermaLink="false">https://thinkingmachines.ai/blog/tinker-research-and-teaching-grants/</guid>
-      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+    <lastBuildDate>Wed, 13 May 2026 17:42:06 +0000</lastBuildDate>
+    <item><title>[NOTICE] This feed is no longer maintained</title><description>Thinking Machines Lab now publishes an official RSS feed.
+
+Recommended alternative: https://thinkingmachines.ai/blog/index.xml</description><guid isPermaLink="false">deprecation-notice-thinkingmachines</guid><pubDate>Wed, 13 May 2026 03:35:17 +0000</pubDate><link>https://thinkingmachines.ai/blog/index.xml</link></item><item>
+      <title>Interaction Models: A Scalable Approach to Human-AI Collaboration</title>
+      <link>https://thinkingmachines.ai/blog/interaction-models/</link>
+      <description>Interaction Models: A Scalable Approach to Human-AI Collaboration by Thinking Machines</description>
+      <guid isPermaLink="false">https://thinkingmachines.ai/blog/interaction-models/</guid>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>On-Policy Distillation</title>
@@ -36,13 +24,6 @@
       <description>On-Policy Distillation by Kevin Lu in collaboration with others at Thinking Machines</description>
       <guid isPermaLink="false">https://thinkingmachines.ai/blog/on-policy-distillation/</guid>
       <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Announcing Tinker</title>
-      <link>https://thinkingmachines.ai/blog/announcing-tinker/</link>
-      <description>Announcing Tinker by Thinking Machines Lab</description>
-      <guid isPermaLink="false">https://thinkingmachines.ai/blog/announcing-tinker/</guid>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>LoRA Without Regret</title>
