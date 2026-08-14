@@ -58,6 +58,13 @@ feeds_anthropic_red: ## Generate RSS feed for Anthropic Frontier Red Team
 	$(Q)uv run feed_generators/anthropic_red_blog.py
 	$(call print_success,Anthropic Red Team feed generated)
 
+.PHONY: feeds_openai_developer
+feeds_openai_developer: ## Generate RSS feed for OpenAI Developer Blog
+	$(call check_venv)
+	$(call print_info,Generating OpenAI Developer Blog feed)
+	$(Q)uv run feed_generators/openai_developer_blog.py
+	$(call print_success,OpenAI Developer Blog feed generated)
+
 .PHONY: feeds_apollo_science
 feeds_apollo_science: ## Generate RSS feed for Apollo Research Science
 	$(call check_venv)
