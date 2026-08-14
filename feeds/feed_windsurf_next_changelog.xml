@@ -2,13 +2,197 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>Windsurf Next Changelog</title>
-    <link>https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_windsurf_next_changelog.xml</link>
+    <link>https://windsurf.com/changelog/windsurf-next</link>
     <description>Latest version updates from Windsurf Next</description>
     <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_windsurf_next_changelog.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Mar 2026 21:08:24 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 19:12:23 +0000</lastBuildDate>
+    <item>
+      <title>Windsurf Next 2.3.1015</title>
+      <link>https://windsurf.com/changelog/windsurf-next#2.3.1015</link>
+      <description>&lt;p&gt;This release updates the bundled Devin Local agent to 2026.5.26. Highlights are below — see thechangelogfor the full list of changes.&lt;/p&gt;&lt;h3&gt;New features&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Devin Local is now aware of the files you have open in the editor as part of its context.&lt;/li&gt;&lt;li&gt;When prompted for an MCP tool permission in Devin Local, two additional server-level options are now offered: approve all tools on the server for the current session, or permanently.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Bug fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;"Always Allow" permission grants in Devin Local now persist across sessions.&lt;/li&gt;&lt;li&gt;Image attachments in Devin Local now show the correct warning when the selected model does not support images.&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#2.3.1015#2.3.1015</guid>
+      <category>Changelog</category>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 2.3.1012</title>
+      <link>https://windsurf.com/changelog/windsurf-next#2.3.1012</link>
+      <description>&lt;h3&gt;Fixes for Devin Local&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Repaired hooks for Devin Local to allow blocking user prompts&lt;/li&gt;&lt;li&gt;Improved plan mode in Devin Local to work in the OS sandbox&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Bug fixes and improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Increased remove server startup timeout from 2.5s to 6s&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#2.3.1012#2.3.1012</guid>
+      <category>Changelog</category>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 2.3.1008</title>
+      <link>https://windsurf.com/changelog/windsurf-next#2.3.1008</link>
+      <description>&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fixed availability issues with swe-check model for some users.&lt;/li&gt;&lt;li&gt;Improved terminal processing performance&lt;/li&gt;&lt;li&gt;Restored conversation sharing&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#2.3.1008#2.3.1008</guid>
+      <category>Changelog</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 2.2.1017</title>
+      <link>https://windsurf.com/changelog/windsurf-next#2.2.1017</link>
+      <description>&lt;p&gt;&lt;strong&gt;Devin Review &amp; Quick Review&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;All Windsurf IDE users now have access toDevin ReviewandQuick Reviewwith your existing subscription.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Agent Command Center&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Added list display option for the agent inbox&lt;/li&gt;&lt;li&gt;Improved sessions sidebar sorting and filtering&lt;/li&gt;&lt;li&gt;Performance improvements for loading and switching sessions&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Windows updates&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;We have fixed a bug preventing updates for some users on Windows. To upgrade to this version, you may need to:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Wait for the update to download.&lt;/li&gt;&lt;li&gt;Once it is downloaded, open Windows Task Manager and close alldevin.exeprocesses&lt;/li&gt;&lt;li&gt;Proceed with installing the update and restarting Windsurf&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Bug fixes and improvements&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Fixed bugs with some MCP servers&lt;/li&gt;&lt;li&gt;Improved reliability of Devin Local agent&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#2.2.1017#2.2.1017</guid>
+      <category>Changelog</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 2.2.1001</title>
+      <link>https://windsurf.com/changelog/windsurf-next#2.2.1001</link>
+      <description>&lt;h3&gt;Settings Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Settings now open in a dedicated tab instead of a modal, making it easier to navigate and find what you need&lt;/li&gt;&lt;li&gt;Added a searchable sidebar to quickly locate settings across all categories&lt;/li&gt;&lt;li&gt;Consolidated the settings gear into the global activity dropdown for a cleaner titlebar&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Agent Command Center Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Added button to rename agent sessions directly from the sidebar&lt;/li&gt;&lt;li&gt;Added space @-mentions — you can now reference entire spaces in Cascade conversations&lt;/li&gt;&lt;li&gt;Added automatic context sharing across sessions in a space&lt;/li&gt;&lt;li&gt;Model picker search now surfaces the best-matching variant per model family&lt;/li&gt;&lt;li&gt;Improved at-mention loading with incremental results instead of waiting for all categories&lt;/li&gt;&lt;li&gt;Tab completions now respect yourfiles.excludesettings&lt;/li&gt;&lt;li&gt;The toolbar footer now works like the Cascade footer with accept/reject buttons tied to diff zones&lt;/li&gt;&lt;li&gt;File paths and selection ranges are now included in @-mentions&lt;/li&gt;&lt;li&gt;Session PRs are now rendered in the Devin Cloud sidebar item&lt;/li&gt;&lt;li&gt;Fixed UI freeze that could occur when pasting large text into Cascade&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fixed scroll position not being preserved when switching between editor tabs&lt;/li&gt;&lt;li&gt;Fixed sign-in / sign-out state showing contradictory status after a failed authentication&lt;/li&gt;&lt;li&gt;Fixed titlebar items disappearing in narrow windows&lt;/li&gt;&lt;li&gt;Fixed stale session data showing in the sidebar&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#2.2.1001#2.2.1001</guid>
+      <category>Changelog</category>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 2.1.1032</title>
+      <link>https://windsurf.com/changelog/windsurf-next#2.1.1032</link>
+      <description>&lt;h3&gt;Bug Fixes &amp; Improvements&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Bug Fixes&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Fixed a crash that could occur when switching between Cascade conversations&lt;/li&gt;&lt;li&gt;Fixed an authentication issue that could prevent Devin Cloud sessions from starting&lt;/li&gt;&lt;li&gt;Fixed an issue where responses to agent questions were not sent correctly&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#2.1.1032#2.1.1032</guid>
+      <category>Changelog</category>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 2.1.1029</title>
+      <link>https://windsurf.com/changelog/windsurf-next#2.1.1029</link>
+      <description>&lt;h3&gt;Devin for Terminal&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Updated Devin Local agent to respect existing Windsurf proxy settings&lt;/li&gt;&lt;li&gt;Added context window indicator for Devin Local agent&lt;/li&gt;&lt;li&gt;Improved revert support for Devin Local agent&lt;/li&gt;&lt;li&gt;Enabled mentioning terminal content in Devin Local sessions&lt;/li&gt;&lt;li&gt;Added new keyboard shortcuts for accepting permission requests from Devin Local agent&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Added support for server-driven extension deny lists&lt;/li&gt;&lt;li&gt;Simplified file drag &amp; drop support in Agent Command Center&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#2.1.1029#2.1.1029</guid>
+      <category>Changelog</category>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 2.1.1026</title>
+      <link>https://windsurf.com/changelog/windsurf-next#2.1.1026</link>
+      <description>&lt;h3&gt;Devin for Terminal&lt;/h3&gt;&lt;p&gt;Devin is now availablefor Terminal. All Windsurf users can use this new CLI agent with your existing subscription.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Runs on your machine— Optimized for interactive work, with full access to your codebase, tools, and environment.&lt;/li&gt;&lt;li&gt;Hand off to the cloud— Seamless hand off to Devin in the cloud, with its own VM, testing, video recordings, autofix and more. Come back to a finished PR.&lt;/li&gt;&lt;li&gt;Multi-model— All of your favorite frontier models in one place, including Opus 4.7, GPT-5.5, and SWE-1.6.&lt;/li&gt;&lt;li&gt;Fast— Written in Rust and so performant that the binary can run on an original VT100.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Devin Agent in Windsurf&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;You can also enable the new Devin Local agent in Windsurf. This is the same agent harness used on the terminal and sessions can be accessed from both Windsurf and the CLI.&lt;/p&gt;&lt;p&gt;In our testing, it's up to 30% more token-efficient than the existing Cascade agent.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Additional Changes&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Improved search subtitle layout during streaming&lt;/li&gt;&lt;li&gt;Fixed file drag-and-drop in agent window Cascade tabs&lt;/li&gt;&lt;li&gt;Fixed edit rendering issues in Devin Local on Windows&lt;/li&gt;&lt;li&gt;Fixed Go to Line/Column keybinding on Windows/Linux (Ctrl+Shift+G)&lt;/li&gt;&lt;li&gt;Stability and performance improvements&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#2.1.1026#2.1.1026</guid>
+      <category>Changelog</category>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 2.1.1010</title>
+      <link>https://windsurf.com/changelog/windsurf-next#2.1.1010</link>
+      <description>&lt;h3&gt;Agent Command Center&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Added workspace and session filters to the spaces sidebar&lt;/li&gt;&lt;li&gt;Improved unread indicators for sessions with mark read/unread functionality&lt;/li&gt;&lt;li&gt;You can now drag sessions onto kanban cards to create Spaces&lt;/li&gt;&lt;li&gt;Added "Put Devin to sleep" tab context menu action&lt;/li&gt;&lt;li&gt;Improved Cmd+F find-in-chat for agent sessions&lt;/li&gt;&lt;li&gt;Hand off plans from Cascade to Devin Cloud with one click&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fixed Cmd+P flicker when focused on cascade in agent mode&lt;/li&gt;&lt;li&gt;Fixed Cmd+N to open untitled file when editor surface is focused in agent window&lt;/li&gt;&lt;li&gt;Fixed Ctrl+Shift+M microphone keybinding in agent window mode&lt;/li&gt;&lt;li&gt;Fixed agent sidebar highlight when focus moves to related panes&lt;/li&gt;&lt;li&gt;Skip button now skips one question at a time in Devin Cloud sessions&lt;/li&gt;&lt;li&gt;MCP registry now paginates instead of requesting limit=1000&lt;/li&gt;&lt;li&gt;Honor HTTP_PROXY for Windsurf Remote-SSH language server&lt;/li&gt;&lt;li&gt;Stop Devin for Terminal from spawning console windows on Windows&lt;/li&gt;&lt;li&gt;Prevent Cascade input re-renders causing typing lag&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#2.1.1010#2.1.1010</guid>
+      <category>Changelog</category>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 2.0.1067</title>
+      <link>https://windsurf.com/changelog/windsurf-next#2.0.1067</link>
+      <description>&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fixed OAuth authentication issues for some MCP servers&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#2.0.1067#2.0.1067</guid>
+      <category>Changelog</category>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 2.0.1063</title>
+      <link>https://windsurf.com/changelog/windsurf-next#2.0.1063</link>
+      <description>&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fixed a regression with OAuth integration for some MCP servers&lt;/li&gt;&lt;li&gt;Improved reliability of Devin Cloud connections in Windsurf&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#2.0.1063#2.0.1063</guid>
+      <category>Changelog</category>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 2.0.1061</title>
+      <link>https://windsurf.com/changelog/windsurf-next#2.0.1061</link>
+      <description>&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Various bug fixes and performance improvements&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#2.0.1061#2.0.1061</guid>
+      <category>Changelog</category>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 2.0.1050</title>
+      <link>https://windsurf.com/changelog/windsurf-next#2.0.1050</link>
+      <description>&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Various bug fixes and performance improvements for improving Windsurf 2.0 auth experience.&lt;/li&gt;&lt;li&gt;Fixed bug with spawning Terminal sessions on Windows&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#2.0.1050#2.0.1050</guid>
+      <category>Changelog</category>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 2.0.1044</title>
+      <link>https://windsurf.com/changelog/windsurf-next#2.0.1044</link>
+      <description>&lt;h3&gt;Windsurf 2.0&lt;/h3&gt;&lt;p&gt;Read the full announcementhere.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Devin in Windsurf&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Devin cloud agent available directly inside Windsurf, included with every self-serve plan&lt;/li&gt;&lt;li&gt;Delegate tasks from a local session to Devin with one click; Devin runs on its own VM&lt;/li&gt;&lt;li&gt;Review Devin changes and test results without leaving the editor&lt;/li&gt;&lt;li&gt;Billing is based on your existing quota and extra usage, with up to 50 USD in extra usage added for launching your first Devin Cloud session.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Note:Access to Devin Cloud is rolling out gradually. If you don't see it yet, try logging out of the website and IDE then logging back in.&lt;/p&gt;&lt;p&gt;Devin Cloud is disabled by default for enterprise accounts. Enterprise admins should enable Devin access in their organization settings if they have already purchased Cognition Platform.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Agent Command Center&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;New Kanban-style view showing all local and cloud agent sessions, organized by status&lt;/li&gt;&lt;li&gt;Group agent sessions, PRs, files, and context into task-level Spaces&lt;/li&gt;&lt;li&gt;Switch between Spaces to switch between tasks&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Additional Changes&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Refined Windsurf Browser with toolbar integration and Cascade tool for reading page contents&lt;/li&gt;&lt;li&gt;Sped up initial load times for the Cascade sidebar&lt;/li&gt;&lt;li&gt;Improved .gitignore and .codeiumignore handling across the product&lt;/li&gt;&lt;li&gt;Stability improvements for remote extensions (WSL, SSH, Dev Containers)&lt;/li&gt;&lt;li&gt;Performance improvements for typing in large active diff zones&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#2.0.1044#2.0.1044</guid>
+      <category>Changelog</category>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.9600.1047</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.9600.1047</link>
+      <description>&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fixed resource parameter support for OAuth connections to MCP servers&lt;/li&gt;&lt;li&gt;Enhanced MCP registry support&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.9600.1047#1.9600.1047</guid>
+      <category>Changelog</category>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.9600.1042</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.9600.1042</link>
+      <description>&lt;p&gt;&lt;strong&gt;Adaptive Fix&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;We fixed a bug with the adaptive model router which prevented switching models after the first request.&lt;/p&gt;&lt;p&gt;All users who encountered the bug have had quota reset and overage restored.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.9600.1042#1.9600.1042</guid>
+      <category>Changelog</category>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.9600.1040</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.9600.1040</link>
+      <description>&lt;p&gt;&lt;strong&gt;Adaptive Model Visibility&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;We've improved the visibility of the adaptive model in the model picker.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.9600.1040#1.9600.1040</guid>
+      <category>Changelog</category>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.9600.1038</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.9600.1038</link>
+      <description>&lt;h3&gt;Introducing Adaptive&lt;/h3&gt;&lt;p&gt;We've made several model packaging changes, with more infohere.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Adaptive Model Router&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;A newAdaptivemodel option is now available in the model picker. Adaptive intelligently selects the best model for each task, helping you make your quota last longer by avoiding overuse of premium models.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Availability: Now available to all self-serve users on Pro, Max, and Teams plans.&lt;/li&gt;&lt;li&gt;Dynamic model selection- Automatically chooses the right underlying model for your task while drawing down quota at a fixed per-token rate.&lt;/li&gt;&lt;li&gt;Extra usage promo- Beyond your quota, extra usage is offered at 0.50 USD per 1M input tokens, 2.00 USD per 1M output tokens, and 0.10 USD per 1M cache read tokens for the next 2 weeks.&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.9600.1038#1.9600.1038</guid>
+      <category>Changelog</category>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.9600.1032</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.9600.1032</link>
+      <description>&lt;h3&gt;Token Tracking in Response Card&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Added token usage tracking to the response card. You can now see a breakdown of input tokens, output tokens, and cached input tokens for each response directly in the chat panel.&lt;/li&gt;&lt;li&gt;Enhanced the context window indicator to show when the prompt cache expires, giving you better visibility into cache utilization.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fixed keyboard input issues with the built-in terminal on Windows&lt;/li&gt;&lt;li&gt;Improved cost sorting for token-based plans in the model picker&lt;/li&gt;&lt;li&gt;Clarified which models are available only on pro plans&lt;/li&gt;&lt;li&gt;Repaired devcontainer support on RHEL 8&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.9600.1032#1.9600.1032</guid>
+      <category>Changelog</category>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.9600.1002</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.9600.1002</link>
+      <description>&lt;h3&gt;Model &amp; Cost Visibility&lt;/h3&gt;&lt;p&gt;Replaced dollar signs with granular cost metrics for quota-based billing plans.&lt;/p&gt;&lt;h3&gt;Additional fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Improved performance for large repos&lt;/li&gt;&lt;li&gt;Upgraded to VSCode base version 1.110&lt;/li&gt;&lt;li&gt;Fixed issues with diff zones reappearing after acceptance&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.9600.1002#1.9600.1002</guid>
+      <category>Changelog</category>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.9577.1043</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.9577.1043</link>
+      <description>&lt;h3&gt;Quota Billing&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Added support for the new quota billing system&lt;/li&gt;&lt;li&gt;Daily and Weekly quota usage is now displayed directly in the IDE&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fix build for Mac x64&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.9577.1043#1.9577.1043</guid>
+      <category>Changelog</category>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.9577.1042</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.9577.1042</link>
+      <description>&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Various bug fixes and performance improvements&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.9577.1042#1.9577.1042</guid>
+      <category>Changelog</category>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.9577.1027</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.9577.1027</link>
+      <description>&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fix for Apple M5&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.9577.1027#1.9577.1027</guid>
+      <category>Changelog</category>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Windsurf Next 1.9577.1024</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.9577.1024</link>
@@ -90,10 +274,10 @@
       <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Windsurf Next 1.9544.1018</title>
-      <link>https://windsurf.com/changelog/windsurf-next#1.9544.1018</link>
-      <description>&lt;h3&gt;Wave 14: Arena Mode&lt;/h3&gt;&lt;p&gt;Arena Mode brings side-by-side model comparison directly into your IDE, plus Plan Mode for smarter task planning.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Arena Mode&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Run two Cascade agents side-by-side with hidden model identities and vote on which performs better. Arena Mode lets you discover which models actually work best foryourworkflow, codebase, and tasks—not just what benchmarks or influencers say.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Battle Groups: Choose specific models to compare or let Windsurf randomly select from curated groups like "fast models" vs "smart models"&lt;/li&gt;&lt;li&gt;Personal &amp; Global Leaderboards: Your votes contribute to both a personal leaderboard (your preferences) and a global one (across all Windsurf users)&lt;/li&gt;&lt;li&gt;Sync or Branch: Send followup prompts to both agents simultaneously, or branch and explore different paths individually&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;To get started, select the newArenatab in the model picker. All battle groups are free for the first week for paid users.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Plan Mode&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Plan Mode is a new Cascade mode alongside Code and Ask. Use it to create detailed implementation plans before diving into code.&lt;/p&gt;&lt;p&gt;Pro tip: Typemegaplanin the Cascade input box to trigger an advanced form that asks clarifying questions to create a more aligned, comprehensive plan.&lt;/p&gt;&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Admins can now set a default model that applies to all team members when they first open Windsurf&lt;/li&gt;&lt;li&gt;Various bug fixes and performance improvements&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.9544.1018#1.9544.1018</guid>
+      <title>Windsurf Next 1.9544.1026</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.9544.1026</link>
+      <description>&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Improve UI styling for announcement popups and notifications&lt;/li&gt;&lt;li&gt;Close model picker when selecting a battle group&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.9544.1026#1.9544.1026</guid>
       <category>Changelog</category>
       <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
     </item>
@@ -106,10 +290,10 @@
       <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Windsurf Next 1.9544.1026</title>
-      <link>https://windsurf.com/changelog/windsurf-next#1.9544.1026</link>
-      <description>&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Improve UI styling for announcement popups and notifications&lt;/li&gt;&lt;li&gt;Close model picker when selecting a battle group&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.9544.1026#1.9544.1026</guid>
+      <title>Windsurf Next 1.9544.1018</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.9544.1018</link>
+      <description>&lt;h3&gt;Wave 14: Arena Mode&lt;/h3&gt;&lt;p&gt;Arena Mode brings side-by-side model comparison directly into your IDE, plus Plan Mode for smarter task planning.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Arena Mode&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Run two Cascade agents side-by-side with hidden model identities and vote on which performs better. Arena Mode lets you discover which models actually work best foryourworkflow, codebase, and tasks—not just what benchmarks or influencers say.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Battle Groups: Choose specific models to compare or let Windsurf randomly select from curated groups like "fast models" vs "smart models"&lt;/li&gt;&lt;li&gt;Personal &amp; Global Leaderboards: Your votes contribute to both a personal leaderboard (your preferences) and a global one (across all Windsurf users)&lt;/li&gt;&lt;li&gt;Sync or Branch: Send followup prompts to both agents simultaneously, or branch and explore different paths individually&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;To get started, select the newArenatab in the model picker. All battle groups are free for the first week for paid users.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Plan Mode&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Plan Mode is a new Cascade mode alongside Code and Ask. Use it to create detailed implementation plans before diving into code.&lt;/p&gt;&lt;p&gt;Pro tip: Typemegaplanin the Cascade input box to trigger an advanced form that asks clarifying questions to create a more aligned, comprehensive plan.&lt;/p&gt;&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Admins can now set a default model that applies to all team members when they first open Windsurf&lt;/li&gt;&lt;li&gt;Various bug fixes and performance improvements&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.9544.1018#1.9544.1018</guid>
       <category>Changelog</category>
       <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
     </item>
@@ -282,18 +466,18 @@
       <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Windsurf Next 1.12.149</title>
-      <link>https://windsurf.com/changelog/windsurf-next#1.12.149</link>
-      <description>&lt;h3&gt;GPT-5.1 Priority Mode&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Added priority processing support for GPT-5.1 models, providing guaranteed low-latency responses for faster (~50 tokens/sec), more reliable AI assistance.&lt;/li&gt;&lt;li&gt;Priority processing costs 2x the standard rate, which will be reflected in the Windsurf credit system.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Patch Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fixed tool call calling issues for GPT-5.1-Codex and GPT-5.1-Codex Mini models&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.12.149#1.12.149</guid>
-      <category>Changelog</category>
-      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Windsurf Next 1.12.150</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.12.150</link>
       <description>&lt;h3&gt;Worktree Preview&lt;/h3&gt;&lt;p&gt;You can now use Windsurf's AI agent with worktrees to explore and modify code across multiple branches simultaneously.&lt;/p&gt;&lt;h3&gt;MCP Server Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fixes issues with scopes and OAuth authentication flows for multiple MCP servers&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Tab Completion&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Improved latency, responsiveness, and accuracy of autocomplete.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Context Window Indicator Beta&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Context window indicator now shows the current context window used by the Cascade AI agent.&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.12.150#1.12.150</guid>
+      <category>Changelog</category>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.12.149</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.12.149</link>
+      <description>&lt;h3&gt;GPT-5.1 Priority Mode&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Added priority processing support for GPT-5.1 models, providing guaranteed low-latency responses for faster (~50 tokens/sec), more reliable AI assistance.&lt;/li&gt;&lt;li&gt;Priority processing costs 2x the standard rate, which will be reflected in the Windsurf credit system.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Patch Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fixed tool call calling issues for GPT-5.1-Codex and GPT-5.1-Codex Mini models&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.12.149#1.12.149</guid>
       <category>Changelog</category>
       <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
     </item>
@@ -346,18 +530,18 @@
       <pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Windsurf Next 1.12.133</title>
-      <link>https://windsurf.com/changelog/windsurf-next#1.12.133</link>
-      <description>&lt;h3&gt;Patch Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Bug fixes and improvements.&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.12.133#1.12.133</guid>
-      <category>Changelog</category>
-      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Windsurf Next 1.12.136</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.12.136</link>
       <description>&lt;h3&gt;Patch Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Support and fixes for AGENTS.md&lt;/li&gt;&lt;li&gt;Improvements and bug fixes for Codemaps.&lt;/li&gt;&lt;li&gt;Improvements to Fast Context. Enterprises can opt in using the Windsurf Team Settings. Users can toggle Fast Context automatically using "CMD/Ctrl + Enter" on the first message in a chat.&lt;/li&gt;&lt;li&gt;New auto-linting behavior that speeds up Cascade.&lt;/li&gt;&lt;li&gt;Fix for MCP Marketplace not respecting team whitelist options.&lt;/li&gt;&lt;li&gt;Fixes for Jupyter Notebook tool.&lt;/li&gt;&lt;li&gt;Fixes for Memories, Rules, and Workflows.&lt;/li&gt;&lt;li&gt;General bug fixes and improvements.&lt;/li&gt;&lt;li&gt;Performance optimizations and stability enhancements.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Dependencies&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Updated Code OSS to version 1.105.0 (Electron: 37.6.0, Chromium: 138.0.7204.251)&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.12.136#1.12.136</guid>
+      <category>Changelog</category>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.12.133</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.12.133</link>
+      <description>&lt;h3&gt;Patch Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Bug fixes and improvements.&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.12.133#1.12.133</guid>
       <category>Changelog</category>
       <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
     </item>
@@ -378,18 +562,18 @@
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Windsurf Next 1.12.129</title>
-      <link>https://windsurf.com/changelog/windsurf-next#1.12.129</link>
-      <description>&lt;h3&gt;Patch Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Bug fixes and improvements.&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.12.129#1.12.129</guid>
-      <category>Changelog</category>
-      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Windsurf Next 1.12.130</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.12.130</link>
       <description>&lt;h3&gt;Patch Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Early preview of Windsurf's new Tab model.&lt;/li&gt;&lt;li&gt;Bug fixes and improvements.&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.12.130#1.12.130</guid>
+      <category>Changelog</category>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.12.129</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.12.129</link>
+      <description>&lt;h3&gt;Patch Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Bug fixes and improvements.&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.12.129#1.12.129</guid>
       <category>Changelog</category>
       <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
     </item>
@@ -530,18 +714,18 @@
       <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Windsurf Next 1.11.104</title>
-      <link>https://windsurf.com/changelog/windsurf-next#1.11.104</link>
-      <description>&lt;h3&gt;Patch Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Miscellaneous fixes&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.11.104#1.11.104</guid>
-      <category>Changelog</category>
-      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Windsurf Next 1.11.105</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.11.105</link>
       <description>&lt;h3&gt;Patch Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Performance fixes, especially relating to long chats&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.11.105#1.11.105</guid>
+      <category>Changelog</category>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.11.104</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.11.104</link>
+      <description>&lt;h3&gt;Patch Fixes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Miscellaneous fixes&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.11.104#1.11.104</guid>
       <category>Changelog</category>
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
     </item>
@@ -706,18 +890,18 @@
       <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Windsurf Next 1.8.103</title>
-      <link>https://windsurf.com/changelog/windsurf-next#1.8.103</link>
-      <description>&lt;h3&gt;Teams Features&lt;/h3&gt;&lt;p&gt;Based on the latest release of the Windsurf Editor, v1.8.0&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.8.103#1.8.103</guid>
-      <category>Changelog</category>
-      <pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Windsurf Next 1.8.105</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.8.105</link>
       <description>&lt;h3&gt;Patch Fixes&lt;/h3&gt;&lt;p&gt;Based on the latest release of the Windsurf Editor, v1.8.2&lt;/p&gt;</description>
       <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.8.105#1.8.105</guid>
+      <category>Changelog</category>
+      <pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.8.103</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.8.103</link>
+      <description>&lt;h3&gt;Teams Features&lt;/h3&gt;&lt;p&gt;Based on the latest release of the Windsurf Editor, v1.8.0&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.8.103#1.8.103</guid>
       <category>Changelog</category>
       <pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate>
     </item>
@@ -826,10 +1010,10 @@
       <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Windsurf Next 1.6.113</title>
-      <link>https://windsurf.com/changelog/windsurf-next#1.6.113</link>
-      <description>&lt;p&gt;&lt;strong&gt;April 1st Release&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Introduced Completion Sound for Cascade (Beta)New setting to enable a sound when Cascade has finished generating (default off)&lt;/li&gt;&lt;li&gt;New setting to enable a sound when Cascade has finished generating (default off)&lt;/li&gt;&lt;li&gt;Introduced Sound for Windsurf Tab (Beta)New setting to enable a sound on tab completion (default off)&lt;/li&gt;&lt;li&gt;New setting to enable a sound on tab completion (default off)&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.6.113#1.6.113</guid>
+      <title>Windsurf Next 1.6.115</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.6.115</link>
+      <description>&lt;p&gt;&lt;strong&gt;Bug Fixes and Improvements&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Fixed Cascade top menu button click opening file explorer on Windows&lt;/li&gt;&lt;li&gt;Fixed occasional extra space inserted beneath Cascade input&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.6.115#1.6.115</guid>
       <category>Changelog</category>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
     </item>
@@ -842,10 +1026,10 @@
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Windsurf Next 1.6.115</title>
-      <link>https://windsurf.com/changelog/windsurf-next#1.6.115</link>
-      <description>&lt;p&gt;&lt;strong&gt;Bug Fixes and Improvements&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Fixed Cascade top menu button click opening file explorer on Windows&lt;/li&gt;&lt;li&gt;Fixed occasional extra space inserted beneath Cascade input&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.6.115#1.6.115</guid>
+      <title>Windsurf Next 1.6.113</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.6.113</link>
+      <description>&lt;p&gt;&lt;strong&gt;April 1st Release&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Introduced Completion Sound for Cascade (Beta)New setting to enable a sound when Cascade has finished generating (default off)&lt;/li&gt;&lt;li&gt;New setting to enable a sound when Cascade has finished generating (default off)&lt;/li&gt;&lt;li&gt;Introduced Sound for Windsurf Tab (Beta)New setting to enable a sound on tab completion (default off)&lt;/li&gt;&lt;li&gt;New setting to enable a sound on tab completion (default off)&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.6.113#1.6.113</guid>
       <category>Changelog</category>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
     </item>

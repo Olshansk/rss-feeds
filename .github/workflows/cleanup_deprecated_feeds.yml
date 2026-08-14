@@ -1,0 +1,55 @@
+name: Cleanup Deprecated Feeds
+
+# Stage 2 of the feed retirement lifecycle (Stage 1 is human-driven in
+# deprecate_feed.py + scraper removal). This workflow deletes feed XMLs whose
+# tombstone notice is older than 90 days, then pushes the deletion directly to
+# main. Requires main to accept bot pushes from github-actions[bot]; if branch
+# protection is changed to require PR review, convert this step to open a PR
+# (peter-evans/create-pull-request) instead.
+
+on:
+  schedule:
+    # First of every month, noon UTC.
+    - cron: "0 12 1 * *"
+  workflow_dispatch:
+
+concurrency:
+  group: cleanup-deprecated-feeds
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Install uv and Python
+        uses: astral-sh/setup-uv@v8.0.0
+        with:
+          enable-cache: true
+          python-version: "3.11"
+
+      - name: Delete expired deprecated feeds
+        run: |
+          set -e
+          uv sync
+          uv run feed_generators/cleanup_deprecated_feeds.py --apply
+
+      - name: Commit and push deletions
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add -A feeds/
+          if git diff --staged --quiet; then
+            echo "No deprecated feeds expired; nothing to commit"
+          else
+            git commit -m 'Auto-cleanup: remove expired deprecated feeds'
+            git push || { git pull --rebase && git push; }
+          fi
