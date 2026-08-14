@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 14 Aug 2026 21:07:07 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 20:53:59 +0000</lastBuildDate>
     <item>
       <title>Building Foundry Part 2: Where creative workflows break</title>
       <link>https://weaviate.io/blog/building-foundry-where-workflows-break</link>
@@ -353,7 +353,7 @@
       <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>8-bit Rotational Quantization: How to Improve the Speed-Quality Tradeoff of Vector Search</title>
+      <title>8-bit Rotational Quantization: How to Compress Vectors by 4x and Improve the Speed-Quality Tradeoff of Vector Search</title>
       <link>https://weaviate.io/blog/8-bit-rotational-quantization</link>
       <description>Get spun around by our new vector quantization algorithm that utilizes the power of random rotations to improve the speed-quality tradeoff of vector search with Weaviate.</description>
       <guid isPermaLink="false">https://weaviate.io/blog/8-bit-rotational-quantization</guid>
@@ -381,9 +381,9 @@
       <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Build enterprise workflows with LangChain and the Weaviate TypeScript v3 client</title>
+      <title>Build enterprise workflows with Langchain and Weaviate v3</title>
       <link>https://weaviate.io/blog/enterprise-workflow-langchain-weaviate</link>
-      <description>LangChain and the Weaviate TypeScript v3 client power scalable AI with fast, type-safe RAG workflows, practical code, and future-ready features like LLM eval and event-driven design.</description>
+      <description>LangChain and Weaviate v3 power scalable AI with fast, type-safe RAG workflows, practical code, and future-ready features like LLM eval and event-driven design.</description>
       <guid isPermaLink="false">https://weaviate.io/blog/enterprise-workflow-langchain-weaviate</guid>
       <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
     </item>
@@ -428,6 +428,76 @@
       <description>How Weaviate's day zero, day one, day two mindset helps developers build AI-native applications.</description>
       <guid isPermaLink="false">https://weaviate.io/blog/building-core-of-ai-native-stack</guid>
       <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Constella Uses Weaviate for Vector Search (RAG) and Cross-Platform Syncing across Devices for Consumer Apps</title>
+      <link>https://weaviate.io/blog/vector-search-cross-platform-sync-constella</link>
+      <description>How we built cross-platform vector search and syncing for a thinking tool using Weaviate, RAG, and multi-tenant architecture.</description>
+      <guid isPermaLink="false">https://weaviate.io/blog/vector-search-cross-platform-sync-constella</guid>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Secure AI for Healthcare: HIPAA-compliant vector search with Weaviate</title>
+      <link>https://weaviate.io/blog/weaviate-hipaa-compliant</link>
+      <description>Announcing Weaviate Enterprise Cloud new HIPAA compliance on AWS, enabling secure PHI storage, search, and vector-powered AI for healthcare workloads.</description>
+      <guid isPermaLink="false">https://weaviate.io/blog/weaviate-hipaa-compliant</guid>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Art of Scaling a Vector Database like Weaviate</title>
+      <link>https://weaviate.io/blog/scaling-and-weaviate</link>
+      <description>Master the art of scaling a vector database like Weaviate.</description>
+      <guid isPermaLink="false">https://weaviate.io/blog/scaling-and-weaviate</guid>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unleashing AI Factories: Weaviate and NVIDIA Turbocharge Vector Search with GPU Acceleration</title>
+      <link>https://weaviate.io/blog/nvidia-and-weaviate</link>
+      <description>Learn how Weaviate and NVIDIA enable fast, scalable vector search for agentic AI.</description>
+      <guid isPermaLink="false">https://weaviate.io/blog/nvidia-and-weaviate</guid>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>More efficient multi-vector embeddings with MUVERA</title>
+      <link>https://weaviate.io/blog/muvera</link>
+      <description>Weaviate `1.31` implements the MUVERA encoding algorithm for multi-vector embeddings. In this blog, we dive the algorithm in detail, including what MUVERA is, how it works, and whether it might make sense for you.</description>
+      <guid isPermaLink="false">https://weaviate.io/blog/muvera</guid>
+      <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Weaviate 1.31 Release</title>
+      <link>https://weaviate.io/blog/weaviate-1-31-release</link>
+      <description>1.31 adds MUVERA for multi-vector embeddings, new BM25 operators, the ability to add new object vectors, and more!</description>
+      <guid isPermaLink="false">https://weaviate.io/blog/weaviate-1-31-release</guid>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The State of Enterprise AI in 2025: Measured Progress Over Hype</title>
+      <link>https://weaviate.io/blog/enterprise-ai-trends-2025</link>
+      <description>What trends we see arise in Enterprise AI in 2025.</description>
+      <guid isPermaLink="false">https://weaviate.io/blog/enterprise-ai-trends-2025</guid>
+      <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Build Scalable Gen AI Data Pipelines with Weaviate and Databricks</title>
+      <link>https://weaviate.io/blog/genai-apps-with-weaviate-and-databricks</link>
+      <description>Learn how to build generative AI data pipelines at scale with Weaviate and Databricks</description>
+      <guid isPermaLink="false">https://weaviate.io/blog/genai-apps-with-weaviate-and-databricks</guid>
+      <pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Exploring RAG and GraphRAG: Understanding when and how to use both</title>
+      <link>https://weaviate.io/blog/graph-rag</link>
+      <description>Learn when and how to use GraphRAG and how it can improve on some search tasks</description>
+      <guid isPermaLink="false">https://weaviate.io/blog/graph-rag</guid>
+      <pubDate>Thu, 17 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing the Weaviate Personalization Agent</title>
+      <link>https://weaviate.io/blog/personalization-agent</link>
+      <description>Learn about how you can use our new agentic personalization service to provide user-catered recommendations from Weaviate collections.</description>
+      <guid isPermaLink="false">https://weaviate.io/blog/personalization-agent</guid>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
