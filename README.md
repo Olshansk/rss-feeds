@@ -1,5 +1,9 @@
 # RSS Feed Generator <!-- omit in toc -->
 
+[![Run Feeds](https://github.com/Olshansk/rss-feeds/actions/workflows/run_feeds.yml/badge.svg?branch=main)](https://github.com/Olshansk/rss-feeds/actions/workflows/run_feeds.yml)
+[![Run Selenium Feeds](https://github.com/Olshansk/rss-feeds/actions/workflows/run_selenium_feeds.yml/badge.svg)](https://github.com/Olshansk/rss-feeds/actions/workflows/run_selenium_feeds.yml)
+[![Validate Feeds](https://github.com/Olshansk/rss-feeds/actions/workflows/validate_feeds.yml/badge.svg)](https://github.com/Olshansk/rss-feeds/actions/workflows/validate_feeds.yml)
+
 > [!TIP]
 > This project is maintained by [@oborchers](https://github.com/oborchers) and [@Olshansk](https://github.com/Olshansk). If you gut any value out of it, consider sponsoring us on GitHub!
 
