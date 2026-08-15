@@ -79,26 +79,6 @@ feeds_openai_research: ## Generate RSS feed for OpenAI Research
 	$(Q)uv run feed_generators/openai_research_blog.py
 	$(call print_success,OpenAI Research feed generated)
 
-.PHONY: feeds_apollo_science
-feeds_apollo_science: ## Generate RSS feed for Apollo Research Science
-	$(call check_venv)
-	$(call print_info,Generating Apollo Research Science feed)
-	$(Q)uv run feed_generators/apollo_science_blog.py
-	$(call print_success,Apollo Research Science feed generated)
-
-.PHONY: feeds_apollo_governance
-feeds_apollo_governance: ## Generate RSS feed for Apollo Research Governance
-	$(call check_venv)
-	$(call print_info,Generating Apollo Research Governance feed)
-	$(Q)uv run feed_generators/apollo_governance_blog.py
-	$(call print_success,Apollo Research Governance feed generated)
-
-.PHONY: feeds_apollo_monitoring
-feeds_apollo_monitoring: ## Generate RSS feed for Apollo Research Monitoring
-	$(call check_venv)
-	$(call print_info,Generating Apollo Research Monitoring feed)
-	$(Q)uv run feed_generators/apollo_monitoring_blog.py
-	$(call print_success,Apollo Research Monitoring feed generated)
 .PHONY: feeds_far_ai
 feeds_far_ai: ## Generate RSS feed for FAR.AI Publications
 	$(call check_venv)
