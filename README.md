@@ -119,7 +119,7 @@ Use /cmd-rss-feed-generator to convert @<html_file>.html to a RSS feed for <blog
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Olshansk/rss-feeds&type=Date)](https://star-history.com/#Olshansk/rss-feeds&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=Olshansk/rss-feeds&type=Date)](https://star-history.dera.page/#Olshansk/rss-feeds&Date)
 
 ## Ideas
 
