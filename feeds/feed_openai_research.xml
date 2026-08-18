@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Aug 2026 00:08:03 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 01:30:02 +0000</lastBuildDate>
     <item>
       <title>How enabling two settings tripled our scores on the ARC-AGI-3 benchmark</title>
       <link>https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores</link>
@@ -214,7 +214,7 @@
     <item>
       <title>Sora 2 is here</title>
       <link>https://openai.com/index/sora-2</link>
-      <description>Our latest video generation model is more physically accurate, realistic, and controllable than prior systems. It also features synchronized dialogue and sound effects. Create with it in the new Sora app.</description>
+      <description>This post introduced Sora 2, a video generation model with synchronized dialogue and sound effects. The Sora product is no longer available.</description>
       <category>Research</category>
       <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
     </item>
