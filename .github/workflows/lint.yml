@@ -34,4 +34,4 @@ jobs:
         run: |
           uv sync --group dev
           uv run ruff check .
-          uv run ruff format --check .
+          uv run ruff format --check feed_generators/

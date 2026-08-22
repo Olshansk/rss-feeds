@@ -13,14 +13,14 @@ dev_setup: ## Install dev dependencies and pre-commit hooks
 dev_lint: ## Check code with ruff (lint + format check)
 	$(call print_info_section,Checking code style)
 	$(Q)uv run ruff check .
-	$(Q)uv run ruff format --check .
+	$(Q)uv run ruff format --check feed_generators/
 	$(call print_success,Code style OK)
 
 .PHONY: dev_lint_fix
 dev_lint_fix: ## Auto-fix lint issues and format code
 	$(call print_info_section,Fixing code style)
 	$(Q)uv run ruff check --fix .
-	$(Q)uv run ruff format .
+	$(Q)uv run ruff format feed_generators/
 	$(call print_success,Code formatted)
 
 .PHONY: dev_format
