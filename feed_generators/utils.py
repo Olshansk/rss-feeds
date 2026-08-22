@@ -233,6 +233,10 @@ def merge_entries(
     Returns:
         Merged and sorted list of entries.
     """
+    # Freshly fetched entries may still contain ISO date strings while cached
+    # entries have already been deserialized. Normalize both sides before
+    # sorting so mixed string/datetime values cannot raise a TypeError.
+    new_entries = deserialize_entries(new_entries, date_field=date_field)
     existing_ids = {e[id_field] for e in cached_entries}
     merged = list(cached_entries)
 
