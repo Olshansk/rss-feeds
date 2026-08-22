@@ -8,7 +8,23 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Aug 2026 16:06:36 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 12:30:35 +0000</lastBuildDate>
+    <item>
+      <title>Scaling cyber defenders with Daybreak</title>
+      <link>https://developers.openai.com/blog/scaling-cyber-defenders-with-daybreak</link>
+      <description>Use ChatGPT, Codex Security, and open-source tools to investigate threats, validate vulnerabilities, and move from findings to reviewed, verified fixes.</description>
+      <guid isPermaLink="false">https://developers.openai.com/blog/scaling-cyber-defenders-with-daybreak</guid>
+      <category>Codex</category>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Codex as a platform: build on the open agent harness</title>
+      <link>https://developers.openai.com/blog/codex-as-a-platform</link>
+      <description>Build Codex into the products and workflows your users already know.</description>
+      <guid isPermaLink="false">https://developers.openai.com/blog/codex-as-a-platform</guid>
+      <category>Codex</category>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Custom Code Review rules for Codex</title>
       <link>https://developers.openai.com/blog/custom-code-review-rules-for-codex</link>

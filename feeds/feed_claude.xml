@@ -8,12 +8,68 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Aug 2026 16:06:28 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 12:30:26 +0000</lastBuildDate>
     <item>
-      <title>The Claude Science product guide</title>
-      <link>https://claude.com/blog/the-claude-science-product-guide</link>
-      <description>The Claude Science product guide</description>
-      <guid isPermaLink="false">https://claude.com/blog/the-claude-science-product-guide</guid>
+      <title>The AI-Native SDLC playbook</title>
+      <link>https://claude.com/blog/the-ai-native-sdlc-playbook</link>
+      <description>The AI-Native SDLC playbook</description>
+      <guid isPermaLink="false">https://claude.com/blog/the-ai-native-sdlc-playbook</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders</title>
+      <link>https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders</link>
+      <description>Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders</description>
+      <guid isPermaLink="false">https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders</guid>
+      <category>Product announcements</category>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Build production agents with computer use, the Skills API, and the Files API</title>
+      <link>https://claude.com/blog/computer-use-skills-api-files-api</link>
+      <description>Build production agents with computer use, the Skills API, and the Files API</description>
+      <guid isPermaLink="false">https://claude.com/blog/computer-use-skills-api-files-api</guid>
+      <category>Product announcements</category>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Claude Code guide for startups</title>
+      <link>https://claude.com/blog/claude-code-guide-for-startups</link>
+      <description>The Claude Code guide for startups</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-code-guide-for-startups</guid>
+      <category>Claude Code</category>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How monday.com transformed its platform into an agent-first product where humans and agents collaborate</title>
+      <link>https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate</link>
+      <description>How monday.com transformed its platform into an agent-first product where humans and agents collaborate</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate</guid>
+      <category>Agents</category>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic’s approach to teaching and learning AI</title>
+      <link>https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai</link>
+      <description>Anthropic’s approach to teaching and learning AI</description>
+      <guid isPermaLink="false">https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai</guid>
+      <category>Product announcements</category>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Turning conversation into knowledge: how Slack builds human-agent teams</title>
+      <link>https://claude.com/blog/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams</link>
+      <description>Turning conversation into knowledge: how Slack builds human-agent teams</description>
+      <guid isPermaLink="false">https://claude.com/blog/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures</title>
+      <link>https://claude.com/blog/ai-ci-cd-on-call</link>
+      <description>Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures</description>
+      <guid isPermaLink="false">https://claude.com/blog/ai-ci-cd-on-call</guid>
       <category>Enterprise AI</category>
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
     </item>
@@ -54,6 +110,7 @@
       <link>https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions</link>
       <description>Self-service data analytics in Slack: how Anthropic deploys Claude Tag for ad-hoc questions</description>
       <guid isPermaLink="false">https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions</guid>
+      <category>Agents</category>
       <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

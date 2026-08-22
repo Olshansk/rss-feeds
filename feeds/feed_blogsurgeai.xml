@@ -8,7 +8,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Aug 2026 16:06:15 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 12:30:19 +0000</lastBuildDate>
+    <item>
+      <title>Qwen 3.8 Max Scores 58.7 on the Tuesday Work Index</title>
+      <link>https://www.surgehq.ai/blog/qwen-3-8-max-scores-58-7-on-the-tuesday-work-index</link>
+      <description>Qwen 3.8 Max scores 58.7 on the Tuesday Work Index, up 8.6 points from Qwen 3.7 Max, and reaches the ComplexConstraints cost-performance Pareto frontier.</description>
+      <guid isPermaLink="false">https://www.surgehq.ai/blog/qwen-3-8-max-scores-58-7-on-the-tuesday-work-index</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Tuesday: A Frontier Index for AI at Work</title>
+      <link>https://www.surgehq.ai/blog/tuesday-frontier-work-index</link>
+      <description>Introducing the Tuesday Index, a composite benchmark measuring how well frontier AI models handle the capabilities required for real professional work.</description>
+      <guid isPermaLink="false">https://www.surgehq.ai/blog/tuesday-frontier-work-index</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>We Trained a Model on Office Work. It Got Better at Coding.</title>
       <link>https://www.surgehq.ai/blog/office-work-post-training-improves-coding</link>
