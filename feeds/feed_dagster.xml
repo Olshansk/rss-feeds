@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 23 Aug 2026 07:13:52 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 08:06:03 +0000</lastBuildDate>
     <item>
       <title>Orchestration is More than Scheduling: Declarative Automation in Dagster</title>
       <link>https://dagster.io/blog/orchestration-is-more-than-scheduling-declarative-automation-in-dagster</link>
