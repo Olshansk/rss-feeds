@@ -13,7 +13,15 @@
       <link>https://www.anthropic.com/news</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Aug 2026 15:46:39 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 16:45:59 +0000</lastBuildDate>
+    <item>
+      <title>Funding better evaluations of AI’s impact on wellbeing</title>
+      <link>https://www.anthropic.com/news/wellbeing-research-grants</link>
+      <description>Funding better evaluations of AI’s impact on wellbeing</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/wellbeing-research-grants</guid>
+      <category>Announcements</category>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>How Claude’s text watermark works</title>
       <link>https://www.anthropic.com/news/claude-text-watermark</link>
@@ -83,7 +91,7 @@
       <link>https://www.anthropic.com/news/economic-futures-research-fund-agenda</link>
       <description>A research agenda for the Economic Futures Research Fund</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/economic-futures-research-fund-agenda</guid>
-      <category>Economic Research</category>
+      <category>Economics</category>
       <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -883,7 +891,7 @@
       <link>https://www.anthropic.com/news/economic-futures-uk-europe</link>
       <description>Launching the Anthropic Economic Futures Programme in the UK and Europe</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/economic-futures-uk-europe</guid>
-      <category>Economic Research</category>
+      <category>Economics</category>
       <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
