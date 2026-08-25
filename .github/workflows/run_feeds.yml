@@ -34,7 +34,7 @@ jobs:
           set -e
           uv sync
           uv run feed_generators/run_all_feeds.py --skip-selenium
-          uv run feed_generators/run_generate_opml.py --xml-url-anchor "${OPML_XML_URL_ANCHOR:-}"
+          uv run feed_generators/run_generate_opml.py --xml-url-anchor "${{ vars.OPML_XML_URL_ANCHOR }}"
 
       - name: Commit and push feeds
         if: github.ref == 'refs/heads/main'
