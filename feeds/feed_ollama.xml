@@ -13,7 +13,14 @@
       <link>https://ollama.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Aug 2026 02:28:41 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 03:21:18 +0000</lastBuildDate>
+    <item>
+      <title>Claude Desktop support with Ollama</title>
+      <link>https://ollama.com/blog/claude-desktop</link>
+      <description>Claude Desktop can now be configured to work with Ollama as a third-party gateway provider, making it possible to use open models in Claude.</description>
+      <guid isPermaLink="false">https://ollama.com/blog/claude-desktop</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>NVIDIA Nemotron 3.5 Lightning</title>
       <link>https://ollama.com/blog/nemotron-3-5-lightning</link>
