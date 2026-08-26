@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Aug 2026 14:13:40 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 16:26:36 +0000</lastBuildDate>
+    <item>
+      <title>Enterprise-Grade Precision for Long-Context Multimodal Embedding Inference on Cloud TPU</title>
+      <link>https://developers.googleblog.com/enterprise-grade-precision-for-long-context-multimodal-embedding-inference-on-cloud-tpu/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image4_IpoHoDr.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Google Cloud has natively integrated TPU support into the vLLM serving engine, allowing developers to elastically scale high-demand embedding pipelines using Google Kubernetes Engine (GKE). To handle massive 15K+ token contexts for models like Qwen3-Embedding-8B, the engineering team implemented TPU-specific optimizations such as hardware-safe tensor alignment, JAX/XLA compilation pre-warming, and a hybrid StepPool architecture for chunked prefill management. These enhancements achieve near-perfect numerical parity with reference GPU baselines, and developers can immediately leverage the open-sourced setup recipes on the AI-Hypercomputer GitHub to build their own high-throughput semantic retrieval applications.</description>
+      <category>AI</category>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>How to Evaluate Live &amp; Voice Agents in ADK</title>
       <link>https://developers.googleblog.com/how-to-evaluate-live-voice-agents-in-adk/</link>
@@ -71,13 +78,6 @@
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Model_Routing_via_API_Gateway___He.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Google Cloud API Gateway now offers a model routing feature in Public Preview, allowing developers to dynamically route traffic to models like Gemini, Claude, or OpenAI OSS-GPT without hardcoding endpoints or managing open-source proxies. Developers can easily configure these routing rules directly within their OpenAPI 3.x specifications by mapping virtual model names to specific backend targets on a shared host. Once deployed, the Gateway acts as a serverless ingress layer that accepts standard OpenAI-compatible requests, automatically transcodes the payload to the native schema of the target model, and routes the traffic on the fly.</description>
       <category>AI</category>
       <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Scaling real-time AI agents with session-aware load balancing</title>
-      <link>https://developers.googleblog.com/scaling-real-time-ai-agents-with-session-aware-load-balancing/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-banner_8.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Real-time AI agents break traditional request-response load balancing paradigms because they rely on long-lived, stateful bidirectional streams that obscure true server capacity. To solve this, developers must implement application-level session tracking directly within the runtime to accurately measure the committed concurrent workload of active conversations. By feeding these precise session counts alongside standard CPU utilization metrics into a hybrid routing algorithm, infrastructure can effectively distribute stateful AI traffic and prevent individual backend bottlenecks.</description>
-      <category>AI</category>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
