@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Aug 2026 10:15:47 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 14:40:30 +0000</lastBuildDate>
+    <item>
+      <title>Weaviate 1.39 Release</title>
+      <link>https://weaviate.io/blog/weaviate-1-39-release</link>
+      <description>Weaviate 1.39 promotes the Boost API and MMR diversity selection to GA, previews 4-bit Rotational Quantization, and ships an experimental Search REST API.</description>
+      <guid isPermaLink="false">https://weaviate.io/blog/weaviate-1-39-release</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Building Foundry Part 2: Where creative workflows break</title>
       <link>https://weaviate.io/blog/building-foundry-where-workflows-break</link>
@@ -421,13 +428,6 @@
       <description>Glowe is a Korean beauty recommendation app that uses domain knowledge agents, custom embedding strategies, and vector search to create personalized skincare routines. Try now: https://www.glowe.app/</description>
       <guid isPermaLink="false">https://weaviate.io/blog/glowe-app</guid>
       <pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How We Are Building the Core of the AI-Native Stack</title>
-      <link>https://weaviate.io/blog/building-core-of-ai-native-stack</link>
-      <description>How Weaviate's day zero, day one, day two mindset helps developers build AI-native applications.</description>
-      <guid isPermaLink="false">https://weaviate.io/blog/building-core-of-ai-native-stack</guid>
-      <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
