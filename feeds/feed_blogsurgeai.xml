@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Aug 2026 14:38:52 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 18:31:06 +0000</lastBuildDate>
+    <item>
+      <title>DeepSeek V4 Pro: 59.7 on the Tuesday Work Index</title>
+      <link>https://www.surgehq.ai/blog/deepseek-v4-pro-tuesday-work-index</link>
+      <description>DeepSeek V4 Pro scores 59.7 on the Tuesday Work Index and delivers standout cost-performance on Riemann-bench and ComplexConstraints.</description>
+      <guid isPermaLink="false">https://www.surgehq.ai/blog/deepseek-v4-pro-tuesday-work-index</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Qwen 3.8 Max Scores 58.7 on the Tuesday Work Index</title>
       <link>https://www.surgehq.ai/blog/qwen-3-8-max-scores-58-7-on-the-tuesday-work-index</link>
