@@ -13,7 +13,14 @@
       <link>https://ai-first.ai/podcast</link>
     </image>
     <language>de</language>
-    <lastBuildDate>Fri, 28 Aug 2026 04:36:16 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 07:31:37 +0000</lastBuildDate>
+    <item>
+      <title>State of AI Agents: Wie Beam agentische Systeme in Produktion bringt</title>
+      <link>https://ai-first.ai/podcast/state-of-ai-agents-wie-beam-agentische-systeme-in-produktion-bringt</link>
+      <description>State of AI Agents: Wie Beam agentische Systeme in Produktion bringt – mit Jonas Diezun</description>
+      <guid isPermaLink="false">https://ai-first.ai/podcast/state-of-ai-agents-wie-beam-agentische-systeme-in-produktion-bringt</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Das AI-First Prinzip — 3 Ebenen, die dein Unternehmen transformieren</title>
       <link>https://ai-first.ai/podcast/das-ai-first-prinzip-3-ebenen-die-dein-unternehmen-transformieren</link>
@@ -27,13 +34,6 @@
       <description>Agentic AI im ERP: Wie BLP 300 Agenten in Kernprozesse bringt – mit Tim Beck</description>
       <guid isPermaLink="false">https://ai-first.ai/podcast/agentic-ai-im-erp-wie-blp-300-agenten-in-kernprozesse-bringt</guid>
       <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CEO von EGYM: „Wer glaubt, KI verändert seinen Job nicht, ist bei uns falsch.“</title>
-      <link>https://ai-first.ai/podcast/ceo-von-egym-wer-glaubt-ki-veraendert-seinen-job-nicht-ist-bei-uns-falsch</link>
-      <description>CEO von EGYM: „Wer glaubt, KI verändert seinen Job nicht, ist bei uns falsch.“ – mit Philipp Roesch-Schlanderer</description>
-      <guid isPermaLink="false">https://ai-first.ai/podcast/ceo-von-egym-wer-glaubt-ki-veraendert-seinen-job-nicht-ist-bei-uns-falsch</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
