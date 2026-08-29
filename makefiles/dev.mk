@@ -35,26 +35,25 @@ dev_test_feed: ## Run a test feed generator (ollama)
 .PHONY: dev_test_opml
 dev_test_opml: ## Run focused Make-based tests for OPML generation
 	$(call print_info,Running OPML generation tests)
-	$(Q)uv run feed_generators/run_generate_opml.py
+	$(Q)uv run feed_generators/run_generate_opml.py --output feeds/feeds_test.opml
 	$(call print_info,Test and check OPML unchanged)
-	$(Q)uv run feed_generators/run_generate_opml.py 2>&1 | grep -q 'OPML content is unchanged'
+	$(Q)uv run feed_generators/run_generate_opml.py --output feeds/feeds_test.opml 2>&1 | grep -q 'OPML content is unchanged'
 	$(call print_info,Check feeds links no anchor)
-	$(Q)! grep -q '#force_feed' feeds/feeds.opml
+	$(Q)! grep -q '#force_feed' feeds/feeds_test.opml
 	$(call print_info,Add new feeds)
-	$(Q)printf '%s\n' '<rss xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Atom Self Feed</title><atom:link href="https://feeds.example.com/atom-self.xml" rel="self" /></channel></rss>' > feeds/feed_atom_self.xml
-	$(Q)printf '%s\n' '<rss><channel><title>Missing Self Feed</title></channel></rss>' > feeds/feed_missing_self.xml
+	$(Q)printf '%s\n' '<rss xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Atom Self Feed</title><atom:link href="https://feeds.example.com/atom-self.xml" rel="self" /></channel></rss>' > feeds/feed_test_atom_self.xml
+	$(Q)printf '%s\n' '<rss><channel><title>Missing Self Feed</title></channel></rss>' > feeds/feed_test_missing_self.xml
 	$(call print_info,Test new feeds OPML generation)
-	$(Q)uv run feed_generators/run_generate_opml.py --xml-url-anchor "#force_feed"
+	$(Q)uv run feed_generators/run_generate_opml.py --output feeds/feeds_test.opml --xml-url-anchor "#force_feed"
 	$(call print_info,Check new feeds links exists)
-	$(Q)grep -q 'xmlUrl="https://feeds.example.com/atom-self.xml#force_feed"' feeds/feeds.opml
-	$(Q)grep -q 'xmlUrl="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_missing_self.xml#force_feed"' feeds/feeds.opml
+	$(Q)grep -q 'xmlUrl="https://feeds.example.com/atom-self.xml#force_feed"' feeds/feeds_test.opml
+	$(Q)grep -q 'xmlUrl="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_test_missing_self.xml#force_feed"' feeds/feeds_test.opml
 	$(call print_info,Clean new feeds)
-	$(Q)rm -f feeds/feed_atom_self.xml feeds/feed_missing_self.xml
-	$(Q)uv run feed_generators/run_generate_opml.py
+	$(Q)rm -f feeds/feed_test_atom_self.xml feeds/feed_test_missing_self.xml feeds/feeds_test.opml
 	$(call print_success,OPML tests completed)
 
 .PHONY: dev_test_all
-dev_test_all: ## Validate feeds, test OPML, regenerate non-selenium feeds, then re-validate
+dev_test_all: ## Validate feeds, regenerate non-selenium feeds, then re-validate
 	$(call print_info_section,Running full test suite)
 	$(call print_info,Validating existing feeds)
 	$(Q)uv run feed_generators/validate_feeds.py
