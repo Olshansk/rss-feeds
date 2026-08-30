@@ -8,9 +8,9 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 30 Aug 2026 22:03:59 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 23:03:32 +0000</lastBuildDate>
     <item>
-      <title>DeepSeek V4 Pro: 59.7 on the Tuesday Work Index</title>
+      <title>DeepSeek V4 Pro Scores 59.7 on the Tuesday Work Index</title>
       <link>https://www.surgehq.ai/blog/deepseek-v4-pro-tuesday-work-index</link>
       <description>DeepSeek V4 Pro scores 59.7 on the Tuesday Work Index and delivers standout cost-performance on Riemann-bench and ComplexConstraints.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/deepseek-v4-pro-tuesday-work-index</guid>
@@ -24,9 +24,9 @@
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing Tuesday: A Frontier Index for AI at Work</title>
+      <title>Introducing the Tuesday Work Index: Can AI Do the Job?</title>
       <link>https://www.surgehq.ai/blog/tuesday-frontier-work-index</link>
-      <description>Introducing the Tuesday Index, a composite benchmark measuring how well frontier AI models handle the capabilities required for real professional work.</description>
+      <description>Introducing the Tuesday Work Index, a composite benchmark measuring how well frontier AI models handle the capabilities required for real professional work.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/tuesday-frontier-work-index</guid>
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
     </item>
@@ -52,7 +52,7 @@
       <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Deeper Instructions, Stronger Generalization: Training on ComplexConstraints</title>
+      <title>Training on ComplexConstraints: +10.1 on MultiChallenge, +8.4 on AdvancedIF</title>
       <link>https://www.surgehq.ai/blog/training-on-complexconstraints</link>
       <description>We trained a 4B model on 1,000 expert-written rubrics from ComplexConstraints, our frontier instruction-following benchmark. It reached parity with a 60x larger model, and the gains transferred to external benchmarks it never saw.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/training-on-complexconstraints</guid>
@@ -87,9 +87,9 @@
       <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Cross-Benchmark Generalization for Long-Horizon Agentic Tasks</title>
+      <title>Training on Long-Horizon Agent Tasks: +9.6 on Toolathlon, +5.3 on τ²-Bench</title>
       <link>https://www.surgehq.ai/blog/cross-benchmark-generalization-for-long-horizon-agentic-tasks</link>
-      <description>Post-training on Surge AI's agentic RL environments and why it generalizes to external tool-use benchmarks like Toolathlon, τ²-Bench, and BFCL-V4.</description>
+      <description>Post-training on Surge RL environments improved Qwen3.5-122B-A10B by +9.6 on Toolathlon, +5.3 on τ²-Bench, and +3.5 on BFCL-V4 across unseen agent benchmarks.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/cross-benchmark-generalization-for-long-horizon-agentic-tasks</guid>
       <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
     </item>
