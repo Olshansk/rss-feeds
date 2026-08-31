@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 31 Aug 2026 12:08:09 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 13:05:02 +0000</lastBuildDate>
     <item>
       <title>Elicitation without Backpropagation: Steering Model Behavior by Optimizing the Latent Posterior</title>
       <link>https://timaeus.co/research/2026-07-21-elicitation-without-backprop</link>
