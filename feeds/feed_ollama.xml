@@ -13,7 +13,14 @@
       <link>https://ollama.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Sep 2026 00:15:32 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 01:24:57 +0000</lastBuildDate>
+    <item>
+      <title>Ollama's transparent pricing</title>
+      <link>https://ollama.com/blog/transparent-pricing</link>
+      <description>Ollama's Pro, Max, and Team plans now use industry-standard per-token pricing with usage included on every plan.</description>
+      <guid isPermaLink="false">https://ollama.com/blog/transparent-pricing</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Claude Desktop support with Ollama</title>
       <link>https://ollama.com/blog/claude-desktop</link>
