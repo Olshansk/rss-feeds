@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Sep 2026 12:08:53 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 13:06:42 +0000</lastBuildDate>
+    <item>
+      <title>How to extract meaning from charts and tables in PDFs</title>
+      <link>https://weaviate.io/blog/charts-tables-pdfs</link>
+      <description>PDFs full of charts and tables are notoriously hard to put through a traditional RAG pipeline. In this post, we show how late-interaction multi-vector retrieval lets you search PDFs by what the page looks like: no OCR, no chunking, no text extraction.</description>
+      <guid isPermaLink="false">https://weaviate.io/blog/charts-tables-pdfs</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Weaviate 1.39 Release</title>
       <link>https://weaviate.io/blog/weaviate-1-39-release</link>
@@ -421,13 +428,6 @@
       <description>Design for speed, build for experience.</description>
       <guid isPermaLink="false">https://weaviate.io/blog/latency-and-weaviate</guid>
       <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Glowe: Agent-Powered Korean Skincare Routines</title>
-      <link>https://weaviate.io/blog/glowe-app</link>
-      <description>Glowe is a Korean beauty recommendation app that uses domain knowledge agents, custom embedding strategies, and vector search to create personalized skincare routines. Try now: https://www.glowe.app/</description>
-      <guid isPermaLink="false">https://weaviate.io/blog/glowe-app</guid>
-      <pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
