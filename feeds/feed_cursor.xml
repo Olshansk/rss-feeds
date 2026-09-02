@@ -13,7 +13,14 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Sep 2026 17:04:09 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 18:06:09 +0000</lastBuildDate>
+    <item>
+      <title>Run cloud agents on machines you manage</title>
+      <link>https://cursor.com/blog/self-hosted-machines</link>
+      <guid isPermaLink="false">https://cursor.com/blog/self-hosted-machines</guid>
+      <category>product</category>
+      <pubDate>Wed, 02 Sep 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>IMDEX uses Cursor to build integrated subsurface data and analytics platform in months, not years</title>
       <link>https://cursor.com/blog/imdex</link>
