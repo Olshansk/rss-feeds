@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Sep 2026 15:07:27 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 16:05:55 +0000</lastBuildDate>
     <item>
       <title>Decoding cosmic signals with deep learning and Keras</title>
       <link>https://developers.googleblog.com/decoding-cosmic-signals-with-deep-learning-and-keras/</link>
@@ -73,11 +73,10 @@
       <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Scaling AI Agent Infrastructure with the MCP Stateless updates</title>
-      <link>https://developers.googleblog.com/scaling-ai-agent-infrastructure-with-the-mcp-stateless-updates/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner-4209x1253.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;The 2026-07-28 Model Context Protocol (MCP) specification replaces legacy stateful constraints with a fully stateless core, enabling cloud-native horizontal scaling, serverless deployments, and standard round-robin load balancing. This architectural shift introduces standardized HTTP headers for efficient routing without deep packet inspection, caching controls, and Multi Round-Trip Requests (MRTR) to handle interactive and long-running tasks without blocking connections. Developers can immediately begin migrating their agentic applications to this highly scalable infrastructure using the newly available beta SDKs for Python, TypeScript, Go, and C#.</description>
+      <title>4 engineering patterns behind the strongest AI Agents Challenge submissions</title>
+      <link>https://developers.googleblog.com/4-engineering-patterns-behind-the-strongest-ai-agents-challenge-submissions/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_5wdk45wdk45.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;The recent Google for Startups AI Agents Challenge revealed that the most successful multi-agent systems rely on foundational software engineering patterns rather than just raw model power. Winning architectures consistently implemented bidirectional MCP for seamless inter-agent communication, async event buses for parallel execution, strict unified validation for model fallbacks, and tiered routing to minimize expensive inference calls. By prioritizing these structural practices over simple linear prompt chains, developers can build more resilient, low-latency, and cost-effective agentic workflows.</description>
       <category>AI</category>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
