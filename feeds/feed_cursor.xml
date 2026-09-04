@@ -13,7 +13,13 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 04 Sep 2026 16:04:55 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 17:04:13 +0000</lastBuildDate>
+    <item>
+      <title>How Basis builds long-horizon accounting agents with Cursor</title>
+      <link>https://cursor.com/blog/basis</link>
+      <guid isPermaLink="false">https://cursor.com/blog/basis</guid>
+      <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Nokia analyzes 50M+ lines of code in two weeks with Cursor</title>
       <link>https://cursor.com/blog/nokia</link>
