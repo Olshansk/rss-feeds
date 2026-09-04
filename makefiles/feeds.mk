@@ -9,6 +9,13 @@ feeds_generate_all: ## Generate all RSS feeds
 	$(Q)uv run feed_generators/run_all_feeds.py
 	$(call print_success,All feeds generated)
 
+.PHONY: feeds_generate_opml
+feeds_generate_opml: ## Generate OPML file for all registered RSS feeds
+	$(call check_venv)
+	$(call print_info,Generating OPML file)
+	$(Q)uv run feed_generators/run_generate_opml.py
+	$(call print_success,OPML file generated)
+
 .PHONY: feeds_ai_first_podcast
 feeds_ai_first_podcast: ## Generate RSS feed for AI FIRST Podcast (incremental)
 	$(call check_venv)
