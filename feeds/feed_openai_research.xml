@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 05 Sep 2026 02:06:25 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 03:05:42 +0000</lastBuildDate>
+    <item>
+      <title>GPT-6 Astra: A new generation of intelligence</title>
+      <link>https://openai.com/index/gpt-6-astra</link>
+      <description>Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.</description>
+      <category>Research</category>
+      <pubDate>Thu, 03 Sep 2026 11:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>How enabling two settings tripled our scores on the ARC-AGI-3 benchmark</title>
       <link>https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores</link>
@@ -369,16 +376,16 @@
       <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>A Holistic Approach to Undesired Content Detection in the Real World</title>
-      <link>https://openai.com/index/a-holistic-approach-to-undesired-content-detection-in-the-real-world</link>
-      <description>We present a holistic approach to building a robust and useful natural language classification system for real-world content moderation.</description>
+      <title>Consistency Models</title>
+      <link>https://openai.com/index/consistency-models</link>
+      <description>Diffusion models have significantly advanced the fields of image, audio, and video generation, but they depend on an iterative sampling process that causes slow generation.</description>
       <category>Research</category>
       <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Consistency Models</title>
-      <link>https://openai.com/index/consistency-models</link>
-      <description>Diffusion models have significantly advanced the fields of image, audio, and video generation, but they depend on an iterative sampling process that causes slow generation.</description>
+      <title>A Holistic Approach to Undesired Content Detection in the Real World</title>
+      <link>https://openai.com/index/a-holistic-approach-to-undesired-content-detection-in-the-real-world</link>
+      <description>We present a holistic approach to building a robust and useful natural language classification system for real-world content moderation.</description>
       <category>Research</category>
       <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
     </item>
@@ -1016,14 +1023,14 @@
       <pubDate>Thu, 19 Oct 2017 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Asymmetric actor critic for image-based robot learning</title>
-      <link>https://openai.com/index/asymmetric-actor-critic-for-image-based-robot-learning</link>
+      <title>Sim-to-real transfer of robotic control with dynamics randomization</title>
+      <link>https://openai.com/index/sim-to-real-transfer-of-robotic-control-with-dynamics-randomization</link>
       <category>Research</category>
       <pubDate>Wed, 18 Oct 2017 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Sim-to-real transfer of robotic control with dynamics randomization</title>
-      <link>https://openai.com/index/sim-to-real-transfer-of-robotic-control-with-dynamics-randomization</link>
+      <title>Asymmetric actor critic for image-based robot learning</title>
+      <link>https://openai.com/index/asymmetric-actor-critic-for-image-based-robot-learning</link>
       <category>Research</category>
       <pubDate>Wed, 18 Oct 2017 07:00:00 +0000</pubDate>
     </item>
