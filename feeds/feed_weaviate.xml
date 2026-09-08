@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 08 Sep 2026 15:06:30 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 16:06:18 +0000</lastBuildDate>
     <item>
       <title>Building Foundry Part 3: From archive to creative search</title>
       <link>https://weaviate.io/blog/building-foundry-creative-search</link>
