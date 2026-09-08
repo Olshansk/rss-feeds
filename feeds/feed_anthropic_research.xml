@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 08 Sep 2026 13:38:56 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 14:38:28 +0000</lastBuildDate>
     <item>
       <title>Formalizing Fermat's Last Theorem</title>
       <link>https://www.anthropic.com/research/formalizing-fermats-last-theorem</link>
@@ -108,15 +108,7 @@
       <description>Frontier Red Team</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/frontier-red-team</guid>
       <category>Research</category>
-      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Interpretability</title>
-      <link>https://www.anthropic.com/research/team/interpretability</link>
-      <description>Interpretability</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/team/interpretability</guid>
-      <category>Research</category>
-      <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 02 May 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Economics</title>
@@ -124,7 +116,15 @@
       <description>Economics</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/economics</guid>
       <category>Research</category>
-      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Interpretability</title>
+      <link>https://www.anthropic.com/research/team/interpretability</link>
+      <description>Interpretability</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/interpretability</guid>
+      <category>Research</category>
+      <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Societal Impacts</title>
@@ -132,7 +132,7 @@
       <description>Societal Impacts</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/societal-impacts</guid>
       <category>Research</category>
-      <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 29 Apr 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Alignment</title>
@@ -140,7 +140,7 @@
       <description>Alignment</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
       <category>Research</category>
-      <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
