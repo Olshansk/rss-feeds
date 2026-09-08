@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 08 Sep 2026 16:05:16 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 17:04:40 +0000</lastBuildDate>
+    <item>
+      <title>The Data Plane Is Yours: Dagster+ Hybrid on Kubernetes and Azure</title>
+      <link>https://dagster.io/blog/the-data-plane-is-yours-dagster-hybrid-on-kubernetes-and-azure</link>
+      <description>This article draws on a Dagster+ Hybrid deployment on Kubernetes and Azure at a very large enterprise. It covers the work outside the Helm chart: workload ownership, isolation, networking, identity, sizing, and capacity.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/the-data-plane-is-yours-dagster-hybrid-on-kubernetes-and-azure</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Orchestration is More than Scheduling: Declarative Automation in Dagster</title>
       <link>https://dagster.io/blog/orchestration-is-more-than-scheduling-declarative-automation-in-dagster</link>
