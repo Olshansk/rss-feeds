@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 08 Sep 2026 18:06:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 19:04:09 +0000</lastBuildDate>
     <item>
       <title>On the Navier–Stokes Millennium Prize Problem</title>
       <link>https://openai.com/index/navier-stokes-solution</link>
@@ -383,6 +383,13 @@
       <pubDate>Wed, 10 Jul 2024 06:30:00 +0000</pubDate>
     </item>
     <item>
+      <title>Consistency Models</title>
+      <link>https://openai.com/index/consistency-models</link>
+      <description>Diffusion models have significantly advanced the fields of image, audio, and video generation, but they depend on an iterative sampling process that causes slow generation.</description>
+      <category>Research</category>
+      <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Improved Techniques for Training Consistency Models</title>
       <link>https://openai.com/index/improved-techniques-for-training-consistency-models</link>
       <description>Consistency models are a nascent family of generative models that can sample high quality data in one step without the need for adversarial training.</description>
@@ -393,13 +400,6 @@
       <title>A Holistic Approach to Undesired Content Detection in the Real World</title>
       <link>https://openai.com/index/a-holistic-approach-to-undesired-content-detection-in-the-real-world</link>
       <description>We present a holistic approach to building a robust and useful natural language classification system for real-world content moderation.</description>
-      <category>Research</category>
-      <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Consistency Models</title>
-      <link>https://openai.com/index/consistency-models</link>
-      <description>Diffusion models have significantly advanced the fields of image, audio, and video generation, but they depend on an iterative sampling process that causes slow generation.</description>
       <category>Research</category>
       <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
     </item>
