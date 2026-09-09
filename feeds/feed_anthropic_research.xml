@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Sep 2026 16:40:56 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 17:35:43 +0000</lastBuildDate>
     <item>
       <title>ScienceSep 4, 2026Formalizing Fermat's Last Theorem We are sharing the first complete computer-checked proof of Fermat’s Last Theorem. Claude worked largely autonomously over 11 days to write the proof in the Lean programming language. Below, we describe how the formalization was done and share some thoughts about what this work could mean for research mathematics.</title>
       <link>https://www.anthropic.com/research/formalizing-fermats-last-theorem</link>
@@ -95,12 +95,20 @@
       <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Alignment</title>
+      <link>https://www.anthropic.com/research/team/alignment</link>
+      <description>Alignment</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
+      <category>Research</category>
+      <pubDate>Wed, 03 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Frontier Red Team</title>
       <link>https://www.anthropic.com/research/team/frontier-red-team</link>
       <description>Frontier Red Team</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/frontier-red-team</guid>
       <category>Research</category>
-      <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Economics</title>
@@ -108,15 +116,7 @@
       <description>Economics</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/economics</guid>
       <category>Research</category>
-      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Interpretability</title>
-      <link>https://www.anthropic.com/research/team/interpretability</link>
-      <description>Interpretability</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/team/interpretability</guid>
-      <category>Research</category>
-      <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Societal Impacts</title>
@@ -124,15 +124,15 @@
       <description>Societal Impacts</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/societal-impacts</guid>
       <category>Research</category>
-      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Alignment</title>
-      <link>https://www.anthropic.com/research/team/alignment</link>
-      <description>Alignment</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
+      <title>Interpretability</title>
+      <link>https://www.anthropic.com/research/team/interpretability</link>
+      <description>Interpretability</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/interpretability</guid>
       <category>Research</category>
-      <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
