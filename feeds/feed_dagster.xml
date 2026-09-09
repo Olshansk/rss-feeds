@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Sep 2026 04:05:42 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 05:05:10 +0000</lastBuildDate>
     <item>
       <title>The Data Plane Is Yours: Dagster+ Hybrid on Kubernetes and Azure</title>
       <link>https://dagster.io/blog/the-data-plane-is-yours-dagster-hybrid-on-kubernetes-and-azure</link>
