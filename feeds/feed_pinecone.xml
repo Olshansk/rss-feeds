@@ -8,13 +8,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Sep 2026 12:47:32 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 13:40:37 +0000</lastBuildDate>
     <item>
       <title>Full-Text Search is Now Generally Available In Pinecone Database</title>
       <link>https://www.pinecone.io/blog/full-text-search-generally-available/</link>
       <description>Full-Text Search is Now Generally Available In Pinecone Database</description>
       <guid isPermaLink="false">https://www.pinecone.io/blog/full-text-search-generally-available/</guid>
-      <category>Product</category>
+      <category>Featured</category>
       <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -150,7 +150,7 @@
       <link>https://www.pinecone.io/blog/full-text-search/</link>
       <description>Full Text Search in Pinecone, Now in Public Preview</description>
       <guid isPermaLink="false">https://www.pinecone.io/blog/full-text-search/</guid>
-      <category>Featured</category>
+      <category>Product</category>
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
