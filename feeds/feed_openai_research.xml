@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Sep 2026 21:04:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 22:03:51 +0000</lastBuildDate>
     <item>
       <title>On the Navier–Stokes Millennium Prize Problem</title>
       <link>https://openai.com/index/navier-stokes-solution</link>
@@ -964,15 +964,15 @@
       <pubDate>Sat, 03 Mar 2018 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Ingredients for robotics research</title>
-      <link>https://openai.com/index/ingredients-for-robotics-research</link>
-      <description>We’re releasing eight simulated robotics environments and a Baselines implementation of Hindsight Experience Replay, all developed for our research over the past year. We’ve used these environments to train models which work on physical robots. We’re also releasing a set of requests for robotics research.</description>
+      <title>Multi-Goal Reinforcement Learning: Challenging robotics environments and request for research</title>
+      <link>https://openai.com/index/multi-goal-reinforcement-learning</link>
       <category>Research</category>
       <pubDate>Mon, 26 Feb 2018 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Multi-Goal Reinforcement Learning: Challenging robotics environments and request for research</title>
-      <link>https://openai.com/index/multi-goal-reinforcement-learning</link>
+      <title>Ingredients for robotics research</title>
+      <link>https://openai.com/index/ingredients-for-robotics-research</link>
+      <description>We’re releasing eight simulated robotics environments and a Baselines implementation of Hindsight Experience Replay, all developed for our research over the past year. We’ve used these environments to train models which work on physical robots. We’re also releasing a set of requests for robotics research.</description>
       <category>Research</category>
       <pubDate>Mon, 26 Feb 2018 08:00:00 +0000</pubDate>
     </item>
@@ -1055,16 +1055,16 @@
       <pubDate>Tue, 17 Oct 2017 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Meta-learning for wrestling</title>
-      <link>https://openai.com/index/meta-learning-for-wrestling</link>
-      <description>We show that for the task of simulated robot wrestling, a meta-learning agent can learn to quickly defeat a stronger non-meta-learning agent, and also show that the meta-learning agent can adapt to physical malfunction.</description>
+      <title>Competitive self-play</title>
+      <link>https://openai.com/index/competitive-self-play</link>
+      <description>We’ve found that self-play allows simulated AIs to discover physical skills like tackling, ducking, faking, kicking, catching, and diving for the ball, without explicitly designing an environment with these skills in mind. Self-play ensures that the environment is always the right difficulty for an AI to improve. Taken alongside our Dota 2 self-play results, we have increasing confidence that self-play will be a core part of powerful AI systems in the future.</description>
       <category>Research</category>
       <pubDate>Wed, 11 Oct 2017 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Competitive self-play</title>
-      <link>https://openai.com/index/competitive-self-play</link>
-      <description>We’ve found that self-play allows simulated AIs to discover physical skills like tackling, ducking, faking, kicking, catching, and diving for the ball, without explicitly designing an environment with these skills in mind. Self-play ensures that the environment is always the right difficulty for an AI to improve. Taken alongside our Dota 2 self-play results, we have increasing confidence that self-play will be a core part of powerful AI systems in the future.</description>
+      <title>Meta-learning for wrestling</title>
+      <link>https://openai.com/index/meta-learning-for-wrestling</link>
+      <description>We show that for the task of simulated robot wrestling, a meta-learning agent can learn to quickly defeat a stronger non-meta-learning agent, and also show that the meta-learning agent can adapt to physical malfunction.</description>
       <category>Research</category>
       <pubDate>Wed, 11 Oct 2017 07:00:00 +0000</pubDate>
     </item>
