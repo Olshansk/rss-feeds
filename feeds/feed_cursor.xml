@@ -13,7 +13,14 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Sep 2026 21:03:55 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 22:03:44 +0000</lastBuildDate>
+    <item>
+      <title>Introducing Projects</title>
+      <link>https://cursor.com/blog/projects</link>
+      <guid isPermaLink="false">https://cursor.com/blog/projects</guid>
+      <category>product</category>
+      <pubDate>Thu, 10 Sep 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>How Basis builds long-horizon accounting agents with Cursor</title>
       <link>https://cursor.com/blog/basis</link>
