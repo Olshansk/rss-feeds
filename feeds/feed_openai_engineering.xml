@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 11 Sep 2026 16:05:08 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 17:04:08 +0000</lastBuildDate>
+    <item>
+      <title>Rapidly scaling online storage to serve over 1 billion ChatGPT users</title>
+      <link>https://openai.com/index/scaling-storage-one-billion-users-part-one</link>
+      <description>Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.</description>
+      <category>Engineering</category>
+      <pubDate>Fri, 11 Sep 2026 10:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Jalapeño’s first results show industry-leading speed and efficiency in AI inference</title>
       <link>https://openai.com/index/jalapeno-first-results</link>
