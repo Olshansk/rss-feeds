@@ -13,7 +13,14 @@
       <link>https://ai-first.ai/podcast</link>
     </image>
     <language>de</language>
-    <lastBuildDate>Fri, 11 Sep 2026 06:07:41 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 07:04:55 +0000</lastBuildDate>
+    <item>
+      <title>KI im Großkonzern: Wie die Deutsche Bahn 220.000 Menschen in die KI-Transformation bringt</title>
+      <link>https://ai-first.ai/podcast/ki-im-grosskonzern-wie-die-deutsche-bahn-220-000-menschen-in-die-ki-transformation-bringt</link>
+      <description>KI im Großkonzern: Wie die Deutsche Bahn 220.000 Menschen in die KI-Transformation bringt – mit Dr. Michael Drass</description>
+      <guid isPermaLink="false">https://ai-first.ai/podcast/ki-im-grosskonzern-wie-die-deutsche-bahn-220-000-menschen-in-die-ki-transformation-bringt</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Wenn ich heute mit KI noch einmal neu anfangen würde</title>
       <link>https://ai-first.ai/podcast/wenn-ich-heute-mit-ki-noch-einmal-neu-anfangen-wuerde</link>
@@ -27,13 +34,6 @@
       <description>State of AI Agents: Wie Beam agentische Systeme in Produktion bringt – mit Jonas Diezun</description>
       <guid isPermaLink="false">https://ai-first.ai/podcast/state-of-ai-agents-wie-beam-agentische-systeme-in-produktion-bringt</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Das AI-First Prinzip — 3 Ebenen, die dein Unternehmen transformieren</title>
-      <link>https://ai-first.ai/podcast/das-ai-first-prinzip-3-ebenen-die-dein-unternehmen-transformieren</link>
-      <description>Das AI-First Prinzip — 3 Ebenen, die dein Unternehmen transformieren – mit Elisabeth L’Orange</description>
-      <guid isPermaLink="false">https://ai-first.ai/podcast/das-ai-first-prinzip-3-ebenen-die-dein-unternehmen-transformieren</guid>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
