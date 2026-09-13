@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 13 Sep 2026 00:14:08 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2026 01:19:55 +0000</lastBuildDate>
     <item>
       <title>Developer notes on the Realtime API</title>
       <link>https://developers.openai.com/blog/realtime-api</link>
