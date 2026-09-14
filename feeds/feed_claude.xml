@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Sep 2026 15:05:35 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 16:04:55 +0000</lastBuildDate>
+    <item>
+      <title>Claude for Financial Advisors</title>
+      <link>https://claude.com/blog/claude-for-financial-advisors</link>
+      <description>Claude for Financial Advisors</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-for-financial-advisors</guid>
+      <category>Product announcements</category>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>What 1,000 small business owners taught us about AI</title>
       <link>https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai</link>
