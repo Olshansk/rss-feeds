@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Sep 2026 18:05:19 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 19:04:14 +0000</lastBuildDate>
     <item>
       <title>How healthcare organizations use Claude Tag</title>
       <link>https://claude.com/blog/how-healthcare-organizations-use-claude-tag</link>
@@ -23,6 +23,14 @@
       <description>Claude for Financial Advisors</description>
       <guid isPermaLink="false">https://claude.com/blog/claude-for-financial-advisors</guid>
       <category>Product announcements</category>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic</title>
+      <link>https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic</link>
+      <description>Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic</description>
+      <guid isPermaLink="false">https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic</guid>
+      <category>Claude Code</category>
       <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
