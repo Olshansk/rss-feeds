@@ -8,15 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Sep 2026 16:04:59 +0000</lastBuildDate>
-    <item>
-      <title>Claude for Small Business launches new workflows, integrations, and training programs</title>
-      <link>https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs</link>
-      <description>Claude for Small Business launches new workflows, integrations, and training programs</description>
-      <guid isPermaLink="false">https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs</guid>
-      <category>Product announcements</category>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 15 Sep 2026 17:04:24 +0000</lastBuildDate>
     <item>
       <title>Building an AI-native revenue organization</title>
       <link>https://claude.com/blog/building-an-ai-native-revenue-organization</link>
@@ -31,6 +23,13 @@
       <description>Bringing Salesforce into Claude</description>
       <guid isPermaLink="false">https://claude.com/blog/salesforce-in-claude</guid>
       <category>Enterprise AI</category>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude for Small Business launches new workflows, integrations, and training programs</title>
+      <link>https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs</link>
+      <description>Claude for Small Business launches new workflows, integrations, and training programs</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs</guid>
       <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1075,6 +1074,7 @@
       <link>https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense</link>
       <description>Preparing your security program for AI-accelerated offense</description>
       <guid isPermaLink="false">https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense</guid>
+      <category>Agents</category>
       <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
