@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 16 Sep 2026 16:05:44 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 17:04:35 +0000</lastBuildDate>
+    <item>
+      <title>Claude Cowork and chat are now one Claude</title>
+      <link>https://claude.com/blog/cowork-is-now-claude</link>
+      <description>Claude Cowork and chat are now one Claude</description>
+      <guid isPermaLink="false">https://claude.com/blog/cowork-is-now-claude</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Building an AI-native revenue organization</title>
       <link>https://claude.com/blog/building-an-ai-native-revenue-organization</link>
@@ -1051,6 +1058,7 @@
       <link>https://claude.com/blog/claude-code-desktop-redesign</link>
       <description>Redesigning Claude Code on desktop for parallel agents</description>
       <guid isPermaLink="false">https://claude.com/blog/claude-code-desktop-redesign</guid>
+      <category>Claude Code</category>
       <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
