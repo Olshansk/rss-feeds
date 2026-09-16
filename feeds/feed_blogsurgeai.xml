@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 16 Sep 2026 17:04:22 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 18:05:23 +0000</lastBuildDate>
     <item>
       <title>Helping Anthropic Build Automated Alignment Researchers</title>
       <link>https://www.surgehq.ai/blog/anthropic-automated-alignment-research</link>
@@ -52,9 +52,9 @@
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>We Trained a Model on Office Work. It Also Got Better at Coding: +5.8pp on SWE-Bench Pro.</title>
+      <title>We Trained a Model on Office Work. It Also Got Better at Coding.</title>
       <link>https://www.surgehq.ai/blog/office-work-post-training-improves-coding</link>
-      <description>A model post-trained on non-coding office tasks gained 5.8 points on SWE-Bench Pro. Our analysis points to transferable Goal-Directed Execution.</description>
+      <description>A model post-trained on non-coding office tasks gained 5.8 points on SWE-Bench Pro. Why? Our analysis points to a capability we call Goal-Directed Execution.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/office-work-post-training-improves-coding</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
     </item>
