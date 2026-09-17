@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Sep 2026 19:04:14 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 20:05:23 +0000</lastBuildDate>
     <item>
       <title>Decoding cosmic signals with deep learning and Keras</title>
       <link>https://developers.googleblog.com/decoding-cosmic-signals-with-deep-learning-and-keras/</link>
@@ -50,7 +50,7 @@
     <item>
       <title>Autonomous LLM post-training with Tunix on TPUs</title>
       <link>https://developers.googleblog.com/autonomous-llm-post-training-with-tunix-on-tpus/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-banner_9.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Imagine going to sleep after writing a single Markdown specification and waking up to find that an A...</description>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-banner_9.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;The "autofinetune" project introduces an autonomous research loop that fully automates LLM post-training workflows, including Supervised Fine-Tuning (SFT) and Reinforcement Learning via GRPO. By defining boundary conditions and evaluation metrics in a single Markdown specification, developers can deploy an AI agent to iteratively edit training scripts, launch experiments, and automatically commit verified hyperparameter optimizations to Git. Built on Google’s AI stack—including Tunix, Gemma, and Cloud TPUs—this framework eliminates manual tuning cycles, successfully demonstrating hands-off performance gains in both function calling and math reasoning models.</description>
       <category>AI</category>
     </item>
     <item>
