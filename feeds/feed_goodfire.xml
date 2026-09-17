@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Sep 2026 16:05:47 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 17:04:00 +0000</lastBuildDate>
+    <item>
+      <title>Models know when they’re reward hacking — and we can catch them at scale</title>
+      <link>https://www.goodfire.ai/research/reward-hacking-activation-monitors</link>
+      <description>Applied Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/reward-hacking-activation-monitors</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Forking Fast: Efficiently Estimating Uncertainty Dynamics in Text Generation</title>
       <link>https://www.goodfire.ai/research/forking-fast</link>
