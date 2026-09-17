@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Sep 2026 18:06:18 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 19:04:14 +0000</lastBuildDate>
     <item>
       <title>Decoding cosmic signals with deep learning and Keras</title>
       <link>https://developers.googleblog.com/decoding-cosmic-signals-with-deep-learning-and-keras/</link>
@@ -22,13 +22,6 @@
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image4_IpoHoDr.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Google Cloud has natively integrated TPU support into the vLLM serving engine, allowing developers to elastically scale high-demand embedding pipelines using Google Kubernetes Engine (GKE). To handle massive 15K+ token contexts for models like Qwen3-Embedding-8B, the engineering team implemented TPU-specific optimizations such as hardware-safe tensor alignment, JAX/XLA compilation pre-warming, and a hybrid StepPool architecture for chunked prefill management. These enhancements achieve near-perfect numerical parity with reference GPU baselines, and developers can immediately leverage the open-sourced setup recipes on the AI-Hypercomputer GitHub to build their own high-throughput semantic retrieval applications.</description>
       <category>AI</category>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How to Evaluate Live &amp; Voice Agents in ADK</title>
-      <link>https://developers.googleblog.com/how-to-evaluate-live-voice-agents-in-adk/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Evaluating_Live_Agent_in_ADK_.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Moving live voice agents from demo to production requires rigorous, automated testing to handle the unpredictability of real multi-turn conversations. ADK now provides native live evaluation, allowing developers to test graph-based agent workflows against LLM-driven simulated users that generate actual audio via Gemini TTS. By defining evaluation scenarios and natural-language rubrics, you can automatically score audio responses and tool executions, inspect the resulting transcripts in ADK Web, or run the CLI directly in your CI/CD pipeline.</description>
-      <category>AI</category>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>4 engineering patterns behind the strongest AI Agents Challenge submissions</title>
@@ -70,6 +63,12 @@
       <title>Agent Anomaly Detection, now in Private Preview on the Gemini Enterprise Agent Platform</title>
       <link>https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform/</link>
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Blog_Banner_3.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Agent Anomaly Detection is a new, out-of-band oversight layer for the Gemini Enterprise Agent Platform that analyzes OpenTelemetry traces and tool calls to catch behavioral risks without adding runtime latency to live requests. It utilizes a multi-tiered detection pipeline—combining lightweight statistical scanning with deep LLM-based reasoning—to identify logical anomalies and policy violations grounded in the OWASP Agentic Top 10. Developers can triage these automated findings within Security Command Center or leverage the exposed API to programmatically block subsequent tool calls when an agent breaches defined risk thresholds.</description>
+      <category>AI</category>
+    </item>
+    <item>
+      <title>Why client SDK generation belongs in the open</title>
+      <link>https://developers.googleblog.com/why-client-sdk-generation-belongs-in-the-open/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Copy_of_why_client_SDK_generation_.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Google has partnered with Speakeasy to open-source their OpenAPI code generation suite under the AGPLv3 license, a strategic move prompted by the sudden shutdown of Google's previous proprietary SDK provider. The newly open-sourced suite equips developers with deterministic, multi-language SDK generators that natively support strict typing and SSE streaming, alongside tools for compiling agent-native CLIs and documentation MCP servers. Engineering teams can now safely integrate this robust tooling directly into their CI pipelines to automatically generate reliable client libraries for their own APIs, all while retaining complete licensing control over the output code.</description>
       <category>AI</category>
     </item>
   </channel>
