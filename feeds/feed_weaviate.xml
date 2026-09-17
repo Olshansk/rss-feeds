@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Sep 2026 13:05:32 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 14:05:59 +0000</lastBuildDate>
+    <item>
+      <title>4-bit Rotational Quantization</title>
+      <link>https://weaviate.io/blog/4-bit-rotational-quantization</link>
+      <description>4-bit Rotational Quantization in Weaviate 1.39: the SIMD performance work, a centered tier, scaling analysis and a TurboQuant comparison.</description>
+      <guid isPermaLink="false">https://weaviate.io/blog/4-bit-rotational-quantization</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>HFresh: Memory-Efficient Vector Search</title>
       <link>https://weaviate.io/blog/hfresh</link>
@@ -421,13 +428,6 @@
       <description>You can now use Weaviate with n8n for no-code agentic workflows. This article teaches you how.</description>
       <guid isPermaLink="false">https://weaviate.io/blog/agent-workflow-automation-n8n-weaviate</guid>
       <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Weaviate 1.32 Release</title>
-      <link>https://weaviate.io/blog/weaviate-1-32-release</link>
-      <description>1.32 adds collection aliases for no-downtime collection migrations, efficient &amp; powerful rotational quantization (RQ), GA replica movement, memory reduction with compressed HNSW connections and more!</description>
-      <guid isPermaLink="false">https://weaviate.io/blog/weaviate-1-32-release</guid>
-      <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
