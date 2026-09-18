@@ -13,7 +13,14 @@
       <link>https://ai-first.ai/podcast</link>
     </image>
     <language>de</language>
-    <lastBuildDate>Fri, 18 Sep 2026 06:07:35 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 07:05:45 +0000</lastBuildDate>
+    <item>
+      <title>KI bei TRUMPF: Wie das Momentum genutzt wird, um sich als Organisation neu zu erfinden</title>
+      <link>https://ai-first.ai/podcast/ki-bei-trumpf-wie-das-momentum-genutzt-wird-um-sich-als-organisation-neu-zu-erfinden</link>
+      <description>KI bei TRUMPF: Wie das Momentum genutzt wird, um sich als Organisation neu zu erfinden – mit Sarah Engel</description>
+      <guid isPermaLink="false">https://ai-first.ai/podcast/ki-bei-trumpf-wie-das-momentum-genutzt-wird-um-sich-als-organisation-neu-zu-erfinden</guid>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>KI im Großkonzern: Wie die Deutsche Bahn 220.000 Menschen in die KI-Transformation bringt</title>
       <link>https://ai-first.ai/podcast/ki-im-grosskonzern-wie-die-deutsche-bahn-220-000-menschen-in-die-ki-transformation-bringt</link>
@@ -27,13 +34,6 @@
       <description>AI FIRST Podcast: Wenn ich heute mit KI noch einmal neu anfangen würde</description>
       <guid isPermaLink="false">https://ai-first.ai/podcast/wenn-ich-heute-mit-ki-noch-einmal-neu-anfangen-wuerde</guid>
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>State of AI Agents: Wie Beam agentische Systeme in Produktion bringt</title>
-      <link>https://ai-first.ai/podcast/state-of-ai-agents-wie-beam-agentische-systeme-in-produktion-bringt</link>
-      <description>State of AI Agents: Wie Beam agentische Systeme in Produktion bringt – mit Jonas Diezun</description>
-      <guid isPermaLink="false">https://ai-first.ai/podcast/state-of-ai-agents-wie-beam-agentische-systeme-in-produktion-bringt</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
