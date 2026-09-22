@@ -8,20 +8,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Sep 2026 17:04:18 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 18:06:06 +0000</lastBuildDate>
     <item>
       <title>Decoding cosmic signals with deep learning and Keras</title>
       <link>https://developers.googleblog.com/decoding-cosmic-signals-with-deep-learning-and-keras/</link>
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image_1_l7IVARL.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Astroparticle physics sits at the exciting intersection of astrophysics and particle physics and stu...</description>
       <category>AI</category>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Enterprise-Grade Precision for Long-Context Multimodal Embedding Inference on Cloud TPU</title>
-      <link>https://developers.googleblog.com/enterprise-grade-precision-for-long-context-multimodal-embedding-inference-on-cloud-tpu/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image4_IpoHoDr.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Google Cloud has natively integrated TPU support into the vLLM serving engine, allowing developers to elastically scale high-demand embedding pipelines using Google Kubernetes Engine (GKE). To handle massive 15K+ token contexts for models like Qwen3-Embedding-8B, the engineering team implemented TPU-specific optimizations such as hardware-safe tensor alignment, JAX/XLA compilation pre-warming, and a hybrid StepPool architecture for chunked prefill management. These enhancements achieve near-perfect numerical parity with reference GPU baselines, and developers can immediately leverage the open-sourced setup recipes on the AI-Hypercomputer GitHub to build their own high-throughput semantic retrieval applications.</description>
-      <category>AI</category>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>4 engineering patterns behind the strongest AI Agents Challenge submissions</title>
@@ -69,6 +62,12 @@
       <title>Why client SDK generation belongs in the open</title>
       <link>https://developers.googleblog.com/why-client-sdk-generation-belongs-in-the-open/</link>
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Copy_of_why_client_SDK_generation_.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Google has partnered with Speakeasy to open-source their OpenAPI code generation suite under the AGPLv3 license, a strategic move prompted by the sudden shutdown of Google's previous proprietary SDK provider. The newly open-sourced suite equips developers with deterministic, multi-language SDK generators that natively support strict typing and SSE streaming, alongside tools for compiling agent-native CLIs and documentation MCP servers. Engineering teams can now safely integrate this robust tooling directly into their CI pipelines to automatically generate reliable client libraries for their own APIs, all while retaining complete licensing control over the output code.</description>
+      <category>AI</category>
+    </item>
+    <item>
+      <title>Colab is now part of your Google AI plan</title>
+      <link>https://developers.googleblog.com/colab-is-now-part-of-your-google-ai-plan/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/google-one-banner-v2.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Unlock premium Google Colab compute with Google AI. Subscribers now get priority accelerators, Premium GPUs, and background execution for long training runs.</description>
       <category>AI</category>
     </item>
   </channel>
