@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Sep 2026 15:04:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 16:05:16 +0000</lastBuildDate>
     <item>
       <title>Projects redesigned: from folder to conversation</title>
       <link>https://claude.com/blog/projects-redesigned</link>
@@ -381,14 +381,6 @@
       <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The new rules of context engineering for Claude 5 generation models </title>
-      <link>https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models</link>
-      <description>The new rules of context engineering for Claude 5 generation models </description>
-      <guid isPermaLink="false">https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models</guid>
-      <category>Claude Code</category>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>How the product designer who built Claude Design uses it to explore ideas before building them</title>
       <link>https://claude.com/blog/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them</link>
       <description>How the product designer who built Claude Design uses it to explore ideas before building them</description>
@@ -739,28 +731,12 @@
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Lessons from building Claude Code: How we use skills</title>
-      <link>https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills</link>
-      <description>Lessons from building Claude Code: How we use skills</description>
-      <guid isPermaLink="false">https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills</guid>
-      <category>Claude Code</category>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>How Anthropic enables self-service data analytics with Claude</title>
       <link>https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude</link>
       <description>How Anthropic enables self-service data analytics with Claude</description>
       <guid isPermaLink="false">https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude</guid>
       <category>Enterprise AI</category>
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A harness for every task: dynamic workflows in Claude Code </title>
-      <link>https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code</link>
-      <description>A harness for every task: dynamic workflows in Claude Code </description>
-      <guid isPermaLink="false">https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code</guid>
-      <category>Claude Code</category>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Introducing dynamic workflows in Claude Code</title>
@@ -832,14 +808,6 @@
       <description>How an Anthropic sales leader uses Claude Cowork to run a 4,000-account book</description>
       <guid isPermaLink="false">https://claude.com/blog/how-an-anthropic-sales-leader-uses-claude-cowork-to-run-a-4-000-account-book</guid>
       <category>Enterprise AI</category>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Using Claude Code: The unreasonable effectiveness of HTML</title>
-      <link>https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html</link>
-      <description>Using Claude Code: The unreasonable effectiveness of HTML</description>
-      <guid isPermaLink="false">https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html</guid>
-      <category>Claude Code</category>
       <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -961,14 +929,6 @@
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Lessons from building Claude Code: Prompt caching is everything</title>
-      <link>https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything</link>
-      <description>Lessons from building Claude Code: Prompt caching is everything</description>
-      <guid isPermaLink="false">https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything</guid>
-      <category>Claude Code</category>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Claude Security is now in public beta</title>
       <link>https://claude.com/blog/claude-security-public-beta</link>
       <description>Claude Security is now in public beta</description>
@@ -1083,14 +1043,6 @@
       <description>Multi-agent coordination patterns: Five approaches and when to use them</description>
       <guid isPermaLink="false">https://claude.com/blog/multi-agent-coordination-patterns</guid>
       <category>Agents</category>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Seeing like an agent: how we design tools in Claude Code</title>
-      <link>https://claude.com/blog/seeing-like-an-agent</link>
-      <description>Seeing like an agent: how we design tools in Claude Code</description>
-      <guid isPermaLink="false">https://claude.com/blog/seeing-like-an-agent</guid>
-      <category>Claude Code</category>
       <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
