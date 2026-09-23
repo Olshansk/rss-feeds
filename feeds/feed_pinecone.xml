@@ -8,15 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Sep 2026 23:37:50 +0000</lastBuildDate>
-    <item>
-      <title>Pinecone BYOC: Trusted AI Knowledge in the Customer Cloud</title>
-      <link>https://www.pinecone.io/blog/byoc-generally-available/</link>
-      <description>Pinecone BYOC: Trusted AI Knowledge in the Customer Cloud</description>
-      <guid isPermaLink="false">https://www.pinecone.io/blog/byoc-generally-available/</guid>
-      <category>Product</category>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 23 Sep 2026 01:09:32 +0000</lastBuildDate>
     <item>
       <title>VQ-bench: a Composable Vector Quantization Framework</title>
       <link>https://www.pinecone.io/blog/vq-bench/</link>
@@ -1008,6 +1000,14 @@
       <guid isPermaLink="false">https://www.pinecone.io/blog/gcp-starter/</guid>
       <category>Product</category>
       <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Announcing Our $100M Series B Funding to Build Long-Term Memory for AI</title>
+      <link>https://www.pinecone.io/blog/series-b/</link>
+      <description>Announcing Our $100M Series B Funding to Build Long-Term Memory for AI</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/series-b/</guid>
+      <category>Company</category>
+      <pubDate>Wed, 26 Apr 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
