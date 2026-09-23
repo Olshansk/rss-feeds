@@ -8,14 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Sep 2026 16:05:45 +0000</lastBuildDate>
-    <item>
-      <title>Decoding cosmic signals with deep learning and Keras</title>
-      <link>https://developers.googleblog.com/decoding-cosmic-signals-with-deep-learning-and-keras/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image_1_l7IVARL.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Astroparticle physics sits at the exciting intersection of astrophysics and particle physics and stu...</description>
-      <category>AI</category>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 23 Sep 2026 17:04:20 +0000</lastBuildDate>
     <item>
       <title>4 engineering patterns behind the strongest AI Agents Challenge submissions</title>
       <link>https://developers.googleblog.com/4-engineering-patterns-behind-the-strongest-ai-agents-challenge-submissions/</link>
@@ -68,6 +61,12 @@
       <title>Colab is now part of your Google AI plan</title>
       <link>https://developers.googleblog.com/colab-is-now-part-of-your-google-ai-plan/</link>
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/google-one-banner-v2.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Unlock premium Google Colab compute with Google AI. Subscribers now get priority accelerators, Premium GPUs, and background execution for long training runs.</description>
+      <category>AI</category>
+    </item>
+    <item>
+      <title>Introducing Support for Local AI Models in the Antigravity SDK</title>
+      <link>https://developers.googleblog.com/introducing-support-for-local-ai-models-in-the-antigravity-sdk/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/agy_litrt_headerimage.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;The Google Antigravity SDK now empowers developers to execute offline, agentic workflows locally using models like Gemma 4 26B A4B via LiteRT. This update facilitates powerful hybrid orchestration architectures, allowing a cloud model to act as a lightweight planner while local models securely handle token-intensive tasks—like code auditing and patching—directly on-device. Furthermore, the SDK provides drop-in support for OpenAI-compatible inference servers like Ollama and vLLM, enabling the seamless creation of privacy-first, autonomous local utilities.</description>
       <category>AI</category>
     </item>
   </channel>
