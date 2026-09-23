@@ -13,7 +13,21 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Sep 2026 20:05:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 21:04:41 +0000</lastBuildDate>
+    <item>
+      <title>Bots for the last mile: Rollouts, Security Review</title>
+      <link>https://cursor.com/blog/rollouts-and-security-reviewer</link>
+      <guid isPermaLink="false">https://cursor.com/blog/rollouts-and-security-reviewer</guid>
+      <category>product</category>
+      <pubDate>Wed, 23 Sep 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Improved token efficiency for longer agent runs</title>
+      <link>https://cursor.com/blog/improved-token-efficiency</link>
+      <guid isPermaLink="false">https://cursor.com/blog/improved-token-efficiency</guid>
+      <category>research</category>
+      <pubDate>Wed, 23 Sep 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>How Grab put Cursor in the hands of Design, Ops, and Engineering</title>
       <link>https://cursor.com/blog/grab</link>
