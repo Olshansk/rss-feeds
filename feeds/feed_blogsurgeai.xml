@@ -8,14 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Sep 2026 17:04:09 +0000</lastBuildDate>
-    <item>
-      <title>DAYJOB: Can AI Survive a 9 to 5?</title>
-      <link>https://www.surgehq.ai/blog/dayjob</link>
-      <description>Introducing DAYJOB, Surge AI’s evolution of GDPval for long-horizon professional work: testing whether agents can navigate complex environments, exercise judgment, and actually get a day on the job done.</description>
-      <guid isPermaLink="false">https://www.surgehq.ai/blog/dayjob</guid>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 23 Sep 2026 18:06:15 +0000</lastBuildDate>
     <item>
       <title>Helping Anthropic Build Automated Alignment Researchers</title>
       <link>https://www.surgehq.ai/blog/anthropic-automated-alignment-research</link>
@@ -379,6 +372,13 @@
       <description>Data-centric AI requires radically rethinking the data that goes into your models. Surge AI provides data labelers with the skills you need to get context-sensitive labels.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/why-context-aware-datasets-are-crucial-for-data-centric-ai</guid>
       <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DAYJOB: Can Agents Survive a 9 to 5?</title>
+      <link>https://www.surgehq.ai/blog/dayjob</link>
+      <description>Introducing DAYJOB, Surge AI’s benchmark family for knowledge work agents: realistic requests, complex environments, and end-to-end professional reasoning and judgment.</description>
+      <guid isPermaLink="false">https://www.surgehq.ai/blog/dayjob</guid>
+      <pubDate>Wed, 23 Sep 2020 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
