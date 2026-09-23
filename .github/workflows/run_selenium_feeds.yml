@@ -40,17 +40,18 @@ jobs:
           set -e
           uv sync
           uv run feed_generators/run_all_feeds.py --selenium-only
+          uv run feed_generators/run_generate_opml.py --xml-url-anchor "${{ vars.OPML_XML_URL_ANCHOR }}"
 
       - name: Commit and push feeds
         if: github.ref == 'refs/heads/main'
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add feeds/*.xml
+          git add feeds/*.xml feeds/feeds.opml
           git stash
           git pull --rebase || { echo "Rebase failed, aborting and retrying with merge"; git rebase --abort 2>/dev/null; git pull; }
           git stash pop || true
-          git add feeds/*.xml
+          git add feeds/*.xml feeds/feeds.opml
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else

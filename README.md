@@ -98,6 +98,11 @@ You know that blog you like that doesn't have an RSS feed and might never will?
   ```
 
 - Use your RSS reader of choice to subscribe to the feed (e.g., [Blogtrottr](https://blogtrottr.com/)).
+- To import all generated feeds at once, use [feeds.opml](./feeds/feeds.opml) or regenerate it with:
+
+  ```bash
+  make feeds_generate_opml
+  ```
 
 ### Request a new Feed
 
