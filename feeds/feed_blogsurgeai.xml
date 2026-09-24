@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 24 Sep 2026 19:04:06 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 20:05:25 +0000</lastBuildDate>
     <item>
       <title>DAYJOB: Can Agents Survive a 9 to 5?</title>
       <link>https://www.surgehq.ai/blog/dayjob</link>
@@ -61,7 +61,7 @@
     <item>
       <title>We Trained a Model on Office Work. It Also Got Better at Coding.</title>
       <link>https://www.surgehq.ai/blog/office-work-post-training-improves-coding</link>
-      <description>A model post-trained on non-coding office tasks gained 5.8 points on SWE-Bench Pro. Why? Our analysis points to a capability we call Goal-Directed Execution.</description>
+      <description>A model post-trained on non-coding office tasks gained 5.7 points on SWE-Bench Pro. Why? Our analysis points to a capability we call Goal-Directed Execution.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/office-work-post-training-improves-coding</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
     </item>
@@ -80,7 +80,7 @@
       <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Training on ComplexConstraints: +10.1 on MultiChallenge, +8.4 on AdvancedIF</title>
+      <title>Training on ComplexConstraints: +10.1 on MultiChallenge, +8.5 on AdvancedIF</title>
       <link>https://www.surgehq.ai/blog/training-on-complexconstraints</link>
       <description>We trained a 4B model on 1,000 expert-written rubrics from ComplexConstraints, our frontier instruction-following benchmark. It reached parity with a 60x larger model, and the gains transferred to external benchmarks it never saw.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/training-on-complexconstraints</guid>
