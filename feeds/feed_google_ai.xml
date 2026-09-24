@@ -8,13 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 24 Sep 2026 15:04:48 +0000</lastBuildDate>
-    <item>
-      <title>4 engineering patterns behind the strongest AI Agents Challenge submissions</title>
-      <link>https://developers.googleblog.com/4-engineering-patterns-behind-the-strongest-ai-agents-challenge-submissions/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_5wdk45wdk45.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;The recent Google for Startups AI Agents Challenge revealed that the most successful multi-agent systems rely on foundational software engineering patterns rather than just raw model power. Winning architectures consistently implemented bidirectional MCP for seamless inter-agent communication, async event buses for parallel execution, strict unified validation for model fallbacks, and tiered routing to minimize expensive inference calls. By prioritizing these structural practices over simple linear prompt chains, developers can build more resilient, low-latency, and cost-effective agentic workflows.</description>
-      <category>AI</category>
-    </item>
+    <lastBuildDate>Thu, 24 Sep 2026 16:05:35 +0000</lastBuildDate>
     <item>
       <title>Driving Developer Excellence: Inside the Program Sprints</title>
       <link>https://developers.googleblog.com/driving-developer-excellence-inside-the-program-sprints/</link>
@@ -67,6 +61,12 @@
       <title>Introducing Support for Local AI Models in the Antigravity SDK</title>
       <link>https://developers.googleblog.com/introducing-support-for-local-ai-models-in-the-antigravity-sdk/</link>
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/agy_litrt.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;The Google Antigravity SDK now empowers developers to execute offline, agentic workflows locally using models like Gemma 4 26B A4B via LiteRT. This update facilitates powerful hybrid orchestration architectures, allowing a cloud model to act as a lightweight planner while local models securely handle token-intensive tasks—like code auditing and patching—directly on-device. Furthermore, the SDK provides drop-in support for OpenAI-compatible inference servers like Ollama and vLLM, enabling the seamless creation of privacy-first, autonomous local utilities.</description>
+      <category>AI</category>
+    </item>
+    <item>
+      <title>Reproducing OLMo 3 7B Pre-training in MaxText: case study of large scale training on TPUs</title>
+      <link>https://developers.googleblog.com/reproducing-olmo-3-7b-pre-training-in-maxtext-case-study-of-large-scale-training-on-tpus/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header.2e16d0ba.fill-800x400_EW6cAWs.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;The MaxText team successfully reproduced AI2’s OLMo 3 7B language model from scratch on Google Cloud TPUs using JAX/XLA, precisely matching the original PyTorch-on-GPU reference across pre-training and mid-training stages on all held-out evaluations. The implementation achieved up to 57.4% Model Flops Utilization (MFU) and demonstrated robust infrastructure portability by surviving mid-run cluster resizes and cross-generation TPU shifts without requiring recipe alterations. Crucially, the exercise proved the necessity of comprehensive held-out validation by catching a silent data-loader memorization bug that artificially depressed training loss and would have otherwise faked a performance win.</description>
       <category>AI</category>
     </item>
   </channel>
