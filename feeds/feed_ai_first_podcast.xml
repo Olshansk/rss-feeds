@@ -13,7 +13,14 @@
       <link>https://ai-first.ai/podcast</link>
     </image>
     <language>de</language>
-    <lastBuildDate>Fri, 25 Sep 2026 08:06:30 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 09:05:10 +0000</lastBuildDate>
+    <item>
+      <title>Teams, die selbst bauen: 15 Monate KI-Transformation bei der celebrate company</title>
+      <link>https://ai-first.ai/podcast/teams-die-selbst-bauen-15-monate-ki-transformation-bei-der-celebrate-company</link>
+      <description>Teams, die selbst bauen: 15 Monate KI-Transformation bei der celebrate company – mit Benedikt Peine</description>
+      <guid isPermaLink="false">https://ai-first.ai/podcast/teams-die-selbst-bauen-15-monate-ki-transformation-bei-der-celebrate-company</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>KI bei TRUMPF: Wie das Momentum genutzt wird, um sich als Organisation neu zu erfinden</title>
       <link>https://ai-first.ai/podcast/ki-bei-trumpf-wie-das-momentum-genutzt-wird-um-sich-als-organisation-neu-zu-erfinden</link>
@@ -27,13 +34,6 @@
       <description>KI im Großkonzern: Wie die Deutsche Bahn 220.000 Menschen in die KI-Transformation bringt – mit Dr. Michael Drass</description>
       <guid isPermaLink="false">https://ai-first.ai/podcast/ki-im-grosskonzern-wie-die-deutsche-bahn-220-000-menschen-in-die-ki-transformation-bringt</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wenn ich heute mit KI noch einmal neu anfangen würde</title>
-      <link>https://ai-first.ai/podcast/wenn-ich-heute-mit-ki-noch-einmal-neu-anfangen-wuerde</link>
-      <description>AI FIRST Podcast: Wenn ich heute mit KI noch einmal neu anfangen würde</description>
-      <guid isPermaLink="false">https://ai-first.ai/podcast/wenn-ich-heute-mit-ki-noch-einmal-neu-anfangen-wuerde</guid>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
