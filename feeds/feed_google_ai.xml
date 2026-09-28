@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 28 Sep 2026 16:05:38 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 17:04:27 +0000</lastBuildDate>
     <item>
       <title>The Anatomy of Harness Engineering: How to Evaluate, Iterate, and Guard AI Coding Agents</title>
       <link>https://developers.googleblog.com/the-anatomy-of-harness-engineering-how-to-evaluate-iterate-and-guard-ai-coding-agents/</link>
@@ -64,9 +64,9 @@
       <category>AI</category>
     </item>
     <item>
-      <title>Reproducing OLMo 3 7B Pre-training in MaxText: case study of large scale training on TPUs</title>
+      <title>Reproducing Olmo 3 7B Pre-training in MaxText: case study of large scale training on TPUs</title>
       <link>https://developers.googleblog.com/reproducing-olmo-3-7b-pre-training-in-maxtext-case-study-of-large-scale-training-on-tpus/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header.2e16d0ba.fill-800x400_EW6cAWs.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;The MaxText team successfully reproduced AI2’s OLMo 3 7B language model from scratch on Google Cloud TPUs using JAX/XLA, precisely matching the original PyTorch-on-GPU reference across pre-training and mid-training stages on all held-out evaluations. The implementation achieved up to 57.4% Model Flops Utilization (MFU) and demonstrated robust infrastructure portability by surviving mid-run cluster resizes and cross-generation TPU shifts without requiring recipe alterations. Crucially, the exercise proved the necessity of comprehensive held-out validation by catching a silent data-loader memorization bug that artificially depressed training loss and would have otherwise faked a performance win.</description>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header.2e16d0ba.fill-800x400_EW6cAWs.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;The MaxText team successfully reproduced Ai2’s Olmo 3 7B language model from scratch on Google Cloud TPUs using JAX/XLA, precisely matching the original PyTorch-on-GPU reference across pre-training and mid-training stages on all held-out evaluations. The implementation achieved up to 57.4% Model Flops Utilization (MFU) and demonstrated robust infrastructure portability by surviving mid-run cluster resizes and cross-generation TPU shifts without requiring recipe alterations. Crucially, the exercise proved the necessity of comprehensive held-out validation by catching a silent data-loader memorization bug that artificially depressed training loss and would have otherwise faked a performance win.</description>
       <category>AI</category>
     </item>
   </channel>
