@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Sep 2026 13:09:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 14:05:43 +0000</lastBuildDate>
+    <item>
+      <title>How Anthropic's sales team rebuilt inbound with Claude Managed Agents</title>
+      <link>https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents</link>
+      <description>How Anthropic's sales team rebuilt inbound with Claude Managed Agents</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents</guid>
+      <category>Enterprise AI</category>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Agents you can coach: how Asana builds human-agent teams with Claude</title>
       <link>https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude</link>
