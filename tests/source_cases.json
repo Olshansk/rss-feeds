@@ -75,5 +75,12 @@
     "fixture": "google_ai.html",
     "title": "Accelerating Spatio-Temporal",
     "date": "2026-09-30"
+  },
+  {
+    "module": "weaviate_blog",
+    "parser": "parse_posts",
+    "fixture": "weaviate.html",
+    "title": "Weaviate security release",
+    "date": "2026-10-01"
   }
 ]

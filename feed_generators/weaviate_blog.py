@@ -4,24 +4,22 @@ Docusaurus-based blog with /page/N pagination. Static HTML; no JS rendering need
 """
 
 import argparse
-from datetime import datetime
 
-import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
+from feed_history import merge_feed_history, require_posts
+from html_cards import parse_dated_cards
 from utils import (
     deserialize_entries,
     fetch_page,
     load_cache,
     merge_entries,
-    sanitize_xml,
     save_cache,
     save_rss_feed,
     setup_feed_links,
     setup_logging,
     sort_posts_for_feed,
-    stable_fallback_date,
 )
 
 logger = setup_logging()
@@ -33,48 +31,9 @@ MAX_PAGES_FULL = 5
 
 def parse_posts(html_content: str) -> tuple[list[dict], bool]:
     """Extract posts from a single page. Returns (posts, has_next_page)."""
-    soup = BeautifulSoup(html_content, "html.parser")
-    posts = []
-
-    for article in soup.select("article.margin-bottom--xl"):
-        url_elem = article.select_one("a.blogCardTitle_wog0")
-        if not url_elem or not url_elem.get("href"):
-            continue
-        link = url_elem["href"]
-        if link.startswith("/"):
-            link = f"https://weaviate.io{link}"
-
-        title_elem = url_elem.select_one("h2") or article.select_one("h2")
-        if not title_elem:
-            continue
-        title = title_elem.text.strip()
-
-        date = None
-        time_elem = article.select_one("time[datetime]")
-        if time_elem and time_elem.get("datetime"):
-            try:
-                date = datetime.fromisoformat(time_elem["datetime"].replace("Z", "+00:00"))
-                if date.tzinfo is None:
-                    date = date.replace(tzinfo=pytz.UTC)
-            except ValueError:
-                logger.warning(f"Could not parse datetime: {time_elem['datetime']}")
-        if not date:
-            date = stable_fallback_date(link)
-
-        desc_elem = article.select_one("p.blogCardDescription_Y1fO")
-        description = sanitize_xml(desc_elem.text.strip()) if desc_elem else title
-
-        posts.append(
-            {
-                "link": link,
-                "title": title,
-                "date": date,
-                "description": description,
-            }
-        )
-
-    has_next_page = soup.select_one("a.pagination-nav__link--next") is not None
-    return posts, has_next_page
+    posts = parse_dated_cards(html_content, 'a[href^="/blog/"]:has(h2)', BLOG_URL, parent=True)
+    has_next = BeautifulSoup(html_content, "html.parser").select_one('a[rel="next"], a.pagination-nav__link--next')
+    return posts, has_next is not None
 
 
 def fetch_all_pages(max_pages: int = MAX_PAGES_FULL) -> list[dict]:
@@ -139,15 +98,16 @@ def main(full_reset: bool = False) -> bool:
         html = fetch_page(BLOG_URL)
         new_posts, _ = parse_posts(html)
         logger.info(f"Found {len(new_posts)} posts on page 1")
-        posts = merge_entries(new_posts, cached_entries)
+        posts = merge_entries(require_posts(new_posts), cached_entries)
 
     if not posts:
         logger.warning("No posts fetched — skipping feed update to avoid overwriting with empty feed")
         return False
 
-    save_cache(FEED_NAME, posts)
+    posts = merge_feed_history(require_posts(posts), FEED_NAME)
     feed = generate_rss_feed(posts)
     save_rss_feed(feed, FEED_NAME)
+    save_cache(FEED_NAME, posts)
     logger.info("Done!")
     return True
 

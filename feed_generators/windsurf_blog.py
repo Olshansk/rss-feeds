@@ -1,11 +1,10 @@
-from datetime import datetime
 from urllib.parse import urljoin
 
-import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
 from feed_history import merge_feed_history
+from html_cards import parse_dated_cards
 from static_pages import fetch_paginated
 from utils import (
     save_rss_feed,
@@ -44,24 +43,8 @@ def fetch_blog_posts():
 
 
 def parse_blog_posts(html):
-    """Extract dated cards from Devin's server-rendered blog."""
-    soup = BeautifulSoup(html, "html.parser")
-    posts = {}
-    for card in soup.select('a[href^="/blog/"]:has(time)'):
-        heading = card.find(["h2", "h3"])
-        time = card.find("time")
-        if heading is None or not time.get("datetime"):
-            raise ValueError("Devin blog card lacks a title or date")
-        link = urljoin(BLOG_URL, card["href"])
-        description = card.find("p")
-        posts[link] = {
-            "title": heading.get_text(" ", strip=True),
-            "link": link,
-            "date": datetime.fromisoformat(time["datetime"]).replace(tzinfo=pytz.UTC),
-            "description": description.get_text(" ", strip=True) if description else heading.get_text(),
-            "tags": [],
-        }
-    return list(posts.values())
+    """Extract semantic dated cards with the shared HTML parser."""
+    return parse_dated_cards(html, "a[href^='/blog/']:has(time)", BLOG_URL)
 
 
 def generate_rss_feed(blog_posts, feed_name=FEED_NAME):

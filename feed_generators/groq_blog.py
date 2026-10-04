@@ -4,20 +4,17 @@ Read server-rendered article links with headings and publication times.
 """
 
 import argparse
-from datetime import datetime
 
-import pytz
-from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
 from feed_history import merge_feed_history, require_posts
+from html_cards import parse_dated_cards
 from utils import (
     fetch_page,
     save_rss_feed,
     setup_feed_links,
     setup_logging,
     sort_posts_for_feed,
-    stable_fallback_date,
 )
 
 logger = setup_logging()
@@ -26,57 +23,9 @@ FEED_NAME = "groq"
 BLOG_URL = "https://groq.com/blog/"
 
 
-def parse_blog_html(html_content: str) -> list[dict]:
-    """Extract articles from Groq's blog listing page."""
-    soup = BeautifulSoup(html_content, "html.parser")
-    articles = []
-    seen_links = set()
-
-    for card in soup.select("article.card, a[href^='/blog/']:has(h2):has(time)"):
-        title_link = card if card.name == "a" else card.select_one("h2.card__title a")
-        if not title_link:
-            continue
-
-        href = title_link.get("href", "")
-        if not href or href.rstrip("/") == "/blog":
-            continue
-
-        link = f"https://groq.com{href}" if href.startswith("/") else href
-        if link in seen_links:
-            continue
-        seen_links.add(link)
-
-        heading = title_link.find("h2")
-        title = (heading or title_link).get_text(" ", strip=True)
-        if not title:
-            continue
-
-        date = None
-        time_elem = card.select_one("time[datetime]")
-        if time_elem:
-            datetime_attr = time_elem.get("datetime")
-            if datetime_attr:
-                try:
-                    date = datetime.fromisoformat(datetime_attr.replace("Z", "+00:00"))
-                    if date.tzinfo is None:
-                        date = date.replace(tzinfo=pytz.UTC)
-                except ValueError:
-                    logger.warning(f"Could not parse datetime attribute: {datetime_attr}")
-
-        if not date:
-            date = stable_fallback_date(link)
-
-        articles.append(
-            {
-                "title": title,
-                "link": link,
-                "date": date,
-                "description": title,
-            }
-        )
-
-    logger.info(f"Parsed {len(articles)} articles")
-    return articles
+def parse_blog_html(html):
+    """Extract semantic dated cards with the shared HTML parser."""
+    return parse_dated_cards(html, "a[href^='/blog/']:has(h2):has(time)", BLOG_URL)
 
 
 def generate_rss_feed(articles: list[dict]) -> FeedGenerator:
