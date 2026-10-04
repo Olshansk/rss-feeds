@@ -20,6 +20,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
+from feed_history import merge_feed_history, require_posts
 from utils import (
     deserialize_entries,
     load_cache,
@@ -289,7 +290,7 @@ def main(full_reset: bool = False) -> bool:
     new_articles = extract_articles(soup)
 
     if cached_entries and not full_reset:
-        articles = merge_entries(new_articles, cached_entries)
+        articles = merge_entries(require_posts(new_articles), cached_entries)
     else:
         articles = sort_posts_for_feed(new_articles, date_field="date")
 
@@ -297,9 +298,10 @@ def main(full_reset: bool = False) -> bool:
         logger.warning("No articles found. Check the HTML structure.")
         return False
 
-    save_cache(FEED_NAME, articles)
+    articles = merge_feed_history(articles, FEED_NAME)
     feed = generate_rss_feed(articles)
     save_rss_feed(feed, FEED_NAME)
+    save_cache(FEED_NAME, articles)
     logger.info("Done!")
     return True
 

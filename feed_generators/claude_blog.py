@@ -11,6 +11,7 @@ import requests
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
+from feed_history import merge_feed_history, require_posts
 from utils import (
     deserialize_entries,
     load_cache,
@@ -253,15 +254,16 @@ def main(full_reset=False):
         html_content = fetch_page(BLOG_URL)
         new_posts = parse_posts(html_content)
         logger.info(f"Found {len(new_posts)} posts on page 1")
-        posts = merge_entries(new_posts, cached_entries)
+        posts = merge_entries(require_posts(new_posts), cached_entries)
 
     if not posts:
         logger.warning("No posts fetched — skipping feed update to avoid overwriting with empty feed")
         return False
 
-    save_cache(FEED_NAME, posts)
+    posts = merge_feed_history(posts, FEED_NAME)
     feed = generate_rss_feed(posts)
     save_rss_feed(feed, FEED_NAME)
+    save_cache(FEED_NAME, posts)
 
     logger.info("Done!")
     return True

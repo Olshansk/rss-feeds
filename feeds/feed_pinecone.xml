@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 17:54:37 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 19:30:45 +0000</lastBuildDate>
     <item>
       <title>Pinecone BYOC: Trusted AI Knowledge in the Customer Cloud</title>
       <link>https://www.pinecone.io/blog/byoc-generally-available/</link>
@@ -154,19 +154,19 @@
       <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Full Text Search: Architecture and Design</title>
-      <link>https://www.pinecone.io/blog/full-text-search-architecture/</link>
-      <description>Full Text Search: Architecture and Design</description>
-      <guid isPermaLink="false">https://www.pinecone.io/blog/full-text-search-architecture/</guid>
-      <category>Engineering</category>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Full Text Search in Pinecone, Now in Public Preview</title>
       <link>https://www.pinecone.io/blog/full-text-search/</link>
       <description>Full Text Search in Pinecone, Now in Public Preview</description>
       <guid isPermaLink="false">https://www.pinecone.io/blog/full-text-search/</guid>
       <category>Product</category>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Full Text Search: Architecture and Design</title>
+      <link>https://www.pinecone.io/blog/full-text-search-architecture/</link>
+      <description>Full Text Search: Architecture and Design</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/full-text-search-architecture/</guid>
+      <category>Engineering</category>
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -322,18 +322,18 @@
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Build an AI knowledge assistant with Google Docs and Pinecone</title>
-      <link>https://www.pinecone.io/blog/build-an-ai-knowledge-assistant-with-google-docs-and-pinecone/</link>
-      <description>Build an AI knowledge assistant with Google Docs and Pinecone</description>
-      <guid isPermaLink="false">https://www.pinecone.io/blog/build-an-ai-knowledge-assistant-with-google-docs-and-pinecone/</guid>
-      <category>Product</category>
-      <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>GTM Engineering:  Clay + Pinecone for AI-powered Sales Outbound</title>
       <link>https://www.pinecone.io/blog/gtm-engineering-clay-pinecone-for-ai-powered-sales-outbound/</link>
       <description>GTM Engineering:  Clay + Pinecone for AI-powered Sales Outbound</description>
       <guid isPermaLink="false">https://www.pinecone.io/blog/gtm-engineering-clay-pinecone-for-ai-powered-sales-outbound/</guid>
+      <category>Product</category>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Build an AI knowledge assistant with Google Docs and Pinecone</title>
+      <link>https://www.pinecone.io/blog/build-an-ai-knowledge-assistant-with-google-docs-and-pinecone/</link>
+      <description>Build an AI knowledge assistant with Google Docs and Pinecone</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/build-an-ai-knowledge-assistant-with-google-docs-and-pinecone/</guid>
       <category>Product</category>
       <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
     </item>
@@ -394,18 +394,18 @@
       <pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Add context to your agent with Pinecone Assistant MCP remote server</title>
-      <link>https://www.pinecone.io/blog/assistant-MCP/</link>
-      <description>Add context to your agent with Pinecone Assistant MCP remote server</description>
-      <guid isPermaLink="false">https://www.pinecone.io/blog/assistant-MCP/</guid>
-      <category>Product</category>
-      <pubDate>Tue, 22 Apr 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Tool up: Pinecone’s first MCP servers are here</title>
       <link>https://www.pinecone.io/blog/first-MCPs/</link>
       <description>Tool up: Pinecone’s first MCP servers are here</description>
       <guid isPermaLink="false">https://www.pinecone.io/blog/first-MCPs/</guid>
+      <category>Product</category>
+      <pubDate>Tue, 22 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Add context to your agent with Pinecone Assistant MCP remote server</title>
+      <link>https://www.pinecone.io/blog/assistant-MCP/</link>
+      <description>Add context to your agent with Pinecone Assistant MCP remote server</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/assistant-MCP/</guid>
       <category>Product</category>
       <pubDate>Tue, 22 Apr 2025 00:00:00 +0000</pubDate>
     </item>
@@ -466,11 +466,11 @@
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing cascading retrieval: Unifying dense and sparse with reranking</title>
-      <link>https://www.pinecone.io/blog/cascading-retrieval/</link>
-      <description>Introducing cascading retrieval: Unifying dense and sparse with reranking</description>
-      <guid isPermaLink="false">https://www.pinecone.io/blog/cascading-retrieval/</guid>
-      <category>Research</category>
+      <title>Strengthening security and increasing control with CMEK and API key roles</title>
+      <link>https://www.pinecone.io/blog/strengthening-security-and-control/</link>
+      <description>Strengthening security and increasing control with CMEK and API key roles</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/strengthening-security-and-control/</guid>
+      <category>Product</category>
       <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -482,19 +482,19 @@
       <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Strengthening security and increasing control with CMEK and API key roles</title>
-      <link>https://www.pinecone.io/blog/strengthening-security-and-control/</link>
-      <description>Strengthening security and increasing control with CMEK and API key roles</description>
-      <guid isPermaLink="false">https://www.pinecone.io/blog/strengthening-security-and-control/</guid>
-      <category>Product</category>
-      <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Introducing integrated inference: Embed, rerank, and retrieve your data with a single API</title>
       <link>https://www.pinecone.io/blog/integrated-inference/</link>
       <description>Introducing integrated inference: Embed, rerank, and retrieve your data with a single API</description>
       <guid isPermaLink="false">https://www.pinecone.io/blog/integrated-inference/</guid>
       <category>Product</category>
+      <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing cascading retrieval: Unifying dense and sparse with reranking</title>
+      <link>https://www.pinecone.io/blog/cascading-retrieval/</link>
+      <description>Introducing cascading retrieval: Unifying dense and sparse with reranking</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/cascading-retrieval/</guid>
+      <category>Research</category>
       <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -626,19 +626,19 @@
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Benchmarking AI Assistants</title>
-      <link>https://www.pinecone.io/blog/ai-assistant-quality/</link>
-      <description>Benchmarking AI Assistants</description>
-      <guid isPermaLink="false">https://www.pinecone.io/blog/ai-assistant-quality/</guid>
-      <category>Engineering</category>
-      <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Introducing Pinecone Assistant in Beta</title>
       <link>https://www.pinecone.io/blog/pinecone-assistant/</link>
       <description>Introducing Pinecone Assistant in Beta</description>
       <guid isPermaLink="false">https://www.pinecone.io/blog/pinecone-assistant/</guid>
       <category>Product</category>
+      <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Benchmarking AI Assistants</title>
+      <link>https://www.pinecone.io/blog/ai-assistant-quality/</link>
+      <description>Benchmarking AI Assistants</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/ai-assistant-quality/</guid>
+      <category>Engineering</category>
       <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -658,19 +658,19 @@
       <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>May Monthly Product Update</title>
-      <link>https://www.pinecone.io/blog/may2024-monthly-product-update/</link>
-      <description>May Monthly Product Update</description>
-      <guid isPermaLink="false">https://www.pinecone.io/blog/may2024-monthly-product-update/</guid>
-      <category>Product</category>
-      <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Welcome Lauren Nemeth and Bob Muglia</title>
       <link>https://www.pinecone.io/blog/welcome-lauren-nemeth-and-bob-muglia/</link>
       <description>Welcome Lauren Nemeth and Bob Muglia</description>
       <guid isPermaLink="false">https://www.pinecone.io/blog/welcome-lauren-nemeth-and-bob-muglia/</guid>
       <category>Company</category>
+      <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>May Monthly Product Update</title>
+      <link>https://www.pinecone.io/blog/may2024-monthly-product-update/</link>
+      <description>May Monthly Product Update</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/may2024-monthly-product-update/</guid>
+      <category>Product</category>
       <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -754,19 +754,19 @@
       <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>March Monthly Product Update</title>
-      <link>https://www.pinecone.io/blog/Marchproductupdate/</link>
-      <description>March Monthly Product Update</description>
-      <guid isPermaLink="false">https://www.pinecone.io/blog/Marchproductupdate/</guid>
-      <category>Product</category>
-      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Introducing the First Hallucination-Free LLM</title>
       <link>https://www.pinecone.io/blog/hallucination-free-llm/</link>
       <description>Introducing the First Hallucination-Free LLM</description>
       <guid isPermaLink="false">https://www.pinecone.io/blog/hallucination-free-llm/</guid>
       <category>Company</category>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>March Monthly Product Update</title>
+      <link>https://www.pinecone.io/blog/Marchproductupdate/</link>
+      <description>March Monthly Product Update</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/Marchproductupdate/</guid>
+      <category>Product</category>
       <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -834,11 +834,11 @@
       <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>RAG makes LLMs better and equal</title>
-      <link>https://www.pinecone.io/blog/rag-study/</link>
-      <description>RAG makes LLMs better and equal</description>
-      <guid isPermaLink="false">https://www.pinecone.io/blog/rag-study/</guid>
-      <category>Engineering</category>
+      <title>Introducing Pinecone Serverless</title>
+      <link>https://www.pinecone.io/blog/serverless/</link>
+      <description>Introducing Pinecone Serverless</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/serverless/</guid>
+      <category>Company</category>
       <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -850,18 +850,18 @@
       <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing Pinecone Serverless</title>
-      <link>https://www.pinecone.io/blog/serverless/</link>
-      <description>Introducing Pinecone Serverless</description>
-      <guid isPermaLink="false">https://www.pinecone.io/blog/serverless/</guid>
-      <category>Company</category>
-      <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Reimagining the vector database to enable knowledgeable AI</title>
       <link>https://www.pinecone.io/blog/serverless-architecture/</link>
       <description>Reimagining the vector database to enable knowledgeable AI</description>
       <guid isPermaLink="false">https://www.pinecone.io/blog/serverless-architecture/</guid>
+      <category>Engineering</category>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>RAG makes LLMs better and equal</title>
+      <link>https://www.pinecone.io/blog/rag-study/</link>
+      <description>RAG makes LLMs better and equal</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/rag-study/</guid>
       <category>Engineering</category>
       <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
     </item>
@@ -1002,12 +1002,52 @@
       <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Opening up our free plan</title>
+      <link>https://www.pinecone.io/blog/updated-free-plan/</link>
+      <description>Opening up our free plan</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/updated-free-plan/</guid>
+      <category>Product</category>
+      <pubDate>Wed, 26 Apr 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Announcing Our $100M Series B Funding to Build Long-Term Memory for AI</title>
       <link>https://www.pinecone.io/blog/series-b/</link>
       <description>Announcing Our $100M Series B Funding to Build Long-Term Memory for AI</description>
       <guid isPermaLink="false">https://www.pinecone.io/blog/series-b/</guid>
       <category>Company</category>
       <pubDate>Wed, 26 Apr 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Supporting our growing number of free users</title>
+      <link>https://www.pinecone.io/blog/free-plan-update/</link>
+      <description>Supporting our growing number of free users</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/free-plan-update/</guid>
+      <category>Company</category>
+      <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Single Sign-On (SSO) for Pinecone</title>
+      <link>https://www.pinecone.io/blog/single-sign-on/</link>
+      <description>Introducing Single Sign-On (SSO) for Pinecone</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/single-sign-on/</guid>
+      <category>Product</category>
+      <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>March 1st Partial Database Outage</title>
+      <link>https://www.pinecone.io/blog/march-1-2023-incident/</link>
+      <description>March 1st Partial Database Outage</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/march-1-2023-incident/</guid>
+      <category>Company</category>
+      <pubDate>Thu, 09 Mar 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Welcome Vector Databases, Welcome Bob</title>
+      <link>https://www.pinecone.io/blog/2022-growth-welcome-bob/</link>
+      <description>Welcome Vector Databases, Welcome Bob</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/2022-growth-welcome-bob/</guid>
+      <category>Company</category>
+      <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

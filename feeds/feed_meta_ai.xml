@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 17:52:57 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 19:29:01 +0000</lastBuildDate>
     <item>
       <title>Reimagining Independence: How Meta’s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics</title>
       <link>https://ai.meta.com/blog/assistive-robotics-university-of-pittsburgh-sam-dino/</link>
@@ -50,18 +50,18 @@
       <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing Muse Spark: Scaling Towards Personal Superintelligence</title>
-      <link>https://ai.meta.com/blog/introducing-muse-spark-msl/</link>
-      <guid isPermaLink="false">https://ai.meta.com/blog/introducing-muse-spark-msl/</guid>
-      <category></category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Scaling How We Build and Test Our Most Advanced AI</title>
       <link>https://ai.meta.com/blog/scaling-how-we-build-test-advanced-ai/</link>
       <description>As we build more capable, personalized AI, reliability, security, and user protections are more important than ever.</description>
       <guid isPermaLink="false">https://ai.meta.com/blog/scaling-how-we-build-test-advanced-ai/</guid>
       <category>Research</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Muse Spark: Scaling Towards Personal Superintelligence</title>
+      <link>https://ai.meta.com/blog/introducing-muse-spark-msl/</link>
+      <guid isPermaLink="false">https://ai.meta.com/blog/introducing-muse-spark-msl/</guid>
+      <category></category>
       <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -292,18 +292,18 @@
       <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>How Meta Segment Anything Model enables Cutouts in the Instagram Edits app</title>
-      <link>https://ai.meta.com/blog/instagram-edits-cutouts-segment-anything/</link>
-      <description>People can use Cutouts to edit across several layers of video, applying filters to specific parts of videos and easily place elements like text and stickers behind objects.</description>
-      <guid isPermaLink="false">https://ai.meta.com/blog/instagram-edits-cutouts-segment-anything/</guid>
-      <category>Open Source</category>
-      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>How Common Sense Machines uses Meta Segment Anything Model and AI to generate production-ready 3D assets</title>
       <link>https://ai.meta.com/blog/segment-anything-common-sense-machines-3d-assets/</link>
       <description>Common Sense Machines uses Meta Segment Anything Model 2 to analyze 2D images and video and translate their components to 3D.</description>
       <guid isPermaLink="false">https://ai.meta.com/blog/segment-anything-common-sense-machines-3d-assets/</guid>
+      <category>Open Source</category>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Meta Segment Anything Model enables Cutouts in the Instagram Edits app</title>
+      <link>https://ai.meta.com/blog/instagram-edits-cutouts-segment-anything/</link>
+      <description>People can use Cutouts to edit across several layers of video, applying filters to specific parts of videos and easily place elements like text and stickers behind objects.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/instagram-edits-cutouts-segment-anything/</guid>
       <category>Open Source</category>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
     </item>
@@ -420,14 +420,6 @@
       <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>EgoMimic: Georgia Tech PhD student uses Project Aria Research Glasses to help train humanoid robots</title>
-      <link>https://ai.meta.com/blog/egomimic-project-aria-georgia-tech-ego4d-robotics-embodied-ai/</link>
-      <description>Today, we’re highlighting new research from Georgia Tech that helps train robots to perform basic everyday tasks using egocentric recordings from wearers of Meta’s Project Aria research glasses.</description>
-      <guid isPermaLink="false">https://ai.meta.com/blog/egomimic-project-aria-georgia-tech-ego4d-robotics-embodied-ai/</guid>
-      <category>Open Source</category>
-      <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Dramatically accelerating patient-matching in clinical trials with open source</title>
       <link>https://ai.meta.com/blog/mendel-ai-accelerating-clinical-trials-with-llama/</link>
       <description>Mendel AI’s flagship product, Mendel Hypercube, tackles clinical tasks. With Llama, Hypercube can also be used for trial matching and putting together patient groups.</description>
@@ -436,12 +428,12 @@
       <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>AI Artifacts: An interview with Ruben Fro and Benjamin Bardou</title>
-      <link>https://ai.meta.com/blog/ai-action-summit-2025-ruben-fro-benjamin-bardou-mehdi-mejri/</link>
-      <description>In honor of this year’s AI Action Summit, we partnered with the Bibliothèque Nationale de France (BnF), Fisheye Immersive, Convergence, and Institut Montaigne to commission two open source AI-generated art installations by innovative artists, Ruben Fro and Benjamin Bardou.</description>
-      <guid isPermaLink="false">https://ai.meta.com/blog/ai-action-summit-2025-ruben-fro-benjamin-bardou-mehdi-mejri/</guid>
+      <title>EgoMimic: Georgia Tech PhD student uses Project Aria Research Glasses to help train humanoid robots</title>
+      <link>https://ai.meta.com/blog/egomimic-project-aria-georgia-tech-ego4d-robotics-embodied-ai/</link>
+      <description>Today, we’re highlighting new research from Georgia Tech that helps train robots to perform basic everyday tasks using egocentric recordings from wearers of Meta’s Project Aria research glasses.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/egomimic-project-aria-georgia-tech-ego4d-robotics-embodied-ai/</guid>
       <category>Open Source</category>
-      <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Update: Expanding access to Meta Segment Anything 2.1 on Amazon SageMaker JumpStart</title>
@@ -460,12 +452,12 @@
       <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Using AI to decode language from the brain and advance our understanding of human communication</title>
-      <link>https://ai.meta.com/blog/brain-ai-research-human-communication/</link>
-      <description>Today, in collaboration with the Basque Center on Cognition, Brain and Language,  we’re excited to share two breakthroughs that show how AI can help advance our understanding of human intelligence, leading us closer to AMI.</description>
-      <guid isPermaLink="false">https://ai.meta.com/blog/brain-ai-research-human-communication/</guid>
-      <category>Research</category>
-      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <title>AI Artifacts: An interview with Ruben Fro and Benjamin Bardou</title>
+      <link>https://ai.meta.com/blog/ai-action-summit-2025-ruben-fro-benjamin-bardou-mehdi-mejri/</link>
+      <description>In honor of this year’s AI Action Summit, we partnered with the Bibliothèque Nationale de France (BnF), Fisheye Immersive, Convergence, and Institut Montaigne to commission two open source AI-generated art installations by innovative artists, Ruben Fro and Benjamin Bardou.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/ai-action-summit-2025-ruben-fro-benjamin-bardou-mehdi-mejri/</guid>
+      <category>Open Source</category>
+      <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Advancing machine intelligence through human-centered research</title>
@@ -473,6 +465,14 @@
       <description>Meta FAIR is sharing some of our most recent research and models that support our goal of achieving AMI, and our long-held commitment to sharing open and reproducible science.</description>
       <guid isPermaLink="false">https://ai.meta.com/blog/machine-intelligence-research-new-models/</guid>
       <category></category>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using AI to decode language from the brain and advance our understanding of human communication</title>
+      <link>https://ai.meta.com/blog/brain-ai-research-human-communication/</link>
+      <description>Today, in collaboration with the Basque Center on Cognition, Brain and Language,  we’re excited to share two breakthroughs that show how AI can help advance our understanding of human intelligence, leading us closer to AMI.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/brain-ai-research-human-communication/</guid>
+      <category>Research</category>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -540,18 +540,18 @@
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing Nymeria, a dataset for improving human motion prediction for AR and VR devices</title>
-      <link>https://ai.meta.com/blog/nymeria-dataset-reality-labs-research-egocentric-human-motion-understanding/</link>
-      <description>The Nymeria dataset provides egocentric human motion in the wild at an unprecedented scale, capturing a broad spectrum of people engaging in everyday activities across varied locations.</description>
-      <guid isPermaLink="false">https://ai.meta.com/blog/nymeria-dataset-reality-labs-research-egocentric-human-motion-understanding/</guid>
-      <category>Open Source</category>
-      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Finding the perfect book to read next with a Llama-based assistant</title>
       <link>https://ai.meta.com/blog/scribd-everand-llama/</link>
       <description>Scribd, Inc.’s Everand reading service is home to a global library of millions of ebooks, audiobooks and more.</description>
       <guid isPermaLink="false">https://ai.meta.com/blog/scribd-everand-llama/</guid>
+      <category>Open Source</category>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Nymeria, a dataset for improving human motion prediction for AR and VR devices</title>
+      <link>https://ai.meta.com/blog/nymeria-dataset-reality-labs-research-egocentric-human-motion-understanding/</link>
+      <description>The Nymeria dataset provides egocentric human motion in the wild at an unprecedented scale, capturing a broad spectrum of people engaging in everyday activities across varied locations.</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/nymeria-dataset-reality-labs-research-egocentric-human-motion-understanding/</guid>
       <category>Open Source</category>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
     </item>

@@ -14,6 +14,7 @@ from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 from selenium.webdriver.common.by import By
 
+from feed_history import merge_feed_history, require_posts
 from utils import (
     deserialize_entries,
     load_cache,
@@ -186,7 +187,7 @@ def main(full_reset: bool = False) -> bool:
     new_posts = parse_blog_html(html)
 
     if cached_entries and not full_reset:
-        posts = merge_entries(new_posts, cached_entries)
+        posts = merge_entries(require_posts(new_posts), cached_entries)
     else:
         posts = sort_posts_for_feed(new_posts, date_field="date")
 
@@ -194,9 +195,10 @@ def main(full_reset: bool = False) -> bool:
         logger.warning("No posts found. Check the HTML structure.")
         return False
 
-    save_cache(FEED_NAME, posts)
+    posts = merge_feed_history(posts, FEED_NAME)
     feed = generate_rss_feed(posts)
     save_rss_feed(feed, FEED_NAME)
+    save_cache(FEED_NAME, posts)
     logger.info("Done!")
     return True
 

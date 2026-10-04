@@ -39,8 +39,10 @@ def get_chrome_major_version() -> int | None:
 def setup_selenium_driver():
     """Set up a headless Selenium WebDriver with undetected-chromedriver.
 
-    Automatically detects the installed Chrome version to avoid
-    chromedriver version mismatches.
+    How:
+    1. Configure browser options for headless rendering.
+    2. Detect the installed Chrome version to avoid driver mismatches.
+    3. Start Chrome with the optional RSS_CHROMEDRIVER override.
     """
     import undetected_chromedriver as uc
 

@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 19:22:26 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 19:28:39 +0000</lastBuildDate>
     <item>
       <title>Claude-shaped science</title>
       <link>https://www.anthropic.com/research/claude-shaped-science</link>
@@ -71,18 +71,18 @@
       <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Measurements for understanding the pace of AI development inside frontier labs</title>
-      <link>https://www.anthropic.com/institute/measuring-pace-of-ai-development</link>
-      <description>Today, the world can’t see what’s going on inside AI labs. Anthropic is proposing new metrics that would give the public visibility into frontier AI development.</description>
-      <guid isPermaLink="false">https://www.anthropic.com/institute/measuring-pace-of-ai-development</guid>
-      <category>Research</category>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>How Claude is uplifting biomolecular modeling</title>
       <link>https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling</link>
       <description>How Claude is uplifting biomolecular modeling</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling</guid>
+      <category>Research</category>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Measurements for understanding the pace of AI development inside frontier labs</title>
+      <link>https://www.anthropic.com/institute/measuring-pace-of-ai-development</link>
+      <description>Today, the world can’t see what’s going on inside AI labs. Anthropic is proposing new metrics that would give the public visibility into frontier AI development.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/institute/measuring-pace-of-ai-development</guid>
       <category>Research</category>
       <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
     </item>
@@ -263,18 +263,18 @@
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>What we learned mapping a year’s worth of AI-enabled cyber threats</title>
-      <link>https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack</link>
-      <description>What we learned mapping a year’s worth of AI-enabled cyber threats</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack</guid>
-      <category>Research</category>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Mapping AI-enabled cyber threats: Insights from the LLM ATT&amp;CK Navigator</title>
       <link>https://www.anthropic.com/research/attack-navigator</link>
       <description>Mapping AI-enabled cyber threats: Insights from the LLM ATT&amp;CK Navigator</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/attack-navigator</guid>
+      <category>Research</category>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What we learned mapping a year’s worth of AI-enabled cyber threats</title>
+      <link>https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack</link>
+      <description>What we learned mapping a year’s worth of AI-enabled cyber threats</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack</guid>
       <category>Research</category>
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -287,18 +287,18 @@
       <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Measuring LLMs’ ability to develop exploits</title>
-      <link>https://www.anthropic.com/research/exploit-evals</link>
-      <description>Measuring LLMs’ ability to develop exploits</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/exploit-evals</guid>
-      <category>Research</category>
-      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Project Glasswing: An initial update</title>
       <link>https://www.anthropic.com/research/glasswing-initial-update</link>
       <description>Project Glasswing: An initial update</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/glasswing-initial-update</guid>
+      <category>Research</category>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Measuring LLMs’ ability to develop exploits</title>
+      <link>https://www.anthropic.com/research/exploit-evals</link>
+      <description>Measuring LLMs’ ability to develop exploits</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/exploit-evals</guid>
       <category>Research</category>
       <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
     </item>
@@ -319,10 +319,10 @@
       <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Focus areas for The Anthropic Institute</title>
-      <link>https://www.anthropic.com/research/anthropic-institute-agenda</link>
-      <description>Focus areas for The Anthropic Institute</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/anthropic-institute-agenda</guid>
+      <title>Natural Language Autoencoders: Turning Claude’s thoughts into text</title>
+      <link>https://www.anthropic.com/research/natural-language-autoencoders</link>
+      <description>Natural Language Autoencoders: Turning Claude’s thoughts into text</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/natural-language-autoencoders</guid>
       <category>Research</category>
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
     </item>
@@ -335,10 +335,10 @@
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Natural Language Autoencoders: Turning Claude’s thoughts into text</title>
-      <link>https://www.anthropic.com/research/natural-language-autoencoders</link>
-      <description>Natural Language Autoencoders: Turning Claude’s thoughts into text</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/natural-language-autoencoders</guid>
+      <title>Focus areas for The Anthropic Institute</title>
+      <link>https://www.anthropic.com/research/anthropic-institute-agenda</link>
+      <description>Focus areas for The Anthropic Institute</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/anthropic-institute-agenda</guid>
       <category>Research</category>
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
     </item>
@@ -359,18 +359,18 @@
       <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>What 81,000 people told us about the economics of AI</title>
-      <link>https://www.anthropic.com/research/81k-economics</link>
-      <description>What 81,000 people told us about the economics of AI</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/81k-economics</guid>
-      <category>Research</category>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Announcing the Anthropic Economic Index Survey</title>
       <link>https://www.anthropic.com/research/economic-index-survey-announcement</link>
       <description>Announcing the Anthropic Economic Index Survey</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/economic-index-survey-announcement</guid>
+      <category>Research</category>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What 81,000 people told us about the economics of AI</title>
+      <link>https://www.anthropic.com/research/81k-economics</link>
+      <description>What 81,000 people told us about the economics of AI</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/81k-economics</guid>
       <category>Research</category>
       <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
     </item>
@@ -487,18 +487,18 @@
       <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Anthropic Education Report: The AI Fluency Index</title>
-      <link>https://www.anthropic.com/research/AI-fluency-index</link>
-      <description>Anthropic Education Report: The AI Fluency Index</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/AI-fluency-index</guid>
-      <category>Research</category>
-      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The persona selection model</title>
       <link>https://www.anthropic.com/research/persona-selection-model</link>
       <description>The persona selection model</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/persona-selection-model</guid>
+      <category>Research</category>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic Education Report: The AI Fluency Index</title>
+      <link>https://www.anthropic.com/research/AI-fluency-index</link>
+      <description>Anthropic Education Report: The AI Fluency Index</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/AI-fluency-index</guid>
       <category>Research</category>
       <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
     </item>
@@ -567,18 +567,18 @@
       <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Anthropic Economic Index report: Economic primitives</title>
-      <link>https://www.anthropic.com/research/anthropic-economic-index-january-2026-report</link>
-      <description>Anthropic Economic Index report: Economic primitives</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/anthropic-economic-index-january-2026-report</guid>
-      <category>Research</category>
-      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Anthropic Economic Index: New building blocks for understanding AI use</title>
       <link>https://www.anthropic.com/research/economic-index-primitives</link>
       <description>Anthropic Economic Index: New building blocks for understanding AI use</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/economic-index-primitives</guid>
+      <category>Research</category>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic Economic Index report: Economic primitives</title>
+      <link>https://www.anthropic.com/research/anthropic-economic-index-january-2026-report</link>
+      <description>Anthropic Economic Index report: Economic primitives</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/anthropic-economic-index-january-2026-report</guid>
       <category>Research</category>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
     </item>
@@ -759,18 +759,18 @@
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Developing nuclear safeguards for AI through public-private partnership</title>
-      <link>https://www.anthropic.com/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership</link>
-      <description>Developing nuclear safeguards for AI through public-private partnership</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership</guid>
-      <category>Research</category>
-      <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Developing nuclear safeguards for AI</title>
       <link>https://www.anthropic.com/research/nuclear-safeguards-for-ai</link>
       <description>Developing nuclear safeguards for AI</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/nuclear-safeguards-for-ai</guid>
+      <category>Research</category>
+      <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Developing nuclear safeguards for AI through public-private partnership</title>
+      <link>https://www.anthropic.com/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership</link>
+      <description>Developing nuclear safeguards for AI through public-private partnership</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership</guid>
       <category>Research</category>
       <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
     </item>

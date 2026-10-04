@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/engineering</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 18:37:39 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 19:28:34 +0000</lastBuildDate>
     <item>
       <title>How we contain Claude across products</title>
       <link>https://www.anthropic.com/engineering/how-we-contain-claude</link>
@@ -63,18 +63,18 @@
       <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Building a C compiler with a team of parallel Claudes</title>
-      <link>https://www.anthropic.com/engineering/building-c-compiler</link>
-      <description>We tasked Opus 4.6 using agent teams to build a C Compiler, and then (mostly) walked away. Here's what it taught us about the future of autonomous software development.</description>
-      <guid isPermaLink="false">https://www.anthropic.com/engineering/building-c-compiler</guid>
-      <category>Engineering</category>
-      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Quantifying infrastructure noise in agentic coding evals</title>
       <link>https://www.anthropic.com/engineering/infrastructure-noise</link>
       <description>Infrastructure configuration can swing agentic coding benchmarks by several percentage points—sometimes more than the leaderboard gap between top models.\n\n</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/infrastructure-noise</guid>
+      <category>Engineering</category>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building a C compiler with a team of parallel Claudes</title>
+      <link>https://www.anthropic.com/engineering/building-c-compiler</link>
+      <description>We tasked Opus 4.6 using agent teams to build a C Compiler, and then (mostly) walked away. Here's what it taught us about the future of autonomous software development.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/engineering/building-c-compiler</guid>
       <category>Engineering</category>
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
     </item>

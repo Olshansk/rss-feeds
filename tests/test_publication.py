@@ -15,11 +15,39 @@ from dates import parse_date
 from feed_history import merge_feed_history, require_posts
 from models import FeedConfig
 from run_all_feeds import run_feed
-from utils import merge_entries, save_rss_feed, setup_feed_links, stable_fallback_date
+from utils import merge_entries, save_rss_feed, setup_feed_links, sort_posts_for_feed, stable_fallback_date
 from validate_feeds import validate_xml
 
 
 class PublicationTests(unittest.TestCase):
+    def test_empty_live_parse_cannot_republish_cache(self):
+        import cursor_blog
+
+        cached = {"entries": [{"title": "Old", "link": "https://example.com/old", "date": "2026-01-01T00:00:00+00:00"}]}
+        with (
+            patch.object(cursor_blog, "load_cache", return_value=cached),
+            patch.object(cursor_blog, "fetch_page", return_value="changed layout"),
+            patch.object(cursor_blog, "parse_posts", return_value=([], None)),
+            patch.object(cursor_blog, "save_cache") as save_cache,
+            patch.object(cursor_blog, "save_rss_feed") as save_feed,
+        ):
+            with self.assertRaisesRegex(ValueError, "No live posts"):
+                cursor_blog.main()
+            save_cache.assert_not_called()
+            save_feed.assert_not_called()
+
+    def test_native_rss_category_matches_all_tags_and_preserves_guid(self):
+        from native_rss import parse_rss
+
+        xml = """<rss><channel><item><title>Article</title><link>https://example.com/a/</link>
+        <guid>original-id</guid><pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate>
+        <category>Company</category><category>Research</category></item></channel></rss>"""
+        posts = parse_rss(xml, category="Research")
+        self.assertEqual(posts[0]["guid"], "original-id")
+        self.assertEqual(posts[0]["categories"], ["Company", "Research"])
+        with self.assertRaises(ValueError):
+            parse_rss(xml, category="Engineering")
+
     def test_dates_require_complete_date_and_preserve_timezone(self):
         for text in ("SEPT. 30, 2026", "September 30, 2026", "Sep. 30, 2026"):
             self.assertEqual(parse_date(text), datetime(2026, 9, 30, tzinfo=UTC))
@@ -37,6 +65,17 @@ class PublicationTests(unittest.TestCase):
         self.assertEqual(merged[0]["guid"], "stable")
         with self.assertRaises(ValueError):
             require_posts([])
+
+    def test_legacy_naive_cache_dates_merge_with_rss_timezones(self):
+        cached = {"title": "Old", "link": "old", "date": "2026-01-01T00:00:00"}
+        fresh = {"title": "New", "link": "new", "date": datetime(2026, 1, 2, tzinfo=UTC)}
+        posts = merge_entries([fresh], [cached])
+        self.assertEqual([post["title"] for post in posts], ["Old", "New"])
+        self.assertEqual(posts[0]["date"].tzinfo, UTC)
+
+    def test_equal_date_order_is_stable_after_history_merge(self):
+        posts = [{"link": link, "date": datetime(2026, 1, 1, tzinfo=UTC)} for link in ("b", "a")]
+        self.assertEqual(sort_posts_for_feed(posts), sort_posts_for_feed(list(reversed(posts))))
 
     def test_migration_matching_is_explicit_and_retains_archive(self):
         old = {"link": "https://old.com/a", "title": "Article", "guid": "stable", "date": parse_date("2026-01-01")}
@@ -93,6 +132,10 @@ class PublicationTests(unittest.TestCase):
                 fetch_paginated("https://example.com", lambda html: [], lambda html, url: None)
             with self.assertRaises(ValueError):
                 fetch_paginated("https://example.com", lambda html: [{"link": "a"}], lambda html, url: url)
+            with self.assertRaisesRegex(ValueError, "exceeded"):
+                fetch_paginated(
+                    "https://example.com", lambda html: [{"link": "a"}], lambda html, url: url + "/next", max_pages=1
+                )
 
     def test_fallback_date_is_stable_across_processes(self):
         value = subprocess.check_output(

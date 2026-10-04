@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/research/team/frontier-red-team</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 19:07:20 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 19:28:37 +0000</lastBuildDate>
     <item>
       <title>GLM-5.3 and the spread of advanced cyber capabilities</title>
       <link>https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities</link>
@@ -121,19 +121,19 @@
       <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Reverse engineering Claude's CVE-2026-2796 exploit</title>
-      <link>https://red.anthropic.com/2026/exploit/</link>
-      <description>This post dives deep into how Claude wrote an exploit for one of the vulnerabilities it found in
-                        Firefox.</description>
-      <guid isPermaLink="false">https://red.anthropic.com/2026/exploit/</guid>
-      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Partnering with Mozilla to improve Firefox’s security</title>
       <link>https://red.anthropic.com/2026/firefox/</link>
       <description>In a collaboration with researchers at Mozilla, Claude Opus
                         4.6 discovered 22 Firefox vulnerabilities over the course of two weeks.</description>
       <guid isPermaLink="false">https://red.anthropic.com/2026/firefox/</guid>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reverse engineering Claude's CVE-2026-2796 exploit</title>
+      <link>https://red.anthropic.com/2026/exploit/</link>
+      <description>This post dives deep into how Claude wrote an exploit for one of the vulnerabilities it found in
+                        Firefox.</description>
+      <guid isPermaLink="false">https://red.anthropic.com/2026/exploit/</guid>
       <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

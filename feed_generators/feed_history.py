@@ -39,6 +39,7 @@ def load_feed_history(feed_name: str) -> list[dict]:
                 "guid": item.findtext("guid"),
                 "category": categories[0] if categories else "Blog",
                 "tags": categories,
+                "categories": categories,
             }
         )
     return entries

@@ -186,6 +186,9 @@ def deserialize_entries(entries: list[dict], date_field: str = "date") -> list[d
                 entry_copy[date_field] = datetime.fromisoformat(entry_copy[date_field])
             except ValueError:
                 entry_copy[date_field] = stable_fallback_date(entry_copy.get("link", ""))
+        date = entry_copy.get(date_field)
+        if isinstance(date, datetime) and date.tzinfo is None:
+            entry_copy[date_field] = date.replace(tzinfo=UTC)
         result.append(entry_copy)
     return result
 
@@ -197,6 +200,11 @@ def merge_entries(
     date_field: str = "date",
 ) -> list[dict]:
     """Merge new entries into cache, deduplicate, and sort.
+
+    How:
+    1. Normalize cached and fresh dates and index entries by identity.
+    2. Refresh metadata while preserving existing subscriber GUIDs.
+    3. Sort the deduplicated records for feedgen output.
 
     Args:
         new_entries: Freshly fetched entries.
@@ -317,16 +325,22 @@ def sort_posts_for_feed(posts: list[dict[str, Any]], date_field: str = "date") -
     Returns:
         Sorted list with posts ordered for correct feed output
     """
+    posts = deserialize_entries(posts, date_field)
     posts_with_date = [p for p in posts if p.get(date_field) is not None]
     posts_without_date = [p for p in posts if p.get(date_field) is None]
 
-    posts_with_date.sort(key=lambda x: x[date_field])
+    posts_with_date.sort(key=lambda x: (x[date_field], x.get("guid") or x.get("link", "")))
 
     return posts_with_date + posts_without_date
 
 
 def save_rss_feed(fg: FeedGenerator, feed_name: str) -> Path:
     """Save an RSS feed to the feeds directory.
+
+    How:
+    1. Sort serialized entries, deduplicate identities, and fill missing GUIDs.
+    2. Reject invalid content before touching the published file.
+    3. Atomically replace the file and clean up temporary output on failure.
 
     Args:
         fg: Configured FeedGenerator instance.

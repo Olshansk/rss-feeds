@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 18:37:39 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 19:28:34 +0000</lastBuildDate>
     <item>
       <title>Building a more secure environment for evaluating dangerous capabilities</title>
       <link>https://www.aisi.gov.uk/blog/building-a-more-secure-environment-for-evaluating-dangerous-capabilities</link>
@@ -38,13 +38,6 @@
       <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>How our Control Red Team is stress-testing frontier monitors</title>
-      <link>https://www.aisi.gov.uk/blog/how-our-new-control-red-team-is-stress-testing-frontier-monitors</link>
-      <description>Early learnings from red-teaming the internal monitors of frontier AI companies, and our perspectives on the open problems that remain.</description>
-      <guid isPermaLink="false">https://www.aisi.gov.uk/blog/how-our-new-control-red-team-is-stress-testing-frontier-monitors</guid>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>UK AISI / CAISI Preliminary Assessment of Kimi K3's Cyber Capabilities</title>
       <link>https://www.aisi.gov.uk/blog/preliminary-assessment-of-kimi-k3s-cyber-capabilities</link>
       <description>Our joint evaluation with CAISI finds Kimi K3 trails leading US frontier closed weight models on cyber capability.</description>
@@ -56,6 +49,13 @@
       <link>https://www.aisi.gov.uk/blog/international-evaluation-best-practice-and-open-questions-in-ai-measurement</link>
       <description>The International Network for Advanced AI Measurement, Evaluation and Science convened in Seoul to continue outlining international best practice.</description>
       <guid isPermaLink="false">https://www.aisi.gov.uk/blog/international-evaluation-best-practice-and-open-questions-in-ai-measurement</guid>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How our Control Red Team is stress-testing frontier monitors</title>
+      <link>https://www.aisi.gov.uk/blog/how-our-new-control-red-team-is-stress-testing-frontier-monitors</link>
+      <description>Early learnings from red-teaming the internal monitors of frontier AI companies, and our perspectives on the open problems that remain.</description>
+      <guid isPermaLink="false">https://www.aisi.gov.uk/blog/how-our-new-control-red-team-is-stress-testing-frontier-monitors</guid>
       <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -542,17 +542,17 @@
       <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Announcing Inspect Evals</title>
-      <link>https://www.aisi.gov.uk/blog/inspect-evals</link>
-      <description>We’re open-sourcing dozens of LLM evaluations to advance safety research in the field</description>
-      <guid isPermaLink="false">https://www.aisi.gov.uk/blog/inspect-evals</guid>
-      <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Our First Year</title>
       <link>https://www.aisi.gov.uk/blog/our-first-year</link>
       <description>The AI Safety Institute reflects on its first year</description>
       <guid isPermaLink="false">https://www.aisi.gov.uk/blog/our-first-year</guid>
+      <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Announcing Inspect Evals</title>
+      <link>https://www.aisi.gov.uk/blog/inspect-evals</link>
+      <description>We’re open-sourcing dozens of LLM evaluations to advance safety research in the field</description>
+      <guid isPermaLink="false">https://www.aisi.gov.uk/blog/inspect-evals</guid>
       <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -619,17 +619,17 @@
       <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Advanced AI evaluations at AISI: May update</title>
-      <link>https://www.aisi.gov.uk/blog/advanced-ai-evaluations-may-update</link>
-      <description>We tested leading AI models for cyber, chemical, biological, and agent capabilities and safeguards effectiveness. Our first technical blog post shares a snapshot of our methods and results.</description>
-      <guid isPermaLink="false">https://www.aisi.gov.uk/blog/advanced-ai-evaluations-may-update</guid>
-      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Fourth progress report</title>
       <link>https://www.aisi.gov.uk/blog/fourth-progress-report</link>
       <description>Since February, we released our first technical blog post, published the International Scientific Report on the Safety of Advanced AI, open-sourced our testing platform Inspect, announced our San Francisco office, announced a partnership with the Canadian AI Safety Institute, grew our technical team to &gt;30 researchers and appointed Jade Leung as our Chief Technology Officer.</description>
       <guid isPermaLink="false">https://www.aisi.gov.uk/blog/fourth-progress-report</guid>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Advanced AI evaluations at AISI: May update</title>
+      <link>https://www.aisi.gov.uk/blog/advanced-ai-evaluations-may-update</link>
+      <description>We tested leading AI models for cyber, chemical, biological, and agent capabilities and safeguards effectiveness. Our first technical blog post shares a snapshot of our methods and results.</description>
+      <guid isPermaLink="false">https://www.aisi.gov.uk/blog/advanced-ai-evaluations-may-update</guid>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
     </item>
     <item>

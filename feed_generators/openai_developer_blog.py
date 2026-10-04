@@ -6,7 +6,7 @@ import requests
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
-from utils import get_feeds_dir, setup_feed_links, sort_posts_for_feed
+from utils import save_rss_feed, setup_feed_links, sort_posts_for_feed
 
 FEED_NAME = "openai_developer"
 BLOG_URL = "https://developers.openai.com/blog"
@@ -134,15 +134,6 @@ def generate_rss_feed(posts):
     return fg
 
 
-def save_rss_feed(feed_generator):
-    """Save the RSS feed to a file in the feeds directory."""
-    feeds_dir = get_feeds_dir()
-    output_file = feeds_dir / f"feed_{FEED_NAME}.xml"
-    feed_generator.rss_file(str(output_file), pretty=True)
-    logger.info(f"Successfully saved RSS feed to {output_file}")
-    return output_file
-
-
 def main():
     """Main function to generate RSS feed from OpenAI Developer Blog."""
     html_content = fetch_blog_content()
@@ -153,7 +144,7 @@ def main():
         return False
 
     feed = generate_rss_feed(posts)
-    save_rss_feed(feed)
+    save_rss_feed(feed, FEED_NAME)
     logger.info(f"Successfully generated RSS feed with {len(posts)} posts")
     return True
 

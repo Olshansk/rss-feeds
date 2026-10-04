@@ -1,117 +1,205 @@
 {
-  "last_updated": "2026-08-14T23:27:28.766859+00:00",
+  "last_updated": "2026-10-04T19:28:42.689761+00:00",
   "entries": [
     {
       "link": "https://cursor.com/blog/faire",
       "title": "Faire doubles PR throughput with Cursor Cloud Agents",
       "description": "",
       "date": "2026-05-26T12:00:00+00:00",
-      "category": ""
+      "category": "",
+      "guid": "https://cursor.com/blog/faire"
     },
     {
       "link": "https://cursor.com/blog/wayfair",
       "title": "How Wayfair cut ML model costs by 90% (twice!) with Cursor",
       "description": "",
       "date": "2026-06-15T12:00:00+00:00",
-      "category": ""
+      "category": "",
+      "guid": "https://cursor.com/blog/wayfair"
     },
     {
       "link": "https://cursor.com/blog/coinbase",
       "title": "Coinbase reduces time from idea to production by 90% with Cursor",
       "description": "",
       "date": "2026-06-23T12:00:00+00:00",
-      "category": ""
+      "category": "",
+      "guid": "https://cursor.com/blog/coinbase"
     },
     {
       "link": "https://cursor.com/blog/grok-4-5-model-card",
       "title": "Grok 4.5 Model Card",
       "description": "",
       "date": "2026-07-14T00:00:00+00:00",
-      "category": "research"
+      "category": "research",
+      "guid": "https://cursor.com/blog/grok-4-5-model-card"
     },
     {
       "link": "https://cursor.com/blog/agent-swarm-model-economics",
       "title": "Agent swarms and the new model economics",
       "description": "We compared old and new agent swarms building SQLite from scratch and found that better coordination delivers similar quality at a fraction of the cost.",
       "date": "2026-07-20T12:00:00+00:00",
-      "category": ""
+      "category": "",
+      "guid": "https://cursor.com/blog/agent-swarm-model-economics"
     },
     {
       "link": "https://cursor.com/blog/router",
       "title": "Introducing Cursor Router",
       "description": "",
       "date": "2026-07-22T00:00:00+00:00",
-      "category": "product"
+      "category": "product",
+      "guid": "https://cursor.com/blog/router"
     },
     {
       "link": "https://cursor.com/blog/cursor-start-india",
       "title": "Introducing Cursor Start",
       "description": "",
       "date": "2026-07-28T12:00:00+00:00",
-      "category": "product"
+      "category": "product",
+      "guid": "https://cursor.com/blog/cursor-start-india"
     },
     {
       "link": "https://cursor.com/blog/vercel",
       "title": "How Vercel used Cursor to build Queues",
       "description": "",
       "date": "2026-07-28T12:00:00+00:00",
-      "category": ""
+      "category": "",
+      "guid": "https://cursor.com/blog/vercel"
     },
     {
       "link": "https://cursor.com/blog/cloud-agent-environment",
       "title": "How we set up our cloud agent environment",
       "description": "",
       "date": "2026-07-30T12:00:00+00:00",
-      "category": "research"
+      "category": "research",
+      "guid": "https://cursor.com/blog/cloud-agent-environment"
     },
     {
       "link": "https://cursor.com/blog/mixture-of-kittens",
       "title": "Mixture-of-Kittens: our open-source MoE megakernel for NVL72s",
       "description": "",
       "date": "2026-08-04T12:00:00+00:00",
-      "category": "research"
+      "category": "research",
+      "guid": "https://cursor.com/blog/mixture-of-kittens"
     },
     {
       "link": "https://cursor.com/blog/how-cursor-router-works",
       "title": "How Cursor Router chooses the right model for the task",
       "description": "",
       "date": "2026-08-06T12:00:00+00:00",
-      "category": "research"
+      "category": "research",
+      "guid": "https://cursor.com/blog/how-cursor-router-works"
     },
     {
       "link": "https://cursor.com/blog/grok-4-6",
       "title": "Introducing Grok 4.6",
-      "description": "Built for long-running agents and more ambitious interactive and visual work.",
+      "description": "",
       "date": "2026-08-12T00:00:00+00:00",
-      "category": ""
+      "category": "research",
+      "guid": "https://cursor.com/blog/grok-4-6"
     },
     {
       "link": "https://cursor.com/blog/aiuc-1",
       "title": "Cursor earns AIUC-1 certification for agent security and reliability",
       "description": "",
       "date": "2026-08-13T12:00:00+00:00",
-      "category": "company"
+      "category": "company",
+      "guid": "https://cursor.com/blog/aiuc-1"
     },
     {
       "link": "https://cursor.com/blog/builds",
       "title": "Cloud agents start 3x faster with builds",
       "description": "",
       "date": "2026-08-13T12:00:00+00:00",
-      "category": "product"
+      "category": "product",
+      "guid": "https://cursor.com/blog/builds"
     },
     {
       "link": "https://cursor.com/blog/firetiger",
       "title": "Firetiger joins Cursor",
       "description": "",
       "date": "2026-08-13T19:00:00+00:00",
-      "category": "company"
+      "category": "company",
+      "guid": "https://cursor.com/blog/firetiger"
     },
     {
       "link": "https://cursor.com/blog/joining-spacex",
       "title": "Cursor is now a part of SpaceX",
-      "description": "Cursor has officially been acquired by SpaceX.",
+      "description": "",
       "date": "2026-08-14T12:00:00+00:00",
-      "category": ""
+      "category": "company",
+      "guid": "https://cursor.com/blog/joining-spacex"
+    },
+    {
+      "link": "https://cursor.com/blog/git-at-any-scale",
+      "title": "Git at any scale",
+      "description": "",
+      "date": "2026-08-18T12:00:00+00:00",
+      "category": "research",
+      "guid": "https://cursor.com/blog/git-at-any-scale"
+    },
+    {
+      "link": "https://cursor.com/blog/imdex",
+      "title": "IMDEX uses Cursor to build integrated subsurface data and analytics platform in months, not years",
+      "description": "",
+      "date": "2026-08-25T12:00:00+00:00",
+      "category": "",
+      "guid": "https://cursor.com/blog/imdex"
+    },
+    {
+      "link": "https://cursor.com/blog/nokia",
+      "title": "Nokia analyzes 50M+ lines of code in two weeks with Cursor",
+      "description": "",
+      "date": "2026-09-02T12:00:00+00:00",
+      "category": "",
+      "guid": "https://cursor.com/blog/nokia"
+    },
+    {
+      "link": "https://cursor.com/blog/self-hosted-machines",
+      "title": "Run cloud agents on machines you manage",
+      "description": "",
+      "date": "2026-09-02T12:00:00+00:00",
+      "category": "product",
+      "guid": "https://cursor.com/blog/self-hosted-machines"
+    },
+    {
+      "link": "https://cursor.com/blog/basis",
+      "title": "How Basis builds long-horizon accounting agents with Cursor",
+      "description": "",
+      "date": "2026-09-04T12:00:00+00:00",
+      "category": "",
+      "guid": "https://cursor.com/blog/basis"
+    },
+    {
+      "link": "https://cursor.com/blog/projects",
+      "title": "Introducing Projects",
+      "description": "",
+      "date": "2026-09-10T12:00:00+00:00",
+      "category": "product",
+      "guid": "https://cursor.com/blog/projects"
+    },
+    {
+      "link": "https://cursor.com/blog/grab",
+      "title": "How Grab put Cursor in the hands of Design, Ops, and Engineering",
+      "description": "",
+      "date": "2026-09-15T12:00:00+00:00",
+      "category": "",
+      "guid": "https://cursor.com/blog/grab"
+    },
+    {
+      "link": "https://cursor.com/blog/improved-token-efficiency",
+      "title": "Improved token efficiency for longer agent runs",
+      "description": "",
+      "date": "2026-09-23T12:00:00+00:00",
+      "category": "research",
+      "guid": "https://cursor.com/blog/improved-token-efficiency"
+    },
+    {
+      "link": "https://cursor.com/blog/rollouts-and-security-reviewer",
+      "title": "Bots for the last mile: Rollouts, Security Review",
+      "description": "",
+      "date": "2026-09-23T12:00:00+00:00",
+      "category": "product",
+      "guid": "https://cursor.com/blog/rollouts-and-security-reviewer"
     }
   ]
 }

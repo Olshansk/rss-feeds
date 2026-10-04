@@ -66,12 +66,14 @@ def validate_xml(content: bytes, name: str = "feed"):
             "message": "Duplicate item links or GUIDs",
         }
 
+    dates = []
     for item in items:
         missing = [field for field in ("title", "link", "pubDate") if not (item.findtext(field) or "").strip()]
         try:
             date = parsedate_to_datetime(item.findtext("pubDate") or "")
             if date.tzinfo is None:
                 date = date.replace(tzinfo=UTC)
+            dates.append(date)
             if date > datetime.now(UTC):
                 missing.append("non-future pubDate")
         except (ValueError, TypeError):
@@ -94,26 +96,7 @@ def validate_xml(content: bytes, name: str = "feed"):
             "message": f"{item_count} items, dated items are not newest-first",
         }
 
-    # Find newest pubDate
-    newest = None
-    for item in items:
-        pub_date = item.find("pubDate")
-        if pub_date is not None and pub_date.text:
-            try:
-                dt = parsedate_to_datetime(pub_date.text)
-                if newest is None or dt > newest:
-                    newest = dt
-            except (ValueError, TypeError):
-                continue
-
-    if newest is None:
-        return {
-            "name": name,
-            "item_count": item_count,
-            "newest_date": None,
-            "status": "OK",
-            "message": f"{item_count} items, no parseable dates",
-        }
+    newest = max(dates)
 
     days_ago = (datetime.now(UTC) - newest).days
 

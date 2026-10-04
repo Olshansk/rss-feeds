@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 19:15:40 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 19:28:44 +0000</lastBuildDate>
     <item>
       <title>PACT: Can Enterprise AI Assistants Be Trusted Under Pressure?</title>
       <link>https://arxiv.org/abs/2609.18605</link>
@@ -171,24 +171,10 @@
       <pubDate>Wed, 07 Jan 2026 18:46:22 +0000</pubDate>
     </item>
     <item>
-      <title>Attention-Guided Audio Compression for Multimodal LLM</title>
-      <link>https://ieeexplore.ieee.org/abstract/document/11461737</link>
-      <description>Rane, Vatsa, Pethe, Aktolun, Li, and Singh (Source provides publication year 2026 only; January 1 represents that year.)</description>
-      <guid isPermaLink="false">https://ieeexplore.ieee.org/abstract/document/11461737</guid>
-      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Challenges to Grassroot Organization Engagement with AI Policy</title>
-      <link>https://nips.cc/virtual/2025/136959</link>
-      <description>Mickel, Buckner, Agnew, Long, Lin, Alaka, Wang, Arora, Swaminathan, and Subramonian (Source provides publication year 2026 only; January 1 represents that year.)</description>
-      <guid isPermaLink="false">https://nips.cc/virtual/2025/136959</guid>
-      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>L1 Influence in L2 Language Models: A Human-centric Approach</title>
-      <link>https://aclanthology.org/2026.cdl-1.15/</link>
-      <description>Barbenel, Goulder, O’Driscoll, Salhan, Arnett, Caines, and Buttery (Source provides publication year 2026 only; January 1 represents that year.)</description>
-      <guid isPermaLink="false">https://aclanthology.org/2026.cdl-1.15/</guid>
+      <title>What Helps Agentic Lean Provers? A Trace-Level Attribution Study</title>
+      <link>https://openreview.net/forum?id=ShhLinF41r</link>
+      <description>Ammanamanchi (Source provides publication year 2026 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://openreview.net/forum?id=ShhLinF41r</guid>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -199,10 +185,24 @@
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>What Helps Agentic Lean Provers? A Trace-Level Attribution Study</title>
-      <link>https://openreview.net/forum?id=ShhLinF41r</link>
-      <description>Ammanamanchi (Source provides publication year 2026 only; January 1 represents that year.)</description>
-      <guid isPermaLink="false">https://openreview.net/forum?id=ShhLinF41r</guid>
+      <title>Challenges to Grassroot Organization Engagement with AI Policy</title>
+      <link>https://nips.cc/virtual/2025/136959</link>
+      <description>Mickel, Buckner, Agnew, Long, Lin, Alaka, Wang, Arora, Swaminathan, and Subramonian (Source provides publication year 2026 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://nips.cc/virtual/2025/136959</guid>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Attention-Guided Audio Compression for Multimodal LLM</title>
+      <link>https://ieeexplore.ieee.org/abstract/document/11461737</link>
+      <description>Rane, Vatsa, Pethe, Aktolun, Li, and Singh (Source provides publication year 2026 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://ieeexplore.ieee.org/abstract/document/11461737</guid>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>L1 Influence in L2 Language Models: A Human-centric Approach</title>
+      <link>https://aclanthology.org/2026.cdl-1.15/</link>
+      <description>Barbenel, Goulder, O’Driscoll, Salhan, Arnett, Caines, and Buttery (Source provides publication year 2026 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://aclanthology.org/2026.cdl-1.15/</guid>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -465,20 +465,6 @@
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>CCS-Lib: A Python Package to Elicit Latent Knowledge from LLMs</title>
-      <link>https://joss.theoj.org/papers/10.21105/joss.06511</link>
-      <description>Laurito, Belrose, Mallen, Kozaronek, Roger, and 12 others (Source provides publication year 2025 only; January 1 represents that year.)</description>
-      <guid isPermaLink="false">https://joss.theoj.org/papers/10.21105/joss.06511</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Persona-Vector Routing: A Lightweight, Interpretable Guardrail for Mitigating LLM Hallucinations</title>
-      <link>https://neurips.cc/virtual/2025/129955</link>
-      <description>Imran and Chatterjee (Source provides publication year 2025 only; January 1 represents that year.)</description>
-      <guid isPermaLink="false">https://neurips.cc/virtual/2025/129955</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Mitigating Emergent Misalignment with Data Attribution</title>
       <link>https://openreview.net/forum?id=gN7pWmjiQW</link>
       <description>Jaburi, Paulo, Shabalin, Quirke, and Belrose (Source provides publication year 2025 only; January 1 represents that year.)</description>
@@ -490,6 +476,20 @@
       <link>https://openreview.net/forum?id=auKgpBRzIW</link>
       <description>Zur, Ying, Loftus, Şahin, Yu, Quirke, Rott Shaham, Shapira, Orgad, and Bau (Source provides publication year 2025 only; January 1 represents that year.)</description>
       <guid isPermaLink="false">https://openreview.net/forum?id=auKgpBRzIW</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Persona-Vector Routing: A Lightweight, Interpretable Guardrail for Mitigating LLM Hallucinations</title>
+      <link>https://neurips.cc/virtual/2025/129955</link>
+      <description>Imran and Chatterjee (Source provides publication year 2025 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://neurips.cc/virtual/2025/129955</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CCS-Lib: A Python Package to Elicit Latent Knowledge from LLMs</title>
+      <link>https://joss.theoj.org/papers/10.21105/joss.06511</link>
+      <description>Laurito, Belrose, Mallen, Kozaronek, Roger, and 12 others (Source provides publication year 2025 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://joss.theoj.org/papers/10.21105/joss.06511</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -773,10 +773,10 @@
       <pubDate>Sun, 21 Jan 2024 21:49:49 +0000</pubDate>
     </item>
     <item>
-      <title>The OpenELM Library: Leveraging Progress in Language Models for Novel Evolutionary Algorithms</title>
-      <link>https://openreview.net/forum?id=C0SGtHjr4wK</link>
-      <description>Bradley, Fan, Galanos, Zhou, Scott, and Lehman (Source provides publication year 2024 only; January 1 represents that year.)</description>
-      <guid isPermaLink="false">https://openreview.net/forum?id=C0SGtHjr4wK</guid>
+      <title>OpenFold: Retraining AlphaFold2 yields new insights into its learning mechanisms and capacity for generalization</title>
+      <link>https://www.biorxiv.org/content/10.1101/2022.11.20.517210v3</link>
+      <description>Ahdritz, Bouatta, Kadyan, Xia, Gerecke, and 23 others (Source provides publication year 2024 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://www.biorxiv.org/content/10.1101/2022.11.20.517210v3</guid>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -787,17 +787,17 @@
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>The OpenELM Library: Leveraging Progress in Language Models for Novel Evolutionary Algorithms</title>
+      <link>https://openreview.net/forum?id=C0SGtHjr4wK</link>
+      <description>Bradley, Fan, Galanos, Zhou, Scott, and Lehman (Source provides publication year 2024 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://openreview.net/forum?id=C0SGtHjr4wK</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Attributing Mode Collapse in the fine-tuning of Large Language Models</title>
       <link>https://openreview.net/forum?id=3pDMYjpOxk</link>
       <description>O'Mahony, Grinsztajn, Schoelkopf, and Biderman (Source provides publication year 2024 only; January 1 represents that year.)</description>
       <guid isPermaLink="false">https://openreview.net/forum?id=3pDMYjpOxk</guid>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenFold: Retraining AlphaFold2 yields new insights into its learning mechanisms and capacity for generalization</title>
-      <link>https://www.biorxiv.org/content/10.1101/2022.11.20.517210v3</link>
-      <description>Ahdritz, Bouatta, Kadyan, Xia, Gerecke, and 23 others (Source provides publication year 2024 only; January 1 represents that year.)</description>
-      <guid isPermaLink="false">https://www.biorxiv.org/content/10.1101/2022.11.20.517210v3</guid>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -808,17 +808,17 @@
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Beyond Open vs. Closed: Emerging Consensus and Key Questions for Foundation AI Model Governance</title>
-      <link>https://carnegieendowment.org/research/2024/07/beyond-open-vs-closed-emerging-consensus-and-key-questions-for-foundation-ai-model-governance</link>
-      <description>Bateman, Baer, Bell, Brown, and Cuellar, and 13 others (Source provides publication year 2024 only; January 1 represents that year.)</description>
-      <guid isPermaLink="false">https://carnegieendowment.org/research/2024/07/beyond-open-vs-closed-emerging-consensus-and-key-questions-for-foundation-ai-model-governance</guid>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Cold Compress: A Toolkit for Benchmarking KV Cache Compression Approaches</title>
       <link>https://github.com/AnswerDotAI/cold-compress</link>
       <description>Adams, Ladhak, Schoelkopf, and Biswas (Source provides publication year 2024 only; January 1 represents that year.)</description>
       <guid isPermaLink="false">https://github.com/AnswerDotAI/cold-compress</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Beyond Open vs. Closed: Emerging Consensus and Key Questions for Foundation AI Model Governance</title>
+      <link>https://carnegieendowment.org/research/2024/07/beyond-open-vs-closed-emerging-consensus-and-key-questions-for-foundation-ai-model-governance</link>
+      <description>Bateman, Baer, Bell, Brown, and Cuellar, and 13 others (Source provides publication year 2024 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://carnegieendowment.org/research/2024/07/beyond-open-vs-closed-emerging-consensus-and-key-questions-for-foundation-ai-model-governance</guid>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1081,6 +1081,13 @@
       <pubDate>Mon, 09 Jan 2023 10:52:35 +0000</pubDate>
     </item>
     <item>
+      <title>2023 Open Source Generative AI Survey Report</title>
+      <link>https://www.linuxfoundation.org/research/2023-generative-ai-study</link>
+      <description>Lawson, Gerosa, Hendrick, White, Hyde, and Biderman (Source provides publication year 2023 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://www.linuxfoundation.org/research/2023-generative-ai-study</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Masked inverse folding with sequence transfer for protein representation learning</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/37883472/</link>
       <description>Yang, Zanichelli, and Yeh (Source provides publication year 2023 only; January 1 represents that year.)</description>
@@ -1095,27 +1102,6 @@
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Current Status of NLP in South East Asia with Insights from Multilingualism and Language Diversity</title>
-      <link>https://aclanthology.org/2023.ijcnlp-tutorials.2/</link>
-      <description>Aji, Forde, Loo, Sutawika, Wang, and 6 others (Source provides publication year 2023 only; January 1 represents that year.)</description>
-      <guid isPermaLink="false">https://aclanthology.org/2023.ijcnlp-tutorials.2/</guid>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>2023 Open Source Generative AI Survey Report</title>
-      <link>https://www.linuxfoundation.org/research/2023-generative-ai-study</link>
-      <description>Lawson, Gerosa, Hendrick, White, Hyde, and Biderman (Source provides publication year 2023 only; January 1 represents that year.)</description>
-      <guid isPermaLink="false">https://www.linuxfoundation.org/research/2023-generative-ai-study</guid>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>trlX: A Framework for Large Scale Reinforcement Learning from Human Feedback</title>
-      <link>https://aclanthology.org/2023.emnlp-main.530/</link>
-      <description>Havrilla, Zhuravinskyi, Phung, Tiwari, Tow, Biderman, Anthony, and Castricato (Source provides publication year 2023 only; January 1 represents that year.)</description>
-      <guid isPermaLink="false">https://aclanthology.org/2023.emnlp-main.530/</guid>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Detecting Backdoors with Meta-Models</title>
       <link>https://openreview.net/forum?id=cmJiEqniEc</link>
       <description>Langosco, Alex, Baker, Quarel, Bradley, and Krueger (Source provides publication year 2023 only; January 1 represents that year.)</description>
@@ -1127,6 +1113,20 @@
       <link>https://neurips.cc/virtual/2023/workshop/66526#collapse78917</link>
       <description>Pfau, Infanger, Sheshadri, Panda, Michael, and Huebner (Source provides publication year 2023 only; January 1 represents that year.)</description>
       <guid isPermaLink="false">https://neurips.cc/virtual/2023/workshop/66526#collapse78917</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Current Status of NLP in South East Asia with Insights from Multilingualism and Language Diversity</title>
+      <link>https://aclanthology.org/2023.ijcnlp-tutorials.2/</link>
+      <description>Aji, Forde, Loo, Sutawika, Wang, and 6 others (Source provides publication year 2023 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://aclanthology.org/2023.ijcnlp-tutorials.2/</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>trlX: A Framework for Large Scale Reinforcement Learning from Human Feedback</title>
+      <link>https://aclanthology.org/2023.emnlp-main.530/</link>
+      <description>Havrilla, Zhuravinskyi, Phung, Tiwari, Tow, Biderman, Anthony, and Castricato (Source provides publication year 2023 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://aclanthology.org/2023.emnlp-main.530/</guid>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1263,6 +1263,13 @@
       <pubDate>Thu, 13 Jan 2022 23:45:24 +0000</pubDate>
     </item>
     <item>
+      <title>Musical audio samples generated from joint text embeddings</title>
+      <link>https://pubs.aip.org/asa/jasa/article/152/4_Supplement/A178/2839990/Musical-audio-samples-generated-from-joint-text</link>
+      <description>Evans, Hawley, and Crowson (Source provides publication year 2022 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://pubs.aip.org/asa/jasa/article/152/4_Supplement/A178/2839990/Musical-audio-samples-generated-from-joint-text</guid>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>MP-NeRF: A massively parallel method for accelerating protein structure reconstruction from internal coordinates</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/34709663/</link>
       <description>Alcaide, Biderman, Telenti, and Maher (Source provides publication year 2022 only; January 1 represents that year.)</description>
@@ -1274,13 +1281,6 @@
       <link>https://aclanthology.org/2022.bigscience-1.3/</link>
       <description>Talat, Névéol, Biderman, Clinciu, Dey, and 11 others (Source provides publication year 2022 only; January 1 represents that year.)</description>
       <guid isPermaLink="false">https://aclanthology.org/2022.bigscience-1.3/</guid>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Musical audio samples generated from joint text embeddings</title>
-      <link>https://pubs.aip.org/asa/jasa/article/152/4_Supplement/A178/2839990/Musical-audio-samples-generated-from-joint-text</link>
-      <description>Evans, Hawley, and Crowson (Source provides publication year 2022 only; January 1 represents that year.)</description>
-      <guid isPermaLink="false">https://pubs.aip.org/asa/jasa/article/152/4_Supplement/A178/2839990/Musical-audio-samples-generated-from-joint-text</guid>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
     </item>
     <item>

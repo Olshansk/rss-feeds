@@ -39,7 +39,7 @@ feeds:
   anthropic_red:
     script: anthropic_red_blog.py
     type: requests
-    blog_url: https://red.anthropic.com/
+    blog_url: https://www.anthropic.com/research/team/frontier-red-team
 
   anthropic_research:
     script: anthropic_research_blog.py
@@ -137,7 +137,7 @@ feeds:
   perplexity_hub:
     script: perplexity_hub.py
     type: selenium
-    blog_url: https://www.perplexity.ai/hub
+    blog_url: https://www.perplexity.ai/hub/blog
 
   pinecone:
     script: pinecone_blog.py
@@ -152,7 +152,7 @@ feeds:
   transluce:
     script: transluce_blog.py
     type: requests
-    blog_url: https://transluce.org/research
+    blog_url: https://transluce.org/news
   timaeus:
     script: timaeus_blog.py
     type: requests
@@ -166,17 +166,17 @@ feeds:
   windsurf_blog:
     script: windsurf_blog.py
     type: requests
-    blog_url: https://windsurf.com/blog
+    blog_url: https://devin.ai/blog
 
   windsurf_changelog:
     script: windsurf_changelog.py
     type: requests
-    blog_url: https://windsurf.com/changelog
+    blog_url: https://docs.devin.ai/desktop/changelog
 
   windsurf_next_changelog:
     script: windsurf_next_changelog.py
     type: requests
-    blog_url: https://windsurf.com/changelog/windsurf-next
+    blog_url: https://docs.devin.ai/desktop/changelog-next
 
   xainews:
     script: xainews_blog.py

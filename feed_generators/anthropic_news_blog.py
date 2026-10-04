@@ -10,6 +10,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
+from feed_history import merge_feed_history, require_posts
 from utils import (
     deserialize_entries,
     load_cache,
@@ -382,20 +383,19 @@ def main(full_reset=False):
             html_content = fetch_news_content(max_clicks=2)
             new_articles = parse_news_html(html_content)
             logger.info(f"Found {len(new_articles)} articles from recent pages")
-            articles = merge_entries(new_articles, cached_articles)
+            articles = merge_entries(require_posts(new_articles), cached_articles)
 
         if not articles:
             logger.warning("No articles found. Please check the HTML structure.")
             return False
 
-        # Save to cache
-        save_cache(FEED_NAME, articles)
-
         # Generate RSS feed with all articles
+        articles = merge_feed_history(articles, FEED_NAME)
         feed = generate_rss_feed(articles)
 
         # Save feed to file
         save_rss_feed(feed, FEED_NAME)
+        save_cache(FEED_NAME, articles)
 
         logger.info(f"Successfully generated RSS feed with {len(articles)} articles")
         return True

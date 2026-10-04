@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 19:08:54 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 19:28:44 +0000</lastBuildDate>
     <item>
       <title>Prefill-level Jailbreak: A Black-Box Risk Analysis of Large Language Models</title>
       <link>https://www.far.ai/research/prefill-level-jailbreak-a-black-box-risk-analysis-of-large-language-models</link>
@@ -94,17 +94,17 @@
       <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Training Reliable Activation Probes With a Handful of Positive Examples</title>
-      <link>https://www.far.ai/research/training-reliable-activation-probes-with-a-handful-of-positive-examples</link>
-      <description>Misalignment cases might be rare but critical. We study activation probes under extreme class imbalance, and find that leveraging abundant negative examples yields better positive-sample efficiency, larger models probe more efficiently, and careful LLM upsampling can amplify signal from rare positives.</description>
-      <guid isPermaLink="false">https://www.far.ai/research/training-reliable-activation-probes-with-a-handful-of-positive-examples</guid>
-      <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Transformers Don’t Need LayerNorm at Inference Time: Scaling LayerNorm Removal to GPT-2 XL and Implications for Mechanistic Interpretability</title>
       <link>https://www.far.ai/research/transformers-dont-need-layernorm-at-inference-time</link>
       <description>We show that all LayerNorm layers can be removed from GPT-2 models via fine-tuning with minimal performance loss, making inference-time LayerNorm unnecessary.</description>
       <guid isPermaLink="false">https://www.far.ai/research/transformers-dont-need-layernorm-at-inference-time</guid>
+      <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Training Reliable Activation Probes With a Handful of Positive Examples</title>
+      <link>https://www.far.ai/research/training-reliable-activation-probes-with-a-handful-of-positive-examples</link>
+      <description>Misalignment cases might be rare but critical. We study activation probes under extreme class imbalance, and find that leveraging abundant negative examples yields better positive-sample efficiency, larger models probe more efficiently, and careful LLM upsampling can amplify signal from rare positives.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/training-reliable-activation-probes-with-a-handful-of-positive-examples</guid>
       <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -255,6 +255,13 @@
       <pubDate>Sat, 20 Jul 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Investigating the Indirect Object Identification circuit in Mamba</title>
+      <link>https://www.far.ai/research/investigating-the-indirect-object-identification-circuit-in-mamba</link>
+      <description>By adapting existing interpretability techniques to the Mamba architecture, we partially reverse-engineered the circuit responsible for the Indirect Object Identification task.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/investigating-the-indirect-object-identification-circuit-in-mamba</guid>
+      <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>InterpBench: Semi-Synthetic Transformers for Evaluating Mechanistic Interpretability Techniques</title>
       <link>https://www.far.ai/research/interpbench-semi-synthetic-transformers-for-evaluating-mechanistic-interpretability-techniques</link>
       <description>InterpBench is a collection of transformers with known circuits, trained using Strict Interchange Intervention Training (SIIT). These models exhibit realistic weights that reflect ground truth circuits, providing a benchmark for evaluating mechanistic interpretability techniques.</description>
@@ -266,13 +273,6 @@
       <link>https://www.far.ai/research/catastrophic-goodhart-regularizing-rlhf-with-kl-divergence-does-not-mitigate-heavy-tailed-reward-misspecification</link>
       <description>RLHF uses KL divergence regularization to control reward errors, working well with light-tailed errors but vulnerable to reward hacking with heavy-tailed errors. Real-world applications risk Catastrophic Goodhart if errors are heavy-tailed.</description>
       <guid isPermaLink="false">https://www.far.ai/research/catastrophic-goodhart-regularizing-rlhf-with-kl-divergence-does-not-mitigate-heavy-tailed-reward-misspecification</guid>
-      <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Investigating the Indirect Object Identification circuit in Mamba</title>
-      <link>https://www.far.ai/research/investigating-the-indirect-object-identification-circuit-in-mamba</link>
-      <description>By adapting existing interpretability techniques to the Mamba architecture, we partially reverse-engineered the circuit responsible for the Indirect Object Identification task.</description>
-      <guid isPermaLink="false">https://www.far.ai/research/investigating-the-indirect-object-identification-circuit-in-mamba</guid>
       <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -409,17 +409,17 @@
       <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Few-shot Adaptation Works with UnpredicTable Data</title>
-      <link>https://www.far.ai/research/few-shot-adaptation-works-with-unpredictable-data</link>
-      <description>We describe a method for improving few-shot learning performance on Natural Language Processing tasks by finetuning on a large number of diverse tasks extracted from internet tables. We find that finetuning on narrow subsets of these tasks can lead to similar improvements, suggesting that the gains are not from domain adaptation but adapting to few-shot learning in general.</description>
-      <guid isPermaLink="false">https://www.far.ai/research/few-shot-adaptation-works-with-unpredictable-data</guid>
-      <pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>RL with KL penalties is better viewed as Bayesian inference</title>
       <link>https://www.far.ai/research/rl-with-kl-penalties-is-better-viewed-as-bayesian-inference</link>
       <description>We argue that the standard reinforcement learning approach in fine-tuning large language models is flawed and leads to distribution collapse, and propose a Bayesian inference view of KL-regularized RL which explains how it avoids the distribution collapse problem.</description>
       <guid isPermaLink="false">https://www.far.ai/research/rl-with-kl-penalties-is-better-viewed-as-bayesian-inference</guid>
+      <pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Few-shot Adaptation Works with UnpredicTable Data</title>
+      <link>https://www.far.ai/research/few-shot-adaptation-works-with-unpredictable-data</link>
+      <description>We describe a method for improving few-shot learning performance on Natural Language Processing tasks by finetuning on a large number of diverse tasks extracted from internet tables. We find that finetuning on narrow subsets of these tasks can lead to similar improvements, suggesting that the gains are not from domain adaptation but adapting to few-shot learning in general.</description>
+      <guid isPermaLink="false">https://www.far.ai/research/few-shot-adaptation-works-with-unpredictable-data</guid>
       <pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate>
     </item>
   </channel>

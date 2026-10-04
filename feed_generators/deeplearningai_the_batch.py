@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 from dateutil import parser as date_parser
 from feedgen.feed import FeedGenerator
 
+from feed_history import require_posts
 from utils import (
     deserialize_entries,
     fetch_page,
@@ -304,17 +305,17 @@ def main(full_reset=False):
         logger.info("Running incremental update (3 pages only)")
         new_articles = fetch_all_articles(max_pages=3)
         logger.info(f"Found {len(new_articles)} articles from recent pages")
-        articles = merge_entries(new_articles, cached_articles)
+        articles = merge_entries(require_posts(new_articles), cached_articles)
 
     if not articles:
         logger.warning("No articles found")
         return False
 
     # Save to cache
-    save_cache(FEED_NAME, articles)
 
     feed = build_feed(articles)
     save_rss_feed(feed, FEED_NAME)
+    save_cache(FEED_NAME, articles)
     logger.info(f"Successfully generated RSS feed with {len(articles)} articles")
     return True
 

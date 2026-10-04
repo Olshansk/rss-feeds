@@ -8,12 +8,12 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 19:12:44 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 19:30:58 +0000</lastBuildDate>
     <item>
-      <title>Cognition and MongoDB partner to modernize enterprise infrastructure in months, not years</title>
-      <link>https://devin.ai/blog/devin-for-mongodb-modernizations</link>
-      <description>Cognition and MongoDB are bringing Devin into MongoDB’s Application Modernization Platform (AMP) to help customers migrate legacy applications to MongoDB Atlas.</description>
-      <guid isPermaLink="false">https://devin.ai/blog/devin-for-mongodb-modernizations</guid>
+      <title>Sign in with ChatGPT</title>
+      <link>https://devin.ai/blog/sign-in-with-chatgpt</link>
+      <description>You can now sign in to Devin with ChatGPT and use your eligible ChatGPT Plus or Pro plan for OpenAI model usage across Devin Cloud, Devin Desktop, and Devin CLI.</description>
+      <guid isPermaLink="false">https://devin.ai/blog/sign-in-with-chatgpt</guid>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -24,10 +24,10 @@
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Sign in with ChatGPT</title>
-      <link>https://devin.ai/blog/sign-in-with-chatgpt</link>
-      <description>You can now sign in to Devin with ChatGPT and use your eligible ChatGPT Plus or Pro plan for OpenAI model usage across Devin Cloud, Devin Desktop, and Devin CLI.</description>
-      <guid isPermaLink="false">https://devin.ai/blog/sign-in-with-chatgpt</guid>
+      <title>Cognition and MongoDB partner to modernize enterprise infrastructure in months, not years</title>
+      <link>https://devin.ai/blog/devin-for-mongodb-modernizations</link>
+      <description>Cognition and MongoDB are bringing Devin into MongoDB’s Application Modernization Platform (AMP) to help customers migrate legacy applications to MongoDB Atlas.</description>
+      <guid isPermaLink="false">https://devin.ai/blog/devin-for-mongodb-modernizations</guid>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -52,13 +52,6 @@
       <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Claude Opus 5.5 is now available in Devin</title>
-      <link>https://devin.ai/blog/claude-opus-5-5</link>
-      <description>Claude Opus 5.5 is now live in Devin Desktop and Devin CLI. It is the new #1 on FrontierCode 1.1, edging out Fable 5 and GPT-6 Astra at less than a tenth of the cost of Fable 5.</description>
-      <guid isPermaLink="false">https://devin.ai/blog/claude-opus-5-5</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>GPT-6 Sol and GPT-6 Luna are now available in Devin</title>
       <link>https://devin.ai/blog/gpt-6-sol-luna</link>
       <description>OpenAI released GPT-6 Sol and GPT-6 Luna. Both are live now in Devin Desktop and Devin CLI. On FrontierCode 1.1, Sol matches GPT-5.6 Sol at 61% lower cost per task, and Luna beats GPT-5.6 Luna at a quarter of the cost, making it the cheapest model on the leaderboard.</description>
@@ -66,17 +59,24 @@
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Bringing Devin Cloud to your terminal</title>
-      <link>https://devin.ai/blog/devin-cloud-in-your-terminal</link>
-      <description>Starting today, you can create, steer, resume, and watch your Devin Cloud sessions right from your favorite terminal. Just use devin --cloud or /cloud.</description>
-      <guid isPermaLink="false">https://devin.ai/blog/devin-cloud-in-your-terminal</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+      <title>Claude Opus 5.5 is now available in Devin</title>
+      <link>https://devin.ai/blog/claude-opus-5-5</link>
+      <description>Claude Opus 5.5 is now live in Devin Desktop and Devin CLI. It is the new #1 on FrontierCode 1.1, edging out Fable 5 and GPT-6 Astra at less than a tenth of the cost of Fable 5.</description>
+      <guid isPermaLink="false">https://devin.ai/blog/claude-opus-5-5</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Grok 4.7 is now available in Devin</title>
       <link>https://devin.ai/blog/grok-4-7</link>
       <description>Grok 4.7 is now live in Devin Desktop and the Devin CLI. On FrontierCode 1.1 it is strongest on hard, multi-module backend tasks, and trails Grok 4.6 on the aggregate because it tends to over-scope.</description>
       <guid isPermaLink="false">https://devin.ai/blog/grok-4-7</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bringing Devin Cloud to your terminal</title>
+      <link>https://devin.ai/blog/devin-cloud-in-your-terminal</link>
+      <description>Starting today, you can create, steer, resume, and watch your Devin Cloud sessions right from your favorite terminal. Just use devin --cloud or /cloud.</description>
+      <guid isPermaLink="false">https://devin.ai/blog/devin-cloud-in-your-terminal</guid>
       <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -199,17 +199,17 @@
       <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Agentic MapReduce</title>
-      <link>https://devin.ai/blog/agentic-map-reduce</link>
-      <description>A new architecture from Cognition for scaling full-codebase reasoning with distributed agents</description>
-      <guid isPermaLink="false">https://devin.ai/blog/agentic-map-reduce</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Update on Claude Fable 5 in Devin</title>
       <link>https://devin.ai/blog/claude-fable-5-available-in-devin</link>
       <description>Claude Fable 5 is now available in Devin Cloud’s Ultra agent, Devin Desktop, and Devin CLI.</description>
       <guid isPermaLink="false">https://devin.ai/blog/claude-fable-5-available-in-devin</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agentic MapReduce</title>
+      <link>https://devin.ai/blog/agentic-map-reduce</link>
+      <description>A new architecture from Cognition for scaling full-codebase reasoning with distributed agents</description>
+      <guid isPermaLink="false">https://devin.ai/blog/agentic-map-reduce</guid>
       <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -485,17 +485,17 @@
       <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>athenahealth Advances Healthcare Innovation with Windsurf</title>
-      <link>https://devin.ai/blog/athena-health-case-study</link>
-      <description>athenahealth uses Windsurf to accelerate their developers.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/athena-health-case-study</guid>
-      <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Wave 10: Planning Mode</title>
       <link>https://devin.ai/blog/windsurf-wave-10-planning-mode</link>
       <description>A native way to collaborate with the AI on longer, more complex tasks.</description>
       <guid isPermaLink="false">https://windsurf.com/blog/windsurf-wave-10-planning-mode</guid>
+      <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>athenahealth Advances Healthcare Innovation with Windsurf</title>
+      <link>https://devin.ai/blog/athena-health-case-study</link>
+      <description>athenahealth uses Windsurf to accelerate their developers.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/athena-health-case-study</guid>
       <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -604,17 +604,17 @@
       <pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Forge Deprecation</title>
-      <link>https://devin.ai/blog/forge-deprecation</link>
-      <description>Deprecating Forge and looking towards better AI code review.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/forge-deprecation</guid>
-      <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The Next Chapter: Renaming to Windsurf</title>
       <link>https://devin.ai/blog/windsurf-rebrand-announcement</link>
       <description>Announcing the renaming of Codeium to Windsurf</description>
       <guid isPermaLink="false">https://windsurf.com/blog/windsurf-rebrand-announcement</guid>
+      <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Forge Deprecation</title>
+      <link>https://devin.ai/blog/forge-deprecation</link>
+      <description>Deprecating Forge and looking towards better AI code review.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/forge-deprecation</guid>
       <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -877,17 +877,17 @@
       <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Command: A Case Study in Product Development</title>
-      <link>https://devin.ai/blog/codeium-command-improvement-case-study</link>
-      <description>How we made a state-of-the-art instruction following system by training proprietary foundational models and listening to user feedback.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/codeium-command-improvement-case-study</guid>
-      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Work at Little Tech</title>
       <link>https://devin.ai/blog/work-at-little-tech-codeium</link>
       <description>Our billboard campaign to raise awareness for the startup world.</description>
       <guid isPermaLink="false">https://windsurf.com/blog/work-at-little-tech-codeium</guid>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Command: A Case Study in Product Development</title>
+      <link>https://devin.ai/blog/codeium-command-improvement-case-study</link>
+      <description>How we made a state-of-the-art instruction following system by training proprietary foundational models and listening to user feedback.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/codeium-command-improvement-case-study</guid>
       <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1360,17 +1360,17 @@
       <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>User Personalization, the Next Frontier in LLMs</title>
-      <link>https://devin.ai/blog/user-personalization-for-llms</link>
-      <description>How tuning the model layer of LLM applications creates the highest quality experiences for enterprises.</description>
-      <guid isPermaLink="false">https://windsurf.com/blog/user-personalization-for-llms</guid>
-      <pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Why your AI Code Completion tool needs to Fill in the Middle</title>
       <link>https://devin.ai/blog/why-code-completion-needs-fill-in-the-middle</link>
       <description>Analyzing how fill-in-the-middle allows Codeium to make better suggestions.</description>
       <guid isPermaLink="false">https://windsurf.com/blog/why-code-completion-needs-fill-in-the-middle</guid>
+      <pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>User Personalization, the Next Frontier in LLMs</title>
+      <link>https://devin.ai/blog/user-personalization-for-llms</link>
+      <description>How tuning the model layer of LLM applications creates the highest quality experiences for enterprises.</description>
+      <guid isPermaLink="false">https://windsurf.com/blog/user-personalization-for-llms</guid>
       <pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate>
     </item>
     <item>

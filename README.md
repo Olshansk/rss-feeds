@@ -20,7 +20,7 @@ Scraped feeds are generated hourly. "Official RSS" rows point to native feeds th
 | [AI FIRST Podcast](https://ai-first.ai/podcast) (German)                                          | [feed_ai_first_podcast.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_ai_first_podcast.xml)               |
 | [AISI Blog](https://www.aisi.gov.uk/blog)                                                         | [feed_aisi.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_aisi.xml)                                       |
 | [Anthropic Engineering](https://www.anthropic.com/engineering)                                    | [feed_anthropic_engineering.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_engineering.xml)     |
-| [Anthropic Frontier Red Team](https://red.anthropic.com/)                                         | [feed_anthropic_red.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_red.xml)                     |
+| [Anthropic Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)                                         | [feed_anthropic_red.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_red.xml)                     |
 | [Anthropic News](https://www.anthropic.com/news)                                                  | [feed_anthropic_news.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml)                   |
 | [Anthropic Research](https://www.anthropic.com/research)                                          | [feed_anthropic_research.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_research.xml)           |
 | [Chander Ramesh's Writing](https://chanderramesh.com/writing)                                     | [feed_chanderramesh.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_chanderramesh.xml)                     |
@@ -40,24 +40,24 @@ Scraped feeds are generated hourly. "Official RSS" rows point to native feeds th
 | [Interconnected (Matt Webb)](https://interconnected.org/home)                                     | [Official RSS](https://interconnected.org/home/feed)                                                                                 |
 | [Mistral AI News](https://mistral.ai/news)                                                        | [feed_mistral.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_mistral.xml)                                 |
 | [Ollama Blog](https://ollama.com/blog)                                                            | [feed_ollama.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_ollama.xml)                                   |
-| [OpenAI Engineering](https://openai.com/news/engineering/)                                        | [Official RSS](https://openai.com/news/engineering/rss.xml)                                                                          |
+| [OpenAI All News](https://openai.com/news/)                                              | [Official RSS](https://openai.com/news/rss.xml)                                                                                      |
 | [OpenAI Developer Blog](https://developers.openai.com/blog)                                       | [feed_openai_developer.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_openai_developer.xml)              |
 | [OpenAI Engineering](https://openai.com/news/engineering/)                                        | [feed_openai_engineering.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_openai_engineering.xml)             |
-| [OpenAI Research](https://openai.com/news/research/)                                              | [Official RSS](https://openai.com/blog/rss.xml)                                                                                      |
+| [OpenAI Research](https://openai.com/news/research/) | [feed_openai_research.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_openai_research.xml) |
 | [Paul Graham's Articles](https://www.paulgraham.com/articles.html)                                | [feed_paulgraham.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_paulgraham.xml)                           |
-| [Perplexity Hub](https://www.perplexity.ai/hub)                                                   | [feed_perplexity_hub.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_perplexity_hub.xml)                   |
+| [Perplexity Hub](https://www.perplexity.ai/hub/blog)                                                   | [feed_perplexity_hub.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_perplexity_hub.xml)                   |
 | [Pinecone Blog](https://www.pinecone.io/blog/)                                                    | [feed_pinecone.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_pinecone.xml)                               |
 | [Simon Willison's Blog (Tools)](https://simonwillison.net/)                                       | [Official RSS](https://simonwillison.net/atom/beats/tool/)                                                                           |
 | [Supabase Blog](https://supabase.com/blog)                                                        | [Official RSS](https://supabase.com/rss.xml)                                                                                         |
 | [Surge AI Blog](https://www.surgehq.ai/blog)                                                      | [feed_blogsurgeai.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_blogsurgeai.xml)                         |
 | [The Batch by DeepLearning.AI](https://www.deeplearning.ai/the-batch/)                            | [feed_the_batch.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_the_batch.xml)                             |
 | [Thinking Machines Lab](https://thinkingmachines.ai/blog/)                                        | [Official RSS](https://thinkingmachines.ai/blog/index.xml)                                                                           |
-| [Transluce Research](https://transluce.org/research)                                              | [feed_transluce.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_transluce.xml)                             |
+| [Transluce Research](https://transluce.org/news)                                              | [feed_transluce.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_transluce.xml)                             |
 | [Timaeus Research](https://timaeus.co/research)                                                   | [feed_timaeus.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_timaeus.xml)                                 |
 | [Weaviate Blog](https://weaviate.io/blog)                                                         | [feed_weaviate.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_weaviate.xml)                               |
-| [Windsurf Blog](https://windsurf.com/blog)                                                        | [feed_windsurf_blog.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_windsurf_blog.xml)                     |
-| [Windsurf Changelog](https://windsurf.com/changelog)                                              | [feed_windsurf_changelog.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_windsurf_changelog.xml)           |
-| [Windsurf Next Changelog](https://windsurf.com/changelog/windsurf-next)                           | [feed_windsurf_next_changelog.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_windsurf_next_changelog.xml) |
+| [Windsurf Blog](https://devin.ai/blog)                                                        | [feed_windsurf_blog.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_windsurf_blog.xml)                     |
+| [Windsurf Changelog](https://docs.devin.ai/desktop/changelog)                                              | [feed_windsurf_changelog.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_windsurf_changelog.xml)           |
+| [Windsurf Next Changelog](https://docs.devin.ai/desktop/changelog-next)                           | [feed_windsurf_next_changelog.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_windsurf_next_changelog.xml) |
 | [xAI News](https://x.ai/news)                                                                     | [feed_xainews.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_xainews.xml)                                 |
 
 ### Planned <!-- omit in toc -->
@@ -167,3 +167,5 @@ flowchart TB
 - AI tooling for easy contributions 🤖
 - Learn and contribute together 🧑‍🎓
 - Streamlines the use of Claude, Claude Projects, and Claude Sync
+
+See [feed reliability and shared patterns](docs/feed-reliability.md) for parser helpers, regression tests, and live validation.

@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 19:09:44 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 19:29:02 +0000</lastBuildDate>
     <item>
       <title>Hallo, Deutschland!</title>
       <link>https://mistral.ai/news/hallo-deutschland</link>
@@ -52,7 +52,7 @@
     <item>
       <title>Mistral x HUMAIN</title>
       <link>https://mistral.ai/news/mistral-x-humain</link>
-      <description>Mistral x HUMAIN </description>
+      <description>Mistral x HUMAIN</description>
       <guid isPermaLink="false">https://mistral.ai/news/mistral-x-humain</guid>
       <category>News</category>
       <pubDate>Mon, 24 Aug 2026 16:02:41 +0000</pubDate>
@@ -60,8 +60,7 @@
     <item>
       <title>Agentic Search. More accurate and efficient results from your AI systems.</title>
       <link>https://mistral.ai/news/agentic-search</link>
-      <description>The retrieval layer that helps AI systems navigate, read, and verify information inside even the most complex documents
-</description>
+      <description>The retrieval layer that helps AI systems navigate, read, and verify information inside even the most complex documents</description>
       <guid isPermaLink="false">https://mistral.ai/news/agentic-search</guid>
       <category>News</category>
       <pubDate>Thu, 20 Aug 2026 12:00:17 +0000</pubDate>
@@ -125,7 +124,7 @@
     <item>
       <title>AI Now Summit 2026</title>
       <link>https://mistral.ai/news/ai-now-summit-2026</link>
-      <description>Innovations for global enterprises solving the world’s hardest problems. </description>
+      <description>Innovations for global enterprises solving the world’s hardest problems.</description>
       <guid isPermaLink="false">https://mistral.ai/news/ai-now-summit-2026</guid>
       <category>News</category>
       <pubDate>Thu, 28 May 2026 12:00:20 +0000</pubDate>
@@ -309,7 +308,7 @@
     <item>
       <title>Introducing Mistral AI Studio.</title>
       <link>https://mistral.ai/news/ai-studio</link>
-      <description>Introducing Mistral AI Studio. </description>
+      <description>Introducing Mistral AI Studio.</description>
       <guid isPermaLink="false">https://mistral.ai/news/ai-studio</guid>
       <category>News</category>
       <pubDate>Fri, 24 Oct 2025 12:00:00 +0000</pubDate>
@@ -611,18 +610,18 @@
       <pubDate>Thu, 18 Jul 2024 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Codestral Mamba</title>
-      <link>https://mistral.ai/news/codestral-mamba</link>
-      <description>Codestral Mamba</description>
-      <guid isPermaLink="false">https://mistral.ai/news/codestral-mamba</guid>
-      <category>News</category>
-      <pubDate>Tue, 16 Jul 2024 08:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>MathΣtral</title>
       <link>https://mistral.ai/news/mathstral</link>
       <description>MathΣtral</description>
       <guid isPermaLink="false">https://mistral.ai/news/mathstral</guid>
+      <category>News</category>
+      <pubDate>Tue, 16 Jul 2024 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Codestral Mamba</title>
+      <link>https://mistral.ai/news/codestral-mamba</link>
+      <description>Codestral Mamba</description>
+      <guid isPermaLink="false">https://mistral.ai/news/codestral-mamba</guid>
       <category>News</category>
       <pubDate>Tue, 16 Jul 2024 08:00:00 +0000</pubDate>
     </item>
@@ -667,14 +666,6 @@
       <pubDate>Wed, 17 Apr 2024 14:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Le Chat</title>
-      <link>https://mistral.ai/news/le-chat-mistral</link>
-      <description>Le Chat</description>
-      <guid isPermaLink="false">https://mistral.ai/news/le-chat-mistral</guid>
-      <category>News</category>
-      <pubDate>Mon, 26 Feb 2024 08:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Au Large</title>
       <link>https://mistral.ai/news/mistral-large</link>
       <description>Au Large</description>
@@ -683,12 +674,12 @@
       <pubDate>Mon, 26 Feb 2024 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>La Plateforme</title>
-      <link>https://mistral.ai/news/la-plateforme</link>
-      <description>La Plateforme</description>
-      <guid isPermaLink="false">https://mistral.ai/news/la-plateforme</guid>
+      <title>Le Chat</title>
+      <link>https://mistral.ai/news/le-chat-mistral</link>
+      <description>Le Chat</description>
+      <guid isPermaLink="false">https://mistral.ai/news/le-chat-mistral</guid>
       <category>News</category>
-      <pubDate>Mon, 11 Dec 2023 07:00:00 +0000</pubDate>
+      <pubDate>Mon, 26 Feb 2024 08:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mixtral of experts</title>
@@ -699,18 +690,26 @@
       <pubDate>Mon, 11 Dec 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Bringing open AI models to the frontier</title>
-      <link>https://mistral.ai/news/about-mistral-ai</link>
-      <description>Why we're building Mistral AI.</description>
-      <guid isPermaLink="false">https://mistral.ai/news/about-mistral-ai</guid>
+      <title>La Plateforme</title>
+      <link>https://mistral.ai/news/la-plateforme</link>
+      <description>La Plateforme</description>
+      <guid isPermaLink="false">https://mistral.ai/news/la-plateforme</guid>
       <category>News</category>
-      <pubDate>Wed, 27 Sep 2023 08:00:00 +0000</pubDate>
+      <pubDate>Mon, 11 Dec 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mistral 7B</title>
       <link>https://mistral.ai/news/announcing-mistral-7b</link>
       <description>The best 7B model to date, Apache 2.0</description>
       <guid isPermaLink="false">https://mistral.ai/news/announcing-mistral-7b</guid>
+      <category>News</category>
+      <pubDate>Wed, 27 Sep 2023 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bringing open AI models to the frontier</title>
+      <link>https://mistral.ai/news/about-mistral-ai</link>
+      <description>Why we're building Mistral AI.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/about-mistral-ai</guid>
       <category>News</category>
       <pubDate>Wed, 27 Sep 2023 08:00:00 +0000</pubDate>
     </item>

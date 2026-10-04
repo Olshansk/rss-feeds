@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 18:38:23 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 19:30:47 +0000</lastBuildDate>
     <item>
       <title>Elicitation without Backpropagation: Steering Model Behavior by Optimizing the Latent Posterior</title>
       <link>https://timaeus.co/research/2026-07-21-elicitation-without-backprop</link>
@@ -17,10 +17,10 @@
       <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Linear Response Estimators for Singular Statistical Models</title>
-      <link>https://timaeus.co/research/2026-05-08-linear-response-estimators</link>
+      <title>Susceptibilities and Patterning: A Primer on Linear Response in Bayesian Learning</title>
+      <link>https://timaeus.co/research/2026-05-08-susceptibility-primer</link>
       <description>Elliott and Murfet</description>
-      <guid isPermaLink="false">https://timaeus.co/research/2026-05-08-linear-response-estimators</guid>
+      <guid isPermaLink="false">https://timaeus.co/research/2026-05-08-susceptibility-primer</guid>
       <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -31,10 +31,10 @@
       <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Susceptibilities and Patterning: A Primer on Linear Response in Bayesian Learning</title>
-      <link>https://timaeus.co/research/2026-05-08-susceptibility-primer</link>
+      <title>Linear Response Estimators for Singular Statistical Models</title>
+      <link>https://timaeus.co/research/2026-05-08-linear-response-estimators</link>
       <description>Elliott and Murfet</description>
-      <guid isPermaLink="false">https://timaeus.co/research/2026-05-08-susceptibility-primer</guid>
+      <guid isPermaLink="false">https://timaeus.co/research/2026-05-08-linear-response-estimators</guid>
       <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -80,17 +80,17 @@
       <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Bayesian Influence Functions for Hessian-Free Data Attribution</title>
-      <link>https://timaeus.co/research/2025-09-30-bayesian-influence</link>
-      <description>Kreer et al.</description>
-      <guid isPermaLink="false">https://timaeus.co/research/2025-09-30-bayesian-influence</guid>
-      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The Loss Kernel: A Geometric Probe for Deep Learning Interpretability</title>
       <link>https://timaeus.co/research/2025-09-30-the-loss-kernel</link>
       <description>Adam et al.</description>
       <guid isPermaLink="false">https://timaeus.co/research/2025-09-30-the-loss-kernel</guid>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bayesian Influence Functions for Hessian-Free Data Attribution</title>
+      <link>https://timaeus.co/research/2025-09-30-bayesian-influence</link>
+      <description>Kreer et al.</description>
+      <guid isPermaLink="false">https://timaeus.co/research/2025-09-30-bayesian-influence</guid>
       <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -108,17 +108,17 @@
       <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Modes of Sequence Models and Learning Coefficients</title>
-      <link>https://timaeus.co/research/2025-04-25-modes</link>
-      <description>Chen and Murfet</description>
-      <guid isPermaLink="false">https://timaeus.co/research/2025-04-25-modes</guid>
-      <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Structural Inference: Interpreting Small Language Models with Susceptibilities</title>
       <link>https://timaeus.co/research/2025-04-25-susceptibilities</link>
       <description>Baker et al.</description>
       <guid isPermaLink="false">https://timaeus.co/research/2025-04-25-susceptibilities</guid>
+      <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Modes of Sequence Models and Learning Coefficients</title>
+      <link>https://timaeus.co/research/2025-04-25-modes</link>
+      <description>Chen and Murfet</description>
+      <guid isPermaLink="false">https://timaeus.co/research/2025-04-25-modes</guid>
       <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
