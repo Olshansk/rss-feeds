@@ -13,7 +13,14 @@
       <link>https://ai-first.ai/podcast</link>
     </image>
     <language>de</language>
-    <lastBuildDate>Sat, 03 Oct 2026 19:44:51 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 09:02:11 +0000</lastBuildDate>
+    <item>
+      <title>50 Millionen Euro ARR mit 65 Mitarbeitenden: Wie Langdock KI-nativ skaliert</title>
+      <link>https://ai-first.ai/podcast/50-millionen-euro-arr-mit-65-mitarbeitenden-wie-langdock-ki-nativ-skaliert</link>
+      <description>50 Millionen Euro ARR mit 65 Mitarbeitenden: Wie Langdock KI-nativ skaliert – mit Lennard Schmidt</description>
+      <guid isPermaLink="false">https://ai-first.ai/podcast/50-millionen-euro-arr-mit-65-mitarbeitenden-wie-langdock-ki-nativ-skaliert</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Teams, die selbst bauen: 15 Monate KI-Transformation bei der celebrate company</title>
       <link>https://ai-first.ai/podcast/teams-die-selbst-bauen-15-monate-ki-transformation-bei-der-celebrate-company</link>
@@ -27,13 +34,6 @@
       <description>KI bei TRUMPF: Wie das Momentum genutzt wird, um sich als Organisation neu zu erfinden – mit Sarah Engel</description>
       <guid isPermaLink="false">https://ai-first.ai/podcast/ki-bei-trumpf-wie-das-momentum-genutzt-wird-um-sich-als-organisation-neu-zu-erfinden</guid>
       <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>KI im Großkonzern: Wie die Deutsche Bahn 220.000 Menschen in die KI-Transformation bringt</title>
-      <link>https://ai-first.ai/podcast/ki-im-grosskonzern-wie-die-deutsche-bahn-220-000-menschen-in-die-ki-transformation-bringt</link>
-      <description>KI im Großkonzern: Wie die Deutsche Bahn 220.000 Menschen in die KI-Transformation bringt – mit Dr. Michael Drass</description>
-      <guid isPermaLink="false">https://ai-first.ai/podcast/ki-im-grosskonzern-wie-die-deutsche-bahn-220-000-menschen-in-die-ki-transformation-bringt</guid>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
