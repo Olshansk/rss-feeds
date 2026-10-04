@@ -14,6 +14,9 @@ import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
+from dates import parse_date
+from embedded_data import next_objects
+from feed_history import merge_feed_history
 from utils import (
     DEFAULT_HEADERS,
     deserialize_entries,
@@ -37,6 +40,18 @@ DETAIL_FETCH_DELAY_SECONDS = 0.5
 
 def parse_listing_page(html_content: str) -> list[dict]:
     """Extract (link, title) pairs from the podcast listing page."""
+    embedded = {}
+    for value in next_objects(html_content):
+        if all(value.get(key) for key in ("slug", "title", "publishedAt")):
+            link = f"{BASE_URL}/podcast/{value['slug']}"
+            embedded[link] = {
+                "title": value["title"],
+                "link": link,
+                "date": parse_date(value["publishedAt"]),
+                "description": value.get("zitat") or value["title"],
+            }
+    if embedded:
+        return list(embedded.values())
     soup = BeautifulSoup(html_content, "html.parser")
     episodes: list[dict] = []
     seen_hrefs: set[str] = set()
@@ -123,6 +138,9 @@ def enrich_episodes(stub_episodes: list[dict]) -> list[dict]:
     """Fetch detail page for each stub and return full episode dicts."""
     enriched = []
     for i, stub in enumerate(stub_episodes):
+        if stub.get("date"):
+            enriched.append(stub)
+            continue
         date, description = fetch_episode_details(stub["link"])
         if not date:
             date = stable_fallback_date(stub["link"])
@@ -188,10 +206,11 @@ def main(full_reset: bool = False) -> bool:
         all_episodes = list(cached_entries) + new_episodes
 
     all_episodes = sort_posts_for_feed(all_episodes, date_field="date")
-    save_cache(FEED_NAME, all_episodes)
+    all_episodes = merge_feed_history(all_episodes, FEED_NAME)
 
     feed = generate_rss_feed(all_episodes)
     save_rss_feed(feed, FEED_NAME)
+    save_cache(FEED_NAME, all_episodes)
     logger.info("Done!")
     return True
 

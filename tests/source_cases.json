@@ -110,5 +110,12 @@
     "fixture": "openai_research.xml",
     "title": "Our framework for reporting model misalignment",
     "date": "2026-09-16"
+  },
+  {
+    "module": "ai_first_podcast",
+    "parser": "parse_listing_page",
+    "fixture": "ai_first.html",
+    "title": "50 Millionen Euro",
+    "date": "2026-10-02"
   }
 ]
