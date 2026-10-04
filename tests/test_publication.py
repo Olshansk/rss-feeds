@@ -21,7 +21,8 @@ from validate_feeds import validate_xml
 
 class PublicationTests(unittest.TestCase):
     def test_dates_require_complete_date_and_preserve_timezone(self):
-        self.assertEqual(parse_date("SEPT. 30, 2026"), datetime(2026, 9, 30, tzinfo=UTC))
+        for text in ("SEPT. 30, 2026", "September 30, 2026", "Sep. 30, 2026"):
+            self.assertEqual(parse_date(text), datetime(2026, 9, 30, tzinfo=UTC))
         self.assertEqual(parse_date("2026-09-30T12:00:00-07:00").hour, 12)
         for value in ("2026", "Yesterday", "", "September 31, 2026"):
             with self.subTest(value=value), self.assertRaises(ValueError):

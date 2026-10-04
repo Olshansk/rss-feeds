@@ -54,5 +54,12 @@
     "fixture": "windsurf_blog.html",
     "title": "GPT-6 Astra",
     "date": "2026-09-03"
+  },
+  {
+    "module": "windsurf_changelog",
+    "parser": "parse_changelog_html",
+    "fixture": "windsurf_changelog.html",
+    "title": "Windsurf 3.8.20",
+    "date": "2026-08-21"
   }
 ]

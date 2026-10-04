@@ -12,7 +12,7 @@ def parse_date(text: str) -> datetime:
     2. Try ISO timestamps, then explicit day/month formats.
     3. Require a complete date and return a timezone-aware value.
     """
-    text = re.sub(r"\bSept\.?", "Sep", text.strip(), flags=re.IGNORECASE)
+    text = re.sub(r"\bSept\b\.?", "Sep", text.strip(), flags=re.IGNORECASE)
     try:
         date = datetime.fromisoformat(text.replace("Z", "+00:00"))
         return date if date.tzinfo else date.replace(tzinfo=UTC)
