@@ -45,4 +45,4 @@ dev_test_all: dev_test_unit ## Validate feeds, regenerate non-selenium feeds, th
 
 .PHONY: dev_test_unit
 dev_test_unit: ## Run offline source and publication regression tests
-	$(Q)PYTHONPATH=feed_generators uv run python -m unittest discover -s tests
+	$(Q)GITHUB_STEP_SUMMARY= PYTHONPATH=feed_generators uv run python -m unittest discover -s tests

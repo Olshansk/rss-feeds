@@ -31,6 +31,13 @@ def fetch_page(url: str, timeout: int = 30, headers: dict | None = None) -> str:
         title = BeautifulSoup(response.text, "html.parser").title
         detail = title.get_text(" ", strip=True) if title else response.text[:200]
         logging.getLogger(__name__).error("HTTP %s from %s: %s", response.status_code, url, detail)
+        diagnostics = {
+            name: response.headers[name]
+            for name in ("Retry-After", "cf-mitigated", "CF-Ray", "RateLimit-Remaining", "RateLimit-Reset")
+            if name in response.headers
+        }
+        if diagnostics:
+            logging.getLogger(__name__).error("Publisher response diagnostics: %s", diagnostics)
     response.raise_for_status()
     return response.text
 

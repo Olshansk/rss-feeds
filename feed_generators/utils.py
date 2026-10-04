@@ -334,13 +334,34 @@ def sort_posts_for_feed(posts: list[dict[str, Any]], date_field: str = "date") -
     return posts_with_date + posts_without_date
 
 
+def _preserve_unchanged_feed(xml: bytes, previous: bytes) -> bytes:
+    """Retain published bytes when only the generated build timestamp differs.
+
+    How:
+    1. Parse both documents, ignoring indentation but retaining article content.
+    2. Compare the full documents except the channel's lastBuildDate.
+    3. Reuse the previous bytes only for equivalent documents; repair malformed history.
+    """
+    documents = []
+    for content in (xml, previous):
+        try:
+            root = etree.fromstring(content, parser=etree.XMLParser(remove_blank_text=True))
+        except etree.XMLSyntaxError:
+            return xml
+        for timestamp in root.findall("channel/lastBuildDate"):
+            timestamp.getparent().remove(timestamp)
+        documents.append(etree.tostring(root, method="c14n"))
+    return previous if documents[0] == documents[1] else xml
+
+
 def save_rss_feed(fg: FeedGenerator, feed_name: str) -> Path:
     """Save an RSS feed to the feeds directory.
 
     How:
     1. Sort serialized entries, deduplicate identities, and fill missing GUIDs.
     2. Reject invalid content before touching the published file.
-    3. Atomically replace the file and clean up temporary output on failure.
+    3. Preserve published bytes if only lastBuildDate changed, avoiding empty Git commits.
+    4. Atomically replace the file so the runner can verify this invocation wrote it.
 
     Args:
         fg: Configured FeedGenerator instance.
@@ -374,6 +395,8 @@ def save_rss_feed(fg: FeedGenerator, feed_name: str) -> Path:
     result = validate_xml(xml, output_file.name)
     if result["status"] in {"ERROR", "EMPTY"}:
         raise ValueError(result["message"])
+    if output_file.exists():
+        xml = _preserve_unchanged_feed(xml, output_file.read_bytes())
     temporary = None
     try:
         with tempfile.NamedTemporaryFile(dir=feeds_dir, suffix=".tmp", delete=False) as handle:

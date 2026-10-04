@@ -3,12 +3,24 @@ name: Test Feed Generation
 on:
   push:
     branches: [main]
-    paths: ["feed_generators/**", "tests/**", "pyproject.toml", "uv.lock", ".github/workflows/test_feed.yml"]
+    paths: ["feed_generators/**", "tests/**", "feeds.yaml", "pyproject.toml", "uv.lock", ".github/workflows/**", "makefiles/**", "Makefile"]
   pull_request:
+    paths: ["feed_generators/**", "tests/**", "feeds/**", "feeds.yaml", "pyproject.toml", "uv.lock", ".github/workflows/**", "makefiles/**", "Makefile"]
   workflow_dispatch:
+
+concurrency:
+  group: offline-ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+env:
+  UV_FROZEN: "true"
 
 jobs:
   test-feed:
+    name: Offline feed checks
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -26,17 +38,17 @@ jobs:
         with:
           enable-cache: true
 
-      - name: Install dependencies and run test feed
+      - name: Install locked dependencies
         run: |
-          set -e
-          uv sync
-          PYTHONPATH=feed_generators uv run python -m unittest discover -s tests
-          uv run ruff check .
-          uv run ruff format --check feed_generators tests
-          uv run feed_generators/validate_feeds.py
+          uv sync --frozen --group dev
 
-      - name: Upload test feed artifact
-        uses: actions/upload-artifact@v7
-        with:
-          name: feed_test
-          path: feeds/feed_ollama.xml
+      - name: Test fixture generation and failure handling (no live websites)
+        run: make dev_test_unit
+
+      - name: Lint and format check
+        run: make dev_lint
+
+      - name: Validate registry and published XML (no live websites)
+        run: |
+          PYTHONPATH=feed_generators uv run python -c 'from models import load_feed_registry; load_feed_registry()'
+          uv run feed_generators/validate_feeds.py

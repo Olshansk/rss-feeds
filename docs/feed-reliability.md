@@ -6,6 +6,7 @@ A successful process is insufficient: a feed must contain current source items, 
 
 - [Shared patterns](#shared-patterns)
 - [Repair workflow](#repair-workflow)
+- [CI and resource use](#ci-and-resource-use)
 - [Validation boundaries](#validation-boundaries)
 
 ## Shared patterns
@@ -58,6 +59,24 @@ Lint and formatting:
 make dev_lint
 ```
 
+## CI and resource use
+
+- `test_feed.yml` runs offline fixtures, lint, registry validation, and XML validation in one job with locked dependencies.
+  Relevant code, test, registry, Makefile, and workflow changes trigger it; feed XML changes also trigger it on PRs.
+  Superseded CI runs are canceled, and bot XML pushes do not start code CI.
+- The synthetic generator fixture runs through the real subprocess runner and shared writer with `uv` offline.
+  It verifies valid generation, unchanged content, real article updates, and rejection of a process that exits without writing.
+  Batch fixtures also simulate HTTP 403, 429, and 503 and verify that failures preserve the published feed.
+- The hourly HTTP and browser workflows remain live refresh jobs, separate from deterministic code checks.
+  Each reports per-feed outcomes in its GitHub job summary; a failed refresh remains a failure.
+  Quiet source publication dates are informational after successful extraction, not code-test failures.
+- Both refresh workflows validate locally before publication and after merging remote changes.
+  `validate_feeds.yml` remains available manually; it no longer starts a redundant runner after every refresh.
+- An unchanged feed retains its published bytes and build date, preventing timestamp-only commits.
+  The writer still atomically replaces the local file, so the runner can distinguish a successful unchanged refresh from a generator that did nothing.
+- HTTP failures log available `Retry-After`, Cloudflare challenge, and rate-limit diagnostics without automatic retry loops.
+  A 403 alone does not establish whether the publisher applied a rate limit or a different access rule.
+
 ## Validation boundaries
 
 - The runner rejects timeout, nonzero exit, unchanged/missing output, and invalid XML content. Cache merges must require nonempty fresh extraction before merging historical entries.
@@ -66,5 +85,5 @@ make dev_lint
 - History uses exact links or GUIDs by default. Explicit title matching is reserved for source migrations and only matches unique historical titles.
 - Publication age is a warning, since quiet blogs can be correct. Compare the newest source article to distinguish a quiet source from a frozen scraper.
 - RSS requires a full timestamp. For research sources that provide only a year and lack arXiv metadata, January 1 represents that year and the description discloses this precision. Do not pretend it is an exact publication day.
-- Prefer a publisher-provided RSS feed when available. The Batch uses its official `charonhub.deeplearning.ai/tag/the-batch/rss/` feed, maps links to the public website, and retains its older archive. Hosted-runner HTML requests to the main website are blocked.
+- Prefer a publisher-provided RSS feed when available. The Batch uses its official `charonhub.deeplearning.ai/tag/the-batch/rss/` feed, maps links to the public website, and retains its older archive. Observed hosted-runner HTML and RSS requests return HTTP 403; the publisher's exact triggering rule is unconfirmed. Offline fixtures validate parsing and failure handling, not live publisher access.
 - Offline fixture tests do not replace live checks. Current layouts can change independently of CI.

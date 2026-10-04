@@ -47,6 +47,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          uv run feed_generators/validate_feeds.py
           git add feeds/*.xml
           if git diff --staged --quiet; then
             echo "No validated feed updates to publish"
