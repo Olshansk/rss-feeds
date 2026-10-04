@@ -33,5 +33,12 @@
     "fixture": "mistral.xml",
     "title": "Hallo, Deutschland!",
     "date": "2026-09-28"
+  },
+  {
+    "module": "deeplearningai_the_batch",
+    "parser": "parse_articles_from_html",
+    "fixture": "the_batch.html",
+    "title": "Inside Key Changes",
+    "date": "2026-09-04"
   }
 ]

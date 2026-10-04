@@ -236,22 +236,17 @@ def fetch_all_articles(max_pages: int = MAX_PAGES) -> list[dict]:
                 logger.info(f"Page {page_num} not found (404), stopping pagination")
             else:
                 logger.info(f"Error fetching page {page_num}: {e}")
+            if page_num == 1 or e.response.status_code != 404:
+                raise
             break
         except Exception as e:
-            logger.info(f"Error fetching page {page_num}, stopping pagination: {e}")
-            break
-
-        # Check for 404-like conditions (page not found)
-        if "Page not found" in html_content or "404" in html_content[:1000]:
-            logger.info(f"Page {page_num} not found, stopping pagination")
-            break
+            raise RuntimeError(f"Failed to fetch Batch page {page_num}") from e
 
         # Parse articles from current page
         page_articles = parse_articles_from_html(html_content)
 
         if not page_articles:
-            logger.info(f"No articles found on page {page_num}, stopping pagination")
-            break
+            raise ValueError(f"No Batch articles found on page {page_num}")
 
         # Deduplicate and add new articles
         new_count = 0
@@ -328,4 +323,4 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate DeepLearning.AI The Batch RSS feed")
     parser.add_argument("--full", action="store_true", help="Force full reset (fetch all pages)")
     args = parser.parse_args()
-    main(full_reset=args.full)
+    raise SystemExit(0 if main(full_reset=args.full) else 1)
