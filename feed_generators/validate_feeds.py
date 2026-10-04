@@ -34,19 +34,15 @@ def validate_feed(feed_path):
     Returns:
         dict with keys: name, item_count, newest_date, status, message
     """
-    name = feed_path.name
-    try:
-        tree = ET.parse(feed_path)
-    except ET.ParseError as e:
-        return {
-            "name": name,
-            "item_count": 0,
-            "newest_date": None,
-            "status": "ERROR",
-            "message": f"XML parse error: {e}",
-        }
+    return validate_xml(feed_path.read_bytes(), feed_path.name)
 
-    root = tree.getroot()
+
+def validate_xml(content: bytes, name: str = "feed"):
+    """Validate serialized RSS before publication or from an existing file."""
+    try:
+        root = ET.fromstring(content)
+    except ET.ParseError as e:
+        return {"name": name, "item_count": 0, "newest_date": None, "status": "ERROR", "message": str(e)}
     items = root.findall(".//item")
     item_count = len(items)
 
@@ -58,6 +54,36 @@ def validate_feed(feed_path):
             "status": "EMPTY",
             "message": "0 items",
         }
+
+    links = [item.findtext("link") for item in items]
+    guids = [item.findtext("guid") for item in items if item.findtext("guid")]
+    if len(links) != len(set(links)) or len(guids) != len(set(guids)):
+        return {
+            "name": name,
+            "item_count": item_count,
+            "newest_date": None,
+            "status": "ERROR",
+            "message": "Duplicate item links or GUIDs",
+        }
+
+    for item in items:
+        missing = [field for field in ("title", "link", "pubDate") if not (item.findtext(field) or "").strip()]
+        try:
+            date = parsedate_to_datetime(item.findtext("pubDate") or "")
+            if date.tzinfo is None:
+                date = date.replace(tzinfo=UTC)
+            if date > datetime.now(UTC):
+                missing.append("non-future pubDate")
+        except (ValueError, TypeError):
+            missing.append("parseable pubDate")
+        if missing:
+            return {
+                "name": name,
+                "item_count": item_count,
+                "newest_date": None,
+                "status": "ERROR",
+                "message": f"Item {item.findtext('title')!r} lacks {', '.join(missing)}",
+            }
 
     if not _dated_items_are_newest_first(items):
         return {
@@ -132,7 +158,7 @@ def main():
     print(f"{'=' * 70}")
 
     if errors:
-        print(f"\nERRORS: {len(errors)} feed(s) with XML parse errors")
+        print(f"\nERRORS: {len(errors)} feed(s) with invalid XML or content")
         for r in errors:
             print(f"  {r['name']}: {r['message']}")
 

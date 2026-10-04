@@ -33,7 +33,7 @@ dev_test_feed: ## Run a test feed generator (ollama)
 	$(call print_success,Test feed completed)
 
 .PHONY: dev_test_all
-dev_test_all: ## Validate feeds, regenerate non-selenium feeds, then re-validate
+dev_test_all: dev_test_unit ## Validate feeds, regenerate non-selenium feeds, then re-validate
 	$(call print_info_section,Running full test suite)
 	$(call print_info,Validating existing feeds)
 	$(Q)uv run feed_generators/validate_feeds.py
@@ -42,3 +42,7 @@ dev_test_all: ## Validate feeds, regenerate non-selenium feeds, then re-validate
 	$(call print_info,Re-validating feeds)
 	$(Q)uv run feed_generators/validate_feeds.py
 	$(call print_success,All tests passed)
+
+.PHONY: dev_test_unit
+dev_test_unit: ## Run offline source and publication regression tests
+	$(Q)PYTHONPATH=feed_generators uv run python -m unittest discover -s tests

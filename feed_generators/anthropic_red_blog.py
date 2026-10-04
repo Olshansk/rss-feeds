@@ -1,15 +1,23 @@
 from datetime import datetime
+from urllib.parse import urljoin
 
 import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
-from utils import fetch_page, save_rss_feed, setup_feed_links, setup_logging, sort_posts_for_feed, stable_fallback_date
+from feed_history import merge_feed_history
+from utils import (
+    fetch_page,
+    save_rss_feed,
+    setup_feed_links,
+    setup_logging,
+    sort_posts_for_feed,
+)
 
 logger = setup_logging()
 
 FEED_NAME = "anthropic_red"
-BLOG_URL = "https://red.anthropic.com/"
+BLOG_URL = "https://www.anthropic.com/research/team/frontier-red-team"
 
 
 def fetch_red_content(url=BLOG_URL):
@@ -41,107 +49,24 @@ def parse_date(date_text):
     return None
 
 
-def fetch_article_date(article_url):
-    """Fetch the publication date from an individual article page."""
-    try:
-        html = fetch_page(article_url)
-
-        soup = BeautifulSoup(html, "html.parser")
-
-        # Look for date in d-article section
-        article_section = soup.select_one("d-article")
-        if article_section:
-            # The date is typically in the first <p> tag
-            first_p = article_section.select_one("p")
-            if first_p:
-                date_text = first_p.text.strip()
-                date = parse_date(date_text)
-                if date:
-                    logger.debug(f"Found date '{date_text}' for {article_url}")
-                    return date
-
-        logger.warning(f"Could not find date in article: {article_url}")
-        return None
-
-    except Exception as e:
-        logger.warning(f"Error fetching article date from {article_url}: {e!s}")
-        return None
-
-
 def parse_red_html(html_content):
-    """Parse the red team blog HTML content and extract article information."""
-    try:
-        soup = BeautifulSoup(html_content, "html.parser")
-        articles = []
-        seen_links = set()
-
-        # Find all article links across the entire page (TOC + body sections)
-        all_notes = soup.select("a.note")
-        logger.info(f"Found {len(all_notes)} potential article links")
-
-        # Build a map of date dividers for context
-        date_sections = {}
-        for date_div in soup.select("div.date"):
-            date_text = date_div.text.strip()
-            parsed = parse_date(date_text)
-            if parsed:
-                date_sections[date_text] = parsed
-
-        for article_link in all_notes:
-            # Extract article information
-            href = article_link.get("href", "")
-            if not href:
-                continue
-
-            # Build full URL
-            if href.startswith("http"):
-                link = href
-            elif href.startswith("/"):
-                link = f"https://red.anthropic.com{href}"
-            else:
-                link = f"https://red.anthropic.com/{href}"
-
-            # Skip duplicates
-            if link in seen_links:
-                continue
-            seen_links.add(link)
-
-            # Extract title
-            title_elem = article_link.select_one("h3")
-            if not title_elem:
-                logger.warning(f"Could not extract title for link: {link}")
-                continue
-            title = title_elem.text.strip()
-
-            # Extract description
-            description_elem = article_link.select_one("div.description")
-            description = description_elem.text.strip() if description_elem else title
-
-            # Fetch actual publication date from the article page
-            article_date = fetch_article_date(link)
-
-            # Fallback to stable date if fetching fails
-            if not article_date:
-                article_date = stable_fallback_date(link)
-                logger.warning(f"Using fallback date for article: {title}")
-
-            # Create article object
-            article = {
-                "title": title,
-                "link": link,
-                "date": article_date,
-                "description": description,
+    """Extract dated publication rows from the Frontier Red Team listing."""
+    soup = BeautifulSoup(html_content, "html.parser")
+    articles = []
+    for row in soup.select("a[href]:has(time)"):
+        title = row.select_one('span[class*="__title"]')
+        date = parse_date(row.find("time").get_text(" ", strip=True))
+        if title is None or date is None:
+            raise ValueError("Red Team publication is missing its title or date")
+        articles.append(
+            {
+                "title": title.get_text(" ", strip=True),
+                "link": urljoin(BLOG_URL, row["href"]),
+                "date": date,
+                "description": title.get_text(" ", strip=True),
             }
-
-            articles.append(article)
-            logger.debug(f"Found article: {title} (date: {article_date})")
-
-        logger.info(f"Successfully parsed {len(articles)} articles")
-        return articles
-
-    except Exception as e:
-        logger.error(f"Error parsing HTML content: {e!s}")
-        raise
+        )
+    return articles
 
 
 def generate_rss_feed(articles, feed_name=FEED_NAME):
@@ -172,7 +97,7 @@ def generate_rss_feed(articles, feed_name=FEED_NAME):
             fe.description(article["description"])
             fe.link(href=article["link"])
             fe.published(article["date"])
-            fe.id(article["link"])
+            fe.id(article.get("guid") or article["link"])
 
         logger.info("Successfully generated RSS feed")
         return fg
@@ -195,6 +120,8 @@ def main(feed_name=FEED_NAME):
             logger.warning("No articles found")
             return False
 
+        articles = merge_feed_history(articles, feed_name, match_titles=True)
+
         # Generate RSS feed
         feed = generate_rss_feed(articles, feed_name)
 
@@ -210,4 +137,4 @@ def main(feed_name=FEED_NAME):
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(0 if main() else 1)

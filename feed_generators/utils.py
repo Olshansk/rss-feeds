@@ -1,29 +1,26 @@
 """Shared utilities for feed generators."""
 
+import hashlib
 import json
 import logging
+import os
 import re
-import subprocess
+import tempfile
 from datetime import UTC, datetime, timedelta
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Any
 
 import pytz
-import requests
 from feedgen.feed import FeedGenerator
 from lxml import etree
-
-from models import GlobalSettings
 
 # ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
-
-DEFAULT_USER_AGENT = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
-)
-DEFAULT_HEADERS = {"User-Agent": DEFAULT_USER_AGENT}
+from dynamic_pages import get_chrome_major_version, setup_selenium_driver  # noqa: F401
+from models import GlobalSettings
+from static_pages import DEFAULT_HEADERS, DEFAULT_USER_AGENT, fetch_page  # noqa: F401
 
 # ---------------------------------------------------------------------------
 # Logging
@@ -101,29 +98,6 @@ def get_cache_file(feed_name: str) -> Path:
 
 
 # ---------------------------------------------------------------------------
-# HTTP
-# ---------------------------------------------------------------------------
-
-
-def fetch_page(url: str, timeout: int = 30, headers: dict | None = None) -> str:
-    """Fetch a page and return its HTML content.
-
-    Args:
-        url: URL to fetch
-        timeout: Request timeout in seconds
-        headers: Optional headers dict. Falls back to DEFAULT_HEADERS.
-
-    Returns:
-        Response text (HTML)
-    """
-    if headers is None:
-        headers = DEFAULT_HEADERS
-    response = requests.get(url, headers=headers, timeout=timeout)
-    response.raise_for_status()
-    return response.text
-
-
-# ---------------------------------------------------------------------------
 # Date helpers
 # ---------------------------------------------------------------------------
 
@@ -135,7 +109,7 @@ def stable_fallback_date(identifier: str) -> datetime:
     identifier always produces the same fallback date, preventing
     cache churn.
     """
-    hash_val = abs(hash(identifier)) % 730
+    hash_val = int.from_bytes(hashlib.sha256(identifier.encode()).digest()[:4], "big") % 730
     epoch = datetime(2023, 1, 1, 0, 0, 0, tzinfo=pytz.UTC)
     return epoch + timedelta(days=hash_val)
 
@@ -233,22 +207,13 @@ def merge_entries(
     Returns:
         Merged and sorted list of entries.
     """
-    # Freshly fetched entries may still contain ISO date strings while cached
-    # entries have already been deserialized. Normalize both sides before
-    # sorting so mixed string/datetime values cannot raise a TypeError.
-    new_entries = deserialize_entries(new_entries, date_field=date_field)
-    existing_ids = {e[id_field] for e in cached_entries}
-    merged = list(cached_entries)
-
-    added_count = 0
-    for entry in new_entries:
-        if entry[id_field] not in existing_ids:
-            merged.append(entry)
-            existing_ids.add(entry[id_field])
-            added_count += 1
-
-    logger.info(f"Added {added_count} new entries to cache")
-    return sort_posts_for_feed(merged, date_field=date_field)
+    merged = {entry[id_field]: entry for entry in deserialize_entries(cached_entries, date_field)}
+    for entry in deserialize_entries(new_entries, date_field):
+        previous = merged.get(entry[id_field], {})
+        merged[entry[id_field]] = {**previous, **entry}
+        if previous.get("guid"):
+            merged[entry[id_field]]["guid"] = previous["guid"]
+    return sort_posts_for_feed(list(merged.values()), date_field=date_field)
 
 
 # ---------------------------------------------------------------------------
@@ -372,56 +337,37 @@ def save_rss_feed(fg: FeedGenerator, feed_name: str) -> Path:
     """
     feeds_dir = get_feeds_dir()
     output_file = feeds_dir / f"feed_{feed_name}.xml"
-    output_file.write_bytes(_sort_rss_items(fg.rss_str(pretty=True)))
+    from validate_feeds import validate_xml
+
+    xml = _sort_rss_items(fg.rss_str(pretty=True))
+    tree = etree.fromstring(xml)
+    channel = tree.find("channel")
+    links, guids = set(), set()
+    changed = False
+    for item in list(channel.findall("item")):
+        link, guid = item.findtext("link"), item.findtext("guid")
+        if link in links or (guid and guid in guids):
+            channel.remove(item)
+            changed = True
+            continue
+        links.add(link)
+        guids.add(guid)
+        if not guid and link:
+            etree.SubElement(item, "guid", isPermaLink="false").text = link
+            changed = True
+    if changed:
+        xml = etree.tostring(tree, xml_declaration=True, encoding="utf-8", pretty_print=True)
+    result = validate_xml(xml, output_file.name)
+    if result["status"] in {"ERROR", "EMPTY"}:
+        raise ValueError(result["message"])
+    temporary = None
+    try:
+        with tempfile.NamedTemporaryFile(dir=feeds_dir, suffix=".tmp", delete=False) as handle:
+            temporary = Path(handle.name)
+            handle.write(xml)
+        os.replace(temporary, output_file)
+    finally:
+        if temporary:
+            temporary.unlink(missing_ok=True)
     logger.info(f"Saved RSS feed to {output_file}")
     return output_file
-
-
-# ---------------------------------------------------------------------------
-# Chrome / Selenium
-# ---------------------------------------------------------------------------
-
-
-def get_chrome_major_version() -> int | None:
-    """Detect the installed Chrome major version.
-
-    Returns the major version number (e.g., 146) or None if detection fails.
-    This is needed because undetected_chromedriver auto-downloads the latest
-    chromedriver, which may not match the installed Chrome version.
-    """
-    chrome_paths = [
-        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
-        "google-chrome",
-        "google-chrome-stable",
-    ]
-    for path in chrome_paths:
-        try:
-            result = subprocess.run([path, "--version"], capture_output=True, text=True, timeout=5)
-            match = re.search(r"(\d+)\.", result.stdout)
-            if match:
-                version = int(match.group(1))
-                logger.info(f"Detected Chrome major version: {version}")
-                return version
-        except (FileNotFoundError, subprocess.TimeoutExpired):
-            continue
-    logger.warning("Could not detect Chrome version, using undetected_chromedriver default")
-    return None
-
-
-def setup_selenium_driver():
-    """Set up a headless Selenium WebDriver with undetected-chromedriver.
-
-    Automatically detects the installed Chrome version to avoid
-    chromedriver version mismatches.
-    """
-    import undetected_chromedriver as uc
-
-    options = uc.ChromeOptions()
-    options.add_argument("--headless=new")
-    options.add_argument("--no-sandbox")
-    options.add_argument("--disable-dev-shm-usage")
-    options.add_argument("--window-size=1920,1080")
-    options.add_argument("--disable-blink-features=AutomationControlled")
-    options.add_argument(f"--user-agent={DEFAULT_USER_AGENT}")
-    version = get_chrome_major_version()
-    return uc.Chrome(options=options, version_main=version)

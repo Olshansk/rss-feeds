@@ -26,6 +26,7 @@ feeds:
     blog_url: https://www.aisi.gov.uk/blog
 
   anthropic_eng:
+    output_name: anthropic_engineering
     script: anthropic_eng_blog.py
     type: requests
     blog_url: https://www.anthropic.com/engineering

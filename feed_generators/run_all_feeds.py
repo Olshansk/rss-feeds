@@ -5,6 +5,8 @@ import subprocess
 import sys
 
 from models import FeedConfig, FeedType, load_feed_registry
+from utils import get_feeds_dir
+from validate_feeds import validate_feed
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
@@ -12,7 +14,12 @@ logger = logging.getLogger(__name__)
 
 
 def run_feed(feed_name: str, config: FeedConfig, full: bool = False) -> bool:
-    """Run a single feed generator.
+    """Run a generator and require a refreshed, valid subscriber feed.
+
+    How:
+    1. Record the expected output file's modification time.
+    2. Run the registered script and inspect its exit status.
+    3. Reject missing, unchanged, empty, malformed, or duplicate-filled output.
 
     Args:
         feed_name: Registry name of the feed.
@@ -27,9 +34,28 @@ def run_feed(feed_name: str, config: FeedConfig, full: bool = False) -> bool:
     if full:
         cmd.append("--full")
 
+    output = get_feeds_dir() / f"feed_{config.output_name or feed_name}.xml"
+    previous_mtime = output.stat().st_mtime_ns if output.exists() else None
     logger.info(f"Running {feed_name}: {script_path}")
-    result = subprocess.run(cmd, capture_output=True, text=True)
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=600)
+    except subprocess.TimeoutExpired:
+        logger.error("🚨 %s exceeded the 10-minute generation timeout", feed_name)
+        return False
     if result.returncode == 0:
+        if not output.exists() or output.stat().st_mtime_ns == previous_mtime:
+            logger.error(
+                "🚨 %s exited without refreshing %s. Generator output:\n%s\n%s",
+                feed_name,
+                output,
+                result.stdout,
+                result.stderr,
+            )
+            return False
+        validation = validate_feed(output)
+        if validation["status"] in {"EMPTY", "ERROR"}:
+            logger.error("🚨 %s produced an invalid feed: %s", feed_name, validation["message"])
+            return False
         logger.info(f"Successfully ran: {feed_name}")
         return True
     else:

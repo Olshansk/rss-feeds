@@ -203,3 +203,6 @@ cache/*.json
 .agents/skills/*/evals/
 
 PR_DESCRIPTION.md
+
+# Small source fixtures are part of the offline regression suite.
+!tests/fixtures/*.html

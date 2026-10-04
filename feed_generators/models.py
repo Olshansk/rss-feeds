@@ -20,6 +20,7 @@ class FeedConfig(BaseModel):
     type: FeedType
     blog_url: str
     enabled: bool = True
+    output_name: str | None = None
 
     @field_validator("script")
     @classmethod
