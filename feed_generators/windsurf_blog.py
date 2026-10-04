@@ -1,91 +1,74 @@
 from datetime import datetime
+from urllib.parse import urljoin
 
 import pytz
-import requests
+from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
-from utils import save_rss_feed, setup_feed_links, setup_logging, sort_posts_for_feed
+from feed_history import merge_feed_history
+from static_pages import fetch_paginated
+from utils import (
+    save_rss_feed,
+    setup_feed_links,
+    setup_logging,
+    sort_posts_for_feed,
+)
 
 logger = setup_logging()
 
 FEED_NAME = "windsurf_blog"  # keep _blog suffix for backwards compatibility (feed URL)
-BLOG_URL = "https://windsurf.com/blog"
+BLOG_URL = "https://devin.ai/blog"
 
 
 def fetch_blog_posts():
-    """Fetch blog posts from Windsurf's API."""
-    try:
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
-            "Accept": "*/*",
+    """Fetch Devin's paginated blog archive after the Windsurf migration.
+
+    How:
+    1. Fetch each server-rendered page with a bounded timeout.
+    2. Follow its Show more posts link and stop at the end of the archive.
+    3. Return all cards for parsing and deduplication.
+    """
+
+    def next_url(html, url):
+        more = next(
+            (
+                a
+                for a in BeautifulSoup(html, "html.parser").select('a[href^="/blog/page/"]')
+                if a.get_text(" ", strip=True).lower().startswith(("next", "show more"))
+            ),
+            None,
+        )
+        return urljoin(url, more["href"]) if more else None
+
+    return fetch_paginated(BLOG_URL, parse_blog_posts, next_url)
+
+
+def parse_blog_posts(html):
+    """Extract dated cards from Devin's server-rendered blog."""
+    soup = BeautifulSoup(html, "html.parser")
+    posts = {}
+    for card in soup.select('a[href^="/blog/"]:has(time)'):
+        heading = card.find(["h2", "h3"])
+        time = card.find("time")
+        if heading is None or not time.get("datetime"):
+            raise ValueError("Devin blog card lacks a title or date")
+        link = urljoin(BLOG_URL, card["href"])
+        description = card.find("p")
+        posts[link] = {
+            "title": heading.get_text(" ", strip=True),
+            "link": link,
+            "date": datetime.fromisoformat(time["datetime"]).replace(tzinfo=pytz.UTC),
+            "description": description.get_text(" ", strip=True) if description else heading.get_text(),
+            "tags": [],
         }
-        url = "https://windsurf.com/api/blog"
-        response = requests.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
-        return response.json()
-    except requests.RequestException as e:
-        logger.error(f"Error fetching blog posts: {e!s}")
-        raise
-
-
-def parse_blog_posts(api_response):
-    """Parse blog posts from API response."""
-    try:
-        posts = api_response.get("posts", [])
-        blog_posts = []
-
-        for post in posts:
-            # Skip drafts
-            if post.get("draft", False):
-                continue
-
-            title = post.get("title", "")
-            if not title:
-                continue
-
-            # Parse date
-            date_str = post.get("date", "")
-            if date_str:
-                try:
-                    date = datetime.fromisoformat(date_str.replace("Z", "+00:00"))
-                except ValueError:
-                    date = datetime.now(pytz.UTC)
-            else:
-                date = datetime.now(pytz.UTC)
-
-            # Build link from slug
-            slug = post.get("slug", "")
-            link = f"https://windsurf.com/blog/{slug}" if slug else "https://windsurf.com/blog"
-
-            # Get summary/description
-            description = post.get("summary", title)
-
-            # Get tags for categories
-            tags = post.get("tags", [])
-
-            blog_posts.append(
-                {
-                    "title": title,
-                    "link": link,
-                    "description": description,
-                    "date": date,
-                    "tags": tags,
-                }
-            )
-
-        logger.info(f"Successfully parsed {len(blog_posts)} blog posts")
-        return blog_posts
-
-    except Exception as e:
-        logger.error(f"Error parsing blog posts: {e!s}")
-        raise
+    return list(posts.values())
 
 
 def generate_rss_feed(blog_posts, feed_name=FEED_NAME):
     """Generate RSS feed from blog posts."""
     try:
         fg = FeedGenerator()
-        fg.title("Windsurf Blog")
+        fg.title("Devin Blog (formerly Windsurf)")
         fg.description("Latest updates and announcements from Windsurf")
         setup_feed_links(fg, BLOG_URL, feed_name)
         fg.language("en")
@@ -102,7 +85,7 @@ def generate_rss_feed(blog_posts, feed_name=FEED_NAME):
             fe.description(post["description"])
             fe.link(href=post["link"])
             fe.published(post["date"])
-            fe.id(post["link"])
+            fe.id(post.get("guid") or post["link"])
 
             # Add tags as categories
             for tag in post.get("tags", []):
@@ -119,13 +102,13 @@ def generate_rss_feed(blog_posts, feed_name=FEED_NAME):
 def main(feed_name=FEED_NAME):
     """Main function to generate RSS feed from Windsurf blog."""
     try:
-        api_response = fetch_blog_posts()
-        blog_posts = parse_blog_posts(api_response)
+        blog_posts = fetch_blog_posts()
 
         if not blog_posts:
             logger.warning("No blog posts found!")
             return False
 
+        blog_posts = merge_feed_history(blog_posts, feed_name, match_titles=True)
         feed = generate_rss_feed(blog_posts, feed_name)
         save_rss_feed(feed, feed_name)
 
@@ -138,4 +121,4 @@ def main(feed_name=FEED_NAME):
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(0 if main() else 1)

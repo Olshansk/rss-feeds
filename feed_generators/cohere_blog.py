@@ -6,16 +6,16 @@ Read dated cards from the current HTML listing and preserve cached history.
 import argparse
 import re
 from datetime import datetime
-from urllib.parse import urljoin
+from urllib.parse import parse_qs, urljoin, urlparse
 
 import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
 from feed_history import merge_feed_history, require_posts
+from static_pages import fetch_paginated
 from utils import (
     deserialize_entries,
-    fetch_page,
     load_cache,
     save_cache,
     save_rss_feed,
@@ -73,16 +73,13 @@ def fetch_all_posts(max_pages: int = MAX_PAGES_FULL) -> list[dict]:
     2. Follow the next numbered link while within the page limit.
     3. Return posts for merging with persisted history.
     """
-    posts = {}
-    for page in range(1, max_pages + 1):
-        html = fetch_page(BLOG_URL if page == 1 else f"{BLOG_URL}?page={page}")
-        current = parse_blog_html(html)
-        if not current:
-            raise ValueError(f"No Cohere articles found on page {page}")
-        posts.update({post["link"]: post for post in current})
-        if not BeautifulSoup(html, "html.parser").select_one(f'a[href="/blog?page={page + 1}"]'):
-            break
-    return list(posts.values())
+
+    def next_url(html, url):
+        page = int(parse_qs(urlparse(url).query).get("page", [1])[0])
+        more = BeautifulSoup(html, "html.parser").select_one(f'a[href="/blog?page={page + 1}"]')
+        return urljoin(url, more["href"]) if more else None
+
+    return fetch_paginated(BLOG_URL, parse_blog_html, next_url, max_pages)
 
 
 def generate_rss_feed(posts: list[dict]) -> FeedGenerator:

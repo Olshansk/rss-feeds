@@ -84,6 +84,15 @@ class PublicationTests(unittest.TestCase):
             with patch("run_all_feeds.subprocess.run", side_effect=subprocess.TimeoutExpired("uv", 600)):
                 self.assertFalse(run_feed("ollama", config))
 
+    def test_pagination_rejects_empty_pages_and_loops(self):
+        from static_pages import fetch_paginated
+
+        with patch("static_pages.fetch_page", return_value="html"):
+            with self.assertRaises(ValueError):
+                fetch_paginated("https://example.com", lambda html: [], lambda html, url: None)
+            with self.assertRaises(ValueError):
+                fetch_paginated("https://example.com", lambda html: [{"link": "a"}], lambda html, url: url)
+
     def test_fallback_date_is_stable_across_processes(self):
         value = subprocess.check_output(
             [

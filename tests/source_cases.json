@@ -47,5 +47,12 @@
     "fixture": "transluce_news.html",
     "title": "Announcing Transluce's",
     "date": "2026-08-31"
+  },
+  {
+    "module": "windsurf_blog",
+    "parser": "parse_blog_posts",
+    "fixture": "windsurf_blog.html",
+    "title": "GPT-6 Astra",
+    "date": "2026-09-03"
   }
 ]

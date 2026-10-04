@@ -22,3 +22,27 @@ def fetch_page(url: str, timeout: int = 30, headers: dict | None = None) -> str:
     response = requests.get(url, headers=headers, timeout=timeout)
     response.raise_for_status()
     return response.text
+
+
+def fetch_paginated(url, parse, next_url, max_pages=100):
+    """Fetch a bounded sequence of static listings, deduplicating overlapping cards.
+
+    How:
+    1. Fetch each unvisited URL and require a nonempty parser result.
+    2. Merge cards by URL and follow the source-specific next-page link.
+    3. Stop at the page limit or the end of the listing; reject pagination loops.
+    """
+    seen, posts = set(), {}
+    for _ in range(max_pages):
+        if not url:
+            break
+        if url in seen:
+            raise ValueError(f"Pagination loop at {url}")
+        seen.add(url)
+        html = fetch_page(url)
+        current = parse(html)
+        if not current:
+            raise ValueError(f"No live posts extracted from {url}")
+        posts.update({post["link"]: post for post in current})
+        url = next_url(html, url)
+    return list(posts.values())
