@@ -1,6 +1,9 @@
 """Bounded HTTP fetching for static pages and native feeds."""
 
+import logging
+
 import requests
+from bs4 import BeautifulSoup
 
 DEFAULT_USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
 DEFAULT_HEADERS = {"User-Agent": DEFAULT_USER_AGENT}
@@ -24,6 +27,10 @@ def fetch_page(url: str, timeout: int = 30, headers: dict | None = None) -> str:
     if headers is None:
         headers = DEFAULT_HEADERS
     response = requests.get(url, headers=headers, timeout=timeout)
+    if response.status_code >= 400:
+        title = BeautifulSoup(response.text, "html.parser").title
+        detail = title.get_text(" ", strip=True) if title else response.text[:200]
+        logging.getLogger(__name__).error("HTTP %s from %s: %s", response.status_code, url, detail)
     response.raise_for_status()
     return response.text
 

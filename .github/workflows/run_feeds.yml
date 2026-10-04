@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "0 * * * *"
   workflow_dispatch:
+    inputs:
+      feed:
+        description: "Optional registry name to verify one feed"
+        required: false
+        type: string
 
 concurrency:
   group: request-feeds
@@ -30,10 +35,16 @@ jobs:
 
       - name: Install dependencies and run feeds
         timeout-minutes: 20
+        env:
+          FEED: ${{ inputs.feed }}
         run: |
           set -e
           uv sync
-          uv run feed_generators/run_all_feeds.py --skip-selenium
+          if [ -n "$FEED" ]; then
+            uv run feed_generators/run_all_feeds.py --feed "$FEED"
+          else
+            uv run feed_generators/run_all_feeds.py --skip-selenium
+          fi
 
       - name: Commit and push feeds
         if: github.ref == 'refs/heads/main'

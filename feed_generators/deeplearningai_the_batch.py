@@ -37,7 +37,14 @@ def main():
     2. Merge fresh records into published history without changing existing IDs.
     3. Build and atomically validate the subscriber feed before publication.
     """
-    posts = merge_feed_history(parse_batch_feed(fetch_page(SOURCE_URL)), FEED_NAME, match_titles=True)
+    content = fetch_page(
+        SOURCE_URL,
+        headers={
+            "User-Agent": "RSS Feed Generator/0.1 (+https://github.com/Olshansk/rss-feeds)",
+            "Accept": "application/rss+xml, application/xml;q=0.9, text/xml;q=0.8",
+        },
+    )
+    posts = merge_feed_history(parse_batch_feed(content), FEED_NAME, match_titles=True)
     feed = generate_feed(
         posts,
         title="The Batch | DeepLearning.AI",
