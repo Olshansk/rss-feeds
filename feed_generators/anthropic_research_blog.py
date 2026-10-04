@@ -1,23 +1,14 @@
-from datetime import datetime
-
-import pytz
-from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import WebDriverWait
 
+from dynamic_pages import fetch_rendered
+from feed_history import merge_feed_history
+from html_cards import parse_dated_cards
 from utils import (
-    deserialize_entries,
-    load_cache,
-    merge_entries,
     save_cache,
     save_rss_feed,
     setup_feed_links,
     setup_logging,
-    setup_selenium_driver,
     sort_posts_for_feed,
-    stable_fallback_date,
 )
 
 logger = setup_logging()
@@ -26,195 +17,19 @@ FEED_NAME = "anthropic_research"
 BLOG_URL = "https://www.anthropic.com/research"
 
 
-def fetch_research_content_selenium(url=BLOG_URL):
-    """Fetch the fully loaded HTML content of the research page using Selenium."""
-    driver = None
-    try:
-        logger.info(f"Fetching content from URL: {url}")
-        driver = setup_selenium_driver()
-        driver.get(url)
-
-        # Wait for research articles to load
-        try:
-            WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, "a[href*='/research/']")))
-            logger.info("Research articles loaded successfully")
-        except Exception:
-            logger.warning("Could not confirm articles loaded, proceeding anyway...")
-
-        html_content = driver.page_source
-        logger.info("Successfully fetched HTML content")
-        return html_content
-
-    except Exception as e:
-        logger.error(f"Error fetching content: {e}")
-        raise
-    finally:
-        if driver:
-            driver.quit()
-
-
-def extract_title(card):
-    """Extract title using multiple fallback selectors."""
-    selectors = [
-        "h3",
-        "h2",
-        "h1",
-        ".Card_headline__reaoT",
-        "h3[class*='headline']",
-        "h2[class*='headline']",
-        "h3[class*='title']",
-        "h2[class*='title']",
-    ]
-
-    for selector in selectors:
-        elem = card.select_one(selector)
-        if elem and elem.text.strip():
-            title = elem.text.strip()
-            # Clean up whitespace
-            title = " ".join(title.split())
-            if len(title) >= 5:
-                return title
-
-    # Try using link text as last resort
-    if hasattr(card, "text"):
-        text = card.text.strip()
-        text = " ".join(text.split())
-        if len(text) >= 5:
-            return text
-
-    return None
-
-
-def extract_date(card):
-    """Extract date using multiple fallback selectors and formats."""
-    selectors = [
-        "p.detail-m",  # Current format on listing page
-        ".detail-m",
-        "time",
-        "[class*='timestamp']",
-        "[class*='date']",
-        ".PostDetail_post-timestamp__TBJ0Z",
-        ".text-label",
-    ]
-
-    date_formats = [
-        "%b %d, %Y",
-        "%B %d, %Y",
-        "%Y-%m-%d",
-        "%m/%d/%Y",
-        "%d %b %Y",
-        "%d %B %Y",
-        "%b %d %Y",
-        "%B %d %Y",
-    ]
-
-    # Look for date in the card and its parents
-    elements_to_check = [card]
-    if hasattr(card, "parent") and card.parent:
-        elements_to_check.append(card.parent)
-        if card.parent.parent:
-            elements_to_check.append(card.parent.parent)
-
-    for element in elements_to_check:
-        for selector in selectors:
-            date_elem = element.select_one(selector)
-            if date_elem:
-                date_text = date_elem.text.strip()
-                for date_format in date_formats:
-                    try:
-                        date = datetime.strptime(date_text, date_format)
-                        return date.replace(tzinfo=pytz.UTC)
-                    except ValueError:
-                        continue
-
-    return None
-
-
-def validate_article(article):
-    """Validate that article has all required fields with reasonable values."""
-    if not article.get("title") or len(article["title"]) < 5:
-        return False
-    # Date can be None for research articles
-    return bool(article.get("link") and article["link"].startswith("http"))
+def fetch_research_content_selenium(url=BLOG_URL, max_clicks=2):
+    """Expand dated research rows with the shared browser fetcher."""
+    return fetch_rendered(url, "a:has(time)", button_xpath="//a[normalize-space()='See more']", max_clicks=max_clicks)
 
 
 def parse_research_html(html_content):
-    """Parse the research HTML content and extract article information."""
-    try:
-        soup = BeautifulSoup(html_content, "html.parser")
-        articles = []
-        seen_links = set()
-
-        # Look for research article links using flexible selector
-        research_links = soup.select("a[href*='/research/']")
-        logger.info(f"Found {len(research_links)} potential research article links")
-
-        for link in research_links:
-            try:
-                href = link.get("href", "")
-                if not href:
-                    continue
-
-                # Skip the main research page
-                if href == "/research" or href.endswith("/research/"):
-                    continue
-
-                # Construct full URL
-                if href.startswith("https://"):
-                    full_url = href
-                elif href.startswith("/"):
-                    full_url = "https://www.anthropic.com" + href
-                else:
-                    continue
-
-                # Skip duplicates
-                if full_url in seen_links:
-                    continue
-                seen_links.add(full_url)
-
-                # Extract title
-                title = extract_title(link)
-                if not title:
-                    logger.debug(f"Could not extract title for link: {full_url}")
-                    continue
-
-                # Extract date, fall back to stable hash-based date
-                date = extract_date(link)
-                if date:
-                    logger.info(f"Found article: {title} - {date}")
-                else:
-                    logger.warning(f"No date found for article: {title}, using fallback")
-                    date = stable_fallback_date(full_url)
-
-                # Determine category from URL
-                category = "Research"
-                if "/news/" in href:
-                    category = "News"
-
-                article = {
-                    "title": title,
-                    "link": full_url,
-                    "date": date,  # Can be None
-                    "category": category,
-                    "description": title,
-                }
-
-                # Validate article
-                if validate_article(article):
-                    articles.append(article)
-                else:
-                    logger.debug(f"Article failed validation: {full_url}")
-
-            except Exception as e:
-                logger.warning(f"Error parsing research link: {e!s}")
-                continue
-
-        logger.info(f"Successfully parsed {len(articles)} unique research articles")
-        return articles
-
-    except Exception as e:
-        logger.error(f"Error parsing HTML content: {e!s}")
-        raise
+    """Select real dated articles, excluding undated research-team navigation."""
+    return [
+        {**post, "category": "Research"}
+        for post in parse_dated_cards(
+            html_content, "a[href]:has(time)", BLOG_URL, title_selector='span[class*="__title"], h1, h2, h3, h4'
+        )
+    ]
 
 
 def generate_rss_feed(articles):
@@ -264,39 +79,16 @@ def main(full_reset=False):
         full_reset: If True, fetch all articles. If False, merge with cache.
     """
     try:
-        cache = load_cache(FEED_NAME)
-        cached_articles = deserialize_entries(cache.get("entries", []))
-
-        if full_reset or not cached_articles:
-            mode = "full reset" if full_reset else "no cache exists"
-            logger.info(f"Running full fetch ({mode})")
-        else:
-            logger.info("Running incremental update")
-
-        # Fetch research content using Selenium
-        html_content = fetch_research_content_selenium()
-
-        # Parse articles from HTML
-        new_articles = parse_research_html(html_content)
-
-        if not new_articles and not cached_articles:
-            logger.warning("No articles found. Please check the HTML structure.")
-            return False
-
-        # Merge with cache or use fresh articles
-        if cached_articles and not full_reset:
-            articles = merge_entries(new_articles, cached_articles)
-        else:
-            articles = new_articles
-
-        # Save to cache
-        save_cache(FEED_NAME, articles)
+        html_content = fetch_research_content_selenium(max_clicks=40 if full_reset else 2)
+        articles = merge_feed_history(parse_research_html(html_content), FEED_NAME)
+        articles = [post for post in articles if "/research/team/" not in post["link"]]
 
         # Generate RSS feed
         feed = generate_rss_feed(articles)
 
         # Save feed to file
         save_rss_feed(feed, FEED_NAME)
+        save_cache(FEED_NAME, articles)
 
         logger.info(f"Successfully generated RSS feed with {len(articles)} articles")
         return True
@@ -312,4 +104,4 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate Anthropic Research RSS feed")
     parser.add_argument("--full", action="store_true", help="Force full reset (fetch all articles)")
     args = parser.parse_args()
-    main(full_reset=args.full)
+    raise SystemExit(0 if main(full_reset=args.full) else 1)

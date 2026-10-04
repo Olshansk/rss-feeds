@@ -10,7 +10,7 @@ from dates import parse_date
 DATE_TEXT = re.compile(r"\b[A-Za-z]{3,9}\.? \d{1,2},? \d{4}\b")
 
 
-def parse_dated_cards(html, selector, base_url, *, parent=False):
+def parse_dated_cards(html, selector, base_url, *, parent=False, title_selector="h1, h2, h3, h4"):
     """Extract unique titled links with dates from cards or their parent containers.
 
     How:
@@ -20,7 +20,7 @@ def parse_dated_cards(html, selector, base_url, *, parent=False):
     """
     posts = {}
     for anchor in BeautifulSoup(html, "html.parser").select(selector):
-        heading = anchor.select_one("h1, h2, h3, h4")
+        heading = anchor.select_one(title_selector)
         if heading is None:
             continue
         card = anchor.parent if parent else anchor

@@ -117,5 +117,12 @@
     "fixture": "ai_first.html",
     "title": "50 Millionen Euro",
     "date": "2026-10-02"
+  },
+  {
+    "module": "anthropic_research_blog",
+    "parser": "parse_research_html",
+    "fixture": "anthropic_research.html",
+    "title": "Claude-shaped science",
+    "date": "2026-10-01"
   }
 ]
