@@ -103,5 +103,12 @@
     "fixture": "openai_engineering.xml",
     "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
     "date": "2026-09-11"
+  },
+  {
+    "module": "openai_research_blog",
+    "parser": "parse_research_posts",
+    "fixture": "openai_research.xml",
+    "title": "Our framework for reporting model misalignment",
+    "date": "2026-09-16"
   }
 ]

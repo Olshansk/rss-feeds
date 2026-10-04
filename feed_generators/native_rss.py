@@ -22,7 +22,7 @@ def parse_rss(content: str, category: str | None = None) -> list[dict]:
                 "category": category or item.findtext("category") or "News",
                 "categories": categories,
                 "guid": item.findtext("guid") or link.rstrip("/"),
-                "description": item.findtext("description") or title,
+                "description": (item.findtext("description") or title).strip(),
             }
         )
     if not posts:
