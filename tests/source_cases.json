@@ -40,5 +40,12 @@
     "fixture": "the_batch.html",
     "title": "Inside Key Changes",
     "date": "2026-09-04"
+  },
+  {
+    "module": "transluce_blog",
+    "parser": "parse",
+    "fixture": "transluce_news.html",
+    "title": "Announcing Transluce's",
+    "date": "2026-08-31"
   }
 ]

@@ -1,10 +1,8 @@
 """Generate an RSS feed for Transluce's research listing.
 
-https://transluce.org/research
+https://transluce.org/news
 
-Static Next.js page: each research item is an ``<a>`` (relative href) wrapping
-an ``<h3>`` title, a category ``<p>``, a description ``<p>``, and a date ``<p>``
-formatted like "16 April 2025" (%d %B %Y).
+Static Next.js article links include h3 titles, descriptions, and publication dates.
 """
 
 import argparse
@@ -15,6 +13,7 @@ import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
+from feed_history import merge_feed_history
 from utils import (
     fetch_page,
     save_rss_feed,
@@ -27,13 +26,13 @@ logger = setup_logging()
 
 BASE_URL = "https://transluce.org"
 FEED_NAME = "transluce"
-BLOG_URL = f"{BASE_URL}/research"
+BLOG_URL = f"{BASE_URL}/news"
 FEED_TITLE = "Transluce - Research"
 FEED_DESCRIPTION = "Research updates from Transluce"
 AUTHOR = "Transluce"
 
 # Date lines look like "16 April 2025".
-_DATE_RE = re.compile(r"^\d{1,2}\s+[A-Za-z]+\s+\d{4}$")
+_DATE_RE = re.compile(r"^(?:\d{1,2}\s+[A-Za-z]+\s+\d{4}|[A-Za-z]+ \d{1,2}, \d{4})$")
 
 DATE_FORMATS = [
     "%B %d, %Y",  # January 15, 2024
@@ -117,7 +116,7 @@ def generate_rss_feed(articles):
         fe.description(post.get("description") or post["title"])
         fe.link(href=post["link"])
         fe.published(post["date"])
-        fe.id(post["link"])
+        fe.id(post.get("guid") or post["link"])
 
     return fg
 
@@ -141,6 +140,7 @@ def main():
             logger.warning("No articles found - skipping feed update to avoid overwriting with empty feed")
             return False
 
+        articles = merge_feed_history(articles, FEED_NAME)
         fg = generate_rss_feed(articles)
         save_rss_feed(fg, FEED_NAME)
         logger.info(f"Generated {FEED_NAME} feed with {len(articles)} articles")
@@ -152,4 +152,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(0 if main() else 1)
