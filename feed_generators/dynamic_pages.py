@@ -54,3 +54,36 @@ def setup_selenium_driver():
     version = get_chrome_major_version()
     driver_path = os.environ.get("RSS_CHROMEDRIVER")
     return uc.Chrome(options=options, version_main=version, driver_executable_path=driver_path)
+
+
+def fetch_rendered(url, article_selector, *, button_xpath=None, max_clicks=0, configure=None):
+    """Fetch a dynamic listing, optionally expanding it, and always close Chrome.
+
+    How:
+    1. Configure the browser and wait for actual article elements.
+    2. Click the expansion control while present, requiring article-count growth.
+    3. Return the rendered document and close the browser even after a failure.
+    """
+    from selenium.webdriver.common.by import By
+    from selenium.webdriver.support import expected_conditions as EC
+    from selenium.webdriver.support.ui import WebDriverWait
+
+    driver = setup_selenium_driver()
+    try:
+        driver.set_page_load_timeout(45)
+        if configure:
+            configure(driver)
+        driver.get(url)
+        WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CSS_SELECTOR, article_selector)))
+        for _ in range(max_clicks):
+            buttons = driver.find_elements(By.XPATH, button_xpath)
+            if not buttons or not buttons[0].is_displayed() or not buttons[0].is_enabled():
+                break
+            count = len(driver.find_elements(By.CSS_SELECTOR, article_selector))
+            driver.execute_script("arguments[0].click();", buttons[0])
+            WebDriverWait(driver, 20).until(
+                lambda current, previous=count: len(current.find_elements(By.CSS_SELECTOR, article_selector)) > previous
+            )
+        return driver.page_source
+    finally:
+        driver.quit()

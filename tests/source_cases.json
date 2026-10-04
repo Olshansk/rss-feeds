@@ -82,5 +82,12 @@
     "fixture": "weaviate.html",
     "title": "Weaviate security release",
     "date": "2026-10-01"
+  },
+  {
+    "module": "xainews_blog",
+    "parser": "parse_news_html",
+    "fixture": "xai_browser.html",
+    "title": "Setting Grok Bot loose",
+    "date": "2026-09-04"
   }
 ]
