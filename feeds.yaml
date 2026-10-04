@@ -106,7 +106,7 @@ feeds:
 
   mistral:
     script: mistral_blog.py
-    type: selenium
+    type: requests
     blog_url: https://mistral.ai/news
 
   ollama:

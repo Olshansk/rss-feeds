@@ -26,5 +26,12 @@
     "fixture": "far_ai.html",
     "title": "Prefill-level Jailbreak",
     "date": "2026-02-18"
+  },
+  {
+    "module": "mistral_blog",
+    "parser": "parse_rss",
+    "fixture": "mistral.xml",
+    "title": "Hallo, Deutschland!",
+    "date": "2026-09-28"
   }
 ]
