@@ -9,6 +9,10 @@ DEFAULT_HEADERS = {"User-Agent": DEFAULT_USER_AGENT}
 def fetch_page(url: str, timeout: int = 30, headers: dict | None = None) -> str:
     """Fetch a page and return its HTML content.
 
+    How:
+    1. Request the URL with browser headers and a bounded timeout.
+    2. Reject HTTP errors and return the decoded response.
+
     Args:
         url: URL to fetch
         timeout: Request timeout in seconds
@@ -45,4 +49,6 @@ def fetch_paginated(url, parse, next_url, max_pages=100):
             raise ValueError(f"No live posts extracted from {url}")
         posts.update({post["link"]: post for post in current})
         url = next_url(html, url)
+    if url:
+        raise ValueError(f"Pagination exceeded {max_pages} pages at {url}")
     return list(posts.values())

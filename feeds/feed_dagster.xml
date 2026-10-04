@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Sep 2026 13:08:32 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 19:28:10 +0000</lastBuildDate>
     <item>
       <title>The Data Plane Is Yours: Dagster+ Hybrid on Kubernetes and Azure</title>
       <link>https://dagster.io/blog/the-data-plane-is-yours-dagster-hybrid-on-kubernetes-and-azure</link>
@@ -36,6 +36,13 @@
       <description>data governance. I built a tiered AI classification system, human review workflow, and the Dagster orchestration that ties it all together in production in nine days.</description>
       <guid isPermaLink="false">https://dagster.io/blog/classifying-a-million-snowflake-columns-in-9-days-solo-with-dagster</guid>
       <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Prefect is Acquiring Dagster</title>
+      <link>https://dagster.io/blog/prefect-is-acquiring-dagster</link>
+      <description>A letter from Nick Schrock, founder and creator of Dagster</description>
+      <guid isPermaLink="false">https://dagster.io/blog/prefect-is-acquiring-dagster</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Community Showcase Part 2</title>
@@ -85,6 +92,13 @@
       <description>We adopted Astral’s new Python type checker, ty, to speed up type checking in the Dagster monorepo. The performance gains were dramatic, but the bigger surprise was that ty caught real runtime bugs Pyright missed. Here’s what we learned migrating a large Python codebase incrementally to ty.</description>
       <guid isPermaLink="false">https://dagster.io/blog/we-tried-ty-for-performance-it-found-real-bugs</guid>
       <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Dagster Almanack: From Complexity to Composability</title>
+      <link>https://dagster.io/blog/the-dagster-almanack-from-complexity-to-composability</link>
+      <description>A complete guide with all the insights, tips, and some predictions for the data platform engineer, just like an Almanack provides, with practical information for daily life.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/the-dagster-almanack-from-complexity-to-composability</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Announcing the Dagster+ Terraform Provider</title>
@@ -353,17 +367,17 @@
       <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing Compass: Data-driven decisions right in Slack</title>
-      <link>https://dagster.io/blog/introducing-compass</link>
-      <description>Converse with your company's data right in Dagster. Compass moves beyond static dashboards by enabling a natural language, two-way conversation with your data. This allows anyone to ask follow-up questions, incorporate their own business context, and achieve true data fluency without writing a single line of SQL.</description>
-      <guid isPermaLink="false">https://dagster.io/blog/introducing-compass</guid>
-      <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Introducing the new Dagster+ UI – Your Data Platform’s Command Center</title>
       <link>https://dagster.io/blog/introducing-the-new-dagster-plus-ui</link>
       <description>Featuring a new modern homepage, enhanced asset health and freshness monitoring, customizable dashboards, and real-time insights with cost monitoring.</description>
       <guid isPermaLink="false">https://dagster.io/blog/introducing-the-new-dagster-plus-ui</guid>
+      <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Compass: Data-driven decisions right in Slack</title>
+      <link>https://dagster.io/blog/introducing-compass</link>
+      <description>Converse with your company's data right in Dagster. Compass moves beyond static dashboards by enabling a natural language, two-way conversation with your data. This allows anyone to ask follow-up questions, incorporate their own business context, and achieve true data fluency without writing a single line of SQL.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/introducing-compass</guid>
       <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -381,17 +395,17 @@
       <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Software-Defined Assets Explained</title>
-      <link>https://dagster.io/blog/software-defined-assets</link>
-      <description>Software-Defined Assets are a new abstraction that allows data teams to focus on the end products, not just the individual tasks, in their data pipeline.</description>
-      <guid isPermaLink="false">https://dagster.io/blog/software-defined-assets</guid>
-      <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Untangling Python Packages Part 2</title>
       <link>https://dagster.io/blog/untangling-python-packages-part-2</link>
       <description>A deep dive into how Dagster leverages pyproject.toml for modern Python packaging, from project metadata and dependencies to build systems and development tooling.</description>
       <guid isPermaLink="false">https://dagster.io/blog/untangling-python-packages-part-2</guid>
+      <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Software-Defined Assets Explained</title>
+      <link>https://dagster.io/blog/software-defined-assets</link>
+      <description>Software-Defined Assets are a new abstraction that allows data teams to focus on the end products, not just the individual tasks, in their data pipeline.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/software-defined-assets</guid>
       <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -730,6 +744,13 @@
       <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>See Both the Forest and the Trees with Dagster+ Insights</title>
+      <link>https://dagster.io/blog/see-the-forest-and-trees-dagster-plus</link>
+      <description>How Dagster+ Insights helps you control costs and elevate your data platform’s observability.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/see-the-forest-and-trees-dagster-plus</guid>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Ensuring Reliable Data with Dagster+</title>
       <link>https://dagster.io/blog/ensuring-reliable-data-dagster-plus</link>
       <description>Dagster+ helps you monitor the freshness, quality, and schema of your data.</description>
@@ -741,13 +762,6 @@
       <link>https://dagster.io/blog/dagster-plus-calatog-a-new-built-in-asset-library</link>
       <description>Give your data teams a powerful new system of record without the overhead of maintaining a third-party catalog.</description>
       <guid isPermaLink="false">https://dagster.io/blog/dagster-plus-calatog-a-new-built-in-asset-library</guid>
-      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>See Both the Forest and the Trees with Dagster+ Insights</title>
-      <link>https://dagster.io/blog/see-the-forest-and-trees-dagster-plus</link>
-      <description>How Dagster+ Insights helps you control costs and elevate your data platform’s observability.</description>
-      <guid isPermaLink="false">https://dagster.io/blog/see-the-forest-and-trees-dagster-plus</guid>
       <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1052,17 +1066,17 @@
       <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Dagster and the Decade of Data Engineering</title>
-      <link>https://dagster.io/blog/decade-of-data-engineering</link>
-      <description>We are pleased to announce Elementl's $33M Series B and share our vision for what's next for Dagster and the practice of data engineering.</description>
-      <guid isPermaLink="false">https://dagster.io/blog/decade-of-data-engineering</guid>
-      <pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Elementl Raises $33 Million in Series B Funding to Accelerate Data Orchestration and Unleash Advanced Data Use Cases</title>
       <link>https://dagster.io/blog/elementl-series-b</link>
       <description>The new capital will accelerate the development and adoption of Dagster, the open-source, cloud-native data orchestrator.</description>
       <guid isPermaLink="false">https://dagster.io/blog/elementl-series-b</guid>
+      <pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dagster and the Decade of Data Engineering</title>
+      <link>https://dagster.io/blog/decade-of-data-engineering</link>
+      <description>We are pleased to announce Elementl's $33M Series B and share our vision for what's next for Dagster and the practice of data engineering.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/decade-of-data-engineering</guid>
       <pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate>
     </item>
     <item>

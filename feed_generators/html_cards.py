@@ -14,16 +14,17 @@ def parse_dated_cards(html, selector, base_url, *, parent=False, title_selector=
     """Extract unique titled links with dates from cards or their parent containers.
 
     How:
-    1. Select article anchors and locate their semantic headings.
+    1. Select article anchors or containers and locate their semantic headings.
     2. Read ISO time attributes or a complete visible publication date.
     3. Resolve links, retain summaries, and deduplicate featured cards.
     """
     posts = {}
-    for anchor in BeautifulSoup(html, "html.parser").select(selector):
-        heading = anchor.select_one(title_selector)
-        if heading is None:
+    for element in BeautifulSoup(html, "html.parser").select(selector):
+        card = element.parent if parent else element
+        anchor = element if element.has_attr("href") else element.select_one("a[href]")
+        heading = card.select_one(title_selector)
+        if heading is None or anchor is None:
             continue
-        card = anchor.parent if parent else anchor
         time = card.select_one("time[datetime]")
         match = DATE_TEXT.search(card.get_text(" ", strip=True))
         date_text = time["datetime"] if time else match.group() if match else ""

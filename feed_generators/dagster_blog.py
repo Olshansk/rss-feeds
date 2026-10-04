@@ -1,10 +1,14 @@
 import argparse
 from datetime import datetime
+from urllib.parse import urljoin
 
 import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
+from feed_history import merge_feed_history, require_posts
+from html_cards import parse_dated_cards
+from static_pages import fetch_paginated
 from utils import (
     deserialize_entries,
     fetch_page,
@@ -14,138 +18,33 @@ from utils import (
     save_rss_feed,
     setup_feed_links,
     setup_logging,
-    sort_posts_for_feed,
 )
 
 logger = setup_logging()
 
 BLOG_URL = "https://dagster.io/blog"
 FEED_NAME = "dagster"
-# Dagster uses Webflow CMS pagination with this query param
-PAGINATION_PARAM = "a17fdf47_page"
 
 
 def parse_posts(html_content):
-    """Parse the blog HTML content and extract post information.
-
-    Returns (posts, has_next_page).
-    """
-    soup = BeautifulSoup(html_content, "html.parser")
-    blog_posts = []
-
-    # Parse the featured blog post (if present)
-    featured_post = soup.select_one("div.featured_blog_link")
-    if featured_post:
-        title_elem = featured_post.select_one("h2.heading-style-h5")
-        date_elem = featured_post.select_one("p.text-color-neutral-500")
-        description_elem = featured_post.select_one("p.text-color-neutral-700")
-        link_elem = featured_post.select_one("a.clickable_link")
-
-        if title_elem and date_elem and link_elem:
-            title = title_elem.text.strip()
-            date_str = date_elem.text.strip()
-            try:
-                date_obj = datetime.strptime(date_str, "%B %d, %Y")
-            except ValueError:
-                logger.warning(f"Could not parse featured post date: {date_str}")
-                date_obj = None
-
-            if date_obj:
-                description = description_elem.text.strip() if description_elem else ""
-                link = link_elem.get("href", "")
-
-                if link.startswith("/"):
-                    link = f"https://dagster.io{link}"
-
-                if link:
-                    blog_posts.append(
-                        {
-                            "link": link,
-                            "title": title,
-                            "date": date_obj.strftime("%Y-%m-%d"),
-                            "description": description,
-                        }
-                    )
-
-    # Find all regular blog post cards
-    posts = soup.select("div.blog_card")
-
-    for post in posts:
-        title_elem = post.select_one("h3.blog_card_title")
-        if not title_elem:
-            continue
-        title = title_elem.text.strip()
-
-        date_elem = post.select_one("p.text-color-neutral-500.text-size-small")
-        if not date_elem:
-            continue
-        date_str = date_elem.text.strip()
-        try:
-            date_obj = datetime.strptime(date_str, "%B %d, %Y")
-        except ValueError:
-            logger.warning(f"Could not parse date: {date_str}")
-            continue
-
-        description_elem = post.select_one('p[fs-cmsfilter-field="description"]')
-        description = description_elem.text.strip() if description_elem else ""
-
-        link_elem = post.select_one("a.clickable_link")
-        if not link_elem or not link_elem.get("href"):
-            continue
-        link = link_elem["href"]
-
-        if link.startswith("/"):
-            link = f"https://dagster.io{link}"
-
-        blog_posts.append(
-            {
-                "link": link,
-                "title": title,
-                "date": date_obj.strftime("%Y-%m-%d"),
-                "description": description,
-            }
-        )
-
-    # Check for "Load more" / next page link
-    next_link = soup.select_one("a.w-pagination-next")
-    has_next_page = next_link is not None and next_link.get("href")
-
-    return blog_posts, has_next_page
+    """Read semantic blog cards and the optional Webflow pagination link."""
+    posts = parse_dated_cards(html_content, ".featured_blog_link, .blog_card", BLOG_URL)
+    next_link = BeautifulSoup(html_content, "html.parser").select_one("a.w-pagination-next[href]")
+    return posts, next_link.get("href") if next_link else None
 
 
 def fetch_all_pages():
-    """Follow pagination until no next link. Returns all posts."""
-    all_posts = []
-    page_num = 1
+    """Fetch the complete listing with bounded shared pagination.
 
-    while True:
-        if page_num == 1:
-            url = BLOG_URL
-        else:
-            url = f"{BLOG_URL}?{PAGINATION_PARAM}={page_num}"
-
-        logger.info(f"Fetching page {page_num}: {url}")
-        html = fetch_page(url)
-        posts, has_next_page = parse_posts(html)
-        all_posts.extend(posts)
-        logger.info(f"Found {len(posts)} posts on page {page_num}")
-
-        if not has_next_page:
-            break
-        page_num += 1
-
-    # Dedupe by URL
-    seen = set()
-    unique_posts = []
-    for post in all_posts:
-        if post["link"] not in seen:
-            unique_posts.append(post)
-            seen.add(post["link"])
-
-    # Sort for correct feed order (newest first in output)
-    sorted_posts = sort_posts_for_feed(unique_posts, date_field="date")
-    logger.info(f"Total unique posts across all pages: {len(sorted_posts)}")
-    return sorted_posts
+    How:
+    1. Parse semantic dated cards from each page.
+    2. Follow the source's next-page URL and deduplicate overlapping cards.
+    """
+    return fetch_paginated(
+        BLOG_URL,
+        lambda html: parse_posts(html)[0],
+        lambda html, url: urljoin(url, parse_posts(html)[1]) if parse_posts(html)[1] else None,
+    )
 
 
 def generate_rss_feed(posts):
@@ -200,15 +99,16 @@ def main(full_reset=False):
         html = fetch_page(BLOG_URL)
         new_posts, _ = parse_posts(html)
         logger.info(f"Found {len(new_posts)} posts on page 1")
-        posts = merge_entries(new_posts, cached_entries)
+        posts = merge_entries(require_posts(new_posts), cached_entries)
 
     if not posts:
         logger.warning("No posts fetched — skipping feed update to avoid overwriting with empty feed")
         return False
 
-    save_cache(FEED_NAME, posts)
+    posts = merge_feed_history(posts, FEED_NAME)
     feed = generate_rss_feed(posts)
     save_rss_feed(feed, FEED_NAME)
+    save_cache(FEED_NAME, posts)
 
     logger.info("Done!")
     return True
