@@ -140,7 +140,7 @@ def main():
             logger.warning("No articles found - skipping feed update to avoid overwriting with empty feed")
             return False
 
-        articles = merge_feed_history(articles, FEED_NAME)
+        articles = merge_feed_history(articles, FEED_NAME, match_titles=True)
         fg = generate_rss_feed(articles)
         save_rss_feed(fg, FEED_NAME)
         logger.info(f"Generated {FEED_NAME} feed with {len(articles)} articles")

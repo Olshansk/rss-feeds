@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 19:11:03 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 19:30:48 +0000</lastBuildDate>
     <item>
       <title>AI Agents Targeted U.S. and Canadian Government Websites</title>
       <link>https://transluce.org/us-canada-gov</link>
@@ -202,21 +202,14 @@
       <title>Introducing Docent</title>
       <link>https://transluce.org/docent/blog/introducing-docent</link>
       <description>A system for analyzing and intervening on agent behavior</description>
-      <guid isPermaLink="false">https://transluce.org/docent/blog/introducing-docent</guid>
-      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Docent</title>
-      <link>https://transluce.org/introducing-docent</link>
-      <description>A system for analyzing and intervening on agent behavior</description>
       <guid isPermaLink="false">https://transluce.org/introducing-docent</guid>
       <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing Transluce</title>
-      <link>https://transluce.org/introducing-transluce</link>
-      <description>A letter from our founders</description>
-      <guid isPermaLink="false">https://transluce.org/introducing-transluce</guid>
+      <title>Monitor: An AI-Driven Observability Interface</title>
+      <link>https://transluce.org/observability-interface</link>
+      <description>An interface designed to help humans observe, understand, and steer computations inside models</description>
+      <guid isPermaLink="false">https://transluce.org/observability-interface</guid>
       <pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -227,17 +220,17 @@
       <pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Introducing Transluce</title>
+      <link>https://transluce.org/introducing-transluce</link>
+      <description>A letter from our founders</description>
+      <guid isPermaLink="false">https://transluce.org/introducing-transluce</guid>
+      <pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Eliciting Language Model Behaviors with Investigator Agents</title>
       <link>https://transluce.org/automated-elicitation</link>
       <description>Language models trained to automatically surface harmful behaviors in language models</description>
       <guid isPermaLink="false">https://transluce.org/automated-elicitation</guid>
-      <pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Monitor: An AI-Driven Observability Interface</title>
-      <link>https://transluce.org/observability-interface</link>
-      <description>An interface designed to help humans observe, understand, and steer computations inside models</description>
-      <guid isPermaLink="false">https://transluce.org/observability-interface</guid>
       <pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate>
     </item>
   </channel>
