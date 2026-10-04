@@ -2,10 +2,7 @@
 
 https://www.far.ai/publications
 
-Static Webflow (Finsweet CMS) page: each item is a ``div.collection-card`` with
-an ``h4[fs-cmsfilter-field="title"]`` title, an ``a`` to ``/research/<slug>``,
-a visible date such as "Feb 19, 2026" (%b %d, %Y), and a description paragraph.
-The card markup duplicates text, so the date is found by scanning the card text.
+Webflow publication cards expose semantic title, summary, and date fields.
 """
 
 import argparse
@@ -16,6 +13,7 @@ import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
+from feed_history import merge_feed_history, require_posts
 from utils import (
     fetch_page,
     save_rss_feed,
@@ -34,7 +32,7 @@ FEED_DESCRIPTION = "Publications from FAR.AI"
 AUTHOR = "FAR.AI"
 
 # Dates render as "Feb 19, 2026".
-_DATE_RE = re.compile(r"\b[A-Z][a-z]{2} \d{1,2}, \d{4}\b")
+_DATE_RE = re.compile(r"\b[A-Z][a-z]{2,8} \d{1,2}, \d{4}\b")
 
 DATE_FORMATS = [
     "%B %d, %Y",  # January 15, 2024
@@ -65,9 +63,9 @@ def parse(html_content):
     articles = []
     seen = set()
 
-    for card in soup.select("div.collection-card"):
+    for card in soup.select("div.collection-card, div.publication_card_wrap"):
         anchor = card.find("a", href=lambda h: h and h.startswith("/research/"))
-        heading = card.find("h4")
+        heading = card.find(["h4", "h5"])
         if not anchor or not heading:
             continue
 
@@ -87,7 +85,10 @@ def parse(html_content):
 
         # Description field appears twice (one empty placeholder); take the
         # longest non-empty rendering.
-        desc_texts = [el.get_text(" ", strip=True) for el in card.find_all(attrs={"fs-cmsfilter-field": "description"})]
+        desc_texts = [
+            el.get_text(" ", strip=True)
+            for el in card.select('[fs-cmsfilter-field="description"], [fs-list-field="summary"]')
+        ]
         desc_texts = [d for d in desc_texts if d]
         description = max(desc_texts, key=len) if desc_texts else title
 
@@ -111,7 +112,7 @@ def generate_rss_feed(articles):
         fe.description(post.get("description") or post["title"])
         fe.link(href=post["link"])
         fe.published(post["date"])
-        fe.id(post["link"])
+        fe.id(post.get("guid") or post["link"])
 
     return fg
 
@@ -135,6 +136,7 @@ def main():
             logger.warning("No articles found - skipping feed update to avoid overwriting with empty feed")
             return False
 
+        articles = merge_feed_history(require_posts(articles), FEED_NAME, match_titles=True)
         fg = generate_rss_feed(articles)
         save_rss_feed(fg, FEED_NAME)
         logger.info(f"Generated {FEED_NAME} feed with {len(articles)} articles")
@@ -146,4 +148,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(0 if main() else 1)

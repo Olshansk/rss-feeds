@@ -19,5 +19,12 @@
     "fixture": "groq.html",
     "title": "Groq Among the First",
     "date": "2026-08-24"
+  },
+  {
+    "module": "far_ai_blog",
+    "parser": "parse",
+    "fixture": "far_ai.html",
+    "title": "Prefill-level Jailbreak",
+    "date": "2026-02-18"
   }
 ]
