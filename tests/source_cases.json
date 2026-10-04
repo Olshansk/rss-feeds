@@ -12,5 +12,12 @@
     "fixture": "cohere.html",
     "title": "Automation\u2019s Early Footprint",
     "date": "2026-09-03"
+  },
+  {
+    "module": "groq_blog",
+    "parser": "parse_blog_html",
+    "fixture": "groq.html",
+    "title": "Groq Among the First",
+    "date": "2026-08-24"
   }
 ]

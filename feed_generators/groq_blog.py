@@ -1,7 +1,6 @@
 """Generate RSS feed for the Groq Blog (https://groq.com/blog/).
 
-Simple static HTML scraper. Cards are rendered server-side in <article class="card">
-elements; no pagination or JavaScript. No cache needed.
+Read server-rendered article links with headings and publication times.
 """
 
 import argparse
@@ -11,6 +10,7 @@ import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
+from feed_history import merge_feed_history, require_posts
 from utils import (
     fetch_page,
     save_rss_feed,
@@ -32,8 +32,8 @@ def parse_blog_html(html_content: str) -> list[dict]:
     articles = []
     seen_links = set()
 
-    for card in soup.select("article.card"):
-        title_link = card.select_one("h2.card__title a")
+    for card in soup.select("article.card, a[href^='/blog/']:has(h2):has(time)"):
+        title_link = card if card.name == "a" else card.select_one("h2.card__title a")
         if not title_link:
             continue
 
@@ -46,12 +46,13 @@ def parse_blog_html(html_content: str) -> list[dict]:
             continue
         seen_links.add(link)
 
-        title = title_link.get_text(strip=True)
+        heading = title_link.find("h2")
+        title = (heading or title_link).get_text(" ", strip=True)
         if not title:
             continue
 
         date = None
-        time_elem = card.select_one("time.card__eyebrow")
+        time_elem = card.select_one("time[datetime]")
         if time_elem:
             datetime_attr = time_elem.get("datetime")
             if datetime_attr:
@@ -92,7 +93,7 @@ def generate_rss_feed(articles: list[dict]) -> FeedGenerator:
         fe.title(article["title"])
         fe.description(article["description"])
         fe.link(href=article["link"])
-        fe.id(article["link"])
+        fe.id(article.get("guid") or article["link"])
         if article.get("date"):
             fe.published(article["date"])
 
@@ -109,6 +110,7 @@ def main() -> bool:
         logger.warning("No articles found. Check the HTML structure.")
         return False
 
+    articles = merge_feed_history(require_posts(articles), FEED_NAME, match_titles=True)
     feed = generate_rss_feed(articles)
     save_rss_feed(feed, FEED_NAME)
     logger.info("Done!")
@@ -120,4 +122,4 @@ if __name__ == "__main__":
     # --full is accepted for orchestrator compatibility even though the generator has no cache.
     parser.add_argument("--full", action="store_true", help="No-op (Groq has no cache)")
     parser.parse_args()
-    main()
+    raise SystemExit(0 if main() else 1)

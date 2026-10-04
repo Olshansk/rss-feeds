@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Aug 2026 15:46:54 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 19:08:36 +0000</lastBuildDate>
+    <item>
+      <title>Groq Among the First to Bring NVIDIA Groq 3 LPX and Vera Rubin NVL72 to Market</title>
+      <link>https://groq.com/blog/groq-among-the-first-to-bring-nvidia-groq-3-lpx-and-vera-rubin-nvl72-to-market</link>
+      <description>Groq Among the First to Bring NVIDIA Groq 3 LPX and Vera Rubin NVL72 to Market</description>
+      <guid isPermaLink="false">https://groq.com/blog/groq-among-the-first-to-bring-nvidia-groq-3-lpx-and-vera-rubin-nvl72-to-market</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Canopy Labs’ Orpheus TTS is live on GroqCloud</title>
       <link>https://groq.com/blog/canopy-labs-orpheus-tts-is-live-on-groqcloud</link>
@@ -80,17 +87,17 @@
       <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing Kimi K2‑0905 on GroqCloud</title>
-      <link>https://groq.com/blog/introducing-kimi-k2-0905-on-groqcloud</link>
-      <description>Introducing Kimi K2‑0905 on GroqCloud</description>
-      <guid isPermaLink="false">https://groq.com/blog/introducing-kimi-k2-0905-on-groqcloud</guid>
-      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Introducing the Next Generation of Compound on GroqCloud</title>
       <link>https://groq.com/blog/introducing-the-next-generation-of-compound-on-groqcloud</link>
       <description>Introducing the Next Generation of Compound on GroqCloud</description>
       <guid isPermaLink="false">https://groq.com/blog/introducing-the-next-generation-of-compound-on-groqcloud</guid>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Kimi K2‑0905 on GroqCloud</title>
+      <link>https://groq.com/blog/introducing-kimi-k2-0905-on-groqcloud</link>
+      <description>Introducing Kimi K2‑0905 on GroqCloud</description>
+      <guid isPermaLink="false">https://groq.com/blog/introducing-kimi-k2-0905-on-groqcloud</guid>
       <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -176,6 +183,83 @@
       <description>Llama 4 Inference Fast &amp; Affordable – Now Live on GroqCloud</description>
       <guid isPermaLink="false">https://groq.com/blog/llama-4-now-live-on-groq-build-fast-at-the-lowest-cost-without-compromise</guid>
       <pubDate>Sat, 05 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Batch Processing with GroqCloud™ for AI Inference Workloads</title>
+      <link>https://groq.com/blog/batch-processing-with-groqcloud-for-ai-inference-workloads</link>
+      <description>Batch Processing with GroqCloud™ for AI Inference Workloads</description>
+      <guid isPermaLink="false">https://groq.com/blog/batch-processing-with-groqcloud-for-ai-inference-workloads</guid>
+      <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What is a Language Processing Unit?</title>
+      <link>https://groq.com/blog/the-groq-lpu-explained</link>
+      <description>What is a Language Processing Unit?</description>
+      <guid isPermaLink="false">https://groq.com/blog/the-groq-lpu-explained</guid>
+      <pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Thank You! 1 Million Developers Now On GroqCloud™</title>
+      <link>https://groq.com/blog/thank-you-1m-developers-building-with-groqcloud</link>
+      <description>Thank You! 1 Million Developers Now On GroqCloud™</description>
+      <guid isPermaLink="false">https://groq.com/blog/thank-you-1m-developers-building-with-groqcloud</guid>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What is AI Inference? ML Basics Explained</title>
+      <link>https://groq.com/blog/understanding-ai-101-what-is-inference-in-machine-learning-and-ai-applications</link>
+      <description>What is AI Inference? ML Basics Explained</description>
+      <guid isPermaLink="false">https://groq.com/blog/understanding-ai-101-what-is-inference-in-machine-learning-and-ai-applications</guid>
+      <pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Five Future Stages of Generative AI</title>
+      <link>https://groq.com/blog/the-five-future-stages-of-generative-ai</link>
+      <description>The Five Future Stages of Generative AI</description>
+      <guid isPermaLink="false">https://groq.com/blog/the-five-future-stages-of-generative-ai</guid>
+      <pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Context Length in LLMs: Optimize Business AI Performance</title>
+      <link>https://groq.com/blog/the-crucial-role-of-context-length-in-large-language-models-for-business-applications</link>
+      <description>Context Length in LLMs: Optimize Business AI Performance</description>
+      <guid isPermaLink="false">https://groq.com/blog/the-crucial-role-of-context-length-in-large-language-models-for-business-applications</guid>
+      <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Groq Partners with Aramco on World’s Largest AI Data Center</title>
+      <link>https://groq.com/blog/groq-aramco-data-center-partnership</link>
+      <description>Groq Partners with Aramco on World’s Largest AI Data Center</description>
+      <guid isPermaLink="false">https://groq.com/blog/groq-aramco-data-center-partnership</guid>
+      <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Groq Launches Meta's Llama 3 Instruct AI Models on LPU™ Inference Engine</title>
+      <link>https://groq.com/blog/12-hours-later-groq-is-running-llama-3-instruct-8-70b-by-meta-ai-on-its-lpu-inference-enginge</link>
+      <description>Groq Launches Meta's Llama 3 Instruct AI Models on LPU™ Inference Engine</description>
+      <guid isPermaLink="false">https://groq.com/blog/12-hours-later-groq-is-running-llama-3-instruct-8-70b-by-meta-ai-on-its-lpu-inference-enginge</guid>
+      <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Groq LPU Tops Latency &amp; Throughput in Benchmark</title>
+      <link>https://groq.com/blog/artificialanalysis-ai-llm-benchmark-doubles-axis-to-fit-new-groq-lpu-inference-engine-performance-results</link>
+      <description>Groq LPU Tops Latency &amp; Throughput in Benchmark</description>
+      <guid isPermaLink="false">https://groq.com/blog/artificialanalysis-ai-llm-benchmark-doubles-axis-to-fit-new-groq-lpu-inference-engine-performance-results</guid>
+      <pubDate>Thu, 08 Feb 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Groq Accelerates COVID Drug Discovery by 333x for Argonne National Lab</title>
+      <link>https://groq.com/blog/groq-accelerates-covid-drug-discovery-333x-versus-legacy-solutions</link>
+      <description>Groq Accelerates COVID Drug Discovery by 333x for Argonne National Lab</description>
+      <guid isPermaLink="false">https://groq.com/blog/groq-accelerates-covid-drug-discovery-333x-versus-legacy-solutions</guid>
+      <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why AI Requires a New Chip Architecture</title>
+      <link>https://groq.com/blog/why-ai-requires-a-new-chip-architecture</link>
+      <description>Why AI Requires a New Chip Architecture</description>
+      <guid isPermaLink="false">https://groq.com/blog/why-ai-requires-a-new-chip-architecture</guid>
+      <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
