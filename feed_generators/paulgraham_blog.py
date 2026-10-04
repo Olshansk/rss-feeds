@@ -81,6 +81,7 @@ def parse_essays_page(html_content, base_url="https://paulgraham.com", max_essay
     try:
         soup = BeautifulSoup(html_content, "html.parser")
         blog_posts = []
+        seen_links = set()
 
         # Find all essay links
         links = soup.select('font[size="2"] a')
@@ -97,6 +98,10 @@ def parse_essays_page(html_content, base_url="https://paulgraham.com", max_essay
                 continue
 
             full_url = f"{base_url}/{href}" if not href.startswith("http") else href
+
+            if full_url in seen_links:
+                continue
+            seen_links.add(full_url)
 
             logger.info(f"Fetching article: {title}")
 
@@ -189,4 +194,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(0 if main() else 1)

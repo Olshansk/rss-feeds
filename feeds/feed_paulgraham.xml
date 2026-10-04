@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 18:38:22 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 19:19:11 +0000</lastBuildDate>
     <item>
       <title>Making Startups Powerful</title>
       <link>https://paulgraham.com/powerful.html</link>
@@ -235,19 +235,6 @@ as good as your competitor's, you don't get half as many customers.
 You get no customers, and you go out of business.It's obviously true that the ret...</description>
       <guid isPermaLink="false">https://paulgraham.com/superlinear.html</guid>
       <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How to Do Great Work</title>
-      <link>https://paulgraham.com/greatwork.html</link>
-      <description>If you collected lists of techniques for doing great work in a lot
-of different fields, what would the intersection look like? I decided
-to find out by making it.Partly my goal was to create a guide that could be used by someone
-working in any field. But I was also curious about the shape of the
-intersection. And one thing this exercise shows is that it does
-have a definite shape; it's not just a point labelled "work hard."The following recipe assumes you're very ambitious.
-The first step is to ...</description>
-      <guid isPermaLink="false">https://paulgraham.com/greatwork.html</guid>
-      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>How to Do Great Work</title>
@@ -684,20 +671,6 @@ what he learned in it. This stuck in my mind because it was the
 only time I ever heard anyone say such a thing.For me, as for most students, the measurement of what I was learning
 completely dominated actual learning in college. ...</description>
       <guid isPermaLink="false">https://paulgraham.com/lesson.html</guid>
-      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Having Kids</title>
-      <link>https://paulgraham.com/kids.html</link>
-      <description>Before I had kids, I was afraid of having kids. Up to that point I
-felt about kids the way the young Augustine felt about living
-virtuously. I'd have been sad to think I'd never have children.
-But did I want them now? No.If I had kids, I'd become a parent, and parents, as I'd known since
-I was a kid, were uncool. They were dull and responsible and had
-no fun.  And while it's not surprising that kids would believe that,
-to be honest I hadn't seen much as an adult to change my mind.
-Whenever I'd n...</description>
-      <guid isPermaLink="false">https://paulgraham.com/kids.html</guid>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1587,21 +1560,6 @@ very visible when I got there in 1998.  Yahoo had two problems
 Google didn't: easy money, and am...</description>
       <guid isPermaLink="false">https://paulgraham.com/yahoo.html</guid>
       <pubDate>Sun, 01 Aug 2010 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How to Lose Time and Money</title>
-      <link>https://paulgraham.com/selfindulgence.html</link>
-      <description>When we sold our startup in 1998 I suddenly got a lot of money.  I
-now had to think about something I hadn't had to think about before:
-how not to lose it.   I knew it was possible to go from rich to
-poor, just as it was possible to go from poor to rich.  But while
-I'd spent a lot of the past several years studying the paths from
-poor to rich, 
-I knew practically nothing about the paths from rich
-to poor.  Now, in order to avoid them, I had to learn where they
-were.So I started to pay attention ...</description>
-      <guid isPermaLink="false">https://paulgraham.com/selfindulgence.html</guid>
-      <pubDate>Thu, 01 Jul 2010 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>The Top Idea in Your Mind</title>
