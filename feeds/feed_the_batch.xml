@@ -8,111 +8,157 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 19:36:15 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 19:45:31 +0000</lastBuildDate>
     <item>
       <title>The Next Top Open Model, Google Voice Agents, DeepSeek Shrinks Caches: Plus a letter on open weight cybersecurity capabilities</title>
       <link>https://www.deeplearning.ai/the-batch/issue-373</link>
       <description>The Batch News &amp; Insights: Anthropic recently released an encouraging analysis of the cyber capabilities of open weight model GLM-5.3.</description>
       <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-373</guid>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <category>The Batch Newsletter</category>
+      <category>Oct 02, 2026</category>
+      <category>issue-373</category>
+      <category>Technical Insights</category>
+      <pubDate>Fri, 02 Oct 2026 12:55:55 +0000</pubDate>
     </item>
     <item>
       <title>Opus Stalks the Frontier, Jev Classifies Everything, Running Two Models in One Agent</title>
       <link>https://www.deeplearning.ai/the-batch/issue-372</link>
       <description>The Batch News &amp; Insights: Moving forward on early stage, 0-to-1 projects and mature projects requires very different tactics.</description>
       <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-372</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <category>The Batch Newsletter</category>
+      <category>issue-372</category>
+      <category>Sep 25, 2026</category>
+      <pubDate>Fri, 25 Sep 2026 14:48:56 +0000</pubDate>
     </item>
     <item>
       <title>Meta’s Agent Security, The Navier-Stokes Controversy, Fraud on Claude</title>
       <link>https://www.deeplearning.ai/the-batch/issue-371</link>
       <description>The Batch News &amp; Insights: The loudest voices stoking fears about AI dangers have made tremendous headway in the past two weeks.</description>
       <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-371</guid>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+      <category>The Batch Newsletter</category>
+      <category>issue-371</category>
+      <category>Sep 18, 2026</category>
+      <pubDate>Fri, 18 Sep 2026 14:00:13 +0000</pubDate>
     </item>
     <item>
       <title>OpenAI and Anthropic fight it out for the top overall spot, while Google, Meta, and Microsoft all release transcription models</title>
       <link>https://www.deeplearning.ai/the-batch/issue-370</link>
       <description>The Batch News &amp; Insights: When you’re skilled at AI Engineering, your best work won’t be merely implementing a product that someone else spec’ed out. Instead, you will actively shape the build.</description>
       <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-370</guid>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <category>The Batch Newsletter</category>
+      <category>issue-370</category>
+      <category>Sep 11, 2026</category>
+      <pubDate>Fri, 11 Sep 2026 14:00:25 +0000</pubDate>
     </item>
     <item>
       <title>Inside Key Changes in Data Policies, Ox Alpha Revealed, Taking Custom Models Beyond Fine-Tuning</title>
       <link>https://www.deeplearning.ai/the-batch/issue-369</link>
       <description>The Batch News &amp; Insights: A key AI engineering skill is using coding agents.</description>
       <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-369</guid>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      <category>The Batch Newsletter</category>
+      <category>Sep 04, 2026</category>
+      <category>issue-369</category>
+      <pubDate>Fri, 04 Sep 2026 14:00:31 +0000</pubDate>
     </item>
     <item>
       <title>GLM-5.3’s Exploits, AI Models and Hardware Speed Up, DeepSeek’s New Agent Harness</title>
       <link>https://www.deeplearning.ai/the-batch/issue-368</link>
       <description>The Batch News &amp; Insights: How have software engineering fundamentals changed with agentic coding?</description>
       <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-368</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+      <category>The Batch Newsletter</category>
+      <category>issue-368</category>
+      <category>Aug 28, 2026</category>
+      <pubDate>Fri, 28 Aug 2026 14:00:58 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic’s Watermarks, Grok 4.6 Surges, Qwen’s Open Weights, Better Corrections for Speech Recognition</title>
       <link>https://www.deeplearning.ai/the-batch/issue-367</link>
       <description>The Batch News &amp; Insights: I previously wrote about our AI Engineering Skills Map, with the highest level skills being (i) Building and deploying...</description>
       <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-367</guid>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+      <category>The Batch Newsletter</category>
+      <category>Aug 21, 2026</category>
+      <category>issue-367</category>
+      <pubDate>Fri, 21 Aug 2026 14:00:19 +0000</pubDate>
     </item>
     <item>
       <title>Meta’s Play for Coding Data, Google Robotics Multi-Embodiment, MiniMax’s Open Video Model (With an Asterisk)</title>
       <link>https://www.deeplearning.ai/the-batch/issue-366</link>
       <description>The Batch News &amp; Insights: I am delighted to present The AI Engineering Skills Map.</description>
       <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-366</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <category>The Batch Newsletter</category>
+      <category>issue-366</category>
+      <category>Aug 14, 2026</category>
+      <pubDate>Fri, 14 Aug 2026 14:00:00 +0000</pubDate>
     </item>
     <item>
       <title>DeepSeek-V4-Flash Outshines Pro, The Biggest GitHub Crawl Yet, Engineering System Prompts for Safer Code</title>
       <link>https://www.deeplearning.ai/the-batch/issue-365</link>
       <description>The Batch News &amp; Insights: I’m glad the idea of “tokenmaxxing” — that individuals and companies should use as many tokens as possible to boost productivity — is finally dying out.</description>
       <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-365</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+      <category>The Batch Newsletter</category>
+      <category>issue-365</category>
+      <category>Aug 07, 2026</category>
+      <pubDate>Fri, 07 Aug 2026 14:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Opus Outshines Even Fable, Inside the Hugging Face Hack, AI Companies Spend Big for Compute</title>
       <link>https://www.deeplearning.ai/the-batch/issue-364</link>
-      <description>The Batch News &amp; Insights: My team recently had our own version of Hugging Face’s experience when closed models failed to defend the company following an accidental cyberattack from OpenAI, leading Hugging Face to use the open weight GLM 5.2 instead.</description>
+      <description>The Batch News &amp; Insights: My team recently had our own version of Hugging Face’s experience when closed models failed to defend the company following an accidental cyberattack from OpenAI, leading Hugging Face to use the open weight GLM 5.2 instead.</description>
       <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-364</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+      <category>The Batch Newsletter</category>
+      <category>issue-364</category>
+      <category>Jul 31, 2026</category>
+      <pubDate>Fri, 31 Jul 2026 14:00:40 +0000</pubDate>
     </item>
     <item>
       <title>Kimi K3 Redraws the Open Frontier, Muse Spark 1.1 Undercuts Competitors, Cloudflare Moves to Cut Off Crawlers</title>
       <link>https://www.deeplearning.ai/the-batch/issue-363</link>
       <description>The Batch News &amp; Insights: A few frontier labs have tried to tell a story of open models being dangerous because they can be used to launch cyberattacks, and of their “safe” proprietary models with strong guardrails being there to defend us.</description>
       <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-363</guid>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <category>The Batch Newsletter</category>
+      <category>Jul 24, 2026</category>
+      <category>issue-363</category>
+      <pubDate>Fri, 24 Jul 2026 14:00:37 +0000</pubDate>
     </item>
     <item>
       <title>AI Overviews Land Google In Hot Water, GPT-Live Puts Reasoning in the Background, How to Tell If Your Model is Manipulative</title>
       <link>https://www.deeplearning.ai/the-batch/issue-362</link>
       <description>The Batch News &amp; Insights: As AI increasingly automates coding, it frees up developers to spend time on high-level software development tasks traditionally reserved for senior engineers, like deciding on technical architecture and participating in scoping product requirements.</description>
       <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-362</guid>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <category>The Batch Newsletter</category>
+      <category>Jul 17, 2026</category>
+      <category>issue-362</category>
+      <pubDate>Fri, 17 Jul 2026 14:00:35 +0000</pubDate>
     </item>
     <item>
       <title>Restoration of Claude Fable 5, Gemini's Video Dev Engine, DeepSeek Speeds Up Speculative Decoding</title>
       <link>https://www.deeplearning.ai/the-batch/issue-361</link>
       <description>The Batch News &amp; Insights: The key idea of agentic coding loops is to have an agent keep working until it satisfies a condition, such as achieving a product specification.</description>
       <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-361</guid>
-      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <category>The Batch Newsletter</category>
+      <category>Jul 10, 2026</category>
+      <category>issue-361</category>
+      <pubDate>Fri, 10 Jul 2026 14:00:35 +0000</pubDate>
     </item>
     <item>
       <title>OpenAI’s GPT-5.6 Family, New Ways to Train Robots, Models Invoking Models</title>
       <link>https://www.deeplearning.ai/the-batch/issue-360</link>
       <description>The Batch News &amp; Insights: The AI world has become incredibly noisy. Social media, traditional media, and an army of marketers produce a cacophony of hype and content that are often secretly sales pitches for their products.</description>
       <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-360</guid>
-      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+      <category>The Batch Newsletter</category>
+      <category>Jul 03, 2026</category>
+      <category>issue-360</category>
+      <pubDate>Fri, 03 Jul 2026 14:00:06 +0000</pubDate>
     </item>
     <item>
       <title>A New Generation Studies AI, Apple's Recipe for On-Device Models, GLM5.2 Tackles Open-Ended Problems</title>
       <link>https://www.deeplearning.ai/the-batch/issue-359</link>
-      <description>The Batch News &amp; Insights: “Loop engineering” is a hot buzzphrase after Boris Cherney (Claude Code’s creator) and Peter Steinberger (OpenClaw's creator) both mentioned it on social media.</description>
+      <description>The Batch News &amp; Insights: “Loop engineering” is a hot buzzphrase after Boris Cherney (Claude Code’s creator) and Peter Steinberger (OpenClaw's creator) both mentioned it on social media.</description>
       <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-359</guid>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <category>The Batch Newsletter</category>
+      <category>issue-359</category>
+      <category>Jun 26, 2026</category>
+      <pubDate>Fri, 26 Jun 2026 14:00:18 +0000</pubDate>
     </item>
     <item>
       <title>Testing Mythos and Fable, Moving Beyond SWE-bench, Nvidia's Open Contender</title>

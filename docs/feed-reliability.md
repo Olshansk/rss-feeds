@@ -13,7 +13,7 @@ A successful process is insufficient: a feed must contain current source items, 
 | Module | Responsibility |
 |---|---|
 | `static_pages.py` | Bounded HTTP requests and pagination; reject empty pages and pagination loops. |
-| `dynamic_pages.py` | Chrome setup, article waits, expansion controls, guaranteed browser cleanup, and explicit HTTP-403 fallback for public listings. `RSS_CHROMEDRIVER` can select a compatible locally installed driver. |
+| `dynamic_pages.py` | Chrome setup, article waits, expansion controls, and guaranteed browser cleanup. `RSS_CHROMEDRIVER` can select a compatible locally installed driver. |
 | `html_cards.py` | Semantic heading/link/date cards, including featured cards with dates in their parent container. |
 | `dates.py` | Explicit date formats, including SEPT.; preserve source time zones and reject unknown dates. |
 | `changelog.py` | Mintlify version anchors, rich release descriptions, and legacy release GUIDs. |
@@ -65,5 +65,5 @@ make dev_lint
 - History uses exact links or GUIDs by default. Explicit title matching is reserved for source migrations and only matches unique historical titles.
 - Publication age is a warning, since quiet blogs can be correct. Compare the newest source article to distinguish a quiet source from a frozen scraper.
 - RSS requires a full timestamp. For research sources that provide only a year and lack arXiv metadata, January 1 represents that year and the description discloses this precision. Do not pretend it is an exact publication day.
-- Sources needing a browser fallback belong in the Selenium registry group so scheduled runners have Chrome installed. A 404 still ends pagination; other errors remain failures.
+- Prefer a publisher-provided RSS feed when available. The Batch uses its official `charonhub.deeplearning.ai/tag/the-batch/rss/` feed, maps links to the public website, and retains its older archive. Hosted-runner HTML requests to the main website are blocked.
 - Offline fixture tests do not replace live checks. Current layouts can change independently of CI.

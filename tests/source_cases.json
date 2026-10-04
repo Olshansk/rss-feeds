@@ -36,10 +36,10 @@
   },
   {
     "module": "deeplearningai_the_batch",
-    "parser": "parse_articles_from_html",
-    "fixture": "the_batch.html",
-    "title": "Inside Key Changes",
-    "date": "2026-09-04"
+    "parser": "parse_batch_feed",
+    "fixture": "the_batch.xml",
+    "title": "The Next Top Open Model",
+    "date": "2026-10-02"
   },
   {
     "module": "transluce_blog",
