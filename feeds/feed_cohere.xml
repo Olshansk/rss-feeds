@@ -13,7 +13,7 @@
       <link>https://cohere.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 19:12:45 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 19:31:54 +0000</lastBuildDate>
     <item>
       <title>RCP-nDCG@10: A more complete way to measure retrieval relevance</title>
       <link>https://cohere.com/blog/rcp-ndcg</link>
@@ -47,18 +47,18 @@
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Cohere and Aleph Alpha sign agreement to become the first  transatlantic sovereign AI solution</title>
-      <link>https://cohere.com/blog/cohere-and-aleph-alpha-sign-agreement</link>
-      <description>Cohere and Aleph Alpha sign agreement to become the first  transatlantic sovereign AI solution</description>
-      <guid isPermaLink="false">https://cohere.com/blog/cohere-and-aleph-alpha-sign-agreement</guid>
-      <category>Blog</category>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Cohere and OpenText partner to bring trusted agentic AI to governments and regulated industries</title>
       <link>https://cohere.com/blog/cohere-and-open-text-partner-to-bring-trusted-ai</link>
       <description>Cohere and OpenText partner to bring trusted agentic AI to governments and regulated industries</description>
       <guid isPermaLink="false">https://cohere.com/blog/cohere-and-open-text-partner-to-bring-trusted-ai</guid>
+      <category>Blog</category>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cohere and Aleph Alpha sign agreement to become the first  transatlantic sovereign AI solution</title>
+      <link>https://cohere.com/blog/cohere-and-aleph-alpha-sign-agreement</link>
+      <description>Cohere and Aleph Alpha sign agreement to become the first  transatlantic sovereign AI solution</description>
+      <guid isPermaLink="false">https://cohere.com/blog/cohere-and-aleph-alpha-sign-agreement</guid>
       <category>Blog</category>
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
     </item>
@@ -111,18 +111,18 @@
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Why forward-deployed engineers should build capability, not dependency</title>
-      <link>https://cohere.com/blog/forward-deployed-engineers-capability-building</link>
-      <description>Why forward-deployed engineers should build capability, not dependency</description>
-      <guid isPermaLink="false">https://cohere.com/blog/forward-deployed-engineers-capability-building</guid>
-      <category>Blog</category>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Introducing Parse: Enterprise document intelligence at scale</title>
       <link>https://cohere.com/blog/parse</link>
       <description>Introducing Parse: Enterprise document intelligence at scale</description>
       <guid isPermaLink="false">https://cohere.com/blog/parse</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why forward-deployed engineers should build capability, not dependency</title>
+      <link>https://cohere.com/blog/forward-deployed-engineers-capability-building</link>
+      <description>Why forward-deployed engineers should build capability, not dependency</description>
+      <guid isPermaLink="false">https://cohere.com/blog/forward-deployed-engineers-capability-building</guid>
       <category>Blog</category>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
     </item>
@@ -159,18 +159,18 @@
       <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>A day in the life of a wealth manager, with and without AI</title>
-      <link>https://cohere.com/blog/a-day-in-the-life-of-a-wealth-manager-with-and-without-ai</link>
-      <description>A day in the life of a wealth manager, with and without AI</description>
-      <guid isPermaLink="false">https://cohere.com/blog/a-day-in-the-life-of-a-wealth-manager-with-and-without-ai</guid>
-      <category>Blog</category>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Introducing North Automations: Intelligent workflow orchestration</title>
       <link>https://cohere.com/blog/introducing-north-automations-ai-workflows</link>
       <description>Introducing North Automations: Intelligent workflow orchestration</description>
       <guid isPermaLink="false">https://cohere.com/blog/introducing-north-automations-ai-workflows</guid>
+      <category>Blog</category>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A day in the life of a wealth manager, with and without AI</title>
+      <link>https://cohere.com/blog/a-day-in-the-life-of-a-wealth-manager-with-and-without-ai</link>
+      <description>A day in the life of a wealth manager, with and without AI</description>
+      <guid isPermaLink="false">https://cohere.com/blog/a-day-in-the-life-of-a-wealth-manager-with-and-without-ai</guid>
       <category>Blog</category>
       <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
     </item>
@@ -215,18 +215,18 @@
       <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Automating fork maintenance with AI agents</title>
-      <link>https://cohere.com/blog/automating-fork-maintenance-with-ai-agents</link>
-      <description>Automating fork maintenance with AI agents</description>
-      <guid isPermaLink="false">https://cohere.com/blog/automating-fork-maintenance-with-ai-agents</guid>
-      <category>Blog</category>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Creating a security agent with Cohere North and Wiz</title>
       <link>https://cohere.com/blog/cohere-security-ai-agent-north-wiz</link>
       <description>Creating a security agent with Cohere North and Wiz</description>
       <guid isPermaLink="false">https://cohere.com/blog/cohere-security-ai-agent-north-wiz</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Automating fork maintenance with AI agents</title>
+      <link>https://cohere.com/blog/automating-fork-maintenance-with-ai-agents</link>
+      <description>Automating fork maintenance with AI agents</description>
+      <guid isPermaLink="false">https://cohere.com/blog/automating-fork-maintenance-with-ai-agents</guid>
       <category>Blog</category>
       <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -295,14 +295,6 @@
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>AI in business intelligence: Use cases, benefits, and adoption considerations</title>
-      <link>https://cohere.com/blog/ai-for-business-intelligence</link>
-      <description>AI in business intelligence: Use cases, benefits, and adoption considerations</description>
-      <guid isPermaLink="false">https://cohere.com/blog/ai-for-business-intelligence</guid>
-      <category>Blog</category>
-      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>What is Model Context Protocol? A practical guide to MCP</title>
       <link>https://cohere.com/blog/guide-to-mcp</link>
       <description>What is Model Context Protocol? A practical guide to MCP</description>
@@ -315,6 +307,14 @@
       <link>https://cohere.com/blog/ai-governance-challenges</link>
       <description>AI governance challenges: How to support safe, scalable AI adoption</description>
       <guid isPermaLink="false">https://cohere.com/blog/ai-governance-challenges</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI in business intelligence: Use cases, benefits, and adoption considerations</title>
+      <link>https://cohere.com/blog/ai-for-business-intelligence</link>
+      <description>AI in business intelligence: Use cases, benefits, and adoption considerations</description>
+      <guid isPermaLink="false">https://cohere.com/blog/ai-for-business-intelligence</guid>
       <category>Blog</category>
       <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
     </item>
@@ -607,18 +607,18 @@
       <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Building AI agents in finance: Reshaping financial services</title>
-      <link>https://cohere.com/blog/ai-agents-for-financial-services</link>
-      <description>Building AI agents in finance: Reshaping financial services</description>
-      <guid isPermaLink="false">https://cohere.com/blog/ai-agents-for-financial-services</guid>
-      <category>Blog</category>
-      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Elo ratings beyond arena-style evaluations</title>
       <link>https://cohere.com/blog/elo-ratings-beyond-arena-style-evaluations</link>
       <description>Elo ratings beyond arena-style evaluations</description>
       <guid isPermaLink="false">https://cohere.com/blog/elo-ratings-beyond-arena-style-evaluations</guid>
+      <category>Blog</category>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building AI agents in finance: Reshaping financial services</title>
+      <link>https://cohere.com/blog/ai-agents-for-financial-services</link>
+      <description>Building AI agents in finance: Reshaping financial services</description>
+      <guid isPermaLink="false">https://cohere.com/blog/ai-agents-for-financial-services</guid>
       <category>Blog</category>
       <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
     </item>
@@ -799,18 +799,18 @@
       <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>AI customer experience: Shaping engagement with businesses</title>
-      <link>https://cohere.com/blog/ai-customer-experience</link>
-      <description>AI customer experience: Shaping engagement with businesses</description>
-      <guid isPermaLink="false">https://cohere.com/blog/ai-customer-experience</guid>
-      <category>Blog</category>
-      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>AI agents: Driving productivity at work</title>
       <link>https://cohere.com/blog/enterprise-ai-agents-infographic</link>
       <description>AI agents: Driving productivity at work</description>
       <guid isPermaLink="false">https://cohere.com/blog/enterprise-ai-agents-infographic</guid>
+      <category>Blog</category>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI customer experience: Shaping engagement with businesses</title>
+      <link>https://cohere.com/blog/ai-customer-experience</link>
+      <description>AI customer experience: Shaping engagement with businesses</description>
+      <guid isPermaLink="false">https://cohere.com/blog/ai-customer-experience</guid>
       <category>Blog</category>
       <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
     </item>
@@ -839,18 +839,18 @@
       <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>What is explainable AI?</title>
-      <link>https://cohere.com/blog/explainable-ai</link>
-      <description>What is explainable AI?</description>
-      <guid isPermaLink="false">https://cohere.com/blog/explainable-ai</guid>
-      <category>Blog</category>
-      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Cohere files motion to dismiss in Advance Local Media suit</title>
       <link>https://cohere.com/blog/publisher-response</link>
       <description>Cohere files motion to dismiss in Advance Local Media suit</description>
       <guid isPermaLink="false">https://cohere.com/blog/publisher-response</guid>
+      <category>Blog</category>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What is explainable AI?</title>
+      <link>https://cohere.com/blog/explainable-ai</link>
+      <description>What is explainable AI?</description>
+      <guid isPermaLink="false">https://cohere.com/blog/explainable-ai</guid>
       <category>Blog</category>
       <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
     </item>
@@ -1199,18 +1199,18 @@
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing Command R7B Arabic</title>
-      <link>https://cohere.com/blog/command-r7b-arabic</link>
-      <description>Introducing Command R7B Arabic</description>
-      <guid isPermaLink="false">https://cohere.com/blog/command-r7b-arabic</guid>
-      <category>Blog</category>
-      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>6 reasons banks opt for private AI deployments</title>
       <link>https://cohere.com/blog/private-ai-deployments-for-banks</link>
       <description>6 reasons banks opt for private AI deployments</description>
       <guid isPermaLink="false">https://cohere.com/blog/private-ai-deployments-for-banks</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Command R7B Arabic</title>
+      <link>https://cohere.com/blog/command-r7b-arabic</link>
+      <description>Introducing Command R7B Arabic</description>
+      <guid isPermaLink="false">https://cohere.com/blog/command-r7b-arabic</guid>
       <category>Blog</category>
       <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
     </item>
@@ -1255,18 +1255,18 @@
       <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>What is RAG architecture? An emerging approach to LLMs</title>
-      <link>https://cohere.com/blog/rag-architecture</link>
-      <description>What is RAG architecture? An emerging approach to LLMs</description>
-      <guid isPermaLink="false">https://cohere.com/blog/rag-architecture</guid>
-      <category>Blog</category>
-      <pubDate>Mon, 17 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Understanding RAG vs fine-tuning</title>
       <link>https://cohere.com/blog/rag-vs-fine-tuning</link>
       <description>Understanding RAG vs fine-tuning</description>
       <guid isPermaLink="false">https://cohere.com/blog/rag-vs-fine-tuning</guid>
+      <category>Blog</category>
+      <pubDate>Mon, 17 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What is RAG architecture? An emerging approach to LLMs</title>
+      <link>https://cohere.com/blog/rag-architecture</link>
+      <description>What is RAG architecture? An emerging approach to LLMs</description>
+      <guid isPermaLink="false">https://cohere.com/blog/rag-architecture</guid>
       <category>Blog</category>
       <pubDate>Mon, 17 Feb 2025 00:00:00 +0000</pubDate>
     </item>
@@ -1295,18 +1295,18 @@
       <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>What is conversational AI?</title>
-      <link>https://cohere.com/blog/conversational-ai</link>
-      <description>What is conversational AI?</description>
-      <guid isPermaLink="false">https://cohere.com/blog/conversational-ai</guid>
-      <category>Blog</category>
-      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>De-risking AI in financial services: From pilots to profit</title>
       <link>https://cohere.com/blog/de-risking-ai-in-financial-services</link>
       <description>De-risking AI in financial services: From pilots to profit</description>
       <guid isPermaLink="false">https://cohere.com/blog/de-risking-ai-in-financial-services</guid>
+      <category>Blog</category>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What is conversational AI?</title>
+      <link>https://cohere.com/blog/conversational-ai</link>
+      <description>What is conversational AI?</description>
+      <guid isPermaLink="false">https://cohere.com/blog/conversational-ai</guid>
       <category>Blog</category>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
     </item>
@@ -1423,18 +1423,18 @@
       <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>A complete guide to the different types of generative AI models</title>
-      <link>https://cohere.com/blog/generative-ai-models</link>
-      <description>A complete guide to the different types of generative AI models</description>
-      <guid isPermaLink="false">https://cohere.com/blog/generative-ai-models</guid>
-      <category>Blog</category>
-      <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Natural language processing (NLP): A practical guide</title>
       <link>https://cohere.com/blog/natural-language-processing</link>
       <description>Natural language processing (NLP): A practical guide</description>
       <guid isPermaLink="false">https://cohere.com/blog/natural-language-processing</guid>
+      <category>Blog</category>
+      <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A complete guide to the different types of generative AI models</title>
+      <link>https://cohere.com/blog/generative-ai-models</link>
+      <description>A complete guide to the different types of generative AI models</description>
+      <guid isPermaLink="false">https://cohere.com/blog/generative-ai-models</guid>
       <category>Blog</category>
       <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
     </item>
@@ -1471,18 +1471,18 @@
       <pubDate>Mon, 16 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing Command R7B: Fast and efficient generative AI</title>
-      <link>https://cohere.com/blog/command-r7b</link>
-      <description>Introducing Command R7B: Fast and efficient generative AI</description>
-      <guid isPermaLink="false">https://cohere.com/blog/command-r7b</guid>
-      <category>Blog</category>
-      <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Notion enhances workspace search with Cohere Rerank</title>
       <link>https://cohere.com/blog/notion-enhances-workspace-search-with-cohere-rerank</link>
       <description>Notion enhances workspace search with Cohere Rerank</description>
       <guid isPermaLink="false">https://cohere.com/blog/notion-enhances-workspace-search-with-cohere-rerank</guid>
+      <category>Blog</category>
+      <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Command R7B: Fast and efficient generative AI</title>
+      <link>https://cohere.com/blog/command-r7b</link>
+      <description>Introducing Command R7B: Fast and efficient generative AI</description>
+      <guid isPermaLink="false">https://cohere.com/blog/command-r7b</guid>
       <category>Blog</category>
       <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
     </item>
@@ -1695,10 +1695,10 @@
       <pubDate>Mon, 16 Sep 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Aya: powering a global language revolution</title>
-      <link>https://cohere.com/blog/aya-powering-a-global-language-revolution</link>
-      <description>Aya: powering a global language revolution</description>
-      <guid isPermaLink="false">https://cohere.com/blog/aya-powering-a-global-language-revolution</guid>
+      <title>Cohere and NRI collaborate to launch new financial AI platform</title>
+      <link>https://cohere.com/blog/nri-collaboration</link>
+      <description>Cohere and NRI collaborate to launch new financial AI platform</description>
+      <guid isPermaLink="false">https://cohere.com/blog/nri-collaboration</guid>
       <category>Blog</category>
       <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
     </item>
@@ -1711,12 +1711,20 @@
       <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Cohere and NRI collaborate to launch new financial AI platform</title>
-      <link>https://cohere.com/blog/nri-collaboration</link>
-      <description>Cohere and NRI collaborate to launch new financial AI platform</description>
-      <guid isPermaLink="false">https://cohere.com/blog/nri-collaboration</guid>
+      <title>Aya: powering a global language revolution</title>
+      <link>https://cohere.com/blog/aya-powering-a-global-language-revolution</link>
+      <description>Aya: powering a global language revolution</description>
+      <guid isPermaLink="false">https://cohere.com/blog/aya-powering-a-global-language-revolution</guid>
       <category>Blog</category>
       <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Safety Modes</title>
+      <link>https://cohere.com/blog/intro-safety-modes</link>
+      <description>Introducing Safety Modes</description>
+      <guid isPermaLink="false">https://cohere.com/blog/intro-safety-modes</guid>
+      <category>Blog</category>
+      <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Hype or not, AI is here to stay and growing fast</title>
@@ -1735,26 +1743,18 @@
       <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing Safety Modes</title>
-      <link>https://cohere.com/blog/intro-safety-modes</link>
-      <description>Introducing Safety Modes</description>
-      <guid isPermaLink="false">https://cohere.com/blog/intro-safety-modes</guid>
+      <title>What are embeddings in machine learning?</title>
+      <link>https://cohere.com/blog/embeddings</link>
+      <description>What are embeddings in machine learning?</description>
+      <guid isPermaLink="false">https://cohere.com/blog/embeddings</guid>
       <category>Blog</category>
-      <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 17 Aug 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Your AI security guide: Benefits and best practices</title>
       <link>https://cohere.com/blog/ai-security</link>
       <description>Your AI security guide: Benefits and best practices</description>
       <guid isPermaLink="false">https://cohere.com/blog/ai-security</guid>
-      <category>Blog</category>
-      <pubDate>Sat, 17 Aug 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>What are embeddings in machine learning?</title>
-      <link>https://cohere.com/blog/embeddings</link>
-      <description>What are embeddings in machine learning?</description>
-      <guid isPermaLink="false">https://cohere.com/blog/embeddings</guid>
       <category>Blog</category>
       <pubDate>Sat, 17 Aug 2024 00:00:00 +0000</pubDate>
     </item>
@@ -1903,18 +1903,18 @@
       <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>10 Ways C4AI Is Making an Impact, Two Years After Launching</title>
-      <link>https://cohere.com/blog/10-ways-c4ai-is-making-an-impact-two-years-after-launching</link>
-      <description>10 Ways C4AI Is Making an Impact, Two Years After Launching</description>
-      <guid isPermaLink="false">https://cohere.com/blog/10-ways-c4ai-is-making-an-impact-two-years-after-launching</guid>
-      <category>Blog</category>
-      <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Tackling AI security risks</title>
       <link>https://cohere.com/blog/tackling-ai-security-risks-with-eyes-wide-open</link>
       <description>Tackling AI security risks</description>
       <guid isPermaLink="false">https://cohere.com/blog/tackling-ai-security-risks-with-eyes-wide-open</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>10 Ways C4AI Is Making an Impact, Two Years After Launching</title>
+      <link>https://cohere.com/blog/10-ways-c4ai-is-making-an-impact-two-years-after-launching</link>
+      <description>10 Ways C4AI Is Making an Impact, Two Years After Launching</description>
+      <guid isPermaLink="false">https://cohere.com/blog/10-ways-c4ai-is-making-an-impact-two-years-after-launching</guid>
       <category>Blog</category>
       <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
     </item>
@@ -1935,18 +1935,18 @@
       <pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Cohere’s Command R Model Series Is Now Available on OCI</title>
-      <link>https://cohere.com/blog/command-r-series-on-oci</link>
-      <description>Cohere’s Command R Model Series Is Now Available on OCI</description>
-      <guid isPermaLink="false">https://cohere.com/blog/command-r-series-on-oci</guid>
-      <category>Blog</category>
-      <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Mastering Language Model Adoption: Five Key Areas for Enterprise Success</title>
       <link>https://cohere.com/blog/mastering-language-model-adoption-five-key-areas-for-enterprise-success</link>
       <description>Mastering Language Model Adoption: Five Key Areas for Enterprise Success</description>
       <guid isPermaLink="false">https://cohere.com/blog/mastering-language-model-adoption-five-key-areas-for-enterprise-success</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cohere’s Command R Model Series Is Now Available on OCI</title>
+      <link>https://cohere.com/blog/command-r-series-on-oci</link>
+      <description>Cohere’s Command R Model Series Is Now Available on OCI</description>
+      <guid isPermaLink="false">https://cohere.com/blog/command-r-series-on-oci</guid>
       <category>Blog</category>
       <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
     </item>
@@ -2143,14 +2143,6 @@
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Cohere’s Command R Enterprise Model Coming to ai.nvidia.com</title>
-      <link>https://cohere.com/blog/cohere-launch-nvidia</link>
-      <description>Cohere’s Command R Enterprise Model Coming to ai.nvidia.com</description>
-      <guid isPermaLink="false">https://cohere.com/blog/cohere-launch-nvidia</guid>
-      <category>Blog</category>
-      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Cohere int8 &amp; binary Embeddings - Scale Your Vector Database to Large Datasets</title>
       <link>https://cohere.com/blog/int8-binary-embeddings</link>
       <description>Cohere int8 &amp; binary Embeddings - Scale Your Vector Database to Large Datasets</description>
@@ -2163,6 +2155,14 @@
       <link>https://cohere.com/blog/embed-compression-embedjobs</link>
       <description>Cohere Embed: New Features for More Efficient and Accurate Enterprise Search</description>
       <guid isPermaLink="false">https://cohere.com/blog/embed-compression-embedjobs</guid>
+      <category>Blog</category>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cohere’s Command R Enterprise Model Coming to ai.nvidia.com</title>
+      <link>https://cohere.com/blog/cohere-launch-nvidia</link>
+      <description>Cohere’s Command R Enterprise Model Coming to ai.nvidia.com</description>
+      <guid isPermaLink="false">https://cohere.com/blog/cohere-launch-nvidia</guid>
       <category>Blog</category>
       <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
     </item>
@@ -2207,18 +2207,18 @@
       <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Cohere Opens New York Office</title>
-      <link>https://cohere.com/blog/cohere-new-york-office</link>
-      <description>Cohere Opens New York Office</description>
-      <guid isPermaLink="false">https://cohere.com/blog/cohere-new-york-office</guid>
-      <category>Blog</category>
-      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Harnessing AI against infectious diseases: Insights from BlueDot's CEO</title>
       <link>https://cohere.com/blog/fighting-infectious-disease-with-ai-a-chat-with-bluedot-ceo</link>
       <description>Harnessing AI against infectious diseases: Insights from BlueDot's CEO</description>
       <guid isPermaLink="false">https://cohere.com/blog/fighting-infectious-disease-with-ai-a-chat-with-bluedot-ceo</guid>
+      <category>Blog</category>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cohere Opens New York Office</title>
+      <link>https://cohere.com/blog/cohere-new-york-office</link>
+      <description>Cohere Opens New York Office</description>
+      <guid isPermaLink="false">https://cohere.com/blog/cohere-new-york-office</guid>
       <category>Blog</category>
       <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
     </item>
@@ -2263,18 +2263,18 @@
       <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Cohere Joins New U.S. AI Safety Institute Consortium</title>
-      <link>https://cohere.com/blog/cohere-joins-us-ai-safety-consortium</link>
-      <description>Cohere Joins New U.S. AI Safety Institute Consortium</description>
-      <guid isPermaLink="false">https://cohere.com/blog/cohere-joins-us-ai-safety-consortium</guid>
-      <category>Blog</category>
-      <pubDate>Thu, 08 Feb 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>How to Choose the Right AI Model for Your Enterprise</title>
       <link>https://cohere.com/blog/how-to-choose-the-right-ai-model-for-your-enterprise</link>
       <description>How to Choose the Right AI Model for Your Enterprise</description>
       <guid isPermaLink="false">https://cohere.com/blog/how-to-choose-the-right-ai-model-for-your-enterprise</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 08 Feb 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cohere Joins New U.S. AI Safety Institute Consortium</title>
+      <link>https://cohere.com/blog/cohere-joins-us-ai-safety-consortium</link>
+      <description>Cohere Joins New U.S. AI Safety Institute Consortium</description>
+      <guid isPermaLink="false">https://cohere.com/blog/cohere-joins-us-ai-safety-consortium</guid>
       <category>Blog</category>
       <pubDate>Thu, 08 Feb 2024 00:00:00 +0000</pubDate>
     </item>
@@ -2503,18 +2503,18 @@
       <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Cohere For AI Scholars Program: Your Research Journey Starts Here</title>
-      <link>https://cohere.com/blog/c4ai-scholars-program</link>
-      <description>Cohere For AI Scholars Program: Your Research Journey Starts Here</description>
-      <guid isPermaLink="false">https://cohere.com/blog/c4ai-scholars-program</guid>
-      <category>Blog</category>
-      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Sherlock AI Won AI Tinkerers Hackathon Using Cohere Rerank</title>
       <link>https://cohere.com/blog/sherlock-ai-won-ai-tinkerers-hackathon-using-cohere-rerank</link>
       <description>Sherlock AI Won AI Tinkerers Hackathon Using Cohere Rerank</description>
       <guid isPermaLink="false">https://cohere.com/blog/sherlock-ai-won-ai-tinkerers-hackathon-using-cohere-rerank</guid>
+      <category>Blog</category>
+      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cohere For AI Scholars Program: Your Research Journey Starts Here</title>
+      <link>https://cohere.com/blog/c4ai-scholars-program</link>
+      <description>Cohere For AI Scholars Program: Your Research Journey Starts Here</description>
+      <guid isPermaLink="false">https://cohere.com/blog/c4ai-scholars-program</guid>
       <category>Blog</category>
       <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
     </item>
@@ -2567,10 +2567,10 @@
       <pubDate>Wed, 05 Jul 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Using the Command Model in Amazon SageMaker Studio</title>
-      <link>https://cohere.com/blog/command-sagemaker-studio</link>
-      <description>Using the Command Model in Amazon SageMaker Studio</description>
-      <guid isPermaLink="false">https://cohere.com/blog/command-sagemaker-studio</guid>
+      <title>Intriguing Properties of Quantization at Scale Paper</title>
+      <link>https://cohere.com/blog/intriguing-properties-of-quantization-at-scale</link>
+      <description>Intriguing Properties of Quantization at Scale Paper</description>
+      <guid isPermaLink="false">https://cohere.com/blog/intriguing-properties-of-quantization-at-scale</guid>
       <category>Blog</category>
       <pubDate>Thu, 29 Jun 2023 00:00:00 +0000</pubDate>
     </item>
@@ -2583,10 +2583,10 @@
       <pubDate>Thu, 29 Jun 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Intriguing Properties of Quantization at Scale Paper</title>
-      <link>https://cohere.com/blog/intriguing-properties-of-quantization-at-scale</link>
-      <description>Intriguing Properties of Quantization at Scale Paper</description>
-      <guid isPermaLink="false">https://cohere.com/blog/intriguing-properties-of-quantization-at-scale</guid>
+      <title>Using the Command Model in Amazon SageMaker Studio</title>
+      <link>https://cohere.com/blog/command-sagemaker-studio</link>
+      <description>Using the Command Model in Amazon SageMaker Studio</description>
+      <guid isPermaLink="false">https://cohere.com/blog/command-sagemaker-studio</guid>
       <category>Blog</category>
       <pubDate>Thu, 29 Jun 2023 00:00:00 +0000</pubDate>
     </item>
@@ -3087,18 +3087,18 @@
       <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing: Cohere For AI</title>
-      <link>https://cohere.com/blog/introducing-cohere-for-ai</link>
-      <description>Introducing: Cohere For AI</description>
-      <guid isPermaLink="false">https://cohere.com/blog/introducing-cohere-for-ai</guid>
-      <category>Blog</category>
-      <pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Why You Need a Large Language Model for Intent Recognition</title>
       <link>https://cohere.com/blog/llms-for-intent-recognition</link>
       <description>Why You Need a Large Language Model for Intent Recognition</description>
       <guid isPermaLink="false">https://cohere.com/blog/llms-for-intent-recognition</guid>
+      <category>Blog</category>
+      <pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing: Cohere For AI</title>
+      <link>https://cohere.com/blog/introducing-cohere-for-ai</link>
+      <description>Introducing: Cohere For AI</description>
+      <guid isPermaLink="false">https://cohere.com/blog/introducing-cohere-for-ai</guid>
       <category>Blog</category>
       <pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate>
     </item>

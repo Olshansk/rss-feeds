@@ -16,6 +16,7 @@ from feed_history import merge_feed_history, require_posts
 from static_pages import fetch_paginated
 from utils import (
     deserialize_entries,
+    fetch_page,
     load_cache,
     save_cache,
     save_rss_feed,
@@ -115,7 +116,7 @@ def main(full_reset: bool = False) -> bool:
     3. Merge by URL, save the cache, and publish the RSS.
     """
     cached = deserialize_entries(load_cache(FEED_NAME).get("entries", []))
-    fresh = fetch_all_posts(MAX_PAGES_FULL if full_reset or not cached else 1)
+    fresh = fetch_all_posts() if full_reset or not cached else parse_blog_html(fetch_page(BLOG_URL))
     posts = merge_feed_history(require_posts(fresh), FEED_NAME, match_titles=True)
     save_rss_feed(generate_rss_feed(posts), FEED_NAME)
     save_cache(FEED_NAME, posts)
