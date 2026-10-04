@@ -68,5 +68,12 @@
     "fixture": "windsurf_next_changelog.html",
     "title": "Windsurf Next 3.9.1018",
     "date": "2026-09-05"
+  },
+  {
+    "module": "google_ai_blog",
+    "parser": "parse_blog_posts",
+    "fixture": "google_ai.html",
+    "title": "Accelerating Spatio-Temporal",
+    "date": "2026-09-30"
   }
 ]

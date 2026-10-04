@@ -1,9 +1,7 @@
-from datetime import datetime
-
-import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
+from dates import parse_date
 from utils import fetch_page, save_rss_feed, setup_feed_links, setup_logging, sort_posts_for_feed
 
 # TODO_IMPROVE: Add caching (Pattern 2) and "Load More" pagination support.
@@ -29,28 +27,6 @@ def fetch_blog_content(url=BLOG_URL):
     except Exception as e:
         logger.error(f"Error fetching content: {e}")
         raise
-
-
-def parse_date(date_str):
-    """Parse date string like 'DEC. 19, 2025' to datetime object."""
-    try:
-        # Remove the period after the month abbreviation and normalize case
-        # e.g., "MARCH 23, 2026" -> "March 23, 2026", "DEC. 19, 2025" -> "Dec 19, 2025"
-        date_str = date_str.replace(".", "").strip().title()
-        # Try abbreviated month first, then full month name
-        for fmt in ("%b %d, %Y", "%B %d, %Y"):
-            try:
-                dt = datetime.strptime(date_str, fmt)
-                break
-            except ValueError:
-                continue
-        else:
-            raise ValueError(f"No matching date format for '{date_str}'")
-        # Make it timezone-aware (UTC)
-        return dt.replace(tzinfo=pytz.UTC)
-    except Exception as e:
-        logger.warning(f"Could not parse date '{date_str}': {e}")
-        return None
 
 
 def parse_blog_posts(html_content):
@@ -145,6 +121,7 @@ def create_rss_feed(posts):
     # Add entries to feed
     for post in sorted_posts:
         fe = fg.add_entry()
+        fe.id(post["link"])
         fe.title(post["title"])
         fe.link(href=post["link"])
 
