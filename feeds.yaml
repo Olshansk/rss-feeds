@@ -146,7 +146,7 @@ feeds:
 
   the_batch:
     script: deeplearningai_the_batch.py
-    type: requests
+    type: selenium
     blog_url: https://www.deeplearning.ai/the-batch/
 
   transluce:

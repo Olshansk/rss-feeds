@@ -7,10 +7,10 @@ from bs4 import BeautifulSoup
 from dateutil import parser as date_parser
 from feedgen.feed import FeedGenerator
 
-from feed_history import require_posts
+from dynamic_pages import fetch_static_or_rendered
+from feed_history import load_feed_history, merge_feed_history, require_posts
 from utils import (
     deserialize_entries,
-    fetch_page,
     load_cache,
     merge_entries,
     save_cache,
@@ -231,7 +231,7 @@ def fetch_all_articles(max_pages: int = MAX_PAGES) -> list[dict]:
             url = f"{BLOG_URL}page/{page_num}/"
 
         try:
-            html_content = fetch_page(url)
+            html_content = fetch_static_or_rendered(url, "article.card")
         except requests.exceptions.HTTPError as e:
             if e.response.status_code == 404:
                 logger.info(f"Page {page_num} not found (404), stopping pagination")
@@ -295,7 +295,7 @@ def main(full_reset=False):
         full_reset: If True, fetch all pages. If False, fetch only first 3 pages and merge with cache.
     """
     cache = load_cache(FEED_NAME)
-    cached_articles = deserialize_entries(cache.get("entries", []))
+    cached_articles = merge_entries(deserialize_entries(cache.get("entries", [])), load_feed_history(FEED_NAME))
 
     if full_reset or not cached_articles:
         mode = "full reset" if full_reset else "no cache exists"
@@ -311,8 +311,7 @@ def main(full_reset=False):
         logger.warning("No articles found")
         return False
 
-    # Save to cache
-
+    articles = merge_feed_history(articles, FEED_NAME)
     feed = build_feed(articles)
     save_rss_feed(feed, FEED_NAME)
     save_cache(FEED_NAME, articles)

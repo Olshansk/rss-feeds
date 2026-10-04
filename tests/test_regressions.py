@@ -22,9 +22,9 @@ class RegressionTests(unittest.TestCase):
 
     def test_batch_ignores_bundled_error_markup(self):
         html = (Path(__file__).parent / "fixtures/the_batch.html").read_text() + '<script>"Page not found"</script>'
-        with patch.object(batch, "fetch_page", return_value=html):
+        with patch.object(batch, "fetch_static_or_rendered", return_value=html):
             self.assertTrue(batch.fetch_all_articles(max_pages=1))
 
     def test_batch_empty_page_fails(self):
-        with patch.object(batch, "fetch_page", return_value="<html/>"), self.assertRaises(ValueError):
+        with patch.object(batch, "fetch_static_or_rendered", return_value="<html/>"), self.assertRaises(ValueError):
             batch.fetch_all_articles(max_pages=1)

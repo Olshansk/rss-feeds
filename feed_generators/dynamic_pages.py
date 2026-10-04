@@ -5,9 +5,28 @@ import os
 import re
 import subprocess
 
-from static_pages import DEFAULT_USER_AGENT
+from requests import HTTPError
+
+from static_pages import DEFAULT_USER_AGENT, fetch_page
 
 logger = logging.getLogger(__name__)
+
+
+def fetch_static_or_rendered(url, article_selector):
+    """Read public HTML with a browser fallback for HTTP-client restrictions.
+
+    How:
+    1. Try the bounded static fetch.
+    2. On HTTP 403, load the public page in Chrome and require article elements.
+    3. Propagate other HTTP failures, including pagination-ending 404 responses.
+    """
+    try:
+        return fetch_page(url)
+    except HTTPError as error:
+        if error.response is None or error.response.status_code != 403:
+            raise
+        logger.info("HTTP client received 403; checking public page in Chrome: %s", url)
+        return fetch_rendered(url, article_selector)
 
 
 def get_chrome_major_version() -> int | None:
