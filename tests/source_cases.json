@@ -61,5 +61,12 @@
     "fixture": "windsurf_changelog.html",
     "title": "Windsurf 3.8.20",
     "date": "2026-08-21"
+  },
+  {
+    "module": "windsurf_next_changelog",
+    "parser": "parse_changelog_html",
+    "fixture": "windsurf_next_changelog.html",
+    "title": "Windsurf Next 3.9.1018",
+    "date": "2026-09-05"
   }
 ]
