@@ -35,6 +35,7 @@ jobs:
           install-chromedriver: true
 
       - name: Install dependencies and run Selenium feeds
+        id: generate
         timeout-minutes: 45
         run: |
           set -e
@@ -42,14 +43,19 @@ jobs:
           uv run feed_generators/run_all_feeds.py --selenium-only
 
       - name: Commit and push feeds
-        if: github.ref == 'refs/heads/main'
+        if: ${{ !cancelled() && github.ref == 'refs/heads/main' && (steps.generate.outcome == 'success' || steps.generate.outcome == 'failure') }}
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add feeds/*.xml
+          if git diff --staged --quiet; then
+            echo "No validated feed updates to publish"
+            exit 0
+          fi
           git stash
           git pull --rebase || { echo "Rebase failed, aborting and retrying with merge"; git rebase --abort 2>/dev/null; git pull; }
-          git stash pop || true
+          git stash pop
+          uv run feed_generators/validate_feeds.py
           git add feeds/*.xml
           if git diff --staged --quiet; then
             echo "No changes to commit"

@@ -34,6 +34,7 @@ jobs:
           enable-cache: true
 
       - name: Install dependencies and run feeds
+        id: generate
         timeout-minutes: 20
         env:
           FEED: ${{ inputs.feed }}
@@ -47,14 +48,19 @@ jobs:
           fi
 
       - name: Commit and push feeds
-        if: github.ref == 'refs/heads/main'
+        if: ${{ !cancelled() && github.ref == 'refs/heads/main' && (steps.generate.outcome == 'success' || steps.generate.outcome == 'failure') }}
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add feeds/*.xml
+          if git diff --staged --quiet; then
+            echo "No validated feed updates to publish"
+            exit 0
+          fi
           git stash
           git pull --rebase || { echo "Rebase failed, aborting and retrying with merge"; git rebase --abort 2>/dev/null; git pull; }
-          git stash pop || true
+          git stash pop
+          uv run feed_generators/validate_feeds.py
           git add feeds/*.xml
           if git diff --staged --quiet; then
             echo "No changes to commit"
