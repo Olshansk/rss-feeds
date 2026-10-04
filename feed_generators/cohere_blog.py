@@ -1,122 +1,88 @@
 """Generate RSS feed for the Cohere Blog (https://cohere.com/blog).
 
-The Cohere blog is built on Ghost CMS. We fetch posts directly from the Ghost
-Content API instead of scraping HTML.
+Read dated cards from the current HTML listing and preserve cached history.
 """
 
 import argparse
+import re
 from datetime import datetime
+from urllib.parse import urljoin
 
 import pytz
-import requests
+from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
+from feed_history import merge_feed_history, require_posts
 from utils import (
     deserialize_entries,
+    fetch_page,
     load_cache,
-    merge_entries,
     save_cache,
     save_rss_feed,
     setup_feed_links,
     setup_logging,
     sort_posts_for_feed,
-    stable_fallback_date,
 )
 
 logger = setup_logging()
 
 FEED_NAME = "cohere"
 BLOG_URL = "https://cohere.com/blog"
-GHOST_API_URL = "https://cohere-ai.ghost.io/ghost/api/content/posts/"
-# Ghost Content API keys are intentionally public (like a Stripe publishable
-# key). This is the key the cohere.com/blog front-end itself uses; it is
-# read-only and rate-limited by Ghost.
-GHOST_API_KEY = "572d288a9364f8e4186af1d60a"
-MAX_POSTS_FULL = 50
-MAX_POSTS_INCREMENTAL = 15
+MAX_PAGES_FULL = 30
 
 
-def fetch_posts_page(limit: int, page: int) -> dict:
-    """Fetch a single page of posts from the Ghost Content API."""
-    params = {
-        "key": GHOST_API_KEY,
-        "limit": limit,
-        "page": page,
-        "include": "tags,authors",
-        "order": "published_at desc",
-    }
-    headers = {
-        "User-Agent": "Mozilla/5.0 (compatible; RSS Feed Generator)",
-        "Accept": "application/json",
-    }
-    response = requests.get(GHOST_API_URL, params=params, headers=headers, timeout=30)
-    response.raise_for_status()
-    return response.json()
+def parse_blog_html(html: str) -> list[dict]:
+    """Read dated article cards from Cohere's current blog listing.
 
-
-def parse_api_posts(api_data: dict) -> list[dict]:
-    """Extract post dicts from a Ghost API response."""
-    posts = []
-    for post in api_data.get("posts", []):
-        title = (post.get("title") or "").strip()
-        if not title:
+    How:
+    1. Select article links, excluding tags and navigation.
+    2. Read titles, summaries, and publication dates inside each card.
+    3. Deduplicate cards shared by the featured and latest sections.
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    posts = {}
+    for card in soup.select('main a[href^="/blog/"]'):
+        if "/tag/" in card["href"]:
             continue
-
-        slug = post.get("slug", "")
-        link = f"https://cohere.com/blog/{slug}"
-
-        date = None
-        published_at = post.get("published_at")
-        if published_at:
-            try:
-                date = datetime.fromisoformat(published_at)
-                if date.tzinfo is None:
-                    date = date.replace(tzinfo=pytz.UTC)
-            except ValueError:
-                logger.warning(f"Could not parse date for: {title}")
-        if not date:
-            date = stable_fallback_date(link)
-
-        description = post.get("custom_excerpt") or title
-        tags = post.get("tags") or []
-        category = tags[0]["name"] if tags else "Blog"
-
-        posts.append(
-            {
-                "title": title,
-                "link": link,
-                "date": date,
-                "description": description,
-                "category": category,
-            }
-        )
-    return posts
+        paragraphs = card.find_all("p")
+        if not paragraphs:
+            continue
+        match = re.search(r"[A-Z][a-z]{2} \d{1,2}, \d{4}", card.get_text(" ", strip=True))
+        if not match:
+            continue
+        link = urljoin(BLOG_URL, card["href"]).rstrip("/")
+        title = paragraphs[0].get_text(" ", strip=True)
+        summaries = [
+            p.get_text(" ", strip=True) for p in paragraphs[1:] if not re.search(r"\d.*(?:read|, \d{4})", p.get_text())
+        ]
+        posts[link] = {
+            "title": title,
+            "link": link,
+            "date": datetime.strptime(match.group(), "%b %d, %Y").replace(tzinfo=pytz.UTC),
+            "description": summaries[0] if summaries else title,
+            "category": "Blog",
+        }
+    return list(posts.values())
 
 
-def fetch_all_posts(max_posts: int = MAX_POSTS_FULL) -> list[dict]:
-    """Fetch posts across Ghost API pages until max_posts is reached."""
-    all_posts = []
-    page = 1
-    per_page = min(max_posts, 15)
+def fetch_all_posts(max_pages: int = MAX_PAGES_FULL) -> list[dict]:
+    """Follow Cohere's numbered HTML pages and reject broken or empty pages.
 
-    while len(all_posts) < max_posts:
-        logger.info(f"Fetching page {page} (limit={per_page})")
-        api_data = fetch_posts_page(limit=per_page, page=page)
-        posts = parse_api_posts(api_data)
-        if not posts:
-            logger.info(f"No posts returned on page {page}, stopping")
+    How:
+    1. Fetch and parse each page with a bounded request.
+    2. Follow the next numbered link while within the page limit.
+    3. Return posts for merging with persisted history.
+    """
+    posts = {}
+    for page in range(1, max_pages + 1):
+        html = fetch_page(BLOG_URL if page == 1 else f"{BLOG_URL}?page={page}")
+        current = parse_blog_html(html)
+        if not current:
+            raise ValueError(f"No Cohere articles found on page {page}")
+        posts.update({post["link"]: post for post in current})
+        if not BeautifulSoup(html, "html.parser").select_one(f'a[href="/blog?page={page + 1}"]'):
             break
-
-        all_posts.extend(posts)
-        logger.info(f"Page {page}: {len(posts)} posts (total: {len(all_posts)})")
-
-        pagination = api_data.get("meta", {}).get("pagination", {})
-        if not pagination.get("next"):
-            logger.info("No more pages available")
-            break
-        page += 1
-
-    return all_posts[:max_posts]
+    return list(posts.values())
 
 
 def generate_rss_feed(posts: list[dict]) -> FeedGenerator:
@@ -134,7 +100,7 @@ def generate_rss_feed(posts: list[dict]) -> FeedGenerator:
         fe.title(post["title"])
         fe.description(post["description"])
         fe.link(href=post["link"])
-        fe.id(post["link"])
+        fe.id(post.get("guid") or post["link"])
         fe.category(term=post["category"])
         if post.get("date"):
             fe.published(post["date"])
@@ -144,34 +110,23 @@ def generate_rss_feed(posts: list[dict]) -> FeedGenerator:
 
 
 def main(full_reset: bool = False) -> bool:
-    cache = load_cache(FEED_NAME)
-    cached_entries = deserialize_entries(cache.get("entries", []))
+    """Refresh Cohere and persist both the cache and subscriber feed.
 
-    if full_reset or not cached_entries:
-        mode = "full reset" if full_reset else "no cache exists"
-        logger.info(f"Running full fetch ({mode})")
-        new_posts = fetch_all_posts(max_posts=MAX_POSTS_FULL)
-        posts = sort_posts_for_feed(new_posts, date_field="date")
-    else:
-        logger.info("Running incremental update")
-        api_data = fetch_posts_page(limit=MAX_POSTS_INCREMENTAL, page=1)
-        new_posts = parse_api_posts(api_data)
-        logger.info(f"Fetched {len(new_posts)} posts from API")
-        posts = merge_entries(new_posts, cached_entries)
-
-    if not posts:
-        logger.warning("No posts found. Check the Ghost API response.")
-        return False
-
+    How:
+    1. Load cache and checked-in feed history before fetching.
+    2. Fetch current pages, including the archive on a full run.
+    3. Merge by URL, save the cache, and publish the RSS.
+    """
+    cached = deserialize_entries(load_cache(FEED_NAME).get("entries", []))
+    fresh = fetch_all_posts(MAX_PAGES_FULL if full_reset or not cached else 1)
+    posts = merge_feed_history(require_posts(fresh), FEED_NAME, match_titles=True)
+    save_rss_feed(generate_rss_feed(posts), FEED_NAME)
     save_cache(FEED_NAME, posts)
-    feed = generate_rss_feed(posts)
-    save_rss_feed(feed, FEED_NAME)
-    logger.info("Done!")
     return True
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate Cohere Blog RSS feed")
-    parser.add_argument("--full", action="store_true", help="Force full reset (fetch up to 50 posts)")
+    parser.add_argument("--full", action="store_true", help="Force full reset (fetch all current pages)")
     args = parser.parse_args()
-    main(full_reset=args.full)
+    raise SystemExit(0 if main(full_reset=args.full) else 1)

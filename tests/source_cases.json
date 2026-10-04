@@ -5,5 +5,12 @@
     "fixture": "anthropic_red.html",
     "title": "Patterns and problems",
     "date": "2026-08-13"
+  },
+  {
+    "module": "cohere_blog",
+    "parser": "parse_blog_html",
+    "fixture": "cohere.html",
+    "title": "Automation\u2019s Early Footprint",
+    "date": "2026-09-03"
   }
 ]
