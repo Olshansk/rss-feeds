@@ -96,5 +96,12 @@
     "fixture": "perplexity_browser.html",
     "title": "Optimizing On-Device",
     "date": "2026-09-01"
+  },
+  {
+    "module": "openai_engineering_blog",
+    "parser": "parse_engineering_posts",
+    "fixture": "openai_engineering.xml",
+    "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+    "date": "2026-09-11"
   }
 ]

@@ -3,16 +3,17 @@
   <channel>
     <title>OpenAI Engineering</title>
     <link>https://openai.com/news/engineering/</link>
-    <description>Engineering posts from the official OpenAI news feed</description>
+    <description>Engineering posts from OpenAI</description>
     <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_openai_engineering.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 18:37:56 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 19:19:57 +0000</lastBuildDate>
     <item>
       <title>Rapidly scaling online storage to serve over 1 billion ChatGPT users</title>
       <link>https://openai.com/index/scaling-storage-one-billion-users-part-one</link>
       <description>Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.</description>
+      <guid isPermaLink="false">https://openai.com/index/scaling-storage-one-billion-users-part-one</guid>
       <category>Engineering</category>
       <pubDate>Fri, 11 Sep 2026 10:00:00 +0000</pubDate>
     </item>
@@ -20,6 +21,7 @@
       <title>Jalapeño’s first results show industry-leading speed and efficiency in AI inference</title>
       <link>https://openai.com/index/jalapeno-first-results</link>
       <description>Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.</description>
+      <guid isPermaLink="false">https://openai.com/index/jalapeno-first-results</guid>
       <category>Engineering</category>
       <pubDate>Tue, 25 Aug 2026 07:00:00 +0000</pubDate>
     </item>
@@ -27,6 +29,7 @@
       <title>How we built a realtime system for responsive voice AI in six months</title>
       <link>https://openai.com/index/continuous-voice-interaction-with-gpt-live</link>
       <description>GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.</description>
+      <guid isPermaLink="false">https://openai.com/index/continuous-voice-interaction-with-gpt-live</guid>
       <category>Engineering</category>
       <pubDate>Mon, 03 Aug 2026 07:00:00 +0000</pubDate>
     </item>
@@ -34,6 +37,7 @@
       <title>How GPT-5.6 fuses frontier intelligence with frontier efficiency</title>
       <link>https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency</link>
       <description>GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.</description>
+      <guid isPermaLink="false">https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency</guid>
       <category>Engineering</category>
       <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
     </item>
@@ -41,6 +45,7 @@
       <title>Core dump epidemiology: fixing an 18-year-old bug</title>
       <link>https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug</link>
       <description>OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.</description>
+      <guid isPermaLink="false">https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug</guid>
       <category>Engineering</category>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -48,6 +53,7 @@
       <title>Building self-improving tax agents with Codex</title>
       <link>https://openai.com/index/building-self-improving-tax-agents-with-codex</link>
       <description>See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.</description>
+      <guid isPermaLink="false">https://openai.com/index/building-self-improving-tax-agents-with-codex</guid>
       <category>Engineering</category>
       <pubDate>Wed, 27 May 2026 07:00:00 +0000</pubDate>
     </item>
@@ -55,6 +61,7 @@
       <title>Building a safe, effective sandbox to enable Codex on Windows</title>
       <link>https://openai.com/index/building-codex-windows-sandbox</link>
       <description>Learn how OpenAI built a safe, effective sandbox to enable Codex on Windows with controlled file access and network limits.</description>
+      <guid isPermaLink="false">https://openai.com/index/building-codex-windows-sandbox</guid>
       <category>Engineering</category>
       <pubDate>Wed, 13 May 2026 11:00:00 +0000</pubDate>
     </item>
@@ -62,6 +69,7 @@
       <title>Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)</title>
       <link>https://openai.com/index/mrc-supercomputer-networking</link>
       <description>OpenAI introduces MRC (Multipath Reliable Connection), a new supercomputer networking protocol released via OCP to improve resilience and performance in large-scale AI training clusters.</description>
+      <guid isPermaLink="false">https://openai.com/index/mrc-supercomputer-networking</guid>
       <category>Engineering</category>
       <pubDate>Tue, 05 May 2026 10:00:00 +0000</pubDate>
     </item>
@@ -69,6 +77,7 @@
       <title>How OpenAI delivers low-latency voice AI at scale</title>
       <link>https://openai.com/index/delivering-low-latency-voice-ai-at-scale</link>
       <description>How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.</description>
+      <guid isPermaLink="false">https://openai.com/index/delivering-low-latency-voice-ai-at-scale</guid>
       <category>Engineering</category>
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
     </item>
@@ -76,6 +85,7 @@
       <title>An open-source spec for orchestration: Symphony</title>
       <link>https://openai.com/index/open-source-codex-orchestration-symphony</link>
       <description>Learn how Symphony, an open-source spec for Codex orchestration, turns issue trackers into always-on agent systems—boosting engineering output and reducing context switching.</description>
+      <guid isPermaLink="false">https://openai.com/index/open-source-codex-orchestration-symphony</guid>
       <category>Engineering</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
     </item>
@@ -83,6 +93,7 @@
       <title>Speeding up agentic workflows with WebSockets in the Responses API</title>
       <link>https://openai.com/index/speeding-up-agentic-workflows-with-websockets</link>
       <description>A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.</description>
+      <guid isPermaLink="false">https://openai.com/index/speeding-up-agentic-workflows-with-websockets</guid>
       <category>Engineering</category>
       <pubDate>Wed, 22 Apr 2026 10:00:00 +0000</pubDate>
     </item>
@@ -90,6 +101,7 @@
       <title>From model to agent: Equipping the Responses API with a computer environment</title>
       <link>https://openai.com/index/equip-responses-api-computer-environment</link>
       <description>How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.</description>
+      <guid isPermaLink="false">https://openai.com/index/equip-responses-api-computer-environment</guid>
       <category>Engineering</category>
       <pubDate>Wed, 11 Mar 2026 11:00:00 +0000</pubDate>
     </item>
@@ -97,6 +109,7 @@
       <title>Beyond rate limits: scaling access to Codex and Sora</title>
       <link>https://openai.com/index/beyond-rate-limits</link>
       <description>How OpenAI built a real-time access system combining rate limits, usage tracking, and credits to power continuous access to Sora and Codex.</description>
+      <guid isPermaLink="false">https://openai.com/index/beyond-rate-limits</guid>
       <category>Engineering</category>
       <pubDate>Fri, 13 Feb 2026 09:00:00 +0000</pubDate>
     </item>
@@ -104,6 +117,7 @@
       <title>Harness engineering: leveraging Codex in an agent-first world</title>
       <link>https://openai.com/index/harness-engineering</link>
       <description>By Ryan Lopopolo, Member of the Technical Staff</description>
+      <guid isPermaLink="false">https://openai.com/index/harness-engineering</guid>
       <category>Engineering</category>
       <pubDate>Wed, 11 Feb 2026 09:00:00 +0000</pubDate>
     </item>
@@ -111,6 +125,7 @@
       <title>Unlocking the Codex harness: how we built the App Server</title>
       <link>https://openai.com/index/unlocking-the-codex-harness</link>
       <description>Learn how to embed the Codex agent using the Codex App Server, a bidirectional JSON-RPC API powering streaming progress, tool use, approvals, and diffs.</description>
+      <guid isPermaLink="false">https://openai.com/index/unlocking-the-codex-harness</guid>
       <category>Engineering</category>
       <pubDate>Wed, 04 Feb 2026 13:00:00 +0000</pubDate>
     </item>
@@ -118,6 +133,7 @@
       <title>Inside OpenAI’s in-house data agent</title>
       <link>https://openai.com/index/inside-our-in-house-data-agent</link>
       <description>How OpenAI built an in-house AI data agent that uses GPT-5, Codex, and memory to reason over massive datasets and deliver reliable insights in minutes.</description>
+      <guid isPermaLink="false">https://openai.com/index/inside-our-in-house-data-agent</guid>
       <category>Engineering</category>
       <pubDate>Thu, 29 Jan 2026 10:00:00 +0000</pubDate>
     </item>
@@ -125,6 +141,7 @@
       <title>Unrolling the Codex agent loop</title>
       <link>https://openai.com/index/unrolling-the-codex-agent-loop</link>
       <description>A technical deep dive into the Codex agent loop, explaining how Codex CLI orchestrates models, tools, prompts, and performance using the Responses API.</description>
+      <guid isPermaLink="false">https://openai.com/index/unrolling-the-codex-agent-loop</guid>
       <category>Engineering</category>
       <pubDate>Fri, 23 Jan 2026 12:00:00 +0000</pubDate>
     </item>
@@ -132,6 +149,7 @@
       <title>Scaling PostgreSQL to power 800 million ChatGPT users</title>
       <link>https://openai.com/index/scaling-postgresql</link>
       <description>An inside look at how OpenAI scaled PostgreSQL to millions of queries per second using replicas, caching, rate limiting, and workload isolation.</description>
+      <guid isPermaLink="false">https://openai.com/index/scaling-postgresql</guid>
       <category>Engineering</category>
       <pubDate>Thu, 22 Jan 2026 12:00:00 +0000</pubDate>
     </item>
@@ -139,6 +157,7 @@
       <title>How We Used Codex to Ship Sora for Android in 28 Days</title>
       <link>https://openai.com/index/shipping-sora-for-android-with-codex</link>
       <description>OpenAI shipped Sora for Android in 28 days using Codex. AI-assisted planning, translation, and parallel coding workflows helped a nimble team deliver rapid, reliable development.</description>
+      <guid isPermaLink="false">https://openai.com/index/shipping-sora-for-android-with-codex</guid>
       <category>Engineering</category>
       <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
     </item>
@@ -146,6 +165,7 @@
       <title>How we built OWL, the new architecture behind our ChatGPT-based browser, Atlas</title>
       <link>https://openai.com/index/building-chatgpt-atlas</link>
       <description>A deep dive into OWL, the new architecture powering ChatGPT Atlas—decoupling Chromium, enabling fast startup, rich UI, and agentic browsing with ChatGPT.</description>
+      <guid isPermaLink="false">https://openai.com/index/building-chatgpt-atlas</guid>
       <category>Engineering</category>
       <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
     </item>

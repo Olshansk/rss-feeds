@@ -1,107 +1,41 @@
-import logging
-from email.utils import parsedate_to_datetime
+"""Mirror the existing OpenAI Engineering endpoint from official category metadata."""
 
-import requests
-from bs4 import BeautifulSoup
-from feedgen.feed import FeedGenerator
+from feed_history import merge_feed_history
+from native_rss import generate_feed, parse_rss
+from static_pages import fetch_page
+from utils import save_rss_feed
 
-from utils import get_feeds_dir, setup_feed_links, sort_posts_for_feed
-
-RSS_URL = "https://openai.com/news/rss.xml"
-BLOG_URL = "https://openai.com/news/engineering/"
-CATEGORY = "Engineering"
 FEED_NAME = "openai_engineering"
-
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
-logger = logging.getLogger(__name__)
-
-
-def fetch_rss_content(url: str = RSS_URL) -> str:
-    """Fetch the official OpenAI news RSS feed."""
-    logger.info("Fetching RSS content from %s", url)
-    headers = {
-        "User-Agent": (
-            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/122.0.0.0 Safari/537.36"
-        )
-    }
-    response = requests.get(url, headers=headers, timeout=30)
-    response.raise_for_status()
-    return response.text
+BLOG_URL = "https://openai.com/news/engineering/"
+RSS_URL = "https://openai.com/news/rss.xml"
 
 
-def parse_engineering_posts(rss_content: str) -> list[dict]:
-    """Parse Engineering-tagged items from the official OpenAI RSS feed."""
-    soup = BeautifulSoup(rss_content, "xml")
-    posts = []
-
-    for item in soup.find_all("item"):
-        category = item.find("category")
-        if not category or category.get_text(strip=True) != CATEGORY:
-            continue
-
-        title = item.find("title")
-        link = item.find("link")
-        description = item.find("description")
-        pub_date = item.find("pubDate")
-
-        if not title or not link:
-            logger.warning("Skipping item missing title or link")
-            continue
-
-        parsed_date = None
-        if pub_date and pub_date.get_text(strip=True):
-            parsed_date = parsedate_to_datetime(pub_date.get_text(strip=True))
-
-        posts.append(
-            {
-                "title": title.get_text(strip=True),
-                "link": link.get_text(strip=True),
-                "description": description.get_text(strip=True) if description else "",
-                "date": parsed_date,
-                "category": CATEGORY,
-            }
-        )
-
-    logger.info("Parsed %s engineering posts", len(posts))
-    return posts
+def parse_engineering_posts(content):
+    """Select Engineering from all category tags and require valid dates."""
+    return parse_rss(content, category="Engineering")
 
 
-def generate_rss_feed(posts: list[dict]) -> FeedGenerator:
-    """Generate the RSS feed for OpenAI Engineering posts."""
-    fg = FeedGenerator()
-    fg.title("OpenAI Engineering")
-    fg.description("Engineering posts from the official OpenAI news feed")
-    setup_feed_links(fg, blog_url=BLOG_URL, feed_name=FEED_NAME)
-    fg.language("en")
-
-    for post in sort_posts_for_feed(posts, date_field="date"):
-        fe = fg.add_entry()
-        fe.title(post["title"])
-        fe.link(href=post["link"])
-        fe.description(post["description"])
-
-        if post["date"] is not None:
-            fe.published(post["date"])
-            fe.updated(post["date"])
-
-        fe.category(term=post["category"])
-
-    return fg
+def generate_rss_feed(posts):
+    """Build the existing endpoint using the shared native-feed writer."""
+    return generate_feed(
+        posts,
+        title="OpenAI Engineering",
+        description="Engineering posts from OpenAI",
+        blog_url=BLOG_URL,
+        feed_name=FEED_NAME,
+    )
 
 
-def main() -> None:
-    """Generate and save the OpenAI Engineering RSS feed."""
-    rss_content = fetch_rss_content()
-    posts = parse_engineering_posts(rss_content)
+def main():
+    """Fetch official content, retain subscriber history, and publish valid RSS.
 
-    if not posts:
-        raise RuntimeError("No engineering posts found in the OpenAI RSS feed")
-
-    output_file = get_feeds_dir() / f"feed_{FEED_NAME}.xml"
-    generate_rss_feed(posts).rss_file(str(output_file), pretty=True)
-    logger.info("Saved RSS feed to %s", output_file)
+    How:
+    1. Fetch and strictly parse the official category entries.
+    2. Merge persisted history without changing subscriber identities.
+    3. Validate and atomically publish the existing endpoint.
+    """
+    posts = merge_feed_history(parse_engineering_posts(fetch_page(RSS_URL)), FEED_NAME)
+    save_rss_feed(generate_rss_feed(posts), FEED_NAME)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,24 @@
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>OpenAI News</title>
+        <description>The OpenAI blog</description>
+        <link>https://openai.com/news</link>
+        <image>
+            <url>https://openai.com/apple-icon.png</url>
+            <title>OpenAI News</title>
+            <link>https://openai.com/news</link>
+        </image>
+        <generator>OpenAI</generator>
+        <lastBuildDate>Sun, 04 Oct 2026 17:28:08 GMT</lastBuildDate>
+        <ns0:link href="https://openai.com/news/rss.xml" rel="self" type="application/rss+xml" />
+        <language>en-US</language>
+        <item>
+            <title>Rapidly scaling online storage to serve over 1 billion ChatGPT users</title>
+            <description>Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.</description>
+            <link>https://openai.com/index/scaling-storage-one-billion-users-part-one</link>
+            <guid isPermaLink="true">https://openai.com/index/scaling-storage-one-billion-users-part-one</guid>
+            <category>Engineering</category>
+            <pubDate>Fri, 11 Sep 2026 10:00:00 GMT</pubDate>
+        </item>
+        </channel>
+</rss>
