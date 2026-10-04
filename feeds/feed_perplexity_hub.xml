@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>Perplexity Blog</title>
-    <link>https://www.perplexity.ai/hub</link>
+    <link>https://www.perplexity.ai/hub/blog</link>
     <description>Updates from Perplexity AI</description>
     <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_perplexity_hub.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
@@ -10,64 +10,536 @@
     <image>
       <url>https://www.perplexity.ai/favicon.ico</url>
       <title>Perplexity Blog</title>
-      <link>https://www.perplexity.ai/hub</link>
+      <link>https://www.perplexity.ai/hub/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 26 May 2026 22:05:50 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 19:17:05 +0000</lastBuildDate>
     <item>
-      <title>Perplexity Is Open-Sourcing Bumblebee</title>
+      <title>AI maturity: what it means for your organization</title>
+      <link>https://www.perplexity.ai/hub/blog/ai-maturity</link>
+      <description>AI maturity: what it means for your organization</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/ai-maturity</guid>
+      <category>Blog</category>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>10 AI Tools for Consultants: Use Cases, Key Features, Pricing &amp; Alternatives</title>
+      <link>https://www.perplexity.ai/hub/blog/ai-tools-for-consultants</link>
+      <description>10 AI Tools for Consultants: Use Cases, Key Features, Pricing &amp; Alternatives</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/ai-tools-for-consultants</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Perplexity and American Express make AI easier for growing businesses</title>
+      <link>https://www.perplexity.ai/hub/blog/perplexity-and-american-express-make-ai-easier-for-growing-businesses</link>
+      <description>Perplexity and American Express make AI easier for growing businesses</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/perplexity-and-american-express-make-ai-easier-for-growing-businesses</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Contextual embedding beyond the gold passage</title>
+      <link>https://www.perplexity.ai/hub/blog/contextual-embedding-beyond-the-gold-passage</link>
+      <description>Contextual embedding beyond the gold passage</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/contextual-embedding-beyond-the-gold-passage</guid>
+      <category>Blog</category>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Computer adds Automations for ongoing work</title>
+      <link>https://www.perplexity.ai/hub/blog/computer-adds-automations-for-ongoing-work</link>
+      <description>Computer adds Automations for ongoing work</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/computer-adds-automations-for-ongoing-work</guid>
+      <category>Blog</category>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How we engineer safer agents</title>
+      <link>https://www.perplexity.ai/hub/blog/how-we-engineer-safer-agents</link>
+      <description>How we engineer safer agents</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/how-we-engineer-safer-agents</guid>
+      <category>Blog</category>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MCP vs. API: A Full Technical Breakdown (Definitions, Differences, and Use Cases)</title>
+      <link>https://www.perplexity.ai/hub/blog/mcp-vs-api</link>
+      <description>MCP vs. API: A Full Technical Breakdown (Definitions, Differences, and Use Cases)</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/mcp-vs-api</guid>
+      <category>Blog</category>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agent API now supports reusable agents</title>
+      <link>https://www.perplexity.ai/hub/blog/agent-api-now-supports-reusable-agents</link>
+      <description>Agent API now supports reusable agents</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/agent-api-now-supports-reusable-agents</guid>
+      <category>Blog</category>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI alignment: current research and debate</title>
+      <link>https://www.perplexity.ai/hub/blog/ai-alignment</link>
+      <description>AI alignment: current research and debate</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/ai-alignment</guid>
+      <category>Blog</category>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Portable Computer comes to AMD-powered agentic PCs</title>
+      <link>https://www.perplexity.ai/hub/blog/portable-computer-comes-to-amd-powered-agentic-pcs</link>
+      <description>Portable Computer comes to AMD-powered agentic PCs</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/portable-computer-comes-to-amd-powered-agentic-pcs</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Photon: Building a retrieval and ranking engine from scratch</title>
+      <link>https://www.perplexity.ai/hub/blog/photon</link>
+      <description>Photon: Building a retrieval and ranking engine from scratch</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/photon</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI for market research: a step-by-step guide</title>
+      <link>https://www.perplexity.ai/hub/blog/ai-for-market-research</link>
+      <description>AI for market research: a step-by-step guide</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/ai-for-market-research</guid>
+      <category>Blog</category>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Escaping SPACE: Part I</title>
+      <link>https://www.perplexity.ai/hub/blog/escaping-space-part-i</link>
+      <description>Escaping SPACE: Part I</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/escaping-space-part-i</guid>
+      <category>Blog</category>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The AI literacy gap is growing. Here’s how to close it.</title>
+      <link>https://www.perplexity.ai/hub/blog/ai-literacy</link>
+      <description>The AI literacy gap is growing. Here’s how to close it.</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/ai-literacy</guid>
+      <category>Blog</category>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Learning from real-world experience</title>
+      <link>https://www.perplexity.ai/hub/blog/learning-from-real-world-experience</link>
+      <description>Learning from real-world experience</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/learning-from-real-world-experience</guid>
+      <category>Blog</category>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Computer adds effort controls for model selection</title>
+      <link>https://www.perplexity.ai/hub/blog/computer-adds-effort-mode-for-model-selection</link>
+      <description>Computer adds effort controls for model selection</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/computer-adds-effort-mode-for-model-selection</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI in the workplace: A practical guide for knowledge workers</title>
+      <link>https://www.perplexity.ai/hub/blog/ai-in-the-workplace</link>
+      <description>AI in the workplace: A practical guide for knowledge workers</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/ai-in-the-workplace</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How AI detectors work and why a score alone can’t prove authorship</title>
+      <link>https://www.perplexity.ai/hub/blog/ai-detector</link>
+      <description>How AI detectors work and why a score alone can’t prove authorship</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/ai-detector</guid>
+      <category>Blog</category>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Shadow AI: Why employees go around IT, and what ends it</title>
+      <link>https://www.perplexity.ai/hub/blog/shadow-ai</link>
+      <description>Shadow AI: Why employees go around IT, and what ends it</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/shadow-ai</guid>
+      <category>Blog</category>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Perplexity comes to more Windows PCs with HP</title>
+      <link>https://www.perplexity.ai/hub/blog/perplexity-comes-to-more-windows-pcs-with-hp</link>
+      <description>Perplexity comes to more Windows PCs with HP</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/perplexity-comes-to-more-windows-pcs-with-hp</guid>
+      <category>Blog</category>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Portable Computer for Windows is here</title>
+      <link>https://www.perplexity.ai/hub/blog/portable-computer-for-windows-is-here</link>
+      <description>Portable Computer for Windows is here</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/portable-computer-for-windows-is-here</guid>
+      <category>Blog</category>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CobbleDB: Rebuilding AI search storage for lower latency and cost</title>
+      <link>https://www.perplexity.ai/hub/blog/cobbledb</link>
+      <description>CobbleDB: Rebuilding AI search storage for lower latency and cost</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/cobbledb</guid>
+      <category>Blog</category>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Q2D-Web: Evaluating first-stage retrievers at scale</title>
+      <link>https://www.perplexity.ai/hub/blog/q2d-web</link>
+      <description>Q2D-Web: Evaluating first-stage retrievers at scale</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/q2d-web</guid>
+      <category>Blog</category>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI integration: Getting ROI from your AI investment</title>
+      <link>https://www.perplexity.ai/hub/blog/ai-integration</link>
+      <description>AI integration: Getting ROI from your AI investment</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/ai-integration</guid>
+      <category>Blog</category>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fast embeddings on GPUs</title>
+      <link>https://www.perplexity.ai/hub/blog/fast-embeddings-on-gpus</link>
+      <description>Fast embeddings on GPUs</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/fast-embeddings-on-gpus</guid>
+      <category>Blog</category>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Optimizing on-device inference for Apple Silicon</title>
+      <link>https://www.perplexity.ai/hub/blog/optimizing-on-device-inference-for-apple-silicon</link>
+      <description>Optimizing on-device inference for Apple Silicon</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/optimizing-on-device-inference-for-apple-silicon</guid>
+      <category>Blog</category>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Hybrid Compute on Mac</title>
+      <link>https://www.perplexity.ai/hub/blog/introducing-hybrid-compute-on-mac</link>
+      <description>Introducing Hybrid Compute on Mac</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/introducing-hybrid-compute-on-mac</guid>
+      <category>Blog</category>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to spot AI hallucinations: 7 red flags</title>
+      <link>https://www.perplexity.ai/hub/blog/ai-hallucination</link>
+      <description>How to spot AI hallucinations: 7 red flags</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/ai-hallucination</guid>
+      <category>Blog</category>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI personal assistants: What digital helpers can and can’t do</title>
+      <link>https://www.perplexity.ai/hub/blog/ai-personal-assistants</link>
+      <description>AI personal assistants: What digital helpers can and can’t do</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/ai-personal-assistants</guid>
+      <category>Blog</category>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PII-TRACE: Detecting personal data before it leaves the device</title>
+      <link>https://www.perplexity.ai/hub/blog/pii-trace-detecting-personal-data-before-it-leaves-the-device</link>
+      <description>PII-TRACE: Detecting personal data before it leaves the device</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/pii-trace-detecting-personal-data-before-it-leaves-the-device</guid>
+      <category>Blog</category>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Portable Computer for local-first AI</title>
+      <link>https://www.perplexity.ai/hub/blog/introducing-portable-computer-for-local-first-ai</link>
+      <description>Introducing Portable Computer for local-first AI</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/introducing-portable-computer-for-local-first-ai</guid>
+      <category>Blog</category>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A local-first agent for private and cost-effective knowledge work</title>
+      <link>https://www.perplexity.ai/hub/blog/a-local-first-agent-for-private-and-cost-effective-knowledge-work</link>
+      <description>A local-first agent for private and cost-effective knowledge work</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/a-local-first-agent-for-private-and-cost-effective-knowledge-work</guid>
+      <category>Blog</category>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Computer connects to 20+ new licensed finance data sources</title>
+      <link>https://www.perplexity.ai/hub/blog/computer-connects-to-20-new-licensed-finance-data-sources</link>
+      <description>Computer connects to 20+ new licensed finance data sources</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/computer-connects-to-20-new-licensed-finance-data-sources</guid>
+      <category>Blog</category>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Brain: Agentic memory as a knowledge wiki</title>
+      <link>https://www.perplexity.ai/hub/blog/brain-agentic-memory-as-a-knowledge-wiki</link>
+      <description>Brain: Agentic memory as a knowledge wiki</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/brain-agentic-memory-as-a-knowledge-wiki</guid>
+      <category>Blog</category>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to use AI in a small business</title>
+      <link>https://www.perplexity.ai/hub/blog/how-to-use-ai-in-a-small-business</link>
+      <description>How to use AI in a small business</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/how-to-use-ai-in-a-small-business</guid>
+      <category>Blog</category>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Computer now works in email</title>
+      <link>https://www.perplexity.ai/hub/blog/computer-now-works-in-email</link>
+      <description>Computer now works in email</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/computer-now-works-in-email</guid>
+      <category>Blog</category>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agent API: One place to build with LLMs, the web, and agents</title>
+      <link>https://www.perplexity.ai/hub/blog/agent-api-one-place-to-build-with-llms-the-web-and-agents</link>
+      <description>Agent API: One place to build with LLMs, the web, and agents</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/agent-api-one-place-to-build-with-llms-the-web-and-agents</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Computer for builders</title>
+      <link>https://www.perplexity.ai/hub/blog/computer-for-builders</link>
+      <description>Computer for builders</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/computer-for-builders</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Spaces are now Projects</title>
+      <link>https://www.perplexity.ai/hub/blog/spaces-are-now-projects</link>
+      <description>Spaces are now Projects</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/spaces-are-now-projects</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Securing agents across Perplexity’s client endpoints with Numbat</title>
+      <link>https://www.perplexity.ai/hub/blog/securing-agents-across-perplexity-s-client-endpoints-with-numbat</link>
+      <description>Securing agents across Perplexity’s client endpoints with Numbat</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/securing-agents-across-perplexity-s-client-endpoints-with-numbat</guid>
+      <category>Blog</category>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Personal Computer is now available on Windows</title>
+      <link>https://www.perplexity.ai/hub/blog/personal-computer-on-windows</link>
+      <description>Personal Computer is now available on Windows</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/personal-computer-on-windows</guid>
+      <category>Blog</category>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Model Council comes to Computer</title>
+      <link>https://www.perplexity.ai/hub/blog/model-council-comes-to-computer</link>
+      <description>Model Council comes to Computer</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/model-council-comes-to-computer</guid>
+      <category>Blog</category>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Secure sandboxes for agents</title>
+      <link>https://www.perplexity.ai/hub/blog/secure-sandboxes-for-agents</link>
+      <description>Secure sandboxes for agents</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/secure-sandboxes-for-agents</guid>
+      <category>Blog</category>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Making SPACE: Secure and efficient runtimes for long-running agents</title>
+      <link>https://www.perplexity.ai/hub/blog/making-space-secure-and-efficient-runtimes-for-long-running-agents</link>
+      <description>Making SPACE: Secure and efficient runtimes for long-running agents</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/making-space-secure-and-efficient-runtimes-for-long-running-agents</guid>
+      <category>Blog</category>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>WANDR benchmark: Evaluating research agents that must search wide and deep</title>
+      <link>https://www.perplexity.ai/hub/blog/wandr-benchmark-evaluating-research-agents-that-must-search-wide-and-deep</link>
+      <description>WANDR benchmark: Evaluating research agents that must search wide and deep</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/wandr-benchmark-evaluating-research-agents-that-must-search-wide-and-deep</guid>
+      <category>Blog</category>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Computer for counsel</title>
+      <link>https://www.perplexity.ai/hub/blog/introducing-computer-for-counsel</link>
+      <description>Introducing Computer for counsel</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/introducing-computer-for-counsel</guid>
+      <category>Blog</category>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Self-improving memory for agents</title>
+      <link>https://www.perplexity.ai/hub/blog/self-improving-memory-for-agents</link>
+      <description>Self-improving memory for agents</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/self-improving-memory-for-agents</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deep Research, now in Computer</title>
+      <link>https://www.perplexity.ai/hub/blog/deep-research-now-in-computer</link>
+      <description>Deep Research, now in Computer</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/deep-research-now-in-computer</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Computer is reshaping knowledge work</title>
+      <link>https://www.perplexity.ai/hub/blog/how-computer-is-reshaping-knowledge-work</link>
+      <description>How Computer is reshaping knowledge work</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/how-computer-is-reshaping-knowledge-work</guid>
+      <category>Blog</category>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How AI agents reshape knowledge work</title>
+      <link>https://www.perplexity.ai/hub/blog/how-ai-agents-reshape-knowledge-work</link>
+      <description>How AI agents reshape knowledge work</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/how-ai-agents-reshape-knowledge-work</guid>
+      <category>Blog</category>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Perplexity Computer for growing businesses</title>
+      <link>https://www.perplexity.ai/hub/blog/perplexity-computer-for-growing-businesses</link>
+      <description>Perplexity Computer for growing businesses</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/perplexity-computer-for-growing-businesses</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Personal Computer is coming to Windows</title>
+      <link>https://www.perplexity.ai/hub/blog/personal-computer-is-coming-to-windows</link>
+      <description>Personal Computer is coming to Windows</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/personal-computer-is-coming-to-windows</guid>
+      <category>Blog</category>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The data center moves to your machine</title>
+      <link>https://www.perplexity.ai/hub/blog/the-data-center-moves-to-your-machine</link>
+      <description>The data center moves to your machine</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/the-data-center-moves-to-your-machine</guid>
+      <category>Blog</category>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rethinking search as code generation</title>
+      <link>https://www.perplexity.ai/hub/blog/rethinking-search-as-code-generation</link>
+      <description>Rethinking search as code generation</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/rethinking-search-as-code-generation</guid>
+      <category>Blog</category>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Computer comes to Excel, Word, PowerPoint, and Outlook</title>
+      <link>https://www.perplexity.ai/hub/blog/computer-comes-to-word-excel-powerpoint-and-outlook</link>
+      <description>Computer comes to Excel, Word, PowerPoint, and Outlook</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/computer-comes-to-word-excel-powerpoint-and-outlook</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Perplexity is open-sourcing Bumblebee</title>
       <link>https://www.perplexity.ai/hub/blog/perplexity-is-open-sourcing-bumblebee</link>
-      <description>Perplexity Is Open-Sourcing Bumblebee</description>
+      <description>Perplexity is open-sourcing Bumblebee</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/perplexity-is-open-sourcing-bumblebee</guid>
-      <category>Security</category>
+      <category>Blog</category>
       <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Improving unigram tokenizer CPU performance</title>
+      <link>https://www.perplexity.ai/hub/blog/improving-unigram-tokenizer-cpu-performance</link>
+      <description>Improving unigram tokenizer CPU performance</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/improving-unigram-tokenizer-cpu-performance</guid>
+      <category>Blog</category>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Query-aware context compression for better snippets</title>
+      <link>https://www.perplexity.ai/hub/blog/query-aware-context-compression-for-better-snippets</link>
+      <description>Query-aware context compression for better snippets</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/query-aware-context-compression-for-better-snippets</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Computer brings data science to every team</title>
       <link>https://www.perplexity.ai/hub/blog/computer-brings-data-science-to-every-team</link>
       <description>Computer brings data science to every team</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/computer-brings-data-science-to-every-team</guid>
-      <category>Updates</category>
+      <category>Blog</category>
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>How We Built Security Into Computer</title>
+      <title>How we built security into Computer</title>
       <link>https://www.perplexity.ai/hub/blog/how-we-built-security-into-computer</link>
-      <description>How We Built Security Into Computer</description>
+      <description>How we built security into Computer</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/how-we-built-security-into-computer</guid>
-      <category>Security</category>
+      <category>Blog</category>
       <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Personal Computer is Available to All Mac Users</title>
+      <title>Hosting Qwen on Blackwell</title>
+      <link>https://www.perplexity.ai/hub/blog/hosting-qwen-on-blackwell</link>
+      <description>Hosting Qwen on Blackwell</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/hosting-qwen-on-blackwell</guid>
+      <category>Blog</category>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Personal Computer is available to all Mac users</title>
       <link>https://www.perplexity.ai/hub/blog/personal-computer-is-available-to-all-mac-users</link>
-      <description>Personal Computer is Available to All Mac Users</description>
+      <description>Personal Computer is available to all Mac users</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/personal-computer-is-available-to-all-mac-users</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing Finance Search in the Agent API</title>
-      <link>https://www.perplexity.ai/hub/blog/introducing-finance-search-in-the-agent-api</link>
-      <description>Introducing Finance Search in the Agent API</description>
-      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/introducing-finance-search-in-the-agent-api</guid>
-      <category>Company</category>
+      <title>CuTeDSL at Perplexity</title>
+      <link>https://www.perplexity.ai/hub/blog/cutedsl-at-perplexity</link>
+      <description>CuTeDSL at Perplexity</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/cutedsl-at-perplexity</guid>
+      <category>Blog</category>
       <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Announcing Premium Health Sources</title>
-      <link>https://www.perplexity.ai/hub/blog/announcing-premium-health-sources</link>
-      <description>Announcing Premium Health Sources</description>
-      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/announcing-premium-health-sources</guid>
-      <category>Company</category>
+      <title>Introducing finance search in the Agent API</title>
+      <link>https://www.perplexity.ai/hub/blog/introducing-finance-search-in-the-agent-api</link>
+      <description>Introducing finance search in the Agent API</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/introducing-finance-search-in-the-agent-api</guid>
+      <category>Blog</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Computer for professional finance</title>
+      <link>https://www.perplexity.ai/hub/blog/computer-for-professional-finance</link>
+      <description>Computer for professional finance</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/computer-for-professional-finance</guid>
+      <category>Blog</category>
       <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Computer for Professional Finance</title>
-      <link>https://www.perplexity.ai/hub/blog/computer-for-professional-finance</link>
-      <description>Computer for Professional Finance</description>
-      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/computer-for-professional-finance</guid>
-      <category>Company</category>
+      <title>Announcing premium health sources</title>
+      <link>https://www.perplexity.ai/hub/blog/announcing-premium-health-sources</link>
+      <description>Announcing premium health sources</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/announcing-premium-health-sources</guid>
+      <category>Blog</category>
       <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -75,47 +547,71 @@
       <link>https://www.perplexity.ai/hub/blog/computer-in-teams-is-here</link>
       <description>Computer in Teams is here</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/computer-in-teams-is-here</guid>
-      <category>Updates</category>
+      <category>Blog</category>
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Computer at Work</title>
+      <title>Designing, refining, and maintaining agent skills at Perplexity</title>
+      <link>https://www.perplexity.ai/hub/blog/designing-refining-and-maintaining-agent-skills-at-perplexity</link>
+      <description>Designing, refining, and maintaining agent skills at Perplexity</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/designing-refining-and-maintaining-agent-skills-at-perplexity</guid>
+      <category>Blog</category>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Computer at work</title>
       <link>https://www.perplexity.ai/hub/blog/computer-at-work</link>
-      <description>Computer at Work</description>
+      <description>Computer at work</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/computer-at-work</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>How Perplexity Builds Accuracy into Frontier AI</title>
-      <link>https://www.perplexity.ai/hub/blog/how-perplexity-builds-accuracy-into-frontier-ai</link>
-      <description>How Perplexity Builds Accuracy into Frontier AI</description>
-      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/how-perplexity-builds-accuracy-into-frontier-ai</guid>
-      <category>Research</category>
+      <title>Advancing search-augmented language models</title>
+      <link>https://www.perplexity.ai/hub/blog/advancing-search-augmented-language-models</link>
+      <description>Advancing search-augmented language models</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/advancing-search-augmented-language-models</guid>
+      <category>Blog</category>
       <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Computer is Now Your Personal CFO</title>
+      <title>How Perplexity builds accuracy into frontier AI</title>
+      <link>https://www.perplexity.ai/hub/blog/how-perplexity-builds-accuracy-into-frontier-ai</link>
+      <description>How Perplexity builds accuracy into frontier AI</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/how-perplexity-builds-accuracy-into-frontier-ai</guid>
+      <category>Blog</category>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Personal Computer is here</title>
+      <link>https://www.perplexity.ai/hub/blog/personal-computer-is-here</link>
+      <description>Personal Computer is here</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/personal-computer-is-here</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Computer is now your personal CFO</title>
       <link>https://www.perplexity.ai/hub/blog/plaid-integration-provides-full-view-of-personal-finances</link>
-      <description>Computer is Now Your Personal CFO</description>
+      <description>Computer is now your personal CFO</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/plaid-integration-provides-full-view-of-personal-finances</guid>
-      <category>Updates</category>
+      <category>Blog</category>
       <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing Computer for Taxes</title>
+      <title>Introducing Computer for taxes</title>
       <link>https://www.perplexity.ai/hub/blog/introducing-computer-for-taxes</link>
-      <description>Introducing Computer for Taxes</description>
+      <description>Introducing Computer for taxes</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/introducing-computer-for-taxes</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Computer in Slack: From Shared Context to Finished Work</title>
+      <title>Computer in Slack: From shared context to finished work</title>
       <link>https://www.perplexity.ai/hub/blog/computer-in-slack-from-shared-context-to-finished-work</link>
-      <description>Computer in Slack: From Shared Context to Finished Work</description>
+      <description>Computer in Slack: From shared context to finished work</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/computer-in-slack-from-shared-context-to-finished-work</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -123,39 +619,39 @@
       <link>https://www.perplexity.ai/hub/blog/announcing-the-secure-intelligence-institute</link>
       <description>Announcing the Secure Intelligence Institute</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/announcing-the-secure-intelligence-institute</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Perplexity APIs Power AI Browsing on Samsung Devices</title>
+      <title>Perplexity APIs power AI browsing on Samsung devices</title>
       <link>https://www.perplexity.ai/hub/blog/perplexity-apis-power-ai-browsing-on-samsung-devices</link>
-      <description>Perplexity APIs Power AI Browsing on Samsung Devices</description>
+      <description>Perplexity APIs power AI browsing on Samsung devices</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/perplexity-apis-power-ai-browsing-on-samsung-devices</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Perplexity Health</title>
-      <link>https://www.perplexity.ai/hub/blog/introducing-perplexity-health</link>
-      <description>Introducing Perplexity Health</description>
-      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/introducing-perplexity-health</guid>
-      <category>Company</category>
-      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Introducing the Perplexity Health Advisory Board</title>
       <link>https://www.perplexity.ai/hub/blog/introducing-the-perplexity-health-advisory-board</link>
       <description>Introducing the Perplexity Health Advisory Board</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/introducing-the-perplexity-health-advisory-board</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Comet is Now Available on iOS</title>
+      <title>Introducing Perplexity Health</title>
+      <link>https://www.perplexity.ai/hub/blog/introducing-perplexity-health</link>
+      <description>Introducing Perplexity Health</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/introducing-perplexity-health</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comet is now available on iOS</title>
       <link>https://www.perplexity.ai/hub/blog/meet-comet-for-ios</link>
-      <description>Comet is Now Available on iOS</description>
+      <description>Comet is now available on iOS</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/meet-comet-for-ios</guid>
-      <category>Updates</category>
+      <category>Blog</category>
       <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -163,63 +659,63 @@
       <link>https://www.perplexity.ai/hub/blog/comet-enterprise-is-here</link>
       <description>Comet Enterprise is here</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/comet-enterprise-is-here</guid>
-      <category>Enterprise</category>
+      <category>Blog</category>
       <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Perplexity Joins the NVIDIA Nemotron Coalition</title>
+      <title>Perplexity joins the NVIDIA Nemotron Coalition</title>
       <link>https://www.perplexity.ai/hub/blog/perplexity-joins-the-nvidia-nemotron-coalition</link>
-      <description>Perplexity Joins the NVIDIA Nemotron Coalition</description>
+      <description>Perplexity joins the NVIDIA Nemotron Coalition</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/perplexity-joins-the-nvidia-nemotron-coalition</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Computer for Enterprise</title>
-      <link>https://www.perplexity.ai/hub/blog/computer-for-enterprise</link>
-      <description>Computer for Enterprise</description>
-      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/computer-for-enterprise</guid>
-      <category>Enterprise</category>
+      <title>Announcing premium sources</title>
+      <link>https://www.perplexity.ai/hub/blog/announcing-premium-sources</link>
+      <description>Announcing premium sources</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/announcing-premium-sources</guid>
+      <category>Blog</category>
       <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Announcing Premium Sources</title>
-      <link>https://www.perplexity.ai/hub/blog/announcing-premium-sources</link>
-      <description>Announcing Premium Sources</description>
-      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/announcing-premium-sources</guid>
-      <category>Company</category>
+      <title>Computer for enterprise</title>
+      <link>https://www.perplexity.ai/hub/blog/computer-for-enterprise</link>
+      <description>Computer for enterprise</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/computer-for-enterprise</guid>
+      <category>Blog</category>
       <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sandbox API: Isolated code execution for AI agents</title>
+      <link>https://www.perplexity.ai/hub/blog/sandbox-api-isolated-code-execution-for-ai-agents</link>
+      <description>Sandbox API: Isolated code execution for AI agents</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/sandbox-api-isolated-code-execution-for-ai-agents</guid>
+      <category>Blog</category>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Search API: Better extraction, dynamic benchmarks</title>
+      <link>https://www.perplexity.ai/hub/blog/search-api-better-extraction-dynamic-benchmarks</link>
+      <description>Search API: Better extraction, dynamic benchmarks</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/search-api-better-extraction-dynamic-benchmarks</guid>
+      <category>Blog</category>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agent API: A managed runtime for agentic workflows</title>
+      <link>https://www.perplexity.ai/hub/blog/agent-api-a-managed-runtime-for-agentic-workflows</link>
+      <description>Agent API: A managed runtime for agentic workflows</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/agent-api-a-managed-runtime-for-agentic-workflows</guid>
+      <category>Blog</category>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Everything is Computer</title>
       <link>https://www.perplexity.ai/hub/blog/everything-is-computer</link>
       <description>Everything is Computer</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/everything-is-computer</guid>
-      <category>Company</category>
-      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Agent API: A Managed Runtime for Agentic Workflows</title>
-      <link>https://www.perplexity.ai/hub/blog/agent-api-a-managed-runtime-for-agentic-workflows</link>
-      <description>Agent API: A Managed Runtime for Agentic Workflows</description>
-      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/agent-api-a-managed-runtime-for-agentic-workflows</guid>
-      <category>Developers</category>
-      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Search API: Better Extraction, Dynamic Benchmarks</title>
-      <link>https://www.perplexity.ai/hub/blog/search-api-better-extraction-dynamic-benchmarks</link>
-      <description>Search API: Better Extraction, Dynamic Benchmarks</description>
-      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/search-api-better-extraction-dynamic-benchmarks</guid>
-      <category>Developers</category>
-      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sandbox API: Isolated Code Execution for AI Agents</title>
-      <link>https://www.perplexity.ai/hub/blog/sandbox-api-isolated-code-execution-for-ai-agents</link>
-      <description>Sandbox API: Isolated Code Execution for AI Agents</description>
-      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/sandbox-api-isolated-code-execution-for-ai-agents</guid>
-      <category>Developers</category>
+      <category>Blog</category>
       <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -227,15 +723,23 @@
       <link>https://www.perplexity.ai/hub/blog/the-ai-is-the-computer</link>
       <description>The AI is the Computer</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/the-ai-is-the-computer</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>pplx-embed: State-of-the-art embedding models for web-scale retrieval</title>
+      <link>https://www.perplexity.ai/hub/blog/pplx-embed-state-of-the-art-embedding-models-for-web-scale-retrieval</link>
+      <description>pplx-embed: State-of-the-art embedding models for web-scale retrieval</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/pplx-embed-state-of-the-art-embedding-models-for-web-scale-retrieval</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Perplexity APIs deliver powerful AI to the world’s largest Android device maker</title>
-      <link>https://www.perplexity.ai/hub/blog/perplexity-apis-deliver-powerful-ai-to-the-world’s-largest-android-device-maker</link>
+      <link>https://www.perplexity.ai/hub/blog/perplexity-apis-deliver-powerful-ai-to-the-world-s-largest-android-device-maker</link>
       <description>Perplexity APIs deliver powerful AI to the world’s largest Android device maker</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/perplexity-apis-deliver-powerful-ai-to-the-world’s-largest-android-device-maker</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -243,15 +747,15 @@
       <link>https://www.perplexity.ai/hub/blog/introducing-perplexity-computer</link>
       <description>Introducing Perplexity Computer</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/introducing-perplexity-computer</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>How We Built Security Into Comet From Day One</title>
+      <title>How we built security into Comet from day one</title>
       <link>https://www.perplexity.ai/hub/blog/how-we-built-security-into-comet-from-day-one</link>
-      <description>How We Built Security Into Comet From Day One</description>
+      <description>How we built security into Comet from day one</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/how-we-built-security-into-comet-from-day-one</guid>
-      <category>Security</category>
+      <category>Blog</category>
       <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -259,47 +763,55 @@
       <link>https://www.perplexity.ai/hub/blog/introducing-model-council</link>
       <description>Introducing Model Council</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/introducing-model-council</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Inside the Rise of Enterprise AI Model-Switching</title>
+      <title>Evaluating Deep Research performance in the wild with the DRACO benchmark</title>
+      <link>https://www.perplexity.ai/hub/blog/evaluating-deep-research-performance-in-the-wild-with-the-draco-benchmark</link>
+      <description>Evaluating Deep Research performance in the wild with the DRACO benchmark</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/evaluating-deep-research-performance-in-the-wild-with-the-draco-benchmark</guid>
+      <category>Blog</category>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Inside the rise of enterprise AI model-switching</title>
       <link>https://www.perplexity.ai/hub/blog/inside-the-rise-of-enterprise-ai-model-switching</link>
-      <description>Inside the Rise of Enterprise AI Model-Switching</description>
+      <description>Inside the rise of enterprise AI model-switching</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/inside-the-rise-of-enterprise-ai-model-switching</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Finish Your Annual Plan Faster With Perplexity</title>
+      <title>Finish your annual plan faster with Perplexity</title>
       <link>https://www.perplexity.ai/hub/blog/finish-your-annual-plan-faster-with-perplexity</link>
-      <description>Finish Your Annual Plan Faster With Perplexity</description>
+      <description>Finish your annual plan faster with Perplexity</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/finish-your-annual-plan-faster-with-perplexity</guid>
-      <category>Enterprise</category>
+      <category>Blog</category>
       <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Happy 25th Birthday, Wikipedia</title>
+      <title>Happy 25th birthday, Wikipedia</title>
       <link>https://www.perplexity.ai/hub/blog/happy-25th-birthday-wikipedia</link>
-      <description>Happy 25th Birthday, Wikipedia</description>
+      <description>Happy 25th birthday, Wikipedia</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/happy-25th-birthday-wikipedia</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing Perplexity for Public Safety Organizations</title>
+      <title>Introducing Perplexity for public safety organizations</title>
       <link>https://www.perplexity.ai/hub/blog/introducing-perplexity-for-public-safety-organizations</link>
-      <description>Introducing Perplexity for Public Safety Organizations</description>
+      <description>Introducing Perplexity for public safety organizations</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/introducing-perplexity-for-public-safety-organizations</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>How People Use AI Agents</title>
+      <title>How people use AI agents</title>
       <link>https://www.perplexity.ai/hub/blog/how-people-use-ai-agents</link>
-      <description>How People Use AI Agents</description>
+      <description>How people use AI agents</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/how-people-use-ai-agents</guid>
-      <category>Updates</category>
+      <category>Blog</category>
       <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -307,15 +819,23 @@
       <link>https://www.perplexity.ai/hub/blog/perplexity-x-cristiano-ronaldo</link>
       <description>Perplexity x Cristiano Ronaldo</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/perplexity-x-cristiano-ronaldo</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Building Safer AI Browsers with BrowseSafe</title>
+      <title>BrowseSafe: Understanding and preventing prompt injection within AI browser agents</title>
+      <link>https://www.perplexity.ai/hub/blog/browsesafe</link>
+      <description>BrowseSafe: Understanding and preventing prompt injection within AI browser agents</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/browsesafe</guid>
+      <category>Blog</category>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building safer AI browsers with BrowseSafe</title>
       <link>https://www.perplexity.ai/hub/blog/building-safer-ai-browsers-with-browsesafe</link>
-      <description>Building Safer AI Browsers with BrowseSafe</description>
+      <description>Building safer AI browsers with BrowseSafe</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/building-safer-ai-browsers-with-browsesafe</guid>
-      <category>Research</category>
+      <category>Blog</category>
       <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -323,31 +843,31 @@
       <link>https://www.perplexity.ai/hub/blog/introducing-ai-assistants-with-memory</link>
       <description>Introducing AI assistants with memory</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/introducing-ai-assistants-with-memory</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Shopping That Puts You First</title>
+      <title>Shopping that puts you first</title>
       <link>https://www.perplexity.ai/hub/blog/shopping-that-puts-you-first</link>
-      <description>Shopping That Puts You First</description>
+      <description>Shopping that puts you first</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/shopping-that-puts-you-first</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Comet for Android is Here</title>
+      <title>Comet for Android is here</title>
       <link>https://www.perplexity.ai/hub/blog/comet-for-android-is-here</link>
-      <description>Comet for Android is Here</description>
+      <description>Comet for Android is here</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/comet-for-android-is-here</guid>
-      <category>Updates</category>
+      <category>Blog</category>
       <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Announcing our Partnership with the United States Government</title>
+      <title>Announcing our partnership with the United States government</title>
       <link>https://www.perplexity.ai/hub/blog/announcing-our-partnership-with-the-united-states-government</link>
-      <description>Announcing our Partnership with the United States Government</description>
+      <description>Announcing our partnership with the United States government</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/announcing-our-partnership-with-the-united-states-government</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -355,23 +875,39 @@
       <link>https://www.perplexity.ai/hub/blog/comet-assistant-puts-you-in-control</link>
       <description>Comet Assistant puts you in control</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/comet-assistant-puts-you-in-control</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The New Comet Assistant</title>
+      <title>The new Comet Assistant</title>
       <link>https://www.perplexity.ai/hub/blog/the-new-comet-assistant</link>
-      <description>The New Comet Assistant</description>
+      <description>The new Comet Assistant</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/the-new-comet-assistant</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Bullying is Not Innovation</title>
+      <title>RDMA point-to-point communication for LLM systems</title>
+      <link>https://www.perplexity.ai/hub/blog/rdma-point-to-point-communication-for-llm-systems</link>
+      <description>RDMA point-to-point communication for LLM systems</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/rdma-point-to-point-communication-for-llm-systems</guid>
+      <category>Blog</category>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Enabling trillion-parameter models on AWS EFA</title>
+      <link>https://www.perplexity.ai/hub/blog/enabling-trillion-parameter-models-on-aws-efa</link>
+      <description>Enabling trillion-parameter models on AWS EFA</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/enabling-trillion-parameter-models-on-aws-efa</guid>
+      <category>Blog</category>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bullying is not innovation</title>
       <link>https://www.perplexity.ai/hub/blog/bullying-is-not-innovation</link>
-      <description>Bullying is Not Innovation</description>
+      <description>Bullying is not innovation</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/bullying-is-not-innovation</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -379,56 +915,72 @@
       <link>https://www.perplexity.ai/hub/blog/introducing-privacy-snapshot</link>
       <description>Introducing Privacy Snapshot</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/introducing-privacy-snapshot</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing Perplexity Patents: AI-Powered Patent Search for Everyone</title>
+      <title>Introducing Perplexity Patents: AI-powered patent search for everyone</title>
       <link>https://www.perplexity.ai/hub/blog/introducing-perplexity-patents</link>
-      <description>Introducing Perplexity Patents: AI-Powered Patent Search for Everyone</description>
+      <description>Introducing Perplexity Patents: AI-powered patent search for everyone</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/introducing-perplexity-patents</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>AI at work: getting more done with less hype</title>
+      <title>AI at work: Getting more done with less hype</title>
       <link>https://www.perplexity.ai/hub/blog/ai-at-work-getting-more-done-with-less-hype</link>
-      <description>AI at work: getting more done with less hype</description>
+      <description>AI at work: Getting more done with less hype</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/ai-at-work-getting-more-done-with-less-hype</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mitigating Prompt Injection in Comet</title>
+      <title>Mitigating prompt injection in Comet</title>
       <link>https://www.perplexity.ai/hub/blog/mitigating-prompt-injection-in-comet</link>
-      <description>Mitigating Prompt Injection in Comet</description>
+      <description>Mitigating prompt injection in Comet</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/mitigating-prompt-injection-in-comet</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Internet is Better on Comet</title>
+      <title>The internet is better on Comet</title>
       <link>https://www.perplexity.ai/hub/blog/comet-is-now-available-to-everyone-worldwide</link>
-      <description>The Internet is Better on Comet</description>
+      <description>The internet is better on Comet</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/comet-is-now-available-to-everyone-worldwide</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Announcing Comet Plus Launch Partners</title>
+      <title>Announcing Comet Plus launch partners</title>
       <link>https://www.perplexity.ai/hub/blog/announcing-comet-plus-launch-partners</link>
-      <description>Announcing Comet Plus Launch Partners</description>
+      <description>Announcing Comet Plus launch partners</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/announcing-comet-plus-launch-partners</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Architecting and evaluating an AI-first Search API</title>
+      <link>https://www.perplexity.ai/hub/blog/architecting-and-evaluating-an-ai-first-search-api</link>
+      <description>Architecting and evaluating an AI-first Search API</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/architecting-and-evaluating-an-ai-first-search-api</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Introducing the Perplexity Search API</title>
       <link>https://www.perplexity.ai/hub/blog/introducing-the-perplexity-search-api</link>
       <description>Introducing the Perplexity Search API</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/introducing-the-perplexity-search-api</guid>
-      <category>Developers</category>
+      <category>Blog</category>
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Weight transfer for RL post-training in under 2 seconds</title>
+      <link>https://www.perplexity.ai/hub/blog/weight-transfer-for-rl-post-training-in-under-2-seconds</link>
+      <description>Weight transfer for RL post-training in under 2 seconds</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/weight-transfer-for-rl-post-training-in-under-2-seconds</guid>
+      <category>Blog</category>
+      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>A Personal Assistant for Your Inbox</title>
@@ -439,27 +991,27 @@
       <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Secure Credentials on Comet with 1Password</title>
-      <link>https://www.perplexity.ai/hub/blog/secure-credentials-on-comet-with-1password</link>
-      <description>Secure Credentials on Comet with 1Password</description>
-      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/secure-credentials-on-comet-with-1password</guid>
-      <category>Company</category>
-      <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Power your organization’s full potential</title>
       <link>https://www.perplexity.ai/hub/blog/power-your-organization-s-full-potential</link>
       <description>Power your organization’s full potential</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/power-your-organization-s-full-potential</guid>
-      <category>Enterprise</category>
+      <category>Blog</category>
       <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing Perplexity for Government</title>
+      <title>Secure credentials on Comet with 1Password</title>
+      <link>https://www.perplexity.ai/hub/blog/secure-credentials-on-comet-with-1password</link>
+      <description>Secure credentials on Comet with 1Password</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/secure-credentials-on-comet-with-1password</guid>
+      <category>Blog</category>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Perplexity for government</title>
       <link>https://www.perplexity.ai/hub/blog/introducing-perplexity-for-government</link>
-      <description>Introducing Perplexity for Government</description>
+      <description>Introducing Perplexity for government</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/introducing-perplexity-for-government</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -467,55 +1019,55 @@
       <link>https://www.perplexity.ai/hub/blog/introducing-comet-plus</link>
       <description>Introducing Comet Plus</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/introducing-comet-plus</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Intelligent Business: Introducing Comet for Enterprise Pro</title>
-      <link>https://www.perplexity.ai/hub/blog/the-intelligent-business-introducing-comet-for-enterprise-pro</link>
-      <description>The Intelligent Business: Introducing Comet for Enterprise Pro</description>
-      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/the-intelligent-business-introducing-comet-for-enterprise-pro</guid>
-      <category>Company</category>
-      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Perplexity x Theo Von’s This Past Weekend</title>
+      <title>Perplexity x Theo Von’s this past weekend</title>
       <link>https://www.perplexity.ai/hub/blog/perplexity-x-theo-von-s-this-past-weekend</link>
-      <description>Perplexity x Theo Von’s This Past Weekend</description>
+      <description>Perplexity x Theo Von’s this past weekend</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/perplexity-x-theo-von-s-this-past-weekend</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>GPT-OSS on Day 0</title>
+      <title>The intelligent business: Introducing Comet for Enterprise Pro</title>
+      <link>https://www.perplexity.ai/hub/blog/the-intelligent-business-introducing-comet-for-enterprise-pro</link>
+      <description>The intelligent business: Introducing Comet for Enterprise Pro</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/the-intelligent-business-introducing-comet-for-enterprise-pro</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GPT-OSS on day 0</title>
       <link>https://www.perplexity.ai/hub/blog/gpt-oss-on-day-0</link>
-      <description>GPT-OSS on Day 0</description>
+      <description>GPT-OSS on day 0</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/gpt-oss-on-day-0</guid>
-      <category>Developers</category>
+      <category>Blog</category>
       <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Book a Table with Perplexity and OpenTable</title>
-      <link>https://www.perplexity.ai/hub/blog/book-a-table-with-perplexity-and-opentable</link>
-      <description>Book a Table with Perplexity and OpenTable</description>
-      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/book-a-table-with-perplexity-and-opentable</guid>
-      <category>Company</category>
-      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Agents or Bots? Making Sense of AI on the Open Web</title>
+      <title>Agents or bots? Making sense of AI on the open web</title>
       <link>https://www.perplexity.ai/hub/blog/agents-or-bots-making-sense-of-ai-on-the-open-web</link>
-      <description>Agents or Bots? Making Sense of AI on the Open Web</description>
+      <description>Agents or bots? Making sense of AI on the open web</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/agents-or-bots-making-sense-of-ai-on-the-open-web</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Disaggregated Prefill and Decode</title>
+      <title>Book a table with Perplexity and OpenTable</title>
+      <link>https://www.perplexity.ai/hub/blog/book-a-table-with-perplexity-and-opentable</link>
+      <description>Book a table with Perplexity and OpenTable</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/book-a-table-with-perplexity-and-opentable</guid>
+      <category>Blog</category>
+      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Disaggregated prefill and decode</title>
       <link>https://www.perplexity.ai/hub/blog/disaggregated-prefill-and-decode</link>
-      <description>Disaggregated Prefill and Decode</description>
+      <description>Disaggregated prefill and decode</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/disaggregated-prefill-and-decode</guid>
-      <category>Developers</category>
+      <category>Blog</category>
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -523,7 +1075,7 @@
       <link>https://www.perplexity.ai/hub/blog/welcoming-gannett-to-the-perplexity-publisher-program</link>
       <description>Welcoming Gannett to the Perplexity Publisher Program</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/welcoming-gannett-to-the-perplexity-publisher-program</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -531,7 +1083,7 @@
       <link>https://www.perplexity.ai/hub/blog/introducing-comet</link>
       <description>Introducing Comet: Browse at the speed of thought</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/introducing-comet</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -539,31 +1091,31 @@
       <link>https://www.perplexity.ai/hub/blog/introducing-perplexity-max</link>
       <description>Introducing Perplexity Max</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/introducing-perplexity-max</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Bringing European AI Models to Global Audiences</title>
+      <title>Bringing European AI models to global audiences</title>
       <link>https://www.perplexity.ai/hub/blog/bringing-european-ai-models-to-global-audiences</link>
-      <description>Bringing European AI Models to Global Audiences</description>
+      <description>Bringing European AI models to global audiences</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/bringing-european-ai-models-to-global-audiences</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Accelerating Sonar Through Speculation</title>
+      <title>Accelerating Sonar through speculation</title>
       <link>https://www.perplexity.ai/hub/blog/accelerating-sonar-through-speculation</link>
-      <description>Accelerating Sonar Through Speculation</description>
+      <description>Accelerating Sonar through speculation</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/accelerating-sonar-through-speculation</guid>
-      <category>Research</category>
+      <category>Blog</category>
       <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Answers for Every Investor</title>
+      <title>Answers for every investor</title>
       <link>https://www.perplexity.ai/hub/blog/answers-for-every-investor</link>
-      <description>Answers for Every Investor</description>
+      <description>Answers for every investor</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/answers-for-every-investor</guid>
-      <category>Updates</category>
+      <category>Blog</category>
       <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -571,7 +1123,7 @@
       <link>https://www.perplexity.ai/hub/blog/introducing-perplexity-labs</link>
       <description>Introducing Perplexity Labs</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/introducing-perplexity-labs</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -579,87 +1131,87 @@
       <link>https://www.perplexity.ai/hub/blog/perplexity-x-lewis-hamilton</link>
       <description>Perplexity x Lewis Hamilton</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/perplexity-x-lewis-hamilton</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>More Value In Every Answer: New Benefits For Every Level of Perplexity User</title>
+      <title>More value in every answer: New benefits for every level of Perplexity user</title>
       <link>https://www.perplexity.ai/hub/blog/more-value-in-every-answer-new-benefits-for-every-level-of-perplexity-user</link>
-      <description>More Value In Every Answer: New Benefits For Every Level of Perplexity User</description>
+      <description>More value in every answer: New benefits for every level of Perplexity user</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/more-value-in-every-answer-new-benefits-for-every-level-of-perplexity-user</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Perplexity and SAP: Turbocharging Joule with Real-Time Answers for Every Enterprise</title>
+      <title>Perplexity and SAP: Turbocharging Joule with real-time answers for every enterprise</title>
       <link>https://www.perplexity.ai/hub/blog/perplexity-and-sap-turbocharging-joule-with-real-time-answers-for-every-enterprise</link>
-      <description>Perplexity and SAP: Turbocharging Joule with Real-Time Answers for Every Enterprise</description>
+      <description>Perplexity and SAP: Turbocharging Joule with real-time answers for every enterprise</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/perplexity-and-sap-turbocharging-joule-with-real-time-answers-for-every-enterprise</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Perplexity Partners with Wiley to Power Educational AI Search</title>
+      <title>Perplexity partners with Wiley to power educational AI search</title>
       <link>https://www.perplexity.ai/hub/blog/perplexity-partners-with-wiley-to-power-educational-ai-search</link>
-      <description>Perplexity Partners with Wiley to Power Educational AI Search</description>
+      <description>Perplexity partners with Wiley to power educational AI search</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/perplexity-partners-with-wiley-to-power-educational-ai-search</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>RL Training For Math Reasoning</title>
+      <title>RL training for math reasoning</title>
       <link>https://www.perplexity.ai/hub/blog/rl-training-for-math-reasoning</link>
-      <description>RL Training For Math Reasoning</description>
+      <description>RL training for math reasoning</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/rl-training-for-math-reasoning</guid>
-      <category>Research</category>
+      <category>Blog</category>
       <pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Announcing Our Global Partnership with Motorola</title>
+      <title>Announcing our global partnership with Motorola</title>
       <link>https://www.perplexity.ai/hub/blog/announcing-our-global-partnership-with-motorola</link>
-      <description>Announcing Our Global Partnership with Motorola</description>
+      <description>Announcing our global partnership with Motorola</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/announcing-our-global-partnership-with-motorola</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Choice is the Remedy</title>
+      <title>Choice is the remedy</title>
       <link>https://www.perplexity.ai/hub/blog/choice-is-the-remedy</link>
-      <description>Choice is the Remedy</description>
+      <description>Choice is the remedy</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/choice-is-the-remedy</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Mon, 21 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Lower Latency and Higher Throughput with Multi-node DeepSeek Deployment</title>
+      <title>Lower latency and higher throughput with multi-node DeepSeek deployment</title>
       <link>https://www.perplexity.ai/hub/blog/lower-latency-and-higher-throughput-with-multi-node-deepseek-deployment</link>
-      <description>Lower Latency and Higher Throughput with Multi-node DeepSeek Deployment</description>
+      <description>Lower latency and higher throughput with multi-node DeepSeek deployment</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/lower-latency-and-higher-throughput-with-multi-node-deepseek-deployment</guid>
-      <category>Research</category>
+      <category>Blog</category>
       <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>How Perplexity Enterprise Pro Keeps Your Data Secure</title>
+      <title>How Perplexity Enterprise Pro keeps your data secure</title>
       <link>https://www.perplexity.ai/hub/blog/how-perplexity-enterprise-pro-keeps-your-data-secure</link>
-      <description>How Perplexity Enterprise Pro Keeps Your Data Secure</description>
+      <description>How Perplexity Enterprise Pro keeps your data secure</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/how-perplexity-enterprise-pro-keeps-your-data-secure</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Thu, 17 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Perplexity Sonar Dominates New Search Arena Evaluation</title>
+      <title>Perplexity Sonar dominates new Search Arena evaluation</title>
       <link>https://www.perplexity.ai/hub/blog/perplexity-sonar-dominates-new-search-arena-evolution</link>
-      <description>Perplexity Sonar Dominates New Search Arena Evaluation</description>
+      <description>Perplexity Sonar dominates new Search Arena evaluation</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/perplexity-sonar-dominates-new-search-arena-evolution</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Efficient and Portable Mixture-of-Experts Communication</title>
+      <title>Efficient and portable mixture-of-experts communication</title>
       <link>https://www.perplexity.ai/hub/blog/efficient-and-portable-mixture-of-experts-communication</link>
-      <description>Efficient and Portable Mixture-of-Experts Communication</description>
+      <description>Efficient and portable mixture-of-experts communication</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/efficient-and-portable-mixture-of-experts-communication</guid>
-      <category>Research</category>
+      <category>Blog</category>
       <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -667,23 +1219,23 @@
       <link>https://www.perplexity.ai/hub/blog/rebuilding-tiktok-in-america</link>
       <description>Rebuilding TikTok in America</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/rebuilding-tiktok-in-america</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Improved Sonar Models: Industry Leading Performance at Lower Costs</title>
+      <title>Improved Sonar models: Industry leading performance at lower costs</title>
       <link>https://www.perplexity.ai/hub/blog/new-sonar-search-modes-outperform-openai-in-cost-and-performance</link>
-      <description>Improved Sonar Models: Industry Leading Performance at Lower Costs</description>
+      <description>Improved Sonar models: Industry leading performance at lower costs</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/new-sonar-search-modes-outperform-openai-in-cost-and-performance</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Perplexity Expands Partnership with SoftBank to Launch Enterprise Pro Japan</title>
+      <title>Perplexity expands partnership with SoftBank to launch Enterprise Pro Japan</title>
       <link>https://www.perplexity.ai/hub/blog/perplexity-expands-partnership-with-softbank-to-launch-enterprise-pro-japan</link>
-      <description>Perplexity Expands Partnership with SoftBank to Launch Enterprise Pro Japan</description>
+      <description>Perplexity expands partnership with SoftBank to launch Enterprise Pro Japan</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/perplexity-expands-partnership-with-softbank-to-launch-enterprise-pro-japan</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -691,16 +1243,24 @@
       <link>https://www.perplexity.ai/hub/blog/introducing-perplexity-deep-research</link>
       <description>Introducing Perplexity Deep Research</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/introducing-perplexity-deep-research</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Meet New Sonar</title>
+      <title>Meet new Sonar: A blazing fast model optimized for Perplexity search</title>
       <link>https://www.perplexity.ai/hub/blog/meet-new-sonar</link>
-      <description>Meet New Sonar</description>
+      <description>Meet new Sonar: A blazing fast model optimized for Perplexity search</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/meet-new-sonar</guid>
-      <category>Updates</category>
+      <category>Blog</category>
       <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>High-performance GPU memory transfer on AWS Sagemaker Hyperpod</title>
+      <link>https://www.perplexity.ai/hub/blog/high-performance-gpu-memory-transfer-on-aws-sagemaker-hyperpod</link>
+      <description>High-performance GPU memory transfer on AWS Sagemaker Hyperpod</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/high-performance-gpu-memory-transfer-on-aws-sagemaker-hyperpod</guid>
+      <category>Blog</category>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>High-Performance GPU Memory Transfer on AWS Sagemaker Hyperpod</title>
@@ -715,31 +1275,31 @@
       <link>https://www.perplexity.ai/hub/blog/introducing-the-sonar-pro-api</link>
       <description>Introducing the Sonar Pro API by Perplexity</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/introducing-the-sonar-pro-api</guid>
-      <category>Developers</category>
+      <category>Blog</category>
       <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Perplexity’s Fall 2024 Campus Strategist Program</title>
-      <link>https://www.perplexity.ai/hub/blog/perplexity-s-2024-campus-strategist-program</link>
-      <description>Perplexity’s Fall 2024 Campus Strategist Program</description>
-      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/perplexity-s-2024-campus-strategist-program</guid>
-      <category>Company</category>
-      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Welcoming Carbon to the Perplexity Team</title>
+      <title>Welcoming Carbon to the Perplexity team</title>
       <link>https://www.perplexity.ai/hub/blog/welcoming-carbon-to-the-perplexity-team</link>
-      <description>Welcoming Carbon to the Perplexity Team</description>
+      <description>Welcoming Carbon to the Perplexity team</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/welcoming-carbon-to-the-perplexity-team</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Perplexity Expands Publisher Program with 15 New Media Partners</title>
+      <title>Perplexity’s fall 2024 Campus Strategist Program</title>
+      <link>https://www.perplexity.ai/hub/blog/perplexity-s-2024-campus-strategist-program</link>
+      <description>Perplexity’s fall 2024 Campus Strategist Program</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/perplexity-s-2024-campus-strategist-program</guid>
+      <category>Blog</category>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Perplexity expands publisher program with 15 new media partners</title>
       <link>https://www.perplexity.ai/hub/blog/perplexity-expands-publisher-program-with-15-new-media-partners</link>
-      <description>Perplexity Expands Publisher Program with 15 New Media Partners</description>
+      <description>Perplexity expands publisher program with 15 new media partners</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/perplexity-expands-publisher-program-with-15-new-media-partners</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -747,15 +1307,15 @@
       <link>https://www.perplexity.ai/hub/blog/research-nonprofits-with-charity-navigator-on-perplexity</link>
       <description>Research nonprofits with Charity Navigator on Perplexity</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/research-nonprofits-with-charity-navigator-on-perplexity</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Shop like a Pro</title>
+      <title>Shop like a pro: Perplexity’s new AI-powered shopping assistant</title>
       <link>https://www.perplexity.ai/hub/blog/shop-like-a-pro</link>
-      <description>Shop like a Pro</description>
+      <description>Shop like a pro: Perplexity’s new AI-powered shopping assistant</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/shop-like-a-pro</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -763,7 +1323,7 @@
       <link>https://www.perplexity.ai/hub/blog/why-we-re-experimenting-with-advertising</link>
       <description>Why we’re experimenting with advertising</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/why-we-re-experimenting-with-advertising</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -771,7 +1331,7 @@
       <link>https://www.perplexity.ai/hub/blog/introducing-the-election-information-hub</link>
       <description>Introducing the Election Information Hub</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/introducing-the-election-information-hub</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -779,7 +1339,7 @@
       <link>https://www.perplexity.ai/hub/blog/about-the-dow-jones-lawsuit</link>
       <description>About the Dow Jones lawsuit</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/about-the-dow-jones-lawsuit</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -787,23 +1347,23 @@
       <link>https://www.perplexity.ai/hub/blog/a-student-s-guide-to-using-perplexity-spaces</link>
       <description>A student's guide to using Perplexity Spaces</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/a-student-s-guide-to-using-perplexity-spaces</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Meet our first channel partners &amp; data integrators</title>
+      <link>https://www.perplexity.ai/hub/blog/meet-our-first-channel-partners-data-integrators</link>
+      <description>Meet our first channel partners &amp; data integrators</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/meet-our-first-channel-partners-data-integrators</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Introducing Internal Knowledge Search and Spaces</title>
       <link>https://www.perplexity.ai/hub/blog/introducing-internal-knowledge-search-and-spaces</link>
       <description>Introducing Internal Knowledge Search and Spaces</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/introducing-internal-knowledge-search-and-spaces</guid>
-      <category>Company</category>
-      <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Meet our First Channel Partners &amp; Data Integrators</title>
-      <link>https://www.perplexity.ai/hub/blog/meet-our-first-channel-partners-data-integrators</link>
-      <description>Meet our First Channel Partners &amp; Data Integrators</description>
-      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/meet-our-first-channel-partners-data-integrators</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -811,15 +1371,15 @@
       <link>https://www.perplexity.ai/hub/blog/getting-started-with-perplexity</link>
       <description>Getting started with Perplexity</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/getting-started-with-perplexity</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Redeem a free year of Perplexity Pro through Xfinity Rewards</title>
+      <title>Redeem a free year of Perplexity Pro through Xfinity rewards</title>
       <link>https://www.perplexity.ai/hub/blog/redeem-a-free-year-of-perplexity-pro-through-xfinity-rewards</link>
-      <description>Redeem a free year of Perplexity Pro through Xfinity Rewards</description>
+      <description>Redeem a free year of Perplexity Pro through Xfinity rewards</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/redeem-a-free-year-of-perplexity-pro-through-xfinity-rewards</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -827,7 +1387,7 @@
       <link>https://www.perplexity.ai/hub/blog/perplexity-makes-gift-to-northwestern-medill-to-research-ai-and-journalism</link>
       <description>Perplexity makes gift to Northwestern Medill to research AI and journalism</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/perplexity-makes-gift-to-northwestern-medill-to-research-ai-and-journalism</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -835,7 +1395,7 @@
       <link>https://www.perplexity.ai/hub/blog/eligible-uber-one-members-can-now-unlock-a-complimentary-full-year-of-perplexity-pro</link>
       <description>Eligible Uber One members can now unlock a complimentary full year of Perplexity Pro</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/eligible-uber-one-members-can-now-unlock-a-complimentary-full-year-of-perplexity-pro</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -843,7 +1403,7 @@
       <link>https://www.perplexity.ai/hub/blog/introducing-the-perplexity-publishers-program</link>
       <description>Introducing the Perplexity Publishers’ Program</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/introducing-the-perplexity-publishers-program</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -851,7 +1411,7 @@
       <link>https://www.perplexity.ai/hub/blog/perplexity-collaborates-with-amazon-web-services-to-launch-enterprise-pro</link>
       <description>Perplexity collaborates with Amazon Web Services to launch Enterprise Pro</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/perplexity-collaborates-with-amazon-web-services-to-launch-enterprise-pro</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -859,7 +1419,7 @@
       <link>https://www.perplexity.ai/hub/blog/pro-search-upgraded-for-more-advanced-problem-solving</link>
       <description>Pro Search: Upgraded for more advanced problem-solving</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/pro-search-upgraded-for-more-advanced-problem-solving</guid>
-      <category>Updates</category>
+      <category>Blog</category>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -867,7 +1427,7 @@
       <link>https://www.perplexity.ai/hub/blog/bringing-perplexity-to-education-and-not-for-profits</link>
       <description>Bringing Perplexity to education and not-for-profits</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/bringing-perplexity-to-education-and-not-for-profits</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -875,7 +1435,7 @@
       <link>https://www.perplexity.ai/hub/blog/perplexity-pages</link>
       <description>Introducing Perplexity Pages</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/perplexity-pages</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -883,7 +1443,7 @@
       <link>https://www.perplexity.ai/hub/blog/perplexity-launches-enterprise-pro</link>
       <description>Perplexity launches Enterprise Pro</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/perplexity-launches-enterprise-pro</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -891,15 +1451,15 @@
       <link>https://www.perplexity.ai/hub/blog/perplexity-pro-is-coming-to-all-sk-telecom-users</link>
       <description>Perplexity Pro is coming to all SK Telecom users</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/perplexity-pro-is-coming-to-all-sk-telecom-users</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Perplexity Partners with ElevenLabs to launch 'Discover Daily' Podcast</title>
+      <title>Perplexity partners with ElevenLabs to launch 'Discover Daily' podcast</title>
       <link>https://www.perplexity.ai/hub/blog/perplexity-partners-with-elevenlabs-to-launch-discover-daily-podcast</link>
-      <description>Perplexity Partners with ElevenLabs to launch 'Discover Daily' Podcast</description>
+      <description>Perplexity partners with ElevenLabs to launch 'Discover Daily' podcast</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/perplexity-partners-with-elevenlabs-to-launch-discover-daily-podcast</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -907,7 +1467,7 @@
       <link>https://www.perplexity.ai/hub/blog/arc-x-perplexity</link>
       <description>Arc x Perplexity</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/arc-x-perplexity</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -915,15 +1475,15 @@
       <link>https://www.perplexity.ai/hub/blog/perplexity-raises-series-b-funding-round</link>
       <description>Perplexity raises Series B funding round</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/perplexity-raises-series-b-funding-round</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing PPLX Online LLMs</title>
+      <title>Introducing PPLX online LLMs</title>
       <link>https://www.perplexity.ai/hub/blog/introducing-pplx-online-llms</link>
-      <description>Introducing PPLX Online LLMs</description>
+      <description>Introducing PPLX online LLMs</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/introducing-pplx-online-llms</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -931,7 +1491,7 @@
       <link>https://www.perplexity.ai/hub/blog/turbocharging-llama-2-70b-with-nvidia-h100</link>
       <description>Turbocharging Llama 2 70B with NVIDIA H100</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/turbocharging-llama-2-70b-with-nvidia-h100</guid>
-      <category>Research</category>
+      <category>Blog</category>
       <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -939,7 +1499,7 @@
       <link>https://www.perplexity.ai/hub/blog/introducing-pplx-api</link>
       <description>Introducing pplx-api</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/introducing-pplx-api</guid>
-      <category>Developers</category>
+      <category>Blog</category>
       <pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -947,7 +1507,7 @@
       <link>https://www.perplexity.ai/hub/blog/announcing-our-series-a-funding-round-and-mobile-app-launch</link>
       <description>Perplexity raises Series A funding round</description>
       <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/announcing-our-series-a-funding-round-and-mobile-app-launch</guid>
-      <category>Company</category>
+      <category>Blog</category>
       <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>

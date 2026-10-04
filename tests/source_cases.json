@@ -89,5 +89,12 @@
     "fixture": "xai_browser.html",
     "title": "Setting Grok Bot loose",
     "date": "2026-09-04"
+  },
+  {
+    "module": "perplexity_hub",
+    "parser": "parse_hub_html",
+    "fixture": "perplexity_browser.html",
+    "title": "Optimizing On-Device",
+    "date": "2026-09-01"
   }
 ]

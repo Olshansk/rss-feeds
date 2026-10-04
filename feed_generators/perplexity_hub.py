@@ -1,24 +1,20 @@
 """Generate RSS feed for the Perplexity Hub (https://www.perplexity.ai/hub).
 
-The hub is a Framer-built SPA that renders client-side. We use Selenium plus
-a CDP command to force an Accept-Language: en-US header, since Perplexity
-geo-redirects based on the request header (not URL or cookies). Without it
-the scraper would get localized content and localized URLs.
+The current blog uses Sanity cards with See more pagination. Selenium fetches
+the page with an English locale and expands the requested article history.
 """
 
 import argparse
 import contextlib
 import re
-import time
 from datetime import datetime
 
 import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import WebDriverWait
 
+from dynamic_pages import fetch_rendered
+from feed_history import load_feed_history, merge_feed_history
 from utils import (
     DEFAULT_USER_AGENT,
     deserialize_entries,
@@ -28,15 +24,13 @@ from utils import (
     save_rss_feed,
     setup_feed_links,
     setup_logging,
-    setup_selenium_driver,
     sort_posts_for_feed,
-    stable_fallback_date,
 )
 
 logger = setup_logging()
 
 FEED_NAME = "perplexity_hub"
-BLOG_URL = "https://www.perplexity.ai/hub"
+BLOG_URL = "https://www.perplexity.ai/hub/blog"
 
 # A <p> is treated as a date (and skipped for category) if it contains an
 # English or German month name. Year-only strings are not enough, since
@@ -46,7 +40,7 @@ DATE_PATTERN = re.compile(
     r"|Januar|Februar|März|April|Mai|Juni|Juli|August"
     r"|September|Oktober|November|Dezember)\b"
 )
-LOCALE_PREFIX = re.compile(r"(perplexity\.ai)/[a-z]{2}/hub/")
+LOCALE_PREFIX = re.compile(r"(perplexity\.ai)/[a-z]{2}(?:-[A-Za-z]{2})?/hub/")
 
 
 def _force_english_locale(driver) -> None:
@@ -61,28 +55,21 @@ def _force_english_locale(driver) -> None:
     )
 
 
-def fetch_hub_content(url: str = BLOG_URL) -> str:
-    """Fetch the fully rendered HTML of the Perplexity Hub via Selenium."""
-    driver = None
-    try:
-        logger.info(f"Fetching content from {url}")
-        driver = setup_selenium_driver()
-        _force_english_locale(driver)
-        driver.get(url)
-        time.sleep(5)
+def fetch_hub_content(url: str = BLOG_URL, max_clicks: int = 2) -> str:
+    """Fetch the current blog and expand recent or full history.
 
-        try:
-            WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'a[href*="/hub/blog/"]')))
-            logger.info("Blog articles loaded")
-        except Exception:
-            logger.warning("Could not confirm articles loaded, proceeding anyway")
-
-        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        time.sleep(2)
-        return driver.page_source
-    finally:
-        if driver:
-            driver.quit()
+    How:
+    1. Open the blog with an English locale and wait for article links.
+    2. Click See more, waiting for the article count to grow each time.
+    3. Return rendered HTML and always close Chrome.
+    """
+    return fetch_rendered(
+        url,
+        'a[href*="/hub/blog/"]:not([href*="/category/"])',
+        button_xpath="//button[normalize-space()='See more']",
+        max_clicks=max_clicks,
+        configure=_force_english_locale,
+    )
 
 
 def _canonicalize_link(href: str) -> str:
@@ -103,23 +90,19 @@ def _extract_title(card) -> str | None:
         elem = card.select_one(tag)
         if elem and elem.text.strip():
             return elem.text.strip()
-    text = card.get_text(strip=True)
-    return text[:150] if text and len(text) > 5 else None
+    title = card.select_one("span.text-pretty")
+    return title.get_text(" ", strip=True) if title else None
 
 
 def _extract_date(card) -> datetime | None:
-    time_elem = card.select_one("time")
-    if not time_elem:
-        return None
-    datetime_attr = time_elem.get("datetime")
-    if not datetime_attr:
-        return None
-    with contextlib.suppress(ValueError):
-        date = datetime.fromisoformat(datetime_attr.replace("Z", "+00:00"))
-        if date.tzinfo is None:
-            date = date.replace(tzinfo=pytz.UTC)
-        return date
-    return None
+    """Read machine-readable dates or the visible date on current Sanity cards."""
+    time_elem = card.select_one("time[datetime]")
+    if time_elem:
+        with contextlib.suppress(ValueError):
+            date = datetime.fromisoformat(time_elem["datetime"].replace("Z", "+00:00"))
+            return date if date.tzinfo else date.replace(tzinfo=pytz.UTC)
+    match = re.search(r"[A-Z][a-z]{2} \d{1,2}, \d{4}", card.get_text(" ", strip=True))
+    return datetime.strptime(match.group(), "%b %d, %Y").replace(tzinfo=pytz.UTC) if match else None
 
 
 def _extract_category(card) -> str:
@@ -150,9 +133,7 @@ def validate_article(article: dict) -> bool:
 def parse_hub_html(html_content: str) -> list[dict]:
     """Extract articles from the Perplexity Hub.
 
-    Hero and article cards are both <a href="./hub/blog/..."> wrappers.
-    Hero cards have <h4> titles and no <time>; article cards have <h6>,
-    a <time datetime="...">, and <p> tags for category/date labels.
+    Read heading or span titles and machine-readable or visible publication dates.
     """
     soup = BeautifulSoup(html_content, "html.parser")
     articles = []
@@ -163,7 +144,7 @@ def parse_hub_html(html_content: str) -> list[dict]:
 
     for card in all_links:
         href = card.get("href", "")
-        if not href:
+        if not href or "/category/" in href:
             continue
         link = _canonicalize_link(href)
         if link in seen_links:
@@ -175,7 +156,9 @@ def parse_hub_html(html_content: str) -> list[dict]:
             logger.debug(f"Could not extract title for link: {link}")
             continue
 
-        date = _extract_date(card) or stable_fallback_date(link)
+        date = _extract_date(card)
+        if date is None:
+            raise ValueError(f"Missing Perplexity publication date: {link}")
         category = _extract_category(card)
 
         article = {
@@ -207,7 +190,7 @@ def generate_rss_feed(articles: list[dict]) -> FeedGenerator:
         fe.title(article["title"])
         fe.description(article["description"])
         fe.link(href=article["link"])
-        fe.id(article["link"])
+        fe.id(article.get("guid") or article["link"])
         fe.category(term=article["category"])
         fe.published(article["date"])
 
@@ -217,7 +200,7 @@ def generate_rss_feed(articles: list[dict]) -> FeedGenerator:
 
 def main(full_reset: bool = False) -> bool:
     cache = load_cache(FEED_NAME)
-    cached_entries = deserialize_entries(cache.get("entries", []))
+    cached_entries = merge_entries(deserialize_entries(cache.get("entries", [])), load_feed_history(FEED_NAME))
 
     if full_reset or not cached_entries:
         mode = "full reset" if full_reset else "no cache exists"
@@ -225,8 +208,11 @@ def main(full_reset: bool = False) -> bool:
     else:
         logger.info("Running incremental update")
 
-    html = fetch_hub_content()
+    html = fetch_hub_content(max_clicks=30 if full_reset else 2)
     new_articles = parse_hub_html(html)
+
+    if not new_articles:
+        raise ValueError("No fresh Perplexity articles found; refusing to republish cached content")
 
     if cached_entries and not full_reset:
         articles = merge_entries(new_articles, cached_entries)
@@ -237,9 +223,10 @@ def main(full_reset: bool = False) -> bool:
         logger.warning("No articles found. Check the HTML structure.")
         return False
 
-    save_cache(FEED_NAME, articles)
+    articles = merge_feed_history(articles, FEED_NAME, match_titles=True)
     feed = generate_rss_feed(articles)
     save_rss_feed(feed, FEED_NAME)
+    save_cache(FEED_NAME, articles)
     logger.info("Done!")
     return True
 
@@ -248,4 +235,4 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate Perplexity Hub RSS feed")
     parser.add_argument("--full", action="store_true", help="Force full reset (ignore cache)")
     args = parser.parse_args()
-    main(full_reset=args.full)
+    raise SystemExit(0 if main(full_reset=args.full) else 1)
