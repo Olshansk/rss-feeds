@@ -124,6 +124,11 @@ feeds:
     type: requests
     blog_url: https://openai.com/news/engineering/
 
+  openai_main:
+    script: openai_main_blog.py
+    type: requests
+    blog_url: https://openai.com/news/
+
   openai_research:
     script: openai_research_blog.py
     type: requests

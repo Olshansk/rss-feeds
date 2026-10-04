@@ -40,10 +40,7 @@ Scraped feeds are generated hourly. "Official RSS" rows point to native feeds th
 | [Interconnected (Matt Webb)](https://interconnected.org/home)                                     | [Official RSS](https://interconnected.org/home/feed)                                                                                 |
 | [Mistral AI News](https://mistral.ai/news)                                                        | [feed_mistral.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_mistral.xml)                                 |
 | [Ollama Blog](https://ollama.com/blog)                                                            | [feed_ollama.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_ollama.xml)                                   |
-| [OpenAI All News](https://openai.com/news/)                                              | [Official RSS](https://openai.com/news/rss.xml)                                                                                      |
-| [OpenAI Developer Blog](https://developers.openai.com/blog)                                       | [feed_openai_developer.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_openai_developer.xml)              |
-| [OpenAI Engineering](https://openai.com/news/engineering/)                                        | [feed_openai_engineering.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_openai_engineering.xml)             |
-| [OpenAI Research](https://openai.com/news/research/) | [feed_openai_research.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_openai_research.xml) |
+| [OpenAI — All News and Developer Blog](https://openai.com/news/) | [feed_openai_main.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_openai_main.xml) |
 | [Paul Graham's Articles](https://www.paulgraham.com/articles.html)                                | [feed_paulgraham.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_paulgraham.xml)                           |
 | [Perplexity Hub](https://www.perplexity.ai/hub/blog)                                                   | [feed_perplexity_hub.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_perplexity_hub.xml)                   |
 | [Pinecone Blog](https://www.pinecone.io/blog/)                                                    | [feed_pinecone.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_pinecone.xml)                               |
@@ -59,6 +56,9 @@ Scraped feeds are generated hourly. "Official RSS" rows point to native feeds th
 | [Windsurf Changelog](https://docs.devin.ai/desktop/changelog)                                              | [feed_windsurf_changelog.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_windsurf_changelog.xml)           |
 | [Windsurf Next Changelog](https://docs.devin.ai/desktop/changelog-next)                           | [feed_windsurf_next_changelog.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_windsurf_next_changelog.xml) |
 | [xAI News](https://x.ai/news)                                                                     | [feed_xainews.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_xainews.xml)                                 |
+
+The combined OpenAI feed includes every category in the official News RSS plus the separate Developer Blog.
+Existing OpenAI research, engineering, and developer feed URLs remain available and continue updating.
 
 ### Planned <!-- omit in toc -->
 

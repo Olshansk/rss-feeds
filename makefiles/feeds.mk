@@ -72,6 +72,13 @@ feeds_openai_engineering: ## Generate RSS feed for OpenAI Engineering
 	$(Q)uv run feed_generators/openai_engineering_blog.py
 	$(call print_success,OpenAI Engineering feed generated)
 
+.PHONY: feeds_openai_main
+feeds_openai_main: ## Generate combined OpenAI News and Developer Blog feed
+	$(call check_venv)
+	$(call print_info,Generating combined OpenAI feed)
+	$(Q)uv run feed_generators/openai_main_blog.py
+	$(call print_success,Combined OpenAI feed generated)
+
 .PHONY: feeds_openai_research
 feeds_openai_research: ## Generate RSS feed for OpenAI Research
 	$(call check_venv)
