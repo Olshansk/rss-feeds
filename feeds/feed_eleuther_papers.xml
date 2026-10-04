@@ -8,41 +8,1385 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Sep 2026 21:04:44 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 19:15:40 +0000</lastBuildDate>
+    <item>
+      <title>PACT: Can Enterprise AI Assistants Be Trusted Under Pressure?</title>
+      <link>https://arxiv.org/abs/2609.18605</link>
+      <description>Okamoto and Erol</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2609.18605</guid>
+      <pubDate>Wed, 16 Sep 2026 12:57:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>BuzzASR: A Swarm of 100+ Monolingual Speech Recognition Models</title>
+      <link>https://arxiv.org/abs/2609.09554</link>
+      <description>Singh, Yadavalli, Arnett, and Warstadt</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2609.09554</guid>
+      <pubDate>Wed, 09 Sep 2026 00:18:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agent Memory Is a Surface for Endogenous Authorization Laundering</title>
+      <link>https://arxiv.org/abs/2609.01836</link>
+      <description>Cerruti, Okamoto, and Erol</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2609.01836</guid>
+      <pubDate>Tue, 01 Sep 2026 20:12:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cross-Lingual Alignment Without Joint Training: Do Monolingual Language Models Converge on Universal Representations?</title>
+      <link>https://arxiv.org/abs/2608.27115</link>
+      <description>Zhou, Salhan, Arnett, and Korhonen</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2608.27115</guid>
+      <pubDate>Thu, 27 Aug 2026 13:27:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Apples to Apples? Towards Comparable Crosslingual Language Model Evaluation</title>
+      <link>https://arxiv.org/abs/2608.25089</link>
+      <description>Yang, Wilcox, and Arnett</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2608.25089</guid>
+      <pubDate>Tue, 25 Aug 2026 19:36:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Faults in Our Formal Benchmarking: Dataset Defects and Evaluation Failures in Lean Theorem Proving</title>
+      <link>https://arxiv.org/abs/2606.29493</link>
+      <description>Ammanamanchi, Bhat, and Biderman</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2606.29493</guid>
+      <pubDate>Sun, 28 Jun 2026 16:46:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Where Does Social Reasoning Come From? Capability Provenance in Language Models</title>
+      <link>https://arxiv.org/abs/2606.19625</link>
+      <description>Matlin and 10 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2606.19625</guid>
+      <pubDate>Wed, 17 Jun 2026 22:06:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Every Eval Ever: A Unifying Schema and Community Repository for AI Evaluation Results</title>
+      <link>https://arxiv.org/abs/2606.14516</link>
+      <description>Batzner, Nelaturu, Stachura, Kornilova, and 44 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2606.14516</guid>
+      <pubDate>Fri, 12 Jun 2026 14:47:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>LoRA-Muon: Spectral Steepest Descent on the Low-Rank Manifold</title>
+      <link>https://arxiv.org/abs/2606.12921</link>
+      <description>Cesista, Crowson, Simal, and Biderman</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2606.12921</guid>
+      <pubDate>Thu, 11 Jun 2026 05:24:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bergson: An Open Source Library for Data Attribution</title>
+      <link>https://arxiv.org/abs/2606.11660</link>
+      <description>Quirke, Jaburi, Johnston, Li, Paulo, Martres, Gupta, Biderman, and Belrose</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2606.11660</guid>
+      <pubDate>Wed, 10 Jun 2026 04:56:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Evaluation Cards: An Interpretive Layer for AI Evaluation Reporting</title>
+      <link>https://arxiv.org/abs/2606.09809</link>
+      <description>Ghosh, Reuel, Chim, Kennedy, and 44 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2606.09809</guid>
+      <pubDate>Mon, 08 Jun 2026 17:55:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Don't Just "Fix it in Post'': A Science of AI Must Study Learning Dynamics</title>
+      <link>https://arxiv.org/abs/2606.06533</link>
+      <description>Biderman, Khan, Mireshghallah, Arnett, Barez, and Saphra</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2606.06533</guid>
+      <pubDate>Wed, 03 Jun 2026 17:58:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Key-Value Means: Transformers with Expandable Block-Recurrent Compressed Memory</title>
+      <link>https://arxiv.org/abs/2605.09877</link>
+      <description>Goldstein, Singhal, Cheah</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2605.09877</guid>
+      <pubDate>Mon, 11 May 2026 02:04:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Soohak: A Mathematician-Curated Benchmark for Evaluating Research-level Math Capabilities of LLMs</title>
+      <link>https://arxiv.org/abs/2605.09063</link>
+      <description>Son, Kim, Arnett, Ko, Lee, Kang, Jiang, Yun, Lee, Lee, Kim, Park, Hong, Lee, Yi, Shin, Bok, Shin, Ji, Kim, Jung, Asai, Neubig, Welleck, and 51 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2605.09063</guid>
+      <pubDate>Sat, 09 May 2026 17:14:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Weight Tying Biases Token Embeddings Towards the Output Space</title>
+      <link>https://arxiv.org/abs/2603.26663</link>
+      <description>Lopardo, Harish, Arnett, and Gupta</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2603.26663</guid>
+      <pubDate>Fri, 27 Mar 2026 17:58:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Open Must Language Models be to Enable Reliable Scientific Inference?</title>
+      <link>https://arxiv.org/abs/2603.26539</link>
+      <description>Michaelov, Arnett, Chang, Rivière, Taylor, Jones, Trott, Levy, Bergen, and Altman</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2603.26539</guid>
+      <pubDate>Fri, 27 Mar 2026 15:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Thought Virus: Viral Misalignment via Subliminal Prompting in Multi-Agent Systems</title>
+      <link>https://arxiv.org/abs/2603.00131</link>
+      <description>Weckbecker, Müller, Hagag, and Mulet</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2603.00131</guid>
+      <pubDate>Mon, 23 Feb 2026 13:46:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>When AI Benchmarks Plateau: A Systematic Study of Benchmark Saturation</title>
+      <link>https://arxiv.org/abs/2602.16763</link>
+      <description>Akhtar, Reuel, and 35 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2602.16763</guid>
+      <pubDate>Wed, 18 Feb 2026 16:51:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Queer NLP: A Critical Survey on Literature Gaps, Biases and Trends</title>
+      <link>https://arxiv.org/abs/2602.16151</link>
+      <description>Weber, Wang, Gupta, Subramonian, Ulmer, and 14 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2602.16151</guid>
+      <pubDate>Wed, 18 Feb 2026 02:54:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Concept Influence: Leveraging Interpretability to Improve Performance and Efficiency in Training Data Attribution</title>
+      <link>https://arxiv.org/abs/2602.14869</link>
+      <description>Kowal, Paulo, Jaburi, Tseng, McKinney, Heimersheim, Tucker, Gleave, and Pelrine</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2602.14869</guid>
+      <pubDate>Mon, 16 Feb 2026 16:02:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>CommonLID: Re-evaluating State-of-the-Art Language Identification Performance on Web Data</title>
+      <link>https://arxiv.org/abs/2601.18026</link>
+      <description>Ortiz Suarez, Burchell, Arnett, and 94 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2601.18026</guid>
+      <pubDate>Sun, 25 Jan 2026 22:49:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Spatial Blindspot of Vision-Language Models</title>
+      <link>https://arxiv.org/abs/2601.09954</link>
+      <description>Alam, Murali, Bharadwaj, Liu, Chung, Sharma, A, Kiran, Tam, and Vegesna</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2601.09954</guid>
+      <pubDate>Thu, 15 Jan 2026 00:30:34 +0000</pubDate>
+    </item>
     <item>
       <title>Quantifying the Effect of Test Set Contamination on Generative Evaluations</title>
       <link>https://arxiv.org/abs/2601.04301</link>
-      <description>As frontier AI systems are pretrained on web-scale data, test set contamination has become a critical concern for accurately assessing their capabilities. While research has thoroughly investigated the impact of test set contamination on discriminative evaluations like multiple-choice question-answering, comparatively little research has studied the impact of test set contamination on generative evaluations. In this work, we quantitatively assess the effect of test set contamination on generative evaluations through the language model lifecycle. We pretrain language models on mixtures of web data and the MATH benchmark, sweeping model sizes and number of test set replicas contaminating the pretraining corpus; performance improves with contamination and model size. Using scaling laws, we make a surprising discovery: including even a single test set replica enables models to achieve lower loss than the irreducible error of training on the uncontaminated corpus. We then study further training: overtraining with fresh data reduces the effects of contamination, whereas supervised finetuning on the training set can either increase or decrease performance on test data, depending on the amount of pretraining contamination. Finally, at inference, we identify factors that modulate memorization: high sampling temperatures mitigate contamination effects, and longer solutions are exponentially more difficult to memorize than shorter ones, presenting a contrast with discriminative evaluations, where solutions are only a few tokens in length. By characterizing how generation and memorization interact, we highlight a new layer of complexity for trustworthy evaluation of AI systems.</description>
+      <description>Schaeffer, Kazdan, Abbasi, Liu, Miranda, Ahmed, Puri, Mireshghallah, and Koyejo</description>
       <guid isPermaLink="false">https://arxiv.org/abs/2601.04301</guid>
-      <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 07 Jan 2026 18:46:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Attention-Guided Audio Compression for Multimodal LLM</title>
+      <link>https://ieeexplore.ieee.org/abstract/document/11461737</link>
+      <description>Rane, Vatsa, Pethe, Aktolun, Li, and Singh (Source provides publication year 2026 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://ieeexplore.ieee.org/abstract/document/11461737</guid>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Challenges to Grassroot Organization Engagement with AI Policy</title>
+      <link>https://nips.cc/virtual/2025/136959</link>
+      <description>Mickel, Buckner, Agnew, Long, Lin, Alaka, Wang, Arora, Swaminathan, and Subramonian (Source provides publication year 2026 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://nips.cc/virtual/2025/136959</guid>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>L1 Influence in L2 Language Models: A Human-centric Approach</title>
+      <link>https://aclanthology.org/2026.cdl-1.15/</link>
+      <description>Barbenel, Goulder, O’Driscoll, Salhan, Arnett, Caines, and Buttery (Source provides publication year 2026 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://aclanthology.org/2026.cdl-1.15/</guid>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What AI Governance Needs from Mechanistic Auditing</title>
+      <link>https://openreview.net/forum?id=3Vj7YtFlAm</link>
+      <description>Barez, Mireshghallah, Osborne, Biderman. Lazar, Trager (Source provides publication year 2026 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://openreview.net/forum?id=3Vj7YtFlAm</guid>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What Helps Agentic Lean Provers? A Trace-Level Attribution Study</title>
+      <link>https://openreview.net/forum?id=ShhLinF41r</link>
+      <description>Ammanamanchi (Source provides publication year 2026 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://openreview.net/forum?id=ShhLinF41r</guid>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Video Deepfake Abuse: How Company Choices Predictably Shape Misuse Patterns</title>
+      <link>https://arxiv.org/abs/2512.11815</link>
+      <description>Kamachee, Casper, Ding, Yew, Reuel, Biderman, and Hadfield-Menell</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2512.11815</guid>
+      <pubDate>Wed, 26 Nov 2025 18:59:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Automated Attribution Graph Interpretation via Probe Prompting</title>
+      <link>https://arxiv.org/abs/2511.07002</link>
+      <description>Birardi and Paulo</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.07002</guid>
+      <pubDate>Mon, 10 Nov 2025 11:53:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Who Evaluates AI's Social Impacts? Mapping Coverage and Gaps in First and Third Party Evaluations</title>
+      <link>https://arxiv.org/abs/2511.05613</link>
+      <description>Reuel, Ghosh, Chim, and 32 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.05613</guid>
+      <pubDate>Thu, 06 Nov 2025 14:25:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Ghost in the Keys: A Disklavier Demo for Human-AI Musical Co-Creativity</title>
+      <link>https://arxiv.org/abs/2511.01663</link>
+      <description>Bradshaw, Spangher, Biderman, and Colton</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.01663</guid>
+      <pubDate>Mon, 03 Nov 2025 15:26:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Benchmark Disaggregation Improves Interpretability of Training Dynamics</title>
+      <link>https://arxiv.org/abs/2510.24934</link>
+      <description>Michaelov and Arnett</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2510.24934</guid>
+      <pubDate>Tue, 28 Oct 2025 19:59:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Global PIQA: Evaluating Physical Commonsense Reasoning Across 100+ Languages and Cultures</title>
+      <link>https://arxiv.org/abs/2510.24081</link>
+      <description>Chang, Arnett, and 378 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2510.24081</guid>
+      <pubDate>Tue, 28 Oct 2025 05:46:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Binary Sparse Coding for Interpretability</title>
+      <link>https://arxiv.org/abs/2509.25596</link>
+      <description>Quirke, Shabalin, and Belrose</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2509.25596</guid>
+      <pubDate>Mon, 29 Sep 2025 23:41:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Traditional Approach to Symbolic Piano Continuation</title>
+      <link>https://arxiv.org/abs/2509.12267</link>
+      <description>Zhou-Zheng, Backsund, Chan, Coventry, Eslami, Goel, Han, Soomro, and Wei</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2509.12267</guid>
+      <pubDate>Sat, 13 Sep 2025 14:22:11 +0000</pubDate>
     </item>
     <item>
       <title>Deep Ignorance: Filtering Pretraining Data Builds Tamper-Resistant Safeguards into Open-Weight LLMs</title>
       <link>https://arxiv.org/abs/2508.06601</link>
-      <description>Deep Ignorance: Filtering Pretraining Data Builds Tamper-Resistant Safeguards into Open-Weight LLMs</description>
+      <description>O'Brien, Casper, Anthony, Korbak, Kirk, Davies, Mishra, Irving, Gal, and Biderman</description>
       <guid isPermaLink="false">https://arxiv.org/abs/2508.06601</guid>
-      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 08 Aug 2025 17:59:47 +0000</pubDate>
     </item>
     <item>
-      <title>Composable Interventions for Language Models</title>
-      <link>https://arxiv.org/abs/2407.06483</link>
-      <description>Composable Interventions for Language Models</description>
-      <guid isPermaLink="false">https://arxiv.org/abs/2407.06483</guid>
-      <pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate>
+      <title>Matrix-Driven Identification and Reconstruction of LLM Weight Homology</title>
+      <link>https://arxiv.org/abs/2508.06309</link>
+      <description>Zhang and Goldstein</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2508.06309</guid>
+      <pubDate>Fri, 08 Aug 2025 13:35:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Evaluating SAE interpretability without explanations</title>
+      <link>https://arxiv.org/abs/2507.08473</link>
+      <description>Paulo and Belrose</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2507.08473</guid>
+      <pubDate>Fri, 11 Jul 2025 10:31:53 +0000</pubDate>
     </item>
     <item>
       <title>Evaluating Morphological Alignment of Tokenizers in 70 Languages</title>
       <link>https://arxiv.org/abs/2507.06378</link>
-      <description>Evaluating Morphological Alignment of Tokenizers in 70 Languages</description>
+      <description>Arnett, Hudspeth, and O'Connor</description>
       <guid isPermaLink="false">https://arxiv.org/abs/2507.06378</guid>
-      <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 08 Jul 2025 20:32:26 +0000</pubDate>
     </item>
     <item>
       <title>Scaling Self-Supervised Representation Learning for Symbolic Piano Performance</title>
       <link>https://arxiv.org/abs/2506.23869</link>
-      <description>Scaling Self-Supervised Representation Learning for Symbolic Piano Performance</description>
+      <description>Bradshaw, Spangher, Fan, Biderman, and Colton</description>
       <guid isPermaLink="false">https://arxiv.org/abs/2506.23869</guid>
-      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 30 Jun 2025 14:00:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Different Approach to AI Safety: Proceedings from the Columbia Convening on Openness in Artificial Intelligence and AI Safety</title>
+      <link>https://arxiv.org/abs/2506.22183</link>
+      <description>François, Péran, Bdeir, Dziri, and Hawkins, and 15 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2506.22183</guid>
+      <pubDate>Fri, 27 Jun 2025 12:45:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Common Pile v0.1: An 8TB Dataset of Public Domain and Openly Licensed Text</title>
+      <link>https://arxiv.org/abs/2506.05209</link>
+      <description>Kandpal, Lester, Raffel, Majstorović, Biderman, and 22 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2506.05209</guid>
+      <pubDate>Thu, 05 Jun 2025 16:21:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>BPE Stays on SCRIPT: Structured Encoding for Robust Multilingual Pretokenization</title>
+      <link>https://arxiv.org/abs/2505.24689</link>
+      <description>Land and Arnett</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2505.24689</guid>
+      <pubDate>Fri, 30 May 2025 15:12:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>When AI Co-Scientists Fail: SPOT—a Benchmark for Automated Verification of Scientific Research</title>
+      <link>https://arxiv.org/abs/2505.11855</link>
+      <description>Son, Hong, Fan, Nam, Ko, and 6 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2505.11855</guid>
+      <pubDate>Sat, 17 May 2025 05:45:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>RADLADS: Rapid Attention Distillation to Linear Attention Decoders at Scale</title>
+      <link>https://arxiv.org/abs/2505.03005</link>
+      <description>Goldstein, Alcaide, Lu, and Cheah</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2505.03005</guid>
+      <pubDate>Mon, 05 May 2025 20:03:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Aria-MIDI: A Dataset of MIDI Files for Symbolic Music Modeling</title>
+      <link>https://arxiv.org/abs/2504.15071</link>
+      <description>Bradshaw, and Colton</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2504.15071</guid>
+      <pubDate>Mon, 21 Apr 2025 12:59:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mechanistic Anomaly Detection for "Quirky" Language Models</title>
+      <link>https://arxiv.org/abs/2504.08812</link>
+      <description>Johnston, Chakraborty, and Belrose</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2504.08812</guid>
+      <pubDate>Wed, 09 Apr 2025 06:03:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>RWKV-7 "Goose" with Expressive Dynamic State Evolution</title>
+      <link>https://arxiv.org/abs/2503.14456</link>
+      <description>Peng, Zhang, Goldstein, Alcaide, Du, and 13 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2503.14456</guid>
+      <pubDate>Tue, 18 Mar 2025 17:31:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>PolyPythias: Stability and Outliers across Fifty Language Model Pre-Training Runs</title>
+      <link>https://arxiv.org/abs/2503.09543</link>
+      <description>van der Wal, Lesci, Müller-Eberstein, Saphra, Schoelkopf, Zuidema, and Biderman</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2503.09543</guid>
+      <pubDate>Wed, 12 Mar 2025 16:59:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>On the Acquisition of Shared Grammatical Representations in Bilingual Language Models</title>
+      <link>https://arxiv.org/abs/2503.03962</link>
+      <description>Arnett, Chang, Michaelov, and Bergen</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2503.03962</guid>
+      <pubDate>Wed, 05 Mar 2025 23:27:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>More of the Same: Persistent Representational Harms Under Increased Representation</title>
+      <link>https://arxiv.org/abs/2503.00333</link>
+      <description>Mickel, De-Arteaga, Liu, and Tian</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2503.00333</guid>
+      <pubDate>Sat, 01 Mar 2025 03:45:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Beyond Release: Access Considerations for Generative AI Systems</title>
+      <link>https://arxiv.org/abs/2502.16701</link>
+      <description>Solaiman, Bommasani, Hendrycks, Herbert-Voss, Jernite, Skowron, and Trask</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2502.16701</guid>
+      <pubDate>Sun, 23 Feb 2025 20:06:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Examining Two Hop Reasoning Through Information Content Scaling</title>
+      <link>https://arxiv.org/abs/2502.03490</link>
+      <description>Johnston and Belrose</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2502.03490</guid>
+      <pubDate>Wed, 05 Feb 2025 02:13:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Slowing Learning by Erasing Simple Features</title>
+      <link>https://arxiv.org/abs/2502.02820</link>
+      <description>Quirke and Belrose</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2502.02820</guid>
+      <pubDate>Wed, 05 Feb 2025 01:42:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Converting MLPs into Polynomials in Closed Form</title>
+      <link>https://arxiv.org/abs/2502.01032</link>
+      <description>Belrose and Rigg</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2502.01032</guid>
+      <pubDate>Mon, 03 Feb 2025 03:54:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can We Partially Rewrite Transformers in Natural Language?</title>
+      <link>https://arxiv.org/abs/2501.18838</link>
+      <description>Paulo and Belrose</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2501.18838</guid>
+      <pubDate>Fri, 31 Jan 2025 01:12:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Transcoders Beat Sparse Autoencoders for Interpretability</title>
+      <link>https://arxiv.org/abs/2501.18823</link>
+      <description>Paulo, Shabalin, and Belrose</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2501.18823</guid>
+      <pubDate>Fri, 31 Jan 2025 00:36:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Estimating the Probability of Sampling a Trained Neural Network at Random</title>
+      <link>https://arxiv.org/abs/2501.18812</link>
+      <description>Scherlis and Belrose</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2501.18812</guid>
+      <pubDate>Fri, 31 Jan 2025 00:16:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sparse Autoencoders Trained on the Same Data Learn Different Features</title>
+      <link>https://arxiv.org/abs/2501.16615</link>
+      <description>Paulo and Belrose</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2501.16615</guid>
+      <pubDate>Tue, 28 Jan 2025 01:24:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Open Problems in Mechanistic Interpretability</title>
+      <link>https://arxiv.org/abs/2501.16496</link>
+      <description>Sharkey, Chughtai, Batson, Lindsey, Wu, and 24 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2501.16496</guid>
+      <pubDate>Mon, 27 Jan 2025 20:57:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Humanity's Last Exam</title>
+      <link>https://arxiv.org/abs/2501.14249</link>
+      <description>Phan, Gatti, Han, Li and 1154 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2501.14249</guid>
+      <pubDate>Fri, 24 Jan 2025 05:27:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Robin: a Suite of Multi-Scale Vision-Language Models and the CHIRP Evaluation Benchmark</title>
+      <link>https://arxiv.org/abs/2501.09672</link>
+      <description>Roger, Humane, Kaplan, Gupta, Sun, Adamopoulos, Lim, Anthony, Fennell, and Rish</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2501.09672</guid>
+      <pubDate>Thu, 16 Jan 2025 17:08:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Towards Best Practices for Open Datasets for LLM Training</title>
+      <link>https://arxiv.org/abs/2501.08365</link>
+      <description>Baack, Biderman, Odrozek, Skowron, Bdeir, and 34 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2501.08365</guid>
+      <pubDate>Tue, 14 Jan 2025 17:18:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Write Code that People Want to Use</title>
+      <link>https://openreview.net/forum?id=oH0XhgzJt0</link>
+      <description>Biderman, Mickel, and Abbasi (Source provides publication year 2025 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://openreview.net/forum?id=oH0XhgzJt0</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CCS-Lib: A Python Package to Elicit Latent Knowledge from LLMs</title>
+      <link>https://joss.theoj.org/papers/10.21105/joss.06511</link>
+      <description>Laurito, Belrose, Mallen, Kozaronek, Roger, and 12 others (Source provides publication year 2025 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://joss.theoj.org/papers/10.21105/joss.06511</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Persona-Vector Routing: A Lightweight, Interpretable Guardrail for Mitigating LLM Hallucinations</title>
+      <link>https://neurips.cc/virtual/2025/129955</link>
+      <description>Imran and Chatterjee (Source provides publication year 2025 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://neurips.cc/virtual/2025/129955</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mitigating Emergent Misalignment with Data Attribution</title>
+      <link>https://openreview.net/forum?id=gN7pWmjiQW</link>
+      <description>Jaburi, Paulo, Shabalin, Quirke, and Belrose (Source provides publication year 2025 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://openreview.net/forum?id=gN7pWmjiQW</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Token Entanglement in Subliminal Learning</title>
+      <link>https://openreview.net/forum?id=auKgpBRzIW</link>
+      <description>Zur, Ying, Loftus, Şahin, Yu, Quirke, Rott Shaham, Shapira, Orgad, and Bau (Source provides publication year 2025 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://openreview.net/forum?id=auKgpBRzIW</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bridging the Data Provenance Gap Across Text, Speech, and Video</title>
+      <link>https://arxiv.org/abs/2412.17847</link>
+      <description>Longpre, Singh, Cherep, Tiwary, Materzynska, and 38 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2412.17847</guid>
+      <pubDate>Thu, 19 Dec 2024 01:30:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Understanding Gradient Descent through the Training Jacobian</title>
+      <link>https://arxiv.org/abs/2412.07003</link>
+      <description>Belrose and Scherlis</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2412.07003</guid>
+      <pubDate>Mon, 09 Dec 2024 21:17:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Surveying the Effects of Quality, Diversity, and Complexity in Synthetic Data From Large Language Models</title>
+      <link>https://arxiv.org/abs/2412.02980</link>
+      <description>Havrilla, Dai, O'Mahony, Oostermeijer, and Zisler, and 15 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2412.02980</guid>
+      <pubDate>Wed, 04 Dec 2024 02:47:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>RedPajama: an Open Dataset for Training Large Language Models</title>
+      <link>https://arxiv.org/abs/2411.12372</link>
+      <description>Weber, Fu, Anthony, Oren, and Adams, and 14 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2411.12372</guid>
+      <pubDate>Tue, 19 Nov 2024 09:35:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Steering Language Model Refusal with Sparse Autoencoders</title>
+      <link>https://arxiv.org/abs/2411.11296</link>
+      <description>O'Brien, Majercak, Fernandes, Edgar, Chen, Nori, Carignan, Horvitz, and Poursabzi-Sangdeh</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2411.11296</guid>
+      <pubDate>Mon, 18 Nov 2024 05:47:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Refusal in LLMs is an Affine Function</title>
+      <link>https://arxiv.org/abs/2411.09003</link>
+      <description>Marshall, Scherlis, and Belrose</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2411.09003</guid>
+      <pubDate>Wed, 13 Nov 2024 20:12:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lina-Speech: Gated Linear Attention is a Fast and Parameter-Efficient Learner for text-to-speech synthesis</title>
+      <link>https://arxiv.org/abs/2410.23320</link>
+      <description>Lemerle, Vanderbyl, Srivastav, Obin, and Roebel</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2410.23320</guid>
+      <pubDate>Wed, 30 Oct 2024 04:50:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Walsh Hadamard Derived Linear Vector Symbolic Architecture</title>
+      <link>https://arxiv.org/abs/2410.22669</link>
+      <description>Alam, Oberle, Raff, Biderman, Oates, and Holt</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2410.22669</guid>
+      <pubDate>Wed, 30 Oct 2024 03:42:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Automatically Interpreting Millions of Features in Large Language Models</title>
+      <link>https://arxiv.org/abs/2410.13928</link>
+      <description>Paulo, Mallen, Juang, and Belrose</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2410.13928</guid>
+      <pubDate>Thu, 17 Oct 2024 17:56:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Balancing Label Quantity and Quality for Scalable Elicitation</title>
+      <link>https://arxiv.org/abs/2410.13215</link>
+      <description>Mallen and Belrose</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2410.13215</guid>
+      <pubDate>Thu, 17 Oct 2024 04:39:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tree Attention: Topology-aware Decoding for Long-Context Attention on GPU Clusters</title>
+      <link>https://arxiv.org/abs/2408.04093</link>
+      <description>Shyam, Pilault, Shepperd, Anthony, and Millidge</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2408.04093</guid>
+      <pubDate>Wed, 07 Aug 2024 21:16:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Self-Directed Synthetic Dialogues and Revisions Technical Report</title>
+      <link>https://arxiv.org/abs/2407.18421</link>
+      <description>Lambert, Schoelkopf, Gokaslan, Soldaini, Pyatkin, and Castricato</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2407.18421</guid>
+      <pubDate>Thu, 25 Jul 2024 22:42:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Consent in crisis: The rapid decline of the AI data commons</title>
+      <link>https://arxiv.org/abs/2407.14933</link>
+      <description>Longpre, Mahari, Lee, Lund, Oderinwale, and 44 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2407.14933</guid>
+      <pubDate>Sat, 20 Jul 2024 16:50:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>GoldFinch: High Performance RWKV/Transformer Hybrid with Linear Pre-Fill and Extreme KV-Cache Compression</title>
+      <link>https://arxiv.org/abs/2407.12077</link>
+      <description>Goldstein, Obeid, Alcaide, Song, and Cheah</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2407.12077</guid>
+      <pubDate>Tue, 16 Jul 2024 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LLM Circuit Analyses Are Consistent Across Training and Scale</title>
+      <link>https://arxiv.org/abs/2407.10827</link>
+      <description>Tigges, Hanna, Yu, and Biderman</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2407.10827</guid>
+      <pubDate>Mon, 15 Jul 2024 15:38:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Composable Interventions for Language Models</title>
+      <link>https://arxiv.org/abs/2407.06483</link>
+      <description>Kolbeinsson, O'Brien, Huang, Gao, Liu, and 6 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2407.06483</guid>
+      <pubDate>Tue, 09 Jul 2024 01:17:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Recite, Reconstruct, Recollect: Memorization in LMs as a Multifaceted Phenomenon</title>
+      <link>https://arxiv.org/abs/2406.17746</link>
+      <description>Sai Prashanth, Deng, O'Brien, Jyothir S V, Khan, and 7 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2406.17746</guid>
+      <pubDate>Tue, 25 Jun 2024 17:32:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>From Decoding to Meta-Generation: Inference-time Algorithms for Large Language Models</title>
+      <link>https://arxiv.org/abs/2406.16838</link>
+      <description>Welleck, Bertsch, Finlayson, Schoelkopf, Xie, Neubig, Kulikov, and Harchaoui</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2406.16838</guid>
+      <pubDate>Mon, 24 Jun 2024 17:45:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Explaining and Mitigating Cross-Linguistic Tokenizer Inequalities</title>
+      <link>https://arxiv.org/abs/2406.16829</link>
+      <description>Arnett, Chang, Biderman, and Bergen</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2406.16829</guid>
+      <pubDate>Mon, 24 Jun 2024 17:38:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Foundation Model Development Cheatsheet: A Review of Responsible AI Tools &amp; Resources</title>
+      <link>https://arxiv.org/abs/2406.16746</link>
+      <description>Longpre, Biderman, Albalak, Schoelkopf, McDuff, and 18 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2406.16746</guid>
+      <pubDate>Mon, 24 Jun 2024 15:55:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>The BiGGen Bench: A Principled Benchmark for Fine-grained Evaluation of Language Models with Language Models</title>
+      <link>https://arxiv.org/abs/2406.05761</link>
+      <description>Kim, Suk, Cho, Longpre, Kim, and 27 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2406.05761</guid>
+      <pubDate>Sun, 09 Jun 2024 12:30:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why Has Predicting Downstream Capabilities of Frontier AI Models with Scale Remained Elusive?</title>
+      <link>https://arxiv.org/abs/2406.04391</link>
+      <description>Schaeffer, Schoelkopf, Miranda, Mukobi, Madan, Ibrahim, Bradley, Biderman, and Koyejo</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2406.04391</guid>
+      <pubDate>Thu, 06 Jun 2024 17:46:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lessons from the Trenches on Reproducible Evaluation of Language Models</title>
+      <link>https://arxiv.org/abs/2405.14782</link>
+      <description>Biderman, Schoelkopf, and Sutawika, and 27 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2405.14782</guid>
+      <pubDate>Thu, 23 May 2024 16:50:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Towards a Framework for Openness in Foundation Models: Proceedings from the Columbia Convening on Openness in Artificial Intelligence</title>
+      <link>https://arxiv.org/abs/2405.15802</link>
+      <description>Basdevant, François, Storchan, Bankston, Bdeir, and 11 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2405.15802</guid>
+      <pubDate>Fri, 17 May 2024 20:35:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Social Choice Should Guide AI Alignment: On Dealing with Diverse Human Feedback</title>
+      <link>https://arxiv.org/abs/2404.10271</link>
+      <description>Conitzer, Freedman, Heitzig, Holliday, Jacobs, and 7 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2404.10271</guid>
+      <pubDate>Tue, 16 Apr 2024 03:59:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Does Transformer Interpretability Transfer to RNNs?</title>
+      <link>https://arxiv.org/abs/2404.05971</link>
+      <description>Paulo, Marshall and Belrose</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2404.05971</guid>
+      <pubDate>Tue, 09 Apr 2024 02:59:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Eagle and Finch: RWKV with Matrix-Valued States and Dynamic Recurrence</title>
+      <link>https://arxiv.org/abs/2404.05892</link>
+      <description>Peng, Goldstein, Anthony, Albalak, Alcaide, and 23 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2404.05892</guid>
+      <pubDate>Mon, 08 Apr 2024 22:20:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Holographic Global Convolutional Networks for Long-Range Prediction Tasks in Malware Detection</title>
+      <link>https://arxiv.org/abs/2403.17978</link>
+      <description>Alam, Raff, Biderman, Oates, and Holt</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2403.17978</guid>
+      <pubDate>Sat, 23 Mar 2024 15:49:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Simple and Scalable Strategies to Continually Pre-train Large Language Models</title>
+      <link>https://arxiv.org/abs/2403.08763</link>
+      <description>Ibrahim, Thérien, Gupta, Richter, Anthony, Lesort, Belilovsky, and Rish</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2403.08763</guid>
+      <pubDate>Wed, 13 Mar 2024 17:58:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Safe Harbor for AI Evaluation and Red Teaming</title>
+      <link>https://arxiv.org/abs/2403.04893</link>
+      <description>Longpre, Kapoor, Klyman, Ramaswami, Bommasani, and 18 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2403.04893</guid>
+      <pubDate>Thu, 07 Mar 2024 20:55:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>On the Societal Impact of Open Foundation Models</title>
+      <link>https://arxiv.org/abs/2403.07918</link>
+      <description>Kapoor, Bommasani, and 23 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2403.07918</guid>
+      <pubDate>Tue, 27 Feb 2024 16:49:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Investigating the Effectiveness of HyperTuning via Gisting</title>
+      <link>https://arxiv.org/abs/2402.16817</link>
+      <description>Phang</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2402.16817</guid>
+      <pubDate>Mon, 26 Feb 2024 18:42:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multi-Task Inference: Can Large Language Models Follow Multiple Instructions at Once?</title>
+      <link>https://arxiv.org/abs/2402.11597</link>
+      <description>Son, Baek, Nam, Jeong, and Kim</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2402.11597</guid>
+      <pubDate>Sun, 18 Feb 2024 14:25:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>KMMLU: Measuring Massive Multitask Language Understanding in Korean</title>
+      <link>https://arxiv.org/abs/2402.11548</link>
+      <description>Son, Lee, Kim, Kim, Muennighoff, Choi, Park, Yoo, and Biderman</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2402.11548</guid>
+      <pubDate>Sun, 18 Feb 2024 11:41:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Improving Black-box Robustness with In-Context Rewriting</title>
+      <link>https://arxiv.org/abs/2402.08225</link>
+      <description>O'Brien, Ng, Puri, Mendez, Palangi, Kim, Ghassemi, and Hartvigsen</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2402.08225</guid>
+      <pubDate>Tue, 13 Feb 2024 05:33:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Suppressing Pink Elephants with Direct Principle Feedback</title>
+      <link>https://arxiv.org/abs/2402.07896</link>
+      <description>Castricato, Lile, Anand, Schoelkopf, Verma, and Biderman</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2402.07896</guid>
+      <pubDate>Mon, 12 Feb 2024 18:57:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Neural Networks Learn Statistics of Increasing Complexity</title>
+      <link>https://arxiv.org/abs/2402.04362</link>
+      <description>Belrose, Pope, Quirke, Mallen, and Fern</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2402.04362</guid>
+      <pubDate>Tue, 06 Feb 2024 20:03:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comparative Study of Large Language Model Architectures on Frontier</title>
+      <link>https://arxiv.org/abs/2402.00691</link>
+      <description>Yin, Bose, Cong, Lyngaas, and Anthony</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2402.00691</guid>
+      <pubDate>Thu, 01 Feb 2024 15:50:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Case for Co-Designing Model Architectures with Hardware</title>
+      <link>https://arxiv.org/abs/2401.14489</link>
+      <description>Anthony, Hatef, Narayanan, Biderman, Bekman, Yin, Shafi, Subramoni, and Panda</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2401.14489</guid>
+      <pubDate>Thu, 25 Jan 2024 19:50:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scalable High-Resolution Pixel-Space Image Synthesis with Hourglass Diffusion Transformers</title>
+      <link>https://arxiv.org/abs/2401.11605</link>
+      <description>Crowson, Baumann, Birch, Abraham, Kaplan, and Shippole</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2401.11605</guid>
+      <pubDate>Sun, 21 Jan 2024 21:49:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>The OpenELM Library: Leveraging Progress in Language Models for Novel Evolutionary Algorithms</title>
+      <link>https://openreview.net/forum?id=C0SGtHjr4wK</link>
+      <description>Bradley, Fan, Galanos, Zhou, Scott, and Lehman (Source provides publication year 2024 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://openreview.net/forum?id=C0SGtHjr4wK</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Musically Aware Automatic Piano Transcription Using Synthetic Pretraining</title>
+      <link>https://www.alexander-spangher.com/papers/aria_amt.pdf</link>
+      <description>Bradshaw, Colton, Spangher, and Biderman (Source provides publication year 2024 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://www.alexander-spangher.com/papers/aria_amt.pdf</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Attributing Mode Collapse in the fine-tuning of Large Language Models</title>
+      <link>https://openreview.net/forum?id=3pDMYjpOxk</link>
+      <description>O'Mahony, Grinsztajn, Schoelkopf, and Biderman (Source provides publication year 2024 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://openreview.net/forum?id=3pDMYjpOxk</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenFold: Retraining AlphaFold2 yields new insights into its learning mechanisms and capacity for generalization</title>
+      <link>https://www.biorxiv.org/content/10.1101/2022.11.20.517210v3</link>
+      <description>Ahdritz, Bouatta, Kadyan, Xia, Gerecke, and 23 others (Source provides publication year 2024 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://www.biorxiv.org/content/10.1101/2022.11.20.517210v3</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Democratic Governance of AI Systems and Datasets</title>
+      <link>https://openfuture.eu/wp-content/uploads/2024/05/240517Democratic_Governance_of_AI_Systems.pdf</link>
+      <description>Warso, Tarkowski, Avila, Gimpel, Skowron, Poli, Kusters, Pachouri, Raj, and Singh (Source provides publication year 2024 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://openfuture.eu/wp-content/uploads/2024/05/240517Democratic_Governance_of_AI_Systems.pdf</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Beyond Open vs. Closed: Emerging Consensus and Key Questions for Foundation AI Model Governance</title>
+      <link>https://carnegieendowment.org/research/2024/07/beyond-open-vs-closed-emerging-consensus-and-key-questions-for-foundation-ai-model-governance</link>
+      <description>Bateman, Baer, Bell, Brown, and Cuellar, and 13 others (Source provides publication year 2024 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://carnegieendowment.org/research/2024/07/beyond-open-vs-closed-emerging-consensus-and-key-questions-for-foundation-ai-model-governance</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cold Compress: A Toolkit for Benchmarking KV Cache Compression Approaches</title>
+      <link>https://github.com/AnswerDotAI/cold-compress</link>
+      <description>Adams, Ladhak, Schoelkopf, and Biswas (Source provides publication year 2024 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://github.com/AnswerDotAI/cold-compress</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re-Evaluating Evaluation for Multilingual Summarization</title>
+      <link>https://aclanthology.org/2024.emnlp-main.1085.pdf</link>
+      <description>Forde, Zhang, Sutawika, Aji, Cahyawijaya, Winata, Wu, Eickhoff, Biderman, and Pavlick (Source provides publication year 2024 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://aclanthology.org/2024.emnlp-main.1085.pdf</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Grokking Group Multiplication with Cosets</title>
+      <link>https://arxiv.org/abs/2312.06581</link>
+      <description>Stander, Yu, Fan, and Biderman</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2312.06581</guid>
+      <pubDate>Mon, 11 Dec 2023 18:12:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Eliciting Latent Knowledge from Quirky Language Models</title>
+      <link>https://arxiv.org/abs/2312.01037</link>
+      <description>Mallen and Belrose</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2312.01037</guid>
+      <pubDate>Sat, 02 Dec 2023 05:47:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Neural MMO 2.0: A Massively Multi-task Addition to Massively Multi-Agent Learning</title>
+      <link>https://arxiv.org/abs/2311.03736</link>
+      <description>Suárez, Isola, Choe, Bloomin, Li, and 13 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2311.03736</guid>
+      <pubDate>Tue, 07 Nov 2023 05:36:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linear Representations of Sentiment in Large Language Models</title>
+      <link>https://arxiv.org/abs/2310.15154</link>
+      <description>Tigges, Hollinsworth, Geiger, and Nanda</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2310.15154</guid>
+      <pubDate>Mon, 23 Oct 2023 17:55:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quality-Diversity through AI Feedback</title>
+      <link>https://arxiv.org/abs/2310.13032</link>
+      <description>Bradley, Dai, Teufel, Zhang, Oostermeijer, Bellagente, Clune, Stanley, Schott, and Lehman</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2310.13032</guid>
+      <pubDate>Thu, 19 Oct 2023 12:13:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Utilizing Weak Supervision to Generate Indonesian Conservation Datasets</title>
+      <link>https://arxiv.org/abs/2310.11258</link>
+      <description>Fransiska, Pitaloka, Saripudin, Putra, and Sutawika</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2310.11258</guid>
+      <pubDate>Tue, 17 Oct 2023 13:23:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>LLeMA: An Open Language Model for Mathematics</title>
+      <link>https://arxiv.org/abs/2310.10631</link>
+      <description>Azerbayev, Schoelkopf, Paster, Dos Santos, McAleer, Jiang, Deng, Biderman, and Welleck</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2310.10631</guid>
+      <pubDate>Mon, 16 Oct 2023 17:54:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenWebMath: An Open Dataset of High-Quality Mathematical Web Text</title>
+      <link>https://arxiv.org/abs/2310.06786</link>
+      <description>Paster, Dos Santos, Azerbayev, and Ba</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2310.06786</guid>
+      <pubDate>Tue, 10 Oct 2023 16:57:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Representation Engineering: A Top-Down Approach to AI Transparency</title>
+      <link>https://arxiv.org/abs/2310.01405</link>
+      <description>Zou, Phan, Chen, Campbell, Guo, Ren, and 15 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2310.01405</guid>
+      <pubDate>Mon, 02 Oct 2023 17:59:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sparse Autoencoders Find Highly Interpretable Features in Language Models</title>
+      <link>https://arxiv.org/abs/2309.08600</link>
+      <description>Cunningham, Ewart, Riggs, Huben, and Sharkey</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2309.08600</guid>
+      <pubDate>Fri, 15 Sep 2023 17:56:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>HAE-RAE Bench: Evaluation of Korean Knowledge in Language Models</title>
+      <link>https://arxiv.org/abs/2309.02706</link>
+      <description>Son, Lee, Kim, Kim, Lee, Yeom, Jung, Kim, and Kim</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2309.02706</guid>
+      <pubDate>Wed, 06 Sep 2023 04:38:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>YaRN: Efficient Context Window Extension of Large Language Models</title>
+      <link>https://arxiv.org/abs/2309.00071</link>
+      <description>Peng, Quesnelle, Fan, and Shippole</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2309.00071</guid>
+      <pubDate>Thu, 31 Aug 2023 18:18:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Continual Pre-Training of Large Language Models: How to (re)warm your model?</title>
+      <link>https://arxiv.org/abs/2308.04014</link>
+      <description>Gupta, Thérien, Ibrahim, Richter, Anthony, Belilovsky, Rish, and Lesort</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2308.04014</guid>
+      <pubDate>Tue, 08 Aug 2023 03:18:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ARB: Advanced Reasoning Benchmark for Large Language Models</title>
+      <link>https://arxiv.org/abs/2307.13692</link>
+      <description>Sawada, Paleka, Havrilla, Tadepalli, Vidas, Kranias, Nay, Gupta, and Komatsuzaki</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2307.13692</guid>
+      <pubDate>Tue, 25 Jul 2023 17:55:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Challenges and Applications of Large Language Models</title>
+      <link>https://arxiv.org/abs/2307.10169</link>
+      <description>Kaddour, Harris, Mozes, Bradley, Raileanu, and McHardy</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2307.10169</guid>
+      <pubDate>Wed, 19 Jul 2023 17:55:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>ReLoRA: High-Rank Training Through Low-Rank Updates</title>
+      <link>https://arxiv.org/abs/2307.05695</link>
+      <description>Lialin, Shivagunde, Muckatira, and Rumshisky</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2307.05695</guid>
+      <pubDate>Tue, 11 Jul 2023 18:02:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Stay on topic with Classifier-Free Guidance</title>
+      <link>https://arxiv.org/abs/2306.17806</link>
+      <description>Sanchez, Fan, Spangher, Levi, Ammanamanchi, and Biderman</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2306.17806</guid>
+      <pubDate>Fri, 30 Jun 2023 17:07:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Evaluating the Social Impact of Generative AI Systems in Systems and Society</title>
+      <link>https://arxiv.org/abs/2306.05949</link>
+      <description>Solaiman, Talat, Agnew, Ahmad, Baker, and 26 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2306.05949</guid>
+      <pubDate>Fri, 09 Jun 2023 15:05:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>LEACE: Perfect linear concept erasure in closed form</title>
+      <link>https://arxiv.org/abs/2306.03819</link>
+      <description>Belrose, Schneider-Joseph, Ravfogel, Cotterell, Raff, and Biderman</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2306.03819</guid>
+      <pubDate>Tue, 06 Jun 2023 16:07:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Technical Report for Polyglot-Ko: Open-Source Large-Scale Korean Language Models</title>
+      <link>https://arxiv.org/abs/2306.02254</link>
+      <description>Ko, Yang, Ryu, Choi, Yang, Hyun, Park, and Park</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2306.02254</guid>
+      <pubDate>Sun, 04 Jun 2023 04:04:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>GAIA Search: Hugging Face and Pyserini Interoperability for NLP Training Data Exploration</title>
+      <link>https://arxiv.org/abs/2306.01481</link>
+      <description>Piktus, Ogundepo, Akiki, Oladipo, Zhang, Schoelkopf, Biderman, Potthast, and Lin</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2306.01481</guid>
+      <pubDate>Fri, 02 Jun 2023 12:09:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Recasting Self-Attention with Holographic Reduced Representations</title>
+      <link>https://arxiv.org/abs/2305.19534</link>
+      <description>Alam, Raff, Biderman, Oates, and Holt</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2305.19534</guid>
+      <pubDate>Wed, 31 May 2023 03:42:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reconstructing the Mind's Eye: fMRI-to-Image with Contrastive Learning and Diffusion Priors</title>
+      <link>https://arxiv.org/abs/2305.18274</link>
+      <description>Scotti, Banerjee, Goode, and 9 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2305.18274</guid>
+      <pubDate>Mon, 29 May 2023 17:49:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Role-Play with Large Language Models</title>
+      <link>https://arxiv.org/abs/2305.16367</link>
+      <description>Shanahan, McDonell, and Reynolds</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2305.16367</guid>
+      <pubDate>Thu, 25 May 2023 11:36:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can Transformers Learn to Solve Problems Recursively?</title>
+      <link>https://arxiv.org/abs/2305.14699</link>
+      <description>Zhang, Tigges, Biderman, Raginsky, and Ringer</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2305.14699</guid>
+      <pubDate>Wed, 24 May 2023 04:08:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>RWKV: Reinventing RNNs for the Transformer Era</title>
+      <link>https://arxiv.org/abs/2305.13048</link>
+      <description>Peng, Alcaide, Anthony, and 31 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2305.13048</guid>
+      <pubDate>Mon, 22 May 2023 13:57:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>StarCoder: may the source be with you!</title>
+      <link>https://arxiv.org/abs/2305.06161</link>
+      <description>von Werra, de Vries, and 65 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2305.06161</guid>
+      <pubDate>Tue, 09 May 2023 08:16:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emergent and Predictable Memorization in Large Language Models</title>
+      <link>https://arxiv.org/abs/2304.11158</link>
+      <description>Biderman, Prashanth, Sutawika, Schoelkopf, Anthony, Purohit, and Raff</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2304.11158</guid>
+      <pubDate>Fri, 21 Apr 2023 17:58:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling</title>
+      <link>https://arxiv.org/abs/2304.01373</link>
+      <description>Biderman, Schoelkopf, and 11 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2304.01373</guid>
+      <pubDate>Mon, 03 Apr 2023 20:58:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Prompting Multilingual Large Language Models to Generate Code-Mixed Texts: The Case of South East Asian Languages</title>
+      <link>https://arxiv.org/abs/2303.13592</link>
+      <description>Yong, Zhang, Forde, Wang, Subramonian, and 10 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2303.13592</guid>
+      <pubDate>Thu, 23 Mar 2023 18:16:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reclaiming the Digital Commons: A Public Data Trust for Training Data</title>
+      <link>https://arxiv.org/abs/2303.09001</link>
+      <description>Chan, Bradley, and Rajkumar</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2303.09001</guid>
+      <pubDate>Thu, 16 Mar 2023 00:12:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Eliciting latent predictions from transformers with the tuned lens</title>
+      <link>https://arxiv.org/abs/2303.08112</link>
+      <description>Belrose, Ostrovsky, McKinney, Furman, Smith, Halawi, Biderman, and Steinhardt</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2303.08112</guid>
+      <pubDate>Tue, 14 Mar 2023 17:47:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>The BigScience ROOTS Corpus: A 1.6TB Composite Multilingual Dataset</title>
+      <link>https://arxiv.org/abs/2303.03915</link>
+      <description>Laurençon, Saulnier, Wang, Akiki, Villanova del Moral, and 49 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2303.03915</guid>
+      <pubDate>Tue, 07 Mar 2023 14:25:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>ProofNet: Autoformalizing and Formally Proving Undergraduate-Level Mathematics</title>
+      <link>https://arxiv.org/abs/2302.12433</link>
+      <description>Azerbayev, Piotrowski, Schoelkopf, Ayers, Radev, and Avigad</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2302.12433</guid>
+      <pubDate>Fri, 24 Feb 2023 03:28:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Language Model Crossover: Variation through Few-Shot Prompting</title>
+      <link>https://arxiv.org/abs/2302.12170</link>
+      <description>Meyerson, Nelson, Bradley, Gaier, Moradi, Hoover, and Lehman</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2302.12170</guid>
+      <pubDate>Thu, 23 Feb 2023 17:12:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>SantaCoder: don't reach for the stars!</title>
+      <link>https://arxiv.org/abs/2301.03988</link>
+      <description>Ben Allal, Li, Kocetkov, Mou, Akiki, and 36 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2301.03988</guid>
+      <pubDate>Mon, 09 Jan 2023 10:52:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Masked inverse folding with sequence transfer for protein representation learning</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/37883472/</link>
+      <description>Yang, Zanichelli, and Yeh (Source provides publication year 2023 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://pubmed.ncbi.nlm.nih.gov/37883472/</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Towards Meta-Models for Automated Interpretability</title>
+      <link>https://openreview.net/forum?id=fM1ETm3ssl</link>
+      <description>Langosco, Alex, Baker, Quarel, Bradley, and Krueger (Source provides publication year 2023 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://openreview.net/forum?id=fM1ETm3ssl</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Current Status of NLP in South East Asia with Insights from Multilingualism and Language Diversity</title>
+      <link>https://aclanthology.org/2023.ijcnlp-tutorials.2/</link>
+      <description>Aji, Forde, Loo, Sutawika, Wang, and 6 others (Source provides publication year 2023 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://aclanthology.org/2023.ijcnlp-tutorials.2/</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>2023 Open Source Generative AI Survey Report</title>
+      <link>https://www.linuxfoundation.org/research/2023-generative-ai-study</link>
+      <description>Lawson, Gerosa, Hendrick, White, Hyde, and Biderman (Source provides publication year 2023 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://www.linuxfoundation.org/research/2023-generative-ai-study</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>trlX: A Framework for Large Scale Reinforcement Learning from Human Feedback</title>
+      <link>https://aclanthology.org/2023.emnlp-main.530/</link>
+      <description>Havrilla, Zhuravinskyi, Phung, Tiwari, Tow, Biderman, Anthony, and Castricato (Source provides publication year 2023 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://aclanthology.org/2023.emnlp-main.530/</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Detecting Backdoors with Meta-Models</title>
+      <link>https://openreview.net/forum?id=cmJiEqniEc</link>
+      <description>Langosco, Alex, Baker, Quarel, Bradley, and Krueger (Source provides publication year 2023 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://openreview.net/forum?id=cmJiEqniEc</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Eliciting Language Model Behaviors using Reverse Language Models</title>
+      <link>https://neurips.cc/virtual/2023/workshop/66526#collapse78917</link>
+      <description>Pfau, Infanger, Sheshadri, Panda, Michael, and Huebner (Source provides publication year 2023 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://neurips.cc/virtual/2023/workshop/66526#collapse78917</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>BLOOM+1: Adding Language Support to BLOOM for Zero-Shot Prompting</title>
+      <link>https://arxiv.org/abs/2212.09535</link>
+      <description>Yong, Schoelkopf, Muennighoff, Aji, and 11 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2212.09535</guid>
+      <pubDate>Mon, 19 Dec 2022 15:24:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sparse Upcycling: Training Mixture-of-Experts from Dense Checkpoints</title>
+      <link>https://arxiv.org/abs/2212.05055</link>
+      <description>Komatsuzaki, Puigcerver, Lee-Thorp, Riquelme Ruiz, Mustafa, Ainslie, Tay, Dehghani, and Houlsby</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2212.05055</guid>
+      <pubDate>Fri, 09 Dec 2022 18:57:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>HyperTuning: Toward Adapting Large Language Models without Back-propagation</title>
+      <link>https://arxiv.org/abs/2211.12485</link>
+      <description>Phang, Mao, He, and Chen</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2211.12485</guid>
+      <pubDate>Tue, 22 Nov 2022 18:52:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>BLOOM: A 176b-parameter open-access multilingual language model</title>
+      <link>https://arxiv.org/abs/2211.05100</link>
+      <description>Le Scao, Fan, Akiki, Pavlick, Ilić, Hesslow, Castagné, Luccioni, Yvon, Gallé, Tow, Rush, Biderman, Webson, Ammanamanchi, Wang, Sagot, Muennighoff, Villanova del Moral, Ruwase, Bawden, Bekman, McMillan-Major, Wolf, Beltagy, Nguyen, Saulnier, Tan, Ortiz Suarez, Sanh, Laurençon, Jernite, Launay, Mitchell, Raffel, and 357 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2211.05100</guid>
+      <pubDate>Wed, 09 Nov 2022 18:48:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Crosslingual Generalization through Multitask Finetuning</title>
+      <link>https://arxiv.org/abs/2211.01786</link>
+      <description>Muennighoff, Wang, Sutawika, Roberts, Biderman, and 14 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2211.01786</guid>
+      <pubDate>Thu, 03 Nov 2022 13:19:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>What Language Model to Train if You Have One Million GPU Hours?</title>
+      <link>https://arxiv.org/abs/2210.15424</link>
+      <description>Le Scao, Wang, Hesslow, Saulnier, Bekman, and 14 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2210.15424</guid>
+      <pubDate>Thu, 27 Oct 2022 13:43:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Goldilocks of Pragmatic Understanding: Fine-Tuning Strategy Matters for Implicature Resolution by LLMs</title>
+      <link>https://arxiv.org/abs/2210.14986</link>
+      <description>Ruis, Khan, Biderman, Hooker, Rocktäschel, and Grefenstette</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2210.14986</guid>
+      <pubDate>Wed, 26 Oct 2022 19:04:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>LAION-5B: An open large-scale dataset for training next generation image-text models</title>
+      <link>https://arxiv.org/abs/2210.08402</link>
+      <description>Schuhmann, Beaumont, Vencu, Gordon, Wightman, Cherti, and 10 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2210.08402</guid>
+      <pubDate>Sun, 16 Oct 2022 00:08:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Robust Preference Learning for Storytelling via Contrastive Reinforcement Learning</title>
+      <link>https://arxiv.org/abs/2210.07792</link>
+      <description>Castricato, Havrilla, Matiana, Pieler, Ye, Yang, Frazier, and Riedl</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2210.07792</guid>
+      <pubDate>Fri, 14 Oct 2022 13:21:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>EleutherAI: Going Beyond "Open Science" to "Science in the Open"</title>
+      <link>https://arxiv.org/abs/2210.06413</link>
+      <description>Phang, Bradley, Gao, Castricato, and Biderman</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2210.06413</guid>
+      <pubDate>Wed, 12 Oct 2022 17:06:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>BigBIO: A Framework for Data-Centric Biomedical Natural Language Processing</title>
+      <link>https://arxiv.org/abs/2206.15076</link>
+      <description>Fries, Weber, Seelam, Altay, and 39 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2206.15076</guid>
+      <pubDate>Thu, 30 Jun 2022 07:15:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models</title>
+      <link>https://arxiv.org/abs/2206.04615</link>
+      <description>Srivastava, Rastogi, Rao, Shoeb, Abid, and 446 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2206.04615</guid>
+      <pubDate>Thu, 09 Jun 2022 17:05:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Data Governance in the Age of Large-Scale Data-Driven Language Technology</title>
+      <link>https://arxiv.org/abs/2206.03216</link>
+      <description>Jernite, Nguyen, Biderman, Rogers, Masoud, and 16 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2206.03216</guid>
+      <pubDate>Wed, 04 May 2022 00:44:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>VQGAN-CLIP: Open Domain Image Generation and Editing with Natural Language Guidance</title>
+      <link>https://arxiv.org/abs/2204.08583</link>
+      <description>Crowson, Biderman, Kornis, Stander, Hallahan, Castricato, and Raff</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2204.08583</guid>
+      <pubDate>Mon, 18 Apr 2022 22:57:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>GPT-NeoX-20B: An Open-Source Autoregressive Language Model</title>
+      <link>https://arxiv.org/abs/2204.06745</link>
+      <description>Black, Biderman, Hallahan, and 14 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2204.06745</guid>
+      <pubDate>Thu, 14 Apr 2022 04:00:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>PromptSource: An Integrated Development Environment and Repository for Natural Language Prompts</title>
+      <link>https://arxiv.org/abs/2202.01279</link>
+      <description>Bach, Sanh, Yong, Webson, Raffel, and 22 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2202.01279</guid>
+      <pubDate>Wed, 02 Feb 2022 20:48:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Documenting Geographically and Contextually Diverse Data Sources: The BigScience Catalogue of Language Data and Resources</title>
+      <link>https://arxiv.org/abs/2201.10066</link>
+      <description>McMillan-Major, Alyafeai, Biderman, Chen, De Toni, and 13 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2201.10066</guid>
+      <pubDate>Tue, 25 Jan 2022 03:05:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fooling MOSS with Pretrained Language Models</title>
+      <link>https://arxiv.org/abs/2201.07406</link>
+      <description>Biderman and Raff</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2201.07406</guid>
+      <pubDate>Wed, 19 Jan 2022 04:00:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Datasheet for the Pile</title>
+      <link>https://arxiv.org/abs/2201.07311</link>
+      <description>Biderman, Bicheno, and Gao</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2201.07311</guid>
+      <pubDate>Thu, 13 Jan 2022 23:45:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>MP-NeRF: A massively parallel method for accelerating protein structure reconstruction from internal coordinates</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/34709663/</link>
+      <description>Alcaide, Biderman, Telenti, and Maher (Source provides publication year 2022 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://pubmed.ncbi.nlm.nih.gov/34709663/</guid>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>You reap what you sow: On the Challenges of Bias Evaluation Under Multilingual Settings</title>
+      <link>https://aclanthology.org/2022.bigscience-1.3/</link>
+      <description>Talat, Névéol, Biderman, Clinciu, Dey, and 11 others (Source provides publication year 2022 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://aclanthology.org/2022.bigscience-1.3/</guid>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Musical audio samples generated from joint text embeddings</title>
+      <link>https://pubs.aip.org/asa/jasa/article/152/4_Supplement/A178/2839990/Musical-audio-samples-generated-from-joint-text</link>
+      <description>Evans, Hawley, and Crowson (Source provides publication year 2022 only; January 1 represents that year.)</description>
+      <guid isPermaLink="false">https://pubs.aip.org/asa/jasa/article/152/4_Supplement/A178/2839990/Musical-audio-samples-generated-from-joint-text</guid>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LAION-400M: Open Dataset of CLIP-Filtered 400 Million Image-Text Pairs</title>
+      <link>https://arxiv.org/abs/2111.02114</link>
+      <description>Schuhmann, Vencu, Beaumont, Kaczmarczyk, Mullis, Katta, Coombes, Jitsev, and Komatsuzaki</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2111.02114</guid>
+      <pubDate>Wed, 03 Nov 2021 10:16:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multitask Prompted Training Enables Zero-Shot Task Generalization</title>
+      <link>https://arxiv.org/abs/2110.08207</link>
+      <description>Sanh, Webson, Raffel, Bach, and 37 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2110.08207</guid>
+      <pubDate>Fri, 15 Oct 2021 17:08:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cut the CARP: Fishing for zero-shot story evaluation</title>
+      <link>https://arxiv.org/abs/2110.03111</link>
+      <description>Matiana, Smith, Teehan, Castricato, Biderman, Gao, and Frazier</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2110.03111</guid>
+      <pubDate>Wed, 06 Oct 2021 23:50:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>An empirical exploration in quality filtering of text data</title>
+      <link>https://arxiv.org/abs/2109.00698</link>
+      <description>Gao</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2109.00698</guid>
+      <pubDate>Thu, 02 Sep 2021 04:02:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Hard Problem of Aligning AI to Human Values</title>
+      <link>https://arxiv.org/abs/2105.09060</link>
+      <description>Leahy and Biderman</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2105.09060</guid>
+      <pubDate>Wed, 19 May 2021 11:02:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scaling Scaling Laws with Board Games</title>
+      <link>https://arxiv.org/abs/2104.03113</link>
+      <description>Jones</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2104.03113</guid>
+      <pubDate>Wed, 07 Apr 2021 13:34:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Towards a Model-Theoretic View of Narratives</title>
+      <link>https://arxiv.org/abs/2103.12872</link>
+      <description>Castricato, Biderman, Thue, and Cardona-Rivera</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2103.12872</guid>
+      <pubDate>Tue, 23 Mar 2021 22:33:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fabula Entropy Indexing: Objective Measures of Story Coherence</title>
+      <link>https://arxiv.org/abs/2104.07472</link>
+      <description>Castricato, Frazier, Balloch, and Riedl</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2104.07472</guid>
+      <pubDate>Tue, 23 Mar 2021 02:29:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quality at a Glance: An Audit of Web-Crawled Multilingual Datasets</title>
+      <link>https://arxiv.org/abs/2103.12028</link>
+      <description>Kreutzer, Caswell, Wang, Wahab, van Esch, and 47 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2103.12028</guid>
+      <pubDate>Mon, 22 Mar 2021 17:30:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm</title>
+      <link>https://arxiv.org/abs/2102.07350</link>
+      <description>Reynolds and McDonell</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2102.07350</guid>
+      <pubDate>Mon, 15 Feb 2021 05:27:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multiversal Views on Language Models</title>
+      <link>https://arxiv.org/abs/2102.06391</link>
+      <description>Reynolds and McDonell</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2102.06391</guid>
+      <pubDate>Fri, 12 Feb 2021 08:28:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Pile: An 800GB Dataset of Diverse Text for Language Modeling</title>
+      <link>https://arxiv.org/abs/2101.00027</link>
+      <description>Gao, Biderman, and 10 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2101.00027</guid>
+      <pubDate>Thu, 31 Dec 2020 19:00:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pitfalls in Machine Learning Research: Reexamining the Development Cycle</title>
+      <link>https://arxiv.org/abs/2011.02832</link>
+      <description>Biderman and Scheirer</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2011.02832</guid>
+      <pubDate>Wed, 04 Nov 2020 17:58:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Current Limitations of Large Language Models: What You Need is Retrieval</title>
+      <link>https://arxiv.org/abs/2009.06857</link>
+      <description>Komatsuzaki</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2009.06857</guid>
+      <pubDate>Tue, 15 Sep 2020 04:04:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>One Epoch Is All You Need</title>
+      <link>https://arxiv.org/abs/1906.06669</link>
+      <description>Komatsuzaki</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/1906.06669</guid>
+      <pubDate>Sun, 16 Jun 2019 12:42:04 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -2,19 +2,17 @@
 
 https://www.eleuther.ai/papers
 
-Static Squarespace summary block: each paper is a ``div.summary-item`` with an
-``a.summary-title-link`` (linking to the paper, e.g. on arXiv), a
-``time[datetime]`` publication date (ISO ``YYYY-MM-DD``), and a
-``.summary-excerpt`` abstract snippet.
+Static research-library cards provide titles, authors, links and years.
+arXiv supplies original publication dates where available.
 """
 
 import argparse
-from datetime import datetime
 
-import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
+from feed_history import merge_feed_history
+from paper_dates import enrich_paper_dates
 from utils import (
     fetch_page,
     save_rss_feed,
@@ -31,61 +29,25 @@ FEED_TITLE = "EleutherAI Papers"
 FEED_DESCRIPTION = "Papers and preprints from EleutherAI"
 AUTHOR = "EleutherAI"
 
-DATE_FORMATS = [
-    "%B %d, %Y",  # January 15, 2024
-    "%b %d, %Y",  # Jan 15, 2024
-    "%d %B %Y",  # 15 January 2024
-    "%d %b %Y",  # 15 Jan 2024
-    "%Y-%m-%d",  # 2024-01-15
-    "%B %Y",  # January 2024
-]
-
-
-def parse_date(date_text):
-    """Parse a date string into a UTC datetime, or ``None`` if unparseable."""
-    if not date_text:
-        return None
-    text = date_text.strip()
-    for fmt in DATE_FORMATS:
-        try:
-            return datetime.strptime(text, fmt).replace(tzinfo=pytz.UTC)
-        except ValueError:
-            continue
-    logger.warning(f"Could not parse date: {date_text!r}")
-    return None
-
 
 def parse(html_content):
+    """Read the research library's semantic fields; enrich dates separately."""
+    posts = {}
     soup = BeautifulSoup(html_content, "html.parser")
-    articles = []
-    seen = set()
-
-    for item in soup.select("div.summary-item"):
-        anchor = item.select_one("a.summary-title-link")
-        if not anchor or not anchor.get("href"):
-            continue
-
-        link = anchor["href"]
-        if link in seen:
-            continue
-
-        title = anchor.get_text(strip=True)
-        if not title:
-            continue
-
-        time_el = item.find("time", attrs={"datetime": True})
-        date = None
-        if time_el:
-            # datetime attr is ISO (YYYY-MM-DD); fall back to the visible text.
-            date = parse_date(time_el.get("datetime")) or parse_date(time_el.get_text(strip=True))
-
-        excerpt = item.select_one(".summary-excerpt")
-        description = excerpt.get_text(" ", strip=True) if excerpt else title
-
-        seen.add(link)
-        articles.append({"title": title, "link": link, "description": description, "date": date})
-
-    return articles
+    for card in soup.select("a.library-entry[href]"):
+        title = card.find("h3")
+        if title is None or not card.get("data-year"):
+            raise ValueError("Research library card lacks title or publication year")
+        link = card["href"]
+        authors = card.select_one(".library-entry-authors")
+        posts[link] = {
+            "title": title.get_text(" ", strip=True),
+            "link": link,
+            "year": int(card["data-year"]),
+            "date": None,
+            "description": authors.get_text(" ", strip=True) if authors else title.get_text(),
+        }
+    return list(posts.values())
 
 
 def generate_rss_feed(articles):
@@ -102,7 +64,7 @@ def generate_rss_feed(articles):
         fe.description(post.get("description") or post["title"])
         fe.link(href=post["link"])
         fe.published(post["date"])
-        fe.id(post["link"])
+        fe.id(post.get("guid") or post["link"])
 
     return fg
 
@@ -126,6 +88,7 @@ def main():
             logger.warning("No articles found - skipping feed update to avoid overwriting with empty feed")
             return False
 
+        articles = merge_feed_history(enrich_paper_dates(articles), FEED_NAME)
         fg = generate_rss_feed(articles)
         save_rss_feed(fg, FEED_NAME)
         logger.info(f"Generated {FEED_NAME} feed with {len(articles)} articles")
@@ -137,4 +100,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(0 if main() else 1)
