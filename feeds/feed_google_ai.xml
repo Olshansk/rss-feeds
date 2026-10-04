@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 21:27:22 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 22:04:29 +0000</lastBuildDate>
     <item>
       <title>Accelerating Spatio-Temporal Attention for Video Diffusion on TPUs</title>
       <link>https://developers.googleblog.com/accelerating-spatio-temporal-attention-for-video-diffusion-on-tpus/</link>
