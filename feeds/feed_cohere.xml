@@ -13,7 +13,15 @@
       <link>https://cohere.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Oct 2026 12:08:55 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 13:11:09 +0000</lastBuildDate>
+    <item>
+      <title>North 2: Enterprise AI without compromises</title>
+      <link>https://cohere.com/blog/introducing-north-2</link>
+      <description>North 2 is Cohere’s biggest upgrade yet — unifying enterprise‑grade security, intelligence, cost governance, and full‑stack control into a single agentic AI platform that runs wherever your data lives.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/introducing-north-2</guid>
+      <category>Blog</category>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Cohere and PwC partner to accelerate secure enterprise AI adoption</title>
       <link>https://cohere.com/blog/cohere-and-pwc-partner-to-accelerate-secure-enterprise-ai-adoption</link>
@@ -33,7 +41,7 @@
     <item>
       <title>Introducing Embed 5—A new family of frontier embedding models</title>
       <link>https://cohere.com/blog/embed-5</link>
-      <description>Our most powerful embedding models yet, now available in Pro and Fast tiers.</description>
+      <description>Introducing Embed 5—A new family of frontier embedding models</description>
       <guid isPermaLink="false">https://cohere.com/blog/embed-5</guid>
       <category>Blog</category>
       <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
