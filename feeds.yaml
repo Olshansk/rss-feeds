@@ -153,6 +153,8 @@ feeds:
     script: deeplearningai_the_batch.py
     type: requests
     blog_url: https://www.deeplearning.ai/the-batch/
+    # Paused: publisher challenges GitHub requests; retain the feed and generator for later review.
+    enabled: false
 
   transluce:
     script: transluce_blog.py
