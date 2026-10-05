@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 23:05:03 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 18:08:32 +0000</lastBuildDate>
+    <item>
+      <title>Memory and dreaming: how Devin learns from working with you</title>
+      <link>https://devin.ai/blog/memory-and-dreaming</link>
+      <description>Memory lets Devin carry useful learnings about the way you like to work across sessions. Dreaming is a daily asynchronous process that improves the index of Devin's memories about you.</description>
+      <guid isPermaLink="false">https://devin.ai/blog/memory-and-dreaming</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Sign in with ChatGPT</title>
       <link>https://devin.ai/blog/sign-in-with-chatgpt</link>
