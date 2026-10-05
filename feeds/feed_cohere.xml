@@ -13,7 +13,15 @@
       <link>https://cohere.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 23:04:18 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 12:08:55 +0000</lastBuildDate>
+    <item>
+      <title>Cohere and PwC partner to accelerate secure enterprise AI adoption</title>
+      <link>https://cohere.com/blog/cohere-and-pwc-partner-to-accelerate-secure-enterprise-ai-adoption</link>
+      <description>Bringing together secure, sovereign AI and transformation expertise to help organizations move from pilots to production</description>
+      <guid isPermaLink="false">https://cohere.com/blog/cohere-and-pwc-partner-to-accelerate-secure-enterprise-ai-adoption</guid>
+      <category>Blog</category>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>RCP-nDCG@10: A more complete way to measure retrieval relevance</title>
       <link>https://cohere.com/blog/rcp-ndcg</link>
@@ -33,7 +41,7 @@
     <item>
       <title>Compass is coming to the cloud</title>
       <link>https://cohere.com/blog/compass-cloud-beta</link>
-      <description>Gain access to our state-of-the-art search and retrieval engine, without worrying about the infrastructure</description>
+      <description>Compass is coming to the cloud</description>
       <guid isPermaLink="false">https://cohere.com/blog/compass-cloud-beta</guid>
       <category>Blog</category>
       <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
