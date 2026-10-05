@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Oct 2026 11:05:14 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 16:06:16 +0000</lastBuildDate>
+    <item>
+      <title>Our approach to EU text provenance rules</title>
+      <link>https://openai.com/index/eu-text-provenance</link>
+      <description>How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.</description>
+      <guid isPermaLink="false">https://openai.com/index/eu-text-provenance</guid>
+      <category>Safety</category>
+      <pubDate>Mon, 05 Oct 2026 15:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Building advertising for the way people use AI</title>
       <link>https://openai.com/index/new-chatgpt-ads-format-and-measurement</link>
