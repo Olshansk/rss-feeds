@@ -13,7 +13,15 @@
       <link>https://cohere.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Oct 2026 13:11:09 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 12:07:53 +0000</lastBuildDate>
+    <item>
+      <title>Multilingual Bridges: How Data Mixing Unlocks In-Language Reasoning</title>
+      <link>https://cohere.com/blog/building-multilingual-bridges</link>
+      <description>When a reasoning model gets an answer wrong, you’d read its reasoning to find out why. But what if that reasoning is in a language you don't speak?</description>
+      <guid isPermaLink="false">https://cohere.com/blog/building-multilingual-bridges</guid>
+      <category>Blog</category>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>North 2: Enterprise AI without compromises</title>
       <link>https://cohere.com/blog/introducing-north-2</link>
@@ -33,7 +41,7 @@
     <item>
       <title>RCP-nDCG@10: A more complete way to measure retrieval relevance</title>
       <link>https://cohere.com/blog/rcp-ndcg</link>
-      <description>Our new standard for measuring enterprise retrieval quality, validated against human judgment.</description>
+      <description>RCP-nDCG@10: A more complete way to measure retrieval relevance</description>
       <guid isPermaLink="false">https://cohere.com/blog/rcp-ndcg</guid>
       <category>Blog</category>
       <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
