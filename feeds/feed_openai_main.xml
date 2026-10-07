@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 16:06:25 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 18:06:36 +0000</lastBuildDate>
     <item>
       <title>Helping teens learn, plan, and shape the future of AI</title>
       <link>https://openai.com/index/teens-learn-and-plan</link>
@@ -16,6 +16,13 @@
       <guid isPermaLink="false">https://openai.com/index/teens-learn-and-plan</guid>
       <category>Product</category>
       <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Radisson Hotel Group brings hotel discovery into ChatGPT</title>
+      <link>https://openai.com/index/radisson</link>
+      <description>Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.</description>
+      <guid isPermaLink="false">https://openai.com/index/radisson</guid>
+      <pubDate>Wed, 07 Oct 2026 07:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Atlassian and OpenAI expand partnership to turn enterprise knowledge into action</title>
