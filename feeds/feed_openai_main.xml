@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 18:06:36 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 19:06:07 +0000</lastBuildDate>
     <item>
       <title>Helping teens learn, plan, and shape the future of AI</title>
       <link>https://openai.com/index/teens-learn-and-plan</link>
@@ -23,6 +23,14 @@
       <description>Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.</description>
       <guid isPermaLink="false">https://openai.com/index/radisson</guid>
       <pubDate>Wed, 07 Oct 2026 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GPT-6 and Intelligent UI for everyone</title>
+      <link>https://openai.com/index/gpt-6-for-everyone</link>
+      <description>GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.</description>
+      <guid isPermaLink="false">https://openai.com/index/gpt-6-for-everyone</guid>
+      <category>Product</category>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Atlassian and OpenAI expand partnership to turn enterprise knowledge into action</title>
