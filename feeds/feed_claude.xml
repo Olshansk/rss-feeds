@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 16:06:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 21:04:22 +0000</lastBuildDate>
+    <item>
+      <title>Claude Haiku 5.5</title>
+      <link>https://www.anthropic.com/claude-haiku-5-5</link>
+      <description>Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/claude-haiku-5-5</guid>
+      <category>Product announcements</category>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Automating eval design and hillclimbing with Claude</title>
       <link>https://claude.dev/blog/automating-eval-design-and-hillclimbing/</link>

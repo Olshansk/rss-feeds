@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 23:04:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 21:04:35 +0000</lastBuildDate>
     <item>
       <title>The Data Plane Is Yours: Dagster+ Hybrid on Kubernetes and Azure</title>
       <link>https://dagster.io/blog/the-data-plane-is-yours-dagster-hybrid-on-kubernetes-and-azure</link>
@@ -33,7 +33,7 @@
     <item>
       <title>Classifying a Million Snowflake Columns in 9 Days, Solo, with Dagster</title>
       <link>https://dagster.io/blog/classifying-a-million-snowflake-columns-in-9-days-solo-with-dagster</link>
-      <description>data governance. I built a tiered AI classification system, human review workflow, and the Dagster orchestration that ties it all together in production in nine days.</description>
+      <description>We’re consolidating a decade of legacy systems into Snowflake, which leaves us with over a million columns that all need to be classified and tagged for data governance. I built the system that does it: a tiered classification engine, a human-in-the-loop override workflow, and the orchestration that ties them together. This is the engineering story, the challenges that made it interesting, and where Dagster fits as the orchestration layer. Built solo, to production, in nine days.</description>
       <guid isPermaLink="false">https://dagster.io/blog/classifying-a-million-snowflake-columns-in-9-days-solo-with-dagster</guid>
       <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
     </item>
