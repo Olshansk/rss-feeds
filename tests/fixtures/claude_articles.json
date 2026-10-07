@@ -1,0 +1,28 @@
+[
+  {
+    "_id": "57c09f4b-40cb-4755-9296-387975edc897",
+    "_type": "blogPost",
+    "slug": "claude-now-works-in-google-docs-sheets-and-slides",
+    "externalUrl": null,
+    "date": "2026-10-06",
+    "category": {
+      "name": "Product announcements",
+      "slug": "product-announcements"
+    },
+    "title": "Claude now works with Google Docs, Sheets, and Slides",
+    "excerpt": "Teams that run on Google Workspace can now bring Claude into their files or work on their files directly from Claude, with our new add-on and Google Docs, Sheets, and Slides connectors (in beta)."
+  },
+  {
+    "_id": "article-claude-dev-spending-your-effort",
+    "_type": "blogPost",
+    "slug": null,
+    "externalUrl": "https://claude.dev/blog/spending-your-effort/",
+    "date": "2026-09-25",
+    "category": {
+      "name": "Best practices",
+      "slug": "best-practices"
+    },
+    "title": "Using Claude Code: Spending your effort",
+    "excerpt": "What effort really is and when to use which level in Claude Code, from my own tests of three builds and a deep dive into Terminal-Bench 3.0 on Opus 5.5 and Fable 5.1."
+  }
+]

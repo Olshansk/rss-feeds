@@ -1,276 +1,113 @@
 #!/usr/bin/env python3
-"""Generate RSS feed for Claude Blog (claude.com/blog)."""
+"""Generate Claude's existing subscriber feed from its public resource listing."""
 
 import argparse
-import html
-import re
-from datetime import datetime
+from urllib.parse import urlparse
 
-import pytz
-import requests
-from bs4 import BeautifulSoup
-from feedgen.feed import FeedGenerator
-
+from dates import parse_date
+from embedded_data import next_objects
 from feed_history import merge_feed_history, require_posts
-from utils import (
-    deserialize_entries,
-    load_cache,
-    merge_entries,
-    save_cache,
-    save_rss_feed,
-    setup_feed_links,
-    setup_logging,
-    sort_posts_for_feed,
-)
+from json_pages import fetch_numbered_items
+from native_rss import generate_feed
+from static_pages import fetch_page
+from utils import save_cache, save_rss_feed, setup_logging
 
 logger = setup_logging()
-
-BLOG_URL = "https://claude.com/blog"
+BLOG_URL = "https://claude.com/resources/articles"
+SOURCE_URL = "https://claude.com/api/resources/search"
 FEED_NAME = "claude"
-BASE_URL = "https://claude.com"
-
-DATE_PATTERN = re.compile(
-    r"(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+\d{4}"
-)
-
-# Claude blog requires a custom header for Webflow/Finsweet
-CLAUDE_HEADERS = {
-    "X-Webflow-App-ID": "finsweet",
-    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36",
-}
 
 
-def fetch_page(url):
-    """Fetch a single page HTML with Finsweet header."""
-    headers = CLAUDE_HEADERS
-    response = requests.get(url, headers=headers, timeout=30)
-    response.raise_for_status()
-    return response.text
+def fetch_articles(full=False):
+    """Fetch recent articles or the archive through the site's public category filters.
 
-
-def extract_pagination_ids(html_content):
-    """Extract pagination collection IDs from the HTML."""
-    pattern = r"\?([a-f0-9]+)_page=\d+"
-    matches = re.findall(pattern, html_content)
-    return list(set(matches))
-
-
-def parse_date(date_str):
-    """Parse date string like 'January 12, 2026' to datetime."""
-    try:
-        return datetime.strptime(date_str, "%B %d, %Y")
-    except ValueError:
-        return None
-
-
-def parse_posts(html_content):
-    """Parse the blog HTML content and extract post information.
-
-    Returns a list of unique posts, deduplicated by URL.
+    How:
+    1. Use article search so the featured lead is included in recent results.
+    2. For full runs, discover categories and the expected total from the rendered HTML data.
+    3. Combine the unfiltered 20-page window with categories, then require the full advertised count.
     """
-    soup = BeautifulSoup(html_content, "html.parser")
-    posts_by_url = {}
-
-    for item in soup.select(".w-dyn-item"):
-        link = item.select_one('a[href^="/blog/"]')
-        if not link:
-            continue
-
-        href = link.get("href", "")
-        if "/blog/category/" in href or not href:
-            continue
-
-        full_url = f"{BASE_URL}{href}"
-
-        # Skip if we already have this post (keep the one with most data)
-        if full_url in posts_by_url:
-            existing = posts_by_url[full_url]
-            # Only update if existing has no date and this one does
-            item_text = item.get_text()
-            date_match = DATE_PATTERN.search(item_text)
-            if not existing.get("date") and date_match:
-                pass  # Continue to update
-            else:
-                continue  # Keep existing
-
-        # Extract title
-        title = None
-        h2 = item.select_one("h2")
-        if h2:
-            title = h2.get_text(strip=True)
-        if not title:
-            title = link.get("data-cta-copy", "")
-        if not title:
-            for tag in ["h3", "h4", ".u-text-style-h6"]:
-                el = item.select_one(tag)
-                if el:
-                    title = el.get_text(strip=True)
-                    break
-
-        # Extract date
-        date_obj = None
-        item_text = item.get_text()
-        date_match = DATE_PATTERN.search(item_text)
-        if date_match:
-            date_obj = parse_date(date_match.group(0))
-
-        # Extract category
-        category = None
-        category_el = item.select_one('[fs-list-field="category"]')
-        if category_el:
-            category = category_el.get_text(strip=True)
-        if not category:
-            data_category = item.get("data-category")
-            if data_category:
-                category = data_category
-
-        # Extract description
-        description = None
-        desc_el = item.select_one(".card_blog_description, .u-text-style-body-2, p")
-        if desc_el:
-            description = desc_el.get_text(strip=True)
-
-        if title and href:
-            title = html.unescape(title)
-            if description:
-                description = html.unescape(description)
-            posts_by_url[full_url] = {
-                "link": full_url,
-                "title": title,
-                "date": date_obj.strftime("%Y-%m-%d") if date_obj else None,
-                "category": category,
-                "description": description or title,
-            }
-
-    return list(posts_by_url.values())
+    params = {"types": "article", "language": "en"}
+    if not full:
+        return fetch_numbered_items(SOURCE_URL, params=params)
+    objects = list(next_objects(fetch_page(BLOG_URL)))
+    categories = next(obj["categoryOptions"] for obj in objects if "categoryOptions" in obj)
+    total = next(obj["total"] for obj in objects if "items" in obj and "total" in obj)
+    # The unfiltered window also includes articles without a category.
+    recent = fetch_numbered_items(SOURCE_URL, params=params, full=True, max_pages=20, require_complete=False)
+    items = {item["_id"]: item for item in recent}
+    for category in categories:
+        batch = fetch_numbered_items(
+            SOURCE_URL, params={**params, "categories": category["slug"]}, full=True, max_pages=20
+        )
+        items.update({item["_id"]: item for item in batch})
+    if len(items) != total:
+        raise ValueError(f"Incomplete Claude archive: expected {total} articles, found {len(items)}")
+    return list(items.values())
 
 
-def fetch_all_pages():
-    """Follow pagination until no new posts. Returns all posts."""
-    logger.info(f"Fetching main page: {BLOG_URL}")
-    html_content = fetch_page(BLOG_URL)
-    all_posts = parse_posts(html_content)
-    logger.info(f"Found {len(all_posts)} posts on main page")
+def parse_posts(items):
+    """Convert Claude resource records while retaining legacy blog URL identities.
 
-    # Get unique post URLs to track duplicates
-    seen_urls = {p["link"] for p in all_posts}
-
-    # Extract pagination collection IDs
-    collection_ids = extract_pagination_ids(html_content)
-    logger.info(f"Found pagination IDs: {collection_ids}")
-
-    for collection_id in collection_ids:
-        page = 2
-        consecutive_empty = 0
-
-        while consecutive_empty < 2:
-            page_url = f"{BLOG_URL}?{collection_id}_page={page}"
-            logger.info(f"Fetching: {page_url}")
-
-            try:
-                page_html = fetch_page(page_url)
-            except requests.RequestException as e:
-                logger.warning(f"Failed to fetch page {page}: {e}")
-                break
-
-            page_posts = parse_posts(page_html)
-            new_posts = [p for p in page_posts if p["link"] not in seen_urls]
-
-            if not new_posts:
-                consecutive_empty += 1
-                logger.info(f"  No new posts (attempt {consecutive_empty})")
-            else:
-                consecutive_empty = 0
-                logger.info(f"  Found {len(new_posts)} new posts")
-                all_posts.extend(new_posts)
-                seen_urls.update(p["link"] for p in new_posts)
-
-            page += 1
-
-            if page > 50:
-                logger.info("  Reached page limit, stopping")
-                break
-
-    # Sort for correct feed order (newest first in output)
-    sorted_posts = sort_posts_for_feed(all_posts, date_field="date")
-    logger.info(f"Total unique posts across all pages: {len(sorted_posts)}")
-    return sorted_posts
-
-
-def generate_rss_feed(posts):
-    """Generate RSS feed from blog posts."""
-    fg = FeedGenerator()
-    fg.title("Claude Blog")
-    fg.description(
-        "Get practical guidance and best practices for building with Claude. "
-        "Technical guides, real-world examples, and insights from Anthropic's "
-        "engineering and research teams."
-    )
-    fg.language("en")
-
-    fg.author({"name": "Anthropic", "email": "blog@anthropic.com"})
-    fg.subtitle("Latest updates from Claude Blog")
-    setup_feed_links(fg, blog_url=BLOG_URL, feed_name=FEED_NAME)
-
-    for post in posts:
-        fe = fg.add_entry()
-        fe.title(post["title"])
-        fe.description(post["description"])
-        fe.link(href=post["link"])
-        fe.id(post["link"])
-
-        if post.get("category"):
-            fe.category(term=post["category"])
-
-        if post.get("date"):
-            try:
-                dt = post["date"] if isinstance(post["date"], datetime) else datetime.strptime(post["date"], "%Y-%m-%d")
-                if dt.tzinfo is None:
-                    dt = dt.replace(tzinfo=pytz.UTC)
-                fe.published(dt)
-            except (ValueError, TypeError):
-                pass
-
-    logger.info(f"Generated RSS feed with {len(posts)} entries")
-    return fg
+    How:
+    1. Require articles with a title, publication date, and internal slug or HTTPS URL.
+    2. Map internal slugs to current article URLs and their original blog GUIDs.
+    3. Deduplicate featured articles by URL, preserving categories and summaries.
+    """
+    posts = {}
+    for item in items:
+        if item.get("_type") != "blogPost":
+            raise ValueError("Unexpected non-article in Claude article listing")
+        title = (item.get("title") or "").strip()
+        slug = item.get("slug")
+        external = item.get("externalUrl")
+        if external:
+            link = external
+            guid = link
+        elif isinstance(slug, str) and slug and "/" not in slug:
+            link = f"https://claude.com/resources/articles/{slug}"
+            guid = f"https://claude.com/blog/{slug}"
+        else:
+            raise ValueError("Claude article lacks a usable URL")
+        if not title or urlparse(link).scheme != "https" or not urlparse(link).netloc:
+            raise ValueError("Claude article lacks a title or HTTPS URL")
+        category = (item.get("category") or {}).get("name") or "Blog"
+        posts[link] = {
+            "title": title,
+            "link": link,
+            "guid": guid,
+            "date": parse_date(item.get("date") or ""),
+            "description": (item.get("excerpt") or title).strip(),
+            "category": category,
+            "categories": [category],
+        }
+    return require_posts(list(posts.values()))
 
 
 def main(full_reset=False):
-    """Main function to generate RSS feed from blog URL.
+    """Refresh live articles and publish them with the existing subscriber archive.
 
-    Args:
-        full_reset: If True, fetch all pages. If False, only fetch page 1
-                   and merge with cached posts.
+    How:
+    1. Fetch fresh public article data, following all pages only for an explicit full run.
+    2. Parse and merge published history, preserving GUIDs through the URL migration.
+    3. Validate and atomically write RSS before updating the local cache.
     """
-    cache = load_cache(FEED_NAME)
-    cached_entries = deserialize_entries(cache.get("entries", []))
-
-    if full_reset or not cached_entries:
-        mode = "full reset" if full_reset else "no cache exists"
-        logger.info(f"Running full fetch ({mode})")
-        posts = fetch_all_pages()
-    else:
-        logger.info("Running incremental update (page 1 only)")
-        html_content = fetch_page(BLOG_URL)
-        new_posts = parse_posts(html_content)
-        logger.info(f"Found {len(new_posts)} posts on page 1")
-        posts = merge_entries(require_posts(new_posts), cached_entries)
-
-    if not posts:
-        logger.warning("No posts fetched — skipping feed update to avoid overwriting with empty feed")
-        return False
-
-    posts = merge_feed_history(posts, FEED_NAME)
-    feed = generate_rss_feed(posts)
+    items = fetch_articles(full=full_reset)
+    posts = merge_feed_history(parse_posts(items), FEED_NAME, match_titles=True)
+    feed = generate_feed(
+        posts,
+        title="Claude Blog",
+        description="Practical guidance, product updates, and best practices for building with Claude.",
+        blog_url=BLOG_URL,
+        feed_name=FEED_NAME,
+    )
     save_rss_feed(feed, FEED_NAME)
     save_cache(FEED_NAME, posts)
-
-    logger.info("Done!")
+    logger.info("Published %s Claude articles", len(posts))
     return True
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate Claude Blog RSS feed")
-    parser.add_argument("--full", action="store_true", help="Force full reset (fetch all pages)")
+    parser.add_argument("--full", action="store_true", help="Fetch the complete article archive")
     args = parser.parse_args()
-    main(full_reset=args.full)
+    raise SystemExit(0 if main(full_reset=args.full) else 1)

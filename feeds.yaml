@@ -59,7 +59,7 @@ feeds:
   claude:
     script: claude_blog.py
     type: requests
-    blog_url: https://claude.com/blog
+    blog_url: https://claude.com/resources/articles
 
   cohere:
     script: cohere_blog.py
