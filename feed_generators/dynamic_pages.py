@@ -64,28 +64,42 @@ def fetch_rendered(url, article_selector, *, button_xpath=None, max_clicks=0, co
     How:
     1. Configure the browser and wait for actual article elements.
     2. Click the expansion control while present, requiring article-count growth.
-    3. Return the rendered document and close the browser even after a failure.
+    3. Report the failed stage and page title on timeout without retrying or using stale data.
+    4. Return the rendered document and close the browser even after a failure.
     """
+    from selenium.common.exceptions import TimeoutException, WebDriverException
     from selenium.webdriver.common.by import By
     from selenium.webdriver.support import expected_conditions as EC
     from selenium.webdriver.support.ui import WebDriverWait
 
     driver = setup_selenium_driver()
+    stage = "navigation"
     try:
         driver.set_page_load_timeout(45)
         if configure:
             configure(driver)
         driver.get(url)
+        stage = "initial article listing"
         WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CSS_SELECTOR, article_selector)))
         for _ in range(max_clicks):
             buttons = driver.find_elements(By.XPATH, button_xpath)
             if not buttons or not buttons[0].is_displayed() or not buttons[0].is_enabled():
                 break
             count = len(driver.find_elements(By.CSS_SELECTOR, article_selector))
+            stage = "article expansion"
             driver.execute_script("arguments[0].click();", buttons[0])
             WebDriverWait(driver, 20).until(
                 lambda current, previous=count: len(current.find_elements(By.CSS_SELECTOR, article_selector)) > previous
             )
         return driver.page_source
+    except TimeoutException as exc:
+        try:
+            title = " ".join(driver.title.split())[:200]
+        except WebDriverException:
+            title = "unavailable"
+        raise RuntimeError(
+            f"Browser timeout during {stage} for {url}; page title={title!r}; "
+            f"article selector={article_selector!r}. Fresh content was not confirmed."
+        ) from exc
     finally:
         driver.quit()
