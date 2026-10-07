@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 23:38:04 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 09:43:34 +0000</lastBuildDate>
     <item>
       <title>Claude-shaped science</title>
       <link>https://www.anthropic.com/research/claude-shaped-science</link>
@@ -65,7 +65,7 @@
     <item>
       <title>Claude discovers a novel enzyme system with CRISPR-like repeats</title>
       <link>https://www.anthropic.com/news/claude-discovers-novel-enzyme-system</link>
-      <description>We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.</description>
+      <description>We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR.</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/claude-discovers-novel-enzyme-system</guid>
       <category>Research</category>
       <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
