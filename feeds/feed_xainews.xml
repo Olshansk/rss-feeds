@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 23:39:42 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 19:40:52 +0000</lastBuildDate>
     <item>
       <title>Team Bots: shared AI teammates that learn as they work</title>
       <link>https://x.ai/news/team-bots</link>
@@ -218,7 +218,7 @@
       <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Grok for Outlook</title>
+      <title>Introducing Grok for Outlook</title>
       <link>https://x.ai/news/introducing-outlook-addin</link>
       <description>Use the Grok add-in for Microsoft Outlook to summarize long email threads, draft replies in your voice, and keep your inbox organized.</description>
       <guid isPermaLink="false">https://x.ai/news/introducing-outlook-addin</guid>
@@ -226,7 +226,7 @@
       <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Grok for Excel</title>
+      <title>Introducing Grok for Excel</title>
       <link>https://x.ai/news/introducing-excel-addin</link>
       <description>Use the Grok add-in for Microsoft Excel to ask questions in plain English, write formulas, and run scenarios without leaving the workbook.</description>
       <guid isPermaLink="false">https://x.ai/news/introducing-excel-addin</guid>
@@ -282,7 +282,7 @@
       <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Grok for Word</title>
+      <title>Introducing Grok for Word</title>
       <link>https://x.ai/news/introducing-word-addin</link>
       <description>Use the Grok add-in for Microsoft Word to turn notes into documents, style and format your work, or bring research from the web into Word.</description>
       <guid isPermaLink="false">https://x.ai/news/introducing-word-addin</guid>
@@ -306,7 +306,7 @@
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Grok for PowerPoint</title>
+      <title>Introducing Grok for PowerPoint</title>
       <link>https://x.ai/news/introducing-powerpoint-addin</link>
       <description>Grok now works inside Microsoft PowerPoint — turn outlines into slides, expand the deck, and tighten the narrative without leaving the app.</description>
       <guid isPermaLink="false">https://x.ai/news/introducing-powerpoint-addin</guid>
