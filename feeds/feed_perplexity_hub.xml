@@ -13,7 +13,23 @@
       <link>https://www.perplexity.ai/hub/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Oct 2026 16:43:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 18:47:04 +0000</lastBuildDate>
+    <item>
+      <title>RAG vs. LLM: Technical Breakdown (Definitions, Differences, Use Cases)</title>
+      <link>https://www.perplexity.ai/hub/blog/rag-vs-llm</link>
+      <description>RAG vs. LLM: Technical Breakdown (Definitions, Differences, Use Cases)</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/rag-vs-llm</guid>
+      <category>Blog</category>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multimodal embeddings beyond a single vector</title>
+      <link>https://www.perplexity.ai/hub/blog/multimodal-embeddings-beyond-a-single-vector</link>
+      <description>Multimodal embeddings beyond a single vector</description>
+      <guid isPermaLink="false">https://www.perplexity.ai/hub/blog/multimodal-embeddings-beyond-a-single-vector</guid>
+      <category>Blog</category>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>10 Best AI Collaboration Tools</title>
       <link>https://www.perplexity.ai/hub/blog/ai-collaboration-tools</link>
