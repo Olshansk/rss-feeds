@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Oct 2026 23:04:52 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 00:14:30 +0000</lastBuildDate>
     <item>
       <title>Atlassian and OpenAI expand partnership to turn enterprise knowledge into action</title>
       <link>https://openai.com/index/atlassian-partnership</link>
@@ -26,11 +26,18 @@
       <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>How Jump Trading is scaling quant research with ChatGPT</title>
+      <link>https://openai.com/index/jump-trading</link>
+      <description>Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.</description>
+      <guid isPermaLink="false">https://openai.com/index/jump-trading</guid>
+      <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Advancing computer use with Ironclad</title>
       <link>https://openai.com/index/advancing-computer-use-with-ironclad</link>
       <description>Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.</description>
       <guid isPermaLink="false">https://openai.com/index/advancing-computer-use-with-ironclad</guid>
-      <category>Company</category>
+      <category>Publication</category>
       <pubDate>Tue, 06 Oct 2026 10:00:00 +0000</pubDate>
     </item>
     <item>
