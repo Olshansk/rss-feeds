@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Oct 2026 18:08:32 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 22:05:13 +0000</lastBuildDate>
+    <item>
+      <title>Claude Haiku 5.5 is now available in Devin</title>
+      <link>https://devin.ai/blog/claude-haiku-5-5</link>
+      <description>Claude Haiku 5.5 is now live in Devin. On FrontierCode 1.1 it scores 58.4%, ahead of Sonnet 5 at about an eighth of the cost per task, and it joins the sidekick lineup in Devin Fusion.</description>
+      <guid isPermaLink="false">https://devin.ai/blog/claude-haiku-5-5</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Memory and dreaming: how Devin learns from working with you</title>
       <link>https://devin.ai/blog/memory-and-dreaming</link>
