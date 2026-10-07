@@ -8,7 +8,31 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 05:28:32 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 16:06:00 +0000</lastBuildDate>
+    <item>
+      <title>Automating eval design and hillclimbing with Claude</title>
+      <link>https://claude.dev/blog/automating-eval-design-and-hillclimbing/</link>
+      <description>Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.</description>
+      <guid isPermaLink="false">https://claude.dev/blog/automating-eval-design-and-hillclimbing/</guid>
+      <category>Best practices</category>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Expanding the Cyber Verification Program</title>
+      <link>https://www.anthropic.com/news/cyber-verification-program</link>
+      <description>We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/cyber-verification-program</guid>
+      <category>Product announcements</category>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Code in the cloud: a field guide to cloud sessions</title>
+      <link>https://claude.dev/blog/claude-code-in-the-cloud/</link>
+      <description>What changes when Claude Code runs on its own machine, the workflows where that pays off, and how to connect GitHub on the first try.</description>
+      <guid isPermaLink="false">https://claude.dev/blog/claude-code-in-the-cloud/</guid>
+      <category>Best practices</category>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>We’re expanding the Claude Startups program to help founders build</title>
       <link>https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build</link>
@@ -36,10 +60,18 @@
     <item>
       <title>How Cresta turned CX expertise into an agent builder on the Claude Agent SDK</title>
       <link>https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk</link>
-      <description>How Cresta turned CX expertise into an agent builder on the Claude Agent SDK</description>
+      <description>See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.</description>
       <guid isPermaLink="false">https://claude.com/blog/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk</guid>
       <category>Best practices</category>
       <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Getting started with Claude Code mods</title>
+      <link>https://claude.dev/blog/getting-started-with-claude-code-mods/</link>
+      <description>Getting started with Claude Code mods</description>
+      <guid isPermaLink="false">https://claude.dev/blog/getting-started-with-claude-code-mods/</guid>
+      <category>Best practices</category>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Customize Claude Code with mods</title>
@@ -88,14 +120,6 @@
       <link>https://claude.dev/blog/building-with-claude-sonnet-5-5/</link>
       <description>When to choose Sonnet over Opus, what it costs, and how to tune it.</description>
       <guid isPermaLink="false">https://claude.dev/blog/building-with-claude-sonnet-5-5/</guid>
-      <category>Best practices</category>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Automating eval design and hillclimbing with Claude</title>
-      <link>https://claude.dev/blog/automating-eval-design-and-hillclimbing/</link>
-      <description>Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.</description>
-      <guid isPermaLink="false">https://claude.dev/blog/automating-eval-design-and-hillclimbing/</guid>
       <category>Best practices</category>
       <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
     </item>
