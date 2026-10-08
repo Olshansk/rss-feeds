@@ -143,6 +143,8 @@ feeds:
     script: perplexity_hub.py
     type: selenium
     blog_url: https://www.perplexity.ai/hub/blog
+    # Paused: recurring browser challenges block CI; retain code and XML for later review.
+    enabled: false
 
   pinecone:
     script: pinecone_blog.py

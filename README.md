@@ -12,7 +12,8 @@
 
 ## tl;dr Available RSS Feeds <!-- omit in toc -->
 
-Scraped feeds are generated hourly. "Official RSS" rows point to native feeds the blog now publishes directly.
+Enabled scraped feeds are generated hourly. "Official RSS" rows point to native feeds the blog now publishes directly.
+Feeds marked "updates paused" retain their last published XML but do not receive new articles.
 
 | Blog                                                                                              | Feed                                                                                                                                 |
 | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
@@ -42,7 +43,7 @@ Scraped feeds are generated hourly. "Official RSS" rows point to native feeds th
 | [Ollama Blog](https://ollama.com/blog)                                                            | [feed_ollama.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_ollama.xml)                                   |
 | [OpenAI — All News and Developer Blog](https://openai.com/news/) | [feed_openai_main.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_openai_main.xml) |
 | [Paul Graham's Articles](https://www.paulgraham.com/articles.html)                                | [feed_paulgraham.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_paulgraham.xml)                           |
-| [Perplexity Hub](https://www.perplexity.ai/hub/blog)                                                   | [feed_perplexity_hub.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_perplexity_hub.xml)                   |
+| [Perplexity Hub](https://www.perplexity.ai/hub/blog) — updates paused | [feed_perplexity_hub.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_perplexity_hub.xml) |
 | [Pinecone Blog](https://www.pinecone.io/blog/)                                                    | [feed_pinecone.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_pinecone.xml)                               |
 | [Simon Willison's Blog (Tools)](https://simonwillison.net/)                                       | [Official RSS](https://simonwillison.net/atom/beats/tool/)                                                                           |
 | [Supabase Blog](https://supabase.com/blog)                                                        | [Official RSS](https://supabase.com/rss.xml)                                                                                         |
