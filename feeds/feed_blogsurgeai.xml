@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 23:03:57 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 17:04:32 +0000</lastBuildDate>
     <item>
       <title>GDP.xlsx: Can Agents Understand the Spreadsheets That Run the World?</title>
       <link>https://www.surgehq.ai/blog/gdp-xlsx</link>
@@ -393,6 +393,13 @@
       <description>Data-centric AI requires radically rethinking the data that goes into your models. Surge AI provides data labelers with the skills you need to get context-sensitive labels.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/why-context-aware-datasets-are-crucial-for-data-centric-ai</guid>
       <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>sudo L7: Can Coding Agents Act Like Staff Engineers?</title>
+      <link>https://www.surgehq.ai/blog/sudo-l7</link>
+      <description>Introducing sudo L7, a coding benchmark testing whether AI agents can go beyond correct code and exercise staff-level engineering judgment.</description>
+      <guid isPermaLink="false">https://www.surgehq.ai/blog/sudo-l7</guid>
+      <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
