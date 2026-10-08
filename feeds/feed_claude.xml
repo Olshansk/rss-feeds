@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 21:04:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 19:05:22 +0000</lastBuildDate>
+    <item>
+      <title>Build live dashboards and animate explainers with Claude</title>
+      <link>https://claude.com/resources/articles/dashboards-and-motion</link>
+      <description>Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.</description>
+      <guid isPermaLink="false">https://claude.com/blog/dashboards-and-motion</guid>
+      <category>Product announcements</category>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Claude Haiku 5.5</title>
       <link>https://www.anthropic.com/claude-haiku-5-5</link>
