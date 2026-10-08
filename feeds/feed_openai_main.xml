@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 19:06:07 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 16:06:45 +0000</lastBuildDate>
+    <item>
+      <title>Disrupting AI-enabled “false front” operations</title>
+      <link>https://openai.com/index/disrupting-ai-enabled-false-front-operations</link>
+      <description>OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.</description>
+      <guid isPermaLink="false">https://openai.com/index/disrupting-ai-enabled-false-front-operations</guid>
+      <category>Safety</category>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Helping teens learn, plan, and shape the future of AI</title>
       <link>https://openai.com/index/teens-learn-and-plan</link>
@@ -876,7 +884,7 @@
       <link>https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia</link>
       <description>OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.</description>
       <guid isPermaLink="false">https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia</guid>
-      <category>Global Affairs</category>
+      <category>Safety</category>
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
