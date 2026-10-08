@@ -8,7 +8,22 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Oct 2026 16:06:45 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 18:06:24 +0000</lastBuildDate>
+    <item>
+      <title>How Oracle turns days of work into minutes with ChatGPT and Codex</title>
+      <link>https://openai.com/index/oracle</link>
+      <description>Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.</description>
+      <guid isPermaLink="false">https://openai.com/index/oracle</guid>
+      <pubDate>Thu, 08 Oct 2026 16:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pollo AI turns creative ideas into campaigns with OpenAI</title>
+      <link>https://openai.com/index/pollo-ai</link>
+      <description>With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.</description>
+      <guid isPermaLink="false">https://openai.com/index/pollo-ai</guid>
+      <category>Startup</category>
+      <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Disrupting AI-enabled “false front” operations</title>
       <link>https://openai.com/index/disrupting-ai-enabled-false-front-operations</link>
