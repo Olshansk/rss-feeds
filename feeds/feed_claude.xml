@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Oct 2026 19:05:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 23:04:43 +0000</lastBuildDate>
+    <item>
+      <title>How Block orchestrates Claude Fable across thousands of pull requests</title>
+      <link>https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests</link>
+      <description>Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests</guid>
+      <category>Perspectives</category>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Build live dashboards and animate explainers with Claude</title>
       <link>https://claude.com/resources/articles/dashboards-and-motion</link>
