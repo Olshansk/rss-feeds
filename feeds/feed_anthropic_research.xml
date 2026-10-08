@@ -13,7 +13,15 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Oct 2026 19:40:31 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 20:41:54 +0000</lastBuildDate>
+    <item>
+      <title>The missing map of the sky</title>
+      <link>https://www.anthropic.com/research/the-missing-map-of-the-sky</link>
+      <description>The missing map of the sky</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/the-missing-map-of-the-sky</guid>
+      <category>Research</category>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Launching an opt-in vulnerability-finding service for open-source software</title>
       <link>https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source</link>
