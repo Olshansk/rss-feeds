@@ -11,7 +11,7 @@ import argparse
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
-from feed_history import merge_feed_history
+from feed_history import load_feed_history, merge_feed_history
 from paper_dates import enrich_paper_dates
 from utils import (
     fetch_page,
@@ -88,7 +88,8 @@ def main():
             logger.warning("No articles found - skipping feed update to avoid overwriting with empty feed")
             return False
 
-        articles = merge_feed_history(enrich_paper_dates(articles), FEED_NAME)
+        articles = enrich_paper_dates(articles, known_posts=load_feed_history(FEED_NAME))
+        articles = merge_feed_history(articles, FEED_NAME)
         fg = generate_rss_feed(articles)
         save_rss_feed(fg, FEED_NAME)
         logger.info(f"Generated {FEED_NAME} feed with {len(articles)} articles")
