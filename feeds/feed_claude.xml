@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Oct 2026 23:04:43 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 14:05:59 +0000</lastBuildDate>
+    <item>
+      <title>Building effective agent automations</title>
+      <link>https://claude.dev/blog/building-effective-agent-automations/</link>
+      <description>A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.</description>
+      <guid isPermaLink="false">https://claude.dev/blog/building-effective-agent-automations/</guid>
+      <category>Best practices</category>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>How Block orchestrates Claude Fable across thousands of pull requests</title>
       <link>https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests</link>
