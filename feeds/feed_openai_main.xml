@@ -8,12 +8,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 09 Oct 2026 09:08:43 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 19:03:58 +0000</lastBuildDate>
     <item>
       <title>Sophos cuts threat investigation time by 96% with OpenAI Daybreak</title>
       <link>https://openai.com/index/sophos</link>
       <description>Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.</description>
       <guid isPermaLink="false">https://openai.com/index/sophos</guid>
+      <pubDate>Fri, 09 Oct 2026 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Asana cuts model costs 76x in browser tests with GPT-6.1 Sol</title>
+      <link>https://openai.com/index/asana-browser-agent</link>
+      <description>Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.</description>
+      <guid isPermaLink="false">https://openai.com/index/asana-browser-agent</guid>
       <pubDate>Fri, 09 Oct 2026 07:00:00 +0000</pubDate>
     </item>
     <item>
@@ -238,6 +245,13 @@
       <description>With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.</description>
       <guid isPermaLink="false">https://openai.com/index/proaction</guid>
       <pubDate>Fri, 25 Sep 2026 19:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lowe’s answers millions of home improvement questions with OpenAI</title>
+      <link>https://openai.com/index/lowes</link>
+      <description>Lowe’s uses OpenAI models to power Mylow and Mylow Companion, helping customers and associates answer 25M+ questions and move home improvement projects forward.</description>
+      <guid isPermaLink="false">https://openai.com/index/lowes</guid>
+      <pubDate>Fri, 25 Sep 2026 07:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Wayfair boosts catalog accuracy and support speed with OpenAI</title>
@@ -3737,6 +3751,14 @@
       <pubDate>Fri, 23 Jan 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Think Bigger: How Small Teams Win with ChatGPT</title>
+      <link>https://openai.com/business/guides-and-resources/chatgpt-business-smb-guide</link>
+      <description>A practical guide showing how small teams use ChatGPT to analyze data, create marketing materials, manage budgets, run meetings, and make better decisions.</description>
+      <guid isPermaLink="false">https://openai.com/business/guides-and-resources/chatgpt-business-smb-guide</guid>
+      <category>Guides</category>
+      <pubDate>Thu, 22 Jan 2026 21:12:55 +0000</pubDate>
+    </item>
+    <item>
       <title>Scaling PostgreSQL to power 800 million ChatGPT users</title>
       <link>https://openai.com/index/scaling-postgresql</link>
       <description>An inside look at how OpenAI scaled PostgreSQL to millions of queries per second using replicas, caching, rate limiting, and workload isolation.</description>
@@ -3858,12 +3880,44 @@
       <pubDate>Thu, 15 Jan 2026 07:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>A Practical Guide to Building AI Agents</title>
+      <link>https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents</link>
+      <description>A comprehensive guide to designing, orchestrating, and deploying AI agents—covering use cases, model selection, tool design, guardrails, and multi-agent patterns.</description>
+      <guid isPermaLink="false">https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents</guid>
+      <category>Guides</category>
+      <pubDate>Thu, 15 Jan 2026 00:25:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building with the GPT-5 Model Series: A Practical Guide</title>
+      <link>https://openai.com/business/guides-and-resources/a-practical-guide-to-building-with-ai</link>
+      <description>A practical guide for startups on migrating to the Responses API, designing agents, tuning prompts, steering GPT-5 models, and building reliable AI workflows.</description>
+      <guid isPermaLink="false">https://openai.com/business/guides-and-resources/a-practical-guide-to-building-with-ai</guid>
+      <category>Guides</category>
+      <pubDate>Thu, 15 Jan 2026 00:09:56 +0000</pubDate>
+    </item>
+    <item>
       <title>Strengthening the U.S. AI supply chain through domestic manufacturing</title>
       <link>https://openai.com/index/strengthening-the-us-ai-supply-chain</link>
       <description>OpenAI launches a new RFP to strengthen the U.S. AI supply chain by accelerating domestic manufacturing, creating jobs, and scaling AI infrastructure.</description>
       <guid isPermaLink="false">https://openai.com/index/strengthening-the-us-ai-supply-chain</guid>
       <category>Global Affairs</category>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Inside GPT-5 for Work</title>
+      <link>https://openai.com/business/guides-and-resources/inside-gpt5-our-best-model-for-work</link>
+      <description>A concise guide to how GPT-5 powers real business workflows—across marketing, engineering, finance, strategy, legal, and IT—and how to evaluate it for your team.</description>
+      <guid isPermaLink="false">https://openai.com/business/guides-and-resources/inside-gpt5-our-best-model-for-work</guid>
+      <category>Guides</category>
+      <pubDate>Wed, 14 Jan 2026 21:43:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>How OpenAI Uses Codex to Accelerate Engineering</title>
+      <link>https://openai.com/business/guides-and-resources/how-openai-uses-codex</link>
+      <description>A detailed look at how OpenAI teams use Codex to understand code, refactor systems, improve performance, boost velocity, and enhance engineering workflows.</description>
+      <guid isPermaLink="false">https://openai.com/business/guides-and-resources/how-openai-uses-codex</guid>
+      <category>Guides</category>
+      <pubDate>Wed, 14 Jan 2026 21:27:09 +0000</pubDate>
     </item>
     <item>
       <title>OpenAI partners with Cerebras</title>
@@ -4369,6 +4423,14 @@
       <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Using Codex across the software development lifecycle</title>
+      <link>https://openai.com/business/learn/using-codex-across-the-software-development-lifecycle</link>
+      <description>Watch a webinar on using Codex across the software development lifecycle.</description>
+      <guid isPermaLink="false">https://openai.com/business/learn/using-codex-across-the-software-development-lifecycle</guid>
+      <category>Webinars</category>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Strengthening our safety ecosystem with external testing</title>
       <link>https://openai.com/index/strengthening-safety-with-external-testing</link>
       <description>OpenAI works with independent experts to evaluate frontier AI systems. Third-party testing strengthens safety, validates safeguards, and increases transparency in how we assess model capabilities and risks.</description>
@@ -4430,6 +4492,14 @@
       <guid isPermaLink="false">https://openai.com/index/intuit-partnership</guid>
       <category>Company</category>
       <pubDate>Tue, 18 Nov 2025 05:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How OpenAI uses ChatGPT Atlas at work</title>
+      <link>https://openai.com/business/learn/how-openai-uses-chatgpt-atlas-at-work</link>
+      <description>Watch a webinar on how OpenAI uses ChatGPT Atlas at work.</description>
+      <guid isPermaLink="false">https://openai.com/business/learn/how-openai-uses-chatgpt-atlas-at-work</guid>
+      <category>Webinars</category>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>OpenAI named Emerging Leader in Generative AI</title>
@@ -5430,11 +5500,27 @@
       <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>GPT-5: Our best model for work</title>
+      <link>https://openai.com/business/learn/gpt-5-our-best-model-for-work</link>
+      <description>Watch a GPT-5 demo for work showing how the model can analyze feedback, create a product plan and prototype, and summarize next steps.</description>
+      <guid isPermaLink="false">https://openai.com/business/learn/gpt-5-our-best-model-for-work</guid>
+      <category>Demos</category>
+      <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Providing ChatGPT to the Entire U.S. Federal Workforce</title>
       <link>https://openai.com/index/providing-chatgpt-to-the-entire-us-federal-workforce</link>
       <description>Today, OpenAI for Government is announcing a new partnership with the U.S. General Services Administration (GSA) to launch a transformative initiative. For the next year, ChatGPT Enterprise will be available to the entire federal executive branch workforce at essentially no cost.</description>
       <guid isPermaLink="false">https://openai.com/index/providing-chatgpt-to-the-entire-us-federal-workforce</guid>
       <category>Company</category>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Delegate work to ChatGPT agent</title>
+      <link>https://openai.com/business/learn/delegate-work-to-chatgpt-agent</link>
+      <description>Watch a ChatGPT agent demo showing how it can research, code, and take action online to complete a business plan in minutes.</description>
+      <guid isPermaLink="false">https://openai.com/business/learn/delegate-work-to-chatgpt-agent</guid>
+      <category>Demos</category>
       <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -5886,6 +5972,46 @@
       <pubDate>Mon, 12 May 2025 10:30:00 +0000</pubDate>
     </item>
     <item>
+      <title>Personalize ChatGPT with custom instructions</title>
+      <link>https://openai.com/business/learn/personalize-chatgpt-with-custom-instructions</link>
+      <description>See how custom instructions help personalize ChatGPT for your role, preferences, and work.</description>
+      <guid isPermaLink="false">https://openai.com/business/learn/personalize-chatgpt-with-custom-instructions</guid>
+      <category>Demos</category>
+      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Create on-brand visuals with image generation</title>
+      <link>https://openai.com/business/learn/create-on-brand-visuals-with-image-generation</link>
+      <description>See how ChatGPT image generation helps create branded visuals and product mockups from prompts, sketches, or uploaded images.</description>
+      <guid isPermaLink="false">https://openai.com/business/learn/create-on-brand-visuals-with-image-generation</guid>
+      <category>Demos</category>
+      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Connect internal knowledge from Google Drive</title>
+      <link>https://openai.com/business/learn/connect-internal-knowledge-from-google-drive</link>
+      <description>See how ChatGPT can connect to Google Drive to use internal knowledge and answer questions with relevant context.</description>
+      <guid isPermaLink="false">https://openai.com/business/learn/connect-internal-knowledge-from-google-drive</guid>
+      <category>Demos</category>
+      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Collaborate and write with GPT-4o</title>
+      <link>https://openai.com/business/learn/collaborate-and-write-with-gpt-4o</link>
+      <description>Explore how GPT-4o makes writing and collaboration more natural, helping teams draft, refine, and adjust tone faster.</description>
+      <guid isPermaLink="false">https://openai.com/business/learn/collaborate-and-write-with-gpt-4o</guid>
+      <category>Demos</category>
+      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Automate complex workflows with OpenAI o3</title>
+      <link>https://openai.com/business/learn/automate-complex-workflows-with-openai-o3</link>
+      <description>See how OpenAI o3 can reason through complex tasks and help automate multi-step workflows.</description>
+      <guid isPermaLink="false">https://openai.com/business/learn/automate-complex-workflows-with-openai-o3</guid>
+      <category>Demos</category>
+      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>OpenAI Expands Leadership with Fidji Simo</title>
       <link>https://openai.com/index/leadership-expansion-with-fidji-simo</link>
       <description>Read the message Sam shared with the company earlier today.</description>
@@ -5915,14 +6041,6 @@
       <description>Discover how the San Antonio Spurs are using custom GPTs to enhance fan engagement, streamline operations, and drive innovation across teams.</description>
       <guid isPermaLink="false">https://openai.com/index/san-antonio-spurs</guid>
       <pubDate>Wed, 07 May 2025 09:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lowe’s puts project expertise into every hand</title>
-      <link>https://openai.com/index/lowes</link>
-      <description>Lowe’s partnered with OpenAI to build Mylow and Mylow Companion, AI-powered tools that bring expert help to both customers and store associates—making complex home improvement projects easier to plan, navigate, and complete.</description>
-      <guid isPermaLink="false">https://openai.com/index/lowes</guid>
-      <category>Story</category>
-      <pubDate>Wed, 07 May 2025 07:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Introducing OpenAI for Countries</title>
@@ -6060,6 +6178,30 @@
       <pubDate>Mon, 14 Apr 2025 10:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Prototyping with canvas in ChatGPT</title>
+      <link>https://openai.com/business/learn/prototyping-with-canvas-in-chatgpt</link>
+      <description>See how to go from a product requirements document to a working HTML/React prototype using canvas in ChatGPT.</description>
+      <guid isPermaLink="false">https://openai.com/business/learn/prototyping-with-canvas-in-chatgpt</guid>
+      <category>Demos</category>
+      <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Market research with ChatGPT</title>
+      <link>https://openai.com/business/learn/market-research-with-chatgpt</link>
+      <description>See how ChatGPT can plan, search, read sources, and compile a detailed research report to support market analysis.</description>
+      <guid isPermaLink="false">https://openai.com/business/learn/market-research-with-chatgpt</guid>
+      <category>Demos</category>
+      <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Creating a contextual workspace in ChatGPT</title>
+      <link>https://openai.com/business/learn/creating-a-contextual-workspace-in-chatgpt</link>
+      <description>Discover how ChatGPT Projects helps organize files, save context, and keep conversations consistent across workstreams.</description>
+      <guid isPermaLink="false">https://openai.com/business/learn/creating-a-contextual-workspace-in-chatgpt</guid>
+      <category>Demos</category>
+      <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>BrowseComp: a benchmark for browsing agents</title>
       <link>https://openai.com/index/browsecomp</link>
       <description>BrowseComp: a benchmark for browsing agents.</description>
@@ -6074,6 +6216,38 @@
       <guid isPermaLink="false">https://openai.com/index/openai-pioneers-program</guid>
       <category>Company</category>
       <pubDate>Wed, 09 Apr 2025 10:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Writing with canvas in ChatGPT</title>
+      <link>https://openai.com/business/learn/writing-with-canvas-in-chatgpt</link>
+      <description>See how canvas in ChatGPT helps turn notes, transcripts, and rough drafts into polished writing.</description>
+      <guid isPermaLink="false">https://openai.com/business/learn/writing-with-canvas-in-chatgpt</guid>
+      <category>Demos</category>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vision and voice in ChatGPT</title>
+      <link>https://openai.com/business/learn/vision-and-voice-in-chatgpt</link>
+      <description>See how vision and voice in ChatGPT help teams work with multimodal inputs and communicate more naturally.</description>
+      <guid isPermaLink="false">https://openai.com/business/learn/vision-and-voice-in-chatgpt</guid>
+      <category>Demos</category>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Strategic planning with ChatGPT</title>
+      <link>https://openai.com/business/learn/strategic-planning-with-chatgpt</link>
+      <description>See how ChatGPT can support strategic planning by analyzing context, generating options, and turning decisions into next steps.</description>
+      <guid isPermaLink="false">https://openai.com/business/learn/strategic-planning-with-chatgpt</guid>
+      <category>Demos</category>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Shipping code to your IDE with ChatGPT</title>
+      <link>https://openai.com/business/learn/shipping-code-to-your-ide-with-chatgpt</link>
+      <description>See how ChatGPT can help move generated code into your IDE to speed up development workflows.</description>
+      <guid isPermaLink="false">https://openai.com/business/learn/shipping-code-to-your-ide-with-chatgpt</guid>
+      <category>Demos</category>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Canva enables creativity with AI</title>
@@ -6769,6 +6943,14 @@ Introducing our new alignment strategy for o1 models, which are directly taught 
       <pubDate>Thu, 31 Oct 2024 08:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Put AI to work for marketing teams</title>
+      <link>https://openai.com/business/put-ai-to-work-for-marketing-teams</link>
+      <description>Put AI to Work for Marketing Teams</description>
+      <guid isPermaLink="false">https://openai.com/business/put-ai-to-work-for-marketing-teams</guid>
+      <category>Webinar</category>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Introducing SimpleQA</title>
       <link>https://openai.com/index/introducing-simpleqa</link>
       <description>A factuality benchmark called SimpleQA that measures the ability for language models to answer short, fact-seeking questions.</description>
@@ -6799,6 +6981,14 @@ Introducing our new alignment strategy for o1 models, which are directly taught 
       <guid isPermaLink="false">https://openai.com/index/lenfest-institute</guid>
       <category>Company</category>
       <pubDate>Tue, 22 Oct 2024 06:05:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Solving complex problems with OpenAI o1 models</title>
+      <link>https://openai.com/business/solving-complex-problems-with-openai-o1-models</link>
+      <description>In this video, we share how the o1 reasoning models can help in domains like coding, strategy, and research.</description>
+      <guid isPermaLink="false">https://openai.com/business/solving-complex-problems-with-openai-o1-models</guid>
+      <category>Webinar</category>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Evaluating fairness in ChatGPT</title>
@@ -6977,6 +7167,14 @@ Introducing our new alignment strategy for o1 models, which are directly taught 
       <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Put AI to work: Automate and scale financial operations</title>
+      <link>https://openai.com/business/put-ai-to-work-automate-and-scale-financial-operations</link>
+      <description>Put AI to work: Automate and Scale Financial Operations</description>
+      <guid isPermaLink="false">https://openai.com/business/put-ai-to-work-automate-and-scale-financial-operations</guid>
+      <category>Webinar</category>
+      <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Upgrading the Moderation API with our new multimodal moderation model</title>
       <link>https://openai.com/index/upgrading-the-moderation-api-with-our-new-multimodal-moderation-model</link>
       <description>We’re introducing a new model built on GPT-4o that is more accurate at detecting harmful text and images, enabling developers to build more robust moderation systems.</description>
@@ -7096,6 +7294,14 @@ Introducing our new alignment strategy for o1 models, which are directly taught 
       <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Put AI to work: Lessons from hundreds of successful deployments</title>
+      <link>https://openai.com/business/put-ai-to-work-lessons-from-hundreds-of-successful-deployments</link>
+      <description>Put AI to Work: Lessons from Hundreds of Successful Deployments</description>
+      <guid isPermaLink="false">https://openai.com/business/put-ai-to-work-lessons-from-hundreds-of-successful-deployments</guid>
+      <category>Webinar</category>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Using GPT-4 to deliver a new customer service standard</title>
       <link>https://openai.com/index/ada</link>
       <description>Ada uses GPT-4 to deliver a new customer service standard</description>
@@ -7110,6 +7316,14 @@ Introducing our new alignment strategy for o1 models, which are directly taught 
       <guid isPermaLink="false">https://openai.com/index/asu</guid>
       <category>Story</category>
       <pubDate>Mon, 26 Aug 2024 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fine-tuning GPT-4o webinar</title>
+      <link>https://openai.com/business/fine-tuning-gpt-4o-webinar</link>
+      <description>Fine-Tuning GPT-4o Webinar</description>
+      <guid isPermaLink="false">https://openai.com/business/fine-tuning-gpt-4o-webinar</guid>
+      <category>Webinar</category>
+      <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>OpenAI partners with Condé Nast</title>
@@ -7182,6 +7396,14 @@ We’re strengthening our governance with expertise in AI safety and alignment. 
       <description>GPT-4o System Card</description>
       <guid isPermaLink="false">https://openai.com/index/gpt-4o-system-card</guid>
       <category>Safety &amp; Alignment</category>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Enabling a data-driven workforce</title>
+      <link>https://openai.com/business/enabling-a-data-driven-workforce-webinar</link>
+      <description>In this video, we share practical examples of how employees can use ChatGPT Enterprise to efficiently analyze data and uncover insights.</description>
+      <guid isPermaLink="false">https://openai.com/business/enabling-a-data-driven-workforce-webinar</guid>
+      <category>Webinar</category>
       <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
