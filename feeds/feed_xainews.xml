@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 19:40:52 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 22:41:23 +0000</lastBuildDate>
     <item>
       <title>Team Bots: shared AI teammates that learn as they work</title>
       <link>https://x.ai/news/team-bots</link>
@@ -18,9 +18,9 @@
       <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>How SpaceXAI is using Grok Bot to scale customer support</title>
+      <title>How SpaceXSI is using Grok Bot to scale customer support</title>
       <link>https://x.ai/news/grok-bot-customer-support</link>
-      <description>How SpaceXAI is using Grok Bot to scale customer support</description>
+      <description>How SpaceXSI is using Grok Bot to scale customer support</description>
       <guid isPermaLink="false">https://x.ai/news/grok-bot-customer-support</guid>
       <category>News</category>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
@@ -244,7 +244,7 @@
     <item>
       <title>Introducing Grok 4.5</title>
       <link>https://x.ai/news/grok-4-5</link>
-      <description>Grok 4.5 is SpaceXAI's smartest model built for coding, agentic tasks, and knowledge work.</description>
+      <description>Grok 4.5 is SpaceXSI's smartest model built for coding, agentic tasks, and knowledge work.</description>
       <guid isPermaLink="false">https://x.ai/news/grok-4-5</guid>
       <category>News</category>
       <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
@@ -436,7 +436,7 @@
     <item>
       <title>New Compute Partnership with Anthropic</title>
       <link>https://x.ai/news/anthropic-compute-partnership</link>
-      <description>SpaceXAI has signed an agreement with Anthropic to provide access to Colossus 1.</description>
+      <description>SpaceXSI has signed an agreement with Anthropic to provide access to Colossus 1.</description>
       <guid isPermaLink="false">https://x.ai/news/anthropic-compute-partnership</guid>
       <category>News</category>
       <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
