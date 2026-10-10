@@ -80,7 +80,17 @@ def run_feed(feed_name: str, config: FeedConfig, full: bool = False) -> bool:
             logger.error("🚨 %s produced an invalid feed: %s", feed_name, validation["message"])
             return _report_result(feed_name, False, f"Invalid generated XML: {validation['message']}")
         logger.info(f"Successfully ran: {feed_name}")
-        return _report_result(feed_name, True, f"Refreshed and validated: {validation['message']}")
+        deferred = [
+            line.split("Scheduled entry deferred: ", 1)[1]
+            for line in result.stderr.splitlines()
+            if "Scheduled entry deferred: " in line
+        ]
+        for detail in deferred:
+            logger.info("Scheduled entry deferred: %s", detail)
+        detail = f"Refreshed and validated: {validation['message']}"
+        if deferred:
+            detail += f"; {len(deferred)} scheduled entries deferred: " + "; ".join(deferred)
+        return _report_result(feed_name, True, detail)
     else:
         logger.error(f"Error running {feed_name}:\n{result.stderr}")
         errors = [line.strip() for line in result.stderr.splitlines() if "Error" in line or "Exception" in line]

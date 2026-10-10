@@ -354,11 +354,40 @@ def _preserve_unchanged_feed(xml: bytes, previous: bytes) -> bytes:
     return previous if documents[0] == documents[1] else xml
 
 
+def _defer_scheduled_items(channel: etree._Element, feed_name: str) -> bool:
+    """Remove complete, future-dated entries from this publication only.
+
+    How:
+    1. Compare source timestamps against one UTC publication time.
+    2. Leave malformed entries for strict validation rather than hiding them.
+    3. Log each deferral without changing generator entries or cached source dates.
+    """
+    now = datetime.now(UTC)
+    changed = False
+    for item in list(channel.findall("item")):
+        try:
+            published = parsedate_to_datetime(item.findtext("pubDate"))
+        except (TypeError, ValueError):
+            continue
+        if published.tzinfo is None:
+            published = published.replace(tzinfo=UTC)
+        if published > now and all((item.findtext(field) or "").strip() for field in ("title", "link")):
+            logger.info(
+                "Scheduled entry deferred: %s: %s until %s",
+                feed_name,
+                item.findtext("title"),
+                published.isoformat(),
+            )
+            channel.remove(item)
+            changed = True
+    return changed
+
+
 def save_rss_feed(fg: FeedGenerator, feed_name: str) -> Path:
     """Save an RSS feed to the feeds directory.
 
     How:
-    1. Sort serialized entries, deduplicate identities, and fill missing GUIDs.
+    1. Sort entries, defer scheduled publications, deduplicate identities, and fill missing GUIDs.
     2. Reject invalid content before touching the published file.
     3. Preserve published bytes if only lastBuildDate changed, avoiding empty Git commits.
     4. Atomically replace the file so the runner can verify this invocation wrote it.
@@ -378,7 +407,7 @@ def save_rss_feed(fg: FeedGenerator, feed_name: str) -> Path:
     tree = etree.fromstring(xml)
     channel = tree.find("channel")
     links, guids = set(), set()
-    changed = False
+    changed = _defer_scheduled_items(channel, feed_name)
     for item in list(channel.findall("item")):
         link, guid = item.findtext("link"), item.findtext("guid")
         if link in links or (guid and guid in guids):

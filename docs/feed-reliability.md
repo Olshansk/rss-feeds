@@ -82,6 +82,9 @@ make dev_lint
 - The runner rejects timeout, nonzero exit, unchanged/missing output, and invalid XML content. Cache merges must require nonempty fresh extraction before merging historical entries.
 - Production workflows publish validated updates even if a different generator fails; the overall run remains failed so the broken source stays visible. Merge conflicts and post-merge validation failures stop publication.
 - Feed writes validate first and replace the destination atomically. Invalid output leaves the last working XML untouched.
+- Complete entries with future source timestamps are deferred by the shared writer until their publication time.
+  Source dates and cached entries remain intact, and each deferral appears in CI logs and the per-feed summary.
+  Missing/invalid dates still fail validation; an entirely future-dated feed is empty and cannot replace published XML.
 - History uses exact links or GUIDs by default. Explicit title matching is reserved for source migrations and only matches unique historical titles.
 - Publication age is a warning, since quiet blogs can be correct. Compare the newest source article to distinguish a quiet source from a frozen scraper.
 - RSS requires a full timestamp. For research sources that provide only a year and lack arXiv metadata, January 1 represents that year and the description discloses this precision. Do not pretend it is an exact publication day.
