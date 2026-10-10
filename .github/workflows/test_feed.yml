@@ -3,9 +3,9 @@ name: Test Feed Generation
 on:
   push:
     branches: [main]
-    paths: ["feed_generators/**", "tests/**", "feeds.yaml", "pyproject.toml", "uv.lock", ".github/workflows/**", "makefiles/**", "Makefile"]
+    paths: ["feed_generators/**", "scheduled_tasks/**", "tests/**", "feeds.yaml", "pyproject.toml", "uv.lock", ".github/workflows/**", "makefiles/**", "Makefile"]
   pull_request:
-    paths: ["feed_generators/**", "tests/**", "feeds/**", "feeds.yaml", "pyproject.toml", "uv.lock", ".github/workflows/**", "makefiles/**", "Makefile"]
+    paths: ["feed_generators/**", "scheduled_tasks/**", "tests/**", "feeds/**", "feeds.yaml", "pyproject.toml", "uv.lock", ".github/workflows/**", "makefiles/**", "Makefile"]
   workflow_dispatch:
 
 concurrency:

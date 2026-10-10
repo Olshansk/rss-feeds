@@ -169,4 +169,6 @@ flowchart TB
 - Learn and contribute together 🧑‍🎓
 - Streamlines the use of Claude, Claude Projects, and Claude Sync
 
+See [scheduled task commands and operating instructions](scheduled_tasks/README.md) for CI monitoring, PR inventories, source comparisons, and persistent audit evidence.
+
 See [feed reliability and shared patterns](docs/feed-reliability.md) for parser helpers, regression tests, and live validation.
