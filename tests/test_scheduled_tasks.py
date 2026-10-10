@@ -319,3 +319,45 @@ class EventTests(unittest.TestCase):
         self.assertTrue(result["coverage_gap"])
         self.assertEqual(result["new_events"][0]["id"], "3")
         store.close()
+
+
+class HistoricalRerunTests(AuditFixture):
+    def test_old_pr_creation_date_does_not_hide_new_failed_attempt(self):
+        old_created = (START - timedelta(days=20)).isoformat()
+        current = {**run(attempt=2, name="Test Feed Generation"), "created_at": old_created, "event": "pull_request"}
+        github = client([current])
+        github.attempt.return_value = {**run(conclusion="failure"), "created_at": old_created}
+        result = audit(self.store, github, START + timedelta(minutes=10), REGISTRY)
+        requested_start = datetime.fromisoformat(github.runs.call_args.args[0])
+        self.assertLessEqual(requested_start, START - timedelta(days=30))
+        self.assertEqual(result["new_errors"][0]["attempt"], 1)
+        self.assertIsNone(self.store.get("state", "ci")["clean_since"])
+
+    def test_expanding_history_does_not_reset_for_pre_repair_failure(self):
+        old = {
+            **run(conclusion="failure"),
+            "created_at": (START - timedelta(days=20)).isoformat(),
+            "updated_at": (START - timedelta(days=19)).isoformat(),
+        }
+        github = client([old])
+        result = audit(self.store, github, START + timedelta(minutes=10), REGISTRY)
+        self.assertEqual(result["new_errors"], [])
+        self.assertEqual(self.store.get("state", "ci")["clean_since"], START.isoformat())
+        github.log.assert_not_called()
+        self.assertIsNotNone(self.store.get("run", 1))
+
+    def test_pre_repair_attempt_of_current_rerun_is_not_a_new_failure(self):
+        current = {
+            **run(attempt=2, name="Test Feed Generation"),
+            "created_at": (START - timedelta(days=20)).isoformat(),
+        }
+        github = client([current])
+        github.attempt.return_value = {
+            **run(conclusion="failure"),
+            "updated_at": (START - timedelta(days=10)).isoformat(),
+        }
+        result = audit(self.store, github, START + timedelta(minutes=10), REGISTRY)
+        self.assertEqual(result["new_errors"], [])
+        self.assertIsNotNone(self.store.get("attempt", "1:1"))
+        self.assertIsNone(self.store.get("log", "1:1"))
+        self.assertEqual(github.log.call_count, 1)

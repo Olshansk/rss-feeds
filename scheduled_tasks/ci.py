@@ -92,7 +92,7 @@ def audit(store, github, now=None, registry=None):
     """Collect fresh metadata and exact attempts, then atomically checkpoint evidence.
 
     How:
-    1. Paginate all events/branches since the original audit boundary and recheck PR heads.
+    1. Include the 30-day rerun eligibility window before the original audit boundary, with a one-day margin.
     2. Inspect newly changed attempts, their jobs/steps, and full refresh logs.
     3. Reset the timer for new errors; require a recorded repair before restarting it.
     4. Validate coverage and persist metadata, logs, and the observation together.
@@ -102,7 +102,8 @@ def audit(store, github, now=None, registry=None):
     if not state:
         raise ValueError("Import the existing checkpoint or initialize with the repair command first")
     registry = registry or load_feed_registry()
-    runs = github.runs(state["query_interval_start"], now.isoformat())
+    search_start = timestamp(state["query_interval_start"]) - timedelta(days=31)
+    runs = github.runs(search_start.isoformat(), now.isoformat())
     # Recheck pending work even if it predates the original search boundary.
     ids = {r["id"] for r in runs}
     for old in store.values("run"):
@@ -117,9 +118,7 @@ def audit(store, github, now=None, registry=None):
         if not any(w["name"] == name and w["state"] == "active" for w in workflows)
     ]
     missing_runs = [
-        r["id"]
-        for r in store.values("run")
-        if timestamp(r["created_at"]) >= timestamp(state["query_interval_start"]) and r["id"] not in ids
+        r["id"] for r in store.values("run") if timestamp(r["created_at"]) >= search_start and r["id"] not in ids
     ]
     if missing_runs:
         issues.append(f"Previously observed runs missing from GitHub inventory: {missing_runs}")
@@ -147,6 +146,8 @@ def audit(store, github, now=None, registry=None):
         changed = not old or any(
             old.get(k) != run.get(k) for k in ("status", "conclusion", "run_attempt", "updated_at")
         )
+        if timestamp(run["updated_at"]) < repair_at:
+            continue
         for number in range(1, run["run_attempt"] + 1):
             key = f"{run['id']}:{number}"
             previous = store.get("attempt", key)
@@ -154,11 +155,10 @@ def audit(store, github, now=None, registry=None):
                 if timestamp(previous["updated_at"]) >= repair_at:
                     issues.extend(store.get("attempt_issue", key, []))
                 continue
-            # Imported pre-repair attempts were already reviewed. Changed reruns
-            # are still inspected, including a failed earlier attempt.
-            if not changed and timestamp(run["updated_at"]) < repair_at:
-                continue
             attempt = run if number == run["run_attempt"] else github.attempt(run["id"], number)
+            if timestamp(attempt["updated_at"]) < repair_at:
+                inspected.append((key, attempt))
+                continue
             if attempt["status"] != "completed":
                 continue
             jobs = [
@@ -215,8 +215,9 @@ def audit(store, github, now=None, registry=None):
             state["needs_repair"] = True
         for key, attempt in inspected:
             store.put("attempt", key, attempt)
-            store.put("attempt_issue", key, assessments[key])
-            store.put("log", key, logs[key])
+            store.put("attempt_issue", key, assessments.get(key, []))
+            if key in logs:
+                store.put("log", key, logs[key])
         for key, record in evidence:
             store.put("refresh", key, record)
         for run in runs:

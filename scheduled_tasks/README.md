@@ -68,7 +68,7 @@ Run from the repository root.
 The heartbeat must read this document and run `make scheduled_ci` at least once every 30 minutes while the clean-window goal is active.
 Do not start a second polling process.
 
-1. Check the native goal and audit result. Paginate all repository runs, including PR workflows, and inspect changed attempts and pending work.
+1. Check the native goal and audit result. Paginate all repository runs, including PR workflows, and inspect changed attempts and pending work. The query includes 31 days before the original checkpoint because [GitHub permits reruns for 30 days](https://docs.github.com/en/actions/how-tos/manage-workflow-runs/re-run-workflows-and-jobs). A new attempt can therefore belong to an older run. Pre-repair historical failures are retained as metadata, not reclassified as new errors.
 2. Investigate every new failure from its stored exact-attempt logs. Treat tool/API errors as incomplete coverage, never success.
 3. Apply the simplest economical repair. Preserve unrelated work. The user authorized committing and pushing CI fixes and pausing problematic feeds, with explicit disclosure.
 4. Run meaningful offline checks and relevant live validation. Record each deployed repair with the CLI; any repair or newly observed CI failure invalidates the clean window.
