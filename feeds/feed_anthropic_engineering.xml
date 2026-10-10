@@ -13,11 +13,11 @@
       <link>https://www.anthropic.com/engineering</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 23:03:56 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 20:59:23 +0000</lastBuildDate>
     <item>
       <title>How we contain Claude across products</title>
       <link>https://www.anthropic.com/engineering/how-we-contain-claude</link>
-      <description>As agents grow more capable, so does their potential blast radius. The engineering question is how to cap it. Here’s what we’ve learned building containment for claude.ai, Claude Code, and Cowork.\n</description>
+      <description>As agents grow more capable, so does their potential blast radius. The engineering question is how to cap it. Here’s what we’ve learned building containment for claude.ai, Claude Code, and Cowork.</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/how-we-contain-claude</guid>
       <category>Engineering</category>
       <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
@@ -41,7 +41,7 @@
     <item>
       <title>How we built Claude Code auto mode: a safer way to skip permissions</title>
       <link>https://www.anthropic.com/engineering/claude-code-auto-mode</link>
-      <description>Claude Code users approve 93% of permission prompts. We built classifiers to automate some decisions, increasing safety while reducing approval fatigue. Here's what it catches, and what it misses.\n</description>
+      <description>Claude Code users approve 93% of permission prompts. We built classifiers to automate some decisions, increasing safety while reducing approval fatigue. Here's what it catches, and what it misses.</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/claude-code-auto-mode</guid>
       <category>Engineering</category>
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
@@ -65,7 +65,7 @@
     <item>
       <title>Quantifying infrastructure noise in agentic coding evals</title>
       <link>https://www.anthropic.com/engineering/infrastructure-noise</link>
-      <description>Infrastructure configuration can swing agentic coding benchmarks by several percentage points—sometimes more than the leaderboard gap between top models.\n\n</description>
+      <description>Infrastructure configuration can swing agentic coding benchmarks by several percentage points—sometimes more than the leaderboard gap between top models.</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/infrastructure-noise</guid>
       <category>Engineering</category>
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
@@ -89,7 +89,7 @@
     <item>
       <title>Demystifying evals for AI agents</title>
       <link>https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents</link>
-      <description>The capabilities that make agents useful also make them difficult to evaluate. The strategies that work across deployments combine techniques to match the complexity of the systems they measure. \n</description>
+      <description>The capabilities that make agents useful also make them difficult to evaluate. The strategies that work across deployments combine techniques to match the complexity of the systems they measure.</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents</guid>
       <category>Engineering</category>
       <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
@@ -121,7 +121,7 @@
     <item>
       <title>Beyond permission prompts: making Claude Code more secure and autonomous</title>
       <link>https://www.anthropic.com/engineering/claude-code-sandboxing</link>
-      <description>Claude Code's new sandboxing features, a bash tool and Claude Code on the web,  reduce permission prompts and increase user safety by enabling two boundaries: filesystem and network isolation. </description>
+      <description>Claude Code's new sandboxing features, a bash tool and Claude Code on the web,  reduce permission prompts and increase user safety by enabling two boundaries: filesystem and network isolation.</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/claude-code-sandboxing</guid>
       <category>Engineering</category>
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
@@ -177,13 +177,13 @@
     <item>
       <title>Claude Code: Best practices for agentic coding</title>
       <link>https://www.anthropic.com/engineering/claude-code-best-practices</link>
-      <description>Claude Code is a command line tool for agentic coding. This post covers tips and tricks that have proven effective for using Claude Code across various codebases, languages, and environments. </description>
+      <description>Claude Code is a command line tool for agentic coding. This post covers tips and tricks that have proven effective for using Claude Code across various codebases, languages, and environments.</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/claude-code-best-practices</guid>
       <category>Engineering</category>
       <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The \"think\" tool: Enabling Claude to stop and think in complex tool use situations</title>
+      <title>The "think" tool: Enabling Claude to stop and think in complex tool use situations</title>
       <link>https://www.anthropic.com/engineering/claude-think-tool</link>
       <description>A new tool that improves Claude's complex problem-solving performance</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/claude-think-tool</guid>
@@ -201,7 +201,7 @@
     <item>
       <title>Building effective agents</title>
       <link>https://www.anthropic.com/engineering/building-effective-agents</link>
-      <description>We've worked with dozens of teams building LLM agents across industries. Consistently, the most successful implementations use simple, composable patterns rather than complex frameworks. </description>
+      <description>We've worked with dozens of teams building LLM agents across industries. Consistently, the most successful implementations use simple, composable patterns rather than complex frameworks.</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/building-effective-agents</guid>
       <category>Engineering</category>
       <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
@@ -209,7 +209,7 @@
     <item>
       <title>Introducing Contextual Retrieval</title>
       <link>https://www.anthropic.com/engineering/contextual-retrieval</link>
-      <description>For an AI model to be useful in specific contexts, it often needs access to background knowledge. </description>
+      <description>For an AI model to be useful in specific contexts, it often needs access to background knowledge.</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/contextual-retrieval</guid>
       <category>Engineering</category>
       <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>

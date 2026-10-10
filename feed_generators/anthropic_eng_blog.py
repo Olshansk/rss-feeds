@@ -1,3 +1,4 @@
+import json
 import re
 from datetime import datetime
 
@@ -29,6 +30,13 @@ def validate_article(article):
     if not article.get("link") or not article["link"].startswith("http"):
         return False
     return bool(article.get("date"))
+
+
+def decode_flight_text(value):
+    """Decode a JSON string nested inside the Flight transport JSON string."""
+    for _ in range(2):
+        value = json.loads('"' + value + '"')
+    return value.strip()
 
 
 def parse_engineering_html(html_content):
@@ -75,15 +83,11 @@ def parse_engineering_html(html_content):
                 # Extract title and summary (they appear AFTER the slug in the data)
                 # Use negative lookbehind to handle escaped quotes correctly
                 title_match = re.search(r'\\"title\\":\\"(.*?)(?<!\\)\\"', search_section)
-                title = title_match.group(1) if title_match else slug.replace("-", " ").title()
-                # Unescape the title using re.sub to handle all escaped characters
-                title = re.sub(r"\\(.)", r"\1", title) if title else title
+                title = decode_flight_text(title_match.group(1)) if title_match else slug.replace("-", " ").title()
 
                 # Extract summary/description
                 summary_match = re.search(r'\\"summary\\":\\"(.*?)(?<!\\)\\"', search_section)
-                description = summary_match.group(1) if summary_match else title
-                # Unescape the description
-                description = re.sub(r"\\(.)", r"\1", description) if description else description
+                description = decode_flight_text(summary_match.group(1)) if summary_match else title
 
                 # Parse the date
                 date = datetime.strptime(published_date, "%Y-%m-%d")
