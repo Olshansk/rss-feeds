@@ -191,3 +191,5 @@ feeds:
     script: xainews_blog.py
     type: selenium
     blog_url: https://x.ai/news
+    # Paused: browser navigation times out in CI; retain the generator and published XML.
+    enabled: false

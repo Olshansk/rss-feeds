@@ -56,7 +56,7 @@ Feeds marked "updates paused" retain their last published XML but do not receive
 | [Windsurf Blog](https://devin.ai/blog)                                                        | [feed_windsurf_blog.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_windsurf_blog.xml)                     |
 | [Windsurf Changelog](https://docs.devin.ai/desktop/changelog)                                              | [feed_windsurf_changelog.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_windsurf_changelog.xml)           |
 | [Windsurf Next Changelog](https://docs.devin.ai/desktop/changelog-next)                           | [feed_windsurf_next_changelog.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_windsurf_next_changelog.xml) |
-| [xAI News](https://x.ai/news)                                                                     | [feed_xainews.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_xainews.xml)                                 |
+| [xAI News](https://x.ai/news) — updates paused | [feed_xainews.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_xainews.xml) |
 
 The combined OpenAI feed includes every category in the official News RSS plus the separate Developer Blog.
 Existing OpenAI research, engineering, and developer feed URLs remain available and continue updating.
