@@ -92,7 +92,7 @@ def audit(store, github, now=None, registry=None):
     """Collect fresh metadata and exact attempts, then atomically checkpoint evidence.
 
     How:
-    1. Include the 30-day rerun eligibility window before the original audit boundary, with a one-day margin.
+    1. Include the 30-day rerun window plus a one-day margin, and discover unfinished runs of any age.
     2. Inspect newly changed attempts, their jobs/steps, and full refresh logs.
     3. Reset the timer for new errors; require a recorded repair before restarting it.
     4. Validate coverage and persist metadata, logs, and the observation together.
@@ -103,12 +103,17 @@ def audit(store, github, now=None, registry=None):
         raise ValueError("Import the existing checkpoint or initialize with the repair command first")
     registry = registry or load_feed_registry()
     search_start = timestamp(state["query_interval_start"]) - timedelta(days=31)
-    runs = github.runs(search_start.isoformat(), now.isoformat())
+    inventory = {r["id"]: r for r in github.runs(search_start.isoformat(), now.isoformat())}
+    # Queued/orphaned runs can outlive the rerun eligibility window.
+    inventory.update((r["id"], r) for r in github.pending_runs())
+    runs = list(inventory.values())
     # Recheck pending work even if it predates the original search boundary.
     ids = {r["id"] for r in runs}
-    for old in store.values("run"):
-        if old["status"] != "completed" and old["id"] not in ids:
-            runs.append(github.api(f"actions/runs/{old['id']}"))
+    runs.extend(
+        github.api(f"actions/runs/{old['id']}")
+        for old in store.values("run")
+        if old["status"] != "completed" and old["id"] not in ids
+    )
     prs = github.open_prs()
     failures, pending_prs, unchecked = check_prs(prs)
     workflows = [w for page in github.pages("actions/workflows?per_page=100") for w in page["workflows"]]

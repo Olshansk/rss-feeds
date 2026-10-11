@@ -43,6 +43,22 @@ class GitHub:
     def attempt(self, run_id, attempt):
         return self.api(f"actions/runs/{run_id}/attempts/{attempt}")
 
+    def pending_runs(self):
+        """Discover unfinished runs even when their creation predates the audit window.
+
+        How:
+        1. Paginate every unfinished status without a creation-date restriction.
+        2. Fail closed if GitHub's filtered-search cap prevents complete coverage.
+        3. Deduplicate runs that change status between requests.
+        """
+        runs = {}
+        for status in ("in_progress", "queued", "waiting", "pending", "requested"):
+            pages = self.pages(f"actions/runs?status={status}&per_page=100")
+            if any(page.get("total_count", 0) >= 1000 for page in pages):
+                raise ValueError(f"GitHub {status} run search is capped; pending coverage is incomplete")
+            runs.update((run["id"], run) for page in pages for run in page["workflow_runs"])
+        return list(runs.values())
+
     def log(self, run_id, attempt):
         return self.command("run", "view", run_id, "--repo", self.repository, "--attempt", attempt, "--log")
 

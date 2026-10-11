@@ -49,6 +49,7 @@ def state():
 def client(runs):
     github = Mock()
     github.runs.return_value = runs
+    github.pending_runs.return_value = []
     github.open_prs.return_value = []
     github.api.side_effect = lambda path: (
         {"sha": "abc"} if path == "commits/main" else {"status": "identical", "files": []}
@@ -188,6 +189,34 @@ class AuditTests(AuditFixture):
         self.assertEqual(result["pending_runs"], [])
         self.assertEqual(result["verified_attempts"], ["1:1"])
 
+    def test_unseen_old_pending_run_is_discovered_and_rechecked(self):
+        old_time = (START - timedelta(days=200)).isoformat()
+        orphan = {**run(), "status": "queued", "conclusion": None, "created_at": old_time, "updated_at": old_time}
+        github = client([])
+        github.pending_runs.return_value = [orphan]
+        first = audit(self.store, github, START + timedelta(minutes=10), REGISTRY)
+        self.assertEqual(first["pending_runs"], [1])
+        self.assertEqual(first["new_errors"], [])
+        self.assertEqual(self.store.get("run", 1), orphan)
+        github.log.assert_not_called()
+
+        # A run leaving the global pending list still needs its terminal state read.
+        github.pending_runs.return_value = []
+        api = github.api.side_effect
+        github.api.side_effect = lambda path: (
+            {**orphan, "status": "completed", "conclusion": "success"} if path == "actions/runs/1" else api(path)
+        )
+        second = audit(self.store, github, START + timedelta(minutes=20), REGISTRY)
+        self.assertEqual(second["pending_runs"], [])
+        self.assertEqual(self.store.get("run", 1)["status"], "completed")
+
+    def test_global_pending_query_failure_does_not_advance_checkpoint(self):
+        github = client([])
+        github.pending_runs.side_effect = RuntimeError("pending inventory unavailable")
+        with self.assertRaises(RuntimeError):
+            audit(self.store, github, START + timedelta(minutes=10), REGISTRY)
+        self.assertEqual(self.store.get("state", "ci"), state())
+
     def test_monitoring_gap_invalidates_old_window(self):
         result = audit(self.store, client([]), START + timedelta(minutes=31), REGISTRY)
         self.assertFalse(result["eligible"])
@@ -195,6 +224,28 @@ class AuditTests(AuditFixture):
 
 
 class PaginationTests(unittest.TestCase):
+    def test_pending_inventory_includes_all_pages_and_deduplicates_status_changes(self):
+        github = GitHub()
+        github.pages = Mock(
+            side_effect=lambda path: (
+                [{"workflow_runs": [{"id": 1}]}, {"workflow_runs": [{"id": 2}]}]
+                if "status=queued" in path
+                else [{"workflow_runs": [{"id": 1}]}]
+            )
+        )
+        self.assertEqual({row["id"] for row in github.pending_runs()}, {1, 2})
+        requested = [parse_qs(urlsplit(call.args[0]).query) for call in github.pages.call_args_list]
+        self.assertEqual(
+            {query["status"][0] for query in requested}, {"queued", "in_progress", "waiting", "pending", "requested"}
+        )
+        self.assertTrue(all("created" not in query for query in requested))
+
+    def test_pending_search_cap_fails_closed(self):
+        github = GitHub()
+        github.pages = Mock(return_value=[{"total_count": 1000, "workflow_runs": []}])
+        with self.assertRaises(ValueError):
+            github.pending_runs()
+
     def test_cap_splits_interval_and_deduplicates_boundaries(self):
         github = GitHub()
         calls = []

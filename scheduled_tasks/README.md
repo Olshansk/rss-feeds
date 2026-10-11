@@ -78,6 +78,9 @@ Do not start a second polling process.
 8. Only after that review, mark the native goal complete and pause the existing `rss-ci-clean-window-monitor` heartbeat.
 
 Do not disguise cached output, skipped feeds, missing schedules, or swallowed exceptions as successful refreshes.
+Every audit also queries all unfinished run statuses without a creation-date filter.
+Old orphaned queues must remain visible even when they predate the 31-day rerun lookback.
+If GitHub refuses normal and force cancellation, preserve the run and response evidence and report the unresolved pending condition; do not delete its history or silently count it as completed.
 Do not bypass the existing browser security restriction.
 Do not spend money on extra infrastructure without evidence it is needed.
 
