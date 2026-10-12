@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 14:04:20 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 13:26:21 +0000</lastBuildDate>
+    <item>
+      <title>Towards technical best practice for frontier AI development</title>
+      <link>https://www.aisi.gov.uk/blog/towards-technical-best-practice-for-frontier-ai-development</link>
+      <description>Our view on the emerging challenges facing frontier AI organisations, the technical practices most urgently needed to meet them, and how we will work with industry and others to develop them.</description>
+      <guid isPermaLink="false">https://www.aisi.gov.uk/blog/towards-technical-best-practice-for-frontier-ai-development</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Transect: Making large-scale agentic evaluations easier to understand</title>
       <link>https://www.aisi.gov.uk/blog/transect-making-large-scale-agentic-evaluations-easier-to-understand</link>
