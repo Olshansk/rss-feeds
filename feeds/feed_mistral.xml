@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Oct 2026 14:06:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 15:09:18 +0000</lastBuildDate>
     <item>
       <title>Introducing Mistral Large 4</title>
       <link>https://mistral.ai/news/mistral-large-4</link>
@@ -234,9 +234,9 @@
       <pubDate>Mon, 16 Mar 2026 21:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mistral AI partners with NVIDIA to accelerate open frontier models</title>
+      <title>Mistral partners with NVIDIA to accelerate open frontier models</title>
       <link>https://mistral.ai/news/mistral-ai-and-nvidia-partner-to-accelerate-open-frontier-models</link>
-      <description>Mistral AI partners with NVIDIA to accelerate open frontier models</description>
+      <description>Mistral partners with NVIDIA to accelerate open frontier models</description>
       <guid isPermaLink="false">https://mistral.ai/news/mistral-ai-and-nvidia-partner-to-accelerate-open-frontier-models</guid>
       <category>News</category>
       <pubDate>Mon, 16 Mar 2026 20:00:00 +0000</pubDate>
@@ -306,25 +306,25 @@
       <pubDate>Tue, 02 Dec 2025 16:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mistral AI - KI für Deutschland</title>
+      <title>Mistral - KI für Deutschland</title>
       <link>https://mistral.ai/news/ki-fur-deutschland</link>
-      <description>Mistral AI - KI für Deutschland</description>
+      <description>Mistral - KI für Deutschland</description>
       <guid isPermaLink="false">https://mistral.ai/news/ki-fur-deutschland</guid>
       <category>News</category>
       <pubDate>Wed, 19 Nov 2025 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing Mistral AI Studio.</title>
+      <title>Introducing Mistral Studio.</title>
       <link>https://mistral.ai/news/ai-studio</link>
-      <description>Introducing Mistral AI Studio.</description>
+      <description>Introducing Mistral Studio.</description>
       <guid isPermaLink="false">https://mistral.ai/news/ai-studio</guid>
       <category>News</category>
       <pubDate>Fri, 24 Oct 2025 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mistral AI raises 1.7B€ to accelerate technological progress with AI</title>
+      <title>Mistral raises 1.7B€ to accelerate technological progress with AI</title>
       <link>https://mistral.ai/news/mistral-ai-raises-1-7-b-to-accelerate-technological-progress-with-ai</link>
-      <description>Mistral AI raises 1.7B€ to accelerate technological progress with AI</description>
+      <description>Mistral raises 1.7B€ to accelerate technological progress with AI</description>
       <guid isPermaLink="false">https://mistral.ai/news/mistral-ai-raises-1-7-b-to-accelerate-technological-progress-with-ai</guid>
       <category>News</category>
       <pubDate>Tue, 09 Sep 2025 07:00:00 +0000</pubDate>
@@ -642,7 +642,7 @@
       <pubDate>Wed, 05 Jun 2024 09:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mistral AI Fine-tuning Hackathon</title>
+      <title>Mistral Fine-tuning Hackathon</title>
       <link>https://mistral.ai/news/2024-ft-hackathon</link>
       <description>We are thrilled to announce the Mistral AI fine-tuning hackathon, a virtual experience taking place from June 5 - 30, 2024.</description>
       <guid isPermaLink="false">https://mistral.ai/news/2024-ft-hackathon</guid>
@@ -658,9 +658,9 @@
       <pubDate>Wed, 29 May 2024 09:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Mistral AI Non-Production License</title>
+      <title>The Mistral Non-Production License</title>
       <link>https://mistral.ai/news/mistral-ai-non-production-license-mnpl</link>
-      <description>The Mistral AI Non-Production License</description>
+      <description>The Mistral Non-Production License</description>
       <guid isPermaLink="false">https://mistral.ai/news/mistral-ai-non-production-license-mnpl</guid>
       <category>News</category>
       <pubDate>Wed, 29 May 2024 08:00:00 +0000</pubDate>
