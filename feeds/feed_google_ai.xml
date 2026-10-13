@@ -8,7 +8,23 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Oct 2026 19:05:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 16:06:00 +0000</lastBuildDate>
+    <item>
+      <title>Optimizing a 200,000-line Python codebase overnight with Gemini 4 Argon</title>
+      <link>https://developers.googleblog.com/optimizing-a-200000-line-python-codebase-overnight-with-gemini-4-argon/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_rwc022rwc02.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;How our engineering team ran Gemini 4 Argon unattended overnight with .agents/skills and /goal mode to cut in-memory session prep overhead by 40% in long sessions and speed up cold imports by 21% in Google's open-source Python Agent Development Kit (ADK).</description>
+      <guid isPermaLink="false">https://developers.googleblog.com/optimizing-a-200000-line-python-codebase-overnight-with-gemini-4-argon/</guid>
+      <category>Gemini</category>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gemini 4 Argon for Robotics</title>
+      <link>https://developers.googleblog.com/gemini-4-argon-for-robotics/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/argon__robotics__hero.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Gemini 4 Argon is a general-purpose physical reasoning model designed to enhance workflows across the robotics stack with advanced capabilities in physical understanding, code generation, and visual-semantic reasoning. Developers can access and integrate Argon across Google's developer platforms—including Google AI Studio, the Gemini API, and Google Antigravity—to build and test sophisticated robotic applications. By leveraging simulation tools like MuJoCo and code-as-policies, engineers can seamlessly transition from real-world data or sketches to physically verified robot control and self-improvement workflows.</description>
+      <guid isPermaLink="false">https://developers.googleblog.com/gemini-4-argon-for-robotics/</guid>
+      <category>AI</category>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>The Outer Loop, Insights First: An Ambient Quality Agent That Diagnoses Your Production Agent</title>
       <link>https://developers.googleblog.com/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent/</link>
@@ -72,22 +88,6 @@
       <guid isPermaLink="false">https://developers.googleblog.com/reproducing-olmo-3-7b-pre-training-in-maxtext-case-study-of-large-scale-training-on-tpus/</guid>
       <category>AI</category>
       <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Support for Local AI Models in the Antigravity SDK</title>
-      <link>https://developers.googleblog.com/introducing-support-for-local-ai-models-in-the-antigravity-sdk/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/agy_litrt.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;The Google Antigravity SDK now empowers developers to execute offline, agentic workflows locally using models like Gemma 4 26B A4B via LiteRT. This update facilitates powerful hybrid orchestration architectures, allowing a cloud model to act as a lightweight planner while local models securely handle token-intensive tasks—like code auditing and patching—directly on-device. Furthermore, the SDK provides drop-in support for OpenAI-compatible inference servers like Ollama and vLLM, enabling the seamless creation of privacy-first, autonomous local utilities.</description>
-      <guid isPermaLink="false">https://developers.googleblog.com/introducing-support-for-local-ai-models-in-the-antigravity-sdk/</guid>
-      <category>AI</category>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Colab is now part of your Google AI plan</title>
-      <link>https://developers.googleblog.com/colab-is-now-part-of-your-google-ai-plan/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/google-one-banner-v2.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Unlock premium Google Colab compute with Google AI. Subscribers now get priority accelerators, Premium GPUs, and background execution for long training runs.</description>
-      <guid isPermaLink="false">https://developers.googleblog.com/colab-is-now-part-of-your-google-ai-plan/</guid>
-      <category>AI</category>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
