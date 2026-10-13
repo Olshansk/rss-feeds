@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 09 Oct 2026 14:05:59 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 19:04:05 +0000</lastBuildDate>
+    <item>
+      <title>Uber's CISO on building an insider threat program for AI</title>
+      <link>https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai</link>
+      <description>Uber's CISO, Philip Martin, on the importance of monitoring and observability for AI agents, and how Uber's open-source tooling works alongside Enterprise Frontier Safeguards.</description>
+      <guid isPermaLink="false">https://claude.com/blog/uber-s-ciso-on-building-an-insider-threat-program-for-ai</guid>
+      <category>Perspectives</category>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Building effective agent automations</title>
       <link>https://claude.dev/blog/building-effective-agent-automations/</link>
