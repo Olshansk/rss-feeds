@@ -13,7 +13,14 @@
       <link>https://ollama.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 23:04:25 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 21:04:33 +0000</lastBuildDate>
+    <item>
+      <title>Run AI agents safely with Ollama and Fly.io</title>
+      <link>https://ollama.com/blog/fly-io-sprites</link>
+      <description>AI agents can now use Ollama's cloud models safely inside Fly.io's cloud computers.</description>
+      <guid isPermaLink="false">https://ollama.com/blog/fly-io-sprites</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Ollama now supports Jev-style decision models</title>
       <link>https://ollama.com/blog/ollama-now-supports-jev-style-decision-models</link>
