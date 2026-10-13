@@ -3,7 +3,9 @@
 import json
 import subprocess
 from datetime import datetime, timedelta
+from io import BytesIO
 from urllib.parse import urlencode
+from zipfile import ZipFile
 
 
 class GitHub:
@@ -60,7 +62,24 @@ class GitHub:
         return list(runs.values())
 
     def log(self, run_id, attempt):
-        return self.command("run", "view", run_id, "--repo", self.repository, "--attempt", attempt, "--log")
+        """Read full job logs independently of incomplete GitHub step metadata.
+
+        How:
+        1. Download the exact attempt archive as bytes, without CLI step filtering.
+        2. Read each top-level job transcript once, excluding duplicate per-step logs.
+        3. Reject empty or invalid archives so missing evidence cannot pass silently.
+        """
+        archive = subprocess.check_output(
+            ["gh", "api", f"repos/{self.repository}/actions/runs/{run_id}/attempts/{attempt}/logs"],
+            timeout=120,
+        )
+        with ZipFile(BytesIO(archive)) as logs:
+            transcripts = [
+                logs.read(name).decode("utf-8") for name in logs.namelist() if "/" not in name and name.endswith(".txt")
+            ]
+        if not transcripts or not any(text.strip() for text in transcripts):
+            raise ValueError(f"Attempt {run_id}:{attempt} log archive has no job transcripts")
+        return "\n".join(transcripts)
 
     def open_prs(self):
         """Paginate open PRs, then inspect current head checks and review decisions.

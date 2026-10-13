@@ -4,10 +4,12 @@ import json
 import tempfile
 import unittest
 from datetime import UTC, datetime, timedelta
+from io import BytesIO
 from pathlib import Path
 from types import SimpleNamespace
-from unittest.mock import Mock
+from unittest.mock import Mock, patch
 from urllib.parse import parse_qs, urlsplit
+from zipfile import BadZipFile, ZipFile
 
 from scheduled_tasks.ci import audit, check_prs, refresh_evidence, window_status
 from scheduled_tasks.github import GitHub
@@ -221,6 +223,46 @@ class AuditTests(AuditFixture):
         result = audit(self.store, client([]), START + timedelta(minutes=31), REGISTRY)
         self.assertFalse(result["eligible"])
         self.assertIsNone(self.store.get("state", "ci")["clean_since"])
+
+
+class AttemptLogTests(unittest.TestCase):
+    def archive(self, files):
+        buffer = BytesIO()
+        with ZipFile(buffer, "w") as archive:
+            for name, text in files.items():
+                archive.writestr(name, text)
+        return buffer.getvalue()
+
+    def test_full_transcripts_preserve_unmapped_steps_and_other_job_errors(self):
+        archive = self.archive(
+            {
+                "0_refresh.txt": "Successfully ran: browser\nFailed: 0\n",
+                "refresh/6_Run feeds.txt": "Successfully ran: browser\nFailed: 0\n",
+                "1_publish.txt": "##[error]publication failed\n",
+            }
+        )
+        with patch("scheduled_tasks.github.subprocess.check_output", return_value=archive) as command:
+            log = GitHub().log(123, 2)
+        command.assert_called_once_with(
+            ["gh", "api", "repos/Olshansk/rss-feeds/actions/runs/123/attempts/2/logs"], timeout=120
+        )
+        self.assertEqual(log.count("Successfully ran: browser"), 1)
+        with self.assertRaisesRegex(ValueError, "Error in refresh log"):
+            refresh_evidence(run(name="Run Selenium Feeds"), log, {"browser"})
+
+    def test_missing_job_transcripts_and_invalid_archives_fail_closed(self):
+        for files in ({}, {"job/step.txt": "Successfully ran: browser\nFailed: 0"}, {"0_job.txt": ""}):
+            with (
+                self.subTest(files=files),
+                patch("scheduled_tasks.github.subprocess.check_output", return_value=self.archive(files)),
+                self.assertRaisesRegex(ValueError, "no job transcripts"),
+            ):
+                GitHub().log(123, 1)
+        with (
+            patch("scheduled_tasks.github.subprocess.check_output", return_value=b"not a zip"),
+            self.assertRaises(BadZipFile),
+        ):
+            GitHub().log(123, 1)
 
 
 class PaginationTests(unittest.TestCase):
