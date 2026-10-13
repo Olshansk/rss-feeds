@@ -8,12 +8,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 17:05:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 18:08:26 +0000</lastBuildDate>
     <item>
       <title>Gemini 4 Argon is now available in Devin</title>
       <link>https://devin.ai/blog/gemini-4-argon</link>
       <description>Gemini 4 Argon is now live in Devin Desktop and Devin CLI, at 75% off list price through October 27, 2026. On FrontierCode 1.1 it scores 60.5%, surpassing GPT-6.1 Sol and matching GPT-6 Sol, the highest score of any Gemini model on the leaderboard.</description>
       <guid isPermaLink="false">https://devin.ai/blog/gemini-4-argon</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Devin in Pylon: Driving faster Median Time To Fix</title>
+      <link>https://devin.ai/blog/devin-in-pylon</link>
+      <description>Support teams can now start Devin investigations directly from Pylon, and engineers pick them up with the first pass of work already done.</description>
+      <guid isPermaLink="false">https://devin.ai/blog/devin-in-pylon</guid>
       <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
