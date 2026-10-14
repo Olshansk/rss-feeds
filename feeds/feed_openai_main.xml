@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 19:04:22 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 23:04:44 +0000</lastBuildDate>
     <item>
       <title>SentinelOne cuts malware analysis from weeks to hours</title>
       <link>https://openai.com/index/sentinelone</link>
@@ -30,6 +30,13 @@
       <description>With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.</description>
       <guid isPermaLink="false">https://openai.com/index/third-moment-research</guid>
       <category>Startup</category>
+      <pubDate>Wed, 14 Oct 2026 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Block is building AI-powered security with OpenAI technology</title>
+      <link>https://openai.com/index/block-ai-powered-security</link>
+      <description>Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.</description>
+      <guid isPermaLink="false">https://openai.com/index/block-ai-powered-security</guid>
       <pubDate>Wed, 14 Oct 2026 07:00:00 +0000</pubDate>
     </item>
     <item>
