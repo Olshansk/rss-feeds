@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Oct 2026 14:06:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 10:05:50 +0000</lastBuildDate>
+    <item>
+      <title>PathSeer: Adaptive Filtered Vector Search</title>
+      <link>https://weaviate.io/blog/pathseer-filtered-vector-search</link>
+      <description>Weaviate 1.40 adds PathSeer, a third HNSW filter strategy from a SIGMOD 2026 paper, contributed by the paper's first author. How it works, and how it compares to sweeping and ACORN.</description>
+      <guid isPermaLink="false">https://weaviate.io/blog/pathseer-filtered-vector-search</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Persistent memory for Claude Code with Weaviate Engram</title>
       <link>https://weaviate.io/blog/engram-for-claude-code</link>
