@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 10:05:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 16:05:51 +0000</lastBuildDate>
+    <item>
+      <title>How Third Moment Research runs 10,000 agents for 36+ hours</title>
+      <link>https://openai.com/index/third-moment-research</link>
+      <description>With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.</description>
+      <guid isPermaLink="false">https://openai.com/index/third-moment-research</guid>
+      <category>Startup</category>
+      <pubDate>Wed, 14 Oct 2026 07:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>The EU’s next chapter in AI is agentic</title>
       <link>https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic</link>
