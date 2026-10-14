@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 16:05:51 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 17:04:27 +0000</lastBuildDate>
+    <item>
+      <title>Amp puts AI agents to work beyond code with OpenAI models</title>
+      <link>https://openai.com/index/amp-beyond-coding</link>
+      <description>See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.</description>
+      <guid isPermaLink="false">https://openai.com/index/amp-beyond-coding</guid>
+      <category>Startup</category>
+      <pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>How Third Moment Research runs 10,000 agents for 36+ hours</title>
       <link>https://openai.com/index/third-moment-research</link>
