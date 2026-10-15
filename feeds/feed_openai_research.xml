@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Oct 2026 23:04:53 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 22:04:47 +0000</lastBuildDate>
+    <item>
+      <title>Bringing GPT-Rosalind to academic research labs</title>
+      <link>https://openai.com/index/introducing-the-rosalind-academic-plan</link>
+      <description>Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.</description>
+      <guid isPermaLink="false">https://openai.com/index/introducing-the-rosalind-academic-plan</guid>
+      <category>Research</category>
+      <pubDate>Thu, 15 Oct 2026 19:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Sharing AI progress in mathematics</title>
       <link>https://openai.com/index/sharing-ai-progress-in-mathematics</link>
