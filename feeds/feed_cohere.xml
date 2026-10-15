@@ -13,7 +13,7 @@
       <link>https://cohere.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 15:05:04 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 16:05:33 +0000</lastBuildDate>
     <item>
       <title>Cohere to acquire AISLE to advance cyber-resilient sovereign AI</title>
       <link>https://cohere.com/blog/cohere-and-aisle-sign-letter-of-intent-to-advance-cyber-resilient-sovereign-ai</link>
@@ -31,9 +31,17 @@
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Agent sprawl: How to manage agent proliferation in the enterprise</title>
+      <link>https://cohere.com/blog/agent-sprawl</link>
+      <description>Agent sprawl: How to manage agent proliferation in the enterprise</description>
+      <guid isPermaLink="false">https://cohere.com/blog/agent-sprawl</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Lessons from scaling teams of coding agents: reach the frontier at 30% of the cost</title>
       <link>https://cohere.com/blog/lessons-from-scaling-teams-of-frontier-coding-agents</link>
-      <description>Teams of coding agents are already building large-scale software, but how should they be organized to work most effectively and efficiently?</description>
+      <description>Lessons from scaling teams of coding agents: reach the frontier at 30% of the cost</description>
       <guid isPermaLink="false">https://cohere.com/blog/lessons-from-scaling-teams-of-frontier-coding-agents</guid>
       <category>Blog</category>
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>

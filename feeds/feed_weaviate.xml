@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 10:05:50 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 16:06:47 +0000</lastBuildDate>
+    <item>
+      <title>Weaviate security release - Medium severity fix for a cross-collection vector disclosure in nearObject (CVE pending assignment)</title>
+      <link>https://weaviate.io/blog/weaviate-security-release-nearobject-2026</link>
+      <description>Weaviate v1.39.3 fixes a medium-severity authorization issue in the nearObject GraphQL operator.</description>
+      <guid isPermaLink="false">https://weaviate.io/blog/weaviate-security-release-nearobject-2026</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>PathSeer: Adaptive Filtered Vector Search</title>
       <link>https://weaviate.io/blog/pathseer-filtered-vector-search</link>
