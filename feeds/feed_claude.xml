@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 18:05:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 21:04:18 +0000</lastBuildDate>
+    <item>
+      <title>Code Review is now generally available</title>
+      <link>https://claude.com/resources/articles/code-review-is-now-generally-available</link>
+      <description>Catch more bugs before they reach production.</description>
+      <guid isPermaLink="false">https://claude.com/blog/code-review-is-now-generally-available</guid>
+      <category>Product announcements</category>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Agent observability on the Claude Platform</title>
       <link>https://claude.com/resources/articles/agent-observability-on-the-claude-platform</link>
