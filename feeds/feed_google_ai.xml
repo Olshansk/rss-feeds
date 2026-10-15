@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 16:05:38 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 19:04:35 +0000</lastBuildDate>
     <item>
       <title>Three layers, one repo: a tour of google/adk-recipes</title>
       <link>https://developers.googleblog.com/three-layers-one-repo-a-tour-of-googleadk-recipes/</link>
@@ -23,6 +23,14 @@
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/evaluating-ai-agents-banner-1600x9.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;A practical engineering guide and reference architecture for establishing continuous evaluation pipelines for multi-turn AI agents using Gemini Enterprise Agent Platform, Google ADK, and OpenInference standards.</description>
       <guid isPermaLink="false">https://developers.googleblog.com/evaluating-ai-agents-moving-past-the-vibe-check/</guid>
       <category>AI</category>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Announcing DPoP Support for Google OAuth: Securing Refresh Tokens</title>
+      <link>https://developers.googleblog.com/announcing-dpop-support-for-google-oauth-securing-refresh-tokens/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_s1iz7fs1iz7.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Google OAuth Platform now supports DPoP (Demonstrating Proof-of-Possession) to sender-constrain refresh tokens, neutralizing Infostealer malware and adversary-in-the-middle attacks. By cryptographically binding long-lived refresh tokens while maintaining short-lived access tokens as standard Bearer tokens, developers achieve robust credential security without incurring high-QPS API performance overhead. Additionally, developers integrating multi-agent or Model Context Protocol (MCP) workloads can use Google Cloud Secure Token Service (STS) to handle secure token delegation across agent chains.</description>
+      <guid isPermaLink="false">https://developers.googleblog.com/announcing-dpop-support-for-google-oauth-securing-refresh-tokens/</guid>
+      <category>Mobile</category>
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -79,14 +87,6 @@
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_amiggaamigg.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;EmbeddingGemma 2 is a new 740M open-weight multimodal model that maps text, images, video, and audio into a unified vector space for privacy-first, on-device retrieval. Developers can easily integrate these capabilities cross-platform using MediaPipe Tasks or optimize fine-grained performance across CPU, GPU, and NPU accelerators with LiteRT. The model enables ultra-low-latency local solutions like search-as-you-type media retrieval, keyframe video moments finding, and zero-shot intent routing.</description>
       <guid isPermaLink="false">https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2/</guid>
       <category>Mobile</category>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>EmbeddingGemma 2: The Developer Guide</title>
-      <link>https://developers.googleblog.com/embeddinggemma-2-the-developer-guide/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/embeddinggemma-2-the-developer-gui.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;EmbeddingGemma 2 is a compact, open-source multimodal embedding model that maps text, code, images, video, and audio into a unified 768-dimensional space. Developers can use the sentence-transformers library to selectively load modular modality encoders—ranging from 270M to 740M parameters—to optimize memory usage. Additionally, Matryoshka Representation Learning enables dynamic dimension truncation down to 128d, significantly reducing vector database storage requirements while maintaining high retrieval performance.</description>
-      <guid isPermaLink="false">https://developers.googleblog.com/embeddinggemma-2-the-developer-guide/</guid>
-      <category>AI</category>
       <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
