@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 09 Oct 2026 02:03:25 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 18:43:25 +0000</lastBuildDate>
     <item>
       <title>Reimagining Independence: How Meta’s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics</title>
       <link>https://ai.meta.com/blog/assistive-robotics-university-of-pittsburgh-sam-dino/</link>
@@ -424,7 +424,7 @@
       <link>https://ai.meta.com/blog/mendel-ai-accelerating-clinical-trials-with-llama/</link>
       <description>Mendel AI’s flagship product, Mendel Hypercube, tackles clinical tasks. With Llama, Hypercube can also be used for trial matching and putting together patient groups.</description>
       <guid isPermaLink="false">https://ai.meta.com/blog/mendel-ai-accelerating-clinical-trials-with-llama/</guid>
-      <category></category>
+      <category>Blog</category>
       <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -448,7 +448,7 @@
       <link>https://ai.meta.com/blog/blended-labs-ai-driven-schools-with-llama/</link>
       <description>Blended, an educational technology and  AI company based in Germany, is using Llama 3.1 as the foundation of its flagship product, Blended OS, an AI-native school operating system.</description>
       <guid isPermaLink="false">https://ai.meta.com/blog/blended-labs-ai-driven-schools-with-llama/</guid>
-      <category></category>
+      <category>Blog</category>
       <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -464,7 +464,7 @@
       <link>https://ai.meta.com/blog/machine-intelligence-research-new-models/</link>
       <description>Meta FAIR is sharing some of our most recent research and models that support our goal of achieving AMI, and our long-held commitment to sharing open and reproducible science.</description>
       <guid isPermaLink="false">https://ai.meta.com/blog/machine-intelligence-research-new-models/</guid>
-      <category></category>
+      <category>Blog</category>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -480,7 +480,7 @@
       <link>https://ai.meta.com/blog/sarvam-india-audio-language-model-llama/</link>
       <description>Sarvam used Llama to develop enterprise voice AI agents with improved reasoning capabilities that are proficient in 10 Indian languages.</description>
       <guid isPermaLink="false">https://ai.meta.com/blog/sarvam-india-audio-language-model-llama/</guid>
-      <category></category>
+      <category>Blog</category>
       <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -504,7 +504,7 @@
       <link>https://ai.meta.com/blog/codeium-ai-coding-assistant-llama/</link>
       <description>Codeium’s AI-enabled coding assistant leverages Llama for its free and premiere offerings.</description>
       <guid isPermaLink="false">https://ai.meta.com/blog/codeium-ai-coding-assistant-llama/</guid>
-      <category></category>
+      <category>Blog</category>
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -520,7 +520,7 @@
       <link>https://ai.meta.com/blog/saama-data-driven-care-built-with-llama/</link>
       <description>OpenBioLLM, a series of fine-tuned Llama models from life sciences company Saama, streamlines tasks that can accelerate clinical trials and potentially create new possibilities in personalized medicine.</description>
       <guid isPermaLink="false">https://ai.meta.com/blog/saama-data-driven-care-built-with-llama/</guid>
-      <category></category>
+      <category>Blog</category>
       <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -536,7 +536,7 @@
       <link>https://ai.meta.com/blog/dresden-advancing-precision-oncology-built-with-llama/</link>
       <description>TUD Dresden University of Technology’s Clinical AI research group is transforming cancer care through computational innovation, focusing on precision oncology.</description>
       <guid isPermaLink="false">https://ai.meta.com/blog/dresden-advancing-precision-oncology-built-with-llama/</guid>
-      <category></category>
+      <category>Blog</category>
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -568,7 +568,7 @@
       <link>https://ai.meta.com/blog/spotify-personalized-recommendations-built-with-llama/</link>
       <description>Spotify uses Llama to deliver contextualized recommendations to boost artist discovery and create an even richer user experience.</description>
       <guid isPermaLink="false">https://ai.meta.com/blog/spotify-personalized-recommendations-built-with-llama/</guid>
-      <category></category>
+      <category>Blog</category>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -584,7 +584,7 @@
       <link>https://ai.meta.com/blog/inarix-agricultural-supply-chain-meta-dino-v2/</link>
       <description>Inarix is transforming the agricultural industry by turning smartphones into pocket laboratories using Meta FAIR’s DinoV2.</description>
       <guid isPermaLink="false">https://ai.meta.com/blog/inarix-agricultural-supply-chain-meta-dino-v2/</guid>
-      <category></category>
+      <category>Blog</category>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -600,7 +600,7 @@
       <link>https://ai.meta.com/blog/aitomatic-built-with-llama/</link>
       <description>Aitomatic enables semiconductor companies to build Domain-Expert Agents to capture and scale their deep domain expertise using Llama-based foundation models.</description>
       <guid isPermaLink="false">https://ai.meta.com/blog/aitomatic-built-with-llama/</guid>
-      <category></category>
+      <category>Blog</category>
       <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -608,7 +608,7 @@
       <link>https://ai.meta.com/blog/bimedix-built-with-llama/</link>
       <description>The team behind BiMediX2, an Arabic-English medical large multimodal model, aims to expand healthcare access in Africa and the Middle East.</description>
       <guid isPermaLink="false">https://ai.meta.com/blog/bimedix-built-with-llama/</guid>
-      <category></category>
+      <category>Blog</category>
       <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -632,7 +632,7 @@
       <link>https://ai.meta.com/blog/open-catalyst-simulations-experiments/</link>
       <description>Meta FAIR is releasing a large-scale dataset of experimental results on various materials, providing valuable insights for the development of new catalysts.</description>
       <guid isPermaLink="false">https://ai.meta.com/blog/open-catalyst-simulations-experiments/</guid>
-      <category></category>
+      <category>Blog</category>
       <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -680,7 +680,7 @@
       <link>https://ai.meta.com/blog/untukmu-built-with-llama/</link>
       <description>Untukmu.AI, a platform that offers personalized gift recommendations, designed a semi-decentralized personal assistant that ensures the company won’t have access to customer data.</description>
       <guid isPermaLink="false">https://ai.meta.com/blog/untukmu-built-with-llama/</guid>
-      <category></category>
+      <category>Blog</category>
       <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
