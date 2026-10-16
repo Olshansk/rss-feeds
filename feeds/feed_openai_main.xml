@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 16:05:35 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 20:04:07 +0000</lastBuildDate>
+    <item>
+      <title>Stack Overflow for Agents triples signups with ChatGPT plugin</title>
+      <link>https://openai.com/index/stack-overflow-chatgpt-plugin</link>
+      <description>Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.</description>
+      <guid isPermaLink="false">https://openai.com/index/stack-overflow-chatgpt-plugin</guid>
+      <category>Startup</category>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Bringing GPT-Rosalind to academic research labs</title>
       <link>https://openai.com/index/introducing-the-rosalind-academic-plan</link>
