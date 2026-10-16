@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 21:04:18 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 14:04:36 +0000</lastBuildDate>
+    <item>
+      <title>How an Anthropic Japan BDR runs his day with a fleet of Claude agents</title>
+      <link>https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day</link>
+      <description>How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag.</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-an-anthropic-japan-business-development-representative-runs-his-day</guid>
+      <category>Best practices</category>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Code Review is now generally available</title>
       <link>https://claude.com/resources/articles/code-review-is-now-generally-available</link>
