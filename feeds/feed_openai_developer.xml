@@ -8,13 +8,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 00:12:11 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 16:05:34 +0000</lastBuildDate>
     <item>
       <title>Maintaining software with the GPT-6 family</title>
       <link>https://developers.openai.com/blog/maintaining-software-with-the-gpt-6-family</link>
       <description>How OpenAI’s Core Experimentation team uses Codex to remove unused code, clean up stale experiments, and improve CI.</description>
       <guid isPermaLink="false">https://developers.openai.com/blog/maintaining-software-with-the-gpt-6-family</guid>
       <category>Codex</category>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Designing failover across OpenAI model providers</title>
+      <link>https://developers.openai.com/blog/designing-failover-across-openai-model-providers</link>
+      <description>Why direct OpenAI access matters for previews and critical workloads.</description>
+      <guid isPermaLink="false">https://developers.openai.com/blog/designing-failover-across-openai-model-providers</guid>
+      <category>API</category>
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
