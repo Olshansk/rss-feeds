@@ -13,7 +13,23 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 19:36:55 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 21:36:04 +0000</lastBuildDate>
+    <item>
+      <title>Working at the frontier shapes expectations for the future</title>
+      <link>https://www.anthropic.com/research/expectations-for-the-future</link>
+      <description>Working at the frontier shapes expectations for the future</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/expectations-for-the-future</guid>
+      <category>Research</category>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How employment is changing at Anthropic</title>
+      <link>https://www.anthropic.com/research/employment-at-anthropic</link>
+      <description>How employment is changing at Anthropic</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/employment-at-anthropic</guid>
+      <category>Research</category>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Claude reveals ECDSA curve origins</title>
       <link>https://www.anthropic.com/research/ecdsa-curve-origins</link>
@@ -27,6 +43,14 @@
       <link>https://www.anthropic.com/research/designing-efficient-quantum-circuits</link>
       <description>Designing more efficient quantum circuits with Claude</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/designing-efficient-quantum-circuits</guid>
+      <category>Research</category>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The AI expectations gap</title>
+      <link>https://www.anthropic.com/research/ai-expectations-gap</link>
+      <description>The AI expectations gap</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/ai-expectations-gap</guid>
       <category>Research</category>
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
     </item>
