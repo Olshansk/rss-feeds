@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Oct 2026 00:11:48 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 06:06:57 +0000</lastBuildDate>
     <item>
       <title>How Itaú is building generative AI for its entire customer base</title>
       <link>https://openai.com/index/itau-generative-ai</link>
@@ -22,6 +22,13 @@
       <description>Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.</description>
       <guid isPermaLink="false">https://openai.com/index/stack-overflow-chatgpt-plugin</guid>
       <category>Startup</category>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Benefit Street Partners answers questions faster with Codex</title>
+      <link>https://openai.com/index/benefit-street-partners</link>
+      <description>Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.</description>
+      <guid isPermaLink="false">https://openai.com/index/benefit-street-partners</guid>
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
