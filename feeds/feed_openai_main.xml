@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Oct 2026 06:06:57 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 23:04:41 +0000</lastBuildDate>
+    <item>
+      <title>Advancing Coding in Low-Resource Programming Languages</title>
+      <link>https://openai.com/index/low-resource-programming-languages</link>
+      <description>Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.</description>
+      <guid isPermaLink="false">https://openai.com/index/low-resource-programming-languages</guid>
+      <category>Publication</category>
+      <pubDate>Mon, 19 Oct 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>How Itaú is building generative AI for its entire customer base</title>
       <link>https://openai.com/index/itau-generative-ai</link>
