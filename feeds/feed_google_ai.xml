@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 19:04:35 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 16:05:36 +0000</lastBuildDate>
+    <item>
+      <title>Step by Step guide: Build a Voice Agent That Never Goes Silent using ADK</title>
+      <link>https://developers.googleblog.com/step-by-step-guide-build-a-voice-agent-that-never-goes-silent-using-adk/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/option4_minimal_flow_diagram_1600x.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;The open-source Agent Development Kit (ADK) and gemini-3.8-live enable developers to build responsive voice agents by implementing non-blocking tools in Python. Developers can use streaming tools to yield progress updates or background execution patterns to keep conversations fluid during long-running backend queries. Additionally, configuring response scheduling behaviors such as WHEN_IDLE, INTERRUPT, or SILENT gives developers precise control over when and how tool results are delivered into the conversation.</description>
+      <guid isPermaLink="false">https://developers.googleblog.com/step-by-step-guide-build-a-voice-agent-that-never-goes-silent-using-adk/</guid>
+      <category>AI</category>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Three layers, one repo: a tour of google/adk-recipes</title>
       <link>https://developers.googleblog.com/three-layers-one-repo-a-tour-of-googleadk-recipes/</link>
@@ -80,14 +88,6 @@
       <guid isPermaLink="false">https://developers.googleblog.com/supercharge-your-development-with-the-google-developer-knowledge-api-ecosystem/</guid>
       <category>AI</category>
       <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bring multimodal semantic search to the edge with EmbeddingGemma 2</title>
-      <link>https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_amiggaamigg.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;EmbeddingGemma 2 is a new 740M open-weight multimodal model that maps text, images, video, and audio into a unified vector space for privacy-first, on-device retrieval. Developers can easily integrate these capabilities cross-platform using MediaPipe Tasks or optimize fine-grained performance across CPU, GPU, and NPU accelerators with LiteRT. The model enables ultra-low-latency local solutions like search-as-you-type media retrieval, keyframe video moments finding, and zero-shot intent routing.</description>
-      <guid isPermaLink="false">https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2/</guid>
-      <category>Mobile</category>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
