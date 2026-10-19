@@ -8,13 +8,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Oct 2026 16:05:36 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 18:06:44 +0000</lastBuildDate>
     <item>
       <title>Step by Step guide: Build a Voice Agent That Never Goes Silent using ADK</title>
       <link>https://developers.googleblog.com/step-by-step-guide-build-a-voice-agent-that-never-goes-silent-using-adk/</link>
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/option4_minimal_flow_diagram_1600x.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;The open-source Agent Development Kit (ADK) and gemini-3.8-live enable developers to build responsive voice agents by implementing non-blocking tools in Python. Developers can use streaming tools to yield progress updates or background execution patterns to keep conversations fluid during long-running backend queries. Additionally, configuring response scheduling behaviors such as WHEN_IDLE, INTERRUPT, or SILENT gives developers precise control over when and how tool results are delivered into the conversation.</description>
       <guid isPermaLink="false">https://developers.googleblog.com/step-by-step-guide-build-a-voice-agent-that-never-goes-silent-using-adk/</guid>
       <category>AI</category>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Native Model Authoring for Edge with LiteRT Tensor API</title>
+      <link>https://developers.googleblog.com/native-model-authoring-for-edge-with-litert-tensor-api/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_bguxwvbguxw.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Meet the LiteRT Tensor API: giving developers native C++ control over the model graph to unify end-to-end ML computations on heterogeneous edge hardware.</description>
+      <guid isPermaLink="false">https://developers.googleblog.com/native-model-authoring-for-edge-with-litert-tensor-api/</guid>
+      <category>Mobile</category>
       <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -80,14 +88,6 @@
       <guid isPermaLink="false">https://developers.googleblog.com/ml-drift-next-gen-gpu-aiml-inference-at-the-edge/</guid>
       <category>Mobile</category>
       <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Supercharge your development with the Google Developer Knowledge API ecosystem</title>
-      <link>https://developers.googleblog.com/supercharge-your-development-with-the-google-developer-knowledge-api-ecosystem/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/dk_api_tools.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Google is launching the Developer Knowledge API and MCP Server in public preview. This new toolset provides a canonical, machine-readable way for AI assistants and agentic platforms to search and retrieve up-to-date documentation across Firebase, Google Cloud, Android, and more. By using the official MCP server, developers can connect tools directly to Google’s documentation corpus, ensuring that AI-generated code and guidance are based on authoritative, real-time context.</description>
-      <guid isPermaLink="false">https://developers.googleblog.com/supercharge-your-development-with-the-google-developer-knowledge-api-ecosystem/</guid>
-      <category>AI</category>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
