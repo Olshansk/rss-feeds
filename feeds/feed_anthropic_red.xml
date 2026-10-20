@@ -13,7 +13,14 @@
       <link>https://www.anthropic.com/research/team/frontier-red-team</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Oct 2026 17:24:48 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 22:04:11 +0000</lastBuildDate>
+    <item>
+      <title>Using Claude to reduce the attack surface of code</title>
+      <link>https://www.anthropic.com/research/attack-surface-reduction</link>
+      <description>Automated attack surface analysis and reduction can meaningfully improve the security of deployed software in the near term. In this post, we preview data we’ve collected from applying attack surface reduction techniques to large open-source codebases using Claude.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/attack-surface-reduction</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Claude reveals ECDSA curve origins</title>
       <link>https://www.anthropic.com/research/ecdsa-curve-origins</link>
