@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Oct 2026 00:12:32 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 18:06:05 +0000</lastBuildDate>
+    <item>
+      <title>Franchisee reconciles cash in 94% less time with ChatGPT Work</title>
+      <link>https://openai.com/index/ted-taylor-restaurant</link>
+      <description>An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.</description>
+      <guid isPermaLink="false">https://openai.com/index/ted-taylor-restaurant</guid>
+      <pubDate>Tue, 20 Oct 2026 10:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Advancing coding in low‑resource programming languages</title>
       <link>https://openai.com/index/low-resource-programming-languages</link>
