@@ -13,7 +13,14 @@
       <link>https://ollama.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 14:05:10 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 02:06:28 +0000</lastBuildDate>
+    <item>
+      <title>Clef is available on Ollama's cloud</title>
+      <link>https://ollama.com/blog/clef</link>
+      <description>Clef, a 27B multimodal decision model from Cloudflare, is now available on Ollama. Run it locally or on Ollama's cloud.</description>
+      <guid isPermaLink="false">https://ollama.com/blog/clef</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Reflection's Beam is freely available on Ollama for a limited time</title>
       <link>https://ollama.com/blog/reflection-beam</link>
