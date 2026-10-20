@@ -8,7 +8,9 @@ from unittest.mock import patch
 from xml.etree import ElementTree
 
 import anthropic_eng_blog as engineering
+import anthropic_news_blog as news
 import anthropic_red_blog as red
+import anthropic_research_blog as research
 from anthropic_listing import parse_team_listing
 
 
@@ -51,7 +53,7 @@ class TeamListingTests(unittest.TestCase):
         self.assertEqual(result[0]["date"].isoformat(), "2026-10-13T00:00:00+00:00")
 
     def test_linked_url_is_preserved(self):
-        post = {**article("frontier-red-team"), "linkedUrl": "/glasswing"}
+        post = {**article("frontier-red-team"), "linkedUrl": "/glasswing", "slug": None}
         self.assertEqual(red.parse_red_html(html([post]))[0]["link"], "https://www.anthropic.com/glasswing")
 
     def test_invalid_listing_fails_before_publishing_history(self):
@@ -107,6 +109,40 @@ class TeamListingTests(unittest.TestCase):
                 self.assertEqual(items["stable-guid"].findtext("title"), article()["title"])
                 self.assertEqual(items["stable-guid"].findtext("description"), article()["summary"])
                 self.assertEqual(items["archive-guid"].findtext("description"), "Archive body")
+
+    def test_news_and_research_use_source_dates_and_summaries(self):
+        for module, parser, kind in [
+            (news, news.parse_news_html, "news"),
+            (research, research.parse_research_html, "research"),
+        ]:
+            with self.subTest(module=module.__name__):
+                post = {**article(), "articleType": kind, "cardTeams": None}
+                parsed = parser(html([post]))
+                self.assertEqual(len(parsed), 1)
+                self.assertEqual(parsed[0]["date"].date().isoformat(), "2026-10-13")
+                self.assertEqual(parsed[0]["description"], post["summary"])
+                self.assertEqual(parsed[0]["category"], kind.title())
+
+    def test_related_feeds_reject_empty_listing_before_xml_or_cache_writes(self):
+        for module, fetch in [(news, "fetch_news_content"), (research, "fetch_research_content_selenium")]:
+            with (
+                self.subTest(module=module.__name__),
+                patch.object(module, fetch, return_value=html([])),
+                patch.object(module, "save_rss_feed") as save,
+                patch.object(module, "save_cache") as cache,
+            ):
+                self.assertFalse(module.main())
+                save.assert_not_called()
+                cache.assert_not_called()
+
+    def test_news_browser_returns_fresh_listing_without_legacy_expansion(self):
+        source = html([{**article(), "articleType": "news", "cardTeams": None}])
+        with patch.object(news, "setup_selenium_driver") as setup, patch.object(news, "WebDriverWait"):
+            driver = setup.return_value
+            driver.page_source = source
+            self.assertEqual(news.fetch_news_content(), source)
+            driver.find_element.assert_not_called()
+            driver.quit.assert_called_once()
 
     def test_legacy_page_can_use_existing_parser(self):
         self.assertIsNone(parse_team_listing("<html>old page</html>", "engineering"))

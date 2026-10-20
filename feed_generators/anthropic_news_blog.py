@@ -10,6 +10,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
+from anthropic_listing import parse_team_listing
 from feed_history import merge_feed_history, require_posts
 from utils import (
     deserialize_entries,
@@ -50,6 +51,12 @@ def fetch_news_content(url=BLOG_URL, max_clicks=20):
             logger.info("News articles loaded successfully")
         except Exception:
             logger.warning("Could not confirm articles loaded, proceeding anyway...")
+
+        # The migrated listing embeds its first 24 posts; older entries come from published history.
+        html_content = driver.page_source
+        if parse_team_listing(html_content) is not None:
+            logger.info("Fetched the fresh initial news listing; retaining published history")
+            return html_content
 
         # Click "See more" button repeatedly until it's no longer available
         clicks = 0
@@ -236,6 +243,9 @@ def validate_article(article):
 def parse_news_html(html_content):
     """Parse the news HTML content and extract article information."""
     try:
+        current = parse_team_listing(html_content)
+        if current is not None:
+            return current
         soup = BeautifulSoup(html_content, "html.parser")
         articles = []
         seen_links = set()
@@ -334,7 +344,7 @@ def generate_rss_feed(articles):
             fe.link(href=article["link"])
             fe.published(article["date"])
             fe.category(term=article["category"])
-            fe.id(article["link"])
+            fe.id(article.get("guid") or article["link"])
 
         logger.info("Successfully generated RSS feed")
         return fg
@@ -409,4 +419,4 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate Anthropic News RSS feed")
     parser.add_argument("--full", action="store_true", help="Force full reset (fetch all articles)")
     args = parser.parse_args()
-    main(full_reset=args.full)
+    raise SystemExit(0 if main(full_reset=args.full) else 1)

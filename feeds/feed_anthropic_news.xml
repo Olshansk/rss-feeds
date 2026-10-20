@@ -13,86 +13,110 @@
       <link>https://www.anthropic.com/news</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 18:39:57 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 17:29:31 +0000</lastBuildDate>
     <item>
       <title>Investing in the public benefit</title>
       <link>https://www.anthropic.com/news/public-benefit-fund</link>
-      <description>Investing in the public benefit</description>
+      <description>We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/public-benefit-fund</guid>
-      <category>Announcements</category>
+      <category>News</category>
       <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>An update on independent evaluators</title>
       <link>https://www.anthropic.com/news/an-update-on-independent-evaluators</link>
-      <description>An update on independent evaluators</description>
+      <description>To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/an-update-on-independent-evaluators</guid>
-      <category>Announcements</category>
+      <category>News</category>
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic opens Singapore office and signs MOU with the Government of Singapore</title>
       <link>https://www.anthropic.com/news/singapore-office-opening</link>
-      <description>Anthropic opens Singapore office and signs MOU with the Government of Singapore</description>
+      <description>Anthropic has opened an office in Singapore and signed an MOU with the country’s government to advance safe, responsible AI adoption.</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/singapore-office-opening</guid>
-      <category>Announcements</category>
+      <category>News</category>
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Preparing for the 2026 US midterms</title>
       <link>https://www.anthropic.com/news/2026-us-midterms</link>
-      <description>Preparing for the 2026 US midterms</description>
+      <description>Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/2026-us-midterms</guid>
-      <category>Policy</category>
+      <category>News</category>
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Strengthening our defenses against distillation attacks</title>
+      <link>https://www.anthropic.com/news/distillation-defenses</link>
+      <description>Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/distillation-defenses</guid>
+      <category>News</category>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Building on our commitment to American scientific discovery</title>
       <link>https://www.anthropic.com/news/genesis-mission-commitment</link>
-      <description>Building on our commitment to American scientific discovery</description>
+      <description>Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/genesis-mission-commitment</guid>
-      <category>Announcements</category>
+      <category>News</category>
       <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Introducing the Anthropic Cyber Mission</title>
       <link>https://www.anthropic.com/news/anthropic-cyber-mission</link>
-      <description>Introducing the Anthropic Cyber Mission</description>
+      <description>We’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on.</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/anthropic-cyber-mission</guid>
-      <category>Announcements</category>
+      <category>News</category>
       <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>2026 Usage Policy update</title>
       <link>https://www.anthropic.com/news/2026-usage-policy-update</link>
-      <description>2026 Usage Policy update</description>
+      <description>We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/2026-usage-policy-update</guid>
-      <category>Announcements</category>
+      <category>News</category>
       <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Claude Haiku 5.5</title>
+      <link>https://www.anthropic.com/claude-haiku-5-5</link>
+      <description>Claude Haiku 5.5 is our fastest, most capable small model. Built for high-volume work like summarization, subagents, and browser use.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/claude-haiku-5-5</guid>
+      <category>News</category>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Expanding the Cyber Verification Program</title>
       <link>https://www.anthropic.com/news/cyber-verification-program</link>
-      <description>Expanding the Cyber Verification Program</description>
+      <description>We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/cyber-verification-program</guid>
-      <category>Announcements</category>
+      <category>News</category>
       <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap</title>
       <link>https://www.anthropic.com/news/claude-frontier-academy</link>
-      <description>Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap</description>
+      <description>Anthropic is investing $100 million in Claude Frontier Academy to train 10,000 Frontier Deployed Engineers by the end of 2027, with cohorts from Accenture, Bain, CBA, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk already underway.</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/claude-frontier-academy</guid>
-      <category>Announcements</category>
+      <category>News</category>
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Barclays scales Claude to upgrade operations and improve client experience</title>
       <link>https://www.anthropic.com/news/barclays-scales-claude</link>
-      <description>Barclays scales Claude to upgrade operations and improve client experience</description>
+      <description>Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/barclays-scales-claude</guid>
-      <category>Announcements</category>
+      <category>News</category>
       <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Claude Sonnet 5.5</title>
+      <link>https://www.anthropic.com/claude-sonnet-5-5</link>
+      <description>Claude Sonnet 5.5 is a clear upgrade over Claude Sonnet 5, runs 30%+ faster, and costs up to 30% less for most work.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/claude-sonnet-5-5</guid>
+      <category>News</category>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Claude discovers a novel enzyme system with CRISPR-like repeats</title>
@@ -103,67 +127,91 @@
       <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Introducing Claude Opus 5.5</title>
+      <link>https://www.anthropic.com/claude-opus-5-5</link>
+      <description>Claude Opus 5.5 leads in agentic coding and knowledge work, and costs 40% less to run than Opus 5 on typical workloads.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/claude-opus-5-5</guid>
+      <category>News</category>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Situation Report</title>
+      <link>https://www.anthropic.com/features/ebola-response</link>
+      <description>A rare Ebola strain is spreading in the DRC, with no confirmed vaccine. Global health organizations are using Claude to respond as fast as possible.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/features/ebola-response</guid>
+      <category>News</category>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Partnering with Accenture on embedded evaluation</title>
       <link>https://www.anthropic.com/news/accenture-embedded-evaluation</link>
       <description>Partnering with Accenture on embedded evaluation</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/accenture-embedded-evaluation</guid>
-      <category>Announcements</category>
+      <category>News</category>
       <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Introducing the Life Sciences Verification Program</title>
       <link>https://www.anthropic.com/news/life-sciences-verification-program</link>
-      <description>Introducing the Life Sciences Verification Program</description>
+      <description>The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/life-sciences-verification-program</guid>
-      <category>Announcements</category>
+      <category>News</category>
       <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Claude Mythos and Fable 5.1</title>
+      <link>https://www.anthropic.com/claude-fable-and-mythos-5-1</link>
+      <description>They’re the world’s most advanced models for coding and knowledge work—and their research capabilities offer an early glimpse of how AI models will contribute to scientific progress.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/claude-fable-and-mythos-5-1</guid>
+      <category>News</category>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Developing Enterprise Frontier Safeguards with our customers</title>
       <link>https://www.anthropic.com/news/enterprise-frontier-safeguards</link>
       <description>Developing Enterprise Frontier Safeguards with our customers</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/enterprise-frontier-safeguards</guid>
-      <category>Announcements</category>
+      <category>News</category>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Improving our alignment and security efforts</title>
       <link>https://www.anthropic.com/news/improving-alignment-security-efforts</link>
-      <description>Improving our alignment and security efforts</description>
+      <description>On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/improving-alignment-security-efforts</guid>
-      <category>Announcements</category>
+      <category>News</category>
       <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Previewing the Model Hardware Standard</title>
       <link>https://www.anthropic.com/news/model-hardware-standard-research-preview</link>
-      <description>Previewing the Model Hardware Standard</description>
+      <description>We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/model-hardware-standard-research-preview</guid>
-      <category>Announcements</category>
+      <category>News</category>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Expanding our support for scientists</title>
       <link>https://www.anthropic.com/news/expanding-support-for-scientists</link>
-      <description>Expanding our support for scientists</description>
+      <description>Starting today, 10,000 scientists around the world can get Claude at no cost to start. Verified principal investigators qualify for a Claude Team subscription plan and then add their research team to Standard seats for free, or Premium seats for $15 per month, for up to a year.</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/expanding-support-for-scientists</guid>
-      <category>Announcements</category>
+      <category>News</category>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Funding better evaluations of AI’s impact on wellbeing</title>
       <link>https://www.anthropic.com/news/wellbeing-research-grants</link>
-      <description>Funding better evaluations of AI’s impact on wellbeing</description>
+      <description>We’re launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing.</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/wellbeing-research-grants</guid>
-      <category>Announcements</category>
+      <category>News</category>
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>How Claude’s text watermark works</title>
       <link>https://www.anthropic.com/news/claude-text-watermark</link>
-      <description>How Claude’s text watermark works</description>
+      <description>In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making this change.</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/claude-text-watermark</guid>
-      <category>Announcements</category>
+      <category>News</category>
       <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

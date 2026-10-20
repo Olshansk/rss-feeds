@@ -1,5 +1,6 @@
 from feedgen.feed import FeedGenerator
 
+from anthropic_listing import parse_team_listing
 from dynamic_pages import fetch_rendered
 from feed_history import merge_feed_history
 from html_cards import parse_dated_cards
@@ -18,12 +19,15 @@ BLOG_URL = "https://www.anthropic.com/research"
 
 
 def fetch_research_content_selenium(url=BLOG_URL, max_clicks=2):
-    """Expand dated research rows with the shared browser fetcher."""
-    return fetch_rendered(url, "a:has(time)", button_xpath="//a[normalize-space()='See more']", max_clicks=max_clicks)
+    """Fetch the fresh initial listing; published history retains older research."""
+    return fetch_rendered(url, 'a[class*="metaTitleLink"], a:has(time)')
 
 
 def parse_research_html(html_content):
     """Select real dated articles, excluding undated research-team navigation."""
+    current = parse_team_listing(html_content)
+    if current is not None:
+        return current
     return [
         {**post, "category": "Research"}
         for post in parse_dated_cards(
@@ -62,7 +66,7 @@ def generate_rss_feed(articles):
                 fe.published(article["date"])
 
             fe.category(term=article["category"])
-            fe.id(article["link"])
+            fe.id(article.get("guid") or article["link"])
 
         logger.info("Successfully generated RSS feed")
         return fg

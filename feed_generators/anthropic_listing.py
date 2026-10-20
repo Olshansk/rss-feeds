@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 from feed_history import load_feed_history, merge_feed_history
 
 
-def parse_team_listing(html, team):
+def parse_team_listing(html, team=None):
     """Extract the current listing without importing recommendation graphs.
 
     How:
@@ -35,12 +35,12 @@ def parse_team_listing(html, team):
         raise ValueError("Anthropic listing contains no fresh posts")
     articles = []
     for post in posts:
-        if team not in {entry["slug"] for entry in post["cardTeams"]}:
+        if team is not None and team not in {entry["slug"] for entry in post["cardTeams"]}:
             raise ValueError(f"Article does not belong to Anthropic team {team}")
         title = post["title"].strip()
-        slug = post["slug"]["current"]
+        slug = (post.get("slug") or {}).get("current")
         article_type = post["articleType"]
-        if not title or not slug or article_type not in {"research", "news"}:
+        if not title or not (slug or post.get("linkedUrl")) or article_type not in {"research", "news"}:
             raise ValueError("Anthropic article is missing valid title, slug, or type")
         link = urljoin("https://www.anthropic.com", post.get("linkedUrl") or f"/{article_type}/{slug}")
         if urlparse(link).scheme != "https":
@@ -51,7 +51,7 @@ def parse_team_listing(html, team):
                 "link": link,
                 "description": (post.get("summary") or title).strip(),
                 "date": datetime.strptime(post["publishedOn"], "%Y-%m-%d").replace(tzinfo=UTC),
-                "category": "Engineering" if team == "engineering" else "Research",
+                "category": "Engineering" if team == "engineering" else article_type.title(),
             }
         )
     return articles
