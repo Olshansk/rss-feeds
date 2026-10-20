@@ -5,7 +5,7 @@ import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
-from feed_history import merge_feed_history
+from anthropic_listing import merge_team_history, parse_team_listing
 from utils import (
     fetch_page,
     save_rss_feed,
@@ -51,6 +51,9 @@ def parse_date(date_text):
 
 def parse_red_html(html_content):
     """Extract dated publication rows from the Frontier Red Team listing."""
+    current = parse_team_listing(html_content, "frontier-red-team")
+    if current is not None:
+        return current
     soup = BeautifulSoup(html_content, "html.parser")
     articles = []
     for row in soup.select("a[href]:has(time)"):
@@ -120,7 +123,7 @@ def main(feed_name=FEED_NAME):
             logger.warning("No articles found")
             return False
 
-        articles = merge_feed_history(articles, feed_name, match_titles=True)
+        articles = merge_team_history(articles, feed_name)
 
         # Generate RSS feed
         feed = generate_rss_feed(articles, feed_name)

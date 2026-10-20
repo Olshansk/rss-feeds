@@ -13,81 +13,81 @@
       <link>https://www.anthropic.com/research/team/frontier-red-team</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 19:03:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 17:24:48 +0000</lastBuildDate>
     <item>
       <title>Claude reveals ECDSA curve origins</title>
       <link>https://www.anthropic.com/research/ecdsa-curve-origins</link>
-      <description>Claude reveals ECDSA curve origins</description>
+      <description>The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/ecdsa-curve-origins</guid>
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AI models may be capable of self-replicating without access to a datacenter</title>
       <link>https://www.anthropic.com/research/self-replicating-ai</link>
-      <description>AI models may be capable of self-replicating without access to a datacenter</description>
+      <description>Our experiments suggest that small AI models may be only months away from being capable enough to self-replicate on commercial IoT devices, like Android TVs and smart ovens.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/self-replicating-ai</guid>
       <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Launching an opt-in vulnerability-finding service for open-source software</title>
       <link>https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source</link>
-      <description>Launching an opt-in vulnerability-finding service for open-source software</description>
+      <description>We’re making available OSS Scanner, an opt-in vulnerability scanner for the open-source ecosystem that’s informed by our experience using Claude to find vulnerabilities during Project Glasswing.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source</guid>
       <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>GLM-5.3 and the spread of advanced cyber capabilities</title>
       <link>https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities</link>
-      <description>GLM-5.3 and the spread of advanced cyber capabilities</description>
+      <description>Like Claude Mythos Preview, GLM-5.3 has strong capabilities for autonomously building end-to-end cyber exploits. But GLM-5.3 is unlike other frontier models in that it has been released without meaningful safeguards to limit misuse.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities</guid>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Measuring tactical intelligence targeting and conventional weapons capabilities of AI models</title>
       <link>https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities</link>
-      <description>Measuring tactical intelligence targeting and conventional weapons capabilities of AI models</description>
+      <description>Anthropic’s Frontier Red Team developed new evaluations to measure AI capabilities in tactical intelligence targeting and conventional weapons development.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Patterns and problems in emerging multiagent systems</title>
       <link>https://www.anthropic.com/research/multiagent-systems</link>
-      <description>Patterns and problems in emerging multiagent systems</description>
+      <description>Here, we identify a few examples of behavioral tendencies in current frontier models and show how they can produce unexpected systemic failures, in hopes of starting a conversation about mitigating these risks.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/multiagent-systems</guid>
       <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Discovering cryptographic weaknesses with Claude</title>
       <link>https://www.anthropic.com/research/discovering-cryptographic-weaknesses</link>
-      <description>Discovering cryptographic weaknesses with Claude</description>
+      <description>Cryptographic algorithms. The first attack significantly weakens HAWK, a digital signature scheme that was built for a future world where quantum computers are able to break existing standards. The second identifies a new way to attack round-reduced AES, the most widely used symmetric cipher.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/discovering-cryptographic-weaknesses</guid>
       <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Project Pilot: Can AI control a drone?</title>
       <link>https://www.anthropic.com/research/project-pilot</link>
-      <description>Project Pilot: Can AI control a drone?</description>
+      <description>Working with Andon Labs, we’ve developed a new series of evaluations that assess AI models’ ability to use a flying drone, culminating in a new benchmark: Drone-Bench.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/project-pilot</guid>
       <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Claude plays robotics</title>
       <link>https://www.anthropic.com/research/claude-plays-robotics</link>
-      <description>Claude plays robotics</description>
+      <description>In project Fetch, we examined how humans can use models to get robots to perform complex tasks. Now, we investigate many models on a large variety of different robotics tasks in simulation, to see how good models are at controlling robots themselves.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/claude-plays-robotics</guid>
       <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Project Fetch: Phase two</title>
       <link>https://www.anthropic.com/research/project-fetch-phase-two</link>
-      <description>Project Fetch: Phase two</description>
+      <description>We report results from our latest test of whether Claude can help Anthropic employees perform sophisticated robotics tasks. We found that Claude Opus 4.7, operating without human assistance, was about 20 times faster than the fastest human team at all tasks completed by participants less than a year ago.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/project-fetch-phase-two</guid>
       <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Measuring LLMs’ impact on N-day exploits</title>
       <link>https://www.anthropic.com/research/n-days</link>
-      <description>Measuring LLMs’ impact on N-day exploits</description>
+      <description>In cybersecurity, a large fraction of real-world harm comes from N-days: vulnerabilities that have already been publicly disclosed, but only patched on some devices. In this post, we evaluate how much large language models can accelerate and automate the process of developing N-day exploits.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/n-days</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -110,34 +110,28 @@
     <item>
       <title>Mapping AI-enabled cyber threats: Insights from the LLM ATT&amp;CK Navigator</title>
       <link>https://www.anthropic.com/research/attack-navigator</link>
-      <description>Mapping AI-enabled cyber threats: Insights from the LLM ATT&amp;CK Navigator</description>
+      <description>We’ve spent the past year investigating how threat actors are weaponizing AI to conduct cyber operations. Today, we’re sharing a new analysis that maps these real-world attacks onto the MITRE ATT&amp;CK framework.</description>
       <guid isPermaLink="false">https://red.anthropic.com/2026/attack-navigator/</guid>
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Measuring LLMs' Ability to Develop Exploits</title>
-      <link>https://red.anthropic.com/2026/exploit-evals/</link>
-      <description>On two new, challenging academic benchmarks measuring AI models’ ability to develop exploits
-                        (ExploitBench and ExploitGym) and an updated version of the benchmark measuring smart contract
-                        exploitation (SCONE-bench), we have found that Mythos Preview consistently outperforms all other
-                        evaluated models. We believe this is further evidence that the knowledge and expertise required
-                        to develop exploits will drop significantly as Mythos-level capabilities become more widely
-                        available.</description>
+      <title>Measuring LLMs’ ability to develop exploits</title>
+      <link>https://www.anthropic.com/research/exploit-evals</link>
+      <description>We've developed two new, challenging academic benchmarks measuring AI models’ ability to develop exploits, and an updated version of the benchmark measuring smart contract exploitation.</description>
       <guid isPermaLink="false">https://red.anthropic.com/2026/exploit-evals/</guid>
       <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Trustworthy agents in practice</title>
+      <link>https://www.anthropic.com/research/trustworthy-agents</link>
+      <description>AI “agents” represent the latest major shift in how people and organizations are using AI. Here, we explain how they work and how we ensure they're trustworthy.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/trustworthy-agents</guid>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Assessing Claude Mythos Preview’s cybersecurity capabilities</title>
-      <link>https://red.anthropic.com/2026/mythos-preview/</link>
-      <description>Claude Mythos Preview is a new general-purpose language model that is
-                        strikingly capable at computer security tasks. This post provides technical details for
-                        researchers
-                        and practitioners who want to understand exactly how we have been testing this model, and what
-                        we
-                        have found over the past month. We hope this will show why we view this as a watershed moment
-                        for
-                        security, and why we have chosen to begin a coordinated effort to reinforce the world’s cyber
-                        defenses.</description>
+      <link>https://www.anthropic.com/research/mythos-preview</link>
+      <description>Claude Mythos Preview is a new general-purpose language model that is strikingly capable at computer security tasks. This post provides technical details for researchers and practitioners who want to understand exactly how we have been testing this model, and what we have found over the past month.</description>
       <guid isPermaLink="false">https://red.anthropic.com/2026/mythos-preview/</guid>
       <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
     </item>
@@ -151,90 +145,64 @@
     </item>
     <item>
       <title>Reverse engineering Claude's CVE-2026-2796 exploit</title>
-      <link>https://red.anthropic.com/2026/exploit/</link>
-      <description>This post dives deep into how Claude wrote an exploit for one of the vulnerabilities it found in
-                        Firefox.</description>
+      <link>https://www.anthropic.com/research/exploit</link>
+      <description>This post dives deep into how Claude wrote an exploit for one of the vulnerabilities it found in Firefox.</description>
       <guid isPermaLink="false">https://red.anthropic.com/2026/exploit/</guid>
       <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>LLM-discovered 0-days</title>
-      <link>https://red.anthropic.com/2026/zero-days/</link>
-      <description>AI models can now find high-severity vulnerabilities at scale. This is a moment to empower
-                        defenders. We're now using Claude to find and help fix vulnerabilities in open source software.</description>
+      <title>Evaluating and mitigating the growing risk of LLM-discovered 0-days</title>
+      <link>https://www.anthropic.com/research/zero-days</link>
+      <description>AI models can now find high-severity vulnerabilities at scale. This is a moment to empower defenders. We're now using Claude to find and help fix vulnerabilities in open source software.</description>
       <guid isPermaLink="false">https://red.anthropic.com/2026/zero-days/</guid>
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>AI Models on Realistic Cyber Ranges</title>
-      <link>https://red.anthropic.com/2026/cyber-toolkits-update/</link>
-      <description>In a recent evaluation of AI models’ cyber capabilities, current Claude models can now succeed
-                        at multistage attacks on networks with dozens of hosts using only standard, open-source tools,
-                        instead of the custom tools needed by previous generations.</description>
+      <title>AI models are showing a greater ability to find and exploit vulnerabilities on realistic cyber ranges</title>
+      <link>https://www.anthropic.com/research/cyber-toolkits-update</link>
+      <description>In a recent evaluation of AI models’ cyber capabilities, current Claude models can now succeed at multistage attacks on networks with dozens of hosts using only standard, open-source tools, instead of the custom tools needed by previous generations.</description>
       <guid isPermaLink="false">https://red.anthropic.com/2026/cyber-toolkits-update/</guid>
       <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Finding Bugs with Claude and Property-based Testing</title>
-      <link>https://red.anthropic.com/2026/property-based-testing/</link>
-      <description>Ensuring that programs are bug-free is one of the most challenging aspects of software
-                        engineering. We developed an agent that can efficiently identify bugs in large software
-                        projects. Our agent infers general properties of code that should be true, and then applies
-                        property-based testing. After extensive manual validation, we are in the process of reporting
-                        bugs in top Python packages to their developers, several of which have already been patched.</description>
+      <title>Finding bugs across the Python ecosystem with Claude and property-based testing</title>
+      <link>https://www.anthropic.com/research/property-based-testing</link>
+      <description>Ensuring that programs are bug-free is one of the most challenging aspects of software engineering. We developed an agent that can efficiently identify bugs in large software projects.</description>
       <guid isPermaLink="false">https://red.anthropic.com/2026/property-based-testing/</guid>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Experimenting with AI to Defend Critical Infrastructure</title>
-      <link>https://red.anthropic.com/2026/critical-infrastructure-defense/</link>
-      <description>AI could help defenders of critical infrastructure identify the vulnerabilities that attackers
-                    might
-                    exploit—and close them before they are exploited. Anthropic has partnered with Pacific Northwest
-                    National Laboratory (PNNL) to explore this defensive application of AI, demonstrating both the
-                    potential of AI-accelerated defense and the value of public-private partnerships in harnessing
-                    AI
-                    for national security.</description>
+      <title>Experimenting with AI to defend critical infrastructure</title>
+      <link>https://www.anthropic.com/research/critical-infrastructure-defense</link>
+      <description>AI could help defenders of critical infrastructure identify the vulnerabilities that attackers might exploit—and close them before they are exploited. Anthropic has partnered with Pacific Northwest National Laboratory (PNNL) to explore this defensive application of AI, demonstrating both the potential of AI-accelerated defense and the value of public-private partnerships in harnessing AI for national security.</description>
       <guid isPermaLink="false">https://red.anthropic.com/2026/critical-infrastructure-defense/</guid>
       <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Project Vend: Phase Two</title>
-      <link>https://red.anthropic.com/2025/project-vend-2/</link>
-      <description>In June, we revealed that we'd set up a small shop in our San Francisco office run by an AI
-                    shopkeeper. It did not do particularly well. We made some adjustments for phase two of Project Vend.
-                    The idea of an AI running a business doesn't seem as far-fetched as it once did. But the gap between
-                    'capable' and 'completely robust' remains wide.</description>
+      <title>Project Vend: Phase two</title>
+      <link>https://www.anthropic.com/research/project-vend-2</link>
+      <description>In June, we revealed that we’d set up a small shop in our San Francisco office lunchroom, run by an AI shopkeeper. It was part of Project Vend, a free-form experiment exploring how well AIs could do on complex, real-world tasks. How has Claude's business been since we last wrote?</description>
       <guid isPermaLink="false">https://red.anthropic.com/2025/project-vend-2/</guid>
       <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>AI Agents Find Smart Contract Exploits</title>
-      <link>https://red.anthropic.com/2025/smart-contracts/</link>
-      <description>We evaluated AI agents' ability to exploit smart contracts using a new benchmark comprising
-                    contracts that were actually exploited. On contracts exploited after the latest knowledge cutoffs,
-                    Claude Opus 4.5, Claude Sonnet 4.5, and GPT-5 found vulnerabilities worth a combined $4.6 million, a
-                    finding that underscores the need for proactive adoption of AI for defense.</description>
+      <title>AI agents find $4.6M in blockchain smart contract exploits</title>
+      <link>https://www.anthropic.com/research/smart-contracts</link>
+      <description>We evaluated AI agents' ability to exploit smart contracts using a new benchmark comprising contracts that were actually exploited.</description>
       <guid isPermaLink="false">https://red.anthropic.com/2025/smart-contracts/</guid>
       <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Project Fetch</title>
-      <link>https://red.anthropic.com/2025/project-fetch/</link>
-      <description>How could frontier AI models like Claude reach beyond computers and affect the physical world? One
-                    path is through robots. We ran an experiment to see how much Claude helped Anthropic staff perform
-                    complex tasks with a robot dog.</description>
+      <title>Project Fetch: Can Claude train a robot dog?</title>
+      <link>https://www.anthropic.com/research/project-fetch-robot-dog</link>
+      <description>How much does Claude help people program robots? To find out, two teams of Anthropic staff raced to teach quadruped robots to fetch beach balls. The AI-assisted team completed tasks faster and was the only group to make real progress toward full autonomy.</description>
       <guid isPermaLink="false">https://red.anthropic.com/2025/project-fetch/</guid>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Building AI for Cyber Defenders</title>
-      <link>https://red.anthropic.com/2025/ai-for-cyber-defenders/</link>
-      <description>We invested in improving Claude's ability to help defenders detect, analyze, and remediate
-                        vulnerabilities in code and deployed systems. This work allowed Claude Sonnet 4.5 to match
-                        or
-                        eclipse Opus 4.1 in discovering code vulnerabilities and other cyber skills. Adopting and
-                        experimenting with AI will be key for defenders to keep pace.</description>
+      <title>Building AI for cyber defenders</title>
+      <link>https://www.anthropic.com/research/building-ai-cyber-defenders</link>
+      <description>We invested in improving Claude's ability to help defenders detect, analyze, and remediate vulnerabilities in code and deployed systems. This work allowed Claude Sonnet 4.5 to match or eclipse Opus 4.1 in discovering code vulnerabilities and other cyber skills. Adopting and experimenting with AI will be key for defeners to keep pace.</description>
       <guid isPermaLink="false">https://red.anthropic.com/2025/ai-for-cyber-defenders/</guid>
       <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
     </item>

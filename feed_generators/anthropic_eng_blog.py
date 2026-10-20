@@ -6,6 +6,7 @@ import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
+from anthropic_listing import merge_team_history, parse_team_listing
 from utils import fetch_page, save_rss_feed, setup_feed_links, setup_logging, sort_posts_for_feed
 
 logger = setup_logging()
@@ -42,6 +43,9 @@ def decode_flight_text(value):
 def parse_engineering_html(html_content):
     """Parse the engineering HTML content and extract article information from embedded JSON."""
     try:
+        current = parse_team_listing(html_content, "engineering")
+        if current is not None:
+            return current
         soup = BeautifulSoup(html_content, "html.parser")
         articles = []
 
@@ -142,7 +146,7 @@ def generate_rss_feed(articles, feed_name=FEED_NAME):
             fe.link(href=article["link"])
             fe.published(article["date"])
             fe.category(term=article["category"])
-            fe.id(article["link"])
+            fe.id(article.get("guid") or article["link"])
 
         logger.info("Successfully generated RSS feed")
         return fg
@@ -165,6 +169,8 @@ def main(feed_name=FEED_NAME):
             logger.warning("No articles found on the engineering page")
             return False
 
+        articles = merge_team_history(articles, feed_name)
+
         # Generate RSS feed
         feed = generate_rss_feed(articles, feed_name)
 
@@ -180,4 +186,4 @@ def main(feed_name=FEED_NAME):
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(0 if main() else 1)

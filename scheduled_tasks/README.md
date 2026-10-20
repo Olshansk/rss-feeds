@@ -120,6 +120,8 @@ Do not infer content equivalence from matching feed counts or from rerunning the
 
 ## Repair history and exclusions
 
+- October 20: repaired Engineering and Frontier Red Team after Anthropic migrated their team pages. Read the fresh `initialPage.posts` listing, retain archive-only items and existing GUIDs across moved URLs, and fail before writing on empty or malformed listings. Scheduled HTTP run `39462942956:1` failed on these two feeds; the other 26 passed. Live validation checked 24 fresh entries per page against rendered titles/links and embedded dates/summaries, preserving all 26 Engineering and 33 Red Team historical GUIDs. This repair resets the clean window; all three existing exclusions remain paused.
+
 - `63f971194`: Claude public-resource API migration; historical entries preserved.
 - `9e568668bf292395bb7dff177080346ca63f1318`: preserve original arXiv dates during Eleuther metadata enrichment; require a fresh listing.
 - `347a7c899d847534a69459b4df73bdc9a979a1ae`: user-authorized Perplexity pause.
