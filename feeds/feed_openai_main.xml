@@ -8,9 +8,9 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Oct 2026 23:04:41 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 00:12:32 +0000</lastBuildDate>
     <item>
-      <title>Advancing Coding in Low-Resource Programming Languages</title>
+      <title>Advancing coding in low‑resource programming languages</title>
       <link>https://openai.com/index/low-resource-programming-languages</link>
       <description>Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.</description>
       <guid isPermaLink="false">https://openai.com/index/low-resource-programming-languages</guid>
