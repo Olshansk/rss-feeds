@@ -13,7 +13,15 @@
       <link>https://cohere.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 20:04:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 14:05:03 +0000</lastBuildDate>
+    <item>
+      <title>Rethinking Confidence in Reasoning Models</title>
+      <link>https://cohere.com/blog/rethinking-confidence-in-reasoning-models</link>
+      <description>Rethinking Confidence in Reasoning Models</description>
+      <guid isPermaLink="false">https://cohere.com/blog/rethinking-confidence-in-reasoning-models</guid>
+      <category>Blog</category>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Cohere to acquire AISLE to advance cyber-resilient sovereign AI</title>
       <link>https://cohere.com/blog/cohere-and-aisle-sign-letter-of-intent-to-advance-cyber-resilient-sovereign-ai</link>
