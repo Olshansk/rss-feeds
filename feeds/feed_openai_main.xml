@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 19:04:22 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 20:05:04 +0000</lastBuildDate>
     <item>
       <title>How AT&amp;T is rethinking in-house legal work with OpenAI</title>
       <link>https://openai.com/index/att-legal</link>
@@ -55,6 +55,14 @@
       <guid isPermaLink="false">https://openai.com/index/scaling-ai-research-for-complex-biological-data</guid>
       <category>Publication</category>
       <pubDate>Wed, 21 Oct 2026 04:50:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Democratic governance of frontier AI, part II: Empowering cyber defenders</title>
+      <link>https://openai.com/index/empowering-cyber-defenders</link>
+      <description>OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.</description>
+      <guid isPermaLink="false">https://openai.com/index/empowering-cyber-defenders</guid>
+      <category>Global Affairs</category>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Franchisee reconciles cash in 94% less time with ChatGPT Work</title>

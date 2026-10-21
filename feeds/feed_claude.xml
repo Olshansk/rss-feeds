@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 19:03:41 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 20:04:17 +0000</lastBuildDate>
+    <item>
+      <title>HCLTech joins the Claude Partner Network as a Global Premier partner</title>
+      <link>https://claude.com/resources/articles/hcltech-joins-claude-partner-network</link>
+      <description>HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.</description>
+      <guid isPermaLink="false">https://claude.com/blog/hcltech-joins-claude-partner-network</guid>
+      <category>Product announcements</category>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Claude Security now scans continuously and tracks fixes</title>
       <link>https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes</link>
