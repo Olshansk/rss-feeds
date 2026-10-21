@@ -2,14 +2,14 @@
 
 https://www.goodfire.ai/research
 
-Static Webflow (Finsweet CMS) page: each item is a ``div.blog-c-item`` with an
-``h2``/``h3`` title, an ``a`` to ``/research/<slug>``, and a visible date such
-as "July 7, 2026" (%B %d, %Y) held in an undistinguished ``div``, so the date is
-found by scanning the card text.
+Static research cards use ``a.index-item`` with a heading, category tiles,
+and a visible date. The previous Webflow ``div.blog-c-item`` layout is also
+supported. Article URLs remain the stable subscriber identities.
 """
 
 import argparse
 import re
+import sys
 from datetime import datetime
 
 import pytz
@@ -65,29 +65,31 @@ def parse(html_content):
     articles = []
     seen = set()
 
-    for card in soup.select("div.blog-c-item"):
-        anchor = card.find("a", href=lambda h: h and h.startswith("/research/"))
+    for card in soup.select("a.index-item, div.blog-c-item"):
+        anchor = card if card.name == "a" else card.find("a", href=lambda h: h and h.startswith("/research/"))
+        if not anchor or not anchor.get("href", "").startswith("/research/"):
+            raise ValueError("Research card has no article link")
         heading = card.find(["h2", "h3"])
-        if not anchor or not heading:
-            continue
+        if not heading:
+            raise ValueError("Research card has no heading")
 
         link = BASE_URL + anchor["href"]
         if link in seen:
             continue
 
-        title = heading.get_text(strip=True)
+        title = heading.get_text(" ", strip=True)
         if not title:
-            continue
+            raise ValueError("Research card has an empty title")
 
         text = card.get_text(" ", strip=True)
         match = _DATE_RE.search(text)
         date = parse_date(match.group(0)) if match else None
         if date is None:
-            logger.warning(f"No parseable date for {link}")
+            raise ValueError(f"No parseable date for {link}")
 
         # Category tag is the card's summary here; description block is absent.
-        category = card.find(attrs={"fs-list-field": "category"})
-        description = category.get_text(strip=True) if category else title
+        categories = card.select('[fs-list-field="category"], .tag-tile')
+        description = ", ".join(tag.get_text(" ", strip=True) for tag in categories) or title
 
         seen.add(link)
         articles.append({"title": title, "link": link, "description": description, "date": date})
@@ -125,7 +127,7 @@ def main():
             with open(args.html_file, encoding="utf-8") as f:
                 html_content = f.read()
         else:
-            html_content = fetch_page(BLOG_URL)
+            html_content = fetch_page(BLOG_URL, encoding="utf-8")
 
         articles = parse(html_content)
 
@@ -144,4 +146,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(0 if main() else 1)

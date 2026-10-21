@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 21:04:56 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 23:22:02 +0000</lastBuildDate>
     <item>
       <title>Neural Networks Are Already Clean</title>
       <link>https://www.goodfire.ai/research/already-clean</link>
@@ -68,14 +68,14 @@
     <item>
       <title>Logits as a new monitor for evaluation awareness</title>
       <link>https://www.goodfire.ai/research/logits-as-a-new-monitor-for-evaluation-awareness</link>
-      <description>Link post</description>
+      <description>Link post, Applied Research</description>
       <guid isPermaLink="false">https://www.goodfire.ai/research/logits-as-a-new-monitor-for-evaluation-awareness</guid>
       <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Why Larger Models Learn More: Effects of Capacity, Interference, and Rare-Task Retention</title>
       <link>https://www.goodfire.ai/research/why-larger-models-learn-more</link>
-      <description>Fundamental Research</description>
+      <description>Fundamental Research, Link post</description>
       <guid isPermaLink="false">https://www.goodfire.ai/research/why-larger-models-learn-more</guid>
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -194,14 +194,14 @@
     <item>
       <title>Priors in Time: Missing Inductive Biases for Language Model Interpretability</title>
       <link>https://www.goodfire.ai/research/priors-in-time</link>
-      <description>Fundamental Research</description>
+      <description>Fundamental Research, Link post</description>
       <guid isPermaLink="false">https://www.goodfire.ai/research/priors-in-time</guid>
       <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Belief Dynamics Reveal the Dual Nature of In-Context Learning and Activation Steering</title>
       <link>https://www.goodfire.ai/research/belief-dynamics-icl-steering</link>
-      <description>Fundamental Research</description>
+      <description>Fundamental Research, Link post</description>
       <guid isPermaLink="false">https://www.goodfire.ai/research/belief-dynamics-icl-steering</guid>
       <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
     </item>
@@ -215,14 +215,14 @@
     <item>
       <title>Mixing Mechanisms: How Language Models Retrieve Bound Entities In-Context</title>
       <link>https://www.goodfire.ai/research/mixing-mechanisms</link>
-      <description>Fundamental Research</description>
+      <description>Fundamental Research, Link post</description>
       <guid isPermaLink="false">https://www.goodfire.ai/research/mixing-mechanisms</guid>
       <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Understanding Sparse Autoencoder Scaling in the Presence of Feature Manifolds</title>
       <link>https://www.goodfire.ai/research/sae-scaling-with-feature-manifolds</link>
-      <description>Fundamental Research</description>
+      <description>Fundamental Research, Link post</description>
       <guid isPermaLink="false">https://www.goodfire.ai/research/sae-scaling-with-feature-manifolds</guid>
       <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
     </item>
@@ -236,7 +236,7 @@
     <item>
       <title>Adversarial Examples Are Not Bugs, They Are Superposition</title>
       <link>https://www.goodfire.ai/research/adversarial-examples-are-not-bugs-they-are-superposition</link>
-      <description>Fundamental Research</description>
+      <description>Fundamental Research, Link post</description>
       <guid isPermaLink="false">https://www.goodfire.ai/research/adversarial-examples-are-not-bugs-they-are-superposition</guid>
       <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
     </item>
@@ -250,7 +250,7 @@
     <item>
       <title>The Circuits Research Landscape: Results and Perspectives</title>
       <link>https://www.goodfire.ai/research/the-circuits-research-landscape</link>
-      <description>Fundamental Research</description>
+      <description>Fundamental Research, Link post</description>
       <guid isPermaLink="false">https://www.goodfire.ai/research/the-circuits-research-landscape</guid>
       <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
     </item>
@@ -292,7 +292,7 @@
     <item>
       <title>Open Problems in Mechanistic Interpretability</title>
       <link>https://www.goodfire.ai/research/open-problems-in-mech-interp</link>
-      <description>Fundamental Research</description>
+      <description>Fundamental Research, Link post</description>
       <guid isPermaLink="false">https://www.goodfire.ai/research/open-problems-in-mech-interp</guid>
       <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
     </item>

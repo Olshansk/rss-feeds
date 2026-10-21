@@ -9,7 +9,7 @@ DEFAULT_USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKi
 DEFAULT_HEADERS = {"User-Agent": DEFAULT_USER_AGENT}
 
 
-def fetch_page(url: str, timeout: int = 30, headers: dict | None = None) -> str:
+def fetch_page(url: str, timeout: int = 30, headers: dict | None = None, *, encoding: str | None = None) -> str:
     """Fetch a page and return its HTML content.
 
     How:
@@ -20,6 +20,7 @@ def fetch_page(url: str, timeout: int = 30, headers: dict | None = None) -> str:
         url: URL to fetch
         timeout: Request timeout in seconds
         headers: Optional headers dict. Falls back to DEFAULT_HEADERS.
+        encoding: Explicit source encoding when the server omits or mislabels it.
 
     Returns:
         Response text (HTML)
@@ -39,7 +40,7 @@ def fetch_page(url: str, timeout: int = 30, headers: dict | None = None) -> str:
         if diagnostics:
             logging.getLogger(__name__).error("Publisher response diagnostics: %s", diagnostics)
     response.raise_for_status()
-    return response.text
+    return response.content.decode(encoding) if encoding else response.text
 
 
 def fetch_paginated(url, parse, next_url, max_pages=100):
