@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 13:07:44 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 14:05:33 +0000</lastBuildDate>
+    <item>
+      <title>ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform</title>
+      <link>https://openai.com/index/chatgpt-ads-expands-26-new-countries</link>
+      <description>From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.</description>
+      <guid isPermaLink="false">https://openai.com/index/chatgpt-ads-expands-26-new-countries</guid>
+      <category>Product</category>
+      <pubDate>Wed, 21 Oct 2026 13:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>OpenAI models are coming to Google Cloud</title>
       <link>https://openai.com/index/openai-models-google-cloud</link>
@@ -16,6 +24,22 @@
       <guid isPermaLink="false">https://openai.com/index/openai-models-google-cloud</guid>
       <category>Company</category>
       <pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How we built ChatGPT’s novel ad stack for user trust and relevance</title>
+      <link>https://openai.com/index/building-chatgpt-ad-stack</link>
+      <description>Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.</description>
+      <guid isPermaLink="false">https://openai.com/index/building-chatgpt-ad-stack</guid>
+      <category>Engineering</category>
+      <pubDate>Wed, 21 Oct 2026 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using thousands of AI agents to uncover new leads in biological data</title>
+      <link>https://openai.com/index/scaling-ai-research-for-complex-biological-data</link>
+      <description>See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.</description>
+      <guid isPermaLink="false">https://openai.com/index/scaling-ai-research-for-complex-biological-data</guid>
+      <category>Publication</category>
+      <pubDate>Wed, 21 Oct 2026 04:50:00 +0000</pubDate>
     </item>
     <item>
       <title>Franchisee reconciles cash in 94% less time with ChatGPT Work</title>
