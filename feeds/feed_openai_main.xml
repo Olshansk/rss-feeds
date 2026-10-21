@@ -8,13 +8,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Oct 2026 19:04:50 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 01:18:37 +0000</lastBuildDate>
     <item>
       <title>Franchisee reconciles cash in 94% less time with ChatGPT Work</title>
       <link>https://openai.com/index/ted-taylor-restaurant</link>
       <description>An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.</description>
       <guid isPermaLink="false">https://openai.com/index/ted-taylor-restaurant</guid>
       <pubDate>Tue, 20 Oct 2026 10:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Terminal X matches senior investor judgment 88.6% with GPT-6.1</title>
+      <link>https://openai.com/index/terminal-x</link>
+      <description>Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.</description>
+      <guid isPermaLink="false">https://openai.com/index/terminal-x</guid>
+      <category>Startup</category>
+      <pubDate>Tue, 20 Oct 2026 07:00:00 +0000</pubDate>
     </item>
     <item>
       <title>OpenAI acquires Orchestra Bio</title>
