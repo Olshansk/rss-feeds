@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 20:05:04 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 22:04:44 +0000</lastBuildDate>
+    <item>
+      <title>Broad access through consistent standards</title>
+      <link>https://openai.com/index/broad-access-through-consistent-standards</link>
+      <description>How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.</description>
+      <guid isPermaLink="false">https://openai.com/index/broad-access-through-consistent-standards</guid>
+      <category>Safety</category>
+      <pubDate>Wed, 21 Oct 2026 21:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>How AT&amp;T is rethinking in-house legal work with OpenAI</title>
       <link>https://openai.com/index/att-legal</link>
