@@ -13,11 +13,11 @@
       <link>https://cohere.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 15:05:14 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 19:04:14 +0000</lastBuildDate>
     <item>
       <title>Introducing Rerank 5: precise, efficient enterprise document retrieval</title>
       <link>https://cohere.com/blog/rerank-5</link>
-      <description>Give your AI the most relevant context for each request, now with passage-level precision.</description>
+      <description>Introducing Rerank 5: precise, efficient enterprise document retrieval</description>
       <guid isPermaLink="false">https://cohere.com/blog/rerank-5</guid>
       <category>Blog</category>
       <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
@@ -169,7 +169,7 @@
     <item>
       <title>Introducing North Small Translate: A leading sovereign open-weight machine translation model</title>
       <link>https://cohere.com/blog/north-small-translate</link>
-      <description>Outsized performance, right-sized footprint — translation built for speed and cost efficiency.</description>
+      <description>Introducing North Small Translate: A leading sovereign open-weight machine translation model</description>
       <guid isPermaLink="false">https://cohere.com/blog/north-small-translate</guid>
       <category>Blog</category>
       <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
