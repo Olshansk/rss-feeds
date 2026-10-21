@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 01:18:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 13:07:44 +0000</lastBuildDate>
+    <item>
+      <title>OpenAI models are coming to Google Cloud</title>
+      <link>https://openai.com/index/openai-models-google-cloud</link>
+      <description>OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.</description>
+      <guid isPermaLink="false">https://openai.com/index/openai-models-google-cloud</guid>
+      <category>Company</category>
+      <pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Franchisee reconciles cash in 94% less time with ChatGPT Work</title>
       <link>https://openai.com/index/ted-taylor-restaurant</link>
