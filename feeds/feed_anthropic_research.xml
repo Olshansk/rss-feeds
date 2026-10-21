@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Oct 2026 17:29:31 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 17:38:52 +0000</lastBuildDate>
     <item>
       <title>How Claude designed protein binders against scorpion neurotoxins</title>
       <link>https://www.anthropic.com/research/claude-scorpion-toxin-binder-design</link>
@@ -225,7 +225,7 @@
     <item>
       <title>Automated researchers can reliably mitigate alignment failures</title>
       <link>https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures</link>
-      <description>Automated researchers can reliably mitigate alignment failures</description>
+      <description>We had Claude autonomously train models to improve their performance on several public benchmarks that measure 10 categories of alignment failure. For all 10, Claude found fixes that improved the target benchmarks without degrading capabilities.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures</guid>
       <category>Research</category>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
@@ -233,7 +233,7 @@
     <item>
       <title>Enabling independent research on how people use Claude</title>
       <link>https://www.anthropic.com/research/enabling-independent-research</link>
-      <description>Enabling independent research on how people use Claude</description>
+      <description>We ran a pilot giving external researchers access to aggregate, real-world Claude usage data. In this post, we share high-level results and what we learned running this pilot.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/enabling-independent-research</guid>
       <category>Research</category>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
@@ -241,7 +241,7 @@
     <item>
       <title>How Claude is accelerating protein design and analytical chemistry</title>
       <link>https://www.anthropic.com/research/Claude-accelerates-protein-design</link>
-      <description>How Claude is accelerating protein design and analytical chemistry</description>
+      <description>In this post, we share two results that show how Claude can help life scientists increase the pace of their research.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/Claude-accelerates-protein-design</guid>
       <category>Research</category>
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
@@ -249,7 +249,7 @@
     <item>
       <title>Patterns and problems in emerging multiagent systems</title>
       <link>https://www.anthropic.com/research/multiagent-systems</link>
-      <description>Patterns and problems in emerging multiagent systems</description>
+      <description>Here, we identify a few examples of behavioral tendencies in current frontier models and show how they can produce unexpected systemic failures, in hopes of starting a conversation about mitigating these risks.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/multiagent-systems</guid>
       <category>Research</category>
       <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
@@ -257,7 +257,7 @@
     <item>
       <title>Reviewing the evidence on worker retraining programs</title>
       <link>https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs</link>
-      <description>Reviewing the evidence on worker retraining programs</description>
+      <description>We're sharing a review of the evidence on worker retraining programs, coauthored by independent researcher David Roodman and Anthropic's Maxim Massenkoff.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs</guid>
       <category>Research</category>
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
@@ -265,7 +265,7 @@
     <item>
       <title>Learning more about Claude's mathematical capabilities</title>
       <link>https://www.anthropic.com/research/riemann-zeta</link>
-      <description>Learning more about Claude's mathematical capabilities</description>
+      <description>An unreleased research version of Claude has made strides on a problem related to the Riemann hypothesis.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/riemann-zeta</guid>
       <category>Research</category>
       <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
