@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 17:04:52 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 20:05:16 +0000</lastBuildDate>
+    <item>
+      <title>Build more responsive apps with the Decisions API</title>
+      <link>https://openai.com/index/decisions-api</link>
+      <description>Fast, focused, low-cost decisions for any application.</description>
+      <guid isPermaLink="false">https://openai.com/index/decisions-api</guid>
+      <category>Product</category>
+      <pubDate>Thu, 22 Oct 2026 19:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>What FDE means at OpenAI</title>
       <link>https://openai.com/index/forward-deployed-engineering-means</link>
