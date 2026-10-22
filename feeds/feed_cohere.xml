@@ -13,7 +13,15 @@
       <link>https://cohere.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 19:04:14 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 01:16:26 +0000</lastBuildDate>
+    <item>
+      <title>Can AI understand culture?</title>
+      <link>https://cohere.com/blog/can-ai-understand-culture</link>
+      <description>A retired teacher and high schooler put AI to the test</description>
+      <guid isPermaLink="false">https://cohere.com/blog/can-ai-understand-culture</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Introducing Rerank 5: precise, efficient enterprise document retrieval</title>
       <link>https://cohere.com/blog/rerank-5</link>
