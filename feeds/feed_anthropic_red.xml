@@ -13,7 +13,14 @@
       <link>https://www.anthropic.com/research/team/frontier-red-team</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Oct 2026 22:04:11 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 22:04:07 +0000</lastBuildDate>
+    <item>
+      <title>LLMs are making formal software verification feasible at a much larger scale</title>
+      <link>https://www.anthropic.com/research/formal-verification</link>
+      <description>Formal verification can prove that code is free of certain bugs, but historically it has only been feasible for small codebases. With AI models, however, this is beginning to change. Here, we used Claude to prove security properties in over one hundred real-world open-source libraries over the span of a few weeks.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/formal-verification</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Using Claude to reduce the attack surface of code</title>
       <link>https://www.anthropic.com/research/attack-surface-reduction</link>
