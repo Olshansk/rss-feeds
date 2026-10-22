@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 14:05:55 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 17:04:52 +0000</lastBuildDate>
     <item>
       <title>What FDE means at OpenAI</title>
       <link>https://openai.com/index/forward-deployed-engineering-means</link>
@@ -16,6 +16,14 @@
       <guid isPermaLink="false">https://openai.com/index/forward-deployed-engineering-means</guid>
       <category>Engineering</category>
       <pubDate>Thu, 22 Oct 2026 06:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Uber brings ChatGPT Work to all employees with OpenAI</title>
+      <link>https://openai.com/index/uber-chatgpt-work-rollout</link>
+      <description>Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.</description>
+      <guid isPermaLink="false">https://openai.com/index/uber-chatgpt-work-rollout</guid>
+      <category>Company</category>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Broad access through consistent standards</title>
@@ -410,7 +418,7 @@
       <description>Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.</description>
       <guid isPermaLink="false">https://openai.com/index/introducing-gpt-6-1-sol</guid>
       <category>Product</category>
-      <pubDate>Tue, 29 Sep 2026 10:00:00 +0000</pubDate>
+      <pubDate>Tue, 29 Sep 2026 17:00:00 +0000</pubDate>
     </item>
     <item>
       <title>DevDay 2026 Recap</title>

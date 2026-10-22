@@ -13,7 +13,23 @@
       <link>https://cohere.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 01:16:26 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 17:04:43 +0000</lastBuildDate>
+    <item>
+      <title>Introducing Confidential Computing on Cohere Model Vault</title>
+      <link>https://cohere.com/blog/introducing-confidential-computing-on-cohere-model-vault</link>
+      <description>Now in public beta with NVIDIA Confidential Computing with NVIDIA  GPUs on Microsoft Azure, bringing hardware-backed protection and verifiable security to sensitive enterprise AI.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/introducing-confidential-computing-on-cohere-model-vault</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Inside Cohere Model Vault: Building a verifiable confidential AI inference</title>
+      <link>https://cohere.com/blog/inside-cohere-model-vault-building-verifiable-confidential-ai-inference</link>
+      <description>How Model Vault combines confidential CPU and GPU execution, end-to-end encrypted request contents, and remote attestation to protect sensitive AI workloads while they are being processed.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/inside-cohere-model-vault-building-verifiable-confidential-ai-inference</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Can AI understand culture?</title>
       <link>https://cohere.com/blog/can-ai-understand-culture</link>

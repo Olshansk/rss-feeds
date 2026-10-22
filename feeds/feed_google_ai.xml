@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 18:06:20 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 17:04:48 +0000</lastBuildDate>
+    <item>
+      <title>Architecting Governed, Self-Evolving AI Agents on the Gemini platform</title>
+      <link>https://developers.googleblog.com/architecting-governed-self-evolving-ai-agents-on-gemini-agent-platform/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_g9d0nag9d0n.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Learn how Project Chrysalis combines Google Cloud's Gemini Enterprise Agent Platform, Agent Development Kit (ADK), BigQuery, and a four-gate defense-in-depth security stack (Model Armor, Cloud KMS, Binary Authorization, and OPA) to build governed, self-evolving AI agents that remediate live production outages in 1.8 seconds.</description>
+      <guid isPermaLink="false">https://developers.googleblog.com/architecting-governed-self-evolving-ai-agents-on-gemini-agent-platform/</guid>
+      <category>AI</category>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Powering the Agent Development Lifecycle with any framework, from ADK to LangChain and beyond</title>
       <link>https://developers.googleblog.com/powering-the-agent-development-lifecycle-with-any-framework-from-adk-to-langchain-and-beyond/</link>
@@ -79,14 +87,6 @@
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/evaluating-ai-agents-banner-1600x9.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;A practical engineering guide and reference architecture for establishing continuous evaluation pipelines for multi-turn AI agents using Gemini Enterprise Agent Platform, Google ADK, and OpenInference standards.</description>
       <guid isPermaLink="false">https://developers.googleblog.com/evaluating-ai-agents-moving-past-the-vibe-check/</guid>
       <category>AI</category>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Announcing DPoP Support for Google OAuth: Securing Refresh Tokens</title>
-      <link>https://developers.googleblog.com/announcing-dpop-support-for-google-oauth-securing-refresh-tokens/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_s1iz7fs1iz7.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Google OAuth Platform now supports DPoP (Demonstrating Proof-of-Possession) to sender-constrain refresh tokens, neutralizing Infostealer malware and adversary-in-the-middle attacks. By cryptographically binding long-lived refresh tokens while maintaining short-lived access tokens as standard Bearer tokens, developers achieve robust credential security without incurring high-QPS API performance overhead. Additionally, developers integrating multi-agent or Model Context Protocol (MCP) workloads can use Google Cloud Secure Token Service (STS) to handle secure token delegation across agent chains.</description>
-      <guid isPermaLink="false">https://developers.googleblog.com/announcing-dpop-support-for-google-oauth-securing-refresh-tokens/</guid>
-      <category>Mobile</category>
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
