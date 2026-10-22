@@ -13,7 +13,15 @@
       <link>https://www.anthropic.com/news</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 20:41:02 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 18:43:33 +0000</lastBuildDate>
+    <item>
+      <title>Donating Agent Skills to the Agentic AI Foundation</title>
+      <link>https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation</link>
+      <description>We’re donating Agent Skills, the open standard that gives AI agents specialized knowledge and workflows, to the Agentic AI Foundation. More than 70 agent platforms, including ChatGPT, Cursor, GitHub Copilot, and VS Code, have integrated Agent Skills since we published the standard in December 2025.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation</guid>
+      <category>News</category>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust</title>
       <link>https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust</link>
