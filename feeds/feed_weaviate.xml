@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 16:06:47 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 18:06:56 +0000</lastBuildDate>
+    <item>
+      <title>How Weaviate responded to the eMudhra certificate compromise</title>
+      <link>https://weaviate.io/blog/weaviate-emudhra-response</link>
+      <description>Weaviate patched its entire customer estate and infrastructure platform in under 17 hours to mitigate the risk of eight leaked certificates from the eMudhra certificate authority.</description>
+      <guid isPermaLink="false">https://weaviate.io/blog/weaviate-emudhra-response</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Weaviate security release - Medium severity fix for a cross-collection vector disclosure in nearObject (CVE pending assignment)</title>
       <link>https://weaviate.io/blog/weaviate-security-release-nearobject-2026</link>
