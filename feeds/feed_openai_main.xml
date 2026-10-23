@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Oct 2026 06:08:05 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 17:04:05 +0000</lastBuildDate>
+    <item>
+      <title>Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)</title>
+      <link>https://openai.com/index/scaling-storage-one-billion-users-part-two</link>
+      <description>Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.</description>
+      <guid isPermaLink="false">https://openai.com/index/scaling-storage-one-billion-users-part-two</guid>
+      <category>Engineering</category>
+      <pubDate>Fri, 23 Oct 2026 17:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>OpenAI and Poland’s NASK partner to advance AI safety and security</title>
       <link>https://openai.com/index/openai-nask-ai-safety-security-partnership</link>
