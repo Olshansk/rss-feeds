@@ -8,12 +8,20 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Oct 2026 19:04:04 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 20:04:51 +0000</lastBuildDate>
     <item>
       <title>Claude Cowork and chat come together for Enterprise</title>
       <link>https://claude.com/resources/articles/unified-claude-enterprise</link>
       <description>Claude Cowork and chat come together for Enterprise</description>
       <guid isPermaLink="false">https://claude.com/blog/unified-claude-enterprise</guid>
+      <category>Product announcements</category>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Duet Safety, Privacy, and Security</title>
+      <link>https://claude.com/resources/articles/claude-duet-safety-privacy-and-security</link>
+      <description>Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-duet-safety-privacy-and-security</guid>
       <category>Product announcements</category>
       <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
     </item>

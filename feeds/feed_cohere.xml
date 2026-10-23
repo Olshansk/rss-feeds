@@ -13,7 +13,7 @@
       <link>https://cohere.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 17:04:43 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 20:05:14 +0000</lastBuildDate>
     <item>
       <title>Introducing Confidential Computing on Cohere Model Vault</title>
       <link>https://cohere.com/blog/introducing-confidential-computing-on-cohere-model-vault</link>
@@ -413,6 +413,14 @@
       <guid isPermaLink="false">https://cohere.com/blog/rws-and-cohere-build-ai-language-intelligence</guid>
       <category>Blog</category>
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI governance challenges: How to support safe, scalable AI adoption</title>
+      <link>https://cohere.com/blog/iso-42001-and-iso-27001-certifications</link>
+      <description>AI governance challenges: How to support safe, scalable AI adoption</description>
+      <guid isPermaLink="false">https://cohere.com/blog/iso-42001-and-iso-27001-certifications</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>What is Model Context Protocol? A practical guide to MCP</title>
@@ -853,14 +861,6 @@
       <guid isPermaLink="false">https://cohere.com/blog/secure-ai-to-critical-systems</guid>
       <category>Blog</category>
       <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cohere achieves ISO 42001 and ISO 27001 certifications</title>
-      <link>https://cohere.com/blog/iso-42001-and-iso-27001-certifications</link>
-      <description>Cohere achieves ISO 42001 and ISO 27001 certifications</description>
-      <guid isPermaLink="false">https://cohere.com/blog/iso-42001-and-iso-27001-certifications</guid>
-      <category>Blog</category>
-      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Enterprise AI security challenges and solutions</title>

@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Oct 2026 17:04:05 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 20:05:25 +0000</lastBuildDate>
     <item>
       <title>Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)</title>
       <link>https://openai.com/index/scaling-storage-one-billion-users-part-two</link>
@@ -16,6 +16,14 @@
       <guid isPermaLink="false">https://openai.com/index/scaling-storage-one-billion-users-part-two</guid>
       <category>Engineering</category>
       <pubDate>Fri, 23 Oct 2026 17:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Securing our frontier model training environment</title>
+      <link>https://openai.com/index/securing-our-frontier-model-training-environment</link>
+      <description>OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.</description>
+      <guid isPermaLink="false">https://openai.com/index/securing-our-frontier-model-training-environment</guid>
+      <category>Security</category>
+      <pubDate>Fri, 23 Oct 2026 10:00:00 +0000</pubDate>
     </item>
     <item>
       <title>OpenAI and Poland’s NASK partner to advance AI safety and security</title>
