@@ -13,7 +13,14 @@
       <link>https://ollama.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Oct 2026 02:06:28 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 05:04:35 +0000</lastBuildDate>
+    <item>
+      <title>Speech models in Ollama</title>
+      <link>https://ollama.com/blog/speech-models</link>
+      <description>Ollama now supports speech models, starting with Phonon from Gradium. Read text aloud in five languages and dozens of voices, streamed as it is generated, over 100 times faster than real time on Apple Silicon.</description>
+      <guid isPermaLink="false">https://ollama.com/blog/speech-models</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Clef is available on Ollama's cloud</title>
       <link>https://ollama.com/blog/clef</link>
