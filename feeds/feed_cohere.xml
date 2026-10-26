@@ -13,7 +13,15 @@
       <link>https://cohere.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Oct 2026 20:05:14 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 14:54:34 +0000</lastBuildDate>
+    <item>
+      <title>PitchBook in North: Private market intelligence for enterprise teams</title>
+      <link>https://cohere.com/blog/pitchbook-integration</link>
+      <description>Connect PitchBook to access company financials, funding history, investor activity, and market benchmarks - all within the workflows your teams already use in North.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/pitchbook-integration</guid>
+      <category>Blog</category>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Introducing Confidential Computing on Cohere Model Vault</title>
       <link>https://cohere.com/blog/introducing-confidential-computing-on-cohere-model-vault</link>
@@ -33,7 +41,7 @@
     <item>
       <title>Can AI understand culture?</title>
       <link>https://cohere.com/blog/can-ai-understand-culture</link>
-      <description>A retired teacher and high schooler put AI to the test</description>
+      <description>Can AI understand culture?</description>
       <guid isPermaLink="false">https://cohere.com/blog/can-ai-understand-culture</guid>
       <category>Blog</category>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
