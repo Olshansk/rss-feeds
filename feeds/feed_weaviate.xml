@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 18:06:56 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 13:32:32 +0000</lastBuildDate>
+    <item>
+      <title>Deprecating the GraphQL API: timeline and migration paths</title>
+      <link>https://weaviate.io/blog/graphql-api-deprecation</link>
+      <description>Weaviate's GraphQL API is deprecated as of October 26, 2026. See the timeline for Weaviate Cloud and self-hosted, who is affected, and how to migrate.</description>
+      <guid isPermaLink="false">https://weaviate.io/blog/graphql-api-deprecation</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>How Weaviate responded to the eMudhra certificate compromise</title>
       <link>https://weaviate.io/blog/weaviate-emudhra-response</link>
