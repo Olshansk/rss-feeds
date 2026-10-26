@@ -1,16 +1,57 @@
 """Regression checks for shared fetchers and source failure paths."""
 
+import os
+import subprocess
 import unittest
 from unittest.mock import Mock, PropertyMock, patch
 
 from selenium.common.exceptions import TimeoutException, WebDriverException
 
-from dynamic_pages import fetch_rendered
+from dynamic_pages import fetch_rendered, get_chrome_major_version, setup_selenium_driver
 from html_cards import parse_dated_cards
 from native_rss import parse_rss
 
 
 class SharedSourceTests(unittest.TestCase):
+    def test_configured_browser_and_driver_are_used_together(self):
+        env = {"RSS_CHROME_BINARY": "/installed/chrome", "RSS_CHROMEDRIVER": "/installed/chromedriver"}
+        with (
+            patch.dict(os.environ, env, clear=True),
+            patch(
+                "dynamic_pages.subprocess.run", return_value=Mock(stdout="Google Chrome for Testing 156.0.8078.47")
+            ) as probe,
+            patch("undetected_chromedriver.Chrome") as chrome,
+        ):
+            setup_selenium_driver()
+        probe.assert_called_once_with(["/installed/chrome", "--version"], capture_output=True, text=True, timeout=5)
+        self.assertEqual(chrome.call_args.kwargs["browser_executable_path"], env["RSS_CHROME_BINARY"])
+        self.assertEqual(chrome.call_args.kwargs["driver_executable_path"], env["RSS_CHROMEDRIVER"])
+        self.assertEqual(chrome.call_args.kwargs["version_main"], 156)
+
+    def test_configured_browser_probe_failure_never_launches_another_browser(self):
+        for result in (FileNotFoundError(), subprocess.TimeoutExpired("chrome", 5), Mock(stdout="unknown")):
+            with (
+                self.subTest(result=result),
+                patch.dict(os.environ, {"RSS_CHROME_BINARY": "/missing/chrome"}, clear=True),
+                patch("dynamic_pages.subprocess.run") as probe,
+                patch("undetected_chromedriver.Chrome") as chrome,
+            ):
+                if isinstance(result, Exception):
+                    probe.side_effect = result
+                else:
+                    probe.return_value = result
+                with self.assertRaisesRegex(RuntimeError, "configured browser"):
+                    setup_selenium_driver()
+                probe.assert_called_once()
+                chrome.assert_not_called()
+
+    def test_local_browser_detection_still_tries_available_paths(self):
+        with patch(
+            "dynamic_pages.subprocess.run",
+            side_effect=[FileNotFoundError(), Mock(stdout="Google Chrome 155.0.8059.39")],
+        ):
+            self.assertEqual(get_chrome_major_version(), 155)
+
     def test_browser_closed_after_navigation_failure(self):
         driver = Mock()
         driver.get.side_effect = RuntimeError("Page unavailable")

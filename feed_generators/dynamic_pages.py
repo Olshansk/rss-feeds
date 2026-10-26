@@ -10,18 +10,23 @@ from static_pages import DEFAULT_USER_AGENT
 logger = logging.getLogger(__name__)
 
 
-def get_chrome_major_version() -> int | None:
+def get_chrome_major_version(browser_path: str | None = None) -> int | None:
     """Detect the installed Chrome major version.
 
-    Returns the major version number (e.g., 146) or None if detection fails.
-    This is needed because undetected_chromedriver auto-downloads the latest
-    chromedriver, which may not match the installed Chrome version.
+    How:
+    1. Probe only the explicitly selected browser, or the usual local Chrome paths.
+    2. Read its major version so the driver matches the browser being launched.
+    3. Fail if an explicit browser cannot be identified; allow local auto-detection otherwise.
     """
-    chrome_paths = [
-        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
-        "google-chrome",
-        "google-chrome-stable",
-    ]
+    chrome_paths = (
+        [browser_path]
+        if browser_path
+        else [
+            "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+            "google-chrome",
+            "google-chrome-stable",
+        ]
+    )
     for path in chrome_paths:
         try:
             result = subprocess.run([path, "--version"], capture_output=True, text=True, timeout=5)
@@ -32,6 +37,8 @@ def get_chrome_major_version() -> int | None:
                 return version
         except (FileNotFoundError, subprocess.TimeoutExpired):
             continue
+    if browser_path:
+        raise RuntimeError(f"Could not detect Chrome version from configured browser: {browser_path}")
     logger.warning("Could not detect Chrome version, using undetected_chromedriver default")
     return None
 
@@ -41,8 +48,8 @@ def setup_selenium_driver():
 
     How:
     1. Configure browser options for headless rendering.
-    2. Detect the installed Chrome version to avoid driver mismatches.
-    3. Start Chrome with the optional RSS_CHROMEDRIVER override.
+    2. Detect the version of RSS_CHROME_BINARY, or the local Chrome installation.
+    3. Start that same browser with the optional matching RSS_CHROMEDRIVER override.
     """
     import undetected_chromedriver as uc
 
@@ -53,9 +60,15 @@ def setup_selenium_driver():
     options.add_argument("--window-size=1920,1080")
     options.add_argument("--disable-blink-features=AutomationControlled")
     options.add_argument(f"--user-agent={DEFAULT_USER_AGENT}")
-    version = get_chrome_major_version()
+    browser_path = os.environ.get("RSS_CHROME_BINARY")
+    version = get_chrome_major_version(browser_path)
     driver_path = os.environ.get("RSS_CHROMEDRIVER")
-    return uc.Chrome(options=options, version_main=version, driver_executable_path=driver_path)
+    return uc.Chrome(
+        options=options,
+        version_main=version,
+        browser_executable_path=browser_path,
+        driver_executable_path=driver_path,
+    )
 
 
 def fetch_rendered(url, article_selector, *, button_xpath=None, max_clicks=0, configure=None):

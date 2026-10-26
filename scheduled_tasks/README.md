@@ -120,6 +120,8 @@ Do not infer content equivalence from matching feed counts or from rerunning the
 
 ## Repair history and exclusions
 
+- October 26: bind Selenium CI to the matching Chrome and ChromeDriver paths installed by `setup-chrome`. Attempt `40302660499:1` failed Anthropic News with ChromeDriver 156 against preinstalled Chrome 155; Meta AI also failed to connect to Chrome. Probe the explicitly selected browser and fail before startup if its version is unavailable. Offline tests cover the path/version pairing and failed detection; actual transport recovery still requires a successful scheduled Selenium run. Preserve all existing feed exclusions.
+
 - October 21: repaired Goodfire after its static research index replaced Webflow cards with linked `index-item` cards. Preserve article URLs/GUIDs, read the new category tiles, decode the charset-less response as UTF-8, and fail before writing if a card has no title, link, or source date. Live validation independently checks all 43 listed articles and all 43 historical GUIDs. The failed HTTP attempt `39690838579:1` and this repair reset the clean window; all three existing exclusions remain paused.
 
 - October 20 follow-up: the same redesign also removed Research dated rows and News source dates. Extended the listing parser to both feeds, including explicit article links without slugs; adjusted browser readiness and preserved both XML and cache writes. Fresh HTTP-source validation checked 24 entries each and retained all 273 News and 184 Research historical GUIDs. This validates extraction/publication only; actual browser transport still requires the next scheduled Selenium run. These feeds remain Selenium-enabled.

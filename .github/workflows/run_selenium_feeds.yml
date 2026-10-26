@@ -29,6 +29,7 @@ jobs:
           enable-cache: true
 
       - name: Install Chrome for Selenium
+        id: chrome
         uses: browser-actions/setup-chrome@v2
         with:
           chrome-version: stable
@@ -37,6 +38,9 @@ jobs:
       - name: Install dependencies and run Selenium feeds
         id: generate
         timeout-minutes: 45
+        env:
+          RSS_CHROME_BINARY: ${{ steps.chrome.outputs.chrome-path }}
+          RSS_CHROMEDRIVER: ${{ steps.chrome.outputs.chromedriver-path }}
         run: |
           set -e
           uv sync
