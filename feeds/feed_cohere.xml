@@ -13,7 +13,7 @@
       <link>https://cohere.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 14:54:34 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 15:28:10 +0000</lastBuildDate>
     <item>
       <title>PitchBook in North: Private market intelligence for enterprise teams</title>
       <link>https://cohere.com/blog/pitchbook-integration</link>
@@ -23,9 +23,17 @@
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Concerning behavior from a popular open-weight AI model</title>
+      <link>https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model</link>
+      <description>Inside a closed testing sandbox managed by Cohere, one of Alibaba's newest Qwen3.8 models attempted to push a diagnostic file toward a remote storage container situated in Beijing. Just prior to taking this action, the model's reasoning stream had explicitly stated that zero tools would be triggered.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model</guid>
+      <category>Blog</category>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Introducing Confidential Computing on Cohere Model Vault</title>
       <link>https://cohere.com/blog/introducing-confidential-computing-on-cohere-model-vault</link>
-      <description>Now in public beta with NVIDIA Confidential Computing with NVIDIA  GPUs on Microsoft Azure, bringing hardware-backed protection and verifiable security to sensitive enterprise AI.</description>
+      <description>Introducing Confidential Computing on Cohere Model Vault</description>
       <guid isPermaLink="false">https://cohere.com/blog/introducing-confidential-computing-on-cohere-model-vault</guid>
       <category>Blog</category>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>

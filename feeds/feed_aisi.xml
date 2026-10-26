@@ -8,7 +8,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Oct 2026 13:04:50 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 15:27:29 +0000</lastBuildDate>
+    <item>
+      <title>Pretraining data filtering in open-weight biological models</title>
+      <link>https://www.aisi.gov.uk/blog/pretraining-data-filtering-in-open-weight-biological-models</link>
+      <description>We assess the strength of pretraining data filtering as a safeguard for open-weight protein models, and find it to be effective and selective, but not necessarily durable against fine-tuning.</description>
+      <guid isPermaLink="false">https://www.aisi.gov.uk/blog/pretraining-data-filtering-in-open-weight-biological-models</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can AI coding agents rebuild biological AI tools from a paper?</title>
+      <link>https://www.aisi.gov.uk/blog/can-ai-coding-agents-rebuild-biological-ai-tools-from-a-paper</link>
+      <description>We tested whether leading coding agents can re-create published biological AI tools from limited information, and what that means for the effectiveness of managed access controls.</description>
+      <guid isPermaLink="false">https://www.aisi.gov.uk/blog/can-ai-coding-agents-rebuild-biological-ai-tools-from-a-paper</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Investigating alignment failures in AISI’s incident</title>
       <link>https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident</link>
@@ -694,20 +708,6 @@
       <description>Since October, we have recruited leaders from DeepMind and Oxford, onboarded 23 new researchers, published the principles behind the International Scientific Report on Advanced AI Safety, and began pre-deployment testing of advanced AI systems.</description>
       <guid isPermaLink="false">https://www.aisi.gov.uk/blog/third-progress-report</guid>
       <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>First AI Safety Summit</title>
-      <link>https://www.aisi.gov.uk/blog/ai-safety-summit-2023</link>
-      <description>At the first AI Safety Summit at Bletchley Park, world leaders and top companies agreed on the significance of advanced AI risks and the importance of testing.</description>
-      <guid isPermaLink="false">https://www.aisi.gov.uk/blog/ai-safety-summit-2023</guid>
-      <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Second progress report</title>
-      <link>https://www.aisi.gov.uk/blog/second-progress-report</link>
-      <description>Since September, we have recruited leaders from OpenAI and Humane Intelligence, tripled the capacity of our research team, announced 6 new research partnerships, and helped establish the UK’s fastest supercomputer.</description>
-      <guid isPermaLink="false">https://www.aisi.gov.uk/blog/second-progress-report</guid>
-      <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

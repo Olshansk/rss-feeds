@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 20:05:49 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 15:29:17 +0000</lastBuildDate>
+    <item>
+      <title>Devin Security 2.0: Built for the new threat landscape</title>
+      <link>https://devin.ai/blog/devin-security-2</link>
+      <description>Frontier-model scanning, prioritization grounded in your environment, and autonomous remediation that turns security findings into pull requests.</description>
+      <guid isPermaLink="false">https://devin.ai/blog/devin-security-2</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Fixing Critical Node &amp; PHP Flaws</title>
       <link>https://devin.ai/blog/vulnerability-fixes-plugin</link>
