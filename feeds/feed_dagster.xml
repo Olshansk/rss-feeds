@@ -8,11 +8,11 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 21:04:35 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 19:06:47 +0000</lastBuildDate>
     <item>
-      <title>The Data Plane Is Yours: Dagster+ Hybrid on Kubernetes and Azure</title>
+      <title>The Data Plane Is Yours: Dagster Hybrid on Kubernetes and Azure</title>
       <link>https://dagster.io/blog/the-data-plane-is-yours-dagster-hybrid-on-kubernetes-and-azure</link>
-      <description>This article draws on a Dagster+ Hybrid deployment on Kubernetes and Azure at a very large enterprise. It covers the work outside the Helm chart: workload ownership, isolation, networking, identity, sizing, and capacity.</description>
+      <description>This article draws on a Dagster Hybrid deployment on Kubernetes and Azure at a very large enterprise. It covers the work outside the Helm chart: workload ownership, isolation, networking, identity, sizing, and capacity.</description>
       <guid isPermaLink="false">https://dagster.io/blog/the-data-plane-is-yours-dagster-hybrid-on-kubernetes-and-azure</guid>
       <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
     </item>
@@ -101,9 +101,9 @@
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Announcing the Dagster+ Terraform Provider</title>
+      <title>Announcing the Dagster Terraform Provider</title>
       <link>https://dagster.io/blog/announcing-the-dagster-terraform-provider</link>
-      <description>The Dagster+ Terraform provider lets platform teams manage deployments, access controls, alerting, and more as code. Define entire environments declaratively, review changes through pull requests, and integrate Dagster+ into your existing infrastructure workflows.</description>
+      <description>The Dagster Terraform provider lets platform teams manage deployments, access controls, alerting, and more as code. Define entire environments declaratively, review changes through pull requests, and integrate Dagster into your existing infrastructure workflows.</description>
       <guid isPermaLink="false">https://dagster.io/blog/announcing-the-dagster-terraform-provider</guid>
       <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
     </item>
@@ -164,9 +164,9 @@
       <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>When to Move from Dagster OSS to Dagster+</title>
+      <title>When to Move from Dagster OSS to a Dagster Paid Plan</title>
       <link>https://dagster.io/blog/when-to-move-from-dagster-oss-to-dagster</link>
-      <description>Dagster OSS is built for builders. But as teams grow, the operational burden of running the platform can quietly consume engineering time. This guide explains when it makes sense to move to Dagster+ and shift your focus back to building data products.</description>
+      <description>Dagster OSS is built for builders. But as teams grow, the operational burden of running the platform can quietly consume engineering time. This guide explains when it makes sense to move to Dagster and shift your focus back to building data products.</description>
       <guid isPermaLink="false">https://dagster.io/blog/when-to-move-from-dagster-oss-to-dagster</guid>
       <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
     </item>
@@ -192,9 +192,9 @@
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Closing the DataOps Loop: Why We Built Compass for Dagster+</title>
+      <title>Closing the DataOps Loop: Why We Built Compass for Dagster</title>
       <link>https://dagster.io/blog/closing-the-dataops-loop-why-we-built-compass-for-dagster</link>
-      <description>Detection isn't the bottleneck anymore. Understanding is. Compass closes the loop by turning Dagster+ operational data into a conversation.</description>
+      <description>Detection isn't the bottleneck anymore. Understanding is. Compass closes the loop by turning Dagster operational data into a conversation.</description>
       <guid isPermaLink="false">https://dagster.io/blog/closing-the-dataops-loop-why-we-built-compass-for-dagster</guid>
       <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
     </item>
@@ -353,9 +353,9 @@
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Dagster+ Now Available in the EU</title>
+      <title>Dagster Now Available in the EU</title>
       <link>https://dagster.io/blog/dagster-plus-now-available-in-the-eu</link>
-      <description>We're thrilled to announce that Dagster+ has arrived in Europe!</description>
+      <description>We're thrilled to announce that Dagster has arrived in Europe!</description>
       <guid isPermaLink="false">https://dagster.io/blog/dagster-plus-now-available-in-the-eu</guid>
       <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
     </item>
@@ -367,7 +367,7 @@
       <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing the new Dagster+ UI – Your Data Platform’s Command Center</title>
+      <title>Introducing the new Dagster UI – Your Data Platform’s Command Center</title>
       <link>https://dagster.io/blog/introducing-the-new-dagster-plus-ui</link>
       <description>Featuring a new modern homepage, enhanced asset health and freshness monitoring, customizable dashboards, and real-time insights with cost monitoring.</description>
       <guid isPermaLink="false">https://dagster.io/blog/introducing-the-new-dagster-plus-ui</guid>
@@ -535,9 +535,9 @@
       <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Observability That Matters with Dagster+ Alerts</title>
+      <title>Observability That Matters with Dagster Alerts</title>
       <link>https://dagster.io/blog/observability-that-matters-with-dagster-alerts</link>
-      <description>Broken pipelines are unavoidable. Catch problems as soon as they happen with the improved alerting suite in Dagster+.</description>
+      <description>Broken pipelines are unavoidable. Catch problems as soon as they happen with the improved alerting suite in Dagster.</description>
       <guid isPermaLink="false">https://dagster.io/blog/observability-that-matters-with-dagster-alerts</guid>
       <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
     </item>
@@ -751,23 +751,23 @@
       <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Ensuring Reliable Data with Dagster+</title>
+      <title>Ensuring Reliable Data with Dagster</title>
       <link>https://dagster.io/blog/ensuring-reliable-data-dagster-plus</link>
-      <description>Dagster+ helps you monitor the freshness, quality, and schema of your data.</description>
+      <description>Dagster helps you monitor the freshness, quality, and schema of your data.</description>
       <guid isPermaLink="false">https://dagster.io/blog/ensuring-reliable-data-dagster-plus</guid>
       <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Dagster+ Catalog: A New Built-in Asset Library for All Practitioners</title>
+      <title>Dagster Catalog: A New Built-in Asset Library for All Practitioners</title>
       <link>https://dagster.io/blog/dagster-plus-calatog-a-new-built-in-asset-library</link>
       <description>Give your data teams a powerful new system of record without the overhead of maintaining a third-party catalog.</description>
       <guid isPermaLink="false">https://dagster.io/blog/dagster-plus-calatog-a-new-built-in-asset-library</guid>
       <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Change Tracking Branch Deployments in Dagster+</title>
+      <title>Change Tracking Branch Deployments in Dagster</title>
       <link>https://dagster.io/blog/change-tracking-branch-deployments-in-dagster-plus</link>
-      <description>Dagster+ further enhances identification and collaboration around changes to your data pipelines.</description>
+      <description>Dagster further enhances identification and collaboration around changes to your data pipelines.</description>
       <guid isPermaLink="false">https://dagster.io/blog/change-tracking-branch-deployments-in-dagster-plus</guid>
       <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
     </item>
@@ -781,7 +781,7 @@
     <item>
       <title>Announcing Dagster 1.7: Love Plus One</title>
       <link>https://dagster.io/blog/dagster-1-7-love-plus-one</link>
-      <description>A major set of updates to Dagster Core ahead of our Dagster+ launch.</description>
+      <description>A major set of updates to Dagster Core ahead of our Dagster launch.</description>
       <guid isPermaLink="false">https://dagster.io/blog/dagster-1-7-love-plus-one</guid>
       <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
     </item>
