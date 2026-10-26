@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 16:07:36 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 18:07:37 +0000</lastBuildDate>
+    <item>
+      <title>Expanding Claude for Nonprofits</title>
+      <link>https://claude.com/resources/articles/expanding-claude-for-nonprofits</link>
+      <description>Our new Claude for Nonprofits plugin brings new skills to every verified nonprofit organization, taking on the operational work that stretches small teams across fundraising, marketing, and hiring.</description>
+      <guid isPermaLink="false">https://claude.com/blog/expanding-claude-for-nonprofits</guid>
+      <category>Product announcements</category>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Claude Cowork and chat come together for Enterprise</title>
       <link>https://claude.com/resources/articles/unified-claude-enterprise</link>
