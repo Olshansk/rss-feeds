@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 19:06:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 15:06:22 +0000</lastBuildDate>
     <item>
       <title>The Data Plane Is Yours: Dagster Hybrid on Kubernetes and Azure</title>
       <link>https://dagster.io/blog/the-data-plane-is-yours-dagster-hybrid-on-kubernetes-and-azure</link>
@@ -164,9 +164,9 @@
       <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>When to Move from Dagster OSS to a Dagster Paid Plan</title>
+      <title>When to Upgrade from Self-Hosted Dagster</title>
       <link>https://dagster.io/blog/when-to-move-from-dagster-oss-to-dagster</link>
-      <description>Dagster OSS is built for builders. But as teams grow, the operational burden of running the platform can quietly consume engineering time. This guide explains when it makes sense to move to Dagster and shift your focus back to building data products.</description>
+      <description>Self-hosted Dagster is built for builders. But as teams grow, the operational burden of running the platform can quietly consume engineering time. This guide explains when it makes sense to move to Dagster and shift your focus back to building data products.</description>
       <guid isPermaLink="false">https://dagster.io/blog/when-to-move-from-dagster-oss-to-dagster</guid>
       <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
     </item>
@@ -271,7 +271,7 @@
     <item>
       <title>Dagster + Atlan: Real-Time Asset Observability in Your Data Catalog</title>
       <link>https://dagster.io/blog/dagster-atlan-integration</link>
-      <description>Automatically sync asset materialization events and lineage from Dagster Cloud to Atlan</description>
+      <description>Automatically sync asset materialization events and lineage from Dagster to Atlan</description>
       <guid isPermaLink="false">https://dagster.io/blog/dagster-atlan-integration</guid>
       <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
     </item>
@@ -1159,7 +1159,7 @@
     <item>
       <title>How Dagster Deploys 5X Faster with Warm Docker Containers</title>
       <link>https://dagster.io/blog/fast-deploys-with-pex-and-docker</link>
-      <description>Using pex, Serverless Dagster Cloud now deploys 4 to 5 times faster by avoiding the overhead of building and launching Docker images.</description>
+      <description>Using pex, Dagster Serverless now deploys 4 to 5 times faster by avoiding the overhead of building and launching Docker images.</description>
       <guid isPermaLink="false">https://dagster.io/blog/fast-deploys-with-pex-and-docker</guid>
       <pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate>
     </item>
