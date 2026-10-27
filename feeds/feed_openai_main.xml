@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 16:05:17 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 17:03:47 +0000</lastBuildDate>
+    <item>
+      <title>OpenAI expands partnership with Oracle to bring its apps to ChatGPT</title>
+      <link>https://openai.com/index/oracle-apps-in-chatgpt</link>
+      <description>OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.</description>
+      <guid isPermaLink="false">https://openai.com/index/oracle-apps-in-chatgpt</guid>
+      <category>Company</category>
+      <pubDate>Tue, 27 Oct 2026 07:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Using Codex for education at Dagster Labs</title>
       <link>https://developers.openai.com/blog/codex-for-documentation-dagster</link>
