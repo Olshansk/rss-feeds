@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 20:03:30 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 23:03:31 +0000</lastBuildDate>
     <item>
       <title>OpenAI expands partnership with Oracle to bring its apps to ChatGPT</title>
       <link>https://openai.com/index/oracle-apps-in-chatgpt</link>
@@ -258,6 +258,20 @@
       <description>Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.</description>
       <guid isPermaLink="false">https://openai.com/index/stack-overflow-chatgpt-plugin</guid>
       <category>Startup</category>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Localiza reorganized work around generative AI</title>
+      <link>https://openai.com/index/localiza-generative-ai</link>
+      <description>See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.</description>
+      <guid isPermaLink="false">https://openai.com/index/localiza-generative-ai</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Grupo Boticário uses AI to strengthen human connections</title>
+      <link>https://openai.com/index/grupo-boticario</link>
+      <description>Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the sales force to take on an advisory role.</description>
+      <guid isPermaLink="false">https://openai.com/index/grupo-boticario</guid>
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
