@@ -8,12 +8,20 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 16:05:13 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 18:04:54 +0000</lastBuildDate>
     <item>
       <title>Fast, reliable A2UI, with swappable inference formats</title>
       <link>https://developers.googleblog.com/fast-reliable-a2ui/</link>
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/00-header-1600x900_1.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;A2UI now supports swappable inference formats, introducing A2UI Express which uses up to 3x fewer tokens and cuts latency by compiling compact Python-style syntax into standard A2UI JSON via Agent SDKs. Developers can also use controlled generation with TypeSafe's Jev system-decision models to render known-shape screens in under 300 ms while smaller models stream text. These updates require no changes to frontend renderers or component catalogs, offering flexible performance levers for generative UI development across Python, TypeScript, and Dart.</description>
       <guid isPermaLink="false">https://developers.googleblog.com/fast-reliable-a2ui/</guid>
+      <category>Mobile</category>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building Conversational Commerce with Multi-Agent Swarms on GCP: A Working Prototype</title>
+      <link>https://developers.googleblog.com/building-conversational-commerce-with-multi-agent-swarms-on-gcp-a-working-prototype/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/cui_banner_light_1600x900_17912945.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;This document provides a publication template and metadata structure for a technical blog post focused on building Conversational User Interfaces (CUIs) using AI. It outlines key developer focus areas, product stacks, and approval workflows required for publishing technical content through Google Developer Studio. The framework helps engineers organize their guides and solutions to effectively share AI-driven conversational interface designs with the developer community.</description>
+      <guid isPermaLink="false">https://developers.googleblog.com/building-conversational-commerce-with-multi-agent-swarms-on-gcp-a-working-prototype/</guid>
       <category>Mobile</category>
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
     </item>
@@ -80,14 +88,6 @@
       <guid isPermaLink="false">https://developers.googleblog.com/native-model-authoring-for-edge-with-litert-tensor-api/</guid>
       <category>Mobile</category>
       <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Three layers, one repo: a tour of google/adk-recipes</title>
-      <link>https://developers.googleblog.com/three-layers-one-repo-a-tour-of-googleadk-recipes/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/1_1.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;The google/adk-recipes repository unifies Agent Development Kit (ADK) resources into three structured layers—core/, plugins/, and contrib/—serving as a single source of truth for building AI agents. Developers can leverage reference patterns, install modular vertical skills (such as retail product search and virtual try-on) directly into their coding assistants, and deploy production-ready services across multiple languages. This cohesive structure streamlines the entire workflow from initial scaffolding to full deployment on Google Cloud infrastructure.</description>
-      <guid isPermaLink="false">https://developers.googleblog.com/three-layers-one-repo-a-tour-of-googleadk-recipes/</guid>
-      <category>AI</category>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
