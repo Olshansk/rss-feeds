@@ -8,13 +8,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 19:02:54 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 20:03:04 +0000</lastBuildDate>
     <item>
       <title>Manage costs and demonstrate ROI for Claude Code on Google Cloud</title>
       <link>https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud</link>
       <description>Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.</description>
       <guid isPermaLink="false">https://claude.com/blog/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud</guid>
       <category>Best practices</category>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude for Financial Advisors</title>
+      <link>https://claude.com/resources/articles/claude-for-financial-advisors</link>
+      <description>Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-for-financial-advisors</guid>
+      <category>Product announcements</category>
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -435,14 +443,6 @@
       <description>In this guide, written with Accenture, we share seven considerations for taking enterprise AI from pilot to production, and the decisions leadership needs to make to get there.</description>
       <guid isPermaLink="false">https://claude.com/blog/deploying-ai-from-pilot-to-production</guid>
       <category>Perspectives</category>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude for Financial Advisors</title>
-      <link>https://claude.com/resources/articles/claude-for-financial-advisors</link>
-      <description>Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.</description>
-      <guid isPermaLink="false">https://claude.com/blog/claude-for-financial-advisors</guid>
-      <category>Product announcements</category>
       <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 17:03:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 20:03:30 +0000</lastBuildDate>
     <item>
       <title>OpenAI expands partnership with Oracle to bring its apps to ChatGPT</title>
       <link>https://openai.com/index/oracle-apps-in-chatgpt</link>
@@ -16,6 +16,13 @@
       <guid isPermaLink="false">https://openai.com/index/oracle-apps-in-chatgpt</guid>
       <category>Company</category>
       <pubDate>Tue, 27 Oct 2026 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Check Point accelerates vulnerability research with Daybreak</title>
+      <link>https://openai.com/index/check-point-daybreak</link>
+      <description>With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.</description>
+      <guid isPermaLink="false">https://openai.com/index/check-point-daybreak</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Using Codex for education at Dagster Labs</title>
