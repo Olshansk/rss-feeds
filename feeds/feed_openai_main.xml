@@ -8,7 +8,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 23:04:31 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 00:11:52 +0000</lastBuildDate>
+    <item>
+      <title>Using Codex for education at Dagster Labs</title>
+      <link>https://developers.openai.com/blog/codex-for-documentation-dagster</link>
+      <description>Learn how Dagster uses Codex in their open-source projects to accelerate documentation, translate content across mediums, and even measure how complete their docs are.</description>
+      <guid isPermaLink="false">https://developers.openai.com/blog/codex-for-documentation-dagster</guid>
+      <category>Developer</category>
+      <category>Codex</category>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Greptile takes bug detection beyond code review with GPT-6 Astra</title>
       <link>https://openai.com/index/greptile-code-review-codex-astra</link>
@@ -5071,15 +5080,6 @@
       <link>https://openai.com/index/steuerrecht</link>
       <description>Steuerrecht.com uses ChatGPT Business to streamline legal workflows, automate tax research, and deliver faster, client-ready analysis for law firms.</description>
       <guid isPermaLink="false">https://openai.com/index/steuerrecht</guid>
-      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Using Codex for education at Dagster Labs</title>
-      <link>https://developers.openai.com/blog/codex-for-documentation-dagster</link>
-      <description>Learn how Dagster uses Codex in their open-source projects to accelerate documentation, translate content across mediums, and even measure how complete their docs are.</description>
-      <guid isPermaLink="false">https://developers.openai.com/blog/codex-for-documentation-dagster</guid>
-      <category>Developer</category>
-      <category>Codex</category>
       <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
