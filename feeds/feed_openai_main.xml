@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 00:11:52 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 16:05:17 +0000</lastBuildDate>
     <item>
       <title>Using Codex for education at Dagster Labs</title>
       <link>https://developers.openai.com/blog/codex-for-documentation-dagster</link>
@@ -95,6 +95,14 @@
       <description>OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.</description>
       <guid isPermaLink="false">https://openai.com/index/openai-nask-ai-safety-security-partnership</guid>
       <category>Global Affairs</category>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live</title>
+      <link>https://openai.com/index/anima</link>
+      <description>Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.</description>
+      <guid isPermaLink="false">https://openai.com/index/anima</guid>
+      <category>Startup</category>
       <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
