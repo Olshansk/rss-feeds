@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 23:03:31 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 11:03:49 +0000</lastBuildDate>
+    <item>
+      <title>Legora is building the agentic operating system for legal work</title>
+      <link>https://openai.com/index/legora-agentic-operating-system-for-legal-work</link>
+      <description>See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.</description>
+      <guid isPermaLink="false">https://openai.com/index/legora-agentic-operating-system-for-legal-work</guid>
+      <pubDate>Wed, 28 Oct 2026 09:30:00 +0000</pubDate>
+    </item>
     <item>
       <title>OpenAI expands partnership with Oracle to bring its apps to ChatGPT</title>
       <link>https://openai.com/index/oracle-apps-in-chatgpt</link>
