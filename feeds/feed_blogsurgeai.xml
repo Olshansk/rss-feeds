@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 20:03:02 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 16:03:29 +0000</lastBuildDate>
     <item>
       <title>DAYJOB: Tax — Benchmarking AI Agents on Professional Tax Work</title>
       <link>https://www.surgehq.ai/blog/dayjob-tax</link>
@@ -407,6 +407,13 @@
       <description>Data-centric AI requires radically rethinking the data that goes into your models. Surge AI provides data labelers with the skills you need to get context-sensitive labels.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/why-context-aware-datasets-are-crucial-for-data-centric-ai</guid>
       <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Surge Leaderboards Join the Fireworks Specialized Intelligence Index</title>
+      <link>https://www.surgehq.ai/blog/fireworks-specialized-intelligence-index</link>
+      <description>Six Surge benchmarks are now part of the Fireworks Specialized Intelligence Index, measuring how models perform against the demands of real professional work.</description>
+      <guid isPermaLink="false">https://www.surgehq.ai/blog/fireworks-specialized-intelligence-index</guid>
+      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
