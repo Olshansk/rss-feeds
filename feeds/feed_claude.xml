@@ -8,12 +8,28 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Oct 2026 16:03:33 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 18:04:29 +0000</lastBuildDate>
+    <item>
+      <title>Smart reports, surveys, and pooled group budgets for Claude Enterprise</title>
+      <link>https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets</link>
+      <description>In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.</description>
+      <guid isPermaLink="false">https://claude.com/blog/smart-reports-surveys-pooled-budgets</guid>
+      <category>Product announcements</category>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Introducing artifacts for legal work</title>
       <link>https://claude.com/resources/articles/introducing-artifacts-for-legal-work</link>
       <description>Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.</description>
       <guid isPermaLink="false">https://claude.com/blog/introducing-artifacts-for-legal-work</guid>
+      <category>Product announcements</category>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>IDC brings Quanta into Claude and adopts Claude across the company</title>
+      <link>https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company</link>
+      <description>IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business</description>
+      <guid isPermaLink="false">https://claude.com/blog/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company</guid>
       <category>Product announcements</category>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
     </item>

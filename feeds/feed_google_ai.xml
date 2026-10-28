@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 18:04:54 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 18:04:53 +0000</lastBuildDate>
+    <item>
+      <title>Hill-Climbing Agent Quality with Agents CLI Evaluation</title>
+      <link>https://developers.googleblog.com/hill-climbing-agent-quality-with-agents-cli-evaluation/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/1_3.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;This post walks through the Agents CLI evaluation loop for systematically improving agent performance through continuous testing and grading. It demonstrates how to catch prompt regressions, evaluate model backend swaps using side-by-side trace comparisons, and automate evaluation passes. Developers will also learn how to integrate nightly scheduled runs with threshold-based alerting to track quality over time.</description>
+      <guid isPermaLink="false">https://developers.googleblog.com/hill-climbing-agent-quality-with-agents-cli-evaluation/</guid>
+      <category>AI</category>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Fast, reliable A2UI, with swappable inference formats</title>
       <link>https://developers.googleblog.com/fast-reliable-a2ui/</link>
@@ -72,14 +80,6 @@
       <guid isPermaLink="false">https://developers.googleblog.com/announcing-new-vllm-and-sglang-inference-engines-on-tpu/</guid>
       <category>AI</category>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Step by Step guide: Build a Voice Agent That Never Goes Silent using ADK</title>
-      <link>https://developers.googleblog.com/step-by-step-guide-build-a-voice-agent-that-never-goes-silent-using-adk/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/option4_minimal_flow_diagram_1600x.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;The open-source Agent Development Kit (ADK) and gemini-3.8-live enable developers to build responsive voice agents by implementing non-blocking tools in Python. Developers can use streaming tools to yield progress updates or background execution patterns to keep conversations fluid during long-running backend queries. Additionally, configuring response scheduling behaviors such as WHEN_IDLE, INTERRUPT, or SILENT gives developers precise control over when and how tool results are delivered into the conversation.</description>
-      <guid isPermaLink="false">https://developers.googleblog.com/step-by-step-guide-build-a-voice-agent-that-never-goes-silent-using-adk/</guid>
-      <category>AI</category>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Native Model Authoring for Edge with LiteRT Tensor API</title>
