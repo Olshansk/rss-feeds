@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>The Cohere Blog</title>
@@ -13,7 +13,7 @@
       <link>https://cohere.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 15:28:10 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 19:03:31 +0000</lastBuildDate>
     <item>
       <title>PitchBook in North: Private market intelligence for enterprise teams</title>
       <link>https://cohere.com/blog/pitchbook-integration</link>
@@ -41,7 +41,7 @@
     <item>
       <title>Inside Cohere Model Vault: Building a verifiable confidential AI inference</title>
       <link>https://cohere.com/blog/inside-cohere-model-vault-building-verifiable-confidential-ai-inference</link>
-      <description>How Model Vault combines confidential CPU and GPU execution, end-to-end encrypted request contents, and remote attestation to protect sensitive AI workloads while they are being processed.</description>
+      <description>Inside Cohere Model Vault: Building a verifiable confidential AI inference</description>
       <guid isPermaLink="false">https://cohere.com/blog/inside-cohere-model-vault-building-verifiable-confidential-ai-inference</guid>
       <category>Blog</category>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
