@@ -13,7 +13,7 @@
       <link>https://ollama.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Oct 2026 05:04:35 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 00:09:25 +0000</lastBuildDate>
     <item>
       <title>Speech models in Ollama</title>
       <link>https://ollama.com/blog/speech-models</link>
@@ -31,7 +31,7 @@
     <item>
       <title>Reflection's Beam is freely available on Ollama for a limited time</title>
       <link>https://ollama.com/blog/reflection-beam</link>
-      <description>Reflection's first open-weight model is now available on Ollama, and free for a limited time only. Beam is designed for software engineering, reasoning, and long-running agentic tasks. Access Beam through Ollama Cloud.</description>
+      <description>Reflection's first open-weight model is now available on Ollama, and free for a limited time only. Beam is designed for software engineering, reasoning, and long-running agentic tasks. Access Beam through Ollama's cloud.</description>
       <guid isPermaLink="false">https://ollama.com/blog/reflection-beam</guid>
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
     </item>
