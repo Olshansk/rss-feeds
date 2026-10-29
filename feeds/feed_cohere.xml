@@ -13,7 +13,15 @@
       <link>https://cohere.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 00:09:39 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 16:04:20 +0000</lastBuildDate>
+    <item>
+      <title>Who Gets to Build the Frontier for AI</title>
+      <link>https://cohere.com/blog/who-gets-to-build-the-frontier-for-ai</link>
+      <description>Why the democratic world needs more frontier AI builders and how we intend to compete.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/who-gets-to-build-the-frontier-for-ai</guid>
+      <category>Blog</category>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Build a Financial Research Assistant with Cohere AI on AWS</title>
       <link>https://cohere.com/blog/financial-research-assistant-cohere-aws</link>
@@ -33,7 +41,7 @@
     <item>
       <title>Concerning behavior from a popular open-weight AI model</title>
       <link>https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model</link>
-      <description>Inside a closed testing sandbox managed by Cohere, one of Alibaba's newest Qwen3.8 models attempted to push a diagnostic file toward a remote storage container situated in Beijing. Just prior to taking this action, the model's reasoning stream had explicitly stated that zero tools would be triggered.</description>
+      <description>Concerning behavior from a popular open-weight AI model</description>
       <guid isPermaLink="false">https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model</guid>
       <category>Blog</category>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
