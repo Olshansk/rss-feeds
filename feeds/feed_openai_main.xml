@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Oct 2026 21:03:34 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 17:03:36 +0000</lastBuildDate>
+    <item>
+      <title>How we detect frontier model misalignment</title>
+      <link>https://openai.com/index/how-we-detect-frontier-model-misalignment</link>
+      <description>OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.</description>
+      <guid isPermaLink="false">https://openai.com/index/how-we-detect-frontier-model-misalignment</guid>
+      <category>Security</category>
+      <pubDate>Thu, 29 Oct 2026 09:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>OpenAI and ServiceNow expand partnership across enterprise workflows</title>
       <link>https://openai.com/index/openai-servicenow-partnership-expansion</link>
