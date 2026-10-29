@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 17:04:50 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 14:04:16 +0000</lastBuildDate>
+    <item>
+      <title>Le Chonk: Built for Coders, Trusted by Defenders.</title>
+      <link>https://mistral.ai/news/mistral-large-4-oss</link>
+      <description>The weights of Mistral Large 4 (Le Chonk) are now open. A 1T parameter multimodal model, and best open-weight model for coding, trained in Europe.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/mistral-large-4-oss/</guid>
+      <category>News</category>
+      <pubDate>Thu, 29 Oct 2026 12:00:07 +0000</pubDate>
+    </item>
     <item>
       <title>Mistral Advances AI for Engineering with NVIDIA</title>
       <link>https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering</link>
