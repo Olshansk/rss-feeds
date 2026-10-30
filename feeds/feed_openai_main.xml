@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Oct 2026 19:02:50 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 22:03:29 +0000</lastBuildDate>
     <item>
       <title>Making it easier for websites to express AI training preferences</title>
       <link>https://openai.com/index/helping-websites-express-ai-training-preferences</link>
@@ -24,6 +24,14 @@
       <guid isPermaLink="false">https://openai.com/index/community-safety-report-and-new-protections-for-teens</guid>
       <category>Safety</category>
       <pubDate>Fri, 30 Oct 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fair use benefits everyone</title>
+      <link>https://openai.com/index/fair-use-benefits-everyone</link>
+      <description>OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.</description>
+      <guid isPermaLink="false">https://openai.com/index/fair-use-benefits-everyone</guid>
+      <category>Company</category>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>An updated Model Spec for more capable and beneficial AI</title>
