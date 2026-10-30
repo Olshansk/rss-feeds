@@ -8,7 +8,49 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 23:04:21 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 21:02:48 +0000</lastBuildDate>
+    <item>
+      <title>Native Geometry vs. Linear Recoverability: How Alignment Changes Platonic Scaling</title>
+      <link>https://arxiv.org/abs/2610.22749</link>
+      <description>Hoy, Lutterbach, Chong, Kumar, Smith</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2610.22749</guid>
+      <pubDate>Thu, 15 Oct 2026 23:38:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>No Single Tokenizer Feature Reliably Predicts Downstream Language Model Performance</title>
+      <link>https://arxiv.org/abs/2610.21679</link>
+      <description>Lopardo, Frentzen Salim, Srivastava, Jiang, Sharma, and Arnett</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2610.21679</guid>
+      <pubDate>Thu, 15 Oct 2026 11:05:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Shared Geometry Is Not Shared Physics: A Layerwise Test of the Platonic Representation Hypothesis in Astronomy</title>
+      <link>https://arxiv.org/abs/2610.04130</link>
+      <description>Duraphe, Kannappan, Chan, Famutimi, Ejjagiri, Smith, and Wu</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2610.04130</guid>
+      <pubDate>Fri, 02 Oct 2026 23:06:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Unequal Influence of Bad Advice: Using Training Data Attribution to Modulate Emergent Misalignment</title>
+      <link>https://arxiv.org/abs/2609.37914</link>
+      <description>Paulo, Jaburi, Belrose, Quirke, and Biderman</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2609.37914</guid>
+      <pubDate>Tue, 29 Sep 2026 16:08:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Beetle: Structured Exposure Pretraining in Bilingual Language Models for Modelling L2 Language Processing</title>
+      <link>https://arxiv.org/abs/2609.22633</link>
+      <description>Salhan, Arnett, Michaelov, and Buttery</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2609.22633</guid>
+      <pubDate>Fri, 18 Sep 2026 22:48:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can Data Attribution Filter Out Subliminal Learning? Not Reliably</title>
+      <link>https://arxiv.org/abs/2609.20027</link>
+      <description>Weckbecker, Jena, Müller, Kumaraguru, Lapuschkin, Samek, Jaburi, and Paulo</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2609.20027</guid>
+      <pubDate>Thu, 17 Sep 2026 10:34:18 +0000</pubDate>
+    </item>
     <item>
       <title>PACT: Can Enterprise AI Assistants Be Trusted Under Pressure?</title>
       <link>https://arxiv.org/abs/2609.18605</link>
@@ -22,6 +64,13 @@
       <description>Singh, Yadavalli, Arnett, and Warstadt</description>
       <guid isPermaLink="false">https://arxiv.org/abs/2609.09554</guid>
       <pubDate>Wed, 09 Sep 2026 00:18:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Last Translation Benchmark</title>
+      <link>https://arxiv.org/abs/2609.04173</link>
+      <description>Zouhar and 259 others</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2609.04173</guid>
+      <pubDate>Thu, 03 Sep 2026 17:54:45 +0000</pubDate>
     </item>
     <item>
       <title>Agent Memory Is a Surface for Endogenous Authorization Laundering</title>
@@ -166,7 +215,7 @@
     <item>
       <title>Quantifying the Effect of Test Set Contamination on Generative Evaluations</title>
       <link>https://arxiv.org/abs/2601.04301</link>
-      <description>Schaeffer, Kazdan, Abbasi, Liu, Miranda, Ahmed, Puri, Mireshghallah, and Koyejo</description>
+      <description>Schaeffer, Kazdan, Abbasi, Liu, Miranda, Ahmed, Berez, Puri, Biderman, Mireshghallah, and Koyejo</description>
       <guid isPermaLink="false">https://arxiv.org/abs/2601.04301</guid>
       <pubDate>Wed, 07 Jan 2026 18:46:22 +0000</pubDate>
     </item>
@@ -180,7 +229,7 @@
     <item>
       <title>What AI Governance Needs from Mechanistic Auditing</title>
       <link>https://openreview.net/forum?id=3Vj7YtFlAm</link>
-      <description>Barez, Mireshghallah, Osborne, Biderman. Lazar, Trager (Source provides publication year 2026 only; January 1 represents that year.)</description>
+      <description>Barez, Mireshghallah, Osborne, Biderman, Lazar, Trager (Source provides publication year 2026 only; January 1 represents that year.)</description>
       <guid isPermaLink="false">https://openreview.net/forum?id=3Vj7YtFlAm</guid>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
     </item>
@@ -234,7 +283,7 @@
       <pubDate>Mon, 03 Nov 2025 15:26:01 +0000</pubDate>
     </item>
     <item>
-      <title>Benchmark Disaggregation Improves Interpretability of Training Dynamics</title>
+      <title>Disaggregation Reveals Hidden Training Dynamics: The Case of Agreement Attraction</title>
       <link>https://arxiv.org/abs/2510.24934</link>
       <description>Michaelov and Arnett</description>
       <guid isPermaLink="false">https://arxiv.org/abs/2510.24934</guid>
@@ -402,7 +451,7 @@
       <pubDate>Mon, 03 Feb 2025 03:54:41 +0000</pubDate>
     </item>
     <item>
-      <title>Can We Partially Rewrite Transformers in Natural Language?</title>
+      <title>Partially Rewriting a Transformer in Natural Language</title>
       <link>https://arxiv.org/abs/2501.18838</link>
       <description>Paulo and Belrose</description>
       <guid isPermaLink="false">https://arxiv.org/abs/2501.18838</guid>
@@ -764,6 +813,13 @@
       <description>Anthony, Hatef, Narayanan, Biderman, Bekman, Yin, Shafi, Subramoni, and Panda</description>
       <guid isPermaLink="false">https://arxiv.org/abs/2401.14489</guid>
       <pubDate>Thu, 25 Jan 2024 19:50:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Transformer-Based Models Are Not Yet Perfect At Learning to Emulate Structural Recursion</title>
+      <link>https://arxiv.org/abs/2401.12947</link>
+      <description>Zhang, Tigges, Zhang, Biderman, Raginsky, and Ringer</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2401.12947</guid>
+      <pubDate>Tue, 23 Jan 2024 18:07:38 +0000</pubDate>
     </item>
     <item>
       <title>Scalable High-Resolution Pixel-Space Image Synthesis with Hourglass Diffusion Transformers</title>
