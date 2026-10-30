@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 13:32:32 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 09:05:01 +0000</lastBuildDate>
     <item>
       <title>Deprecating the GraphQL API: timeline and migration paths</title>
       <link>https://weaviate.io/blog/graphql-api-deprecation</link>
@@ -29,6 +29,13 @@
       <description>Weaviate v1.39.3 fixes a medium-severity authorization issue in the nearObject GraphQL operator.</description>
       <guid isPermaLink="false">https://weaviate.io/blog/weaviate-security-release-nearobject-2026</guid>
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Weaviate 1.40 Release</title>
+      <link>https://weaviate.io/blog/weaviate-1-40-release</link>
+      <description>Weaviate 1.40 makes dropping a named vector and 4-bit Rotational Quantization GA, adds multi-vector embeddings on HFresh and PathSeer filtering, and changes vector configuration defaults.</description>
+      <guid isPermaLink="false">https://weaviate.io/blog/weaviate-1-40-release</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>PathSeer: Adaptive Filtered Vector Search</title>
