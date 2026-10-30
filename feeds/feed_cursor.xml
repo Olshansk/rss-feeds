@@ -13,9 +13,9 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Oct 2026 08:04:47 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 19:02:42 +0000</lastBuildDate>
     <item>
-      <title>Security notice — malicious version of Anthropic.claude-code (2.1.313) identified in the Cursor Extension Marketplace</title>
+      <title>Security notice — malicious version of Anthropic.claude-code (2.1.312 and 2.1.313) identified in the Cursor VS Code Extension Marketplace</title>
       <link>https://cursor.com/blog/claude-code-extension-security-notice</link>
       <guid isPermaLink="false">https://cursor.com/blog/claude-code-extension-security-notice</guid>
       <category>company</category>

@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Oct 2026 17:03:15 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 19:02:50 +0000</lastBuildDate>
+    <item>
+      <title>Making it easier for websites to express AI training preferences</title>
+      <link>https://openai.com/index/helping-websites-express-ai-training-preferences</link>
+      <description>OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.</description>
+      <guid isPermaLink="false">https://openai.com/index/helping-websites-express-ai-training-preferences</guid>
+      <category>Company</category>
+      <pubDate>Fri, 30 Oct 2026 09:30:00 +0000</pubDate>
+    </item>
     <item>
       <title>Community safety report and new protections for teens</title>
       <link>https://openai.com/index/community-safety-report-and-new-protections-for-teens</link>
