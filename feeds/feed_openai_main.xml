@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 18:05:18 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 16:03:42 +0000</lastBuildDate>
     <item>
       <title>An updated Model Spec for more capable and beneficial AI</title>
       <link>https://openai.com/index/updated-model-spec</link>
@@ -31,6 +31,13 @@
       <description>Ropes &amp; Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.</description>
       <guid isPermaLink="false">https://openai.com/index/ropes-gray-ai-diligence</guid>
       <pubDate>Thu, 29 Oct 2026 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot</title>
+      <link>https://openai.com/index/credit-saison</link>
+      <description>Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.</description>
+      <guid isPermaLink="false">https://openai.com/index/credit-saison</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>OpenAI and ServiceNow expand partnership across enterprise workflows</title>
