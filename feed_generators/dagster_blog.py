@@ -27,9 +27,22 @@ FEED_NAME = "dagster"
 
 
 def parse_posts(html_content):
-    """Read semantic blog cards and the optional Webflow pagination link."""
-    posts = parse_dated_cards(html_content, ".featured_blog_link, .blog_card", BLOG_URL)
-    next_link = BeautifulSoup(html_content, "html.parser").select_one("a.w-pagination-next[href]")
+    """Read current and legacy blog cards with their optional pagination link.
+
+    How:
+    1. Select semantic articles and legacy Webflow cards.
+    2. Reject missing titles or links, then parse dates and deduplicate cards.
+    3. Retain the optional Webflow next-page link.
+    """
+    soup = BeautifulSoup(html_content, "html.parser")
+    selector = ".featured_blog_link, .blog_card, article"
+    for card in soup.select(selector):
+        heading = card.select_one("h1, h2, h3, h4")
+        anchor = card.select_one("a[href]")
+        if not heading or not heading.get_text(strip=True) or not anchor or not anchor["href"].strip():
+            raise ValueError("Malformed Dagster article card: missing title or link")
+    posts = parse_dated_cards(html_content, selector, BLOG_URL)
+    next_link = soup.select_one("a.w-pagination-next[href]")
     return posts, next_link.get("href") if next_link else None
 
 
