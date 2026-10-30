@@ -13,7 +13,7 @@
       <link>https://cohere.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Oct 2026 14:04:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 15:03:34 +0000</lastBuildDate>
     <item>
       <title>Cohere advances C$4 billion commitment to strengthen Canada’s AI leadership and significantly expand its national workforce</title>
       <link>https://cohere.com/blog/cohere-canada-commitment</link>
@@ -455,14 +455,6 @@
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>AI governance challenges: How to support safe, scalable AI adoption</title>
-      <link>https://cohere.com/blog/iso-42001-and-iso-27001-certifications</link>
-      <description>AI governance challenges: How to support safe, scalable AI adoption</description>
-      <guid isPermaLink="false">https://cohere.com/blog/iso-42001-and-iso-27001-certifications</guid>
-      <category>Blog</category>
-      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>What is Model Context Protocol? A practical guide to MCP</title>
       <link>https://cohere.com/blog/guide-to-mcp</link>
       <description>What is Model Context Protocol? A practical guide to MCP</description>
@@ -901,6 +893,14 @@
       <guid isPermaLink="false">https://cohere.com/blog/secure-ai-to-critical-systems</guid>
       <category>Blog</category>
       <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cohere achieves ISO 42001 and ISO 27001 certifications</title>
+      <link>https://cohere.com/blog/iso-42001-and-iso-27001-certifications</link>
+      <description>Cohere achieves ISO 42001 and ISO 27001 certifications</description>
+      <guid isPermaLink="false">https://cohere.com/blog/iso-42001-and-iso-27001-certifications</guid>
+      <category>Blog</category>
+      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Enterprise AI security challenges and solutions</title>
