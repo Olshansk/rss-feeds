@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 15:29:17 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 16:05:35 +0000</lastBuildDate>
+    <item>
+      <title>Hierarchical budgets: manage AI spend the way your company is organized</title>
+      <link>https://devin.ai/blog/hierarchical-budgets</link>
+      <description>Hierarchical budgets let enterprise admins allocate ACU budgets to department leaders, who can distribute and approve usage limits for their own sub-teams, projects, and users.</description>
+      <guid isPermaLink="false">https://devin.ai/blog/hierarchical-budgets</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Devin Security 2.0: Built for the new threat landscape</title>
       <link>https://devin.ai/blog/devin-security-2</link>
