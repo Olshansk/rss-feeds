@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 18:03:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 20:03:52 +0000</lastBuildDate>
     <item>
       <title>Introducing the Grid Protectors Program</title>
       <link>https://openai.com/index/grid-protectors-program</link>
@@ -24,6 +24,14 @@
       <guid isPermaLink="false">https://openai.com/index/lifeval</guid>
       <category>Research</category>
       <pubDate>Mon, 02 Nov 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Qodo builds context into AI code review with Codex</title>
+      <link>https://openai.com/index/qodo-codex-plugin</link>
+      <description>Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.</description>
+      <guid isPermaLink="false">https://openai.com/index/qodo-codex-plugin</guid>
+      <category>Startup</category>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Making it easier for websites to express AI training preferences</title>
