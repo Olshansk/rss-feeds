@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 00:08:54 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 01:03:55 +0000</lastBuildDate>
     <item>
       <title>Scaling Git at OpenAI</title>
       <link>https://openai.com/index/scaling-git-at-openai</link>
@@ -39,6 +39,14 @@
       <description>Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.</description>
       <guid isPermaLink="false">https://openai.com/index/qodo-codex-plugin</guid>
       <category>Startup</category>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization</title>
+      <link>https://openai.com/index/dan-driscoll-joins-openai</link>
+      <description>OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.</description>
+      <guid isPermaLink="false">https://openai.com/index/dan-driscoll-joins-openai</guid>
+      <category>Company</category>
       <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -364,7 +372,7 @@
     <item>
       <title>How Itaú is building generative AI for its entire customer base</title>
       <link>https://openai.com/index/itau-generative-ai</link>
-      <description>With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.</description>
+      <description>With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees—in one of Brazil’s most regulated sectors.</description>
       <guid isPermaLink="false">https://openai.com/index/itau-generative-ai</guid>
       <pubDate>Fri, 16 Oct 2026 19:00:00 +0000</pubDate>
     </item>
