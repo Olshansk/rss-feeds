@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 11:03:17 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 19:03:22 +0000</lastBuildDate>
+    <item>
+      <title>Accelerating engineering for the physical world</title>
+      <link>https://openai.com/index/accelerating-engineering-for-the-physical-world</link>
+      <description>Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.</description>
+      <guid isPermaLink="false">https://openai.com/index/accelerating-engineering-for-the-physical-world</guid>
+      <category>Research</category>
+      <pubDate>Tue, 03 Nov 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Heimstaden is changing residential real estate management with AI</title>
       <link>https://openai.com/index/heimstaden</link>

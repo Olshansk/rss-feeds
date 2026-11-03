@@ -13,7 +13,15 @@
       <link>https://cohere.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Oct 2026 15:03:34 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 19:03:13 +0000</lastBuildDate>
+    <item>
+      <title>The world's leading open models, fully under your control</title>
+      <link>https://cohere.com/blog/open-source-model-vault</link>
+      <description>The right model for the right job, all under your jurisdiction.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/open-source-model-vault</guid>
+      <category>Blog</category>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Cohere advances C$4 billion commitment to strengthen Canada’s AI leadership and significantly expand its national workforce</title>
       <link>https://cohere.com/blog/cohere-canada-commitment</link>
@@ -25,7 +33,7 @@
     <item>
       <title>Who Gets to Build the Frontier for AI</title>
       <link>https://cohere.com/blog/who-gets-to-build-the-frontier-for-ai</link>
-      <description>Why the democratic world needs more frontier AI builders and how we intend to compete.</description>
+      <description>Who Gets to Build the Frontier for AI</description>
       <guid isPermaLink="false">https://cohere.com/blog/who-gets-to-build-the-frontier-for-ai</guid>
       <category>Blog</category>
       <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
