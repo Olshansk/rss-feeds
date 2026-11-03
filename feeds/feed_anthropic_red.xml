@@ -13,7 +13,14 @@
       <link>https://www.anthropic.com/research/team/frontier-red-team</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 19:02:51 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 05:03:02 +0000</lastBuildDate>
+    <item>
+      <title>Progress on provable inference for large language models</title>
+      <link>https://www.anthropic.com/research/provable-inference</link>
+      <description>Progress on provable inference for large language models</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/provable-inference</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Discovering and exploiting vulnerabilities in critical, real-world software with Claude</title>
       <link>https://www.anthropic.com/research/discovering-vulnerabilities-with-claude</link>
