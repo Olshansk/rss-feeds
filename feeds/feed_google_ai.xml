@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 19:03:04 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 18:04:09 +0000</lastBuildDate>
+    <item>
+      <title>Cost per task: Using cheap classifiers to route across Gemini models and thinking levels</title>
+      <link>https://developers.googleblog.com/cost-per-task-using-cheap-classifiers-to-route-across-gemini-models-and-thinking-levels/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image3_1.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Per-token API prices keep falling, yet engineering bills for autonomous coding agents keep climbing....</description>
+      <guid isPermaLink="false">https://developers.googleblog.com/cost-per-task-using-cheap-classifiers-to-route-across-gemini-models-and-thinking-levels/</guid>
+      <category>AI</category>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Build Generative UI Apps with A2UI &amp; CopilotKit Agents</title>
       <link>https://developers.googleblog.com/build-generative-ui-apps-with-a2ui-copilotkit-agents/</link>
@@ -79,14 +87,6 @@
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_8zpqf88zpqf.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Google AI Edge Model Explorer now supports custom compiler intermediate representations and open-source adapters like TOSA, VGF, and PTE for on-device machine learning. Developers can leverage hierarchical graph visualization, split-pane views, and per-node trace overlays to catch export regressions and verify hardware delegation. These tools enable engineering teams to transparently debug execution graphs and pinpoint cycle-level latency bottlenecks locally.</description>
       <guid isPermaLink="false">https://developers.googleblog.com/bringing-visual-graph-debugging-to-custom-edge-compilers-with-model-explorer/</guid>
       <category>Mobile</category>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Announcing New vLLM and SGLang Inference Engines on TPU</title>
-      <link>https://developers.googleblog.com/announcing-new-vllm-and-sglang-inference-engines-on-tpu/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/inferenceblog.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;This post announces native PyTorch backends for vLLM and SGLang powered by TorchTPU, enabling developers to run and optimize serving workloads using familiar PyTorch tools. Built in collaboration with open-source project maintainers, these engines include optimized TPU kernel implementations, production-ready features like KV cache management with TPU Sync, and disaggregated serving. Public benchmarks demonstrate state-of-the-art performance and industry-leading cost efficiency on Ironwood TPU across long-context and agentic workloads.</description>
-      <guid isPermaLink="false">https://developers.googleblog.com/announcing-new-vllm-and-sglang-inference-engines-on-tpu/</guid>
-      <category>AI</category>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
