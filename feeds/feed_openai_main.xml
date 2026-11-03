@@ -8,7 +8,23 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 01:03:55 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 03:03:36 +0000</lastBuildDate>
+    <item>
+      <title>Rewarding defenders with bigger bug bounties</title>
+      <link>https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties</link>
+      <description>OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.</description>
+      <guid isPermaLink="false">https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties</guid>
+      <category>Security</category>
+      <pubDate>Mon, 02 Nov 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Preparing our next security sprint to harden OpenAI</title>
+      <link>https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai</link>
+      <description>OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.</description>
+      <guid isPermaLink="false">https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai</guid>
+      <category>Security</category>
+      <pubDate>Mon, 02 Nov 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Scaling Git at OpenAI</title>
       <link>https://openai.com/index/scaling-git-at-openai</link>
