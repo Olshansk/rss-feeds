@@ -13,7 +13,15 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 11:33:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 20:34:24 +0000</lastBuildDate>
+    <item>
+      <title>Investigating vault particles with Claude</title>
+      <link>https://www.anthropic.com/research/investigating-vault-particles-with-claude</link>
+      <description>We’re sharing another finding from Anthropic’s biology research lab: the first 3D structure of a vault particle found in prokaryotic cells. Here, we describe how Claude helped at each step of this research.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/investigating-vault-particles-with-claude</guid>
+      <category>Research</category>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Progress on provable inference for large language models</title>
       <link>https://www.anthropic.com/research/provable-inference</link>
