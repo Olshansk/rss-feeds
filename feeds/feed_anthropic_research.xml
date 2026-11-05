@@ -13,7 +13,15 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Nov 2026 20:34:24 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 15:34:41 +0000</lastBuildDate>
+    <item>
+      <title>AI for scientific discovery: How researchers use Claude</title>
+      <link>https://www.anthropic.com/research/how-researchers-use-claude</link>
+      <description>In this report, we use privacy-preserving infrastructure to study the scientific use of Claude, Claude Code, and Claude Science. We document how usage varies across scientific fields and research tasks, identify what explains these usage patterns, and outline scenarios for how AI could accelerate research.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/how-researchers-use-claude</guid>
+      <category>Research</category>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Investigating vault particles with Claude</title>
       <link>https://www.anthropic.com/research/investigating-vault-particles-with-claude</link>
