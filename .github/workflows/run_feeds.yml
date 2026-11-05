@@ -67,5 +67,5 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m 'Update RSS feeds'
-            git push || { git pull --rebase && git push; }
+            git push || { git pull --rebase --autostash && git push; }
           fi

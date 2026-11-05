@@ -120,6 +120,8 @@ Do not infer content equivalence from matching feed counts or from rerunning the
 
 ## Repair history and exclusions
 
+- November 5: preserve unstaged tracked cache changes during the HTTP and Selenium publication push retry with Git autostash. HTTP attempt `42061001286:1` generated all 28 feeds, but GitHub rejected the push with `fatal error in commit_refs`; the retry then failed because the Cursor cache was dirty. Local Git integration checks cover transient and persistent remote rejection and concurrent publication, retaining cache changes and both publishers' commits. A failed publication is not a successful refresh; require fresh scheduled runs after deployment.
+
 - October 30: repaired Dagster after its redesign removed the Webflow card classes. Read semantic article containers while retaining legacy cards and pagination; reject cards missing titles or links before publication. Live full and incremental validation matched 176 source entries and preserved all 190 published entries byte-for-byte, including cache writes. Scheduled HTTP attempt `41077053480:1` failed only Dagster; this repair resets the clean window and requires new scheduled HTTP and Selenium success. All three exclusions remain paused.
 
 - October 26: bind Selenium CI to the matching Chrome and ChromeDriver paths installed by `setup-chrome`. Attempt `40302660499:1` failed Anthropic News with ChromeDriver 156 against preinstalled Chrome 155; Meta AI also failed to connect to Chrome. Probe the explicitly selected browser and fail before startup if its version is unavailable. Offline tests cover the path/version pairing and failed detection; actual transport recovery still requires a successful scheduled Selenium run. Preserve all existing feed exclusions.
