@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 16:05:35 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 18:04:37 +0000</lastBuildDate>
+    <item>
+      <title>Devin Review 2.0</title>
+      <link>https://devin.ai/blog/devin-review-2</link>
+      <description>Since August, we’ve cut the cost of reviewing a PR by 82%. Devin Review is now cheap and effective enough to run on every PR.</description>
+      <guid isPermaLink="false">https://devin.ai/blog/devin-review-2</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Hierarchical budgets: manage AI spend the way your company is organized</title>
       <link>https://devin.ai/blog/hierarchical-budgets</link>

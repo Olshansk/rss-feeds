@@ -2,13 +2,41 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>Transluce - Research</title>
-    <link>https://transluce.org/news</link>
+    <link>https://transluce.org/research</link>
     <description>Research updates from Transluce</description>
     <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_transluce.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 23:04:55 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 18:04:28 +0000</lastBuildDate>
+    <item>
+      <title>Mass Producing Training Data with Surprising Side Effects</title>
+      <link>https://transluce.org/mass-producing-dsses</link>
+      <description>Mass Producing Training Data with Surprising Side Effects</description>
+      <guid isPermaLink="false">https://transluce.org/mass-producing-dsses</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agents circumventing website restrictions for public benchmark runs</title>
+      <link>https://transluce.org/investigations/blog/public-benchmark-runs</link>
+      <description>MiniMax M3/M2.7, GLM 5/5.2, and Grok 4.5 attempted EPA registration and bot-check bypasses during benchmark runs; no successful bypass established.</description>
+      <guid isPermaLink="false">https://transluce.org/investigations/blog/public-benchmark-runs</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Potential new task behavior: historical-newspaper searches through urlquery</title>
+      <link>https://transluce.org/investigations/blog/historical-newspaper-searches</link>
+      <description>A possible new agent task: searching historical newspapers through urlquery across five archives. Model and operator unknown.</description>
+      <guid isPermaLink="false">https://transluce.org/investigations/blog/historical-newspaper-searches</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Answering a Humanity's Last Exam question with code spread across dozens of separate URLs</title>
+      <link>https://transluce.org/investigations/blog/erroll-garner</link>
+      <description>Two workflows used public web services to analyze an Erroll Garner recording for Humanity’s Last Exam; one split code across 42 URLs. Model and operator unknown.</description>
+      <guid isPermaLink="false">https://transluce.org/investigations/blog/erroll-garner</guid>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Agents Targeted U.S. and Canadian Government Websites</title>
       <link>https://transluce.org/us-canada-gov</link>
@@ -59,7 +87,7 @@
       <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Measuring Coding Agent Misalignment in the Wild</title>
+      <title>Measuring coding agent misalignment in the wild</title>
       <link>https://transluce.org/docent/blog/coding-agent-behaviors</link>
       <description>Surfacing misaligned behaviors in production coding agent traffic</description>
       <guid isPermaLink="false">https://transluce.org/docent/blog/coding-agent-behaviors</guid>
@@ -96,7 +124,7 @@
     <item>
       <title>Building Technology to Drive AI Governance</title>
       <link>https://transluce.org/building-technology-to-drive-ai-governance</link>
-      <description>Building Technology to Drive AI Governance</description>
+      <description>Technically skilled people who care about AI going well often ask me: how should I spend my time if I think AI governance is important?</description>
       <guid isPermaLink="false">https://transluce.org/building-technology-to-drive-ai-governance</guid>
       <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
     </item>
@@ -145,7 +173,7 @@
     <item>
       <title>Monitoring SWE-bench Agents</title>
       <link>https://transluce.org/docent/blog/swe-bench</link>
-      <description>Partnering with SWE-bench to enable reliable monitoring of AI coding agents</description>
+      <description>We're partnering with SWE-Bench to enable scalable analysis of agent transcripts.</description>
       <guid isPermaLink="false">https://transluce.org/docent/blog/swe-bench</guid>
       <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
     </item>
