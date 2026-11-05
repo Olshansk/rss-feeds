@@ -120,6 +120,8 @@ Do not infer content equivalence from matching feed counts or from rerunning the
 
 ## Repair history and exclusions
 
+- November 5: Transluce redirected its old news listing to press coverage. Read the Research, Docent, and Governance listings, retaining the feed's internal-article scope and historical GUIDs. Support semantic article cards and linked Docent cards; reject a missing listing or malformed title/link/date before writing. HTTP attempt `42070689687:1` failed only Transluce; the other 27 generators passed and publication succeeded, including the previously delayed Mistral entry.
+
 - November 5: preserve unstaged tracked cache changes during the HTTP and Selenium publication push retry with Git autostash. HTTP attempt `42061001286:1` generated all 28 feeds, but GitHub rejected the push with `fatal error in commit_refs`; the retry then failed because the Cursor cache was dirty. Local Git integration checks cover transient and persistent remote rejection and concurrent publication, retaining cache changes and both publishers' commits. A failed publication is not a successful refresh; require fresh scheduled runs after deployment.
 
 - October 30: repaired Dagster after its redesign removed the Webflow card classes. Read semantic article containers while retaining legacy cards and pagination; reject cards missing titles or links before publication. Live full and incremental validation matched 176 source entries and preserved all 190 published entries byte-for-byte, including cache writes. Scheduled HTTP attempt `41077053480:1` failed only Dagster; this repair resets the clean window and requires new scheduled HTTP and Selenium success. All three exclusions remain paused.

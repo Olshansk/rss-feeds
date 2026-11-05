@@ -1,6 +1,6 @@
 """Generate an RSS feed for Transluce's research listing.
 
-https://transluce.org/news
+https://transluce.org/research
 
 Static Next.js article links include h3 titles, descriptions, and publication dates.
 """
@@ -8,12 +8,13 @@ Static Next.js article links include h3 titles, descriptions, and publication da
 import argparse
 import re
 from datetime import datetime
+from urllib.parse import urljoin, urlsplit
 
 import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
-from feed_history import merge_feed_history
+from feed_history import load_feed_history, merge_feed_history
 from utils import (
     fetch_page,
     save_rss_feed,
@@ -26,7 +27,8 @@ logger = setup_logging()
 
 BASE_URL = "https://transluce.org"
 FEED_NAME = "transluce"
-BLOG_URL = f"{BASE_URL}/news"
+BLOG_URL = f"{BASE_URL}/research"
+LISTING_URLS = (BLOG_URL, f"{BASE_URL}/docent/blog", f"{BASE_URL}/governance")
 FEED_TITLE = "Transluce - Research"
 FEED_DESCRIPTION = "Research updates from Transluce"
 AUTHOR = "Transluce"
@@ -59,28 +61,42 @@ def parse_date(date_text):
 
 
 def parse(html_content):
+    """Read current article cards and legacy linked cards without hiding malformed entries.
+
+    How:
+    1. Find semantic article containers and legacy links containing headings.
+    2. Keep internal article URLs and read dates separately from category metadata.
+    3. Reject incomplete cards and deduplicate repeated links.
+    """
     soup = BeautifulSoup(html_content, "html.parser")
     articles = []
     seen = set()
 
-    for anchor in soup.find_all("a", href=True):
-        heading = anchor.find("h3")
-        if not heading:
-            continue
+    cards = soup.select("article") + [a for a in soup.select("a[href]") if a.find("h3")]
+    for card in cards:
+        heading = card.find("h3")
+        anchor = card if card.name == "a" else (heading.find("a", href=True) if heading else None)
+        if not heading or not anchor:
+            raise ValueError("Transluce article is missing its title or link")
         href = anchor["href"]
         # Only internal article links (relative or transluce.org absolute).
-        if href.startswith("http") and BASE_URL not in href:
+        link = urljoin(BASE_URL, href)
+        if urlsplit(link).hostname != "transluce.org":
             continue
-        link = href if href.startswith("http") else BASE_URL + "/" + href.lstrip("/")
+        if not href.strip() or urlsplit(link).scheme != "https":
+            raise ValueError("Transluce article has an invalid link")
         if link in seen:
             continue
 
         title = heading.get_text(strip=True)
         if not title:
-            continue
+            raise ValueError("Transluce article has an empty title")
 
-        paragraphs = anchor.find_all("p")
-        date = None
+        paragraphs = card.find_all("p")
+        date_text = next((text for text in card.stripped_strings if _DATE_RE.fullmatch(text)), None)
+        date = parse_date(date_text)
+        if date is None:
+            raise ValueError(f"Transluce article has no valid date: {link}")
         description = None
         for p in paragraphs:
             text = p.get_text(" ", strip=True)
@@ -92,9 +108,11 @@ def parse(html_content):
         if description is None:
             # Fall back to the longest non-date paragraph as the summary.
             candidates = [
-                p.get_text(" ", strip=True) for p in paragraphs if not _DATE_RE.match(p.get_text(" ", strip=True))
+                p.get_text(" ", strip=True)
+                for p in paragraphs
+                if not any(_DATE_RE.fullmatch(text) for text in p.stripped_strings)
             ]
-            description = max(candidates, key=len) if candidates else title
+            description = max(candidates, key=len) if candidates else None
 
         seen.add(link)
         articles.append({"title": title, "link": link, "description": description, "date": date})
@@ -131,15 +149,24 @@ def main():
             logger.info(f"Reading local HTML file: {args.html_file}")
             with open(args.html_file, encoding="utf-8") as f:
                 html_content = f.read()
+            articles = parse(html_content)
         else:
-            html_content = fetch_page(BLOG_URL)
-
-        articles = parse(html_content)
+            articles = []
+            for url in LISTING_URLS:
+                posts = parse(fetch_page(url))
+                if not posts:
+                    raise ValueError(f"No articles found in required listing: {url}")
+                articles.extend(posts)
 
         if not articles:
             logger.warning("No articles found - skipping feed update to avoid overwriting with empty feed")
             return False
 
+        # New research cards omit summaries; retain published summaries for those live entries.
+        history = {post["link"]: post for post in load_feed_history(FEED_NAME)}
+        for post in articles:
+            if not post["description"]:
+                post["description"] = history.get(post["link"], {}).get("description") or post["title"]
         articles = merge_feed_history(articles, FEED_NAME, match_titles=True)
         fg = generate_rss_feed(articles)
         save_rss_feed(fg, FEED_NAME)

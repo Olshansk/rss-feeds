@@ -161,7 +161,7 @@ feeds:
   transluce:
     script: transluce_blog.py
     type: requests
-    blog_url: https://transluce.org/news
+    blog_url: https://transluce.org/research
   timaeus:
     script: timaeus_blog.py
     type: requests
