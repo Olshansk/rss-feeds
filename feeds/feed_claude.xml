@@ -8,21 +8,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 18:03:44 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 20:03:09 +0000</lastBuildDate>
     <item>
       <title>Introducing Personal Finance in Claude</title>
       <link>https://claude.com/resources/articles/introducing-personal-finance-in-claude</link>
       <description>Ask Claude about your money and get straight answers from the accounts you connect.</description>
       <guid isPermaLink="false">https://claude.com/blog/introducing-personal-finance-in-claude</guid>
-      <category>Product announcements</category>
+      <category>Product updates</category>
       <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>More visibility and control over Claude Enterprise for security teams</title>
       <link>https://claude.com/resources/articles/claude-enterprise-security-updates</link>
-      <description>Claude Enterprise has new security and admin features, including a security center, generally available inference hooks, centralized management, and additional access controls.</description>
+      <description>More visibility and control over Claude Enterprise for security teams</description>
       <guid isPermaLink="false">https://claude.com/blog/claude-enterprise-security-updates</guid>
-      <category>Product announcements</category>
+      <category>Product updates</category>
       <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -38,7 +38,7 @@
       <link>https://claude.com/resources/articles/message-threads</link>
       <description>New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.</description>
       <guid isPermaLink="false">https://claude.com/blog/message-threads</guid>
-      <category>Product announcements</category>
+      <category>Product updates</category>
       <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -46,7 +46,7 @@
       <link>https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets</link>
       <description>In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.</description>
       <guid isPermaLink="false">https://claude.com/blog/smart-reports-surveys-pooled-budgets</guid>
-      <category>Product announcements</category>
+      <category>Product updates</category>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -54,7 +54,7 @@
       <link>https://claude.com/resources/articles/introducing-artifacts-for-legal-work</link>
       <description>Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.</description>
       <guid isPermaLink="false">https://claude.com/blog/introducing-artifacts-for-legal-work</guid>
-      <category>Product announcements</category>
+      <category>Product updates</category>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -62,7 +62,7 @@
       <link>https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company</link>
       <description>IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business</description>
       <guid isPermaLink="false">https://claude.com/blog/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company</guid>
-      <category>Product announcements</category>
+      <category>Product updates</category>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -78,7 +78,7 @@
       <link>https://claude.com/resources/articles/claude-for-financial-advisors</link>
       <description>Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.</description>
       <guid isPermaLink="false">https://claude.com/blog/claude-for-financial-advisors</guid>
-      <category>Product announcements</category>
+      <category>Product updates</category>
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -86,7 +86,7 @@
       <link>https://claude.com/resources/articles/expanding-claude-for-nonprofits</link>
       <description>Our new Claude for Nonprofits plugin brings new skills to every verified nonprofit organization, taking on the operational work that stretches small teams across fundraising, marketing, and hiring.</description>
       <guid isPermaLink="false">https://claude.com/blog/expanding-claude-for-nonprofits</guid>
-      <category>Product announcements</category>
+      <category>Product updates</category>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -94,7 +94,7 @@
       <link>https://claude.com/resources/articles/unified-claude-enterprise</link>
       <description>Claude Cowork and chat come together for Enterprise</description>
       <guid isPermaLink="false">https://claude.com/blog/unified-claude-enterprise</guid>
-      <category>Product announcements</category>
+      <category>Product updates</category>
       <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -102,7 +102,7 @@
       <link>https://claude.com/resources/articles/claude-duet-safety-privacy-and-security</link>
       <description>Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.</description>
       <guid isPermaLink="false">https://claude.com/blog/claude-duet-safety-privacy-and-security</guid>
-      <category>Product announcements</category>
+      <category>Product updates</category>
       <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
