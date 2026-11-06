@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 15:36:01 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 04:35:48 +0000</lastBuildDate>
+    <item>
+      <title>Webinar Recap: From Data to Vectors to Context</title>
+      <link>https://www.pinecone.io/blog/webinar-recap-data-to-vectors-to-context/</link>
+      <description>Webinar Recap: From Data to Vectors to Context</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/webinar-recap-data-to-vectors-to-context/</guid>
+      <category>Product</category>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Introducing pg_pinecone: Open-Source Search for Your Postgres Data</title>
       <link>https://www.pinecone.io/blog/introducing-pg-pinecone/</link>
