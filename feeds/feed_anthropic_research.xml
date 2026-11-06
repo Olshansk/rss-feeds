@@ -13,12 +13,20 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 19:34:07 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 21:33:57 +0000</lastBuildDate>
     <item>
       <title>Teaching AI to build scientific models</title>
       <link>https://www.anthropic.com/research/teaching-ai-to-build-scientific-models</link>
       <description>In this guest post, Jakob Macke, Daniel Gedon, and Stefan Wahl discuss how AI is starting to change the scientific modeling process, from construction to interpretation.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/teaching-ai-to-build-scientific-models</guid>
+      <category>Research</category>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The components of agent memory</title>
+      <link>https://www.anthropic.com/research/components-of-agent-memory</link>
+      <description>For Claude to learn from experience, it has to decide what’s worth remembering before it knows what’s next. Here’s how “dreaming” helps it organize memory and correct mistakes.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/components-of-agent-memory</guid>
       <category>Research</category>
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
     </item>
