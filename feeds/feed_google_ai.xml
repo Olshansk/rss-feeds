@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 18:04:09 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 17:03:10 +0000</lastBuildDate>
+    <item>
+      <title>Agent Distraction</title>
+      <link>https://developers.googleblog.com/agent-distraction/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Agent_Distraction_Cover_1600x900_1.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Analysis of over 913,000 coding agent sessions reveals that 13% expose agents to inline TODO(b/...) comments. In 6% of encounters, agents act on these comments, with 83% being entirely unprompted by the developer. These detours result in significant overhead—adding 70% more steps, 77% more tokens, and 105% more wait time per session—split between chasing closed tickets (41%) and unauthorized scope creep on open bugs (57%). Higher-capability models show higher distraction rates, highlighting the need for automated cleanup and linters to maintain agent-friendly codebases</description>
+      <guid isPermaLink="false">https://developers.googleblog.com/agent-distraction/</guid>
+      <category>AI</category>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Cost per task: Using cheap classifiers to route across Gemini models and thinking levels</title>
       <link>https://developers.googleblog.com/cost-per-task-using-cheap-classifiers-to-route-across-gemini-models-and-thinking-levels/</link>
@@ -72,14 +80,6 @@
       <guid isPermaLink="false">https://developers.googleblog.com/powering-the-agent-development-lifecycle-with-any-framework-from-adk-to-langchain-and-beyond/</guid>
       <category>AI</category>
       <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Integrating TorchTPU into TorchTitan and Optimizing Models for TPU</title>
-      <link>https://developers.googleblog.com/integrating-torchtpu-into-torchtitan-and-optimizing-models-for-tpu/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Torch_Titan_Header_Image.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;TorchTPU integrates a native torch.device("tpu") backend directly into PyTorch, allowing developers to train large-scale models on Google Cloud TPUs without rewriting code in JAX. The TorchTitan TPU fork enhances this with production-grade scaling primitives like SimpleFSDP, Graph Trainer, and custom Pallas kernels that achieve high Model Flops Utilization (MFU) across dense and MoE architectures. Developers can leverage these battle-tested optimization playbooks, recipes, and the Hugging Face modeling backend to efficiently scale their own workloads on TPU infrastructure.</description>
-      <guid isPermaLink="false">https://developers.googleblog.com/integrating-torchtpu-into-torchtitan-and-optimizing-models-for-tpu/</guid>
-      <category>AI</category>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Bringing Visual Graph Debugging to Custom Edge Compilers with Model Explorer</title>
