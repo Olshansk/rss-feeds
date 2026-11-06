@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 01:03:39 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 02:04:06 +0000</lastBuildDate>
     <item>
       <title>Cult.fit builds operational muscle with Codex</title>
       <link>https://openai.com/index/cultfit-builds-with-codex</link>
@@ -45,6 +45,13 @@
       <description>Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.</description>
       <guid isPermaLink="false">https://openai.com/ads/customers/flipsnack</guid>
       <pubDate>Thu, 05 Nov 2026 00:45:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Franklin Templeton uses OpenAI to support investment research</title>
+      <link>https://openai.com/index/franklin-templeton</link>
+      <description>Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.</description>
+      <guid isPermaLink="false">https://openai.com/index/franklin-templeton</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>OpenAI to acquire Pierre Computer Company, Inc.</title>
