@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 18:04:28 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 22:04:18 +0000</lastBuildDate>
+    <item>
+      <title>Scaling Laws for Finetuning Effect Prediction</title>
+      <link>https://transluce.org/finetuning-effect-prediction</link>
+      <description>Scaling Laws for Finetuning Effect Prediction</description>
+      <guid isPermaLink="false">https://transluce.org/finetuning-effect-prediction</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Mass Producing Training Data with Surprising Side Effects</title>
       <link>https://transluce.org/mass-producing-dsses</link>
