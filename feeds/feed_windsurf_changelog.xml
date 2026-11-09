@@ -8,7 +8,29 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Nov 2026 23:03:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 02:05:49 +0000</lastBuildDate>
+    <item>
+      <title>Windsurf 3.12.32</title>
+      <link>https://docs.devin.ai/desktop/changelog#v3-12-32</link>
+      <description>&lt;span data-as="p"&gt;&lt;strong&gt;New&lt;/strong&gt;&lt;/span&gt;&lt;ul&gt;
+&lt;li&gt;In the Agent Command Center, open the ”…” menu in the session header to see its MCP servers, turn one on or off, or re-authenticate.&lt;/li&gt;
+&lt;li&gt;If a local agent rejects the first prompt, Desktop puts the text back in the composer and shows the reason. You can correct it and resend without retyping.&lt;/li&gt;
+&lt;/ul&gt;&lt;span data-as="p"&gt;&lt;strong&gt;Changed&lt;/strong&gt;&lt;/span&gt;&lt;ul&gt;
+&lt;li&gt;The editor now uses VS Code 1.141.2 and Electron 43.8.3, which includes Chromium security fixes.&lt;/li&gt;
+&lt;li&gt;In IDE mode, opening Devin settings opens an editor tab instead of switching modes.&lt;/li&gt;
+&lt;li&gt;Chat diffs use your editor theme’s diff colors. Shell commands and code blocks in the transcript use its syntax highlighting.&lt;/li&gt;
+&lt;/ul&gt;&lt;span data-as="p"&gt;&lt;strong&gt;Fixed&lt;/strong&gt;&lt;/span&gt;&lt;ul&gt;
+&lt;li&gt;A reopened Local session keeps its working directory and additional folders. Closing its tab no longer removes it from Past Conversations.&lt;/li&gt;
+&lt;li&gt;Click the filename on a Local plan approval card to read the full plan before approving it.&lt;/li&gt;
+&lt;li&gt;Permission requests from third-party ACP agents no longer crash the conversation view or prevent Desktop from reopening a session with a pending request.&lt;/li&gt;
+&lt;li&gt;Remote SSH now connects to hosts defined only in a custom &lt;code&gt;remote.devinSSH.configFile&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;On Windows, local edits save even when the agent uses a different capitalization for the filename.&lt;/li&gt;
+&lt;li&gt;Markdown previews are now supported in the Agent Command Center.&lt;/li&gt;
+&lt;/ul&gt;&lt;details class="accordion border-standard rounded-2xl mb-3 overflow-hidden bg-background-light dark:bg-codeblock cursor-default" open=""&gt;&lt;summary aria-controls="download-3-12-32-accordion-children" aria-expanded="true" class="relative not-prose flex flex-row items-center content-center w-full cursor-pointer list-none [&amp;amp;::-webkit-details-marker]:hidden gap-3 px-5 py-3.5 hover:bg-gray-100 hover:dark:bg-gray-800" data-component-part="accordion-button"&gt;&lt;div class="absolute top-[-8rem] [[data-banner-state=visible]_&amp;amp;]:top-[-10.5rem]" id="download-3-12-32"&gt;&lt;/div&gt;&lt;div class="flex size-4 shrink-0 items-center justify-center" data-component-part="accordion-caret-right"&gt;&lt;svg aria-hidden="true" class="size-3 shrink-0 text-gray-600 transition-transform duration-200 dark:text-gray-400" height="18" stroke-width="1.5" width="18"&gt;&lt;use href="#mi-mint-1-CaretDown"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div class="leading-tight text-left w-full min-w-0" contenteditable="false" data-component-part="accordion-title-container"&gt;&lt;p class="m-0 font-medium leading-6 text-gray-900 dark:text-gray-200" data-component-part="accordion-title" id="download-3-12-32-accordion-title"&gt;Download 3.12.32&lt;/p&gt;&lt;/div&gt;&lt;/summary&gt;&lt;div aria-labelledby="download-3-12-32-accordion-title" class="px-5 pb-3.5 prose prose-gray dark:prose-invert overflow-x-auto cursor-default" data-component-part="accordion-content" id="download-3-12-32-accordion-children" role="region"&gt;&lt;/div&gt;&lt;/details&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog#3.12.32#3.12.32</guid>
+      <category>Changelog</category>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Windsurf 3.12.28</title>
       <link>https://docs.devin.ai/desktop/changelog#v3-12-28</link>
