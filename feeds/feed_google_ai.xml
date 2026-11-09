@@ -8,13 +8,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 12:05:06 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 17:03:38 +0000</lastBuildDate>
     <item>
       <title>What is Pathways? Single-controller training for large models</title>
       <link>https://developers.googleblog.com/what-is-pathways-single-controller-training-for-large-models/</link>
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner-1600x900_1.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Pathways is a single-controller distributed training system designed to coordinate large-scale model training across multiple accelerator groups by representing computations as a global dataflow graph. Unlike traditional SPMD models like DDP and FSDP that rely on synchronous collectives, Pathways uses asynchronous dispatch and a central scheduler to maximize hardware utilization and prevent deadlocks in complex workloads. By decoupling model definition from physical hardware via virtual devices, developers can efficiently scale complex training architectures and seamlessly handle dynamic workloads like reinforcement learning post-training.</description>
       <guid isPermaLink="false">https://developers.googleblog.com/what-is-pathways-single-controller-training-for-large-models/</guid>
       <category>AI</category>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>From prompt to app: Build with Google Maps in AI Studio</title>
+      <link>https://developers.googleblog.com/from-prompt-to-app-build-with-google-maps-in-ai-studio/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/BlogHeader.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Developers can now build applications powered by Google Maps Platform directly within Google AI Studio by prompting Gemini with real-world geospatial concepts. The integration eliminates traditional configuration hurdles by providing one-click demo keys that generate instantly without requiring Cloud Console redirects or credit cards. This setup grants developers immediate access to core APIs—including Maps, Places, and Routes—supported by daily sandbox quotas for seamless prototyping.</description>
+      <guid isPermaLink="false">https://developers.googleblog.com/from-prompt-to-app-build-with-google-maps-in-ai-studio/</guid>
+      <category>Mobile</category>
       <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -80,14 +88,6 @@
       <guid isPermaLink="false">https://developers.googleblog.com/architecting-governed-self-evolving-ai-agents-on-gemini-agent-platform/</guid>
       <category>AI</category>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Powering the Agent Development Lifecycle with any framework, from ADK to LangChain and beyond</title>
-      <link>https://developers.googleblog.com/powering-the-agent-development-lifecycle-with-any-framework-from-adk-to-langchain-and-beyond/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/1_2.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;The Agents CLI Extension System enables developers to use frameworks like LangChain, LangGraph, or custom enterprise stacks while retaining a unified deployment and evaluation workflow. It details a first-party LangChain template that scaffolds, runs, and deploys agents without requiring the Agent Development Kit (ADK). Additionally, it demonstrates how platform teams can author custom extensions to enforce policies such as automated software bill of materials (SBOM) scans during deployment.</description>
-      <guid isPermaLink="false">https://developers.googleblog.com/powering-the-agent-development-lifecycle-with-any-framework-from-adk-to-langchain-and-beyond/</guid>
-      <category>AI</category>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
