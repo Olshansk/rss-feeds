@@ -8,7 +8,22 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 20:03:21 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 20:03:12 +0000</lastBuildDate>
+    <item>
+      <title>ChatGPT Enterprise now available in AWS Marketplace</title>
+      <link>https://openai.com/index/chatgpt-enterprise-aws-marketplace</link>
+      <description>ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.</description>
+      <guid isPermaLink="false">https://openai.com/index/chatgpt-enterprise-aws-marketplace</guid>
+      <category>Product</category>
+      <pubDate>Mon, 09 Nov 2026 19:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Kuken Industries searches 70 years of drawings in minutes</title>
+      <link>https://openai.com/index/kuken</link>
+      <description>Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.</description>
+      <guid isPermaLink="false">https://openai.com/index/kuken</guid>
+      <pubDate>Mon, 09 Nov 2026 08:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Partnering with Hacktron to find vulnerabilities in OpenAI’s systems</title>
       <link>https://openai.com/index/partnering-with-hacktron</link>
@@ -75,6 +90,15 @@
       <link>https://openai.com/index/franklin-templeton</link>
       <description>Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.</description>
       <guid isPermaLink="false">https://openai.com/index/franklin-templeton</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Build a retro handheld game with Codex and ModRetro Chromatic</title>
+      <link>https://developers.openai.com/blog/build-a-game-with-modretro-chromatic</link>
+      <description>Using the ModRetro Chromatic plugin for Codex, you can build any game you can imagine and play it on a ModRetro Chromatic.</description>
+      <guid isPermaLink="false">https://developers.openai.com/blog/build-a-game-with-modretro-chromatic</guid>
+      <category>Developer</category>
+      <category>Codex</category>
       <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
