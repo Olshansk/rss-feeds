@@ -13,7 +13,15 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 21:33:57 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 19:34:12 +0000</lastBuildDate>
+    <item>
+      <title>Testing Claude on real-world electronics design</title>
+      <link>https://www.anthropic.com/research/claude-electronics-design</link>
+      <description>We asked Claude Fable 5.2 to design three electronic devices from short prompts: a speakerphone, a voice-assistant hub, and a handheld virtual pet. Diode Computers built working prototypes from its files.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/claude-electronics-design</guid>
+      <category>Research</category>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Teaching AI to build scientific models</title>
       <link>https://www.anthropic.com/research/teaching-ai-to-build-scientific-models</link>
