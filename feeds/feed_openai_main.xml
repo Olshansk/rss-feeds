@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 21:02:57 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 22:03:20 +0000</lastBuildDate>
     <item>
       <title>ChatGPT Enterprise now available in AWS Marketplace</title>
       <link>https://openai.com/index/chatgpt-enterprise-aws-marketplace</link>
@@ -18,10 +18,26 @@
       <pubDate>Mon, 09 Nov 2026 19:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Introducing Control Room: Human control over AI workloads</title>
+      <link>https://openai.com/index/introducing-control-room</link>
+      <description>Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.</description>
+      <guid isPermaLink="false">https://openai.com/index/introducing-control-room</guid>
+      <category>Safety</category>
+      <pubDate>Mon, 09 Nov 2026 13:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Kuken Industries searches 70 years of drawings in minutes</title>
       <link>https://openai.com/index/kuken</link>
       <description>Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.</description>
       <guid isPermaLink="false">https://openai.com/index/kuken</guid>
+      <pubDate>Mon, 09 Nov 2026 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CodeRabbit scales agentic software development and ships 20x more</title>
+      <link>https://openai.com/index/coderabbit-codex-daybreak</link>
+      <description>CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.</description>
+      <guid isPermaLink="false">https://openai.com/index/coderabbit-codex-daybreak</guid>
+      <category>Startup</category>
       <pubDate>Mon, 09 Nov 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
