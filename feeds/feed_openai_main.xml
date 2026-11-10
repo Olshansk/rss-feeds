@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 19:03:21 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 22:03:17 +0000</lastBuildDate>
     <item>
       <title>Helping caregivers use AI in everyday life</title>
       <link>https://openai.com/index/helping-caregivers-use-ai-in-everyday-life</link>
@@ -4655,6 +4655,14 @@
     </item>
     <item>
       <title>How OpenAI Uses Codex to Accelerate Engineering</title>
+      <link>https://openai.com/business/learn/how-openai-uses-codex</link>
+      <description>A detailed look at how OpenAI teams use Codex to understand code, refactor systems, improve performance, boost velocity, and enhance engineering workflows.</description>
+      <guid isPermaLink="false">https://openai.com/business/learn/how-openai-uses-codex</guid>
+      <category>Guides</category>
+      <pubDate>Wed, 14 Jan 2026 21:27:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>How OpenAI Uses Codex to Accelerate Engineering</title>
       <link>https://openai.com/business/guides-and-resources/how-openai-uses-codex</link>
       <description>A detailed look at how OpenAI teams use Codex to understand code, refactor systems, improve performance, boost velocity, and enhance engineering workflows.</description>
       <guid isPermaLink="false">https://openai.com/business/guides-and-resources/how-openai-uses-codex</guid>
@@ -6107,6 +6115,13 @@
       <pubDate>Thu, 21 Aug 2025 10:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Blue J’s approach for scaling fast in complex, regulated domains</title>
+      <link>https://openai.com/business/customer-stories/blue-j</link>
+      <description>Blue J scaled to three countries and more than 3,000 firms thanks to focus, domain depth, and the right OpenAI model.</description>
+      <guid isPermaLink="false">https://openai.com/business/customer-stories/blue-j</guid>
+      <pubDate>Thu, 21 Aug 2025 10:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Mixi reimagines communication with ChatGPT</title>
       <link>https://openai.com/index/mixi</link>
       <description>Discover how MIXI, a leader in digital entertainment and lifestyle services in Japan, uses ChatGPT Enterprise to transform productivity, boost AI adoption across teams, and create a secure environment for innovation.</description>
@@ -6830,6 +6845,14 @@
       <pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>New in ChatGPT for Business: April 2025</title>
+      <link>https://openai.com/business/learn/new-in-chatgpt-for-business-april-updates-2025</link>
+      <description>Watch hands-on demos of the lastest in ChatGPT for Business: o3, image generation, enhanced memory, and internal knowledge.</description>
+      <guid isPermaLink="false">https://openai.com/business/learn/new-in-chatgpt-for-business-april-updates-2025</guid>
+      <category>Webinar</category>
+      <pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Introducing our latest image generation model in the API</title>
       <link>https://openai.com/index/image-generation-api</link>
       <description>Our latest image generation model is now available in the API via ‘gpt-image-1’—enabling developers and businesses to build professional-grade, customizable visuals directly into their own tools and platforms.</description>
@@ -7101,6 +7124,14 @@
       <link>https://openai.com/business/new-in-chatgpt-for-work-march-updates-2025</link>
       <description>Join us as we share our latest releases and how ChatGPT is becoming more interactive, customized to the way your teams work, and agentic.</description>
       <guid isPermaLink="false">https://openai.com/business/new-in-chatgpt-for-work-march-updates-2025</guid>
+      <category>Webinar</category>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>New in ChatGPT for Business: March 2025</title>
+      <link>https://openai.com/business/learn/new-in-chatgpt-for-work-march-updates-2025</link>
+      <description>Join us as we share our latest releases and how ChatGPT is becoming more interactive, customized to the way your teams work, and agentic.</description>
+      <guid isPermaLink="false">https://openai.com/business/learn/new-in-chatgpt-for-work-march-updates-2025</guid>
       <category>Webinar</category>
       <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
     </item>
@@ -8034,12 +8065,28 @@ Introducing our new alignment strategy for o1 models, which are directly taught 
       <pubDate>Thu, 05 Sep 2024 08:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Using GPT-4 to deliver a new customer service standard</title>
+      <link>https://openai.com/business/customer-stories/ada</link>
+      <description>Ada uses GPT-4 to deliver a new customer service standard</description>
+      <guid isPermaLink="false">https://openai.com/business/customer-stories/ada</guid>
+      <category>Story</category>
+      <pubDate>Thu, 05 Sep 2024 08:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Personalizing education with ChatGPT</title>
       <link>https://openai.com/index/asu</link>
       <description>Arizona State University embraces ChatGPT campus-wide to personalize learning, advance research, and prepare students for the future</description>
       <guid isPermaLink="false">https://openai.com/index/asu</guid>
       <category>Story</category>
       <pubDate>Mon, 26 Aug 2024 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fine-tuning GPT-4o webinar</title>
+      <link>https://openai.com/business/learn/fine-tuning-gpt-4o-webinar</link>
+      <description>Fine-Tuning GPT-4o Webinar</description>
+      <guid isPermaLink="false">https://openai.com/business/learn/fine-tuning-gpt-4o-webinar</guid>
+      <category>Webinar</category>
+      <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Fine-tuning GPT-4o webinar</title>
@@ -8120,6 +8167,14 @@ We’re strengthening our governance with expertise in AI safety and alignment. 
       <description>GPT-4o System Card</description>
       <guid isPermaLink="false">https://openai.com/index/gpt-4o-system-card</guid>
       <category>Safety &amp; Alignment</category>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Enabling a data-driven workforce</title>
+      <link>https://openai.com/business/learn/enabling-a-data-driven-workforce-webinar</link>
+      <description>In this video, we share practical examples of how employees can use ChatGPT Enterprise to efficiently analyze data and uncover insights.</description>
+      <guid isPermaLink="false">https://openai.com/business/learn/enabling-a-data-driven-workforce-webinar</guid>
+      <category>Webinar</category>
       <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
