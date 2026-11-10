@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 13:03:36 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 16:03:52 +0000</lastBuildDate>
     <item>
       <title>Helping caregivers use AI in everyday life</title>
       <link>https://openai.com/index/helping-caregivers-use-ai-in-everyday-life</link>
@@ -24,6 +24,14 @@
       <guid isPermaLink="false">https://openai.com/index/closing-ai-guidance-gap-education</guid>
       <category>Company</category>
       <pubDate>Tue, 10 Nov 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Work at the Frontier: AI’s effect on freelance work</title>
+      <link>https://openai.com/index/ai-effect-on-freelance-work</link>
+      <description>New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.</description>
+      <guid isPermaLink="false">https://openai.com/index/ai-effect-on-freelance-work</guid>
+      <category>Company</category>
+      <pubDate>Tue, 10 Nov 2026 07:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ChatGPT Enterprise now available in AWS Marketplace</title>
