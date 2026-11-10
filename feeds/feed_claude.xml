@@ -8,7 +8,39 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 23:02:35 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 02:03:33 +0000</lastBuildDate>
+    <item>
+      <title>Claude can design electronic prototypes from start to finish</title>
+      <link>https://www.anthropic.com/research/claude-electronics-design</link>
+      <description>We asked Claude to design three electronic devices: a speakerphone, a voice-assistant hub, and a handheld virtual pet. The prototypes worked without any fixes to their circuitry.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/claude-electronics-design</guid>
+      <category>Insights</category>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Fable 5.2 and Mythos 5.2</title>
+      <link>https://www.anthropic.com/claude-fable-and-mythos-5-2</link>
+      <description>Introducing Claude Fable 5.2 and Claude Mythos 5.2, our new models for the hardest technical challenges.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/claude-fable-and-mythos-5-2</guid>
+      <category>Product updates</category>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Which Claude model should you build with?</title>
+      <link>https://claude.dev/blog/which-claude-model-should-you-build-with/</link>
+      <description>How to choose between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by task, cost, and effort level.</description>
+      <guid isPermaLink="false">https://claude.dev/blog/which-claude-model-should-you-build-with/</guid>
+      <category>Best practices</category>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Safely scaling multi-agent teams with Claude Fable 5.2</title>
+      <link>https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/</link>
+      <description>How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.</description>
+      <guid isPermaLink="false">https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/</guid>
+      <category>Best practices</category>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>JPMorganChase expands Claude Code to more employees across the firm</title>
       <link>https://claude.com/resources/articles/jpmorganchase-expands-claude-code</link>
