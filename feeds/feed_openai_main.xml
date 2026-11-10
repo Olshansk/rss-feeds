@@ -8,11 +8,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 09:03:37 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 13:03:36 +0000</lastBuildDate>
+    <item>
+      <title>Helping caregivers use AI in everyday life</title>
+      <link>https://openai.com/index/helping-caregivers-use-ai-in-everyday-life</link>
+      <description>OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.</description>
+      <guid isPermaLink="false">https://openai.com/index/helping-caregivers-use-ai-in-everyday-life</guid>
+      <category>Company</category>
+      <pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Closing the AI guidance gap in education</title>
       <link>https://openai.com/index/closing-ai-guidance-gap-education</link>
-      <description>Lessons from OpenAI’s EMEA education partnerships and new ThinkYoung research. Supporting teachers, AI literacy and independent learning.</description>
+      <description>New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.</description>
       <guid isPermaLink="false">https://openai.com/index/closing-ai-guidance-gap-education</guid>
       <category>Company</category>
       <pubDate>Tue, 10 Nov 2026 09:00:00 +0000</pubDate>
