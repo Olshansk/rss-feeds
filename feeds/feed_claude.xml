@@ -8,7 +8,31 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 02:03:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 18:02:58 +0000</lastBuildDate>
+    <item>
+      <title>Introducing Claude Whiteboards, Claude Sheets, and Claude Data</title>
+      <link>https://claude.com/resources/articles/sheets-whiteboards-data</link>
+      <description>Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.</description>
+      <guid isPermaLink="false">https://claude.com/blog/sheets-whiteboards-data</guid>
+      <category>Product updates</category>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors</title>
+      <link>https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors</link>
+      <description>Work at the speed of thought</description>
+      <guid isPermaLink="false">https://claude.com/blog/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors</guid>
+      <category>Product updates</category>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Your apps can now open in Claude, and Claude can work in them</title>
+      <link>https://claude.com/resources/articles/interactive-connectors-full-tool</link>
+      <description>Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.</description>
+      <guid isPermaLink="false">https://claude.com/blog/interactive-connectors-full-tool</guid>
+      <category>Product updates</category>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Claude can design electronic prototypes from start to finish</title>
       <link>https://www.anthropic.com/research/claude-electronics-design</link>

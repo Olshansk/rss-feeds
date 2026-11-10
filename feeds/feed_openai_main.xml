@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 16:03:52 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 18:03:25 +0000</lastBuildDate>
     <item>
       <title>Helping caregivers use AI in everyday life</title>
       <link>https://openai.com/index/helping-caregivers-use-ai-in-everyday-life</link>
@@ -32,6 +32,15 @@
       <guid isPermaLink="false">https://openai.com/index/ai-effect-on-freelance-work</guid>
       <category>Company</category>
       <pubDate>Tue, 10 Nov 2026 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pushing voice agents further: inside four GPT-Live builds</title>
+      <link>https://developers.openai.com/blog/pushing-voice-agents-further</link>
+      <description>A startup showcase on how teams delegate work, prompt for voice, and evaluate what happens in real conversations.</description>
+      <guid isPermaLink="false">https://developers.openai.com/blog/pushing-voice-agents-further</guid>
+      <category>Developer</category>
+      <category>Audio</category>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ChatGPT Enterprise now available in AWS Marketplace</title>
@@ -73,7 +82,7 @@
       <pubDate>Mon, 09 Nov 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Build a retro handheld game with Codex and ModRetro Chromatic</title>
+      <title>Building a retro handheld game with Codex and ModRetro Chromatic</title>
       <link>https://developers.openai.com/blog/build-a-game-with-modretro-chromatic</link>
       <description>Using the ModRetro Chromatic plugin for Codex, you can build any game you can imagine and play it on a ModRetro Chromatic.</description>
       <guid isPermaLink="false">https://developers.openai.com/blog/build-a-game-with-modretro-chromatic</guid>
