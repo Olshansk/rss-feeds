@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 23:04:22 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 10:03:15 +0000</lastBuildDate>
     <item>
       <title>Prefill-level Jailbreak: A Black-Box Risk Analysis of Large Language Models</title>
       <link>https://www.far.ai/research/prefill-level-jailbreak-a-black-box-risk-analysis-of-large-language-models</link>
@@ -68,7 +68,7 @@
     <item>
       <title>Path Channels and Plan Extension Kernels: a Mechanistic Description of Planning in a Sokoban RNN</title>
       <link>https://www.far.ai/research/path-channels-and-plan-extension-kernels-a-mechanistic-description-of-planning-in-a-sokoban-rnn</link>
-      <description>Planning is essential for solving complex tasks, yet the internal mechanisms underlying planning in neural networks remain poorly understood. Building on prior work, we analyze a recurrent neural network (RNN) trained on Sokoban, a challenging puzzle requiring sequential, irreversible decisions. We find that the RNN has a causal plan representation which predicts its future actions about 50 steps in advance. The quality and length of the represented plan increases over the first few steps. We uncover a surprising behavior: the RNN "paces" in cycles to give itself extra computation at the start of a level, and show that this behavior is incentivized by training. Leveraging these insights, we extend the trained RNN to significantly larger, out-of-distribution Sokoban puzzles, demonstrating robust representations beyond the training regime. We open-source our model and code, and believe the neural network's interesting behavior makes it an excellent model organism to deepen our understanding of learned planning.</description>
+      <description>We partially reverse-engineer a convolutional RNN trained with model-free reinforcement learning to play Sokoban. It stores plans in path channels and uses learned kernels to extend them forwards from boxes and backwards from goals, with a form of backtracking.</description>
       <guid isPermaLink="false">https://www.far.ai/research/path-channels-and-plan-extension-kernels-a-mechanistic-description-of-planning-in-a-sokoban-rnn</guid>
       <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
     </item>

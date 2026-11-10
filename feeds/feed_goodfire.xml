@@ -8,7 +8,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 07:03:34 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 10:03:16 +0000</lastBuildDate>
+    <item>
+      <title>Neuron Atlas - Qwen3.6</title>
+      <link>https://www.goodfire.ai/research/public_neuron_atlas</link>
+      <description>Fundamental Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/public_neuron_atlas</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Neurons as an Interpretable Basis</title>
+      <link>https://www.goodfire.ai/research/neurons-as-an-interpretable-basis</link>
+      <description>Fundamental Research</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/research/neurons-as-an-interpretable-basis</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Shaping and Monitoring Models Through Their Internal Representations</title>
       <link>https://www.goodfire.ai/research/mechanistic-shaping</link>
