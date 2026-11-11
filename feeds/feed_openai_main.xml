@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>OpenAI — All News and Developer Blog</title>
@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 22:03:17 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 06:05:21 +0000</lastBuildDate>
     <item>
       <title>Helping caregivers use AI in everyday life</title>
       <link>https://openai.com/index/helping-caregivers-use-ai-in-everyday-life</link>
@@ -40,6 +40,14 @@
       <guid isPermaLink="false">https://openai.com/index/ai-effect-on-freelance-work</guid>
       <category>Company</category>
       <pubDate>Tue, 10 Nov 2026 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cogent and OpenAI build cyber defense factories for enterprises</title>
+      <link>https://openai.com/index/cogent-security</link>
+      <description>Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.</description>
+      <guid isPermaLink="false">https://openai.com/index/cogent-security</guid>
+      <category>Startup</category>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Pushing voice agents further: inside four GPT-Live builds</title>
