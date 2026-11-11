@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Nov 2026 07:03:32 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 08:04:27 +0000</lastBuildDate>
+    <item>
+      <title>ChatGPT Plus for veterans and servicemembers</title>
+      <link>https://openai.com/index/chatgpt-plus-for-veterans</link>
+      <description>More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.</description>
+      <guid isPermaLink="false">https://openai.com/index/chatgpt-plus-for-veterans</guid>
+      <category>Company</category>
+      <pubDate>Wed, 11 Nov 2026 08:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Helping caregivers use AI in everyday life</title>
       <link>https://openai.com/index/helping-caregivers-use-ai-in-everyday-life</link>
