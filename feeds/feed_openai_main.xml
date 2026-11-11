@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Nov 2026 08:04:27 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 19:03:16 +0000</lastBuildDate>
     <item>
       <title>ChatGPT Plus for veterans and servicemembers</title>
       <link>https://openai.com/index/chatgpt-plus-for-veterans</link>
@@ -16,6 +16,13 @@
       <guid isPermaLink="false">https://openai.com/index/chatgpt-plus-for-veterans</guid>
       <category>Company</category>
       <pubDate>Wed, 11 Nov 2026 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>JioStar’s chief architect on AI discovery at 500M-user scale</title>
+      <link>https://openai.com/index/jiostar-vijay-seshadri</link>
+      <description>JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.</description>
+      <guid isPermaLink="false">https://openai.com/index/jiostar-vijay-seshadri</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Helping caregivers use AI in everyday life</title>
