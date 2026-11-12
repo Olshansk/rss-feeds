@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Nov 2026 00:09:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 16:05:02 +0000</lastBuildDate>
+    <item>
+      <title>Cognition and McKinsey form an alliance to help enterprises prove the value of AI in software engineering</title>
+      <link>https://devin.ai/blog/cognition-mckinsey-alliance</link>
+      <description>Cognition and McKinsey &amp; Company are pairing Devin with McKinsey's operating model work so enterprises can tie added engineering capacity to measurable business results.</description>
+      <guid isPermaLink="false">https://devin.ai/blog/cognition-mckinsey-alliance</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Claude Mythos 5.2 is now available in Devin Security</title>
       <link>https://devin.ai/blog/claude-mythos-5-2-security</link>
