@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 18:03:43 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 21:03:00 +0000</lastBuildDate>
+    <item>
+      <title>How Amplitude ships product improvements in 1–2 days with OpenAI</title>
+      <link>https://openai.com/index/amplitude</link>
+      <description>Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.</description>
+      <guid isPermaLink="false">https://openai.com/index/amplitude</guid>
+      <pubDate>Thu, 12 Nov 2026 20:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Holiday Extras is rethinking what it can build with Codex</title>
       <link>https://openai.com/business/customer-stories/holidays-extras-codex</link>
