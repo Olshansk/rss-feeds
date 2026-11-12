@@ -8,12 +8,27 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 00:08:16 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 11:03:16 +0000</lastBuildDate>
+    <item>
+      <title>Holiday Extras is rethinking what it can build with Codex</title>
+      <link>https://openai.com/business/customer-stories/holidays-extras-codex</link>
+      <description>With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.</description>
+      <guid isPermaLink="false">https://openai.com/business/customer-stories/holidays-extras-codex</guid>
+      <pubDate>Thu, 12 Nov 2026 09:30:00 +0000</pubDate>
+    </item>
     <item>
       <title>Gilbert + Tobin rethinks the business of law with AI</title>
       <link>https://openai.com/index/gilbert-tobin-sam-nickless</link>
       <description>A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.</description>
       <guid isPermaLink="false">https://openai.com/index/gilbert-tobin-sam-nickless</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Supporting research on AI and children’s safety</title>
+      <link>https://openai.com/index/children-first-declaration</link>
+      <description>OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.</description>
+      <guid isPermaLink="false">https://openai.com/index/children-first-declaration</guid>
+      <category>Global Affairs</category>
       <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
