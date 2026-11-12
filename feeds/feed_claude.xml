@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 16:03:02 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 17:02:55 +0000</lastBuildDate>
+    <item>
+      <title>Operate Claude Managed Agents inside your security perimeter</title>
+      <link>https://claude.com/resources/articles/self-hosted-claude-managed-agents</link>
+      <description>Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.</description>
+      <guid isPermaLink="false">https://claude.com/blog/self-hosted-claude-managed-agents</guid>
+      <category>Product updates</category>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>J. Crew brings its signature approach to styling to life with Claude</title>
       <link>https://claude.com/resources/articles/j-crew-style-advisor-with-claude</link>
@@ -23,6 +31,14 @@
       <description>How leading startups use Claude Tag to ship faster and scale operations</description>
       <guid isPermaLink="false">https://claude.com/blog/claude-tag-guide-for-startups</guid>
       <category>Best practices</category>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Claude for Manufacturing</title>
+      <link>https://claude.com/resources/articles/claude-for-manufacturing</link>
+      <description>A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-for-manufacturing</guid>
+      <category>Product updates</category>
       <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
