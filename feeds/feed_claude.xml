@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 19:02:43 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 14:04:35 +0000</lastBuildDate>
+    <item>
+      <title>J. Crew brings its signature approach to styling to life with Claude</title>
+      <link>https://claude.com/resources/articles/j-crew-style-advisor-with-claude</link>
+      <description>J.Crew's new Style Advisor uses Claude to offer a more personalized way to shop online, with complete looks instead of individual products.</description>
+      <guid isPermaLink="false">https://claude.com/blog/j-crew-style-advisor-with-claude</guid>
+      <category>Enterprise announcements</category>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Introducing Claude Whiteboards, Claude Sheets, and Claude Data</title>
       <link>https://claude.com/resources/articles/sheets-whiteboards-data</link>
