@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Nov 2026 17:03:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 20:03:30 +0000</lastBuildDate>
+    <item>
+      <title>How Agent Anomaly Detection scores on benchmarks we didn't write</title>
+      <link>https://developers.googleblog.com/how-agent-anomaly-detection-scores-on-benchmarks-we-didnt-write/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Banner_-_1600x900.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Agent Anomaly Detection (AAD) provides asynchronous, low-latency monitoring for AI agents by analyzing OpenTelemetry traces and logs to flag goal hijacks and tool misuse. Tested across five public security benchmarks, AAD successfully caught 87% of harmful instructions carried out by agents without adding runtime latency. Developers can integrate AAD alongside semantic governance and strict tool limits as part of a defense-in-depth strategy to secure agentic applications.</description>
+      <guid isPermaLink="false">https://developers.googleblog.com/how-agent-anomaly-detection-scores-on-benchmarks-we-didnt-write/</guid>
+      <category>AI</category>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>A2UI 1.0: Build delightful, fast, reliable, agentic experiences</title>
       <link>https://developers.googleblog.com/a2ui-10-build-delightful-fast-reliable-agentic-experiences/</link>
@@ -72,14 +80,6 @@
       <guid isPermaLink="false">https://developers.googleblog.com/build-generative-ui-apps-with-a2ui-copilotkit-agents/</guid>
       <category>Mobile</category>
       <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Smaller apps and faster GPU inference with LiteRT in Google Play services</title>
-      <link>https://developers.googleblog.com/smaller-apps-and-faster-gpu-inference-with-litert-in-google-play-services/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_aumrhbaumrh.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;LiteRT in Google Play services now offers GPU inference powered by ML Drift, delivering about 1.4x faster performance alongside the new CompiledModel API. Switching from bundled binaries reduces app size by approximately 8 MB while enabling seamless, automatic runtime updates across billions of devices. Developers can easily adopt these updates by updating their dependencies and utilizing the new Android Studio LiteRT skill for automated migration.</description>
-      <guid isPermaLink="false">https://developers.googleblog.com/smaller-apps-and-faster-gpu-inference-with-litert-in-google-play-services/</guid>
-      <category>Mobile</category>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Hill-Climbing Agent Quality with Agents CLI Evaluation</title>
