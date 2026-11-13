@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 04:35:24 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 22:35:00 +0000</lastBuildDate>
     <item>
       <title>Reimagining Independence: How Meta’s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics</title>
       <link>https://ai.meta.com/blog/assistive-robotics-university-of-pittsburgh-sam-dino/</link>
@@ -584,7 +584,7 @@
       <link>https://ai.meta.com/blog/inarix-agricultural-supply-chain-meta-dino-v2/</link>
       <description>Inarix is transforming the agricultural industry by turning smartphones into pocket laboratories using Meta FAIR’s DinoV2.</description>
       <guid isPermaLink="false">https://ai.meta.com/blog/inarix-agricultural-supply-chain-meta-dino-v2/</guid>
-      <category></category>
+      <category>Blog</category>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -600,7 +600,7 @@
       <link>https://ai.meta.com/blog/aitomatic-built-with-llama/</link>
       <description>Aitomatic enables semiconductor companies to build Domain-Expert Agents to capture and scale their deep domain expertise using Llama-based foundation models.</description>
       <guid isPermaLink="false">https://ai.meta.com/blog/aitomatic-built-with-llama/</guid>
-      <category></category>
+      <category>Blog</category>
       <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -608,7 +608,7 @@
       <link>https://ai.meta.com/blog/bimedix-built-with-llama/</link>
       <description>The team behind BiMediX2, an Arabic-English medical large multimodal model, aims to expand healthcare access in Africa and the Middle East.</description>
       <guid isPermaLink="false">https://ai.meta.com/blog/bimedix-built-with-llama/</guid>
-      <category></category>
+      <category>Blog</category>
       <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -632,7 +632,7 @@
       <link>https://ai.meta.com/blog/open-catalyst-simulations-experiments/</link>
       <description>Meta FAIR is releasing a large-scale dataset of experimental results on various materials, providing valuable insights for the development of new catalysts.</description>
       <guid isPermaLink="false">https://ai.meta.com/blog/open-catalyst-simulations-experiments/</guid>
-      <category></category>
+      <category>Blog</category>
       <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -680,7 +680,7 @@
       <link>https://ai.meta.com/blog/untukmu-built-with-llama/</link>
       <description>Untukmu.AI, a platform that offers personalized gift recommendations, designed a semi-decentralized personal assistant that ensures the company won’t have access to customer data.</description>
       <guid isPermaLink="false">https://ai.meta.com/blog/untukmu-built-with-llama/</guid>
-      <category></category>
+      <category>Blog</category>
       <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
