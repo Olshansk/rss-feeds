@@ -8,13 +8,28 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 21:03:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 00:08:24 +0000</lastBuildDate>
     <item>
       <title>How Amplitude ships product improvements in 1–2 days with OpenAI</title>
       <link>https://openai.com/index/amplitude</link>
       <description>Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.</description>
       <guid isPermaLink="false">https://openai.com/index/amplitude</guid>
       <pubDate>Thu, 12 Nov 2026 20:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Amplitude ships product improvements in 1–2 days with OpenAI</title>
+      <link>https://openai.com/business/customer-stories/amplitude</link>
+      <description>Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.</description>
+      <guid isPermaLink="false">https://openai.com/business/customer-stories/amplitude</guid>
+      <pubDate>Thu, 12 Nov 2026 20:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gondola doubles revenue as its team builds more with Codex</title>
+      <link>https://openai.com/business/customer-stories/gondola</link>
+      <description>Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.</description>
+      <guid isPermaLink="false">https://openai.com/business/customer-stories/gondola</guid>
+      <category>Startup</category>
+      <pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Holiday Extras is rethinking what it can build with Codex</title>
