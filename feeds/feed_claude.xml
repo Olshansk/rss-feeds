@@ -8,7 +8,23 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 22:02:44 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 20:02:47 +0000</lastBuildDate>
+    <item>
+      <title>The Claude Tag guide for startups</title>
+      <link>https://claude.com/resources/articles/claude-tag-guide-for-startups</link>
+      <description>How leading startups use Claude Tag to ship faster and scale operations</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-tag-guide-for-startups</guid>
+      <category>Best practices</category>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building always-on agents</title>
+      <link>https://claude.com/resources/articles/building-always-on-agents</link>
+      <description>Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.</description>
+      <guid isPermaLink="false">https://claude.com/blog/building-always-on-agents</guid>
+      <category>Best practices</category>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Using Claude Opus 5.5 as your daily driver for knowledge work</title>
       <link>https://claude.com/resources/articles/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work</link>
@@ -31,14 +47,6 @@
       <description>J.Crew's new Style Advisor uses Claude to offer a more personalized way to shop online, with complete looks instead of individual products.</description>
       <guid isPermaLink="false">https://claude.com/blog/j-crew-style-advisor-with-claude</guid>
       <category>Enterprise announcements</category>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Claude Tag guide for startups</title>
-      <link>https://claude.com/resources/articles/claude-tag-guide-for-startups</link>
-      <description>How leading startups use Claude Tag to ship faster and scale operations</description>
-      <guid isPermaLink="false">https://claude.com/blog/claude-tag-guide-for-startups</guid>
-      <category>Best practices</category>
       <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
