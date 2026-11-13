@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 18:03:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 18:02:56 +0000</lastBuildDate>
     <item>
       <title>Surge RL Pushes NVIDIA Nemotron 3.5 Super VL Toward Frontier-Level Performance</title>
       <link>https://www.surgehq.ai/blog/nvidia-nemotron-3-5-super-training-report</link>
@@ -428,6 +428,13 @@
       <description>Data-centric AI requires radically rethinking the data that goes into your models. Surge AI provides data labelers with the skills you need to get context-sensitive labels.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/why-context-aware-datasets-are-crucial-for-data-centric-ai</guid>
       <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Smallest Claude Is a Better Software Engineer Than the Biggest GPT</title>
+      <link>https://www.surgehq.ai/blog/claude-vs-gpt-software-engineering</link>
+      <description>We benchmarked five frontier coding agents on 60 real software engineering tasks. Every Claude beat every GPT. The biggest difference? Staff-level engineering judgment.</description>
+      <guid isPermaLink="false">https://www.surgehq.ai/blog/claude-vs-gpt-software-engineering</guid>
+      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

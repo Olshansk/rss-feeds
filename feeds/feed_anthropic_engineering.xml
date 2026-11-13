@@ -13,7 +13,15 @@
       <link>https://www.anthropic.com/engineering</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 22:02:45 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 18:02:55 +0000</lastBuildDate>
+    <item>
+      <title>Building strong safety evaluations</title>
+      <link>https://www.anthropic.com/research/building-strong-safety-evaluations</link>
+      <description>Recommendations for designing, running, and reporting safety evaluations, based on our own experiences.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/building-strong-safety-evaluations</guid>
+      <category>Engineering</category>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>The components of agent memory</title>
       <link>https://www.anthropic.com/research/components-of-agent-memory</link>
