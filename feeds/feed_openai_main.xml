@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 00:08:24 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 16:03:27 +0000</lastBuildDate>
+    <item>
+      <title>Introducing ChatGPT Wallet</title>
+      <link>https://openai.com/index/introducing-chatgpt-wallet</link>
+      <description>Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.</description>
+      <guid isPermaLink="false">https://openai.com/index/introducing-chatgpt-wallet</guid>
+      <category>Product</category>
+      <pubDate>Fri, 13 Nov 2026 15:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>How Amplitude ships product improvements in 1–2 days with OpenAI</title>
       <link>https://openai.com/index/amplitude</link>
