@@ -13,7 +13,14 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 23:03:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 02:03:33 +0000</lastBuildDate>
+    <item>
+      <title>An update on our recent security incident</title>
+      <link>https://cursor.com/blog/security-incident-update</link>
+      <guid isPermaLink="false">https://cursor.com/blog/security-incident-update</guid>
+      <category>company</category>
+      <pubDate>Fri, 13 Nov 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Cursor Projects is now multiplayer</title>
       <link>https://cursor.com/blog/projects-multiplayer</link>
