@@ -8,11 +8,11 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Nov 2026 00:07:36 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 06:04:38 +0000</lastBuildDate>
     <item>
       <title>The Smallest Claude is a Better Software Engineer Than the Biggest GPT</title>
       <link>https://www.surgehq.ai/blog/claude-vs-gpt-software-engineering</link>
-      <description>We benchmarked five frontier coding agents on 60 real software engineering tasks. Every Claude beat every GPT. The biggest difference? Staff-level engineering judgment.</description>
+      <description>We benchmarked the top Claude and GPT models on sudo L7. Every Claude beat every GPT.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/claude-vs-gpt-software-engineering</guid>
       <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
     </item>
