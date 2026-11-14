@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 16:03:27 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 01:03:29 +0000</lastBuildDate>
     <item>
       <title>Introducing ChatGPT Wallet</title>
       <link>https://openai.com/index/introducing-chatgpt-wallet</link>
@@ -16,6 +16,13 @@
       <guid isPermaLink="false">https://openai.com/index/introducing-chatgpt-wallet</guid>
       <category>Product</category>
       <pubDate>Fri, 13 Nov 2026 15:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Shield helps technicians hand off legacy portal work with OpenAI</title>
+      <link>https://openai.com/business/customer-stories/shield</link>
+      <description>Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.</description>
+      <guid isPermaLink="false">https://openai.com/business/customer-stories/shield</guid>
+      <pubDate>Fri, 13 Nov 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
       <title>How Amplitude ships product improvements in 1–2 days with OpenAI</title>
