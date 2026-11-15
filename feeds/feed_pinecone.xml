@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 16:35:35 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 20:35:43 +0000</lastBuildDate>
     <item>
       <title>Pinecone integrated embedding now supports Google's Gemini Embedding 2</title>
       <link>https://www.pinecone.io/blog/integrated-embedding-google/</link>
@@ -432,6 +432,14 @@
       <guid isPermaLink="false">https://www.pinecone.io/blog/growing-ai-ambitions/</guid>
       <category>Company</category>
       <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pinecone MCP Server: Let the Agent Check, Let a Script Load</title>
+      <link>https://www.pinecone.io/blog/pinecone-mcp-server-let-the-agent-check/</link>
+      <description>Pinecone MCP Server: Let the Agent Check, Let a Script Load</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/pinecone-mcp-server-let-the-agent-check/</guid>
+      <category>Engineering, Events</category>
+      <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Announcing Pinecone Pioneers: A Program for Builders, Organizers, and Community Leaders</title>
