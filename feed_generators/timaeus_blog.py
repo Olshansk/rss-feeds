@@ -85,7 +85,7 @@ def parse(html_content):
 
         # First <p> is authors; the description block follows the heading.
         description = None
-        desc_block = anchor.find("div", class_=lambda c: c and "text-muted-foreground/80" in " ".join(c))
+        desc_block = anchor.find("div", class_="text-muted-foreground/80")
         if desc_block:
             description = desc_block.get_text(" ", strip=True)
         if not description:
