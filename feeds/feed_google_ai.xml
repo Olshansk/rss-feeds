@@ -8,12 +8,20 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 17:03:09 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 18:03:31 +0000</lastBuildDate>
     <item>
       <title>Unlocking Stable On-Policy RL on TPU with Bitwise-Zero Train–Inference Mismatch</title>
       <link>https://developers.googleblog.com/unlocking-stable-on-policy-rl-on-tpu-with-bitwise-zero-traininference-mismatch/</link>
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/zero_tim_tpu_blog_header_1600x900.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;How we eliminated floating-point train–inference logprob drift for on-policy LLM reinforcement learning across 64 Cloud TPU v5p chips using a generalizable four-part JAX and Pallas recipe in Tunix.</description>
       <guid isPermaLink="false">https://developers.googleblog.com/unlocking-stable-on-policy-rl-on-tpu-with-bitwise-zero-traininference-mismatch/</guid>
+      <category>AI</category>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Securing Your Agents: A Hands-On Guide to Agent Anomaly Detection</title>
+      <link>https://developers.googleblog.com/securing-your-agents-a-hands-on-guide-to-agent-anomaly-detection/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog-banner.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;This guide walks developers through setting up Agent Anomaly Detection on the Gemini Enterprise Agent Platform to monitor AI agent telemetry and catch behavioral risks. It demonstrates how to deploy a sample customer support agent, trigger out-of-scope security findings, and configure proactive alerts using Cloud Monitoring and Security Command Center.</description>
+      <guid isPermaLink="false">https://developers.googleblog.com/securing-your-agents-a-hands-on-guide-to-agent-anomaly-detection/</guid>
       <category>AI</category>
       <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
     </item>
@@ -80,14 +88,6 @@
       <guid isPermaLink="false">https://developers.googleblog.com/announcing-long-context-training-on-tpus-with-maxtext-context-parallelism/</guid>
       <category>AI</category>
       <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Agent Distraction</title>
-      <link>https://developers.googleblog.com/agent-distraction/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Agent_Distraction_Cover_1600x900_1.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Analysis of over 913,000 coding agent sessions reveals that 13% expose agents to inline TODO(b/...) comments. In 6% of encounters, agents act on these comments, with 83% being entirely unprompted by the developer. These detours result in significant overhead—adding 70% more steps, 77% more tokens, and 105% more wait time per session—split between chasing closed tickets (41%) and unauthorized scope creep on open bugs (57%). Higher-capability models show higher distraction rates, highlighting the need for automated cleanup and linters to maintain agent-friendly codebases</description>
-      <guid isPermaLink="false">https://developers.googleblog.com/agent-distraction/</guid>
-      <category>AI</category>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -8,7 +8,31 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 17:03:13 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 18:03:35 +0000</lastBuildDate>
+    <item>
+      <title>Strengthening the fight against online child sexual abuse with new tools and support</title>
+      <link>https://openai.com/index/strengthening-online-child-safety</link>
+      <description>New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.</description>
+      <guid isPermaLink="false">https://openai.com/index/strengthening-online-child-safety</guid>
+      <category>Safety</category>
+      <pubDate>Mon, 16 Nov 2026 17:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Broadening access to AI for scientists</title>
+      <link>https://openai.com/index/expanding-chatgpt-for-academic-researchers</link>
+      <description>We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.</description>
+      <guid isPermaLink="false">https://openai.com/index/expanding-chatgpt-for-academic-researchers</guid>
+      <category>Research</category>
+      <pubDate>Mon, 16 Nov 2026 17:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Science at the Frontier: How scientists use ChatGPT</title>
+      <link>https://openai.com/index/science-at-the-frontier</link>
+      <description>Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.</description>
+      <guid isPermaLink="false">https://openai.com/index/science-at-the-frontier</guid>
+      <category>Research</category>
+      <pubDate>Mon, 16 Nov 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>LVMH’s Media Division announces strategic partnership with OpenAI</title>
       <link>https://openai.com/index/lvmh-media-division-partnership</link>
@@ -16,6 +40,14 @@
       <guid isPermaLink="false">https://openai.com/index/lvmh-media-division-partnership</guid>
       <category>Company</category>
       <pubDate>Mon, 16 Nov 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Our first phase of embedded assessments</title>
+      <link>https://openai.com/index/our-first-phase-of-embedded-assessments</link>
+      <description>OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.</description>
+      <guid isPermaLink="false">https://openai.com/index/our-first-phase-of-embedded-assessments</guid>
+      <category>Safety</category>
+      <pubDate>Mon, 16 Nov 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
       <title>More ways to move care forward with ChatGPT for Healthcare</title>
@@ -64,14 +96,6 @@
       <guid isPermaLink="false">https://openai.com/index/introducing-chatgpt-wallet</guid>
       <category>Product</category>
       <pubDate>Fri, 13 Nov 2026 15:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Our first phase of embedded assessments</title>
-      <link>https://openai.com/index/our-first-phase-of-embedded-assessments</link>
-      <description>OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.</description>
-      <guid isPermaLink="false">https://openai.com/index/our-first-phase-of-embedded-assessments</guid>
-      <category>Safety</category>
-      <pubDate>Fri, 13 Nov 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Shield helps technicians hand off legacy portal work with OpenAI</title>

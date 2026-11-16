@@ -8,7 +8,23 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 19:03:22 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 18:03:35 +0000</lastBuildDate>
+    <item>
+      <title>Broadening access to AI for scientists</title>
+      <link>https://openai.com/index/expanding-chatgpt-for-academic-researchers</link>
+      <description>We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.</description>
+      <guid isPermaLink="false">https://openai.com/index/expanding-chatgpt-for-academic-researchers</guid>
+      <category>Research</category>
+      <pubDate>Mon, 16 Nov 2026 17:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Science at the Frontier: How scientists use ChatGPT</title>
+      <link>https://openai.com/index/science-at-the-frontier</link>
+      <description>Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.</description>
+      <guid isPermaLink="false">https://openai.com/index/science-at-the-frontier</guid>
+      <category>Research</category>
+      <pubDate>Mon, 16 Nov 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Accelerating engineering for the physical world</title>
       <link>https://openai.com/index/accelerating-engineering-for-the-physical-world</link>
