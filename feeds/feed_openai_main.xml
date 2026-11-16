@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 18:03:35 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 22:03:11 +0000</lastBuildDate>
     <item>
       <title>Strengthening the fight against online child sexual abuse with new tools and support</title>
       <link>https://openai.com/index/strengthening-online-child-safety</link>
@@ -71,6 +71,13 @@
       <description>The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.</description>
       <guid isPermaLink="false">https://openai.com/index/the-kings-trust-and-openai</guid>
       <category>Global Affairs</category>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>At Holiday Extras, dots get to work before anyone asks</title>
+      <link>https://openai.com/business/customer-stories/holiday-extras-dots</link>
+      <description>Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.</description>
+      <guid isPermaLink="false">https://openai.com/business/customer-stories/holiday-extras-dots</guid>
       <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
