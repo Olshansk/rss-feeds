@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Nov 2026 23:03:31 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 10:03:22 +0000</lastBuildDate>
+    <item>
+      <title>LVMH’s Media Division announces strategic partnership with OpenAI</title>
+      <link>https://openai.com/index/lvmh-media-division-partnership</link>
+      <description>LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.</description>
+      <guid isPermaLink="false">https://openai.com/index/lvmh-media-division-partnership</guid>
+      <category>Company</category>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>A step toward defining the Standard Model on a lattice</title>
       <link>https://openai.com/index/step-toward-defining-the-standard-model</link>
