@@ -8,12 +8,20 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 16:03:43 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 17:03:09 +0000</lastBuildDate>
     <item>
       <title>Unlocking Stable On-Policy RL on TPU with Bitwise-Zero Train–Inference Mismatch</title>
       <link>https://developers.googleblog.com/unlocking-stable-on-policy-rl-on-tpu-with-bitwise-zero-traininference-mismatch/</link>
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/zero_tim_tpu_blog_header_1600x900.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;How we eliminated floating-point train–inference logprob drift for on-policy LLM reinforcement learning across 64 Cloud TPU v5p chips using a generalizable four-part JAX and Pallas recipe in Tunix.</description>
       <guid isPermaLink="false">https://developers.googleblog.com/unlocking-stable-on-policy-rl-on-tpu-with-bitwise-zero-traininference-mismatch/</guid>
+      <category>AI</category>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agents are sessions, not requests: size GKE node pools for AI agent sessions</title>
+      <link>https://developers.googleblog.com/agents-are-sessions-not-requests-size-gke-node-pools-for-ai-agent-sessions/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Screenshot_2026-11-11_at_4.46.52PM.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;AI agent sessions remain active and idle for most of the workday, making traditional one-Pod-per-session allocations inefficient for cluster resources. By using open-source tools like Agent Substrate and AX on GKE, developers can park idle sessions in object storage to release compute resources while maintaining session state. This approach optimizes resource utilization and reduces Kubernetes node costs by up to 40%.</description>
+      <guid isPermaLink="false">https://developers.googleblog.com/agents-are-sessions-not-requests-size-gke-node-pools-for-ai-agent-sessions/</guid>
       <category>AI</category>
       <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
     </item>
@@ -80,14 +88,6 @@
       <guid isPermaLink="false">https://developers.googleblog.com/agent-distraction/</guid>
       <category>AI</category>
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cost per task: Using cheap classifiers to route across Gemini models and thinking levels</title>
-      <link>https://developers.googleblog.com/cost-per-task-using-cheap-classifiers-to-route-across-gemini-models-and-thinking-levels/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image3_1.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Per-token API prices keep falling, yet engineering bills for autonomous coding agents keep climbing....</description>
-      <guid isPermaLink="false">https://developers.googleblog.com/cost-per-task-using-cheap-classifiers-to-route-across-gemini-models-and-thinking-levels/</guid>
-      <category>AI</category>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
