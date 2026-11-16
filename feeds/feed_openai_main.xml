@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 12:07:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 15:03:38 +0000</lastBuildDate>
     <item>
       <title>LVMH’s Media Division announces strategic partnership with OpenAI</title>
       <link>https://openai.com/index/lvmh-media-division-partnership</link>
@@ -16,6 +16,22 @@
       <guid isPermaLink="false">https://openai.com/index/lvmh-media-division-partnership</guid>
       <category>Company</category>
       <pubDate>Mon, 16 Nov 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>More ways to move care forward with ChatGPT for Healthcare</title>
+      <link>https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare</link>
+      <description>Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.</description>
+      <guid isPermaLink="false">https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare</guid>
+      <category>Product</category>
+      <pubDate>Mon, 16 Nov 2026 06:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Advancing computer-use agents for healthcare teams</title>
+      <link>https://openai.com/index/advancing-computer-use-for-healthcare-teams</link>
+      <description>Advancing computer-use agents for healthcare teams</description>
+      <guid isPermaLink="false">https://openai.com/index/advancing-computer-use-for-healthcare-teams</guid>
+      <category>Product</category>
+      <pubDate>Mon, 16 Nov 2026 06:00:00 +0000</pubDate>
     </item>
     <item>
       <title>The King’s Trust and OpenAI launch £1m partnership</title>
