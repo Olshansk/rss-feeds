@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 14:03:11 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 18:03:42 +0000</lastBuildDate>
     <item>
       <title>Strengthening NATO and allied cyber defenses with AI</title>
       <link>https://openai.com/index/strengthening-nato-allied-cyber-defences-ai</link>
@@ -179,6 +179,13 @@
       <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>ChatGPT Ads increases its market presence in 44 countries</title>
+      <link>https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence</link>
+      <description>Aleph selected as ChatGPT Ads’ exclusive reseller in 44 countries to offer local invoicing, in-person support and local market expertise to brands and agencies</description>
+      <guid isPermaLink="false">https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Securing persistent agents like OpenClaw at OpenAI</title>
       <link>https://developers.openai.com/blog/securing-persistent-agents-like-openclaw-at-openai</link>
       <description>How OpenAI combines trusted control-plane services, Codex sandboxing, auto-review, agent identity, and observability to run persistent agents.</description>
@@ -296,6 +303,13 @@
       <guid isPermaLink="false">https://openai.com/index/coderabbit-codex-daybreak</guid>
       <category>Startup</category>
       <pubDate>Mon, 09 Nov 2026 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How VistaPrint helps small businesses get the word out</title>
+      <link>https://openai.com/ads/customers/vistaprint</link>
+      <description>Small business owners preparing for a launch or an event often know what they want to accomplish before they know what to print. VistaPrint uses ChatGPT Ads to show how products like signs and branded merchandise can help them get the word out.</description>
+      <guid isPermaLink="false">https://openai.com/ads/customers/vistaprint</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Building a retro handheld game with Codex and ModRetro Chromatic</title>

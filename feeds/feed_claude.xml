@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 20:02:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 18:03:20 +0000</lastBuildDate>
+    <item>
+      <title>Linked billing on the Claude Platform</title>
+      <link>https://claude.com/resources/articles/linked-billing-on-claude-platform</link>
+      <description>Linked billing on the Claude Platform</description>
+      <guid isPermaLink="false">https://claude.com/blog/linked-billing-on-claude-platform</guid>
+      <category>Product updates</category>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>The Claude Tag guide for startups</title>
       <link>https://claude.com/resources/articles/claude-tag-guide-for-startups</link>
