@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 18:03:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 19:03:28 +0000</lastBuildDate>
+    <item>
+      <title>Introducing GPT-6.2 Astra and Sol</title>
+      <link>https://openai.com/index/introducing-gpt-6-2-astra-sol</link>
+      <description>Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.</description>
+      <guid isPermaLink="false">https://openai.com/index/introducing-gpt-6-2-astra-sol</guid>
+      <category>Product</category>
+      <pubDate>Tue, 17 Nov 2026 17:45:00 +0000</pubDate>
+    </item>
     <item>
       <title>Strengthening NATO and allied cyber defenses with AI</title>
       <link>https://openai.com/index/strengthening-nato-allied-cyber-defences-ai</link>
@@ -23,6 +31,14 @@
       <description>OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.</description>
       <guid isPermaLink="false">https://openai.com/index/introducing-openai-for-chile</guid>
       <category>Global Affairs</category>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Astra for Law leads in legal intelligence</title>
+      <link>https://openai.com/index/astra-law-6-2</link>
+      <description>Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.</description>
+      <guid isPermaLink="false">https://openai.com/index/astra-law-6-2</guid>
+      <category>Company</category>
       <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
