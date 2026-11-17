@@ -8,13 +8,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 18:03:39 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 20:03:30 +0000</lastBuildDate>
     <item>
       <title>Gemini 4 Hydrogen: a faster model for general purpose robotics</title>
       <link>https://developers.googleblog.com/gemini-hydrogen-for-robotics/</link>
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Robotics_Banner.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Google's Gemini 4 Hydrogen brings strong spatial and embodied reasoning capabilities to a fast, efficient model built specifically for robotics. To help developers put these capabilities to work, the new Robotics plugin for Google Antigravity transforms the platform into a comprehensive workbench supporting rapid hardware bring-up, MuJoCo simulation, and closed-loop control. Developers can leverage these tools to transition from an unboxed robot arm to a fully functional real-to-sim-to-real application in an afternoon using natural language prompts and day-one support in the google-genai SDKs.</description>
       <guid isPermaLink="false">https://developers.googleblog.com/gemini-hydrogen-for-robotics/</guid>
       <category>AI</category>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Build full-stack Android apps with Gemini in Google AI Studio</title>
+      <link>https://developers.googleblog.com/build-full-stack-android-apps-with-gemini-in-google-ai-studio/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_41reuz41reu.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Google AI Studio now lets developers build, test, and ship full-stack Kotlin Android apps from a single prompt—complete with Cloud Firestore, Firebase Authentication, Firebase AI Logic, a faster HD emulator with audio, visual screenshot debugging, and direct publishing to your personal Google Play library.</description>
+      <guid isPermaLink="false">https://developers.googleblog.com/build-full-stack-android-apps-with-gemini-in-google-ai-studio/</guid>
+      <category>Web</category>
       <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -80,14 +88,6 @@
       <guid isPermaLink="false">https://developers.googleblog.com/a2ui-10-build-delightful-fast-reliable-agentic-experiences/</guid>
       <category>Mobile</category>
       <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>On-Device Speech Recognition and Text-to-Speech in Google AI Edge Gallery</title>
-      <link>https://developers.googleblog.com/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_yd9gceyd9gc.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Google AI Edge Gallery now supports on-device, offline Automatic Speech Recognition (ASR) and Text-to-Speech (TTS) capabilities for building developer-friendly voice applications. Developers can leverage ML Kit for optimized Android performance, or use MediaPipe Tasks and LiteRT for cross-platform open-weight model integration. This local pipeline seamlessly pairs lightweight speech models with on-device small language models like Gemini Nano and Gemma 4 to enable real-time streaming transcription and low-latency synthesis.</description>
-      <guid isPermaLink="false">https://developers.googleblog.com/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery/</guid>
-      <category>Mobile</category>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
