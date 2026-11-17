@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 07:03:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 08:03:42 +0000</lastBuildDate>
+    <item>
+      <title>Strengthening NATO and allied cyber defenses with AI</title>
+      <link>https://openai.com/index/strengthening-nato-allied-cyber-defences-ai</link>
+      <description>How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.</description>
+      <guid isPermaLink="false">https://openai.com/index/strengthening-nato-allied-cyber-defences-ai</guid>
+      <category>Global Affairs</category>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Strengthening the fight against online child sexual abuse with new tools and support</title>
       <link>https://openai.com/index/strengthening-online-child-safety</link>
