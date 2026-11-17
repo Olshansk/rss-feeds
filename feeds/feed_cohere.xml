@@ -13,7 +13,15 @@
       <link>https://cohere.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 16:03:39 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 15:03:18 +0000</lastBuildDate>
+    <item>
+      <title>Crunchbase in North: Private market signals for growth-stage companies</title>
+      <link>https://cohere.com/blog/crunchbase-in-north</link>
+      <description>Connect Crunchbase to North and access market data on over five million company profiles, funding and M&amp;A history, competitors, and growth signals across your North workflows.</description>
+      <guid isPermaLink="false">https://cohere.com/blog/crunchbase-in-north</guid>
+      <category>Blog</category>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Video intelligence: Make every moment in your video library searchable</title>
       <link>https://cohere.com/blog/video-intelligence-preview</link>
@@ -41,7 +49,7 @@
     <item>
       <title>Embed 5 and Rerank 5 now on OpenRouter</title>
       <link>https://cohere.com/blog/embed-rerank-5-openrouter</link>
-      <description>Access Cohere’s state-of-the-art retrieval models through a single API, with unified billing and no additional SDKs.</description>
+      <description>Embed 5 and Rerank 5 now on OpenRouter</description>
       <guid isPermaLink="false">https://cohere.com/blog/embed-rerank-5-openrouter</guid>
       <category>Blog</category>
       <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
