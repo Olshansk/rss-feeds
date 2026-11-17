@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 22:03:11 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 07:03:44 +0000</lastBuildDate>
     <item>
       <title>Strengthening the fight against online child sexual abuse with new tools and support</title>
       <link>https://openai.com/index/strengthening-online-child-safety</link>
@@ -32,6 +32,13 @@
       <guid isPermaLink="false">https://openai.com/index/science-at-the-frontier</guid>
       <category>Research</category>
       <pubDate>Mon, 16 Nov 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Revolut raises ambition without lowering the bar</title>
+      <link>https://openai.com/business/customer-stories/revolut</link>
+      <description>Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.</description>
+      <guid isPermaLink="false">https://openai.com/business/customer-stories/revolut</guid>
+      <pubDate>Mon, 16 Nov 2026 09:30:00 +0000</pubDate>
     </item>
     <item>
       <title>LVMH’s Media Division announces strategic partnership with OpenAI</title>
