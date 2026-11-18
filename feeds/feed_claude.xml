@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 18:03:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 16:03:01 +0000</lastBuildDate>
+    <item>
+      <title>Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests</title>
+      <link>https://claude.dev/blog/chaos-loop-claude-docs-launch/</link>
+      <description>How Claude spent two weeks load testing a staging cluster, breaking the Claude Docs service on purpose and fixing what fell over before launch, and what made the service legible enough for Claude to close the loop.</description>
+      <guid isPermaLink="false">https://claude.dev/blog/chaos-loop-claude-docs-launch/</guid>
+      <category>Best practices</category>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Linked billing on the Claude Platform</title>
       <link>https://claude.com/resources/articles/linked-billing-on-claude-platform</link>
@@ -16,6 +24,14 @@
       <guid isPermaLink="false">https://claude.com/blog/linked-billing-on-claude-platform</guid>
       <category>Product updates</category>
       <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How the Claude Code team thinks about verification</title>
+      <link>https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/</link>
+      <description>How end-to-end, property and differential tests let coding agents verify their work with evidence, and what the Claude Code team does to keep its verifiers honest.</description>
+      <guid isPermaLink="false">https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/</guid>
+      <category>Best practices</category>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>The Claude Tag guide for startups</title>
