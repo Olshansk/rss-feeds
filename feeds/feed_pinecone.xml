@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 16:36:04 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 16:36:23 +0000</lastBuildDate>
+    <item>
+      <title>pg_pinecone now deploys on Railway in one click</title>
+      <link>https://www.pinecone.io/blog/pg-pinecone-railway/</link>
+      <description>pg_pinecone now deploys on Railway in one click</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/pg-pinecone-railway/</guid>
+      <category>Product</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Vector-to-document index conversion is now available</title>
       <link>https://www.pinecone.io/blog/index-conversion/</link>
