@@ -8,13 +8,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 10:03:10 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 18:03:42 +0000</lastBuildDate>
     <item>
       <title>Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT</title>
       <link>https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership</link>
       <description>Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.</description>
       <guid isPermaLink="false">https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership</guid>
       <category>Company</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Advancing chip design with OpenAI models</title>
+      <link>https://openai.com/index/advancing-chip-design-with-our-models</link>
+      <description>OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.</description>
+      <guid isPermaLink="false">https://openai.com/index/advancing-chip-design-with-our-models</guid>
+      <category>Research</category>
       <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
