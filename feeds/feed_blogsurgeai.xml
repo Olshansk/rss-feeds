@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Nov 2026 06:04:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 03:03:11 +0000</lastBuildDate>
     <item>
       <title>The Smallest Claude is a Better Software Engineer Than the Biggest GPT</title>
       <link>https://www.surgehq.ai/blog/claude-vs-gpt-software-engineering</link>
@@ -323,6 +323,13 @@
       <description>We analyzed HellaSwag, a popular LLM benchmark, and found errors in 36% of its rows.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/hellaswag-or-hellabad-36-of-this-popular-llm-benchmark-contains-errors</guid>
       <pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DAYJOB: Law — Can AI Agents Think Like Lawyers?</title>
+      <link>https://www.surgehq.ai/blog/dayjob-law</link>
+      <description>DAYJOB: Law challenges AI agents to investigate independently, reason through complex legal problems, and exercise professional judgment when evidence is incomplete or contradictory.</description>
+      <guid isPermaLink="false">https://www.surgehq.ai/blog/dayjob-law</guid>
+      <pubDate>Fri, 18 Nov 2022 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>How TikTok is Evolving the Next Generation of Search</title>
