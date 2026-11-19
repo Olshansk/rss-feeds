@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 10:04:39 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 15:03:43 +0000</lastBuildDate>
+    <item>
+      <title>Improving Developer Experience in the Age of Agents</title>
+      <link>https://weaviate.io/blog/developer-experience-agentic-age</link>
+      <description>Coding agents may be changing how developers work - what does that mean for developer experience? Here's how we are starting to think about both.</description>
+      <guid isPermaLink="false">https://weaviate.io/blog/developer-experience-agentic-age</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Weaviate 1.40 Release</title>
       <link>https://weaviate.io/blog/weaviate-1-40-release</link>
