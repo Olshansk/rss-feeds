@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 22:03:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 00:08:34 +0000</lastBuildDate>
     <item>
       <title>The Silent Consensus</title>
       <link>https://openai.com/index/the-silent-consensus</link>
@@ -18,11 +18,26 @@
       <pubDate>Wed, 18 Nov 2026 10:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Research acceleration: The jagged frontier</title>
+      <link>https://openai.com/index/research-acceleration-jagged-frontier</link>
+      <description>OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.</description>
+      <guid isPermaLink="false">https://openai.com/index/research-acceleration-jagged-frontier</guid>
+      <category>Research</category>
+      <pubDate>Wed, 18 Nov 2026 08:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Inside the Codex sandbox</title>
       <link>https://openai.com/index/inside-the-codex-sandbox</link>
       <description>See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.</description>
       <guid isPermaLink="false">https://openai.com/index/inside-the-codex-sandbox</guid>
       <category>Engineering</category>
+      <pubDate>Wed, 18 Nov 2026 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise</title>
+      <link>https://openai.com/business/customer-stories/sumitomo-life</link>
+      <description>Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.</description>
+      <guid isPermaLink="false">https://openai.com/business/customer-stories/sumitomo-life</guid>
       <pubDate>Wed, 18 Nov 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
