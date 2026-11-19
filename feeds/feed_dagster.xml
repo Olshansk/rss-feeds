@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 15:06:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 18:03:24 +0000</lastBuildDate>
+    <item>
+      <title>Pay for Dagster with the Snowflake Commitment You Already Have</title>
+      <link>https://dagster.io/blog/dagster-snowflake-marketplace</link>
+      <description>Snowflake knows what each query cost. Dagster knows which asset ran it and what depends on it. Now you can buy Dagster through Snowflake Marketplace with the commitment you already have.</description>
+      <guid isPermaLink="false">https://dagster.io/blog/dagster-snowflake-marketplace</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>The Data Plane Is Yours: Dagster Hybrid on Kubernetes and Azure</title>
       <link>https://dagster.io/blog/the-data-plane-is-yours-dagster-hybrid-on-kubernetes-and-azure</link>
