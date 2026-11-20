@@ -8,7 +8,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Nov 2026 16:03:32 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 17:02:56 +0000</lastBuildDate>
+    <item>
+      <title>Time awareness and async input for personal agents</title>
+      <link>https://developers.openai.com/blog/time-awareness-and-async-input-for-personal-agents</link>
+      <description>How to build agents that consider time constraints and keep working while waiting for user input</description>
+      <guid isPermaLink="false">https://developers.openai.com/blog/time-awareness-and-async-input-for-personal-agents</guid>
+      <category>Developer</category>
+      <category>API</category>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>How OpenAI’s Performance Factory keeps ChatGPT fast</title>
       <link>https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast</link>
@@ -111,15 +120,6 @@
       <description>OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.</description>
       <guid isPermaLink="false">https://openai.com/index/advancing-chip-design-with-our-models</guid>
       <category>Research</category>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Time awareness and async input for personal agents</title>
-      <link>https://developers.openai.com/blog/time-awareness-and-async-input-for-personal-agents</link>
-      <description>How to build agents that consider time constraints and keep working while waiting for user input</description>
-      <guid isPermaLink="false">https://developers.openai.com/blog/time-awareness-and-async-input-for-personal-agents</guid>
-      <category>Developer</category>
-      <category>API</category>
       <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
