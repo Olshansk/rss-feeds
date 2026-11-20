@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Nov 2026 20:03:45 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 00:07:42 +0000</lastBuildDate>
     <item>
       <title>How OpenAI’s Performance Factory keeps ChatGPT fast</title>
       <link>https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast</link>
@@ -16,6 +16,30 @@
       <guid isPermaLink="false">https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast</guid>
       <category>Engineering</category>
       <pubDate>Thu, 19 Nov 2026 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>See PR scans in action</title>
+      <link>https://openai.com/business/learn/pr-scans-demo</link>
+      <description>Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.</description>
+      <guid isPermaLink="false">https://openai.com/business/learn/pr-scans-demo</guid>
+      <category>Demos</category>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Get started with Daybreak Blue</title>
+      <link>https://openai.com/business/learn/daybreak-blue-onboarding-demo</link>
+      <description>Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.</description>
+      <guid isPermaLink="false">https://openai.com/business/learn/daybreak-blue-onboarding-demo</guid>
+      <category>Demos</category>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Explore the Codex Security Plugin</title>
+      <link>https://openai.com/business/learn/codex-security-plugin-demo</link>
+      <description>Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.</description>
+      <guid isPermaLink="false">https://openai.com/business/learn/codex-security-plugin-demo</guid>
+      <category>Demos</category>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Prompting GPT-Live for languages and regional accents</title>
