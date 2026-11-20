@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Nov 2026 21:03:11 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 23:03:03 +0000</lastBuildDate>
     <item>
       <title>Combatting adversarial distillation</title>
       <link>https://openai.com/index/combatting-adversarial-distillation</link>
@@ -38,6 +38,15 @@
       <guid isPermaLink="false">https://developers.openai.com/blog/time-awareness-and-async-input-for-personal-agents</guid>
       <category>Developer</category>
       <category>API</category>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How I stay in the flow with Ultrafast</title>
+      <link>https://developers.openai.com/blog/how-i-stay-in-the-flow-with-ultrafast</link>
+      <description>How I use Ultrafast in Codex to try small UI changes, give feedback, and stay in the zone, and where I’d try it in the API.</description>
+      <guid isPermaLink="false">https://developers.openai.com/blog/how-i-stay-in-the-flow-with-ultrafast</guid>
+      <category>Developer</category>
+      <category>Codex</category>
       <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
