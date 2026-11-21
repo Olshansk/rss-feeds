@@ -29,7 +29,7 @@ logger = setup_logging()
 
 FEED_NAME = "cohere"
 BLOG_URL = "https://cohere.com/blog"
-MAX_PAGES_FULL = 30
+MAX_PAGES_FULL = 100
 
 
 def parse_blog_html(html: str) -> list[dict]:
