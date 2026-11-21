@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Nov 2026 21:04:27 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 04:04:51 +0000</lastBuildDate>
     <item>
       <title>Windsurf 3.14.30833</title>
       <link>https://docs.devin.ai/desktop/changelog#v3-14-30833</link>
@@ -31,7 +31,7 @@
 &lt;li&gt;The Plan Editor no longer opens plan files as a blank page.&lt;/li&gt;
 &lt;li&gt;Devin Local no longer fails to sign in with “not authorized to use the CLI” for accounts that have Devin Desktop access without CLI access.&lt;/li&gt;
 &lt;li&gt;In remote windows, Open Folder and Add Folder to Workspace now accept a completed folder path when you press Enter or click OK or Add.&lt;/li&gt;
-&lt;/ul&gt;&lt;details class="accordion border-standard rounded-2xl mb-3 overflow-hidden bg-background-light dark:bg-codeblock cursor-default"&gt;&lt;summary aria-controls="download-3-14-30825-accordion-children" aria-expanded="false" class="relative not-prose flex flex-row items-center content-center w-full cursor-pointer list-none [&amp;amp;::-webkit-details-marker]:hidden gap-3 px-5 py-3.5 hover:bg-gray-100 hover:dark:bg-gray-800" data-component-part="accordion-button"&gt;&lt;div class="absolute top-[-8rem] [[data-banner-state=visible]_&amp;amp;]:top-[-10.5rem]" id="download-3-14-30825"&gt;&lt;/div&gt;&lt;div class="flex size-4 shrink-0 items-center justify-center" data-component-part="accordion-caret-right"&gt;&lt;svg aria-hidden="true" class="size-3 shrink-0 text-gray-600 transition-transform duration-200 dark:text-gray-400 -rotate-90" height="18" stroke-width="1.5" width="18"&gt;&lt;use href="#mi-mint-1-CaretDown"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div class="leading-tight text-left w-full min-w-0" contenteditable="false" data-component-part="accordion-title-container"&gt;&lt;p class="m-0 font-medium leading-6 text-gray-900 dark:text-gray-200" data-component-part="accordion-title" id="download-3-14-30825-accordion-title"&gt;Download 3.14.30825&lt;/p&gt;&lt;/div&gt;&lt;/summary&gt;&lt;div aria-labelledby="download-3-14-30825-accordion-title" class="px-5 pb-3.5 prose prose-gray dark:prose-invert overflow-x-auto cursor-default" data-component-part="accordion-content" id="download-3-14-30825-accordion-children" role="region"&gt;&lt;/div&gt;&lt;/details&gt;</description>
+&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://windsurf.com/changelog#3.14.30825#3.14.30825</guid>
       <category>Changelog</category>
       <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
@@ -57,7 +57,7 @@
 &lt;li&gt;On macOS, switching from the Agents view to the IDE with an IDE banner enabled now returns the window traffic-light buttons to the title bar.&lt;/li&gt;
 &lt;li&gt;Devin Local now retries a stalled model stream after 40 seconds instead of staying on “Running tools” for 4 minutes.&lt;/li&gt;
 &lt;li&gt;Long Devin Local sessions on Anthropic models now preserve the prompt cache across turns.&lt;/li&gt;
-&lt;/ul&gt;&lt;details class="accordion border-standard rounded-2xl mb-3 overflow-hidden bg-background-light dark:bg-codeblock cursor-default"&gt;&lt;summary aria-controls="download-3-14-30819-accordion-children" aria-expanded="false" class="relative not-prose flex flex-row items-center content-center w-full cursor-pointer list-none [&amp;amp;::-webkit-details-marker]:hidden gap-3 px-5 py-3.5 hover:bg-gray-100 hover:dark:bg-gray-800" data-component-part="accordion-button"&gt;&lt;div class="absolute top-[-8rem] [[data-banner-state=visible]_&amp;amp;]:top-[-10.5rem]" id="download-3-14-30819"&gt;&lt;/div&gt;&lt;div class="flex size-4 shrink-0 items-center justify-center" data-component-part="accordion-caret-right"&gt;&lt;svg aria-hidden="true" class="size-3 shrink-0 text-gray-600 transition-transform duration-200 dark:text-gray-400 -rotate-90" height="18" stroke-width="1.5" width="18"&gt;&lt;use href="#mi-mint-1-CaretDown"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div class="leading-tight text-left w-full min-w-0" contenteditable="false" data-component-part="accordion-title-container"&gt;&lt;p class="m-0 font-medium leading-6 text-gray-900 dark:text-gray-200" data-component-part="accordion-title" id="download-3-14-30819-accordion-title"&gt;Download 3.14.30819&lt;/p&gt;&lt;/div&gt;&lt;/summary&gt;&lt;div aria-labelledby="download-3-14-30819-accordion-title" class="px-5 pb-3.5 prose prose-gray dark:prose-invert overflow-x-auto cursor-default" data-component-part="accordion-content" id="download-3-14-30819-accordion-children" role="region"&gt;&lt;/div&gt;&lt;/details&gt;</description>
+&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://windsurf.com/changelog#3.14.30819#3.14.30819</guid>
       <category>Changelog</category>
       <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
