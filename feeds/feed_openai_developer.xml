@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Nov 2026 23:03:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 20:03:50 +0000</lastBuildDate>
+    <item>
+      <title>Building security review into your SDLC with Codex Security</title>
+      <link>https://developers.openai.com/blog/building-security-review-into-your-sdlc-with-codex-security</link>
+      <description>Four principles for integrating security reviews into development with Codex Security and the CLI.</description>
+      <guid isPermaLink="false">https://developers.openai.com/blog/building-security-review-into-your-sdlc-with-codex-security</guid>
+      <category>Codex</category>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Time awareness and async input for personal agents</title>
       <link>https://developers.openai.com/blog/time-awareness-and-async-input-for-personal-agents</link>

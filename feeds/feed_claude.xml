@@ -8,13 +8,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 18:03:40 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 20:03:02 +0000</lastBuildDate>
     <item>
       <title>Zero data retention with Enterprise Frontier Safeguards is now in beta</title>
       <link>https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards</link>
       <description>Zero data retention with Enterprise Frontier Safeguards is now in beta</description>
       <guid isPermaLink="false">https://claude.com/blog/zero-data-retention-with-enterprise-frontier-safeguards</guid>
       <category>Product updates</category>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>KPMG's Todd Lohr on AI when your data is also your clients' data</title>
+      <link>https://claude.com/resources/articles/kpmg-todd-lohr-on-ai-when-your-data-is-also-your-clients-data</link>
+      <description>Todd Lohr, KPMG US Vice Chair and Head of Client Technology &amp; Innovation, on adopting frontier AI and building safeguards at the same time, and what that means for a firm that holds its clients' most sensitive data.</description>
+      <guid isPermaLink="false">https://claude.com/blog/kpmg-todd-lohr-on-ai-when-your-data-is-also-your-clients-data</guid>
+      <category>Perspectives</category>
       <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

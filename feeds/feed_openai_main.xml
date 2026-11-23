@@ -8,7 +8,24 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Nov 2026 18:03:21 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 20:03:51 +0000</lastBuildDate>
+    <item>
+      <title>Connected intelligence for in-house legal</title>
+      <link>https://openai.com/business/learn/connected-intelligence-for-in-house-legal</link>
+      <description>Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.</description>
+      <guid isPermaLink="false">https://openai.com/business/learn/connected-intelligence-for-in-house-legal</guid>
+      <category>Webinars</category>
+      <pubDate>Mon, 23 Nov 2026 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building security review into your SDLC with Codex Security</title>
+      <link>https://developers.openai.com/blog/building-security-review-into-your-sdlc-with-codex-security</link>
+      <description>Four principles for integrating security reviews into development with Codex Security and the CLI.</description>
+      <guid isPermaLink="false">https://developers.openai.com/blog/building-security-review-into-your-sdlc-with-codex-security</guid>
+      <category>Developer</category>
+      <category>Codex</category>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Perplexity and Intelligence</title>
       <link>https://openai.com/index/perplexity-and-intelligence</link>
