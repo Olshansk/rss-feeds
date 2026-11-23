@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 05:03:13 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 06:07:07 +0000</lastBuildDate>
     <item>
       <title>DAYJOB: Law — Can AI Agents Think Like Lawyers?</title>
       <link>https://www.surgehq.ai/blog/dayjob-law</link>
@@ -59,7 +59,7 @@
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>sudo L7: Can Coding Agents Act Like Staff Engineers?</title>
+      <title>sudo L7: Do Coding Agents Have the Taste and Judgment of Staff Engineers?</title>
       <link>https://www.surgehq.ai/blog/sudo-l7</link>
       <description>Introducing sudo L7, a coding benchmark testing whether AI agents can go beyond correct code and exercise staff-level engineering judgment.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/sudo-l7</guid>
