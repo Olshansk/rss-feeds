@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 22:03:21 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 23:03:26 +0000</lastBuildDate>
+    <item>
+      <title>OpenAI and Cisco introduce Shirudo</title>
+      <link>https://openai.com/index/introducing-shirudo</link>
+      <description>OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.</description>
+      <guid isPermaLink="false">https://openai.com/index/introducing-shirudo</guid>
+      <category>Security</category>
+      <pubDate>Mon, 23 Nov 2026 21:20:00 +0000</pubDate>
+    </item>
     <item>
       <title>Connected intelligence for in-house legal</title>
       <link>https://openai.com/business/learn/connected-intelligence-for-in-house-legal</link>

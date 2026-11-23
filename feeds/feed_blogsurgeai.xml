@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 06:07:07 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 23:03:05 +0000</lastBuildDate>
     <item>
       <title>DAYJOB: Law — Can AI Agents Think Like Lawyers?</title>
       <link>https://www.surgehq.ai/blog/dayjob-law</link>
@@ -451,11 +451,25 @@
       <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Better Judgment, Not Just Better Tool Use: What Nemotron Learned From RL</title>
+      <link>https://www.surgehq.ai/blog/nemotron-automationbench-training</link>
+      <description>Reinforcement learning on Surge data nearly doubled Nemotron’s workflow completion on AutomationBench, improving performance on unseen apps, information gathering, problem-solving, and policy compliance.</description>
+      <guid isPermaLink="false">https://www.surgehq.ai/blog/nemotron-automationbench-training</guid>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Glimmers of RSI: Coding Agents on an Exponential Curve</title>
       <link>https://www.surgehq.ai/blog/glimmers-of-rsi</link>
       <description>Coding agents aren't just improving. They're improving faster and developing the engineering judgment to debug complex systems, verify their own work, and challenge flawed assumptions. Surge AI's latest research explores how these advances in coding signal the beginnings of recursive self-improvement.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/glimmers-of-rsi</guid>
       <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Coding Agent Harnesses Don’t Replace Good Judgment</title>
+      <link>https://www.surgehq.ai/blog/coding-agent-harnesses-part-2</link>
+      <description>Coding agent harnesses and skill packs mostly fail to teach the model new skills. The gains mostly come from getting the agent to think longer – and those gains are less efficient than setting a higher reasoning effort natively.</description>
+      <guid isPermaLink="false">https://www.surgehq.ai/blog/coding-agent-harnesses-part-2</guid>
+      <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
