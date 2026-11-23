@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 20:03:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 21:02:36 +0000</lastBuildDate>
     <item>
       <title>Zero data retention with Enterprise Frontier Safeguards is now in beta</title>
       <link>https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards</link>
@@ -23,6 +23,22 @@
       <description>Todd Lohr, KPMG US Vice Chair and Head of Client Technology &amp; Innovation, on adopting frontier AI and building safeguards at the same time, and what that means for a firm that holds its clients' most sensitive data.</description>
       <guid isPermaLink="false">https://claude.com/blog/kpmg-todd-lohr-on-ai-when-your-data-is-also-your-clients-data</guid>
       <category>Perspectives</category>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Claude Ship</title>
+      <link>https://claude.com/resources/articles/introducing-claude-ship</link>
+      <description>Open a pull request and get back to building. Claude can now review pull requests, fix them, and approve the ones that a team's policy allows.</description>
+      <guid isPermaLink="false">https://claude.com/blog/introducing-claude-ship</guid>
+      <category>Blog</category>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The enterprise guide to securing coding agents</title>
+      <link>https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents</link>
+      <description>How security and technical leaders can understand and bound risk as they scale Claude Code</description>
+      <guid isPermaLink="false">https://claude.com/blog/enterprise-guide-to-securing-coding-agents</guid>
+      <category>Best practices</category>
       <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
