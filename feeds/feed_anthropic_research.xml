@@ -13,7 +13,15 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 19:34:31 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 21:34:41 +0000</lastBuildDate>
+    <item>
+      <title>Working with AI</title>
+      <link>https://www.anthropic.com/research/working-with-ai</link>
+      <description>We interviewed people at 58 companies that use Claude about how AI is changing their work. They described few layoffs but reduced hiring, and said the most valuable uses of AI often involved reorganizing roles and workplaces around it.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/working-with-ai</guid>
+      <category>Research</category>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Claude solves two open problems in the physics of black holes</title>
       <link>https://www.anthropic.com/research/claude-black-hole-physics</link>
