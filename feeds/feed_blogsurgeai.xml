@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Nov 2026 03:03:14 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 05:03:13 +0000</lastBuildDate>
     <item>
       <title>DAYJOB: Law — Can AI Agents Think Like Lawyers?</title>
       <link>https://www.surgehq.ai/blog/dayjob-law</link>
@@ -449,6 +449,13 @@
       <description>Data-centric AI requires radically rethinking the data that goes into your models. Surge AI provides data labelers with the skills you need to get context-sensitive labels.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/why-context-aware-datasets-are-crucial-for-data-centric-ai</guid>
       <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Glimmers of RSI: Coding Agents on an Exponential Curve</title>
+      <link>https://www.surgehq.ai/blog/glimmers-of-rsi</link>
+      <description>Coding agents aren't just improving. They're improving faster and developing the engineering judgment to debug complex systems, verify their own work, and challenge flawed assumptions. Surge AI's latest research explores how these advances in coding signal the beginnings of recursive self-improvement.</description>
+      <guid isPermaLink="false">https://www.surgehq.ai/blog/glimmers-of-rsi</guid>
+      <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
