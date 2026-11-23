@@ -8,13 +8,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 20:03:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 22:03:21 +0000</lastBuildDate>
     <item>
       <title>Connected intelligence for in-house legal</title>
       <link>https://openai.com/business/learn/connected-intelligence-for-in-house-legal</link>
       <description>Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.</description>
       <guid isPermaLink="false">https://openai.com/business/learn/connected-intelligence-for-in-house-legal</guid>
       <category>Webinars</category>
+      <pubDate>Mon, 23 Nov 2026 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Richpanel helps companies automate 50% of support in 30 days</title>
+      <link>https://openai.com/business/customer-stories/richpanel-ai-customer-support</link>
+      <description>Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.</description>
+      <guid isPermaLink="false">https://openai.com/business/customer-stories/richpanel-ai-customer-support</guid>
+      <category>Startup</category>
       <pubDate>Mon, 23 Nov 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
