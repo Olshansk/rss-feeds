@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 20:03:50 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 00:08:11 +0000</lastBuildDate>
+    <item>
+      <title>What makes a great ChatGPT app</title>
+      <link>https://developers.openai.com/blog/what-makes-a-great-chatgpt-app</link>
+      <description>How to build capabilities that make conversations better.</description>
+      <guid isPermaLink="false">https://developers.openai.com/blog/what-makes-a-great-chatgpt-app</guid>
+      <category>Apps SDK</category>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Building security review into your SDLC with Codex Security</title>
       <link>https://developers.openai.com/blog/building-security-review-into-your-sdlc-with-codex-security</link>
@@ -311,14 +319,6 @@
       <guid isPermaLink="false">https://developers.openai.com/blog/updates-audio-models</guid>
       <category>Audio</category>
       <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>What makes a great ChatGPT app</title>
-      <link>https://developers.openai.com/blog/what-makes-a-great-chatgpt-app</link>
-      <description>How to build capabilities that make conversations better.</description>
-      <guid isPermaLink="false">https://developers.openai.com/blog/what-makes-a-great-chatgpt-app</guid>
-      <category>Apps SDK</category>
-      <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
