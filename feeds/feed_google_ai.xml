@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 17:03:18 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 23:03:07 +0000</lastBuildDate>
+    <item>
+      <title>From Files to Cited Answers in One API Call: Managed Ingestion and SearchDocuments in Agent Retrieval</title>
+      <link>https://developers.googleblog.com/from-files-to-cited-answers-in-one-api-call-managed-ingestion-and-searchdocuments-in-agent-retrieval/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_en_1600x900.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Agent Retrieval in Vertex AI introduces managed ingestion and SearchDocuments to replace custom chunking and embedding pipelines. Developers can now import document and video files directly from Cloud Storage and query them with a single API call for cited page numbers and timestamped results. The feature supports hybrid retrieval, metadata filtering, reranking, and multimodal video audio search.</description>
+      <guid isPermaLink="false">https://developers.googleblog.com/from-files-to-cited-answers-in-one-api-call-managed-ingestion-and-searchdocuments-in-agent-retrieval/</guid>
+      <category>Gemini</category>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Did the user ask for this? Securing AI agents against intent hijacking with Semantic governance policies</title>
       <link>https://developers.googleblog.com/did-the-user-ask-for-this-securing-ai-agents-against-intent-hijacking-with-semantic-governance-policies/</link>
@@ -72,14 +80,6 @@
       <guid isPermaLink="false">https://developers.googleblog.com/accelerating-development-for-massive-git-repositories/</guid>
       <category>Mobile</category>
       <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Securing Your Agents: A Hands-On Guide to Agent Anomaly Detection</title>
-      <link>https://developers.googleblog.com/securing-your-agents-a-hands-on-guide-to-agent-anomaly-detection/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog-banner.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;This guide walks developers through setting up Agent Anomaly Detection on the Gemini Enterprise Agent Platform to monitor AI agent telemetry and catch behavioral risks. It demonstrates how to deploy a sample customer support agent, trigger out-of-scope security findings, and configure proactive alerts using Cloud Monitoring and Security Command Center.</description>
-      <guid isPermaLink="false">https://developers.googleblog.com/securing-your-agents-a-hands-on-guide-to-agent-anomaly-detection/</guid>
-      <category>AI</category>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Agents are sessions, not requests: size GKE node pools for AI agent sessions</title>
