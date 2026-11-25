@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Nov 2026 23:03:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 00:08:11 +0000</lastBuildDate>
     <item>
       <title>GPT-6 models demonstrate intrinsic protein-design capabilities</title>
       <link>https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities</link>
@@ -60,6 +60,15 @@
       <guid isPermaLink="false">https://developers.openai.com/blog/what-makes-a-great-chatgpt-app</guid>
       <category>Developer</category>
       <category>Apps SDK</category>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Production monitoring with Codex</title>
+      <link>https://developers.openai.com/blog/production-monitoring-with-codex</link>
+      <description>Investigate production failures with Codex using telemetry, deployment history, and code.</description>
+      <guid isPermaLink="false">https://developers.openai.com/blog/production-monitoring-with-codex</guid>
+      <category>Developer</category>
+      <category>Codex</category>
       <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
