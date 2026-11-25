@@ -13,7 +13,15 @@
       <link>https://www.anthropic.com/engineering</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 18:02:55 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 17:02:40 +0000</lastBuildDate>
+    <item>
+      <title>Migrating our Messages API to Rust</title>
+      <link>https://www.anthropic.com/research/migrating-api-to-rust</link>
+      <description>How we migrated our Messages API from Python to Rust.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/migrating-api-to-rust</guid>
+      <category>Engineering</category>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Building strong safety evaluations</title>
       <link>https://www.anthropic.com/research/building-strong-safety-evaluations</link>
