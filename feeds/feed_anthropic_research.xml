@@ -13,7 +13,15 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 21:34:41 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 16:34:07 +0000</lastBuildDate>
+    <item>
+      <title>Migrating our Messages API to Rust</title>
+      <link>https://www.anthropic.com/research/migrating-api-to-rust</link>
+      <description>How we migrated our Messages API from Python to Rust.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/migrating-api-to-rust</guid>
+      <category>Research</category>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Working with AI</title>
       <link>https://www.anthropic.com/research/working-with-ai</link>
