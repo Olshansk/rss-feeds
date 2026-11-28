@@ -188,16 +188,19 @@ cache/*.json
 .claude/skills/*
 !.claude/skills/cmd-rss-feed-generator
 !.claude/skills/rss-feed-review
+!.claude/skills/rss-feeds-maintainer
 .codex/*
 !.codex/skills/
 .codex/skills/*
 !.codex/skills/cmd-rss-feed-generator
 !.codex/skills/rss-feed-review
+!.codex/skills/rss-feeds-maintainer
 .codex-home/*
 !.codex-home/skills/
 .codex-home/skills/*
 !.codex-home/skills/cmd-rss-feed-generator
 !.codex-home/skills/rss-feed-review
+!.codex-home/skills/rss-feeds-maintainer
 
 # Agent skills evals (never commit)
 .agents/skills/*/evals/
