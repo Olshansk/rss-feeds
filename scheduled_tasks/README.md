@@ -4,12 +4,21 @@ Run the CI and PR audits from this repository. Reuse the existing Codex heartbea
 
 ## Table of contents <!-- omit in toc -->
 
+- [Maintenance heartbeat and skill](#maintenance-heartbeat-and-skill)
 - [Commands](#commands)
 - [Evidence and state](#evidence-and-state)
 - [CI operating instructions](#ci-operating-instructions)
 - [PR operating instructions](#pr-operating-instructions)
 - [Feed/source comparisons](#feedsource-comparisons)
 - [Repair history and exclusions](#repair-history-and-exclusions)
+
+## Maintenance heartbeat and skill
+
+The existing Codex maintenance job runs **every three hours**. See the [schedule
+reference](maintenance-schedule.md) for setup and the [maintainer
+skill](../.agents/skills/rss-feeds-maintainer/SKILL.md) for retry-first operation.
+This does not change the GitHub publishing schedules or certify a continuous
+ten-hour clean window.
 
 ## Commands
 
@@ -66,17 +75,12 @@ Run from the repository root.
 
 ## CI operating instructions
 
-The heartbeat must read this document and run `make scheduled_ci` at least once every 30 minutes while the clean-window goal is active.
-Do not start a second polling process.
+Use the maintenance heartbeat described above. Do not start a second polling process.
 
-1. Check the native goal and audit result. Paginate all repository runs, including PR workflows, and inspect changed attempts and pending work. The query includes 31 days before the original checkpoint because [GitHub permits reruns for 30 days](https://docs.github.com/en/actions/how-tos/manage-workflow-runs/re-run-workflows-and-jobs). A new attempt can therefore belong to an older run. Pre-repair historical failures are retained as metadata, not reclassified as new errors.
-2. Investigate every new failure from its stored exact-attempt logs. Treat tool/API errors as incomplete coverage, never success.
-3. Apply the simplest economical repair. Preserve unrelated work. The user authorized committing and pushing CI fixes and pausing problematic feeds, with explicit disclosure.
-4. Run meaningful offline checks and relevant live validation. Record each deployed repair with the CLI; any repair or newly observed CI failure invalidates the clean window.
-5. Start the candidate window only after post-repair offline checks and complete scheduled HTTP/Selenium refreshes pass. Keep checking every 30 minutes.
-6. Require ten consecutive error-free hours, successful scheduled refreshes in every elapsed hourly slot, exact coverage of enabled feeds, active workflows, and no pending runs/checks at the final audit.
-7. Review the source freshness and published XML evidence before final completion. The CLI's `eligible` result is a candidate for this review, not automatic goal completion.
-8. Only after that review, mark the native goal complete and pause the existing `rss-ci-clean-window-monitor` heartbeat.
+1. Inventory GitHub runs and inspect exact failed attempts and pending work. Keep tool/API failures as incomplete evidence.
+2. Follow the maintainer skill: one appropriate rerun first, wait for its result, and repair only a persistent verified repo defect.
+3. Use a tested repair PR instead of direct-pushing. Record the deployed repair with the CLI and verify the next relevant scheduled refresh and affected feed output.
+4. Preserve the local audit history, unresolved evidence, existing exclusions and publishing schedules. Periodic monitoring does not certify the former continuous clean-window goal.
 
 Do not disguise cached output, skipped feeds, missing schedules, or swallowed exceptions as successful refreshes.
 Every audit also queries all unfinished run statuses without a creation-date filter.
@@ -90,12 +94,14 @@ Do not spend money on extra infrastructure without evidence it is needed.
 `make scheduled_prs` lists all open PRs with pagination and current head SHAs, reviews, and checks.
 It stores each inventory in the same database.
 `make scheduled_events` stores new event IDs and payloads there too. GitHub limits this activity feed to 300 events / 90 days; missing the previous boundary is reported as a coverage gap. CI and PR inventories remain separate complete paginated audits.
-It does **not** merge PRs automatically: the dictated request did not establish the automatic merge scope, and clarification is pending.
+PR discovery stays report-only. The maintainer may independently merge its own
+targeted, tested repair PR for a verified defect after a failed rerun, following
+the linked skill. This permission does not apply to unrelated PRs.
 
 Before any authorized merge, inspect the full diff and discussion, resolve conflicts without overwriting unrelated work, run relevant checks, require nonempty green current-head checks and a review of that exact head, and recheck the SHA immediately before merging.
 A PR with no checks is unchecked, not green.
 Use a merge command with an expected-head SHA guard; do not enable blind auto-merge or bypass branch protections.
-Any merged feed/CI repair resets the clean-window timer and requires post-merge validation.
+Any merged feed/CI repair requires fresh scheduled-run and published-output validation.
 
 ## Feed/source comparisons
 

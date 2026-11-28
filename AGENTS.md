@@ -25,6 +25,8 @@ Instructions for Claude Code and contributors working on this repository.
 
 RSS Feed Generator creates RSS feeds for blogs that don't provide them natively. Feed generators scrape blog pages and output `feed_*.xml` files to the `feeds/` directory. A GitHub Action runs hourly to regenerate and commit updated feeds.
 
+For scheduled refresh failures, follow the [RSS feeds maintainer skill](.agents/skills/rss-feeds-maintainer/SKILL.md) and its [three-hour schedule](scheduled_tasks/maintenance-schedule.md). Rerun first; merge only a tested, narrowly scoped repair PR for a verified repo defect.
+
 ## Commands
 
 ```bash
